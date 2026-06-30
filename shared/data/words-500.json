@@ -1,0 +1,2630 @@
+{
+  "meta": {
+    "size": 500,
+    "targetSize": 500,
+    "languagePair": "en-fr",
+    "source": "fr-en frequency dictionary (ARRIVAL)"
+  },
+  "words": [
+    {
+      "id": 1,
+      "french": "des",
+      "english": "of",
+      "context": "of (plural)"
+    },
+    {
+      "id": 2,
+      "french": "les",
+      "english": "the"
+    },
+    {
+      "id": 3,
+      "french": "est",
+      "english": "is",
+      "context": "is / east"
+    },
+    {
+      "id": 4,
+      "french": "une",
+      "english": "an"
+    },
+    {
+      "id": 5,
+      "french": "dans",
+      "english": "in"
+    },
+    {
+      "id": 6,
+      "french": "catégorie",
+      "english": "category"
+    },
+    {
+      "id": 7,
+      "french": "par",
+      "english": "by"
+    },
+    {
+      "id": 8,
+      "french": "pour",
+      "english": "for"
+    },
+    {
+      "id": 9,
+      "french": "sur",
+      "english": "on"
+    },
+    {
+      "id": 10,
+      "french": "qui",
+      "english": "who"
+    },
+    {
+      "id": 11,
+      "french": "que",
+      "english": "that"
+    },
+    {
+      "id": 12,
+      "french": "avec",
+      "english": "with"
+    },
+    {
+      "id": 13,
+      "french": "son",
+      "english": "sound",
+      "context": "his / its / sound"
+    },
+    {
+      "id": 14,
+      "french": "pas",
+      "english": "not"
+    },
+    {
+      "id": 15,
+      "french": "sont",
+      "english": "are"
+    },
+    {
+      "id": 16,
+      "french": "elle",
+      "english": "she"
+    },
+    {
+      "id": 17,
+      "french": "aux",
+      "english": "to"
+    },
+    {
+      "id": 18,
+      "french": "été",
+      "english": "summer"
+    },
+    {
+      "id": 19,
+      "french": "avancement",
+      "english": "advancement"
+    },
+    {
+      "id": 20,
+      "french": "comme",
+      "english": "as"
+    },
+    {
+      "id": 21,
+      "french": "mais",
+      "english": "but"
+    },
+    {
+      "id": 22,
+      "french": "cette",
+      "english": "this"
+    },
+    {
+      "id": 23,
+      "french": "pop",
+      "english": "pops"
+    },
+    {
+      "id": 24,
+      "french": "deux",
+      "english": "two"
+    },
+    {
+      "id": 25,
+      "french": "ses",
+      "english": "his"
+    },
+    {
+      "id": 26,
+      "french": "aussi",
+      "english": "also"
+    },
+    {
+      "id": 27,
+      "french": "saint",
+      "english": "holy"
+    },
+    {
+      "id": 28,
+      "french": "après",
+      "english": "after"
+    },
+    {
+      "id": 29,
+      "french": "fait",
+      "english": "made",
+      "context": "made / fact"
+    },
+    {
+      "id": 30,
+      "french": "entre",
+      "english": "between"
+    },
+    {
+      "id": 31,
+      "french": "sous",
+      "english": "under"
+    },
+    {
+      "id": 32,
+      "french": "même",
+      "english": "even",
+      "context": "even / same"
+    },
+    {
+      "id": 33,
+      "french": "être",
+      "english": "being",
+      "context": "to be / being"
+    },
+    {
+      "id": 34,
+      "french": "nom",
+      "english": "surname",
+      "article": "le",
+      "context": "name / surname"
+    },
+    {
+      "id": 35,
+      "french": "ont",
+      "english": "have"
+    },
+    {
+      "id": 36,
+      "french": "lui",
+      "english": "him"
+    },
+    {
+      "id": 37,
+      "french": "lieu",
+      "english": "venue",
+      "context": "venue / place"
+    },
+    {
+      "id": 38,
+      "french": "cet",
+      "english": "this",
+      "context": "this (masc.)"
+    },
+    {
+      "id": 39,
+      "french": "autres",
+      "english": "other"
+    },
+    {
+      "id": 40,
+      "french": "décès",
+      "english": "death"
+    },
+    {
+      "id": 41,
+      "french": "références",
+      "english": "references"
+    },
+    {
+      "id": 42,
+      "french": "liens",
+      "english": "links"
+    },
+    {
+      "id": 43,
+      "french": "était",
+      "english": "was"
+    },
+    {
+      "id": 44,
+      "french": "ville",
+      "english": "town",
+      "article": "la"
+    },
+    {
+      "id": 45,
+      "french": "leur",
+      "english": "their",
+      "context": "their / to them"
+    },
+    {
+      "id": 46,
+      "french": "peut",
+      "english": "may",
+      "context": "can / may"
+    },
+    {
+      "id": 47,
+      "french": "depuis",
+      "english": "since"
+    },
+    {
+      "id": 48,
+      "french": "première",
+      "english": "premiere",
+      "context": "first / premiere"
+    },
+    {
+      "id": 49,
+      "french": "alors",
+      "english": "then"
+    },
+    {
+      "id": 50,
+      "french": "externes",
+      "english": "external"
+    },
+    {
+      "id": 51,
+      "french": "site",
+      "english": "website"
+    },
+    {
+      "id": 52,
+      "french": "ces",
+      "english": "these"
+    },
+    {
+      "id": 53,
+      "french": "fut",
+      "english": "was"
+    },
+    {
+      "id": 54,
+      "french": "ainsi",
+      "english": "thus"
+    },
+    {
+      "id": 55,
+      "french": "film",
+      "english": "movie",
+      "article": "le"
+    },
+    {
+      "id": 56,
+      "french": "voir",
+      "english": "see",
+      "context": "to see"
+    },
+    {
+      "id": 57,
+      "french": "pays",
+      "english": "country",
+      "article": "le"
+    },
+    {
+      "id": 58,
+      "french": "ils",
+      "english": "they"
+    },
+    {
+      "id": 59,
+      "french": "grand",
+      "english": "large",
+      "context": "large / great"
+    },
+    {
+      "id": 60,
+      "french": "tout",
+      "english": "everything",
+      "context": "all / everything"
+    },
+    {
+      "id": 61,
+      "french": "lors",
+      "english": "during"
+    },
+    {
+      "id": 62,
+      "french": "groupe",
+      "english": "band",
+      "article": "le"
+    },
+    {
+      "id": 63,
+      "french": "également",
+      "english": "also"
+    },
+    {
+      "id": 64,
+      "french": "titre",
+      "english": "title",
+      "article": "le"
+    },
+    {
+      "id": 65,
+      "french": "monde",
+      "english": "world",
+      "article": "le"
+    },
+    {
+      "id": 66,
+      "french": "nord",
+      "english": "north",
+      "article": "le"
+    },
+    {
+      "id": 67,
+      "french": "années",
+      "english": "years"
+    },
+    {
+      "id": 68,
+      "french": "bien",
+      "english": "good"
+    },
+    {
+      "id": 69,
+      "french": "contre",
+      "english": "against"
+    },
+    {
+      "id": 70,
+      "french": "liste",
+      "english": "list"
+    },
+    {
+      "id": 71,
+      "french": "puis",
+      "english": "then"
+    },
+    {
+      "id": 72,
+      "french": "équipe",
+      "english": "squad"
+    },
+    {
+      "id": 73,
+      "french": "partie",
+      "english": "party",
+      "article": "la",
+      "context": "part / game / party"
+    },
+    {
+      "id": 74,
+      "french": "avant",
+      "english": "front"
+    },
+    {
+      "id": 75,
+      "french": "non",
+      "english": "not"
+    },
+    {
+      "id": 76,
+      "french": "très",
+      "english": "very"
+    },
+    {
+      "id": 77,
+      "french": "trois",
+      "english": "three"
+    },
+    {
+      "id": 78,
+      "french": "guerre",
+      "english": "war",
+      "article": "la"
+    },
+    {
+      "id": 79,
+      "french": "sans",
+      "english": "without"
+    },
+    {
+      "id": 80,
+      "french": "saison",
+      "english": "season",
+      "article": "la"
+    },
+    {
+      "id": 81,
+      "french": "année",
+      "english": "year",
+      "article": "l'"
+    },
+    {
+      "id": 82,
+      "french": "temps",
+      "english": "weather",
+      "article": "le",
+      "context": "time / weather"
+    },
+    {
+      "id": 83,
+      "french": "plusieurs",
+      "english": "many"
+    },
+    {
+      "id": 84,
+      "french": "faire",
+      "english": "doing"
+    },
+    {
+      "id": 85,
+      "french": "mars",
+      "english": "march",
+      "context": "March / Mars"
+    },
+    {
+      "id": 86,
+      "french": "histoire",
+      "english": "history",
+      "article": "l'",
+      "context": "history / story"
+    },
+    {
+      "id": 87,
+      "french": "série",
+      "english": "series",
+      "article": "la"
+    },
+    {
+      "id": 88,
+      "french": "joueur",
+      "english": "player",
+      "article": "le"
+    },
+    {
+      "id": 89,
+      "french": "mai",
+      "english": "may",
+      "context": "May (month)"
+    },
+    {
+      "id": 90,
+      "french": "mort",
+      "english": "died",
+      "context": "dead / death / died"
+    },
+    {
+      "id": 91,
+      "french": "juin",
+      "english": "jun"
+    },
+    {
+      "id": 92,
+      "french": "française",
+      "english": "french"
+    },
+    {
+      "id": 93,
+      "french": "pierre",
+      "english": "stone"
+    },
+    {
+      "id": 94,
+      "french": "région",
+      "english": "region",
+      "article": "la"
+    },
+    {
+      "id": 95,
+      "french": "janvier",
+      "english": "january"
+    },
+    {
+      "id": 96,
+      "french": "avoir",
+      "english": "having"
+    },
+    {
+      "id": 97,
+      "french": "fois",
+      "english": "times"
+    },
+    {
+      "id": 98,
+      "french": "septembre",
+      "english": "september"
+    },
+    {
+      "id": 99,
+      "french": "juillet",
+      "english": "july"
+    },
+    {
+      "id": 100,
+      "french": "état",
+      "english": "status",
+      "article": "l'",
+      "context": "state / status"
+    },
+    {
+      "id": 101,
+      "french": "église",
+      "english": "church",
+      "article": "l'"
+    },
+    {
+      "id": 102,
+      "french": "octobre",
+      "english": "october"
+    },
+    {
+      "id": 103,
+      "french": "famille",
+      "english": "family",
+      "article": "la"
+    },
+    {
+      "id": 104,
+      "french": "états",
+      "english": "states"
+    },
+    {
+      "id": 105,
+      "french": "général",
+      "english": "general"
+    },
+    {
+      "id": 106,
+      "french": "avril",
+      "english": "apr"
+    },
+    {
+      "id": 107,
+      "french": "tous",
+      "english": "all"
+    },
+    {
+      "id": 108,
+      "french": "politique",
+      "english": "policy",
+      "article": "la",
+      "context": "politics / policy"
+    },
+    {
+      "id": 109,
+      "french": "décembre",
+      "english": "december"
+    },
+    {
+      "id": 110,
+      "french": "août",
+      "english": "august"
+    },
+    {
+      "id": 111,
+      "french": "novembre",
+      "english": "november"
+    },
+    {
+      "id": 112,
+      "french": "avait",
+      "english": "had"
+    },
+    {
+      "id": 113,
+      "french": "donc",
+      "english": "so"
+    },
+    {
+      "id": 114,
+      "french": "prix",
+      "english": "prices",
+      "article": "le",
+      "context": "price / prize"
+    },
+    {
+      "id": 115,
+      "french": "nouvelle",
+      "english": "new",
+      "article": "la",
+      "context": "new (f.) / news"
+    },
+    {
+      "id": 116,
+      "french": "février",
+      "english": "february"
+    },
+    {
+      "id": 117,
+      "french": "département",
+      "english": "department",
+      "article": "le"
+    },
+    {
+      "id": 118,
+      "french": "grande",
+      "english": "large"
+    },
+    {
+      "id": 119,
+      "french": "peu",
+      "english": "few"
+    },
+    {
+      "id": 120,
+      "french": "américain",
+      "english": "american"
+    },
+    {
+      "id": 121,
+      "french": "soit",
+      "english": "either"
+    },
+    {
+      "id": 122,
+      "french": "début",
+      "english": "start",
+      "article": "le"
+    },
+    {
+      "id": 123,
+      "french": "ligne",
+      "english": "line",
+      "article": "la"
+    },
+    {
+      "id": 124,
+      "french": "nationale",
+      "english": "national"
+    },
+    {
+      "id": 125,
+      "french": "championnat",
+      "english": "championship",
+      "article": "le"
+    },
+    {
+      "id": 126,
+      "french": "encore",
+      "english": "again"
+    },
+    {
+      "id": 127,
+      "french": "image",
+      "english": "picture",
+      "article": "l'"
+    },
+    {
+      "id": 128,
+      "french": "vie",
+      "english": "life",
+      "article": "la"
+    },
+    {
+      "id": 129,
+      "french": "unis",
+      "english": "united"
+    },
+    {
+      "id": 130,
+      "french": "lien",
+      "english": "link"
+    },
+    {
+      "id": 131,
+      "french": "football",
+      "english": "soccer"
+    },
+    {
+      "id": 132,
+      "french": "pendant",
+      "english": "during"
+    },
+    {
+      "id": 133,
+      "french": "jeux",
+      "english": "gaming"
+    },
+    {
+      "id": 134,
+      "french": "moins",
+      "english": "minus"
+    },
+    {
+      "id": 135,
+      "french": "ouest",
+      "english": "west"
+    },
+    {
+      "id": 136,
+      "french": "nouveau",
+      "english": "new"
+    },
+    {
+      "id": 137,
+      "french": "vous",
+      "english": "you"
+    },
+    {
+      "id": 138,
+      "french": "notamment",
+      "english": "notably"
+    },
+    {
+      "id": 139,
+      "french": "centre",
+      "english": "center",
+      "article": "le"
+    },
+    {
+      "id": 140,
+      "french": "cours",
+      "english": "course",
+      "article": "le",
+      "context": "course / class / rate"
+    },
+    {
+      "id": 141,
+      "french": "partir",
+      "english": "leave"
+    },
+    {
+      "id": 142,
+      "french": "université",
+      "english": "university",
+      "article": "l'"
+    },
+    {
+      "id": 143,
+      "french": "nombre",
+      "english": "number",
+      "article": "le"
+    },
+    {
+      "id": 144,
+      "french": "quelques",
+      "english": "some"
+    },
+    {
+      "id": 145,
+      "french": "leurs",
+      "english": "their"
+    },
+    {
+      "id": 146,
+      "french": "siècle",
+      "english": "century",
+      "article": "le"
+    },
+    {
+      "id": 147,
+      "french": "coupe",
+      "english": "haircut",
+      "article": "la",
+      "context": "cup / haircut"
+    },
+    {
+      "id": 148,
+      "french": "connexes",
+      "english": "related"
+    },
+    {
+      "id": 149,
+      "french": "homme",
+      "english": "male",
+      "article": "l'"
+    },
+    {
+      "id": 150,
+      "french": "président",
+      "english": "president",
+      "article": "le"
+    },
+    {
+      "id": 151,
+      "french": "société",
+      "english": "society",
+      "article": "la",
+      "context": "company / society"
+    },
+    {
+      "id": 152,
+      "french": "quatre",
+      "english": "four"
+    },
+    {
+      "id": 153,
+      "french": "cas",
+      "english": "case",
+      "article": "le"
+    },
+    {
+      "id": 154,
+      "french": "jeu",
+      "english": "gaming",
+      "article": "le"
+    },
+    {
+      "id": 155,
+      "french": "musique",
+      "english": "music",
+      "article": "la"
+    },
+    {
+      "id": 156,
+      "french": "fils",
+      "english": "wire",
+      "article": "le",
+      "context": "son / wire"
+    },
+    {
+      "id": 157,
+      "french": "roi",
+      "english": "king",
+      "article": "le"
+    },
+    {
+      "id": 158,
+      "french": "parti",
+      "english": "party",
+      "article": "le",
+      "context": "party (pol.) / left"
+    },
+    {
+      "id": 159,
+      "french": "jour",
+      "english": "day",
+      "article": "le"
+    },
+    {
+      "id": 160,
+      "french": "forme",
+      "english": "form",
+      "article": "la",
+      "context": "form / shape"
+    },
+    {
+      "id": 161,
+      "french": "époque",
+      "english": "epoch"
+    },
+    {
+      "id": 162,
+      "french": "devient",
+      "english": "becomes"
+    },
+    {
+      "id": 163,
+      "french": "ancien",
+      "english": "ancient"
+    },
+    {
+      "id": 164,
+      "french": "origine",
+      "english": "origin"
+    },
+    {
+      "id": 165,
+      "french": "ordre",
+      "english": "order"
+    },
+    {
+      "id": 166,
+      "french": "école",
+      "english": "schools",
+      "article": "l'"
+    },
+    {
+      "id": 167,
+      "french": "carrière",
+      "english": "career",
+      "article": "la"
+    },
+    {
+      "id": 168,
+      "french": "part",
+      "english": "share"
+    },
+    {
+      "id": 169,
+      "french": "deuxième",
+      "english": "second"
+    },
+    {
+      "id": 170,
+      "french": "située",
+      "english": "located"
+    },
+    {
+      "id": 171,
+      "french": "points",
+      "english": "dots"
+    },
+    {
+      "id": 172,
+      "french": "ayant",
+      "english": "having"
+    },
+    {
+      "id": 173,
+      "french": "rue",
+      "english": "street",
+      "article": "la"
+    },
+    {
+      "id": 174,
+      "french": "père",
+      "english": "dad",
+      "article": "le"
+    },
+    {
+      "id": 175,
+      "french": "exemple",
+      "english": "example",
+      "article": "l'"
+    },
+    {
+      "id": 176,
+      "french": "trouve",
+      "english": "finds"
+    },
+    {
+      "id": 177,
+      "french": "durant",
+      "english": "during"
+    },
+    {
+      "id": 178,
+      "french": "rapport",
+      "english": "report",
+      "article": "le",
+      "context": "report / ratio / link"
+    },
+    {
+      "id": 179,
+      "french": "canton",
+      "english": "guangzhou"
+    },
+    {
+      "id": 180,
+      "french": "dernier",
+      "english": "last"
+    },
+    {
+      "id": 181,
+      "french": "habitants",
+      "english": "inhabitants"
+    },
+    {
+      "id": 182,
+      "french": "compte",
+      "english": "count"
+    },
+    {
+      "id": 183,
+      "french": "période",
+      "english": "period",
+      "article": "la"
+    },
+    {
+      "id": 184,
+      "french": "armée",
+      "english": "military",
+      "article": "l'"
+    },
+    {
+      "id": 185,
+      "french": "eau",
+      "english": "water",
+      "article": "l'"
+    },
+    {
+      "id": 186,
+      "french": "chez",
+      "english": "at"
+    },
+    {
+      "id": 187,
+      "french": "discuter",
+      "english": "chatting"
+    },
+    {
+      "id": 188,
+      "french": "car",
+      "english": "because"
+    },
+    {
+      "id": 189,
+      "french": "projet",
+      "english": "project",
+      "article": "le"
+    },
+    {
+      "id": 190,
+      "french": "chaque",
+      "english": "every"
+    },
+    {
+      "id": 191,
+      "french": "anglais",
+      "english": "english"
+    },
+    {
+      "id": 192,
+      "french": "conseil",
+      "english": "consulting",
+      "article": "le",
+      "context": "advice / council"
+    },
+    {
+      "id": 193,
+      "french": "françois",
+      "english": "francis"
+    },
+    {
+      "id": 194,
+      "french": "maison",
+      "english": "house",
+      "article": "la"
+    },
+    {
+      "id": 195,
+      "french": "cela",
+      "english": "this"
+    },
+    {
+      "id": 196,
+      "french": "demande",
+      "english": "request"
+    },
+    {
+      "id": 197,
+      "french": "fonction",
+      "english": "function",
+      "article": "la",
+      "context": "function / role"
+    },
+    {
+      "id": 198,
+      "french": "toujours",
+      "english": "always"
+    },
+    {
+      "id": 199,
+      "french": "doit",
+      "english": "must"
+    },
+    {
+      "id": 200,
+      "french": "certains",
+      "english": "some"
+    },
+    {
+      "id": 201,
+      "french": "membre",
+      "english": "member"
+    },
+    {
+      "id": 202,
+      "french": "près",
+      "english": "near"
+    },
+    {
+      "id": 203,
+      "french": "rôle",
+      "english": "role"
+    },
+    {
+      "id": 204,
+      "french": "meilleur",
+      "english": "better"
+    },
+    {
+      "id": 205,
+      "french": "droit",
+      "english": "right",
+      "article": "le",
+      "context": "right / law / straight"
+    },
+    {
+      "id": 206,
+      "french": "mois",
+      "english": "months"
+    },
+    {
+      "id": 207,
+      "french": "île",
+      "english": "island"
+    },
+    {
+      "id": 208,
+      "french": "république",
+      "english": "republic"
+    },
+    {
+      "id": 209,
+      "french": "ensuite",
+      "english": "then"
+    },
+    {
+      "id": 210,
+      "french": "langue",
+      "english": "language",
+      "article": "la",
+      "context": "language / tongue"
+    },
+    {
+      "id": 211,
+      "french": "dit",
+      "english": "said"
+    },
+    {
+      "id": 212,
+      "french": "gouvernement",
+      "english": "government"
+    },
+    {
+      "id": 213,
+      "french": "petit",
+      "english": "small"
+    },
+    {
+      "id": 214,
+      "french": "toutes",
+      "english": "all"
+    },
+    {
+      "id": 215,
+      "french": "argent",
+      "english": "money",
+      "article": "l'",
+      "context": "money / silver"
+    },
+    {
+      "id": 216,
+      "french": "souvent",
+      "english": "frequently"
+    },
+    {
+      "id": 217,
+      "french": "olympiques",
+      "english": "olympic"
+    },
+    {
+      "id": 218,
+      "french": "quand",
+      "english": "when"
+    },
+    {
+      "id": 219,
+      "french": "ministre",
+      "english": "minister"
+    },
+    {
+      "id": 220,
+      "french": "mondiale",
+      "english": "worldwide"
+    },
+    {
+      "id": 221,
+      "french": "théâtre",
+      "english": "theater"
+    },
+    {
+      "id": 222,
+      "french": "épisode",
+      "english": "episode"
+    },
+    {
+      "id": 223,
+      "french": "scène",
+      "english": "scene"
+    },
+    {
+      "id": 224,
+      "french": "situé",
+      "english": "located"
+    },
+    {
+      "id": 225,
+      "french": "toute",
+      "english": "all"
+    },
+    {
+      "id": 226,
+      "french": "étaient",
+      "english": "were"
+    },
+    {
+      "id": 227,
+      "french": "musée",
+      "english": "museum"
+    },
+    {
+      "id": 228,
+      "french": "troisième",
+      "english": "third"
+    },
+    {
+      "id": 229,
+      "french": "nombreux",
+      "english": "many"
+    },
+    {
+      "id": 230,
+      "french": "auteur",
+      "english": "author"
+    },
+    {
+      "id": 231,
+      "french": "cependant",
+      "english": "however"
+    },
+    {
+      "id": 232,
+      "french": "nous",
+      "english": "we"
+    },
+    {
+      "id": 233,
+      "french": "système",
+      "english": "system"
+    },
+    {
+      "id": 234,
+      "french": "création",
+      "english": "creation"
+    },
+    {
+      "id": 235,
+      "french": "tard",
+      "english": "late"
+    },
+    {
+      "id": 236,
+      "french": "reste",
+      "english": "stay"
+    },
+    {
+      "id": 237,
+      "french": "seconde",
+      "english": "second"
+    },
+    {
+      "id": 238,
+      "french": "jours",
+      "english": "days"
+    },
+    {
+      "id": 239,
+      "french": "édition",
+      "english": "edit"
+    },
+    {
+      "id": 240,
+      "french": "éditions",
+      "english": "editions"
+    },
+    {
+      "id": 241,
+      "french": "historique",
+      "english": "historic"
+    },
+    {
+      "id": 242,
+      "french": "sera",
+      "english": "will"
+    },
+    {
+      "id": 243,
+      "french": "permet",
+      "english": "allows"
+    },
+    {
+      "id": 244,
+      "french": "âge",
+      "english": "age"
+    },
+    {
+      "id": 245,
+      "french": "officiel",
+      "english": "official"
+    },
+    {
+      "id": 246,
+      "french": "environ",
+      "english": "approximately"
+    },
+    {
+      "id": 247,
+      "french": "effet",
+      "english": "effect"
+    },
+    {
+      "id": 248,
+      "french": "membres",
+      "english": "member"
+    },
+    {
+      "id": 249,
+      "french": "niveau",
+      "english": "level"
+    },
+    {
+      "id": 250,
+      "french": "champion",
+      "english": "champ"
+    },
+    {
+      "id": 251,
+      "french": "espèce",
+      "english": "species"
+    },
+    {
+      "id": 252,
+      "french": "michel",
+      "english": "michael"
+    },
+    {
+      "id": 253,
+      "french": "raison",
+      "english": "reason"
+    },
+    {
+      "id": 254,
+      "french": "modèle",
+      "english": "model"
+    },
+    {
+      "id": 255,
+      "french": "travail",
+      "english": "work",
+      "article": "le"
+    },
+    {
+      "id": 256,
+      "french": "femme",
+      "english": "women",
+      "article": "la",
+      "context": "woman / wife"
+    },
+    {
+      "id": 257,
+      "french": "cinq",
+      "english": "five"
+    },
+    {
+      "id": 258,
+      "french": "déjà",
+      "english": "already"
+    },
+    {
+      "id": 259,
+      "french": "bas",
+      "english": "stockings"
+    },
+    {
+      "id": 260,
+      "french": "texte",
+      "english": "text"
+    },
+    {
+      "id": 261,
+      "french": "terre",
+      "english": "earth"
+    },
+    {
+      "id": 262,
+      "french": "compétition",
+      "english": "competitive"
+    },
+    {
+      "id": 263,
+      "french": "wikipédia",
+      "english": "wikipedia"
+    },
+    {
+      "id": 264,
+      "french": "allemand",
+      "english": "german"
+    },
+    {
+      "id": 265,
+      "french": "britannique",
+      "english": "uk"
+    },
+    {
+      "id": 266,
+      "french": "porte",
+      "english": "gate",
+      "article": "la",
+      "context": "door / gate"
+    },
+    {
+      "id": 267,
+      "french": "hommes",
+      "english": "men"
+    },
+    {
+      "id": 268,
+      "french": "italie",
+      "english": "italy"
+    },
+    {
+      "id": 269,
+      "french": "bataille",
+      "english": "battle"
+    },
+    {
+      "id": 270,
+      "french": "corps",
+      "english": "body",
+      "article": "le"
+    },
+    {
+      "id": 271,
+      "french": "demi",
+      "english": "half"
+    },
+    {
+      "id": 272,
+      "french": "siège",
+      "english": "siege",
+      "article": "le",
+      "context": "seat / headquarters / siege"
+    },
+    {
+      "id": 273,
+      "french": "personnes",
+      "english": "persons"
+    },
+    {
+      "id": 274,
+      "french": "nommé",
+      "english": "named"
+    },
+    {
+      "id": 275,
+      "french": "jeune",
+      "english": "young"
+    },
+    {
+      "id": 276,
+      "french": "match",
+      "english": "game",
+      "article": "le"
+    },
+    {
+      "id": 277,
+      "french": "peuvent",
+      "english": "can"
+    },
+    {
+      "id": 278,
+      "french": "royaume",
+      "english": "kingdom"
+    },
+    {
+      "id": 279,
+      "french": "ceux",
+      "english": "those"
+    },
+    {
+      "id": 280,
+      "french": "études",
+      "english": "studies"
+    },
+    {
+      "id": 281,
+      "french": "communauté",
+      "english": "community"
+    },
+    {
+      "id": 282,
+      "french": "militaire",
+      "english": "military"
+    },
+    {
+      "id": 283,
+      "french": "livre",
+      "english": "book",
+      "article": "le",
+      "context": "book / pound (£)"
+    },
+    {
+      "id": 284,
+      "french": "américaine",
+      "english": "american"
+    },
+    {
+      "id": 285,
+      "french": "haut",
+      "english": "high"
+    },
+    {
+      "id": 286,
+      "french": "suisse",
+      "english": "switzerland"
+    },
+    {
+      "id": 287,
+      "french": "suivant",
+      "english": "following"
+    },
+    {
+      "id": 288,
+      "french": "beaucoup",
+      "english": "many"
+    },
+    {
+      "id": 289,
+      "french": "dire",
+      "english": "say"
+    },
+    {
+      "id": 290,
+      "french": "seul",
+      "english": "alone"
+    },
+    {
+      "id": 291,
+      "french": "parmi",
+      "english": "among"
+    },
+    {
+      "id": 292,
+      "french": "fille",
+      "english": "girl"
+    },
+    {
+      "id": 293,
+      "french": "buts",
+      "english": "aims"
+    },
+    {
+      "id": 294,
+      "french": "enfants",
+      "english": "kids"
+    },
+    {
+      "id": 295,
+      "french": "pouvoir",
+      "english": "power"
+    },
+    {
+      "id": 296,
+      "french": "but",
+      "english": "goal"
+    },
+    {
+      "id": 297,
+      "french": "ailleurs",
+      "english": "elsewhere"
+    },
+    {
+      "id": 298,
+      "french": "merci",
+      "english": "thanks"
+    },
+    {
+      "id": 299,
+      "french": "tête",
+      "english": "head",
+      "article": "la"
+    },
+    {
+      "id": 300,
+      "french": "territoire",
+      "english": "territory"
+    },
+    {
+      "id": 301,
+      "french": "ancienne",
+      "english": "ancient"
+    },
+    {
+      "id": 302,
+      "french": "premiers",
+      "english": "first"
+    },
+    {
+      "id": 303,
+      "french": "prend",
+      "english": "take"
+    },
+    {
+      "id": 304,
+      "french": "présente",
+      "english": "presents"
+    },
+    {
+      "id": 305,
+      "french": "personnalité",
+      "english": "personality"
+    },
+    {
+      "id": 306,
+      "french": "ligue",
+      "english": "league"
+    },
+    {
+      "id": 307,
+      "french": "externe",
+      "english": "external"
+    },
+    {
+      "id": 308,
+      "french": "dernière",
+      "english": "last"
+    },
+    {
+      "id": 309,
+      "french": "henri",
+      "english": "henry"
+    },
+    {
+      "id": 310,
+      "french": "poste",
+      "english": "post"
+    },
+    {
+      "id": 311,
+      "french": "grâce",
+      "english": "grace"
+    },
+    {
+      "id": 312,
+      "french": "développement",
+      "english": "development"
+    },
+    {
+      "id": 313,
+      "french": "sortie",
+      "english": "output"
+    },
+    {
+      "id": 314,
+      "french": "loi",
+      "english": "law",
+      "article": "la"
+    },
+    {
+      "id": 315,
+      "french": "équipes",
+      "english": "teams"
+    },
+    {
+      "id": 316,
+      "french": "mer",
+      "english": "sea",
+      "article": "la"
+    },
+    {
+      "id": 317,
+      "french": "haute",
+      "english": "high"
+    },
+    {
+      "id": 318,
+      "french": "vue",
+      "english": "view"
+    },
+    {
+      "id": 319,
+      "french": "mère",
+      "english": "mom",
+      "article": "la"
+    },
+    {
+      "id": 320,
+      "french": "fichier",
+      "english": "file"
+    },
+    {
+      "id": 321,
+      "french": "nombreuses",
+      "english": "many"
+    },
+    {
+      "id": 322,
+      "french": "acteur",
+      "english": "actor"
+    },
+    {
+      "id": 323,
+      "french": "parcours",
+      "english": "route"
+    },
+    {
+      "id": 324,
+      "french": "recherche",
+      "english": "search"
+    },
+    {
+      "id": 325,
+      "french": "classement",
+      "english": "ranking"
+    },
+    {
+      "id": 326,
+      "french": "entraîneur",
+      "english": "trainer"
+    },
+    {
+      "id": 327,
+      "french": "arrondissement",
+      "english": "borough"
+    },
+    {
+      "id": 328,
+      "french": "directeur",
+      "english": "director"
+    },
+    {
+      "id": 329,
+      "french": "semble",
+      "english": "seems"
+    },
+    {
+      "id": 330,
+      "french": "ici",
+      "english": "here"
+    },
+    {
+      "id": 331,
+      "french": "vainqueur",
+      "english": "winner"
+    },
+    {
+      "id": 332,
+      "french": "réalisé",
+      "english": "directed"
+    },
+    {
+      "id": 333,
+      "french": "existe",
+      "english": "exist"
+    },
+    {
+      "id": 334,
+      "french": "créé",
+      "english": "created"
+    },
+    {
+      "id": 335,
+      "french": "devant",
+      "english": "front"
+    },
+    {
+      "id": 336,
+      "french": "écrit",
+      "english": "writes"
+    },
+    {
+      "id": 337,
+      "french": "petite",
+      "english": "small"
+    },
+    {
+      "id": 338,
+      "french": "bois",
+      "english": "wood"
+    },
+    {
+      "id": 339,
+      "french": "entreprise",
+      "english": "business"
+    },
+    {
+      "id": 340,
+      "french": "retour",
+      "english": "throwback"
+    },
+    {
+      "id": 341,
+      "french": "numéro",
+      "english": "number"
+    },
+    {
+      "id": 342,
+      "french": "principale",
+      "english": "main"
+    },
+    {
+      "id": 343,
+      "french": "comté",
+      "english": "county"
+    },
+    {
+      "id": 344,
+      "french": "gare",
+      "english": "station"
+    },
+    {
+      "id": 345,
+      "french": "terme",
+      "english": "term"
+    },
+    {
+      "id": 346,
+      "french": "connu",
+      "english": "known"
+    },
+    {
+      "id": 347,
+      "french": "formation",
+      "english": "training"
+    },
+    {
+      "id": 348,
+      "french": "technique",
+      "english": "technical"
+    },
+    {
+      "id": 349,
+      "french": "révolution",
+      "english": "revolution"
+    },
+    {
+      "id": 350,
+      "french": "objet",
+      "english": "object"
+    },
+    {
+      "id": 351,
+      "french": "mon",
+      "english": "my"
+    },
+    {
+      "id": 352,
+      "french": "lorsque",
+      "english": "when"
+    },
+    {
+      "id": 353,
+      "french": "cinéma",
+      "english": "movies"
+    },
+    {
+      "id": 354,
+      "french": "plan",
+      "english": "map"
+    },
+    {
+      "id": 355,
+      "french": "médaille",
+      "english": "medal"
+    },
+    {
+      "id": 356,
+      "french": "serait",
+      "english": "would"
+    },
+    {
+      "id": 357,
+      "french": "œuvres",
+      "english": "artworks"
+    },
+    {
+      "id": 358,
+      "french": "écrivain",
+      "english": "writer"
+    },
+    {
+      "id": 359,
+      "french": "compagnie",
+      "english": "company"
+    },
+    {
+      "id": 360,
+      "french": "italien",
+      "english": "italian"
+    },
+    {
+      "id": 361,
+      "french": "championnats",
+      "english": "championships"
+    },
+    {
+      "id": 362,
+      "french": "laquelle",
+      "english": "which"
+    },
+    {
+      "id": 363,
+      "french": "surtout",
+      "english": "especially"
+    },
+    {
+      "id": 364,
+      "french": "parfois",
+      "english": "sometimes"
+    },
+    {
+      "id": 365,
+      "french": "moyenne",
+      "english": "average"
+    },
+    {
+      "id": 366,
+      "french": "mouvement",
+      "english": "motion"
+    },
+    {
+      "id": 367,
+      "french": "succès",
+      "english": "successes"
+    },
+    {
+      "id": 368,
+      "french": "rivière",
+      "english": "river"
+    },
+    {
+      "id": 369,
+      "french": "jamais",
+      "english": "never"
+    },
+    {
+      "id": 370,
+      "french": "vidéo",
+      "english": "video"
+    },
+    {
+      "id": 371,
+      "french": "député",
+      "english": "congressman"
+    },
+    {
+      "id": 372,
+      "french": "moyen",
+      "english": "medium"
+    },
+    {
+      "id": 373,
+      "french": "notre",
+      "english": "our"
+    },
+    {
+      "id": 374,
+      "french": "bon",
+      "english": "good"
+    },
+    {
+      "id": 375,
+      "french": "peintre",
+      "english": "painter"
+    },
+    {
+      "id": 376,
+      "french": "voix",
+      "english": "votes",
+      "article": "la",
+      "context": "voice / vote"
+    },
+    {
+      "id": 377,
+      "french": "rouge",
+      "english": "red"
+    },
+    {
+      "id": 378,
+      "french": "seulement",
+      "english": "only"
+    },
+    {
+      "id": 379,
+      "french": "libre",
+      "english": "free"
+    },
+    {
+      "id": 380,
+      "french": "sein",
+      "english": "breast"
+    },
+    {
+      "id": 381,
+      "french": "milieu",
+      "english": "middle"
+    },
+    {
+      "id": 382,
+      "french": "belgique",
+      "english": "belgium"
+    },
+    {
+      "id": 383,
+      "french": "grands",
+      "english": "large"
+    },
+    {
+      "id": 384,
+      "french": "georges",
+      "english": "george"
+    },
+    {
+      "id": 385,
+      "french": "blanc",
+      "english": "white"
+    },
+    {
+      "id": 386,
+      "french": "gauche",
+      "english": "left"
+    },
+    {
+      "id": 387,
+      "french": "travaux",
+      "english": "work"
+    },
+    {
+      "id": 388,
+      "french": "passe",
+      "english": "passes"
+    },
+    {
+      "id": 389,
+      "french": "produit",
+      "english": "product"
+    },
+    {
+      "id": 390,
+      "french": "diffusion",
+      "english": "broadcast"
+    },
+    {
+      "id": 391,
+      "french": "aide",
+      "english": "aid"
+    },
+    {
+      "id": 392,
+      "french": "andré",
+      "english": "andre"
+    },
+    {
+      "id": 393,
+      "french": "réseau",
+      "english": "networking"
+    },
+    {
+      "id": 394,
+      "french": "utilisé",
+      "english": "used"
+    },
+    {
+      "id": 395,
+      "french": "victoire",
+      "english": "win"
+    },
+    {
+      "id": 396,
+      "french": "femmes",
+      "english": "females"
+    },
+    {
+      "id": 397,
+      "french": "aurait",
+      "english": "would"
+    },
+    {
+      "id": 398,
+      "french": "autour",
+      "english": "around"
+    },
+    {
+      "id": 399,
+      "french": "certaines",
+      "english": "certain"
+    },
+    {
+      "id": 400,
+      "french": "durée",
+      "english": "duration"
+    },
+    {
+      "id": 401,
+      "french": "espèces",
+      "english": "species"
+    },
+    {
+      "id": 402,
+      "french": "angleterre",
+      "english": "england"
+    },
+    {
+      "id": 403,
+      "french": "afrique",
+      "english": "africa"
+    },
+    {
+      "id": 404,
+      "french": "personne",
+      "english": "person"
+    },
+    {
+      "id": 405,
+      "french": "mis",
+      "english": "put"
+    },
+    {
+      "id": 406,
+      "french": "municipalité",
+      "english": "municipality"
+    },
+    {
+      "id": 407,
+      "french": "suis",
+      "english": "am"
+    },
+    {
+      "id": 408,
+      "french": "frère",
+      "english": "sibling",
+      "article": "le"
+    },
+    {
+      "id": 409,
+      "french": "rencontre",
+      "english": "meeting"
+    },
+    {
+      "id": 410,
+      "french": "trop",
+      "english": "too"
+    },
+    {
+      "id": 411,
+      "french": "matchs",
+      "english": "matches"
+    },
+    {
+      "id": 412,
+      "french": "japon",
+      "english": "japan"
+    },
+    {
+      "id": 413,
+      "french": "publié",
+      "english": "published"
+    },
+    {
+      "id": 414,
+      "french": "domaine",
+      "english": "field"
+    },
+    {
+      "id": 415,
+      "french": "eux",
+      "english": "them"
+    },
+    {
+      "id": 416,
+      "french": "professeur",
+      "english": "professor"
+    },
+    {
+      "id": 417,
+      "french": "particulier",
+      "english": "particular"
+    },
+    {
+      "id": 418,
+      "french": "quartier",
+      "english": "neighborhood"
+    },
+    {
+      "id": 419,
+      "french": "scientifique",
+      "english": "science"
+    },
+    {
+      "id": 420,
+      "french": "honneur",
+      "english": "honour"
+    },
+    {
+      "id": 421,
+      "french": "seule",
+      "english": "alone"
+    },
+    {
+      "id": 422,
+      "french": "rien",
+      "english": "nothing"
+    },
+    {
+      "id": 423,
+      "french": "nouvelles",
+      "english": "news"
+    },
+    {
+      "id": 424,
+      "french": "comte",
+      "english": "count"
+    },
+    {
+      "id": 425,
+      "french": "suivante",
+      "english": "next"
+    },
+    {
+      "id": 426,
+      "french": "fort",
+      "english": "strong"
+    },
+    {
+      "id": 427,
+      "french": "journal",
+      "english": "newspaper"
+    },
+    {
+      "id": 428,
+      "french": "moi",
+      "english": "me"
+    },
+    {
+      "id": 429,
+      "french": "différents",
+      "english": "different"
+    },
+    {
+      "id": 430,
+      "french": "taille",
+      "english": "waist"
+    },
+    {
+      "id": 431,
+      "french": "principal",
+      "english": "main"
+    },
+    {
+      "id": 432,
+      "french": "sujet",
+      "english": "topic"
+    },
+    {
+      "id": 433,
+      "french": "référence",
+      "english": "reference"
+    },
+    {
+      "id": 434,
+      "french": "croix",
+      "english": "crosses"
+    },
+    {
+      "id": 435,
+      "french": "élections",
+      "english": "elections"
+    },
+    {
+      "id": 436,
+      "french": "mettre",
+      "english": "put"
+    },
+    {
+      "id": 437,
+      "french": "titres",
+      "english": "securities"
+    },
+    {
+      "id": 438,
+      "french": "enfin",
+      "english": "finally"
+    },
+    {
+      "id": 439,
+      "french": "millions",
+      "english": "million"
+    },
+    {
+      "id": 440,
+      "french": "noir",
+      "english": "dark"
+    },
+    {
+      "id": 441,
+      "french": "joue",
+      "english": "cheek"
+    },
+    {
+      "id": 442,
+      "french": "londres",
+      "english": "london"
+    },
+    {
+      "id": 443,
+      "french": "agglomération",
+      "english": "sintering"
+    },
+    {
+      "id": 444,
+      "french": "russe",
+      "english": "russian"
+    },
+    {
+      "id": 445,
+      "french": "manière",
+      "english": "way"
+    },
+    {
+      "id": 446,
+      "french": "malgré",
+      "english": "spite"
+    },
+    {
+      "id": 447,
+      "french": "activités",
+      "english": "activities"
+    },
+    {
+      "id": 448,
+      "french": "réalisateur",
+      "english": "director"
+    },
+    {
+      "id": 449,
+      "french": "sciences",
+      "english": "science"
+    },
+    {
+      "id": 450,
+      "french": "classe",
+      "english": "classroom"
+    },
+    {
+      "id": 451,
+      "french": "aucun",
+      "english": "none"
+    },
+    {
+      "id": 452,
+      "french": "droite",
+      "english": "right"
+    },
+    {
+      "id": 453,
+      "french": "lieux",
+      "english": "venues"
+    },
+    {
+      "id": 454,
+      "french": "née",
+      "english": "born"
+    },
+    {
+      "id": 455,
+      "french": "actuel",
+      "english": "current"
+    },
+    {
+      "id": 456,
+      "french": "espace",
+      "english": "space"
+    },
+    {
+      "id": 457,
+      "french": "villes",
+      "english": "city"
+    },
+    {
+      "id": 458,
+      "french": "activité",
+      "english": "activity"
+    },
+    {
+      "id": 459,
+      "french": "commence",
+      "english": "begins"
+    },
+    {
+      "id": 460,
+      "french": "organisation",
+      "english": "organization"
+    },
+    {
+      "id": 461,
+      "french": "sélection",
+      "english": "selection"
+    },
+    {
+      "id": 462,
+      "french": "assez",
+      "english": "enough"
+    },
+    {
+      "id": 463,
+      "french": "participe",
+      "english": "participates"
+    },
+    {
+      "id": 464,
+      "french": "institut",
+      "english": "institute"
+    },
+    {
+      "id": 465,
+      "french": "internationale",
+      "english": "international"
+    },
+    {
+      "id": 466,
+      "french": "cadre",
+      "english": "framework"
+    },
+    {
+      "id": 467,
+      "french": "sept",
+      "english": "seven"
+    },
+    {
+      "id": 468,
+      "french": "différentes",
+      "english": "different"
+    },
+    {
+      "id": 469,
+      "french": "lac",
+      "english": "lake"
+    },
+    {
+      "id": 470,
+      "french": "affaires",
+      "english": "business"
+    },
+    {
+      "id": 471,
+      "french": "télévision",
+      "english": "tv"
+    },
+    {
+      "id": 472,
+      "french": "duc",
+      "english": "duke"
+    },
+    {
+      "id": 473,
+      "french": "personnage",
+      "english": "character"
+    },
+    {
+      "id": 474,
+      "french": "précédent",
+      "english": "precedent"
+    },
+    {
+      "id": 475,
+      "french": "évêque",
+      "english": "bishop"
+    },
+    {
+      "id": 476,
+      "french": "cour",
+      "english": "courtyard"
+    },
+    {
+      "id": 477,
+      "french": "adresse",
+      "english": "address"
+    },
+    {
+      "id": 478,
+      "french": "résultats",
+      "english": "results"
+    },
+    {
+      "id": 479,
+      "french": "hors",
+      "english": "off"
+    },
+    {
+      "id": 480,
+      "french": "problème",
+      "english": "problem",
+      "article": "le"
+    },
+    {
+      "id": 481,
+      "french": "finalement",
+      "english": "eventually"
+    },
+    {
+      "id": 482,
+      "french": "bonne",
+      "english": "good"
+    },
+    {
+      "id": 483,
+      "french": "grandes",
+      "english": "large"
+    },
+    {
+      "id": 484,
+      "french": "vol",
+      "english": "flight"
+    },
+    {
+      "id": 485,
+      "french": "premières",
+      "english": "raw"
+    },
+    {
+      "id": 486,
+      "french": "donné",
+      "english": "given"
+    },
+    {
+      "id": 487,
+      "french": "dame",
+      "english": "lady"
+    },
+    {
+      "id": 488,
+      "french": "épouse",
+      "english": "bride"
+    },
+    {
+      "id": 489,
+      "french": "historiques",
+      "english": "historic"
+    },
+    {
+      "id": 490,
+      "french": "mesure",
+      "english": "measuring"
+    },
+    {
+      "id": 491,
+      "french": "prendre",
+      "english": "taking"
+    },
+    {
+      "id": 492,
+      "french": "données",
+      "english": "data"
+    },
+    {
+      "id": 493,
+      "french": "lequel",
+      "english": "which"
+    },
+    {
+      "id": 494,
+      "french": "force",
+      "english": "strength",
+      "article": "la"
+    },
+    {
+      "id": 495,
+      "french": "pologne",
+      "english": "poland"
+    },
+    {
+      "id": 496,
+      "french": "couleur",
+      "english": "color",
+      "article": "la"
+    },
+    {
+      "id": 497,
+      "french": "actrice",
+      "english": "actress"
+    },
+    {
+      "id": 498,
+      "french": "élu",
+      "english": "elected"
+    },
+    {
+      "id": 499,
+      "french": "régiment",
+      "english": "regiment"
+    },
+    {
+      "id": 500,
+      "french": "bande",
+      "english": "band"
+    }
+  ]
+}

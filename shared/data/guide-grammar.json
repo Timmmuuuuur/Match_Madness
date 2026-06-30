@@ -1,0 +1,2307 @@
+{
+  "meta": {
+    "title": "Grammar",
+    "subtitle": "Gender, articles, verbs, tenses, negation, questions, pronouns, and register — with English and Russian comparison notes where they help.",
+    "accent": "amber"
+  },
+  "sections": [
+    {
+      "id": "nouns-grammatical-gender",
+      "number": 2,
+      "title": "Nouns & Grammatical Gender",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "All French nouns are either <strong>masculine</strong> or <strong>feminine</strong>. There is no neuter."
+        },
+        {
+          "type": "callout",
+          "variant": "compare-en",
+          "text": "🇷🇺 <strong>Good news:</strong> You already handle grammatical gender in Russian — and Russian has <em>three</em> genders. French is actually simpler: just two. 🇬🇧 English has no grammatical gender, so this is a new concept for English-only speakers."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Patterns to Guess Gender"
+        },
+        {
+          "type": "paragraph",
+          "text": "These are tendencies, not ironclad rules:"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Usually Masculine:</strong>"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Nouns ending in: -age, -ment, -eur (agent nouns), -eau, -isme, -ier",
+            "Days, months, seasons, languages, most trees",
+            "<em>le fromage, le gouvernement, le chapeau, le boulanger</em>"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Usually Feminine:</strong>"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Nouns ending in: -tion, -sion, -ure, -ette, -elle, -ance, -ence, -té, -ière",
+            "Most fruits, academic subjects (except math? No, <em>les mathématiques</em> is feminine)",
+            "<em>la nation, la voiture, la liberté, la boulangère</em>"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Tricky ones to memorize:</strong>"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<em>le problème</em> (m) — ends in -e but masculine",
+            "<em>la mer</em> (f) — sea",
+            "<em>le silence</em> (m)",
+            "<em>la page</em> (f)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "<strong>Strategy:</strong> Learn every noun with its article — <em>un/le livre</em> not just <em>livre</em>. This is standard practice."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Plural Formation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Add <strong>-s</strong> (usually silent) to most nouns:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<em>un chat → des chats</em>"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Special cases:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "-eau → -eaux: <em>le chapeau → les chapeaux</em>",
+            "-al → -aux: <em>le cheval → les chevaux</em> (horse)",
+            "-s, -x, -z: unchanged in plural"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "articles-the-big-new-concept",
+      "number": 3,
+      "title": "Articles — The Big New Concept",
+      "blocks": [
+        {
+          "type": "callout",
+          "variant": "compare-en",
+          "text": "🇷🇺 <strong>Russian has no articles at all.</strong> This is the single biggest structural difference. You will need to develop an intuition for <em>when</em> to use which article — this takes time. 🇬🇧 English has <em>a/an</em> (indefinite) and <em>the</em> (definite). French has those <strong>plus</strong> partitives."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Definite Articles (the)"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "Masculine",
+            "Feminine",
+            "Before vowel/mute h",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "",
+              "<strong>le</strong>",
+              "<strong>la</strong>",
+              "<strong>l'</strong>",
+              "<strong>les</strong>"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>le livre, la table, l'ami, l'heure, les enfants</em>"
+        },
+        {
+          "type": "paragraph",
+          "text": "Use definite articles:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "For specific known things: <em>Le chat de Marie</em> (Marie's cat)",
+            "For general statements/categories: <em>J'aime le café</em> (I like coffee — in general)",
+            "With continents, countries, regions: <em>la France, le Japon</em>",
+            "With body parts (where English uses possessives): <em>Je me lave les mains</em> (I wash my hands)"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Indefinite Articles (a/an, some)"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "Masculine",
+            "Feminine",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "",
+              "<strong>un</strong>",
+              "<strong>une</strong>",
+              "<strong>des</strong>"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>un livre, une table, des enfants</em>"
+        },
+        {
+          "type": "paragraph",
+          "text": "Use for non-specific items: <em>J'ai un chat</em> (I have a cat — any cat)."
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "text": "After negation, <strong>un/une/des → de (d')</strong>: <em>Je n'ai pas de chat.</em>"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Partitive Articles (some — uncountable)"
+        },
+        {
+          "type": "paragraph",
+          "text": "These express an indefinite quantity of something uncountable:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "Masculine",
+            "Feminine",
+            "Before vowel"
+          ],
+          "rows": [
+            [
+              "",
+              "<strong>du</strong> (= de + le)",
+              "<strong>de la</strong>",
+              "<strong>de l'</strong>"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>Je mange du pain.</em> (I eat [some] bread.) <em>Elle boit de la bière.</em> (She drinks [some] beer.) <em>Il boit de l'eau.</em> (He drinks [some] water.)"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "text": "After negation: <em>Je ne mange pas de pain.</em>"
+        },
+        {
+          "type": "callout",
+          "variant": "compare-ru",
+          "text": "🇷🇺 The partitive concept maps roughly onto the Russian genitive of quantity (<em>выпить воды, съесть хлеба</em>) — but in French it's obligatory with an article, not just a case ending."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Article Omission"
+        },
+        {
+          "type": "paragraph",
+          "text": "Articles are <strong>dropped</strong>:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "After <em>être</em> with professions (informal): <em>Il est médecin.</em> (He is a doctor.)",
+            "In lists: <em>J'aime musique, sport, cuisine.</em>",
+            "After <em>en</em> with feminine countries: <em>en France, en Italie</em> (but: <em>au Japon</em>)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adjectives-agreement-position",
+      "number": 4,
+      "title": "Adjectives — Agreement & Position",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Agreement"
+        },
+        {
+          "type": "paragraph",
+          "text": "French adjectives agree with the noun in <strong>gender and number</strong>."
+        },
+        {
+          "type": "callout",
+          "variant": "compare-ru",
+          "text": "🇷🇺 Same principle as Russian adjectives. The mechanism is simpler in French (just -e for feminine, -s for plural, -es for feminine plural)."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "Masculine sg",
+            "Feminine sg",
+            "Masc pl",
+            "Fem pl"
+          ],
+          "rows": [
+            [
+              "<em>grand</em> (tall)",
+              "grand",
+              "grande",
+              "grands",
+              "grandes"
+            ],
+            [
+              "<em>petit</em> (small)",
+              "petit",
+              "petite",
+              "petits",
+              "petites"
+            ],
+            [
+              "<em>heureux</em> (happy)",
+              "heureux",
+              "heureuse",
+              "heureux",
+              "heureuses"
+            ],
+            [
+              "<em>beau</em> (beautiful)",
+              "beau",
+              "belle",
+              "beaux",
+              "belles"
+            ],
+            [
+              "<em>nouveau</em>",
+              "nouveau",
+              "nouvelle",
+              "nouveaux",
+              "nouvelles"
+            ],
+            [
+              "<em>vieux</em>",
+              "vieux",
+              "vieille",
+              "vieux",
+              "vieilles"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Note: <em>beau/bel, nouveau/nouvel, vieux/vieil</em> before masculine nouns starting with a vowel: <em>un bel homme, un nouvel ami</em>."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Position — BANGS Rule"
+        },
+        {
+          "type": "paragraph",
+          "text": "Most French adjectives come <strong>after</strong> the noun. Only a small set of common adjectives come <strong>before</strong>:"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "text": "<strong>BANGS</strong> — Beauty, Age, Number, Goodness/Badness, Size"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Before noun",
+            "After noun"
+          ],
+          "rows": [
+            [
+              "<em>beau/belle</em>",
+              "<em>rouge, bleu...</em> (colors)"
+            ],
+            [
+              "<em>vieux/vieille, jeune</em>",
+              "<em>français, américain...</em> (nationality)"
+            ],
+            [
+              "<em>premier, dernier, autre</em>",
+              "<em>médical, industriel...</em> (derived adjectives)"
+            ],
+            [
+              "<em>bon/mauvais</em>",
+              "<em>intéressant, difficile...</em>"
+            ],
+            [
+              "<em>grand/petit, gros</em>",
+              "<em>rond, carré...</em> (shape)"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Examples:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<em>un grand homme</em> — a great man (figuratively)",
+            "<em>un homme grand</em> — a tall man (physically)",
+            "<em>une vieille voiture rouge</em> — an old red car (vieille before, rouge after)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "compare-ru",
+          "text": "🇷🇺 In Russian adjectives typically precede the noun. French adjective-after-noun is a key habit to build."
+        }
+      ]
+    },
+    {
+      "id": "personal-pronouns",
+      "number": 5,
+      "title": "Personal Pronouns",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Subject Pronouns"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Person",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "1st",
+              "<strong>je</strong> (j' before vowel)",
+              "<strong>nous</strong>"
+            ],
+            [
+              "2nd",
+              "<strong>tu</strong> (informal)",
+              "<strong>vous</strong> (formal or plural)"
+            ],
+            [
+              "3rd m",
+              "<strong>il</strong>",
+              "<strong>ils</strong>"
+            ],
+            [
+              "3rd f",
+              "<strong>elle</strong>",
+              "<strong>elles</strong>"
+            ],
+            [
+              "3rd neutral",
+              "<strong>on</strong> (one/we, informal)",
+              "—"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "compare-ru",
+          "text": "🇷🇺 French has no pronoun-dropping (<em>pro-drop</em>). You <strong>must</strong> always state the subject — unlike Russian where <em>говорю</em> alone is fine without <em>я</em>."
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "text": "<strong>On</strong> is extremely common in spoken French as informal \"we\": <em>On va au cinéma</em> = <em>Nous allons au cinéma</em> (We're going to the cinema)."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Stress/Tonic Pronouns"
+        },
+        {
+          "type": "paragraph",
+          "text": "Used after prepositions, for emphasis, after <em>c'est</em>:"
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>moi, toi, lui, elle, nous, vous, eux, elles</em>"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<em>C'est moi.</em> — It's me.",
+            "<em>Il parle avec elle.</em> — He talks with her.",
+            "<em>Moi, je préfère le café.</em> — Me, I prefer coffee. (emphasis)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs-groups-conjugation",
+      "number": 6,
+      "title": "Verbs — Groups & Conjugation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "French verbs are grouped by their infinitive ending:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Group",
+            "Ending",
+            "Example",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "1st",
+              "-er",
+              "<em>parler</em>",
+              "~90% of verbs; most new/borrowed verbs"
+            ],
+            [
+              "2nd",
+              "-ir",
+              "<em>finir</em>",
+              "Regular -ir verbs"
+            ],
+            [
+              "3rd",
+              "-ir, -re, -oir",
+              "<em>partir, vendre, voir</em>",
+              "Irregular; must learn individually"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "1st Group: -ER Verbs (parler — to speak)"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Present tense:</strong>"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "1st",
+              "je parl<strong>e</strong>",
+              "nous parl<strong>ons</strong>"
+            ],
+            [
+              "2nd",
+              "tu parl<strong>es</strong>",
+              "vous parl<strong>ez</strong>"
+            ],
+            [
+              "3rd",
+              "il/elle parl<strong>e</strong>",
+              "ils/elles parl<strong>ent</strong>"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The <strong>-e, -es, -e, -ent</strong> endings are silent. Only <strong>-ons</strong> and <strong>-ez</strong> are audibly distinct."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "2nd Group: -IR Verbs (finir — to finish)"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "1st",
+              "je fin<strong>is</strong>",
+              "nous fin<strong>issons</strong>"
+            ],
+            [
+              "2nd",
+              "tu fin<strong>is</strong>",
+              "vous fin<strong>issez</strong>"
+            ],
+            [
+              "3rd",
+              "il fin<strong>it</strong>",
+              "ils fin<strong>issent</strong>"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "3rd Group: -RE Verbs (vendre — to sell)"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "1st",
+              "je vend<strong>s</strong>",
+              "nous vend<strong>ons</strong>"
+            ],
+            [
+              "2nd",
+              "tu vend<strong>s</strong>",
+              "vous vend<strong>ez</strong>"
+            ],
+            [
+              "3rd",
+              "il vend",
+              "ils vend<strong>ent</strong>"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "essential-irregular-verbs",
+      "number": 7,
+      "title": "Essential Irregular Verbs",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "These must be memorized. They are the most-used verbs in the language."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Être (to be)"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "1st",
+              "<strong>suis</strong>",
+              "<strong>sommes</strong>"
+            ],
+            [
+              "2nd",
+              "<strong>es</strong>",
+              "<strong>êtes</strong>"
+            ],
+            [
+              "3rd",
+              "<strong>est</strong>",
+              "<strong>sont</strong>"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Avoir (to have)"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "1st",
+              "<strong>ai</strong>",
+              "<strong>avons</strong>"
+            ],
+            [
+              "2nd",
+              "<strong>as</strong>",
+              "<strong>avez</strong>"
+            ],
+            [
+              "3rd",
+              "<strong>a</strong>",
+              "<strong>ont</strong>"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Aller (to go)"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "1st",
+              "<strong>vais</strong>",
+              "<strong>allons</strong>"
+            ],
+            [
+              "2nd",
+              "<strong>vas</strong>",
+              "<strong>allez</strong>"
+            ],
+            [
+              "3rd",
+              "<strong>va</strong>",
+              "<strong>vont</strong>"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Faire (to do/make)"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "1st",
+              "<strong>fais</strong>",
+              "<strong>faisons</strong>"
+            ],
+            [
+              "2nd",
+              "<strong>fais</strong>",
+              "<strong>faites</strong>"
+            ],
+            [
+              "3rd",
+              "<strong>fait</strong>",
+              "<strong>font</strong>"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Other High-Priority Irregulars"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Verb",
+            "Meaning",
+            "Key form"
+          ],
+          "rows": [
+            [
+              "<em>pouvoir</em>",
+              "can/be able",
+              "je peux, tu peux, il peut, ils peuvent"
+            ],
+            [
+              "<em>vouloir</em>",
+              "to want",
+              "je veux, tu veux, il veut, ils veulent"
+            ],
+            [
+              "<em>devoir</em>",
+              "must/have to",
+              "je dois, tu dois, il doit, ils doivent"
+            ],
+            [
+              "<em>savoir</em>",
+              "to know (fact)",
+              "je sais, tu sais, il sait, ils savent"
+            ],
+            [
+              "<em>connaître</em>",
+              "to know (person/place)",
+              "je connais, il connaît"
+            ],
+            [
+              "<em>prendre</em>",
+              "to take",
+              "je prends, il prend, ils <strong>prennent</strong>"
+            ],
+            [
+              "<em>venir</em>",
+              "to come",
+              "je viens, il vient, ils <strong>viennent</strong>"
+            ],
+            [
+              "<em>voir</em>",
+              "to see",
+              "je vois, il voit, ils voient"
+            ],
+            [
+              "<em>dire</em>",
+              "to say",
+              "je dis, vous <strong>dites</strong>"
+            ],
+            [
+              "<em>mettre</em>",
+              "to put",
+              "je mets, il met, ils mettent"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-key-tenses",
+      "number": 8,
+      "title": "The Key Tenses",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Présent — Present"
+        },
+        {
+          "type": "paragraph",
+          "text": "Already covered above. Used for:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Current actions: <em>Je mange.</em> (I am eating / I eat)",
+            "Habitual actions: <em>Je lis chaque matin.</em> (I read every morning)",
+            "Near future (common): <em>On part demain.</em> (We're leaving tomorrow)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "compare-en",
+          "text": "🇬🇧 One French present = both \"I eat\" and \"I am eating\". No separate progressive."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Futur Proche — Near Future (going to)"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Aller (present) + infinitive</strong> — extremely common in speech:"
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>Je vais manger.</em> — I'm going to eat. <em>Il va pleuvoir.</em> — It's going to rain. <em>Nous allons partir.</em> — We're going to leave."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Futur Simple — Simple Future (will)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Formed by adding future endings to the infinitive (-er/-ir verbs) or a special stem (-re verbs drop the -e):"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "Endings"
+          ],
+          "rows": [
+            [
+              "je",
+              "-<strong>ai</strong>"
+            ],
+            [
+              "tu",
+              "-<strong>as</strong>"
+            ],
+            [
+              "il/elle",
+              "-<strong>a</strong>"
+            ],
+            [
+              "nous",
+              "-<strong>ons</strong>"
+            ],
+            [
+              "vous",
+              "-<strong>ez</strong>"
+            ],
+            [
+              "ils/elles",
+              "-<strong>ont</strong>"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>parler → je parlerai, tu parleras, il parlera...</em> <em>finir → je finirai...</em> <em>vendre → je vendrai...</em>"
+        },
+        {
+          "type": "paragraph",
+          "text": "Irregular stems: <em>être → ser-, avoir → aur-, aller → ir-, faire → fer-, venir → viendr-, voir → verr-, pouvoir → pourr-</em>"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Conditionnel — Conditional (would)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Same stem as futur simple + imperfect endings (-ais, -ais, -ait, -ions, -iez, -aient):"
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>je parlerais</em> — I would speak <em>il ferait</em> — he would do"
+        },
+        {
+          "type": "paragraph",
+          "text": "Used for: polite requests (<em>Je voudrais...</em>), hypothetical situations (<em>Si j'avais...je ferais...</em>)."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Impératif — Imperative (commands)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Use the <strong>tu, nous, vous</strong> forms of present tense, dropping the subject pronoun. For -er verbs, drop the -s in tu form:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "tu",
+            "nous",
+            "vous"
+          ],
+          "rows": [
+            [
+              "<em>parler</em>",
+              "Parle !",
+              "Parlons !",
+              "Parlez !"
+            ],
+            [
+              "<em>finir</em>",
+              "Finis !",
+              "Finissons !",
+              "Finissez !"
+            ],
+            [
+              "<em>être</em>",
+              "Sois !",
+              "Soyons !",
+              "Soyez !"
+            ],
+            [
+              "<em>avoir</em>",
+              "Aie !",
+              "Ayons !",
+              "Ayez !"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pass-compos-vs-imparfait-the-core-tension",
+      "number": 9,
+      "title": "Passé Composé vs Imparfait — The Core Tension",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "This is where most learners struggle. Both are \"past tenses\" but they do fundamentally different things."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Passé Composé — Completed Past Actions"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Auxiliary (avoir or être) + past participle</strong>"
+        },
+        {
+          "type": "paragraph",
+          "text": "Used for:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A completed action with a defined endpoint: <em>J'ai mangé une pomme.</em> (I ate an apple.)",
+            "A sequence of events: <em>Il est entré, il a vu, il a conquis.</em>",
+            "A sudden or punctual event in a narrative: <em>Soudain, le téléphone a sonné.</em>"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Past participle formation:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "-er verbs: <em>parl<strong>é</strong>, mang<strong>é</strong></em>",
+            "-ir verbs: <em>fin<strong>i</strong>, part<strong>i</strong></em>",
+            "-re verbs: <em>vend<strong>u</strong>, attend<strong>u</strong></em>",
+            "Irregulars: <em>être → été, avoir → eu, faire → fait, voir → vu, prendre → pris, venir → venu</em>"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Imparfait — Ongoing/Habitual Past"
+        },
+        {
+          "type": "paragraph",
+          "text": "Formed from the <strong>nous-present stem</strong> + endings: <em>-ais, -ais, -ait, -ions, -iez, -aient</em>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>parler → nous parlons → je parlais, tu parlais, il parlait...</em>"
+        },
+        {
+          "type": "paragraph",
+          "text": "Used for:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Background descriptions: <em>Il faisait beau.</em> (The weather was nice.)",
+            "Ongoing states in the past: <em>Elle était fatiguée.</em> (She was tired.)",
+            "Habitual past actions: <em>Quand j'étais enfant, je jouais au foot.</em> (When I was a child, I used to play football.)",
+            "Interrupted actions: <em>Je lisais quand il est arrivé.</em> (I was reading when he arrived.)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "compare-ru",
+          "text": "🇷🇺 This maps onto the Russian <strong>imperfective/perfective aspect</strong> distinction, though not perfectly. Passé composé ≈ perfective aspect (completed, result-focused). Imparfait ≈ imperfective aspect (process, state, habitual). A Russian-speaker's instinct here is often correct."
+        },
+        {
+          "type": "callout",
+          "variant": "compare-en",
+          "text": "🇬🇧 English uses \"I was doing\" (progressive) for the imparfait background role, and \"I did\" (simple past) for the passé composé. French collapses this differently."
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Contrast in context:</strong>"
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "text": "<em>Hier, je <strong>lisais</strong> un livre quand mon ami <strong>a téléphoné</strong>.</em> Yesterday, I <strong>was reading</strong> a book when my friend <strong>called</strong>. (<em>lisais</em> = ongoing background; <em>a téléphoné</em> = sudden completed event)"
+        }
+      ]
+    },
+    {
+      "id": "avoir-vs-tre-as-auxiliaries",
+      "number": 10,
+      "title": "Avoir vs Être as Auxiliaries",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In passé composé, most verbs use <strong>avoir</strong>. About 17 common verbs use <strong>être</strong> — mostly verbs of motion and change of state. A mnemonic: <strong>DR. & MRS. VANDERTRAMP</strong>"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Verb",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "<strong>D</strong>evenir",
+              "to become"
+            ],
+            [
+              "<strong>R</strong>evenir",
+              "to come back"
+            ],
+            [
+              "<strong>M</strong>onter",
+              "to go up"
+            ],
+            [
+              "<strong>R</strong>ester",
+              "to stay"
+            ],
+            [
+              "<strong>S</strong>ortir",
+              "to go out"
+            ],
+            [
+              "<strong>V</strong>enir",
+              "to come"
+            ],
+            [
+              "<strong>A</strong>ller",
+              "to go"
+            ],
+            [
+              "<strong>N</strong>aître",
+              "to be born"
+            ],
+            [
+              "<strong>D</strong>escendre",
+              "to go down"
+            ],
+            [
+              "<strong>E</strong>ntrer",
+              "to enter"
+            ],
+            [
+              "<strong>R</strong>entrer",
+              "to return home"
+            ],
+            [
+              "<strong>T</strong>omber",
+              "to fall"
+            ],
+            [
+              "<strong>R</strong>etourner",
+              "to return"
+            ],
+            [
+              "<strong>A</strong>rriver",
+              "to arrive"
+            ],
+            [
+              "<strong>M</strong>ourir",
+              "to die"
+            ],
+            [
+              "<strong>P</strong>artir",
+              "to leave"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>+</strong> all <strong>reflexive verbs</strong> use être."
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Agreement rule:</strong> When using être, the past participle agrees with the subject like an adjective:"
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>Elle est <strong>partie</strong>.</em> (She left — feminine -e) <em>Ils sont <strong>partis</strong>.</em> (They left — masculine plural -s) <em>Elles sont <strong>parties</strong>.</em> (They [f] left — feminine plural -es)"
+        },
+        {
+          "type": "paragraph",
+          "text": "With avoir, the past participle is invariable <strong>unless</strong> a direct object precedes the verb:"
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>J'ai vu Marie.</em> (no agreement) <em>Je l'ai <strong>vue</strong>.</em> (agreement because <em>la/l'</em> precedes — she was seen)"
+        }
+      ]
+    },
+    {
+      "id": "negation",
+      "number": 11,
+      "title": "Negation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Standard negation wraps the verb with <strong>ne...pas</strong>:"
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>Je ne parle pas.</em> — I don't speak. <em>Il ne mange pas.</em> — He doesn't eat."
+        },
+        {
+          "type": "paragraph",
+          "text": "In compound tenses, ne...pas wraps the auxiliary:"
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>Je n'ai pas mangé.</em> — I didn't eat. <em>Elle n'est pas venue.</em> — She didn't come."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Other Negation Patterns"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Expression",
+            "Meaning",
+            "Example"
+          ],
+          "rows": [
+            [
+              "ne...jamais",
+              "never",
+              "<em>Je ne fume jamais.</em>"
+            ],
+            [
+              "ne...rien",
+              "nothing",
+              "<em>Je ne vois rien.</em>"
+            ],
+            [
+              "ne...personne",
+              "nobody",
+              "<em>Je ne connais personne.</em>"
+            ],
+            [
+              "ne...plus",
+              "no more/no longer",
+              "<em>Il ne travaille plus.</em>"
+            ],
+            [
+              "ne...que",
+              "only",
+              "<em>Je n'ai que dix euros.</em>"
+            ],
+            [
+              "ne...ni...ni",
+              "neither...nor",
+              "<em>Je ne bois ni café ni thé.</em>"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Spoken French: Dropping \"ne\""
+        },
+        {
+          "type": "paragraph",
+          "text": "In informal spoken French, <strong>ne is commonly dropped</strong>:"
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>Je sais pas.</em> (= Je ne sais pas) — I don't know. <em>T'as pas vu mes clés ?</em> — You haven't seen my keys? <em>Y'a personne.</em> (= Il n'y a personne) — There's no one."
+        },
+        {
+          "type": "callout",
+          "variant": "compare-ru",
+          "text": "🇷🇺 This is like colloquial Russian dropping formal particles. Written and formal French always keeps the <em>ne</em>."
+        }
+      ]
+    },
+    {
+      "id": "questions",
+      "number": 12,
+      "title": "Questions",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Three main ways to ask questions in French:"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "1. Intonation (most common in speech)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Raise your voice at the end of a declarative sentence:"
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>Tu parles français ?</em> — You speak French? <em>Il est là ?</em> — Is he there?"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "2. Est-ce que (neutral, all registers)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Add <em>est-ce que</em> before the subject:"
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>Est-ce que tu parles français ?</em> <em>Est-ce qu'il est là ?</em>"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "3. Inversion (formal/written)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Invert subject and verb, hyphenated:"
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>Parles-tu français ?</em> <em>Mangez-vous de la viande ?</em>"
+        },
+        {
+          "type": "paragraph",
+          "text": "With <em>il/elle/on</em> and a verb ending in a vowel, add <em>-t-</em>:"
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>A-t-il faim ?</em> (Is he hungry?) — <em>a</em> ends in vowel, so add -t-"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Question Words"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Question word",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "<em>qui</em>",
+              "who"
+            ],
+            [
+              "<em>que / qu'est-ce que</em>",
+              "what (object)"
+            ],
+            [
+              "<em>qu'est-ce qui</em>",
+              "what (subject)"
+            ],
+            [
+              "<em>où</em>",
+              "where"
+            ],
+            [
+              "<em>quand</em>",
+              "when"
+            ],
+            [
+              "<em>comment</em>",
+              "how"
+            ],
+            [
+              "<em>pourquoi</em>",
+              "why"
+            ],
+            [
+              "<em>combien</em>",
+              "how much/many"
+            ],
+            [
+              "<em>quel/quelle</em>",
+              "which/what (adj)"
+            ],
+            [
+              "<em>lequel/laquelle</em>",
+              "which one (pronoun)"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>Où habitez-vous ?</em> / <em>Vous habitez où ?</em> <em>Pourquoi est-ce qu'il pleure ?</em> <em>Combien ça coûte ?</em> <em>Quel film tu veux regarder ?</em>"
+        }
+      ]
+    },
+    {
+      "id": "prepositions-contractions",
+      "number": 13,
+      "title": "Prepositions & Contractions",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Core Prepositions"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "French",
+            "English",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "<em>à</em>",
+              "at, to, in",
+              "<em>aller à Paris, être à la maison</em>"
+            ],
+            [
+              "<em>de</em>",
+              "of, from, about",
+              "<em>venir de Paris, parler de politique</em>"
+            ],
+            [
+              "<em>en</em>",
+              "in, to (+ f. countries), by",
+              "<em>en France, en voiture, en été</em>"
+            ],
+            [
+              "<em>dans</em>",
+              "in (inside)",
+              "<em>dans la voiture, dans une heure</em>"
+            ],
+            [
+              "<em>sur</em>",
+              "on",
+              "<em>sur la table</em>"
+            ],
+            [
+              "<em>sous</em>",
+              "under",
+              "<em>sous la table</em>"
+            ],
+            [
+              "<em>pour</em>",
+              "for",
+              "<em>un cadeau pour toi</em>"
+            ],
+            [
+              "<em>par</em>",
+              "by, through",
+              "<em>par la fenêtre, deux fois par jour</em>"
+            ],
+            [
+              "<em>avec</em>",
+              "with",
+              "<em>avec plaisir</em>"
+            ],
+            [
+              "<em>sans</em>",
+              "without",
+              "<em>sans sucre</em>"
+            ],
+            [
+              "<em>avant</em>",
+              "before",
+              "<em>avant midi</em>"
+            ],
+            [
+              "<em>après</em>",
+              "after",
+              "<em>après le dîner</em>"
+            ],
+            [
+              "<em>chez</em>",
+              "at/to someone's place",
+              "<em>chez moi, chez le médecin</em>"
+            ],
+            [
+              "<em>entre</em>",
+              "between",
+              "<em>entre toi et moi</em>"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Mandatory Contractions"
+        },
+        {
+          "type": "paragraph",
+          "text": "When <strong>à</strong> or <strong>de</strong> precedes <strong>le</strong> or <strong>les</strong>, they must contract:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "<em>le</em>",
+            "<em>les</em>"
+          ],
+          "rows": [
+            [
+              "<em>à +</em>",
+              "<strong>au</strong>",
+              "<strong>aux</strong>"
+            ],
+            [
+              "<em>de +</em>",
+              "<strong>du</strong>",
+              "<strong>des</strong>"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>Je vais au marché.</em> (à + le) <em>Il parle aux enfants.</em> (à + les) <em>C'est le titre du livre.</em> (de + le) <em>Il vient des États-Unis.</em> (de + les)"
+        },
+        {
+          "type": "paragraph",
+          "text": "No contraction with <em>la</em> or <em>l'</em>: <em>à la gare, de l'eau</em>."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Countries & Cities"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Feminine countries (most ending in -e): <em>en France, en Espagne, en Allemagne</em>",
+            "Masculine countries: <em>au Japon, au Canada, aux États-Unis</em>",
+            "Cities: <em>à Paris, à New York, à Rome</em>"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "object-pronouns-word-order",
+      "number": 14,
+      "title": "Object Pronouns & Word Order",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Direct Object Pronouns (replace the direct object)"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Person",
+            "Pronoun"
+          ],
+          "rows": [
+            [
+              "me (m')",
+              "me"
+            ],
+            [
+              "te (t')",
+              "you"
+            ],
+            [
+              "le (l')",
+              "him/it (m)"
+            ],
+            [
+              "la (l')",
+              "her/it (f)"
+            ],
+            [
+              "nous",
+              "us"
+            ],
+            [
+              "vous",
+              "you"
+            ],
+            [
+              "les",
+              "them"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>Je vois Marie → Je <strong>la</strong> vois.</em> <em>Il mange le pain → Il <strong>le</strong> mange.</em>"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Indirect Object Pronouns (replace à + person)"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Person",
+            "Pronoun"
+          ],
+          "rows": [
+            [
+              "me (m')",
+              "to me"
+            ],
+            [
+              "te (t')",
+              "to you"
+            ],
+            [
+              "lui",
+              "to him/her"
+            ],
+            [
+              "nous",
+              "to us"
+            ],
+            [
+              "vous",
+              "to you"
+            ],
+            [
+              "leur",
+              "to them"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>Je parle à Marie → Je <strong>lui</strong> parle.</em> <em>Il donne le livre aux enfants → Il <strong>leur</strong> donne le livre.</em>"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Word Order"
+        },
+        {
+          "type": "paragraph",
+          "text": "Object pronouns go <strong>before the verb</strong> (before the auxiliary in compound tenses):"
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>Je <strong>le</strong> vois.</em> — I see him. <em>Je <strong>l'</strong>ai vu.</em> — I saw him. <em>Ne <strong>le</strong> mange pas !</em> — Don't eat it!"
+        },
+        {
+          "type": "callout",
+          "variant": "compare-ru",
+          "text": "🇷🇺 Object pronouns in French are <strong>clitic</strong> — they must attach to the verb and cannot move freely. Russian allows freer word order for emphasis. In French, the position is fixed."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Double Object Pronouns"
+        },
+        {
+          "type": "paragraph",
+          "text": "When both direct and indirect pronouns appear, order is:"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>me/te/nous/vous → le/la/les → lui/leur → y → en</strong>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>Il me le donne.</em> — He gives it to me. (me before le) <em>Je le lui donne.</em> — I give it to him. (le before lui)"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Y and En"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>y</strong> = there / to it (replaces <em>à + place/thing</em>): <em>Tu vas à Paris ? → Tu y vas ?</em>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>en</strong> = some of it / from there (replaces <em>de + noun</em> or a partitive): <em>Tu veux du café ? → Tu en veux ?</em> <em>Il vient de Paris → Il en vient.</em>"
+        }
+      ]
+    },
+    {
+      "id": "relative-pronouns-qui-que-dont-o",
+      "number": 15,
+      "title": "Relative Pronouns: qui, que, dont, où",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "qui — who/which (subject of the relative clause)"
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>L'homme <strong>qui</strong> parle est mon père.</em> — The man who is speaking is my father. <em>Le livre <strong>qui</strong> est sur la table est intéressant.</em>"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "que (qu') — whom/which (direct object of the relative clause)"
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>L'homme <strong>que</strong> je vois est mon père.</em> — The man (whom) I see is my father. <em>Le livre <strong>que</strong> tu lis est excellent.</em>"
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Tip: <strong>qui</strong> is followed by a verb; <strong>que</strong> is followed by a subject + verb."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "dont — of which/whose/about which (replaces *de + noun*)"
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>Le livre <strong>dont</strong> je parle.</em> — The book I'm talking about (about which I'm talking). <em>L'homme <strong>dont</strong> je connais la femme.</em> — The man whose wife I know."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "où — where/when (replaces place or time reference)"
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>La ville <strong>où</strong> j'habite.</em> — The city where I live. <em>Le jour <strong>où</strong> il est né.</em> — The day when he was born."
+        }
+      ]
+    },
+    {
+      "id": "the-subjunctive",
+      "number": 16,
+      "title": "The Subjunctive",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The subjunctive (<em>subjonctif</em>) is a mood (not a tense) that expresses subjectivity — doubt, emotion, necessity, possibility, volition."
+        },
+        {
+          "type": "callout",
+          "variant": "compare-ru",
+          "text": "🇷🇺 Russian uses <em>чтобы + past tense</em> for many of the same contexts. The subjunctive in French is the equivalent mechanism — obligatory in its triggers."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "When to Use It"
+        },
+        {
+          "type": "paragraph",
+          "text": "The subjunctive follows specific trigger expressions. Key triggers:"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Necessity / obligation:</strong>"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<em>il faut que</em> — it is necessary that",
+            "<em>il est nécessaire que</em>"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Volition / desire:</strong>"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<em>vouloir que</em> — to want (someone to do)",
+            "<em>préférer que, souhaiter que</em>"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Emotion:</strong>"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<em>être content/heureux/triste que</em>",
+            "<em>avoir peur que</em>"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Doubt / possibility:</strong>"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<em>douter que, ne pas croire que</em>",
+            "<em>il est possible/impossible que</em>"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>After certain conjunctions:</strong>"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<em>bien que</em> (although), <em>pour que</em> (so that), <em>avant que</em> (before), <em>à moins que</em> (unless), <em>quoique</em> (although)"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Formation"
+        },
+        {
+          "type": "paragraph",
+          "text": "From the <strong>ils-present stem</strong> + subjunctive endings: <em>-e, -es, -e, -ions, -iez, -ent</em>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>parler → ils parlent → que je parle, que tu parles, qu'il parle, que nous parlions...</em> <em>finir → ils finissent → que je finisse...</em> <em>vendre → ils vendent → que je vende...</em>"
+        },
+        {
+          "type": "paragraph",
+          "text": "Irregular subjunctives:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<em>être → que je sois, que tu sois, qu'il soit...</em>",
+            "<em>avoir → que j'aie, que tu aies, qu'il ait...</em>",
+            "<em>aller → que j'aille, que tu ailles, qu'il aille, que nous allions...</em>",
+            "<em>faire → que je fasse...</em>",
+            "<em>pouvoir → que je puisse...</em>",
+            "<em>vouloir → que je veuille...</em>"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>In practice:</strong>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>Je veux qu'il <strong>vienne</strong>.</em> — I want him to come. <em>Il faut que tu <strong>fasses</strong> tes devoirs.</em> — You need to do your homework. <em>Bien qu'il <strong>soit</strong> fatigué, il travaille.</em> — Although he is tired, he works."
+        },
+        {
+          "type": "callout",
+          "variant": "note",
+          "text": "If the subject is the same in both clauses, use <strong>de + infinitive</strong> instead: <em>Je veux <strong>venir</strong>.</em> (not: <em>Je veux que je vienne.</em>)"
+        }
+      ]
+    },
+    {
+      "id": "tu-vs-vous-formality-social-register",
+      "number": 17,
+      "title": "Tu vs Vous — Formality & Social Register",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "<em>tu</em>",
+            "<em>vous</em>"
+          ],
+          "rows": [
+            [
+              "Use with",
+              "friends, family, children, peers you know well, animals",
+              "strangers, people older than you, professional contexts, plural \"you\""
+            ],
+            [
+              "Verb form",
+              "2nd person singular",
+              "2nd person plural form"
+            ],
+            [
+              "Switch",
+              "<em>On se tutoie ?</em> (Shall we use tu?)",
+              "Default in formal contexts"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The social rules are real and violation causes genuine awkwardness:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Too much <em>vous</em>:</strong> Can feel cold or distancing among peers",
+            "<strong>Too much <em>tu</em>:</strong> Presumptuous or rude with strangers/elders"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "In France, the workplace is gradually shifting toward <em>tu</em> in many industries (tech, startups) — but traditional sectors (law, government, finance) still default to <em>vous</em>."
+        },
+        {
+          "type": "callout",
+          "variant": "compare-ru",
+          "text": "🇷🇺 Russian has the same distinction: ты/вы. Apply the same social logic — it maps very closely."
+        }
+      ]
+    },
+    {
+      "id": "spoken-vs-written-french",
+      "number": 18,
+      "title": "Spoken vs Written French",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The gap between written/formal French and everyday spoken French is <strong>enormous</strong> — larger than in most European languages."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Feature",
+            "Written/Formal",
+            "Spoken (informal)"
+          ],
+          "rows": [
+            [
+              "Negation",
+              "<em>Je ne sais pas</em>",
+              "<em>Je sais pas</em> / <em>Chais pas</em>"
+            ],
+            [
+              "Subject",
+              "<em>nous allons</em>",
+              "<em>on va</em>"
+            ],
+            [
+              "Questions",
+              "<em>Est-ce que tu viens ?</em> / inversion",
+              "<em>Tu viens ?</em>"
+            ],
+            [
+              "Omission",
+              "<em>Il y a</em>",
+              "<em>Y'a</em>"
+            ],
+            [
+              "<em>tu</em> forms",
+              "<em>tu as</em>",
+              "<em>t'as</em>"
+            ],
+            [
+              "<em>ce</em>",
+              "<em>c'est</em>",
+              "<em>c'est</em> (same), but <em>cela</em> → <em>ça</em> always"
+            ],
+            [
+              "Deletion",
+              "<em>je</em> before consonant",
+              "<em>J'sais pas → Chais pas</em>"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Key Informal Patterns"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>\"C'est quoi ça ?\"</strong> (What's that?) — informal for <em>Qu'est-ce que c'est ?</em>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>\"T'as fait quoi ?\"</strong> — Informal for <em>Qu'est-ce que tu as fait ?</em> (What did you do?)"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>\"On se casse ?\"</strong> — Shall we leave? (Slang: <em>se casser</em> = to split/leave)"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>\"Ouais\"</strong> — Yeah (<em>oui</em> is formal \"yes\"; <em>ouais</em> is everyday)"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>\"Bof\"</strong> — A uniquely French non-committal expression: \"meh / not really / I don't care\""
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>\"Quand même\"</strong> — All the same / anyway / nonetheless — very common filler"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>\"Voilà / Voilà voilà\"</strong> — There you go / exactly / that's it — used constantly as a conversation filler/conclusion"
+        }
+      ]
+    },
+    {
+      "id": "false-friends-tricky-vocabulary",
+      "number": 19,
+      "title": "False Friends & Tricky Vocabulary",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Words that look like English but mean something different:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "French",
+            "Looks like",
+            "Actual meaning"
+          ],
+          "rows": [
+            [
+              "<em>actuellement</em>",
+              "actually",
+              "currently, at present"
+            ],
+            [
+              "<em>éventuellement</em>",
+              "eventually",
+              "possibly, perhaps"
+            ],
+            [
+              "<em>sensible</em>",
+              "sensible",
+              "sensitive"
+            ],
+            [
+              "<em>sympathique</em>",
+              "sympathetic",
+              "nice, friendly"
+            ],
+            [
+              "<em>large</em>",
+              "large",
+              "wide"
+            ],
+            [
+              "<em>rester</em>",
+              "rest",
+              "to stay, remain"
+            ],
+            [
+              "<em>assister à</em>",
+              "assist",
+              "to attend"
+            ],
+            [
+              "<em>attendre</em>",
+              "attend",
+              "to wait for"
+            ],
+            [
+              "<em>passer un examen</em>",
+              "pass an exam",
+              "to take an exam"
+            ],
+            [
+              "<em>réussir un examen</em>",
+              "—",
+              "to pass an exam"
+            ],
+            [
+              "<em>librairie</em>",
+              "library",
+              "bookshop"
+            ],
+            [
+              "<em>bibliothèque</em>",
+              "—",
+              "library"
+            ],
+            [
+              "<em>journée</em>",
+              "journey",
+              "(whole) day"
+            ],
+            [
+              "<em>location</em>",
+              "location",
+              "rental"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Savoir vs Connaître (both = \"to know\")"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Savoir</strong> — to know a fact, how to do something:"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>Je sais qu'il vient.</em> / <em>Je sais nager.</em>"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Connaître</strong> — to know a person, place, or work:"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>Je connais Paris.</em> / <em>Tu connais Marie ?</em>"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Pouvoir vs Savoir (both can translate \"can\")"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Pouvoir</strong> — to be able to (circumstances permit):"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>Je ne peux pas venir ce soir.</em> (I can't come tonight — I'm busy)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Savoir</strong> — to know how to (skill):"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>Elle sait parler japonais.</em> (She can speak Japanese — she knows how)"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Partir vs Quitter vs Sortir (all = \"to leave\")"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Partir</strong> — to leave (a place, intransitive): <em>Il part demain.</em>",
+            "<strong>Quitter</strong> — to leave (something/someone, transitive): <em>Il quitte Paris. / Il quitte sa femme.</em>",
+            "<strong>Sortir</strong> — to go out: <em>On sort ce soir ?</em>"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quick-reference-tables",
+      "number": 20,
+      "title": "Quick Reference Tables",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Verb Tense Summary"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Tense",
+            "When to use",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Présent",
+              "Now, habits, near future",
+              "<em>Je mange, je vais partir</em>"
+            ],
+            [
+              "Futur proche",
+              "Going to...",
+              "<em>Je vais manger</em>"
+            ],
+            [
+              "Futur simple",
+              "Will...",
+              "<em>Je mangerai</em>"
+            ],
+            [
+              "Passé composé",
+              "Completed past action",
+              "<em>J'ai mangé</em>"
+            ],
+            [
+              "Imparfait",
+              "Background/state/habit in past",
+              "<em>Je mangeais</em>"
+            ],
+            [
+              "Conditionnel",
+              "Would... / polite requests",
+              "<em>Je voudrais, je mangerais</em>"
+            ],
+            [
+              "Subjonctif",
+              "After triggers (emotion, doubt...)",
+              "<em>Je veux qu'il mange</em>"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Gender of Common Noun Endings (Pattern Guide)"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Usually Masculine",
+            "Usually Feminine"
+          ],
+          "rows": [
+            [
+              "-age (un village, le fromage)",
+              "-tion, -sion (la nation)"
+            ],
+            [
+              "-ment (le gouvernement)",
+              "-té (la liberté, la beauté)"
+            ],
+            [
+              "-eau (le bateau)",
+              "-ure (la voiture, la nature)"
+            ],
+            [
+              "-isme (le tourisme)",
+              "-ence, -ance (la patience)"
+            ],
+            [
+              "-er, -ier (le boulanger)",
+              "-ette (la baguette)"
+            ],
+            [
+              "-oir (le miroir)",
+              "-elle (la belle)"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Pronunciation Quick-Reference"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Written",
+            "Pronounced",
+            "Example"
+          ],
+          "rows": [
+            [
+              "-tion",
+              "/sjɔ̃/",
+              "<em>nation /nasjɔ̃/</em>"
+            ],
+            [
+              "-oi",
+              "/wa/",
+              "<em>moi /mwa/</em>"
+            ],
+            [
+              "-au, -eau",
+              "/o/",
+              "<em>eau /o/</em>"
+            ],
+            [
+              "-ou",
+              "/u/",
+              "<em>vous /vu/</em>"
+            ],
+            [
+              "-ai, -ei",
+              "/ɛ/",
+              "<em>lait /lɛ/</em>"
+            ],
+            [
+              "-eu",
+              "/ø/ or /œ/",
+              "<em>feu /fø/</em>, <em>peur /pœʁ/</em>"
+            ],
+            [
+              "-gn",
+              "/ɲ/",
+              "<em>agneau /aɲo/</em>"
+            ],
+            [
+              "-ill",
+              "/j/ or /ij/",
+              "<em>fille /fij/</em>, <em>billet /bijɛ/</em>"
+            ],
+            [
+              "ch",
+              "/ʃ/",
+              "<em>chat /ʃa/</em>"
+            ],
+            [
+              "j, -ge",
+              "/ʒ/",
+              "<em>je /ʒə/</em>, <em>rouge /ʁuʒ/</em>"
+            ],
+            [
+              "qu",
+              "/k/",
+              "<em>que /kə/</em>"
+            ],
+            [
+              "-er (infinitive)",
+              "/e/",
+              "<em>parler /paʁle/</em>"
+            ],
+            [
+              "-ez",
+              "/e/",
+              "<em>parlez /paʁle/</em>"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Appendix: Study Priorities by Level"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Beginner (months 1–3)"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Pronunciation fundamentals — don't skip this 2. Present tense of être, avoir, aller, faire + regular -er verbs 3. Articles (definite/indefinite) — the most common error source 4. Numbers, days, months, time 5. Core vocabulary: 500-word pool 6. Basic questions with intonation and est-ce que"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Intermediate (months 4–9)"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Passé composé (avoir + être auxiliaries) 2. Imparfait — the PC/Imparfait distinction 3. Object pronouns (y, en, le/la/les, lui/leur) 4. Futur simple and conditionnel 5. Negation variants 6. Core vocabulary: 1000–1500 word pool"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Upper-Intermediate (months 10–18)"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Subjunctive (high-frequency triggers) 2. Relative pronouns (dont especially) 3. Reflexive verbs fully 4. Register differences — spoken vs written 5. Idioms and filler expressions 6. Vocabulary: 2000+ words"
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>Happy learning — Bon courage !</em> 🇫🇷"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "meta": {
+    "title": "Reading",
+    "subtitle": "Short graded texts (A2–B1) with English side by side — themes from standard FLE courses (Alter Ego, Édito, Tapis Volant).",
+    "sourceNote": "Pedagogical reader-style texts; aligned with DELF A2/B1 syllabus topics."
+  },
+  "articles": [
+    {
+      "id": 1,
+      "title": "Une journée à Paris",
+      "subtitle": "A Day in Paris",
+      "level": "A2–B1",
+      "topic": "Travel & Tourism",
+      "source": "FLE reader — tourism unit (A2)",
+      "paragraphs": [
+        {
+          "french": "Sophie se réveille tôt le matin. Elle regarde par la fenêtre et voit le soleil briller sur les toits de Paris. C'est une belle journée de printemps, et elle a décidé de visiter la Tour Eiffel pour la première fois. Elle met son manteau, prend son appareil photo et sort dans la rue.",
+          "english": "Sophie wakes up early in the morning. She looks out the window and sees the sun shining over the rooftops of Paris. It is a beautiful spring day, and she has decided to visit the Eiffel Tower for the first time. She puts on her coat, takes her camera, and goes out into the street."
+        },
+        {
+          "french": "Elle prend le métro ligne 6 jusqu'à la station Bir-Hakeim. En sortant du métro, elle voit la tour devant elle, immense et impressionnante. Elle achète un billet pour monter au deuxième étage et admire la vue magnifique sur toute la ville. La Seine brille en dessous, et au loin, on voit le dôme blanc du Sacré-Cœur.",
+          "english": "She takes metro line 6 to Bir-Hakeim station. Coming out of the metro, she sees the tower in front of her, massive and impressive. She buys a ticket to go up to the second floor and admires the magnificent view over the whole city. The Seine shines below, and in the distance, you can see the white dome of the Sacré-Cœur."
+        },
+        {
+          "french": "Le soir, Sophie s'installe dans un café au bord de la Seine. Elle commande un café crème et une tarte aux pommes. Elle écrit dans son carnet : « Paris est encore plus belle que je ne l'imaginais. Je reviendrai certainement. » Elle rentre à l'hôtel épuisée mais heureuse.",
+          "english": "In the evening, Sophie settles into a café by the Seine. She orders a café crème and an apple tart. She writes in her notebook: \"Paris is even more beautiful than I imagined. I will certainly come back.\" She returns to the hotel exhausted but happy."
+        }
+      ],
+      "vocab": [
+        { "fr": "se réveiller", "en": "to wake up" },
+        { "fr": "les toits", "en": "the rooftops" },
+        { "fr": "un billet", "en": "a ticket" },
+        { "fr": "la vue", "en": "the view" },
+        { "fr": "au loin", "en": "in the distance" },
+        { "fr": "s'installer", "en": "to settle in" },
+        { "fr": "épuisé(e)", "en": "exhausted" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Le marché du dimanche",
+      "subtitle": "The Sunday Market",
+      "level": "A2–B1",
+      "topic": "Daily Life & Food",
+      "source": "FLE reader — food & shopping unit (A2)",
+      "paragraphs": [
+        {
+          "french": "Chaque dimanche matin, le quartier de la Bastille se transforme. Dès sept heures, les commerçants installent leurs étals colorés le long du boulevard. On y trouve des légumes frais, des fromages aux odeurs puissantes, des bouquets de fleurs et toutes sortes de produits régionaux.",
+          "english": "Every Sunday morning, the Bastille neighbourhood transforms. From seven o'clock, traders set up their colourful stalls along the boulevard. You can find fresh vegetables, cheeses with powerful aromas, bouquets of flowers, and all kinds of regional products."
+        },
+        {
+          "french": "Monsieur Bernard est fromager sur ce marché depuis vingt ans. Il connaît tous ses clients par leur prénom et leur recommande toujours les meilleurs fromages du moment. Ce matin, il propose un camembert de Normandie exceptionnel et un comté affiné vingt-quatre mois. « Prenez-en, vous ne serez pas déçus ! » dit-il avec un grand sourire.",
+          "english": "Monsieur Bernard has been a cheesemaker at this market for twenty years. He knows all his clients by their first name and always recommends the best cheeses of the moment. This morning, he is offering an exceptional Normandy camembert and a comté aged twenty-four months. \"Take some, you won't be disappointed!\" he says with a big smile."
+        },
+        {
+          "french": "À midi, le marché commence à se vider. Les vendeurs rangent leurs affaires et chargent leurs camions. Dimanche prochain, à sept heures du matin, tout recommencera — comme si la ville ne pouvait pas se passer de ce rituel hebdomadaire.",
+          "english": "At noon, the market begins to empty. The vendors pack up their things and load their trucks. Next Sunday, at seven in the morning, everything will start again — as if the city cannot do without this weekly ritual."
+        }
+      ],
+      "vocab": [
+        { "fr": "un étal", "en": "a market stall" },
+        { "fr": "affiné(e)", "en": "aged (cheese)" },
+        { "fr": "déçu(e)", "en": "disappointed" },
+        { "fr": "ranger", "en": "to pack up" },
+        { "fr": "hebdomadaire", "en": "weekly" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "La rentrée scolaire",
+      "subtitle": "Back to School",
+      "level": "A2",
+      "topic": "School & Everyday Life",
+      "source": "FLE reader — education unit (A2, Édito)",
+      "paragraphs": [
+        {
+          "french": "En France, la rentrée scolaire a lieu chaque année au début du mois de septembre. C'est un moment important dans la vie des familles. Les parents accompagnent leurs enfants jusqu'à l'école, les cartables bien remplis de cahiers neufs et de crayons de couleur.",
+          "english": "In France, the start of the school year takes place every year at the beginning of September. It is an important moment in family life. Parents accompany their children to school, with school bags well filled with new notebooks and coloured pencils."
+        },
+        {
+          "french": "Pour Léa, c'est la rentrée en sixième — son entrée au collège. Elle est à la fois excitée et nerveuse. Elle ne connaît personne dans sa nouvelle classe. Mais dès la première heure, elle rencontre Yasmine, qui est assise à côté d'elle en cours de français. Elles se présentent et se rendent compte qu'elles habitent dans la même rue.",
+          "english": "For Léa, it is the start of sixth grade — her entry into secondary school. She is both excited and nervous. She does not know anyone in her new class. But from the very first lesson, she meets Yasmine, who is sitting next to her in French class. They introduce themselves and realise they live on the same street."
+        },
+        {
+          "french": "Le soir, Léa rentre à la maison avec le sourire. Elle raconte à ses parents sa nouvelle classe et sa nouvelle amie. « La rentrée, c'est stressant », admet Léa, « mais c'est aussi le début de quelque chose de nouveau. »",
+          "english": "In the evening, Léa comes home smiling. She tells her parents about her new class and her new friend. \"The start of school is stressful,\" admits Léa, \"but it is also the beginning of something new.\""
+        }
+      ],
+      "vocab": [
+        { "fr": "la rentrée", "en": "start of school year" },
+        { "fr": "un cartable", "en": "school bag" },
+        { "fr": "le collège", "en": "secondary school (11–15)" },
+        { "fr": "se rendre compte", "en": "to realise" }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Chez le médecin",
+      "subtitle": "At the Doctor's",
+      "level": "A2",
+      "topic": "Health",
+      "source": "FLE reader — health unit (A2, Tapis Volant)",
+      "paragraphs": [
+        {
+          "french": "Thomas ne se sent pas bien depuis trois jours. Il a de la fièvre, mal à la gorge et il tousse beaucoup. Sa femme l'encourage à prendre rendez-vous chez le médecin. Il appelle le cabinet médical et obtient un créneau pour le lendemain matin à dix heures.",
+          "english": "Thomas has not been feeling well for three days. He has a fever, a sore throat, and he coughs a lot. His wife encourages him to make a doctor's appointment. He calls the medical office and gets a slot for the next morning at ten o'clock."
+        },
+        {
+          "french": "À la consultation, le médecin lui pose plusieurs questions : « Depuis quand avez-vous ces symptômes ? Avez-vous des allergies ? » Elle examine sa gorge et écoute sa poitrine. « C'est une angine », explique-t-elle. « Reposez-vous, buvez beaucoup d'eau et prenez ce médicament trois fois par jour. »",
+          "english": "At the appointment, the doctor asks him several questions: \"How long have you had these symptoms? Do you have any allergies?\" She examines his throat and listens to his chest. \"It's tonsillitis,\" she explains. \"Rest, drink plenty of water, and take this medicine three times a day.\""
+        },
+        {
+          "french": "Thomas va à la pharmacie avec son ordonnance. Le pharmacien lui explique comment prendre les comprimés. Deux jours plus tard, il se sent déjà beaucoup mieux et peut retourner au travail.",
+          "english": "Thomas goes to the pharmacy with his prescription. The pharmacist explains how to take the tablets. Two days later, he already feels much better and can return to work."
+        }
+      ],
+      "vocab": [
+        { "fr": "un rendez-vous", "en": "an appointment" },
+        { "fr": "la fièvre", "en": "fever" },
+        { "fr": "tousser", "en": "to cough" },
+        { "fr": "une ordonnance", "en": "a prescription" },
+        { "fr": "un comprimé", "en": "a tablet" }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "À l'hôtel",
+      "subtitle": "At the Hotel",
+      "level": "A2–B1",
+      "topic": "Travel & Accommodation",
+      "source": "FLE reader — travel unit (A2+, Alter Ego)",
+      "paragraphs": [
+        {
+          "french": "Mme Dubois arrive à l'hôtel « Les Palmiers » à Nice en fin d'après-midi. Elle s'approche de la réception et dit : « Bonjour, j'ai une réservation au nom de Dubois. » Le réceptionniste vérifie sur l'ordinateur et lui répond : « Oui, une chambre double pour trois nuits. Voici votre clé, chambre 204, deuxième étage. »",
+          "english": "Mrs Dubois arrives at the Hôtel Les Palmiers in Nice in the late afternoon. She goes to reception and says: \"Hello, I have a reservation under the name Dubois.\" The receptionist checks on the computer and replies: \"Yes, a double room for three nights. Here is your key, room 204, second floor.\""
+        },
+        {
+          "french": "Dans sa chambre, elle vérifie que tout est en ordre : la salle de bain est propre, la climatisation fonctionne et le wifi est disponible. Elle descend ensuite au bar de l'hôtel et demande : « À quelle heure est servi le petit-déjeuner ? » — « De sept heures à dix heures », répond le serveur.",
+          "english": "In her room, she checks that everything is in order: the bathroom is clean, the air conditioning works, and wifi is available. She then goes down to the hotel bar and asks: \"What time is breakfast served?\" — \"From seven to ten o'clock,\" replies the waiter."
+        },
+        {
+          "french": "Le lendemain matin, après le petit-déjeuner, Mme Dubois part visiter la vieille ville. Elle laisse ses valises à la réception et dit : « Je serai de retour vers dix-sept heures. » Le réceptionniste lui souhaite une bonne journée.",
+          "english": "The next morning, after breakfast, Mrs Dubois goes to visit the old town. She leaves her suitcases at reception and says: \"I'll be back around five o'clock.\" The receptionist wishes her a good day."
+        }
+      ],
+      "vocab": [
+        { "fr": "une réservation", "en": "a reservation" },
+        { "fr": "la réception", "en": "reception desk" },
+        { "fr": "le petit-déjeuner", "en": "breakfast" },
+        { "fr": "une valise", "en": "a suitcase" }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Un entretien d'embauche",
+      "subtitle": "A Job Interview",
+      "level": "B1",
+      "topic": "Work",
+      "source": "FLE reader — professional French unit (B1, Édito B1)",
+      "paragraphs": [
+        {
+          "french": "Karim a postulé pour un poste d'assistant comptable dans une PME lyonnaise. Il reçoit un e-mail l'invitant à un entretien d'embauche mardi prochain à quatorze heures. Il prépare soigneusement son CV, sa lettre de motivation et une tenue professionnelle.",
+          "english": "Karim applied for an assistant accountant position at an SME in Lyon. He receives an email inviting him to a job interview next Tuesday at two o'clock. He carefully prepares his CV, cover letter, and professional outfit."
+        },
+        {
+          "french": "Pendant l'entretien, la responsable des ressources humaines lui demande : « Parlez-moi de votre expérience professionnelle. » Karim explique qu'il a travaillé deux ans dans une banque et qu'il maîtrise Excel et les logiciels de comptabilité. Il ajoute qu'il est organisé, ponctuel et qu'il aime travailler en équipe.",
+          "english": "During the interview, the HR manager asks him: \"Tell me about your professional experience.\" Karim explains that he worked for two years in a bank and that he is proficient in Excel and accounting software. He adds that he is organised, punctual, and enjoys working in a team."
+        },
+        {
+          "french": "À la fin de l'entretien, la responsable lui dit : « Nous prendrons notre décision d'ici vendredi. Je vous contacterai par téléphone. » Karim la remercie et sort de l'entreprise en se sentant confiant, même s'il sait que la concurrence est forte.",
+          "english": "At the end of the interview, the manager tells him: \"We will make our decision by Friday. I will contact you by phone.\" Karim thanks her and leaves the company feeling confident, even though he knows the competition is strong."
+        }
+      ],
+      "vocab": [
+        { "fr": "un entretien d'embauche", "en": "a job interview" },
+        { "fr": "postuler", "en": "to apply (for a job)" },
+        { "fr": "une lettre de motivation", "en": "a cover letter" },
+        { "fr": "ponctuel", "en": "punctual" }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Un été en Bretagne",
+      "subtitle": "A Summer in Brittany",
+      "level": "B1",
+      "topic": "Family & Countryside",
+      "source": "FLE reader — family & holidays unit (B1)",
+      "paragraphs": [
+        {
+          "french": "Pendant les grandes vacances, Lucas et sa sœur Camille partent toujours chez leurs grands-parents, dans un petit village breton près de la côte. Dès leur arrivée, leur grand-mère les accueille avec une soupe chaude et des galettes de blé noir fraîchement préparées.",
+          "english": "During the summer holidays, Lucas and his sister Camille always go to their grandparents' house in a small Breton village near the coast. As soon as they arrive, their grandmother welcomes them with hot soup and freshly made buckwheat crêpes."
+        },
+        {
+          "french": "Les journées s'écoulent lentement. Le matin, ils font du vélo sur les chemins qui longent la côte. L'après-midi, ils lisent dans le jardin ou aident leur grand-père à ramasser les pommes. Le soir, autour de la table, il raconte des histoires sur la pêche et les tempêtes de sa jeunesse.",
+          "english": "The days pass slowly. In the morning, they cycle along the paths that follow the coastline. In the afternoon, they read in the garden or help their grandfather pick apples. In the evening, around the table, he tells stories about fishing and the storms of his youth."
+        },
+        {
+          "french": "Quand arrive septembre, il faut rentrer à Paris. Leur grand-mère glisse un pot de confiture de fraises dans le sac de chacun, pour qu'ils se souviennent du goût de l'été breton pendant l'hiver.",
+          "english": "When September arrives, it is time to go back to Paris. Their grandmother slips a jar of strawberry jam into each of their bags, so they remember the taste of a Breton summer during winter."
+        }
+      ],
+      "vocab": [
+        { "fr": "une galette de blé noir", "en": "buckwheat crêpe" },
+        { "fr": "s'écouler", "en": "to pass (time)" },
+        { "fr": "longer", "en": "to run alongside" },
+        { "fr": "se souvenir de", "en": "to remember" }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Le café du coin",
+      "subtitle": "The Corner Café",
+      "level": "B1–B2",
+      "topic": "Culture & Society",
+      "source": "FLE reader — French society unit (B1+)",
+      "paragraphs": [
+        {
+          "french": "Le café de quartier occupe une place unique dans la culture française. Ce n'est pas seulement un endroit où l'on boit du café — c'est un espace social, un lieu de rencontre. Les habitués s'y retrouvent le matin pour le « petit noir » du réveil, à midi pour un plat du jour rapide.",
+          "english": "The neighbourhood café occupies a unique place in French culture. It is not simply a place where one drinks coffee — it is a social space, a meeting place. Regulars gather there in the morning for their wake-up espresso, at noon for a quick daily special."
+        },
+        {
+          "french": "Au Café des Amis, dans le 11e arrondissement de Paris, le patron s'appelle René. Il connaît ses clients comme sa propre famille. Il sait que Madame Dupont prend toujours un décaféiné sans sucre et que les retraités du quartier viennent jouer aux dominos chaque jeudi après-midi.",
+          "english": "At the Café des Amis, in the 11th arrondissement of Paris, the owner's name is René. He knows his customers like his own family. He knows that Madame Dupont always has a decaffeinated coffee with no sugar and that the retired residents of the neighbourhood come to play dominoes every Thursday afternoon."
+        },
+        {
+          "french": "Pourtant, les cafés de quartier disparaissent peu à peu. En 1960, la France comptait plus de deux cent mille cafés ; aujourd'hui, il en reste moins de trente mille. René refuse de s'inquiéter : « Tant qu'il y aura des gens qui ont envie de se parler, il y aura besoin d'un café comme le nôtre. »",
+          "english": "Yet neighbourhood cafés are gradually disappearing. In 1960, France had more than two hundred thousand cafés; today, fewer than thirty thousand remain. René refuses to worry: \"As long as there are people who want to talk to each other, there will be a need for a café like ours.\""
+        }
+      ],
+      "vocab": [
+        { "fr": "un habitué", "en": "a regular customer" },
+        { "fr": "un petit noir", "en": "an espresso" },
+        { "fr": "disparaître", "en": "to disappear" },
+        { "fr": "le lien social", "en": "social connection" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4299 @@
+{
+  "expansions": {
+    "numbers": [
+      {
+        "french": "million",
+        "english": "million",
+        "article": "un",
+        "exampleFr": "Il y a un million d'habitants.",
+        "exampleEn": "There are a million inhabitants."
+      },
+      {
+        "french": "milliard",
+        "english": "billion",
+        "article": "un",
+        "exampleFr": "Cela coûte un milliard d'euros.",
+        "exampleEn": "It costs a billion euros."
+      },
+      {
+        "french": "pair",
+        "english": "even",
+        "exampleFr": "Douze est un nombre pair.",
+        "exampleEn": "Twelve is an even number."
+      },
+      {
+        "french": "impair",
+        "english": "odd",
+        "exampleFr": "Sept est un nombre impair.",
+        "exampleEn": "Seven is an odd number."
+      },
+      {
+        "french": "douzaine",
+        "english": "dozen",
+        "article": "une",
+        "exampleFr": "J'ai acheté une douzaine d'œufs.",
+        "exampleEn": "I bought a dozen eggs."
+      },
+      {
+        "french": "moitié",
+        "english": "half",
+        "article": "la",
+        "exampleFr": "Je veux la moitié du gâteau.",
+        "exampleEn": "I want half of the cake."
+      },
+      {
+        "french": "quart",
+        "english": "quarter",
+        "article": "un",
+        "exampleFr": "Il est un quart de trois.",
+        "exampleEn": "It is a quarter to three."
+      },
+      {
+        "french": "double",
+        "english": "double",
+        "exampleFr": "Je prends une portion double.",
+        "exampleEn": "I'll have a double portion."
+      },
+      {
+        "french": "triple",
+        "english": "triple",
+        "exampleFr": "Le prix a triplé cette année.",
+        "exampleEn": "The price tripled this year."
+      },
+      {
+        "french": "chiffre",
+        "english": "digit / figure",
+        "article": "le",
+        "exampleFr": "Écris chaque chiffre clairement.",
+        "exampleEn": "Write each digit clearly."
+      },
+      {
+        "french": "nombre",
+        "english": "number",
+        "article": "le",
+        "exampleFr": "Choisis un nombre entre un et dix.",
+        "exampleEn": "Choose a number between one and ten."
+      },
+      {
+        "french": "total",
+        "english": "total",
+        "article": "le",
+        "exampleFr": "Le total est de quarante-cinq euros.",
+        "exampleEn": "The total is forty-five euros."
+      },
+      {
+        "french": "moyenne",
+        "english": "average",
+        "article": "la",
+        "exampleFr": "La moyenne de la classe est bonne.",
+        "exampleEn": "The class average is good."
+      },
+      {
+        "french": "maximum",
+        "english": "maximum",
+        "article": "le",
+        "exampleFr": "Le maximum est cent personnes.",
+        "exampleEn": "The maximum is one hundred people."
+      },
+      {
+        "french": "minimum",
+        "english": "minimum",
+        "article": "le",
+        "exampleFr": "Le minimum est dix euros.",
+        "exampleEn": "The minimum is ten euros."
+      },
+      {
+        "french": "environ",
+        "english": "approximately",
+        "exampleFr": "Il y a environ cent places.",
+        "exampleEn": "There are approximately a hundred seats."
+      },
+      {
+        "french": "exactement",
+        "english": "exactly",
+        "exampleFr": "Il est exactement huit heures.",
+        "exampleEn": "It is exactly eight o'clock."
+      },
+      {
+        "french": "vingt-et-un",
+        "english": "twenty-one",
+        "exampleFr": "J'ai vingt-et-un ans.",
+        "exampleEn": "I am twenty-one years old."
+      },
+      {
+        "french": "soixante-dix",
+        "english": "seventy",
+        "exampleFr": "Mon grand-père a soixante-dix ans.",
+        "exampleEn": "My grandfather is seventy years old."
+      },
+      {
+        "french": "quatre-vingts",
+        "english": "eighty",
+        "exampleFr": "La limite est de quatre-vingts kilomètres.",
+        "exampleEn": "The limit is eighty kilometers."
+      },
+      {
+        "french": "troisième",
+        "english": "third",
+        "exampleFr": "C'est ma troisième visite ici.",
+        "exampleEn": "This is my third visit here."
+      },
+      {
+        "french": "dernier",
+        "english": "last",
+        "context": "ordinal",
+        "exampleFr": "C'est le dernier jour du mois.",
+        "exampleEn": "It is the last day of the month."
+      }
+    ],
+    "dates-times": [
+      {
+        "french": "avant-hier",
+        "english": "the day before yesterday",
+        "exampleFr": "Je suis arrivé avant-hier.",
+        "exampleEn": "I arrived the day before yesterday."
+      },
+      {
+        "french": "après-demain",
+        "english": "the day after tomorrow",
+        "exampleFr": "Nous partons après-demain matin.",
+        "exampleEn": "We leave the day after tomorrow morning."
+      },
+      {
+        "french": "aube",
+        "english": "dawn",
+        "article": "l'",
+        "exampleFr": "L'aube est magnifique en été.",
+        "exampleEn": "Dawn is beautiful in summer."
+      },
+      {
+        "french": "crépuscule",
+        "english": "dusk",
+        "article": "le",
+        "exampleFr": "Nous marchons au crépuscule.",
+        "exampleEn": "We walk at dusk."
+      },
+      {
+        "french": "lever du soleil",
+        "english": "sunrise",
+        "article": "le",
+        "exampleFr": "Le lever du soleil est à six heures.",
+        "exampleEn": "Sunrise is at six o'clock."
+      },
+      {
+        "french": "coucher du soleil",
+        "english": "sunset",
+        "article": "le",
+        "exampleFr": "Admirons le coucher du soleil.",
+        "exampleEn": "Let's admire the sunset."
+      },
+      {
+        "french": "quart d'heure",
+        "english": "quarter of an hour",
+        "article": "un",
+        "exampleFr": "Attends un quart d'heure, s'il te plaît.",
+        "exampleEn": "Wait a quarter of an hour, please."
+      },
+      {
+        "french": "demi-heure",
+        "english": "half an hour",
+        "article": "une",
+        "exampleFr": "Le trajet dure une demi-heure.",
+        "exampleEn": "The trip takes half an hour."
+      },
+      {
+        "french": "horaire",
+        "english": "schedule / timetable",
+        "article": "l'",
+        "exampleFr": "L'horaire des trains a changé.",
+        "exampleEn": "The train schedule has changed."
+      },
+      {
+        "french": "agenda",
+        "english": "diary / planner",
+        "article": "l'",
+        "exampleFr": "J'ai noté le rendez-vous dans l'agenda.",
+        "exampleEn": "I noted the appointment in my planner."
+      },
+      {
+        "french": "emploi du temps",
+        "english": "timetable",
+        "article": "l'",
+        "exampleFr": "L'emploi du temps est affiché à l'entrée.",
+        "exampleEn": "The timetable is posted at the entrance."
+      },
+      {
+        "french": "anniversaire",
+        "english": "birthday",
+        "article": "l'",
+        "exampleFr": "C'est l'anniversaire de ma sœur.",
+        "exampleEn": "It is my sister's birthday."
+      },
+      {
+        "french": "horloge",
+        "english": "clock",
+        "article": "l'",
+        "exampleFr": "L'horloge de la gare est en retard.",
+        "exampleEn": "The station clock is slow."
+      },
+      {
+        "french": "réveil",
+        "english": "alarm clock",
+        "article": "le",
+        "exampleFr": "Mon réveil sonne à sept heures.",
+        "exampleEn": "My alarm clock rings at seven."
+      },
+      {
+        "french": "pause",
+        "english": "break",
+        "article": "la",
+        "exampleFr": "La pause dure quinze minutes.",
+        "exampleEn": "The break lasts fifteen minutes."
+      },
+      {
+        "french": "récemment",
+        "english": "recently",
+        "exampleFr": "Je l'ai vu récemment.",
+        "exampleEn": "I saw him recently."
+      },
+      {
+        "french": "fuseau horaire",
+        "english": "time zone",
+        "article": "le",
+        "exampleFr": "Nous changeons de fuseau horaire.",
+        "exampleEn": "We are changing time zones."
+      },
+      {
+        "french": "ponctuel",
+        "english": "punctual",
+        "exampleFr": "Soyez ponctuel au rendez-vous.",
+        "exampleEn": "Be punctual for the appointment."
+      },
+      {
+        "french": "durée",
+        "english": "duration",
+        "article": "la",
+        "exampleFr": "Quelle est la durée du vol ?",
+        "exampleEn": "What is the duration of the flight?"
+      },
+      {
+        "french": "chronomètre",
+        "english": "stopwatch",
+        "article": "le",
+        "exampleFr": "Le chronomètre mesure le temps de course.",
+        "exampleEn": "The stopwatch measures the race time."
+      },
+      {
+        "french": "instant",
+        "english": "moment",
+        "article": "l'",
+        "exampleFr": "Attends un instant, s'il te plaît.",
+        "exampleEn": "Wait a moment, please."
+      }
+    ],
+    "days": [
+      {
+        "french": "quotidien",
+        "english": "daily",
+        "exampleFr": "C'est mon trajet quotidien.",
+        "exampleEn": "This is my daily commute."
+      },
+      {
+        "french": "fermé",
+        "english": "closed",
+        "exampleFr": "Le musée est fermé le lundi.",
+        "exampleEn": "The museum is closed on Monday."
+      },
+      {
+        "french": "ouvert",
+        "english": "open",
+        "exampleFr": "La boulangerie est ouverte le dimanche.",
+        "exampleEn": "The bakery is open on Sunday."
+      },
+      {
+        "french": "férié",
+        "english": "public holiday",
+        "article": "un jour",
+        "exampleFr": "Lundi est un jour férié.",
+        "exampleEn": "Monday is a public holiday."
+      },
+      {
+        "french": "ouvrable",
+        "english": "working",
+        "context": "day",
+        "exampleFr": "Ce n'est pas un jour ouvrable.",
+        "exampleEn": "It is not a working day."
+      },
+      {
+        "french": "lendemain",
+        "english": "the next day",
+        "article": "le",
+        "exampleFr": "Le lendemain, nous sommes partis tôt.",
+        "exampleEn": "The next day, we left early."
+      },
+      {
+        "french": "veille",
+        "english": "the day before",
+        "article": "la",
+        "exampleFr": "La veille du voyage, je fais ma valise.",
+        "exampleEn": "The day before the trip, I pack my suitcase."
+      },
+      {
+        "french": "fin de semaine",
+        "english": "end of the week",
+        "article": "la",
+        "exampleFr": "On se voit en fin de semaine.",
+        "exampleEn": "We'll see each other at the end of the week."
+      },
+      {
+        "french": "début de semaine",
+        "english": "beginning of the week",
+        "article": "le",
+        "exampleFr": "Le début de semaine est chargé.",
+        "exampleEn": "The beginning of the week is busy."
+      },
+      {
+        "french": "milieu de semaine",
+        "english": "midweek",
+        "article": "le",
+        "exampleFr": "Je préfère voyager en milieu de semaine.",
+        "exampleEn": "I prefer to travel midweek."
+      },
+      {
+        "french": "ce lundi",
+        "english": "this Monday",
+        "exampleFr": "Ce lundi, j'ai un examen.",
+        "exampleEn": "This Monday, I have an exam."
+      },
+      {
+        "french": "lundi prochain",
+        "english": "next Monday",
+        "exampleFr": "Rendez-vous lundi prochain.",
+        "exampleEn": "See you next Monday."
+      },
+      {
+        "french": "mardi dernier",
+        "english": "last Tuesday",
+        "exampleFr": "Mardi dernier, il a plu.",
+        "exampleEn": "Last Tuesday, it rained."
+      },
+      {
+        "french": "mercredi matin",
+        "english": "Wednesday morning",
+        "exampleFr": "Mercredi matin, le cours commence à huit heures.",
+        "exampleEn": "Wednesday morning, class starts at eight."
+      },
+      {
+        "french": "vendredi soir",
+        "english": "Friday evening",
+        "exampleFr": "Vendredi soir, nous sortons au restaurant.",
+        "exampleEn": "Friday evening, we go out to a restaurant."
+      },
+      {
+        "french": "week-end prolongé",
+        "english": "long weekend",
+        "article": "un",
+        "exampleFr": "Nous avons un week-end prolongé.",
+        "exampleEn": "We have a long weekend."
+      },
+      {
+        "french": "pont",
+        "english": "bridge (long weekend)",
+        "article": "un",
+        "exampleFr": "En mai, il y a souvent un pont.",
+        "exampleEn": "In May, there is often a long weekend."
+      },
+      {
+        "french": "jour de repos",
+        "english": "day off",
+        "article": "un",
+        "exampleFr": "Mercredi est mon jour de repos.",
+        "exampleEn": "Wednesday is my day off."
+      },
+      {
+        "french": "planning",
+        "english": "schedule",
+        "article": "le",
+        "exampleFr": "Consulte le planning de la semaine.",
+        "exampleEn": "Check the weekly schedule."
+      },
+      {
+        "french": "chaque lundi",
+        "english": "every Monday",
+        "exampleFr": "Chaque lundi, je fais du sport.",
+        "exampleEn": "Every Monday, I exercise."
+      },
+      {
+        "french": "tous les mardis",
+        "english": "every Tuesday",
+        "exampleFr": "Tous les mardis, elle travaille tard.",
+        "exampleEn": "Every Tuesday, she works late."
+      }
+    ],
+    "months-seasons": [
+      {
+        "french": "trimestre",
+        "english": "quarter (of year)",
+        "article": "le",
+        "exampleFr": "Le premier trimestre se termine en mars.",
+        "exampleEn": "The first quarter ends in March."
+      },
+      {
+        "french": "semestre",
+        "english": "semester",
+        "article": "le",
+        "exampleFr": "Le semestre commence en septembre.",
+        "exampleEn": "The semester starts in September."
+      },
+      {
+        "french": "début d'année",
+        "english": "beginning of the year",
+        "article": "le",
+        "exampleFr": "Au début d'année, je fais des résolutions.",
+        "exampleEn": "At the beginning of the year, I make resolutions."
+      },
+      {
+        "french": "fin d'année",
+        "english": "end of the year",
+        "article": "la",
+        "exampleFr": "La fin d'année est très festive.",
+        "exampleEn": "The end of the year is very festive."
+      },
+      {
+        "french": "mi-août",
+        "english": "mid-August",
+        "exampleFr": "Nous partons en vacances mi-août.",
+        "exampleEn": "We go on vacation in mid-August."
+      },
+      {
+        "french": "plein été",
+        "english": "full summer / midsummer",
+        "exampleFr": "En plein été, il fait très chaud.",
+        "exampleEn": "In midsummer, it is very hot."
+      },
+      {
+        "french": "fin d'hiver",
+        "english": "late winter",
+        "article": "la",
+        "exampleFr": "À la fin d'hiver, les fleurs apparaissent.",
+        "exampleEn": "In late winter, flowers appear."
+      },
+      {
+        "french": "intersaison",
+        "english": "off-season",
+        "article": "l'",
+        "exampleFr": "L'intersaison, les prix sont bas.",
+        "exampleEn": "In the off-season, prices are low."
+      },
+      {
+        "french": "rentrée",
+        "english": "back to school / return",
+        "article": "la",
+        "exampleFr": "La rentrée est en septembre.",
+        "exampleEn": "Back to school is in September."
+      },
+      {
+        "french": "Noël",
+        "english": "Christmas",
+        "exampleFr": "Nous fêtons Noël en famille.",
+        "exampleEn": "We celebrate Christmas with family."
+      },
+      {
+        "french": "Pâques",
+        "english": "Easter",
+        "exampleFr": "À Pâques, les enfants cherchent des œufs.",
+        "exampleEn": "At Easter, children look for eggs."
+      },
+      {
+        "french": "carnaval",
+        "english": "carnival",
+        "article": "le",
+        "exampleFr": "Le carnaval a lieu en février.",
+        "exampleEn": "The carnival takes place in February."
+      },
+      {
+        "french": "printanier",
+        "english": "springlike",
+        "exampleFr": "Le temps est printanier aujourd'hui.",
+        "exampleEn": "The weather is springlike today."
+      },
+      {
+        "french": "estival",
+        "english": "summer",
+        "context": "adj.",
+        "exampleFr": "Le festival estival attire beaucoup de monde.",
+        "exampleEn": "The summer festival attracts many people."
+      },
+      {
+        "french": "automnal",
+        "english": "autumnal",
+        "exampleFr": "Les couleurs automnales sont magnifiques.",
+        "exampleEn": "The autumn colors are magnificent."
+      },
+      {
+        "french": "hivernal",
+        "english": "wintry",
+        "exampleFr": "Un paysage hivernal nous attend.",
+        "exampleEn": "A wintry landscape awaits us."
+      },
+      {
+        "french": "solstice",
+        "english": "solstice",
+        "article": "le",
+        "exampleFr": "Le solstice d'été est le 21 juin.",
+        "exampleEn": "The summer solstice is June 21."
+      },
+      {
+        "french": "équinoxe",
+        "english": "equinox",
+        "article": "l'",
+        "exampleFr": "L'équinoxe de printemps est en mars.",
+        "exampleEn": "The spring equinox is in March."
+      },
+      {
+        "french": "brouillard",
+        "english": "fog",
+        "article": "le",
+        "exampleFr": "Le brouillard est épais en automne.",
+        "exampleEn": "The fog is thick in autumn."
+      },
+      {
+        "french": "gelée",
+        "english": "frost",
+        "article": "la",
+        "exampleFr": "La gelée recouvre les vitres le matin.",
+        "exampleEn": "Frost covers the windows in the morning."
+      },
+      {
+        "french": "canicule",
+        "english": "heatwave",
+        "article": "la",
+        "exampleFr": "La canicule dure tout l'été.",
+        "exampleEn": "The heatwave lasts all summer."
+      }
+    ],
+    "colors": [
+      {
+        "french": "turquoise",
+        "english": "turquoise",
+        "exampleFr": "Sa chambre est peinte en turquoise.",
+        "exampleEn": "Her room is painted turquoise."
+      },
+      {
+        "french": "bordeaux",
+        "english": "burgundy",
+        "exampleFr": "Elle porte une robe bordeaux.",
+        "exampleEn": "She is wearing a burgundy dress."
+      },
+      {
+        "french": "kaki",
+        "english": "khaki",
+        "exampleFr": "Son pantalon est kaki.",
+        "exampleEn": "His pants are khaki."
+      },
+      {
+        "french": "saumon",
+        "english": "salmon",
+        "context": "color",
+        "exampleFr": "Le coussin est de couleur saumon.",
+        "exampleEn": "The cushion is salmon-colored."
+      },
+      {
+        "french": "corail",
+        "english": "coral",
+        "exampleFr": "J'aime les fleurs corail.",
+        "exampleEn": "I like coral-colored flowers."
+      },
+      {
+        "french": "lavande",
+        "english": "lavender",
+        "exampleFr": "La lavande sent bon en été.",
+        "exampleEn": "Lavender smells good in summer."
+      },
+      {
+        "french": "ivoire",
+        "english": "ivory",
+        "exampleFr": "Les rideaux sont ivoire.",
+        "exampleEn": "The curtains are ivory."
+      },
+      {
+        "french": "écarlate",
+        "english": "scarlet",
+        "exampleFr": "Une écharpe écarlate attire l'œil.",
+        "exampleEn": "A scarlet scarf catches the eye."
+      },
+      {
+        "french": "olive",
+        "english": "olive",
+        "context": "color",
+        "exampleFr": "La veste olive va avec tout.",
+        "exampleEn": "The olive jacket goes with everything."
+      },
+      {
+        "french": "menthe",
+        "english": "mint",
+        "context": "color",
+        "exampleFr": "La peinture menthe est apaisante.",
+        "exampleEn": "Mint paint is soothing."
+      },
+      {
+        "french": "pourpre",
+        "english": "purple / crimson",
+        "exampleFr": "Le coucher de soleil est pourpre.",
+        "exampleEn": "The sunset is crimson."
+      },
+      {
+        "french": "cuivré",
+        "english": "copper",
+        "exampleFr": "Ses cheveux sont cuivrés.",
+        "exampleEn": "Her hair is copper-colored."
+      },
+      {
+        "french": "pastel",
+        "english": "pastel",
+        "exampleFr": "Elle préfère les tons pastel.",
+        "exampleEn": "She prefers pastel tones."
+      },
+      {
+        "french": "uni",
+        "english": "plain / solid",
+        "exampleFr": "Je cherche un tissu uni.",
+        "exampleEn": "I am looking for a plain fabric."
+      },
+      {
+        "french": "rayé",
+        "english": "striped",
+        "exampleFr": "Il porte une chemise rayée.",
+        "exampleEn": "He is wearing a striped shirt."
+      },
+      {
+        "french": "taché",
+        "english": "spotted / stained",
+        "exampleFr": "Le chat est gris taché de blanc.",
+        "exampleEn": "The cat is gray with white spots."
+      },
+      {
+        "french": "nuance",
+        "english": "shade / nuance",
+        "article": "une",
+        "exampleFr": "Choisis une nuance de bleu.",
+        "exampleEn": "Choose a shade of blue."
+      },
+      {
+        "french": "teinte",
+        "english": "tint / hue",
+        "article": "une",
+        "exampleFr": "Cette teinte de vert est douce.",
+        "exampleEn": "This green hue is soft."
+      },
+      {
+        "french": "brillant",
+        "english": "shiny / bright",
+        "exampleFr": "La voiture rouge est très brillante.",
+        "exampleEn": "The red car is very shiny."
+      },
+      {
+        "french": "mat",
+        "english": "matte / dull",
+        "exampleFr": "Je préfère un vernis mat.",
+        "exampleEn": "I prefer a matte nail polish."
+      },
+      {
+        "french": "dégradé",
+        "english": "gradient / ombré",
+        "article": "un",
+        "exampleFr": "Le ciel a un beau dégradé de rose.",
+        "exampleEn": "The sky has a beautiful pink gradient."
+      }
+    ],
+    "food-drink": [
+      {
+        "french": "croissant",
+        "english": "croissant",
+        "article": "un",
+        "exampleFr": "Je prends un croissant au petit déjeuner.",
+        "exampleEn": "I have a croissant for breakfast."
+      },
+      {
+        "french": "baguette",
+        "english": "baguette",
+        "article": "une",
+        "exampleFr": "Achète une baguette fraîche.",
+        "exampleEn": "Buy a fresh baguette."
+      },
+      {
+        "french": "yaourt",
+        "english": "yogurt",
+        "article": "un",
+        "exampleFr": "Je mange un yaourt nature.",
+        "exampleEn": "I eat plain yogurt."
+      },
+      {
+        "french": "confiture",
+        "english": "jam",
+        "article": "de la",
+        "exampleFr": "Tu veux de la confiture de fraise ?",
+        "exampleEn": "Do you want strawberry jam?"
+      },
+      {
+        "french": "miel",
+        "english": "honey",
+        "article": "du",
+        "exampleFr": "Mets du miel dans ton thé.",
+        "exampleEn": "Put honey in your tea."
+      },
+      {
+        "french": "huile",
+        "english": "oil",
+        "article": "de l'",
+        "exampleFr": "Ajoute un peu d'huile d'olive.",
+        "exampleEn": "Add a little olive oil."
+      },
+      {
+        "french": "vinaigre",
+        "english": "vinegar",
+        "article": "du",
+        "exampleFr": "La vinaigrette contient du vinaigre.",
+        "exampleEn": "The dressing contains vinegar."
+      },
+      {
+        "french": "poivre",
+        "english": "pepper",
+        "article": "du",
+        "exampleFr": "Passe-moi le poivre, s'il te plaît.",
+        "exampleEn": "Pass me the pepper, please."
+      },
+      {
+        "french": "sauce",
+        "english": "sauce",
+        "article": "la",
+        "exampleFr": "La sauce tomate est maison.",
+        "exampleEn": "The tomato sauce is homemade."
+      },
+      {
+        "french": "plat",
+        "english": "dish / main course",
+        "article": "un",
+        "exampleFr": "Le plat du jour est le poisson.",
+        "exampleEn": "Today's dish is fish."
+      },
+      {
+        "french": "entrée",
+        "english": "starter / appetizer",
+        "article": "l'",
+        "exampleFr": "L'entrée est une soupe.",
+        "exampleEn": "The starter is a soup."
+      },
+      {
+        "french": "jus",
+        "english": "juice",
+        "article": "du",
+        "exampleFr": "Je bois du jus d'orange.",
+        "exampleEn": "I drink orange juice."
+      },
+      {
+        "french": "limonade",
+        "english": "lemonade",
+        "article": "de la",
+        "exampleFr": "En été, j'aime la limonade fraîche.",
+        "exampleEn": "In summer, I like fresh lemonade."
+      },
+      {
+        "french": "chocolat",
+        "english": "chocolate",
+        "article": "du",
+        "exampleFr": "Ce gâteau a du chocolat noir.",
+        "exampleEn": "This cake has dark chocolate."
+      },
+      {
+        "french": "gâteau",
+        "english": "cake",
+        "article": "un",
+        "exampleFr": "Elle prépare un gâteau au citron.",
+        "exampleEn": "She is making a lemon cake."
+      },
+      {
+        "french": "biscuit",
+        "english": "cookie / biscuit",
+        "article": "un",
+        "exampleFr": "Prends un biscuit avec ton café.",
+        "exampleEn": "Have a cookie with your coffee."
+      },
+      {
+        "french": "fourchette",
+        "english": "fork",
+        "article": "une",
+        "exampleFr": "La fourchette est à gauche.",
+        "exampleEn": "The fork is on the left."
+      },
+      {
+        "french": "couteau",
+        "english": "knife",
+        "article": "un",
+        "exampleFr": "Coupe la viande avec un couteau.",
+        "exampleEn": "Cut the meat with a knife."
+      },
+      {
+        "french": "cuillère",
+        "english": "spoon",
+        "article": "une",
+        "exampleFr": "Mange ta soupe avec une cuillère.",
+        "exampleEn": "Eat your soup with a spoon."
+      },
+      {
+        "french": "assiette",
+        "english": "plate",
+        "article": "une",
+        "exampleFr": "Mets les pâtes dans une assiette.",
+        "exampleEn": "Put the pasta on a plate."
+      },
+      {
+        "french": "verre",
+        "english": "glass",
+        "article": "un",
+        "exampleFr": "Remplis un verre d'eau.",
+        "exampleEn": "Fill a glass with water."
+      }
+    ],
+    "fruits-vegetables": [
+      {
+        "french": "pêche",
+        "english": "peach",
+        "article": "une",
+        "exampleFr": "Cette pêche est très juteuse.",
+        "exampleEn": "This peach is very juicy."
+      },
+      {
+        "french": "abricot",
+        "english": "apricot",
+        "article": "un",
+        "exampleFr": "J'adore la confiture d'abricot.",
+        "exampleEn": "I love apricot jam."
+      },
+      {
+        "french": "kiwi",
+        "english": "kiwi",
+        "article": "un",
+        "exampleFr": "Coupe le kiwi en rondelles.",
+        "exampleEn": "Slice the kiwi into rounds."
+      },
+      {
+        "french": "ananas",
+        "english": "pineapple",
+        "article": "l'",
+        "exampleFr": "L'ananas est sucré et frais.",
+        "exampleEn": "The pineapple is sweet and fresh."
+      },
+      {
+        "french": "melon",
+        "english": "melon",
+        "article": "le",
+        "exampleFr": "Le melon est parfait en été.",
+        "exampleEn": "Melon is perfect in summer."
+      },
+      {
+        "french": "pastèque",
+        "english": "watermelon",
+        "article": "la",
+        "exampleFr": "La pastèque est très rafraîchissante.",
+        "exampleEn": "Watermelon is very refreshing."
+      },
+      {
+        "french": "myrtille",
+        "english": "blueberry",
+        "article": "la",
+        "exampleFr": "Ajoute des myrtilles au yaourt.",
+        "exampleEn": "Add blueberries to the yogurt."
+      },
+      {
+        "french": "framboise",
+        "english": "raspberry",
+        "article": "la",
+        "exampleFr": "Les framboises sont délicates.",
+        "exampleEn": "Raspberries are delicate."
+      },
+      {
+        "french": "prune",
+        "english": "plum",
+        "article": "la",
+        "exampleFr": "La prune est mûre à point.",
+        "exampleEn": "The plum is perfectly ripe."
+      },
+      {
+        "french": "brocoli",
+        "english": "broccoli",
+        "article": "le",
+        "exampleFr": "Le brocoli se mange vapeur.",
+        "exampleEn": "Broccoli is eaten steamed."
+      },
+      {
+        "french": "épinard",
+        "english": "spinach",
+        "article": "l'",
+        "exampleFr": "L'épinard est riche en fer.",
+        "exampleEn": "Spinach is rich in iron."
+      },
+      {
+        "french": "courgette",
+        "english": "zucchini",
+        "article": "la",
+        "exampleFr": "Je fais griller la courgette.",
+        "exampleEn": "I grill the zucchini."
+      },
+      {
+        "french": "aubergine",
+        "english": "eggplant",
+        "article": "l'",
+        "exampleFr": "L'aubergine est grillée au four.",
+        "exampleEn": "The eggplant is roasted in the oven."
+      },
+      {
+        "french": "chou",
+        "english": "cabbage",
+        "article": "le",
+        "exampleFr": "Le chou entre dans la salade.",
+        "exampleEn": "Cabbage goes into the salad."
+      },
+      {
+        "french": "navet",
+        "english": "turnip",
+        "article": "le",
+        "exampleFr": "Le navet cuit dans la soupe.",
+        "exampleEn": "The turnip cooks in the soup."
+      },
+      {
+        "french": "poireau",
+        "english": "leek",
+        "article": "le",
+        "exampleFr": "La soupe au poireau est réconfortante.",
+        "exampleEn": "Leek soup is comforting."
+      },
+      {
+        "french": "asperge",
+        "english": "asparagus",
+        "article": "l'",
+        "exampleFr": "L'asperge est de saison au printemps.",
+        "exampleEn": "Asparagus is in season in spring."
+      },
+      {
+        "french": "artichaut",
+        "english": "artichoke",
+        "article": "l'",
+        "exampleFr": "L'artichaut se mange feuille par feuille.",
+        "exampleEn": "Artichoke is eaten leaf by leaf."
+      },
+      {
+        "french": "noix",
+        "english": "walnut",
+        "article": "la",
+        "exampleFr": "Saupoudre de noix sur la salade.",
+        "exampleEn": "Sprinkle walnuts on the salad."
+      },
+      {
+        "french": "amande",
+        "english": "almond",
+        "article": "l'",
+        "exampleFr": "L'amande est croquante et nourrissante.",
+        "exampleEn": "The almond is crunchy and nutritious."
+      },
+      {
+        "french": "figue",
+        "english": "fig",
+        "article": "la",
+        "exampleFr": "La figue est douce et sucrée.",
+        "exampleEn": "The fig is soft and sweet."
+      }
+    ],
+    "family": [
+      {
+        "french": "beau-père",
+        "english": "stepfather / father-in-law",
+        "article": "mon",
+        "exampleFr": "Mon beau-père cuisine très bien.",
+        "exampleEn": "My stepfather cooks very well."
+      },
+      {
+        "french": "belle-mère",
+        "english": "stepmother / mother-in-law",
+        "article": "ma",
+        "exampleFr": "Ma belle-mère habite à Lyon.",
+        "exampleEn": "My mother-in-law lives in Lyon."
+      },
+      {
+        "french": "beau-frère",
+        "english": "brother-in-law / stepbrother",
+        "article": "mon",
+        "exampleFr": "Mon beau-frère joue du piano.",
+        "exampleEn": "My brother-in-law plays piano."
+      },
+      {
+        "french": "belle-sœur",
+        "english": "sister-in-law / stepsister",
+        "article": "ma",
+        "exampleFr": "Ma belle-sœur travaille à l'hôpital.",
+        "exampleEn": "My sister-in-law works at the hospital."
+      },
+      {
+        "french": "neveu",
+        "english": "nephew",
+        "article": "mon",
+        "exampleFr": "Mon neveu a cinq ans.",
+        "exampleEn": "My nephew is five years old."
+      },
+      {
+        "french": "nièce",
+        "english": "niece",
+        "article": "ma",
+        "exampleFr": "Ma nièce adore dessiner.",
+        "exampleEn": "My niece loves to draw."
+      },
+      {
+        "french": "petit-fils",
+        "english": "grandson",
+        "article": "mon",
+        "exampleFr": "Mon petit-fils vient nous voir dimanche.",
+        "exampleEn": "My grandson is coming to see us on Sunday."
+      },
+      {
+        "french": "petite-fille",
+        "english": "granddaughter",
+        "article": "ma",
+        "exampleFr": "Ma petite-fille lit beaucoup.",
+        "exampleEn": "My granddaughter reads a lot."
+      },
+      {
+        "french": "gendre",
+        "english": "son-in-law",
+        "article": "mon",
+        "exampleFr": "Mon gendre est très gentil.",
+        "exampleEn": "My son-in-law is very kind."
+      },
+      {
+        "french": "bru",
+        "english": "daughter-in-law",
+        "article": "ma",
+        "exampleFr": "Ma bru parle trois langues.",
+        "exampleEn": "My daughter-in-law speaks three languages."
+      },
+      {
+        "french": "fiancé",
+        "english": "fiancé",
+        "article": "mon",
+        "exampleFr": "Mon fiancé prépare le mariage.",
+        "exampleEn": "My fiancé is planning the wedding."
+      },
+      {
+        "french": "fiancée",
+        "english": "fiancée",
+        "article": "ma",
+        "exampleFr": "Ma fiancée choisit sa robe.",
+        "exampleEn": "My fiancée is choosing her dress."
+      },
+      {
+        "french": "jumeau",
+        "english": "twin",
+        "context": "m",
+        "exampleFr": "Il a un frère jumeau.",
+        "exampleEn": "He has a twin brother."
+      },
+      {
+        "french": "jumelle",
+        "english": "twin",
+        "context": "f",
+        "exampleFr": "Elle est jumelle de sa sœur.",
+        "exampleEn": "She is her sister's twin."
+      },
+      {
+        "french": "orphelin",
+        "english": "orphan",
+        "article": "un",
+        "exampleFr": "Le roman parle d'un orphelin courageux.",
+        "exampleEn": "The novel is about a brave orphan."
+      },
+      {
+        "french": "foyer",
+        "english": "household / home",
+        "article": "le",
+        "exampleFr": "Notre foyer est chaleureux.",
+        "exampleEn": "Our household is warm."
+      },
+      {
+        "french": "proche",
+        "english": "relative / close one",
+        "article": "un",
+        "exampleFr": "Un proche m'a rendu visite.",
+        "exampleEn": "A relative visited me."
+      },
+      {
+        "french": "ancêtre",
+        "english": "ancestor",
+        "article": "un",
+        "exampleFr": "Mon ancêtre venait de Bretagne.",
+        "exampleEn": "My ancestor came from Brittany."
+      },
+      {
+        "french": "descendant",
+        "english": "descendant",
+        "article": "un",
+        "exampleFr": "Il est descendant d'un artiste célèbre.",
+        "exampleEn": "He is a descendant of a famous artist."
+      },
+      {
+        "french": "belle-famille",
+        "english": "in-laws / spouse's family",
+        "article": "ma",
+        "exampleFr": "Ma belle-famille est accueillante.",
+        "exampleEn": "My in-laws are welcoming."
+      },
+      {
+        "french": "ménage",
+        "english": "household / couple",
+        "article": "le",
+        "exampleFr": "Ils forment un jeune ménage.",
+        "exampleEn": "They are a young couple."
+      }
+    ],
+    "body": [
+      {
+        "french": "genou",
+        "english": "knee",
+        "article": "le",
+        "exampleFr": "Je me suis blessé au genou.",
+        "exampleEn": "I hurt my knee."
+      },
+      {
+        "french": "cheville",
+        "english": "ankle",
+        "article": "la",
+        "exampleFr": "Elle s'est tordu la cheville.",
+        "exampleEn": "She sprained her ankle."
+      },
+      {
+        "french": "orteil",
+        "english": "toe",
+        "article": "l'",
+        "exampleFr": "Je me suis cogné l'orteil.",
+        "exampleEn": "I stubbed my toe."
+      },
+      {
+        "french": "ongle",
+        "english": "nail",
+        "article": "l'",
+        "exampleFr": "Elle se coupe l'ongle.",
+        "exampleEn": "She is cutting her nail."
+      },
+      {
+        "french": "cheveu",
+        "english": "hair",
+        "article": "le",
+        "exampleFr": "Il a un cheveu blanc.",
+        "exampleEn": "He has a white hair."
+      },
+      {
+        "french": "barbe",
+        "english": "beard",
+        "article": "la",
+        "exampleFr": "Il porte une barbe courte.",
+        "exampleEn": "He has a short beard."
+      },
+      {
+        "french": "sourcil",
+        "english": "eyebrow",
+        "article": "le",
+        "exampleFr": "Elle fronce le sourcil.",
+        "exampleEn": "She frowns."
+      },
+      {
+        "french": "cils",
+        "english": "eyelashes",
+        "exampleFr": "Ses cils sont longs.",
+        "exampleEn": "Her eyelashes are long."
+      },
+      {
+        "french": "lèvre",
+        "english": "lip",
+        "article": "la",
+        "exampleFr": "Ses lèvres sont sèches.",
+        "exampleEn": "Her lips are dry."
+      },
+      {
+        "french": "langue",
+        "english": "tongue",
+        "article": "la",
+        "exampleFr": "Brûle-t-on souvent la langue avec le café ?",
+        "exampleEn": "Do people often burn their tongue with coffee?"
+      },
+      {
+        "french": "gorge",
+        "english": "throat",
+        "article": "la",
+        "exampleFr": "J'ai mal à la gorge.",
+        "exampleEn": "I have a sore throat."
+      },
+      {
+        "french": "poitrine",
+        "english": "chest",
+        "article": "la",
+        "exampleFr": "Il ressent une douleur à la poitrine.",
+        "exampleEn": "He feels pain in his chest."
+      },
+      {
+        "french": "hanche",
+        "english": "hip",
+        "article": "la",
+        "exampleFr": "Elle s'est cogné la hanche.",
+        "exampleEn": "She bumped her hip."
+      },
+      {
+        "french": "cuisse",
+        "english": "thigh",
+        "article": "la",
+        "exampleFr": "Le muscle de la cuisse est tendu.",
+        "exampleEn": "The thigh muscle is tight."
+      },
+      {
+        "french": "mollet",
+        "english": "calf",
+        "article": "le",
+        "exampleFr": "Il a une crampe au mollet.",
+        "exampleEn": "He has a cramp in his calf."
+      },
+      {
+        "french": "poignet",
+        "english": "wrist",
+        "article": "le",
+        "exampleFr": "Elle porte une montre au poignet.",
+        "exampleEn": "She wears a watch on her wrist."
+      },
+      {
+        "french": "coude",
+        "english": "elbow",
+        "article": "le",
+        "exampleFr": "Pose les coudes sur la table.",
+        "exampleEn": "Put your elbows on the table."
+      },
+      {
+        "french": "pouce",
+        "english": "thumb",
+        "article": "le",
+        "exampleFr": "Il m'a montré le pouce.",
+        "exampleEn": "He gave me a thumbs-up."
+      },
+      {
+        "french": "paume",
+        "english": "palm",
+        "article": "la",
+        "exampleFr": "Elle tient la pièce dans sa paume.",
+        "exampleEn": "She holds the coin in her palm."
+      },
+      {
+        "french": "front",
+        "english": "forehead",
+        "article": "le",
+        "exampleFr": "Il a de la fièvre au front.",
+        "exampleEn": "His forehead is feverish."
+      },
+      {
+        "french": "menton",
+        "english": "chin",
+        "article": "le",
+        "exampleFr": "Il se touche le menton en réfléchissant.",
+        "exampleEn": "He touches his chin while thinking."
+      }
+    ],
+    "clothing": [
+      {
+        "french": "botte",
+        "english": "boot",
+        "article": "la",
+        "exampleFr": "Elle porte des bottes en hiver.",
+        "exampleEn": "She wears boots in winter."
+      },
+      {
+        "french": "sandale",
+        "english": "sandal",
+        "article": "la",
+        "exampleFr": "Les sandales sont parfaites en été.",
+        "exampleEn": "Sandals are perfect in summer."
+      },
+      {
+        "french": "écharpe",
+        "english": "scarf",
+        "article": "l'",
+        "exampleFr": "L'écharpe protège du vent.",
+        "exampleEn": "The scarf protects from the wind."
+      },
+      {
+        "french": "gant",
+        "english": "glove",
+        "article": "le",
+        "exampleFr": "Mets tes gants, il fait froid.",
+        "exampleEn": "Put on your gloves, it is cold."
+      },
+      {
+        "french": "bonnet",
+        "english": "beanie / cap",
+        "article": "le",
+        "exampleFr": "Le bonnet garde la tête au chaud.",
+        "exampleEn": "The beanie keeps your head warm."
+      },
+      {
+        "french": "pyjama",
+        "english": "pajamas",
+        "article": "le",
+        "exampleFr": "Je mets mon pyjama le soir.",
+        "exampleEn": "I put on my pajamas in the evening."
+      },
+      {
+        "french": "sous-vêtement",
+        "english": "underwear",
+        "article": "un",
+        "exampleFr": "Achète des sous-vêtements propres.",
+        "exampleEn": "Buy clean underwear."
+      },
+      {
+        "french": "short",
+        "english": "shorts",
+        "article": "le",
+        "exampleFr": "Il porte un short en été.",
+        "exampleEn": "He wears shorts in summer."
+      },
+      {
+        "french": "costume",
+        "english": "suit",
+        "article": "le",
+        "exampleFr": "Il porte un costume au bureau.",
+        "exampleEn": "He wears a suit at the office."
+      },
+      {
+        "french": "uniforme",
+        "english": "uniform",
+        "article": "l'",
+        "exampleFr": "L'uniforme est obligatoire à l'école.",
+        "exampleEn": "The uniform is required at school."
+      },
+      {
+        "french": "pointure",
+        "english": "shoe size",
+        "article": "la",
+        "exampleFr": "Quelle est ta pointure ?",
+        "exampleEn": "What is your shoe size?"
+      },
+      {
+        "french": "coton",
+        "english": "cotton",
+        "article": "le",
+        "exampleFr": "Ce t-shirt est en coton.",
+        "exampleEn": "This T-shirt is cotton."
+      },
+      {
+        "french": "laine",
+        "english": "wool",
+        "article": "la",
+        "exampleFr": "Le pull est en laine douce.",
+        "exampleEn": "The sweater is soft wool."
+      },
+      {
+        "french": "soie",
+        "english": "silk",
+        "article": "la",
+        "exampleFr": "La soie est légère et élégante.",
+        "exampleEn": "Silk is light and elegant."
+      },
+      {
+        "french": "fermeture éclair",
+        "english": "zipper",
+        "article": "la",
+        "exampleFr": "La fermeture éclair est cassée.",
+        "exampleEn": "The zipper is broken."
+      },
+      {
+        "french": "bouton",
+        "english": "button",
+        "article": "le",
+        "exampleFr": "Un bouton manque sur la veste.",
+        "exampleEn": "A button is missing on the jacket."
+      },
+      {
+        "french": "poche",
+        "english": "pocket",
+        "article": "la",
+        "exampleFr": "Mes clés sont dans la poche.",
+        "exampleEn": "My keys are in the pocket."
+      },
+      {
+        "french": "bottines",
+        "english": "ankle boots",
+        "article": "les",
+        "exampleFr": "Les bottines vont avec cette robe.",
+        "exampleEn": "The ankle boots go with this dress."
+      },
+      {
+        "french": "collant",
+        "english": "tights",
+        "article": "le",
+        "exampleFr": "Elle porte un collant noir.",
+        "exampleEn": "She is wearing black tights."
+      },
+      {
+        "french": "ceinturon",
+        "english": "belt",
+        "context": "wide",
+        "exampleFr": "Il serre son ceinturon.",
+        "exampleEn": "He tightens his belt."
+      },
+      {
+        "french": "imperméable",
+        "english": "raincoat",
+        "article": "l'",
+        "exampleFr": "L'imperméable est dans le placard.",
+        "exampleEn": "The raincoat is in the closet."
+      }
+    ],
+    "home": [
+      {
+        "french": "meuble",
+        "english": "piece of furniture",
+        "article": "un",
+        "exampleFr": "Ce meuble est très ancien.",
+        "exampleEn": "This piece of furniture is very old."
+      },
+      {
+        "french": "fauteuil",
+        "english": "armchair",
+        "article": "le",
+        "exampleFr": "Lis ton livre dans le fauteuil.",
+        "exampleEn": "Read your book in the armchair."
+      },
+      {
+        "french": "rideau",
+        "english": "curtain",
+        "article": "le",
+        "exampleFr": "Ferme le rideau, s'il te plaît.",
+        "exampleEn": "Close the curtain, please."
+      },
+      {
+        "french": "tapis",
+        "english": "rug / carpet",
+        "article": "le",
+        "exampleFr": "Le tapis est doux sous les pieds.",
+        "exampleEn": "The rug is soft underfoot."
+      },
+      {
+        "french": "étagère",
+        "english": "shelf",
+        "article": "l'",
+        "exampleFr": "Les livres sont sur l'étagère.",
+        "exampleEn": "The books are on the shelf."
+      },
+      {
+        "french": "oreiller",
+        "english": "pillow",
+        "article": "l'",
+        "exampleFr": "L'oreiller est trop plat.",
+        "exampleEn": "The pillow is too flat."
+      },
+      {
+        "french": "couverture",
+        "english": "blanket",
+        "article": "la",
+        "exampleFr": "Prends une couverture, il fait froid.",
+        "exampleEn": "Take a blanket, it is cold."
+      },
+      {
+        "french": "drap",
+        "english": "sheet",
+        "article": "le",
+        "exampleFr": "Change les draps du lit.",
+        "exampleEn": "Change the bed sheets."
+      },
+      {
+        "french": "serviette",
+        "english": "towel",
+        "article": "la",
+        "exampleFr": "Accroche la serviette après la douche.",
+        "exampleEn": "Hang the towel after the shower."
+      },
+      {
+        "french": "douche",
+        "english": "shower",
+        "article": "la",
+        "exampleFr": "Je prends une douche le matin.",
+        "exampleEn": "I take a shower in the morning."
+      },
+      {
+        "french": "baignoire",
+        "english": "bathtub",
+        "article": "la",
+        "exampleFr": "Les enfants jouent dans la baignoire.",
+        "exampleEn": "The children play in the bathtub."
+      },
+      {
+        "french": "lavabo",
+        "english": "sink / washbasin",
+        "article": "le",
+        "exampleFr": "Lave-toi les mains au lavabo.",
+        "exampleEn": "Wash your hands at the sink."
+      },
+      {
+        "french": "balcon",
+        "english": "balcony",
+        "article": "le",
+        "exampleFr": "Nous prenons le café sur le balcon.",
+        "exampleEn": "We have coffee on the balcony."
+      },
+      {
+        "french": "garage",
+        "english": "garage",
+        "article": "le",
+        "exampleFr": "La voiture est dans le garage.",
+        "exampleEn": "The car is in the garage."
+      },
+      {
+        "french": "grenier",
+        "english": "attic",
+        "article": "le",
+        "exampleFr": "Les vieux cartons sont au grenier.",
+        "exampleEn": "The old boxes are in the attic."
+      },
+      {
+        "french": "cave",
+        "english": "cellar / basement",
+        "article": "la",
+        "exampleFr": "Le vin est stocké dans la cave.",
+        "exampleEn": "The wine is stored in the cellar."
+      },
+      {
+        "french": "couloir",
+        "english": "hallway",
+        "article": "le",
+        "exampleFr": "Les chaussures sont dans le couloir.",
+        "exampleEn": "The shoes are in the hallway."
+      },
+      {
+        "french": "plafond",
+        "english": "ceiling",
+        "article": "le",
+        "exampleFr": "La lampe est fixée au plafond.",
+        "exampleEn": "The lamp is fixed to the ceiling."
+      },
+      {
+        "french": "mur",
+        "english": "wall",
+        "article": "le",
+        "exampleFr": "Accroche le tableau au mur.",
+        "exampleEn": "Hang the picture on the wall."
+      },
+      {
+        "french": "prise",
+        "english": "electrical outlet",
+        "article": "la",
+        "exampleFr": "Branche le chargeur à la prise.",
+        "exampleEn": "Plug the charger into the outlet."
+      },
+      {
+        "french": "interrupteur",
+        "english": "light switch",
+        "article": "l'",
+        "exampleFr": "L'interrupteur est près de la porte.",
+        "exampleEn": "The light switch is near the door."
+      }
+    ],
+    "school": [
+      {
+        "french": "tableau",
+        "english": "board / blackboard",
+        "article": "le",
+        "exampleFr": "Le professeur écrit au tableau.",
+        "exampleEn": "The teacher writes on the board."
+      },
+      {
+        "french": "craie",
+        "english": "chalk",
+        "article": "la",
+        "exampleFr": "La craie laisse de la poussière.",
+        "exampleEn": "Chalk leaves dust."
+      },
+      {
+        "french": "gomme",
+        "english": "eraser",
+        "article": "la",
+        "exampleFr": "Prête-moi ta gomme, s'il te plaît.",
+        "exampleEn": "Lend me your eraser, please."
+      },
+      {
+        "french": "règle",
+        "english": "ruler",
+        "article": "la",
+        "exampleFr": "Trace une ligne avec la règle.",
+        "exampleEn": "Draw a line with the ruler."
+      },
+      {
+        "french": "sac à dos",
+        "english": "backpack",
+        "article": "le",
+        "exampleFr": "Mon sac à dos est lourd.",
+        "exampleEn": "My backpack is heavy."
+      },
+      {
+        "french": "cantine",
+        "english": "cafeteria",
+        "article": "la",
+        "exampleFr": "Nous déjeunons à la cantine.",
+        "exampleEn": "We have lunch in the cafeteria."
+      },
+      {
+        "french": "récréation",
+        "english": "recess / break",
+        "article": "la",
+        "exampleFr": "Les élèves jouent à la récréation.",
+        "exampleEn": "The students play at recess."
+      },
+      {
+        "french": "diplôme",
+        "english": "diploma / degree",
+        "article": "le",
+        "exampleFr": "Elle a obtenu son diplôme.",
+        "exampleEn": "She earned her diploma."
+      },
+      {
+        "french": "université",
+        "english": "university",
+        "article": "l'",
+        "exampleFr": "Il étudie à l'université.",
+        "exampleEn": "He studies at university."
+      },
+      {
+        "french": "licence",
+        "english": "bachelor's degree",
+        "article": "la",
+        "exampleFr": "Elle prépare une licence de droit.",
+        "exampleEn": "She is pursuing a law degree."
+      },
+      {
+        "french": "présence",
+        "english": "attendance",
+        "article": "la",
+        "exampleFr": "La présence est obligatoire.",
+        "exampleEn": "Attendance is mandatory."
+      },
+      {
+        "french": "absence",
+        "english": "absence",
+        "article": "l'",
+        "exampleFr": "Son absence a été justifiée.",
+        "exampleEn": "His absence was excused."
+      },
+      {
+        "french": "note",
+        "english": "grade / mark",
+        "article": "la",
+        "exampleFr": "J'ai eu une bonne note en maths.",
+        "exampleEn": "I got a good grade in math."
+      },
+      {
+        "french": "leçon",
+        "english": "lesson",
+        "article": "la",
+        "exampleFr": "La leçon dure une heure.",
+        "exampleEn": "The lesson lasts one hour."
+      },
+      {
+        "french": "exercice",
+        "english": "exercise",
+        "article": "l'",
+        "exampleFr": "Fais l'exercice numéro trois.",
+        "exampleEn": "Do exercise number three."
+      },
+      {
+        "french": "copie",
+        "english": "test paper / copy",
+        "article": "la",
+        "exampleFr": "Rends ta copie avant la fin.",
+        "exampleEn": "Hand in your paper before the end."
+      },
+      {
+        "french": "classeur",
+        "english": "binder / folder",
+        "article": "le",
+        "exampleFr": "Range tes feuilles dans le classeur.",
+        "exampleEn": "Put your sheets in the binder."
+      },
+      {
+        "french": "trousse",
+        "english": "pencil case",
+        "article": "la",
+        "exampleFr": "Ma trousse contient des stylos.",
+        "exampleEn": "My pencil case contains pens."
+      },
+      {
+        "french": "surveillant",
+        "english": "proctor / supervisor",
+        "article": "le",
+        "exampleFr": "Le surveillant observe la salle.",
+        "exampleEn": "The proctor watches the room."
+      },
+      {
+        "french": "directeur",
+        "english": "principal / director",
+        "article": "le",
+        "exampleFr": "Le directeur accueille les parents.",
+        "exampleEn": "The principal welcomes the parents."
+      },
+      {
+        "french": "salle de classe",
+        "english": "classroom",
+        "article": "la",
+        "exampleFr": "La salle de classe est au premier étage.",
+        "exampleEn": "The classroom is on the first floor."
+      }
+    ],
+    "work": [
+      {
+        "french": "stage",
+        "english": "internship",
+        "article": "le",
+        "exampleFr": "Je fais un stage en marketing.",
+        "exampleEn": "I am doing an internship in marketing."
+      },
+      {
+        "french": "retraite",
+        "english": "retirement",
+        "article": "la",
+        "exampleFr": "Il part à la retraite l'an prochain.",
+        "exampleEn": "He is retiring next year."
+      },
+      {
+        "french": "congé",
+        "english": "leave / time off",
+        "article": "le",
+        "exampleFr": "Je prends un congé en août.",
+        "exampleEn": "I am taking time off in August."
+      },
+      {
+        "french": "plein temps",
+        "english": "full-time",
+        "exampleFr": "Elle travaille à plein temps.",
+        "exampleEn": "She works full-time."
+      },
+      {
+        "french": "mi-temps",
+        "english": "part-time",
+        "exampleFr": "Il cherche un emploi à mi-temps.",
+        "exampleEn": "He is looking for a part-time job."
+      },
+      {
+        "french": "embauche",
+        "english": "hiring",
+        "article": "l'",
+        "exampleFr": "L'embauche commence en janvier.",
+        "exampleEn": "Hiring starts in January."
+      },
+      {
+        "french": "licenciement",
+        "english": "layoff / dismissal",
+        "article": "le",
+        "exampleFr": "Le licenciement a surpris tout le monde.",
+        "exampleEn": "The layoff surprised everyone."
+      },
+      {
+        "french": "démission",
+        "english": "resignation",
+        "article": "la",
+        "exampleFr": "Sa démission est effective demain.",
+        "exampleEn": "His resignation takes effect tomorrow."
+      },
+      {
+        "french": "promotion",
+        "english": "promotion",
+        "article": "la",
+        "exampleFr": "Elle a eu une promotion.",
+        "exampleEn": "She got a promotion."
+      },
+      {
+        "french": "métier",
+        "english": "trade / profession",
+        "article": "le",
+        "exampleFr": "Son métier demande de la patience.",
+        "exampleEn": "His profession requires patience."
+      },
+      {
+        "french": "profession",
+        "english": "profession",
+        "article": "la",
+        "exampleFr": "Quelle profession veux-tu exercer ?",
+        "exampleEn": "What profession do you want to pursue?"
+      },
+      {
+        "french": "secteur",
+        "english": "sector",
+        "article": "le",
+        "exampleFr": "Le secteur touristique recrute.",
+        "exampleEn": "The tourism sector is hiring."
+      },
+      {
+        "french": "client",
+        "english": "client / customer",
+        "article": "le",
+        "exampleFr": "Le client attend une réponse rapide.",
+        "exampleEn": "The client expects a quick answer."
+      },
+      {
+        "french": "fournisseur",
+        "english": "supplier",
+        "article": "le",
+        "exampleFr": "Notre fournisseur livre chaque lundi.",
+        "exampleEn": "Our supplier delivers every Monday."
+      },
+      {
+        "french": "entretien",
+        "english": "interview",
+        "article": "l'",
+        "exampleFr": "L'entretien dure trente minutes.",
+        "exampleEn": "The interview lasts thirty minutes."
+      },
+      {
+        "french": "CV",
+        "english": "résumé / CV",
+        "article": "le",
+        "exampleFr": "Envoie ton CV par courriel.",
+        "exampleEn": "Send your résumé by email."
+      },
+      {
+        "french": "horaire de travail",
+        "english": "work schedule",
+        "article": "l'",
+        "exampleFr": "L'horaire de travail est flexible.",
+        "exampleEn": "The work schedule is flexible."
+      },
+      {
+        "french": "pause déjeuner",
+        "english": "lunch break",
+        "article": "la",
+        "exampleFr": "La pause déjeuner dure une heure.",
+        "exampleEn": "The lunch break lasts one hour."
+      },
+      {
+        "french": "télétravail",
+        "english": "remote work",
+        "article": "le",
+        "exampleFr": "Le télétravail est possible le vendredi.",
+        "exampleEn": "Remote work is possible on Friday."
+      },
+      {
+        "french": "collaborateur",
+        "english": "coworker",
+        "article": "un",
+        "exampleFr": "Un collaborateur m'a aidé hier.",
+        "exampleEn": "A coworker helped me yesterday."
+      },
+      {
+        "french": "salaire net",
+        "english": "net salary",
+        "article": "le",
+        "exampleFr": "Mon salaire net arrive le 28.",
+        "exampleEn": "My net salary arrives on the 28th."
+      }
+    ],
+    "animals": [
+      {
+        "french": "renard",
+        "english": "fox",
+        "article": "le",
+        "exampleFr": "Le renard traverse la forêt.",
+        "exampleEn": "The fox crosses the forest."
+      },
+      {
+        "french": "loup",
+        "english": "wolf",
+        "article": "le",
+        "exampleFr": "Le loup hurle la nuit.",
+        "exampleEn": "The wolf howls at night."
+      },
+      {
+        "french": "singe",
+        "english": "monkey",
+        "article": "le",
+        "exampleFr": "Le singe grimpe dans l'arbre.",
+        "exampleEn": "The monkey climbs the tree."
+      },
+      {
+        "french": "baleine",
+        "english": "whale",
+        "article": "la",
+        "exampleFr": "La baleine nage dans l'océan.",
+        "exampleEn": "The whale swims in the ocean."
+      },
+      {
+        "french": "dauphin",
+        "english": "dolphin",
+        "article": "le",
+        "exampleFr": "Le dauphin saute hors de l'eau.",
+        "exampleEn": "The dolphin jumps out of the water."
+      },
+      {
+        "french": "tigre",
+        "english": "tiger",
+        "article": "le",
+        "exampleFr": "Le tigre est un grand félin.",
+        "exampleEn": "The tiger is a big feline."
+      },
+      {
+        "french": "girafe",
+        "english": "giraffe",
+        "article": "la",
+        "exampleFr": "La girafe a un long cou.",
+        "exampleEn": "The giraffe has a long neck."
+      },
+      {
+        "french": "zèbre",
+        "english": "zebra",
+        "article": "le",
+        "exampleFr": "Le zèbre a des rayures noires.",
+        "exampleEn": "The zebra has black stripes."
+      },
+      {
+        "french": "papillon",
+        "english": "butterfly",
+        "article": "le",
+        "exampleFr": "Un papillon se pose sur la fleur.",
+        "exampleEn": "A butterfly lands on the flower."
+      },
+      {
+        "french": "abeille",
+        "english": "bee",
+        "article": "l'",
+        "exampleFr": "L'abeille butine dans le jardin.",
+        "exampleEn": "The bee gathers pollen in the garden."
+      },
+      {
+        "french": "mouche",
+        "english": "fly",
+        "article": "la",
+        "exampleFr": "Une mouche tourne autour de la table.",
+        "exampleEn": "A fly buzzes around the table."
+      },
+      {
+        "french": "araignée",
+        "english": "spider",
+        "article": "l'",
+        "exampleFr": "L'araignée tisse sa toile.",
+        "exampleEn": "The spider weaves its web."
+      },
+      {
+        "french": "canard",
+        "english": "duck",
+        "article": "le",
+        "exampleFr": "Le canard nage sur l'étang.",
+        "exampleEn": "The duck swims on the pond."
+      },
+      {
+        "french": "chèvre",
+        "english": "goat",
+        "article": "la",
+        "exampleFr": "La chèvre broute dans le pré.",
+        "exampleEn": "The goat grazes in the meadow."
+      },
+      {
+        "french": "âne",
+        "english": "donkey",
+        "article": "l'",
+        "exampleFr": "L'âne porte les sacs.",
+        "exampleEn": "The donkey carries the bags."
+      },
+      {
+        "french": "hibou",
+        "english": "owl",
+        "article": "le",
+        "exampleFr": "Le hibou chasse la nuit.",
+        "exampleEn": "The owl hunts at night."
+      },
+      {
+        "french": "écureuil",
+        "english": "squirrel",
+        "article": "l'",
+        "exampleFr": "L'écureuil grimpe vite.",
+        "exampleEn": "The squirrel climbs quickly."
+      },
+      {
+        "french": "hamster",
+        "english": "hamster",
+        "article": "le",
+        "exampleFr": "Le hamster court dans sa roue.",
+        "exampleEn": "The hamster runs in its wheel."
+      },
+      {
+        "french": "perroquet",
+        "english": "parrot",
+        "article": "le",
+        "exampleFr": "Le perroquet répète des mots.",
+        "exampleEn": "The parrot repeats words."
+      },
+      {
+        "french": "reptile",
+        "english": "reptile",
+        "article": "le",
+        "exampleFr": "Le reptile aime la chaleur.",
+        "exampleEn": "The reptile likes warmth."
+      },
+      {
+        "french": "aquarium",
+        "english": "aquarium",
+        "article": "l'",
+        "exampleFr": "Les poissons nagent dans l'aquarium.",
+        "exampleEn": "The fish swim in the aquarium."
+      }
+    ],
+    "nature-weather": [
+      {
+        "french": "orage",
+        "english": "storm",
+        "article": "l'",
+        "exampleFr": "L'orage approche ce soir.",
+        "exampleEn": "The storm is coming tonight."
+      },
+      {
+        "french": "éclair",
+        "english": "lightning",
+        "article": "l'",
+        "exampleFr": "J'ai vu un éclair dans le ciel.",
+        "exampleEn": "I saw lightning in the sky."
+      },
+      {
+        "french": "tonnerre",
+        "english": "thunder",
+        "article": "le",
+        "exampleFr": "Le tonnerre me fait peur.",
+        "exampleEn": "Thunder scares me."
+      },
+      {
+        "french": "grêle",
+        "english": "hail",
+        "article": "la",
+        "exampleFr": "La grêle a abîmé les voitures.",
+        "exampleEn": "The hail damaged the cars."
+      },
+      {
+        "french": "gel",
+        "english": "frost / freezing",
+        "article": "le",
+        "exampleFr": "Le gel a tué les fleurs.",
+        "exampleEn": "The frost killed the flowers."
+      },
+      {
+        "french": "bruine",
+        "english": "drizzle",
+        "article": "la",
+        "exampleFr": "Une fine bruine tombe ce matin.",
+        "exampleEn": "A light drizzle is falling this morning."
+      },
+      {
+        "french": "aurore",
+        "english": "dawn / aurora",
+        "article": "l'",
+        "exampleFr": "L'aurore colore le ciel.",
+        "exampleEn": "The dawn colors the sky."
+      },
+      {
+        "french": "lac",
+        "english": "lake",
+        "article": "le",
+        "exampleFr": "Nous pique-niquons au bord du lac.",
+        "exampleEn": "We picnic by the lake."
+      },
+      {
+        "french": "cascade",
+        "english": "waterfall",
+        "article": "la",
+        "exampleFr": "La cascade est magnifique.",
+        "exampleEn": "The waterfall is magnificent."
+      },
+      {
+        "french": "vallée",
+        "english": "valley",
+        "article": "la",
+        "exampleFr": "Le village est dans la vallée.",
+        "exampleEn": "The village is in the valley."
+      },
+      {
+        "french": "colline",
+        "english": "hill",
+        "article": "la",
+        "exampleFr": "Nous montons la colline à pied.",
+        "exampleEn": "We climb the hill on foot."
+      },
+      {
+        "french": "désert",
+        "english": "desert",
+        "article": "le",
+        "exampleFr": "Le désert est très sec.",
+        "exampleEn": "The desert is very dry."
+      },
+      {
+        "french": "île",
+        "english": "island",
+        "article": "l'",
+        "exampleFr": "L'île est entourée d'eau.",
+        "exampleEn": "The island is surrounded by water."
+      },
+      {
+        "french": "rocher",
+        "english": "rock / boulder",
+        "article": "le",
+        "exampleFr": "Le rocher domine la plage.",
+        "exampleEn": "The boulder overlooks the beach."
+      },
+      {
+        "french": "sable",
+        "english": "sand",
+        "article": "le",
+        "exampleFr": "Les enfants jouent dans le sable.",
+        "exampleEn": "The children play in the sand."
+      },
+      {
+        "french": "humidité",
+        "english": "humidity",
+        "article": "l'",
+        "exampleFr": "L'humidité est élevée aujourd'hui.",
+        "exampleEn": "Humidity is high today."
+      },
+      {
+        "french": "sécheresse",
+        "english": "drought",
+        "article": "la",
+        "exampleFr": "La sécheresse dure depuis des mois.",
+        "exampleEn": "The drought has lasted for months."
+      },
+      {
+        "french": "inondation",
+        "english": "flood",
+        "article": "l'",
+        "exampleFr": "L'inondation a forcé les évacuations.",
+        "exampleEn": "The flood forced evacuations."
+      },
+      {
+        "french": "brise",
+        "english": "breeze",
+        "article": "la",
+        "exampleFr": "Une brise fraîche souffle du nord.",
+        "exampleEn": "A cool breeze blows from the north."
+      },
+      {
+        "french": "nuageux",
+        "english": "cloudy",
+        "exampleFr": "Le ciel est nuageux ce matin.",
+        "exampleEn": "The sky is cloudy this morning."
+      },
+      {
+        "french": "ensoleillé",
+        "english": "sunny",
+        "exampleFr": "La journée sera ensoleillée.",
+        "exampleEn": "The day will be sunny."
+      }
+    ],
+    "travel": [
+      {
+        "french": "embarquement",
+        "english": "boarding",
+        "article": "l'",
+        "exampleFr": "L'embarquement commence à dix heures.",
+        "exampleEn": "Boarding starts at ten o'clock."
+      },
+      {
+        "french": "atterrissage",
+        "english": "landing",
+        "article": "l'",
+        "exampleFr": "L'atterrissage est prévu à midi.",
+        "exampleEn": "Landing is scheduled at noon."
+      },
+      {
+        "french": "décollage",
+        "english": "takeoff",
+        "article": "le",
+        "exampleFr": "Le décollage est retardé.",
+        "exampleEn": "Takeoff is delayed."
+      },
+      {
+        "french": "correspondance",
+        "english": "connection / transfer",
+        "article": "la",
+        "exampleFr": "J'ai une correspondance à Paris.",
+        "exampleEn": "I have a connection in Paris."
+      },
+      {
+        "french": "quai",
+        "english": "platform / dock",
+        "article": "le",
+        "exampleFr": "Le train part du quai trois.",
+        "exampleEn": "The train leaves from platform three."
+      },
+      {
+        "french": "bagage",
+        "english": "luggage",
+        "article": "le",
+        "exampleFr": "Mon bagage est perdu.",
+        "exampleEn": "My luggage is lost."
+      },
+      {
+        "french": "carte d'embarquement",
+        "english": "boarding pass",
+        "article": "la",
+        "exampleFr": "Montre ta carte d'embarquement.",
+        "exampleEn": "Show your boarding pass."
+      },
+      {
+        "french": "visa",
+        "english": "visa",
+        "article": "le",
+        "exampleFr": "Il faut un visa pour ce pays.",
+        "exampleEn": "You need a visa for this country."
+      },
+      {
+        "french": "auberge",
+        "english": "hostel / inn",
+        "article": "l'",
+        "exampleFr": "L'auberge est bon marché.",
+        "exampleEn": "The hostel is inexpensive."
+      },
+      {
+        "french": "camping",
+        "english": "campsite / camping",
+        "article": "le",
+        "exampleFr": "Nous dormons au camping.",
+        "exampleEn": "We sleep at the campsite."
+      },
+      {
+        "french": "carte routière",
+        "english": "road map",
+        "article": "la",
+        "exampleFr": "Consulte la carte routière.",
+        "exampleEn": "Check the road map."
+      },
+      {
+        "french": "GPS",
+        "english": "GPS",
+        "article": "le",
+        "exampleFr": "Le GPS indique la bonne route.",
+        "exampleEn": "The GPS shows the right route."
+      },
+      {
+        "french": "péage",
+        "english": "toll",
+        "article": "le",
+        "exampleFr": "Le péage coûte cinq euros.",
+        "exampleEn": "The toll costs five euros."
+      },
+      {
+        "french": "carburant",
+        "english": "fuel",
+        "article": "le",
+        "exampleFr": "Le carburant est cher.",
+        "exampleEn": "Fuel is expensive."
+      },
+      {
+        "french": "location",
+        "english": "rental",
+        "article": "la",
+        "exampleFr": "La location de voiture est confirmée.",
+        "exampleEn": "The car rental is confirmed."
+      },
+      {
+        "french": "guide touristique",
+        "english": "travel guide",
+        "article": "le",
+        "exampleFr": "Le guide touristique recommande ce musée.",
+        "exampleEn": "The travel guide recommends this museum."
+      },
+      {
+        "french": "souvenir",
+        "english": "souvenir",
+        "article": "un",
+        "exampleFr": "J'ai acheté un souvenir pour toi.",
+        "exampleEn": "I bought a souvenir for you."
+      },
+      {
+        "french": "départ",
+        "english": "departure",
+        "article": "le",
+        "exampleFr": "Le départ est à huit heures.",
+        "exampleEn": "Departure is at eight o'clock."
+      },
+      {
+        "french": "itinéraire",
+        "english": "itinerary / route",
+        "article": "l'",
+        "exampleFr": "L'itinéraire passe par Lyon.",
+        "exampleEn": "The route goes through Lyon."
+      },
+      {
+        "french": "croisière",
+        "english": "cruise",
+        "article": "la",
+        "exampleFr": "Ils partent en croisière en Méditerranée.",
+        "exampleEn": "They are going on a Mediterranean cruise."
+      },
+      {
+        "french": "frontière",
+        "english": "border",
+        "article": "la",
+        "exampleFr": "Nous traversons la frontière demain.",
+        "exampleEn": "We cross the border tomorrow."
+      }
+    ],
+    "city-directions": [
+      {
+        "french": "carrefour",
+        "english": "intersection",
+        "article": "le",
+        "exampleFr": "Tournez à droite au carrefour.",
+        "exampleEn": "Turn right at the intersection."
+      },
+      {
+        "french": "rond-point",
+        "english": "roundabout",
+        "article": "le",
+        "exampleFr": "Prenez la deuxième sortie au rond-point.",
+        "exampleEn": "Take the second exit at the roundabout."
+      },
+      {
+        "french": "feu rouge",
+        "english": "traffic light",
+        "article": "le",
+        "exampleFr": "Arrêtez-vous au feu rouge.",
+        "exampleEn": "Stop at the traffic light."
+      },
+      {
+        "french": "trottoir",
+        "english": "sidewalk",
+        "article": "le",
+        "exampleFr": "Marchez sur le trottoir.",
+        "exampleEn": "Walk on the sidewalk."
+      },
+      {
+        "french": "passage piéton",
+        "english": "crosswalk",
+        "article": "le",
+        "exampleFr": "Traversez au passage piéton.",
+        "exampleEn": "Cross at the crosswalk."
+      },
+      {
+        "french": "stationnement",
+        "english": "parking",
+        "article": "le",
+        "exampleFr": "Le stationnement est payant ici.",
+        "exampleEn": "Parking is paid here."
+      },
+      {
+        "french": "mairie",
+        "english": "town hall",
+        "article": "la",
+        "exampleFr": "La mairie est sur la place.",
+        "exampleEn": "The town hall is on the square."
+      },
+      {
+        "french": "commissariat",
+        "english": "police station",
+        "article": "le",
+        "exampleFr": "Le commissariat est ouvert vingt-quatre heures.",
+        "exampleEn": "The police station is open twenty-four hours."
+      },
+      {
+        "french": "fontaine",
+        "english": "fountain",
+        "article": "la",
+        "exampleFr": "Les enfants jouent près de la fontaine.",
+        "exampleEn": "The children play near the fountain."
+      },
+      {
+        "french": "monument",
+        "english": "monument",
+        "article": "le",
+        "exampleFr": "Ce monument date du dix-neuvième siècle.",
+        "exampleEn": "This monument dates from the nineteenth century."
+      },
+      {
+        "french": "quartier",
+        "english": "neighborhood / district",
+        "article": "le",
+        "exampleFr": "J'habite dans un quartier calme.",
+        "exampleEn": "I live in a quiet neighborhood."
+      },
+      {
+        "french": "centre-ville",
+        "english": "downtown / city center",
+        "article": "le",
+        "exampleFr": "Le centre-ville est très animé.",
+        "exampleEn": "Downtown is very lively."
+      },
+      {
+        "french": "périphérie",
+        "english": "outskirts / suburbs",
+        "article": "la",
+        "exampleFr": "Ils habitent en périphérie.",
+        "exampleEn": "They live on the outskirts."
+      },
+      {
+        "french": "nord",
+        "english": "north",
+        "article": "le",
+        "exampleFr": "La gare est au nord de la ville.",
+        "exampleEn": "The station is north of the city."
+      },
+      {
+        "french": "sud",
+        "english": "south",
+        "article": "le",
+        "exampleFr": "Nous allons vers le sud.",
+        "exampleEn": "We are heading south."
+      },
+      {
+        "french": "est",
+        "english": "east",
+        "article": "l'",
+        "exampleFr": "Le soleil se lève à l'est.",
+        "exampleEn": "The sun rises in the east."
+      },
+      {
+        "french": "ouest",
+        "english": "west",
+        "article": "l'",
+        "exampleFr": "Le soleil se couche à l'ouest.",
+        "exampleEn": "The sun sets in the west."
+      },
+      {
+        "french": "en face de",
+        "english": "opposite",
+        "exampleFr": "La boulangerie est en face de la banque.",
+        "exampleEn": "The bakery is opposite the bank."
+      },
+      {
+        "french": "au coin de",
+        "english": "on the corner of",
+        "exampleFr": "Le café est au coin de la rue.",
+        "exampleEn": "The café is on the corner of the street."
+      },
+      {
+        "french": "au bout de",
+        "english": "at the end of",
+        "exampleFr": "L'école est au bout de la rue.",
+        "exampleEn": "The school is at the end of the street."
+      },
+      {
+        "french": "plan de ville",
+        "english": "city map",
+        "article": "le",
+        "exampleFr": "Prends un plan de ville à l'office de tourisme.",
+        "exampleEn": "Get a city map at the tourist office."
+      }
+    ],
+    "shopping-money": [
+      {
+        "french": "reçu",
+        "english": "receipt",
+        "article": "le",
+        "exampleFr": "Gardez le reçu pour le retour.",
+        "exampleEn": "Keep the receipt for the return."
+      },
+      {
+        "french": "remise",
+        "english": "discount",
+        "article": "la",
+        "exampleFr": "Il y a une remise de dix pour cent.",
+        "exampleEn": "There is a ten percent discount."
+      },
+      {
+        "french": "rabais",
+        "english": "markdown / discount",
+        "article": "le",
+        "exampleFr": "Ce magasin propose un rabais de vingt pour cent.",
+        "exampleEn": "This store offers a twenty percent markdown."
+      },
+      {
+        "french": "étiquette",
+        "english": "price tag / label",
+        "article": "l'",
+        "exampleFr": "L'étiquette indique le prix.",
+        "exampleEn": "The label shows the price."
+      },
+      {
+        "french": "rayon",
+        "english": "department / aisle",
+        "article": "le",
+        "exampleFr": "Les fruits sont au rayon trois.",
+        "exampleEn": "The fruit is in aisle three."
+      },
+      {
+        "french": "caddie",
+        "english": "shopping cart",
+        "article": "le",
+        "exampleFr": "Prenez un caddie à l'entrée.",
+        "exampleEn": "Take a shopping cart at the entrance."
+      },
+      {
+        "french": "panier",
+        "english": "basket",
+        "article": "le",
+        "exampleFr": "Mon panier est déjà plein.",
+        "exampleEn": "My basket is already full."
+      },
+      {
+        "french": "caissier",
+        "english": "cashier",
+        "article": "le",
+        "exampleFr": "Le caissier scanne les articles.",
+        "exampleEn": "The cashier scans the items."
+      },
+      {
+        "french": "caissière",
+        "english": "cashier",
+        "context": "f",
+        "exampleFr": "La caissière demande si vous avez la carte.",
+        "exampleEn": "The cashier asks if you have the card."
+      },
+      {
+        "french": "échange",
+        "english": "exchange",
+        "article": "l'",
+        "exampleFr": "L'échange est possible sous quinze jours.",
+        "exampleEn": "Exchange is possible within fifteen days."
+      },
+      {
+        "french": "remboursement",
+        "english": "refund",
+        "article": "le",
+        "exampleFr": "Je demande un remboursement.",
+        "exampleEn": "I am asking for a refund."
+      },
+      {
+        "french": "crédit",
+        "english": "credit",
+        "article": "le",
+        "exampleFr": "Je paie par carte de crédit.",
+        "exampleEn": "I pay by credit card."
+      },
+      {
+        "french": "débit",
+        "english": "debit",
+        "article": "le",
+        "exampleFr": "Le paiement par débit est accepté.",
+        "exampleEn": "Debit payment is accepted."
+      },
+      {
+        "french": "portefeuille",
+        "english": "wallet",
+        "article": "le",
+        "exampleFr": "J'ai oublié mon portefeuille.",
+        "exampleEn": "I forgot my wallet."
+      },
+      {
+        "french": "pièce",
+        "english": "coin",
+        "article": "la",
+        "exampleFr": "As-tu une pièce de deux euros ?",
+        "exampleEn": "Do you have a two-euro coin?"
+      },
+      {
+        "french": "billet",
+        "english": "banknote / bill",
+        "article": "le",
+        "exampleFr": "Il paie avec un billet de vingt.",
+        "exampleEn": "He pays with a twenty-euro note."
+      },
+      {
+        "french": "budget",
+        "english": "budget",
+        "article": "le",
+        "exampleFr": "Mon budget est limité ce mois-ci.",
+        "exampleEn": "My budget is limited this month."
+      },
+      {
+        "french": "économie",
+        "english": "savings / economy",
+        "article": "l'",
+        "exampleFr": "J'essaie de faire des économies.",
+        "exampleEn": "I try to save money."
+      },
+      {
+        "french": "comparer",
+        "english": "to compare",
+        "exampleFr": "Compare les prix avant d'acheter.",
+        "exampleEn": "Compare prices before buying."
+      },
+      {
+        "french": "négocier",
+        "english": "to negotiate",
+        "exampleFr": "On peut négocier au marché.",
+        "exampleEn": "You can negotiate at the market."
+      },
+      {
+        "french": "soldé",
+        "english": "on sale",
+        "exampleFr": "Ce manteau est soldé à moitié prix.",
+        "exampleEn": "This coat is half price on sale."
+      }
+    ],
+    "health": [
+      {
+        "french": "rendez-vous médical",
+        "english": "medical appointment",
+        "article": "un",
+        "exampleFr": "J'ai un rendez-vous médical mardi.",
+        "exampleEn": "I have a medical appointment on Tuesday."
+      },
+      {
+        "french": "consultation",
+        "english": "consultation",
+        "article": "la",
+        "exampleFr": "La consultation dure vingt minutes.",
+        "exampleEn": "The consultation lasts twenty minutes."
+      },
+      {
+        "french": "vaccin",
+        "english": "vaccine",
+        "article": "le",
+        "exampleFr": "Le vaccin protège contre la grippe.",
+        "exampleEn": "The vaccine protects against the flu."
+      },
+      {
+        "french": "piqûre",
+        "english": "injection / sting",
+        "article": "la",
+        "exampleFr": "La piqûre fait un peu mal.",
+        "exampleEn": "The injection hurts a little."
+      },
+      {
+        "french": "pansement",
+        "english": "bandage / dressing",
+        "article": "le",
+        "exampleFr": "Mets un pansement sur la plaie.",
+        "exampleEn": "Put a bandage on the wound."
+      },
+      {
+        "french": "thermomètre",
+        "english": "thermometer",
+        "article": "le",
+        "exampleFr": "Le thermomètre indique trente-huit degrés.",
+        "exampleEn": "The thermometer reads thirty-eight degrees."
+      },
+      {
+        "french": "symptôme",
+        "english": "symptom",
+        "article": "le",
+        "exampleFr": "Quels sont vos symptômes ?",
+        "exampleEn": "What are your symptoms?"
+      },
+      {
+        "french": "diagnostic",
+        "english": "diagnosis",
+        "article": "le",
+        "exampleFr": "Le diagnostic est rassurant.",
+        "exampleEn": "The diagnosis is reassuring."
+      },
+      {
+        "french": "traitement",
+        "english": "treatment",
+        "article": "le",
+        "exampleFr": "Le traitement dure une semaine.",
+        "exampleEn": "The treatment lasts one week."
+      },
+      {
+        "french": "opération",
+        "english": "surgery / operation",
+        "article": "l'",
+        "exampleFr": "L'opération est prévue vendredi.",
+        "exampleEn": "The surgery is scheduled for Friday."
+      },
+      {
+        "french": "dentiste",
+        "english": "dentist",
+        "article": "le",
+        "exampleFr": "Je vais chez le dentiste demain.",
+        "exampleEn": "I am going to the dentist tomorrow."
+      },
+      {
+        "french": "kinésithérapeute",
+        "english": "physiotherapist",
+        "article": "le",
+        "exampleFr": "Le kinésithérapeute m'aide à marcher.",
+        "exampleEn": "The physiotherapist helps me walk."
+      },
+      {
+        "french": "opticien",
+        "english": "optician",
+        "article": "l'",
+        "exampleFr": "L'opticien vérifie ma vue.",
+        "exampleEn": "The optician checks my eyesight."
+      },
+      {
+        "french": "lunettes",
+        "english": "glasses",
+        "article": "les",
+        "exampleFr": "J'ai perdu mes lunettes.",
+        "exampleEn": "I lost my glasses."
+      },
+      {
+        "french": "vitamine",
+        "english": "vitamin",
+        "article": "la",
+        "exampleFr": "Prends une vitamine chaque matin.",
+        "exampleEn": "Take a vitamin every morning."
+      },
+      {
+        "french": "régime",
+        "english": "diet",
+        "article": "le",
+        "exampleFr": "Il suit un régime sans sucre.",
+        "exampleEn": "He follows a sugar-free diet."
+      },
+      {
+        "french": "forme",
+        "english": "fitness / shape",
+        "article": "la",
+        "exampleFr": "Je suis en bonne forme.",
+        "exampleEn": "I am in good shape."
+      },
+      {
+        "french": "éternuer",
+        "english": "to sneeze",
+        "exampleFr": "Il commence à éternuer.",
+        "exampleEn": "He is starting to sneeze."
+      },
+      {
+        "french": "vomir",
+        "english": "to vomit",
+        "exampleFr": "Elle se sent mal et veut vomir.",
+        "exampleEn": "She feels sick and wants to vomit."
+      },
+      {
+        "french": "saigner",
+        "english": "to bleed",
+        "exampleFr": "Son doigt commence à saigner.",
+        "exampleEn": "His finger is starting to bleed."
+      },
+      {
+        "french": "premiers secours",
+        "english": "first aid",
+        "article": "les",
+        "exampleFr": "Il connaît les premiers secours.",
+        "exampleEn": "He knows first aid."
+      }
+    ],
+    "sports-hobbies": [
+      {
+        "french": "entraînement",
+        "english": "training / workout",
+        "article": "l'",
+        "exampleFr": "L'entraînement commence à sept heures.",
+        "exampleEn": "Training starts at seven o'clock."
+      },
+      {
+        "french": "compétition",
+        "english": "competition",
+        "article": "la",
+        "exampleFr": "La compétition aura lieu samedi.",
+        "exampleEn": "The competition will take place on Saturday."
+      },
+      {
+        "french": "champion",
+        "english": "champion",
+        "article": "le",
+        "exampleFr": "Le champion remporte la médaille.",
+        "exampleEn": "The champion wins the medal."
+      },
+      {
+        "french": "médaille",
+        "english": "medal",
+        "article": "la",
+        "exampleFr": "Elle gagne une médaille d'or.",
+        "exampleEn": "She wins a gold medal."
+      },
+      {
+        "french": "stade",
+        "english": "stadium",
+        "article": "le",
+        "exampleFr": "Le stade est plein ce soir.",
+        "exampleEn": "The stadium is full tonight."
+      },
+      {
+        "french": "piscine",
+        "english": "swimming pool",
+        "article": "la",
+        "exampleFr": "Nous nageons à la piscine.",
+        "exampleEn": "We swim at the pool."
+      },
+      {
+        "french": "raquette",
+        "english": "racket",
+        "article": "la",
+        "exampleFr": "Ma raquette de tennis est neuve.",
+        "exampleEn": "My tennis racket is new."
+      },
+      {
+        "french": "ballon",
+        "english": "ball",
+        "article": "le",
+        "exampleFr": "Les enfants jouent avec le ballon.",
+        "exampleEn": "The children play with the ball."
+      },
+      {
+        "french": "vélo de route",
+        "english": "road bike",
+        "article": "le",
+        "exampleFr": "Il fait du vélo de route le dimanche.",
+        "exampleEn": "He goes road cycling on Sunday."
+      },
+      {
+        "french": "randonnée",
+        "english": "hike",
+        "article": "la",
+        "exampleFr": "La randonnée dure trois heures.",
+        "exampleEn": "The hike lasts three hours."
+      },
+      {
+        "french": "yoga",
+        "english": "yoga",
+        "article": "le",
+        "exampleFr": "Je fais du yoga le matin.",
+        "exampleEn": "I do yoga in the morning."
+      },
+      {
+        "french": "photographie",
+        "english": "photography",
+        "article": "la",
+        "exampleFr": "La photographie est son passe-temps.",
+        "exampleEn": "Photography is his hobby."
+      },
+      {
+        "french": "peinture",
+        "english": "painting",
+        "context": "hobby",
+        "exampleFr": "Elle pratique la peinture le week-end.",
+        "exampleEn": "She practices painting on weekends."
+      },
+      {
+        "french": "jardinage",
+        "english": "gardening",
+        "article": "le",
+        "exampleFr": "Le jardinage le détend.",
+        "exampleEn": "Gardening relaxes him."
+      },
+      {
+        "french": "couture",
+        "english": "sewing",
+        "article": "la",
+        "exampleFr": "Elle apprend la couture.",
+        "exampleEn": "She is learning sewing."
+      },
+      {
+        "french": "puzzle",
+        "english": "puzzle",
+        "article": "le",
+        "exampleFr": "Nous finissons un puzzle ce soir.",
+        "exampleEn": "We are finishing a puzzle tonight."
+      },
+      {
+        "french": "échecs",
+        "english": "chess",
+        "article": "les",
+        "exampleFr": "Il joue aux échecs avec son père.",
+        "exampleEn": "He plays chess with his father."
+      },
+      {
+        "french": "spectateur",
+        "english": "spectator",
+        "article": "le",
+        "exampleFr": "Les spectateurs applaudissent.",
+        "exampleEn": "The spectators applaud."
+      },
+      {
+        "french": "arbitre",
+        "english": "referee",
+        "article": "l'",
+        "exampleFr": "L'arbitre siffle la fin du match.",
+        "exampleEn": "The referee blows the whistle to end the match."
+      },
+      {
+        "french": "victoire",
+        "english": "victory",
+        "article": "la",
+        "exampleFr": "L'équipe célèbre sa victoire.",
+        "exampleEn": "The team celebrates its victory."
+      },
+      {
+        "french": "défaite",
+        "english": "defeat",
+        "article": "la",
+        "exampleFr": "La défaite était difficile à accepter.",
+        "exampleEn": "The defeat was hard to accept."
+      }
+    ],
+    "emotions": [
+      {
+        "french": "anxieux",
+        "english": "anxious",
+        "context": "m",
+        "exampleFr": "Il est anxieux avant l'examen.",
+        "exampleEn": "He is anxious before the exam."
+      },
+      {
+        "french": "anxieuse",
+        "english": "anxious",
+        "context": "f",
+        "exampleFr": "Elle se sent anxieuse ce matin.",
+        "exampleEn": "She feels anxious this morning."
+      },
+      {
+        "french": "jaloux",
+        "english": "jealous",
+        "context": "m",
+        "exampleFr": "Il est jaloux de son succès.",
+        "exampleEn": "He is jealous of his success."
+      },
+      {
+        "french": "jalouse",
+        "english": "jealous",
+        "context": "f",
+        "exampleFr": "Elle est jalouse de sa sœur.",
+        "exampleEn": "She is jealous of her sister."
+      },
+      {
+        "french": "fière",
+        "english": "proud",
+        "context": "f",
+        "exampleFr": "Elle est fière de son travail.",
+        "exampleEn": "She is proud of her work."
+      },
+      {
+        "french": "fier",
+        "english": "proud",
+        "context": "m",
+        "exampleFr": "Il est fier de ses enfants.",
+        "exampleEn": "He is proud of his children."
+      },
+      {
+        "french": "déçu",
+        "english": "disappointed",
+        "context": "m",
+        "exampleFr": "Je suis déçu par le résultat.",
+        "exampleEn": "I am disappointed by the result."
+      },
+      {
+        "french": "déçue",
+        "english": "disappointed",
+        "context": "f",
+        "exampleFr": "Elle est déçue de la note.",
+        "exampleEn": "She is disappointed with the grade."
+      },
+      {
+        "french": "nerveux",
+        "english": "nervous",
+        "context": "m",
+        "exampleFr": "Il est nerveux avant de parler.",
+        "exampleEn": "He is nervous before speaking."
+      },
+      {
+        "french": "nerveuse",
+        "english": "nervous",
+        "context": "f",
+        "exampleFr": "Elle est nerveuse à l'aéroport.",
+        "exampleEn": "She is nervous at the airport."
+      },
+      {
+        "french": "calme",
+        "english": "calm",
+        "exampleFr": "Reste calme, tout va bien.",
+        "exampleEn": "Stay calm, everything is fine."
+      },
+      {
+        "french": "inquiet",
+        "english": "worried",
+        "context": "m",
+        "exampleFr": "Mon père est inquiet pour moi.",
+        "exampleEn": "My father is worried about me."
+      },
+      {
+        "french": "inquiète",
+        "english": "worried",
+        "context": "f",
+        "exampleFr": "Ma mère est inquiète ce soir.",
+        "exampleEn": "My mother is worried tonight."
+      },
+      {
+        "french": "soulagé",
+        "english": "relieved",
+        "context": "m",
+        "exampleFr": "Je suis soulagé d'avoir fini.",
+        "exampleEn": "I am relieved to be done."
+      },
+      {
+        "french": "soulagée",
+        "english": "relieved",
+        "context": "f",
+        "exampleFr": "Elle est soulagée après l'appel.",
+        "exampleEn": "She is relieved after the call."
+      },
+      {
+        "french": "émotion",
+        "english": "emotion",
+        "article": "l'",
+        "exampleFr": "L'émotion est forte dans la salle.",
+        "exampleEn": "The emotion is strong in the room."
+      },
+      {
+        "french": "honte",
+        "english": "shame",
+        "article": "la",
+        "exampleFr": "Il rougit de honte.",
+        "exampleEn": "He blushes with shame."
+      },
+      {
+        "french": "espoir",
+        "english": "hope",
+        "article": "l'",
+        "exampleFr": "L'espoir revient petit à petit.",
+        "exampleEn": "Hope is slowly returning."
+      },
+      {
+        "french": "regret",
+        "english": "regret",
+        "article": "le",
+        "exampleFr": "Il exprime son regret.",
+        "exampleEn": "He expresses his regret."
+      },
+      {
+        "french": "nostalgie",
+        "english": "nostalgia",
+        "article": "la",
+        "exampleFr": "La nostalgie me prend en écoutant cette chanson.",
+        "exampleEn": "Nostalgia hits me listening to this song."
+      },
+      {
+        "french": "enthousiasme",
+        "english": "enthusiasm",
+        "article": "l'",
+        "exampleFr": "L'enthousiasme est contagieux.",
+        "exampleEn": "Enthusiasm is contagious."
+      }
+    ],
+    "adjectives": [
+      {
+        "french": "lent",
+        "english": "slow",
+        "exampleFr": "Le service est lent aujourd'hui.",
+        "exampleEn": "The service is slow today."
+      },
+      {
+        "french": "rapide",
+        "english": "fast",
+        "exampleFr": "Ce train est très rapide.",
+        "exampleEn": "This train is very fast."
+      },
+      {
+        "french": "léger",
+        "english": "light",
+        "context": "weight",
+        "exampleFr": "Ce sac est léger.",
+        "exampleEn": "This bag is light."
+      },
+      {
+        "french": "lourd",
+        "english": "heavy",
+        "exampleFr": "La valise est trop lourde.",
+        "exampleEn": "The suitcase is too heavy."
+      },
+      {
+        "french": "doux",
+        "english": "soft / sweet",
+        "context": "m",
+        "exampleFr": "Le tissu est doux au toucher.",
+        "exampleEn": "The fabric is soft to the touch."
+      },
+      {
+        "french": "dure",
+        "english": "hard / tough",
+        "context": "f",
+        "exampleFr": "La viande est dure.",
+        "exampleEn": "The meat is tough."
+      },
+      {
+        "french": "sec",
+        "english": "dry",
+        "context": "m",
+        "exampleFr": "Le climat est sec ici.",
+        "exampleEn": "The climate is dry here."
+      },
+      {
+        "french": "humide",
+        "english": "humid / damp",
+        "exampleFr": "L'air est humide ce matin.",
+        "exampleEn": "The air is humid this morning."
+      },
+      {
+        "french": "propre",
+        "english": "clean",
+        "exampleFr": "La chambre est propre.",
+        "exampleEn": "The room is clean."
+      },
+      {
+        "french": "sale",
+        "english": "dirty",
+        "exampleFr": "Mes chaussures sont sales.",
+        "exampleEn": "My shoes are dirty."
+      },
+      {
+        "french": "plein",
+        "english": "full",
+        "exampleFr": "Le verre est plein.",
+        "exampleEn": "The glass is full."
+      },
+      {
+        "french": "vide",
+        "english": "empty",
+        "exampleFr": "Le frigo est vide.",
+        "exampleEn": "The fridge is empty."
+      },
+      {
+        "french": "fort",
+        "english": "strong / loud",
+        "exampleFr": "Le café est trop fort.",
+        "exampleEn": "The coffee is too strong."
+      },
+      {
+        "french": "faible",
+        "english": "weak / faint",
+        "exampleFr": "Sa voix est faible.",
+        "exampleEn": "His voice is faint."
+      },
+      {
+        "french": "sérieux",
+        "english": "serious",
+        "context": "m",
+        "exampleFr": "C'est un problème sérieux.",
+        "exampleEn": "It is a serious problem."
+      },
+      {
+        "french": "drôle",
+        "english": "funny",
+        "exampleFr": "Ce film est très drôle.",
+        "exampleEn": "This film is very funny."
+      },
+      {
+        "french": "gentil",
+        "english": "kind",
+        "context": "m",
+        "exampleFr": "Il est gentil avec tout le monde.",
+        "exampleEn": "He is kind to everyone."
+      },
+      {
+        "french": "méchant",
+        "english": "mean / nasty",
+        "exampleFr": "Ne sois pas méchant.",
+        "exampleEn": "Don't be mean."
+      },
+      {
+        "french": "ancien",
+        "english": "old / former",
+        "context": "m",
+        "exampleFr": "C'est mon ancien professeur.",
+        "exampleEn": "He is my former teacher."
+      },
+      {
+        "french": "moderne",
+        "english": "modern",
+        "exampleFr": "L'appartement est très moderne.",
+        "exampleEn": "The apartment is very modern."
+      },
+      {
+        "french": "pareil",
+        "english": "the same / similar",
+        "exampleFr": "C'est pareil pour moi.",
+        "exampleEn": "It is the same for me."
+      }
+    ],
+    "greetings-basics": [
+      {
+        "french": "bonne journée",
+        "english": "have a nice day",
+        "exampleFr": "Bonne journée et à bientôt !",
+        "exampleEn": "Have a nice day and see you soon!"
+      },
+      {
+        "french": "bonne soirée",
+        "english": "have a nice evening",
+        "exampleFr": "Bonne soirée à tous !",
+        "exampleEn": "Have a nice evening, everyone!"
+      },
+      {
+        "french": "bonne nuit",
+        "english": "good night",
+        "exampleFr": "Bonne nuit, dors bien.",
+        "exampleEn": "Good night, sleep well."
+      },
+      {
+        "french": "bienvenue",
+        "english": "welcome",
+        "exampleFr": "Bienvenue chez nous !",
+        "exampleEn": "Welcome to our home!"
+      },
+      {
+        "french": "félicitations",
+        "english": "congratulations",
+        "exampleFr": "Félicitations pour ton diplôme !",
+        "exampleEn": "Congratulations on your diploma!"
+      },
+      {
+        "french": "bon courage",
+        "english": "good luck / hang in there",
+        "exampleFr": "Bon courage pour ton examen !",
+        "exampleEn": "Good luck with your exam!"
+      },
+      {
+        "french": "bon appétit",
+        "english": "enjoy your meal",
+        "exampleFr": "Bon appétit à table !",
+        "exampleEn": "Enjoy your meal!"
+      },
+      {
+        "french": "bon voyage",
+        "english": "have a good trip",
+        "exampleFr": "Bon voyage et écris-moi !",
+        "exampleEn": "Have a good trip and write to me!"
+      },
+      {
+        "french": "bonne chance",
+        "english": "good luck",
+        "exampleFr": "Bonne chance pour demain !",
+        "exampleEn": "Good luck for tomorrow!"
+      },
+      {
+        "french": "à tout à l'heure",
+        "english": "see you later today",
+        "exampleFr": "À tout à l'heure au bureau.",
+        "exampleEn": "See you later at the office."
+      },
+      {
+        "french": "à plus tard",
+        "english": "see you later",
+        "exampleFr": "À plus tard, on se parle.",
+        "exampleEn": "See you later, we'll talk."
+      },
+      {
+        "french": "à la prochaine",
+        "english": "until next time",
+        "exampleFr": "À la prochaine, prends soin de toi.",
+        "exampleEn": "Until next time, take care."
+      },
+      {
+        "french": "ravi de vous rencontrer",
+        "english": "pleased to meet you",
+        "exampleFr": "Ravi de vous rencontrer, madame.",
+        "exampleEn": "Pleased to meet you, madam."
+      },
+      {
+        "french": "comment tu t'appelles",
+        "english": "what is your name",
+        "exampleFr": "Comment tu t'appelles ?",
+        "exampleEn": "What is your name?"
+      },
+      {
+        "french": "enchantée",
+        "english": "pleased to meet you",
+        "context": "f",
+        "exampleFr": "Enchantée, je m'appelle Marie.",
+        "exampleEn": "Pleased to meet you, my name is Marie."
+      },
+      {
+        "french": "à vos souhaits",
+        "english": "bless you",
+        "context": "after sneeze",
+        "exampleFr": "À vos souhaits !",
+        "exampleEn": "Bless you!"
+      },
+      {
+        "french": "santé",
+        "english": "cheers / bless you",
+        "context": "toast",
+        "exampleFr": "Santé !",
+        "exampleEn": "Cheers!"
+      },
+      {
+        "french": "bon rétablissement",
+        "english": "get well soon",
+        "exampleFr": "Bon rétablissement et repose-toi.",
+        "exampleEn": "Get well soon and rest."
+      },
+      {
+        "french": "joyeux anniversaire",
+        "english": "happy birthday",
+        "exampleFr": "Joyeux anniversaire !",
+        "exampleEn": "Happy birthday!"
+      },
+      {
+        "french": "joyeuses fêtes",
+        "english": "happy holidays",
+        "exampleFr": "Joyeuses fêtes à toute la famille !",
+        "exampleEn": "Happy holidays to the whole family!"
+      },
+      {
+        "french": "avec plaisir",
+        "english": "with pleasure / gladly",
+        "exampleFr": "Avec plaisir, je t'aide.",
+        "exampleEn": "Gladly, I will help you."
+      }
+    ],
+    "questions": [
+      {
+        "french": "lequel",
+        "english": "which one",
+        "context": "m sing.",
+        "exampleFr": "Lequel préfères-tu ?",
+        "exampleEn": "Which one do you prefer?"
+      },
+      {
+        "french": "laquelle",
+        "english": "which one",
+        "context": "f sing.",
+        "exampleFr": "Laquelle est ta robe ?",
+        "exampleEn": "Which one is your dress?"
+      },
+      {
+        "french": "lesquels",
+        "english": "which ones",
+        "context": "m pl.",
+        "exampleFr": "Lesquels veux-tu emporter ?",
+        "exampleEn": "Which ones do you want to take?"
+      },
+      {
+        "french": "lesquelles",
+        "english": "which ones",
+        "context": "f pl.",
+        "exampleFr": "Lesquelles sont les tiennes ?",
+        "exampleEn": "Which ones are yours?"
+      },
+      {
+        "french": "combien de",
+        "english": "how many",
+        "exampleFr": "Combien de personnes viennent ?",
+        "exampleEn": "How many people are coming?"
+      },
+      {
+        "french": "à quelle heure",
+        "english": "at what time",
+        "exampleFr": "À quelle heure part le train ?",
+        "exampleEn": "At what time does the train leave?"
+      },
+      {
+        "french": "depuis quand",
+        "english": "since when",
+        "exampleFr": "Depuis quand habites-tu ici ?",
+        "exampleEn": "Since when have you lived here?"
+      },
+      {
+        "french": "jusqu'à quand",
+        "english": "until when",
+        "exampleFr": "Jusqu'à quand restes-tu ?",
+        "exampleEn": "Until when are you staying?"
+      },
+      {
+        "french": "à quoi",
+        "english": "what for / about what",
+        "exampleFr": "À quoi penses-tu ?",
+        "exampleEn": "What are you thinking about?"
+      },
+      {
+        "french": "de quoi",
+        "english": "about what / of what",
+        "exampleFr": "De quoi parlez-vous ?",
+        "exampleEn": "What are you talking about?"
+      },
+      {
+        "french": "avec qui",
+        "english": "with whom",
+        "exampleFr": "Avec qui vas-tu au cinéma ?",
+        "exampleEn": "With whom are you going to the cinema?"
+      },
+      {
+        "french": "chez qui",
+        "english": "at whose place",
+        "exampleFr": "Chez qui dînes-tu ce soir ?",
+        "exampleEn": "At whose place are you having dinner tonight?"
+      },
+      {
+        "french": "est-ce que tu",
+        "english": "do you (informal)",
+        "exampleFr": "Est-ce que tu viens avec nous ?",
+        "exampleEn": "Are you coming with us?"
+      },
+      {
+        "french": "n'est-ce pas",
+        "english": "isn't it / right",
+        "exampleFr": "Il fait beau, n'est-ce pas ?",
+        "exampleEn": "It is nice out, isn't it?"
+      },
+      {
+        "french": "qu'est-ce qui",
+        "english": "what (subject)",
+        "exampleFr": "Qu'est-ce qui se passe ?",
+        "exampleEn": "What is happening?"
+      },
+      {
+        "french": "qu'est-ce que tu fais",
+        "english": "what are you doing",
+        "exampleFr": "Qu'est-ce que tu fais ce soir ?",
+        "exampleEn": "What are you doing tonight?"
+      },
+      {
+        "french": "où est-ce que",
+        "english": "where (emphatic)",
+        "exampleFr": "Où est-ce que tu habites ?",
+        "exampleEn": "Where do you live?"
+      },
+      {
+        "french": "comment ça va",
+        "english": "how are things",
+        "exampleFr": "Salut, comment ça va ?",
+        "exampleEn": "Hi, how are things?"
+      },
+      {
+        "french": "tu veux dire",
+        "english": "you mean",
+        "exampleFr": "Tu veux dire demain matin ?",
+        "exampleEn": "You mean tomorrow morning?"
+      },
+      {
+        "french": "c'est vrai",
+        "english": "is that true",
+        "exampleFr": "C'est vrai qu'il part ?",
+        "exampleEn": "Is it true that he is leaving?"
+      },
+      {
+        "french": "tu es sûr",
+        "english": "are you sure",
+        "exampleFr": "Tu es sûr de l'adresse ?",
+        "exampleEn": "Are you sure about the address?"
+      }
+    ],
+    "prepositions": [
+      {
+        "french": "vers",
+        "english": "toward",
+        "exampleFr": "Nous marchons vers la gare.",
+        "exampleEn": "We walk toward the station."
+      },
+      {
+        "french": "contre",
+        "english": "against",
+        "exampleFr": "Il s'appuie contre le mur.",
+        "exampleEn": "He leans against the wall."
+      },
+      {
+        "french": "malgré",
+        "english": "despite",
+        "exampleFr": "Malgré la pluie, nous sortons.",
+        "exampleEn": "Despite the rain, we go out."
+      },
+      {
+        "french": "selon",
+        "english": "according to",
+        "exampleFr": "Selon le plan, c'est ici.",
+        "exampleEn": "According to the map, it is here."
+      },
+      {
+        "french": "pendant que",
+        "english": "while",
+        "exampleFr": "Pendant que tu cuisines, je mets la table.",
+        "exampleEn": "While you cook, I set the table."
+      },
+      {
+        "french": "avant de",
+        "english": "before (verb)",
+        "exampleFr": "Lave-toi les mains avant de manger.",
+        "exampleEn": "Wash your hands before eating."
+      },
+      {
+        "french": "après avoir",
+        "english": "after (having)",
+        "exampleFr": "Après avoir fini, nous sortons.",
+        "exampleEn": "After finishing, we go out."
+      },
+      {
+        "french": "afin de",
+        "english": "in order to",
+        "exampleFr": "J'étudie afin de réussir.",
+        "exampleEn": "I study in order to succeed."
+      },
+      {
+        "french": "grâce à",
+        "english": "thanks to",
+        "exampleFr": "Grâce à toi, j'ai compris.",
+        "exampleEn": "Thanks to you, I understood."
+      },
+      {
+        "french": "à cause de",
+        "english": "because of",
+        "exampleFr": "Le vol est annulé à cause du brouillard.",
+        "exampleEn": "The flight is canceled because of the fog."
+      },
+      {
+        "french": "autour de",
+        "english": "around",
+        "exampleFr": "Les chaises sont autour de la table.",
+        "exampleEn": "The chairs are around the table."
+      },
+      {
+        "french": "au-dessus de",
+        "english": "above",
+        "exampleFr": "Le tableau est au-dessus du canapé.",
+        "exampleEn": "The picture is above the sofa."
+      },
+      {
+        "french": "en dessous de",
+        "english": "below",
+        "exampleFr": "Le chat dort en dessous du lit.",
+        "exampleEn": "The cat sleeps below the bed."
+      },
+      {
+        "french": "au milieu de",
+        "english": "in the middle of",
+        "exampleFr": "Il est au milieu de la rue.",
+        "exampleEn": "He is in the middle of the street."
+      },
+      {
+        "french": "à travers",
+        "english": "through",
+        "exampleFr": "Nous passons à travers le parc.",
+        "exampleEn": "We go through the park."
+      },
+      {
+        "french": "le long de",
+        "english": "along",
+        "exampleFr": "Nous marchons le long de la rivière.",
+        "exampleEn": "We walk along the river."
+      },
+      {
+        "french": "face à",
+        "english": "facing",
+        "exampleFr": "La fenêtre est face à la mer.",
+        "exampleEn": "The window faces the sea."
+      },
+      {
+        "french": "quant à",
+        "english": "as for",
+        "exampleFr": "Quant à moi, je préfère rester.",
+        "exampleEn": "As for me, I prefer to stay."
+      },
+      {
+        "french": "hors de",
+        "english": "outside of",
+        "exampleFr": "Il est hors de question de partir.",
+        "exampleEn": "Leaving is out of the question."
+      },
+      {
+        "french": "parmi",
+        "english": "among",
+        "exampleFr": "Elle est parmi les meilleures.",
+        "exampleEn": "She is among the best."
+      },
+      {
+        "french": "suivant",
+        "english": "following / according to",
+        "exampleFr": "Suivant la météo, on décidera.",
+        "exampleEn": "Depending on the weather, we will decide."
+      }
+    ],
+    "common-verbs": [
+      {
+        "french": "chercher",
+        "english": "to look for",
+        "exampleFr": "Je cherche mes clés.",
+        "exampleEn": "I am looking for my keys."
+      },
+      {
+        "french": "trouver",
+        "english": "to find",
+        "exampleFr": "Tu as trouvé la solution ?",
+        "exampleEn": "Did you find the solution?"
+      },
+      {
+        "french": "perdre",
+        "english": "to lose",
+        "exampleFr": "Ne perds pas ton billet.",
+        "exampleEn": "Don't lose your ticket."
+      },
+      {
+        "french": "garder",
+        "english": "to keep",
+        "exampleFr": "Tu peux garder le livre.",
+        "exampleEn": "You can keep the book."
+      },
+      {
+        "french": "oublier",
+        "english": "to forget",
+        "exampleFr": "J'ai oublié mon parapluie.",
+        "exampleEn": "I forgot my umbrella."
+      },
+      {
+        "french": "se souvenir",
+        "english": "to remember",
+        "exampleFr": "Je me souviens de ce jour.",
+        "exampleEn": "I remember that day."
+      },
+      {
+        "french": "commencer",
+        "english": "to start",
+        "exampleFr": "Le film commence à vingt heures.",
+        "exampleEn": "The film starts at eight."
+      },
+      {
+        "french": "finir",
+        "english": "to finish",
+        "exampleFr": "J'ai fini mes devoirs.",
+        "exampleEn": "I finished my homework."
+      },
+      {
+        "french": "continuer",
+        "english": "to continue",
+        "exampleFr": "Continue tout droit.",
+        "exampleEn": "Continue straight ahead."
+      },
+      {
+        "french": "arrêter",
+        "english": "to stop",
+        "exampleFr": "Arrête de parler, s'il te plaît.",
+        "exampleEn": "Stop talking, please."
+      },
+      {
+        "french": "attendre",
+        "english": "to wait",
+        "exampleFr": "J'attends le bus depuis dix minutes.",
+        "exampleEn": "I have been waiting for the bus for ten minutes."
+      },
+      {
+        "french": "rester",
+        "english": "to stay",
+        "exampleFr": "Je reste à la maison ce soir.",
+        "exampleEn": "I am staying home tonight."
+      },
+      {
+        "french": "rentrer",
+        "english": "to return home",
+        "exampleFr": "Je rentre tard ce soir.",
+        "exampleEn": "I am coming home late tonight."
+      },
+      {
+        "french": "sortir",
+        "english": "to go out",
+        "exampleFr": "On sort ce soir ?",
+        "exampleEn": "Are we going out tonight?"
+      },
+      {
+        "french": "entrer",
+        "english": "to enter",
+        "exampleFr": "Entre, la porte est ouverte.",
+        "exampleEn": "Come in, the door is open."
+      },
+      {
+        "french": "monter",
+        "english": "to go up",
+        "exampleFr": "Monte les escaliers doucement.",
+        "exampleEn": "Go up the stairs slowly."
+      },
+      {
+        "french": "descendre",
+        "english": "to go down",
+        "exampleFr": "Descends au prochain arrêt.",
+        "exampleEn": "Get off at the next stop."
+      },
+      {
+        "french": "porter",
+        "english": "to carry / wear",
+        "exampleFr": "Il porte un manteau bleu.",
+        "exampleEn": "He is wearing a blue coat."
+      },
+      {
+        "french": "ouvrir",
+        "english": "to open",
+        "exampleFr": "Ouvre la fenêtre, s'il te plaît.",
+        "exampleEn": "Open the window, please."
+      },
+      {
+        "french": "fermer",
+        "english": "to close",
+        "exampleFr": "Ferme la porte derrière toi.",
+        "exampleEn": "Close the door behind you."
+      },
+      {
+        "french": "répondre",
+        "english": "to answer",
+        "exampleFr": "Réponds à la question.",
+        "exampleEn": "Answer the question."
+      }
+    ],
+    "technology": [
+      {
+        "french": "tablette",
+        "english": "tablet",
+        "article": "la",
+        "exampleFr": "Je lis sur ma tablette.",
+        "exampleEn": "I read on my tablet."
+      },
+      {
+        "french": "chargeur",
+        "english": "charger",
+        "article": "le",
+        "exampleFr": "Mon chargeur ne fonctionne plus.",
+        "exampleEn": "My charger no longer works."
+      },
+      {
+        "french": "batterie",
+        "english": "battery",
+        "article": "la",
+        "exampleFr": "La batterie est presque vide.",
+        "exampleEn": "The battery is almost dead."
+      },
+      {
+        "french": "wifi",
+        "english": "Wi-Fi",
+        "article": "le",
+        "exampleFr": "Le wifi est gratuit ici.",
+        "exampleEn": "Wi-Fi is free here."
+      },
+      {
+        "french": "navigateur",
+        "english": "web browser",
+        "article": "le",
+        "exampleFr": "Ouvre le site dans ton navigateur.",
+        "exampleEn": "Open the site in your browser."
+      },
+      {
+        "french": "fichier",
+        "english": "file",
+        "article": "le",
+        "exampleFr": "Envoie-moi le fichier par courriel.",
+        "exampleEn": "Send me the file by email."
+      },
+      {
+        "french": "dossier",
+        "english": "folder",
+        "article": "le",
+        "exampleFr": "Mets les photos dans ce dossier.",
+        "exampleEn": "Put the photos in this folder."
+      },
+      {
+        "french": "logiciel",
+        "english": "software",
+        "article": "le",
+        "exampleFr": "Ce logiciel est facile à utiliser.",
+        "exampleEn": "This software is easy to use."
+      },
+      {
+        "french": "mise à jour",
+        "english": "update",
+        "article": "la",
+        "exampleFr": "Installe la mise à jour ce soir.",
+        "exampleEn": "Install the update tonight."
+      },
+      {
+        "french": "sauvegarde",
+        "english": "backup",
+        "article": "la",
+        "exampleFr": "Fais une sauvegarde de tes données.",
+        "exampleEn": "Back up your data."
+      },
+      {
+        "french": "réseau social",
+        "english": "social network",
+        "article": "le",
+        "exampleFr": "Il passe du temps sur les réseaux sociaux.",
+        "exampleEn": "He spends time on social networks."
+      },
+      {
+        "french": "notification",
+        "english": "notification",
+        "article": "la",
+        "exampleFr": "J'ai reçu une notification.",
+        "exampleEn": "I received a notification."
+      },
+      {
+        "french": "écran tactile",
+        "english": "touchscreen",
+        "article": "l'",
+        "exampleFr": "L'écran tactile répond bien.",
+        "exampleEn": "The touchscreen responds well."
+      },
+      {
+        "french": "casque",
+        "english": "headphones / headset",
+        "article": "le",
+        "exampleFr": "Mets ton casque pour écouter.",
+        "exampleEn": "Put on your headphones to listen."
+      },
+      {
+        "french": "microphone",
+        "english": "microphone",
+        "article": "le",
+        "exampleFr": "Le microphone ne marche pas.",
+        "exampleEn": "The microphone does not work."
+      },
+      {
+        "french": "caméra",
+        "english": "camera",
+        "article": "la",
+        "exampleFr": "La caméra de mon téléphone est bonne.",
+        "exampleEn": "My phone camera is good."
+      },
+      {
+        "french": "imprimante",
+        "english": "printer",
+        "article": "l'",
+        "exampleFr": "L'imprimante est à court d'encre.",
+        "exampleEn": "The printer is out of ink."
+      },
+      {
+        "french": "câble",
+        "english": "cable",
+        "article": "le",
+        "exampleFr": "Branche le câble USB.",
+        "exampleEn": "Plug in the USB cable."
+      },
+      {
+        "french": "virus",
+        "english": "virus",
+        "article": "le",
+        "exampleFr": "Un virus a infecté l'ordinateur.",
+        "exampleEn": "A virus infected the computer."
+      },
+      {
+        "french": "piratage",
+        "english": "hacking",
+        "article": "le",
+        "exampleFr": "Le piratage est un risque en ligne.",
+        "exampleEn": "Hacking is a risk online."
+      },
+      {
+        "french": "recherche",
+        "english": "search",
+        "article": "la",
+        "exampleFr": "Fais une recherche sur internet.",
+        "exampleEn": "Do a search on the internet."
+      }
+    ],
+    "arts-music": [
+      {
+        "french": "sculpture",
+        "english": "sculpture",
+        "article": "la",
+        "exampleFr": "La sculpture est en marbre.",
+        "exampleEn": "The sculpture is made of marble."
+      },
+      {
+        "french": "exposition",
+        "english": "exhibition",
+        "article": "l'",
+        "exampleFr": "L'exposition ouvre demain.",
+        "exampleEn": "The exhibition opens tomorrow."
+      },
+      {
+        "french": "galerie",
+        "english": "gallery",
+        "article": "la",
+        "exampleFr": "Nous visitons une galerie d'art.",
+        "exampleEn": "We are visiting an art gallery."
+      },
+      {
+        "french": "orchestre",
+        "english": "orchestra",
+        "article": "l'",
+        "exampleFr": "L'orchestre joue ce soir.",
+        "exampleEn": "The orchestra plays tonight."
+      },
+      {
+        "french": "violon",
+        "english": "violin",
+        "article": "le",
+        "exampleFr": "Elle apprend le violon.",
+        "exampleEn": "She is learning the violin."
+      },
+      {
+        "french": "piano",
+        "english": "piano",
+        "article": "le",
+        "exampleFr": "Il joue du piano depuis dix ans.",
+        "exampleEn": "He has played piano for ten years."
+      },
+      {
+        "french": "guitare",
+        "english": "guitar",
+        "article": "la",
+        "exampleFr": "Il accorde sa guitare.",
+        "exampleEn": "He tunes his guitar."
+      },
+      {
+        "french": "batterie",
+        "english": "drums",
+        "article": "la",
+        "exampleFr": "La batterie est très forte.",
+        "exampleEn": "The drums are very loud."
+      },
+      {
+        "french": "chorale",
+        "english": "choir",
+        "article": "la",
+        "exampleFr": "Elle chante dans une chorale.",
+        "exampleEn": "She sings in a choir."
+      },
+      {
+        "french": "mélodie",
+        "english": "melody",
+        "article": "la",
+        "exampleFr": "La mélodie est entraînante.",
+        "exampleEn": "The melody is catchy."
+      },
+      {
+        "french": "rythme",
+        "english": "rhythm",
+        "article": "le",
+        "exampleFr": "Suis le rythme de la musique.",
+        "exampleEn": "Follow the rhythm of the music."
+      },
+      {
+        "french": "scène",
+        "english": "stage / scene",
+        "article": "la",
+        "exampleFr": "L'acteur entre sur scène.",
+        "exampleEn": "The actor comes on stage."
+      },
+      {
+        "french": "répétition",
+        "english": "rehearsal",
+        "article": "la",
+        "exampleFr": "La répétition dure deux heures.",
+        "exampleEn": "The rehearsal lasts two hours."
+      },
+      {
+        "french": "public",
+        "english": "audience",
+        "article": "le",
+        "exampleFr": "Le public applaudit à la fin.",
+        "exampleEn": "The audience applauds at the end."
+      },
+      {
+        "french": "critique",
+        "english": "review / critic",
+        "article": "la",
+        "exampleFr": "La critique du film est positive.",
+        "exampleEn": "The film review is positive."
+      },
+      {
+        "french": "toile",
+        "english": "canvas / painting",
+        "article": "la",
+        "exampleFr": "La toile est exposée au musée.",
+        "exampleEn": "The painting is displayed at the museum."
+      },
+      {
+        "french": "pinceau",
+        "english": "paintbrush",
+        "article": "le",
+        "exampleFr": "Il peint avec un pinceau fin.",
+        "exampleEn": "He paints with a fine brush."
+      },
+      {
+        "french": "palette",
+        "english": "palette",
+        "article": "la",
+        "exampleFr": "Elle mélange les couleurs sur la palette.",
+        "exampleEn": "She mixes colors on the palette."
+      },
+      {
+        "french": "bande dessinée",
+        "english": "comic book",
+        "article": "la",
+        "exampleFr": "J'adore cette bande dessinée.",
+        "exampleEn": "I love this comic book."
+      },
+      {
+        "french": "documentaire",
+        "english": "documentary",
+        "article": "le",
+        "exampleFr": "Nous regardons un documentaire ce soir.",
+        "exampleEn": "We are watching a documentary tonight."
+      },
+      {
+        "french": "festival",
+        "english": "festival",
+        "article": "le",
+        "exampleFr": "Le festival de musique commence vendredi.",
+        "exampleEn": "The music festival starts on Friday."
+      }
+    ],
+    "countries-languages": [
+      {
+        "french": "Belgique",
+        "english": "Belgium",
+        "exampleFr": "La Belgique est un petit pays.",
+        "exampleEn": "Belgium is a small country."
+      },
+      {
+        "french": "Suisse",
+        "english": "Switzerland",
+        "exampleFr": "La Suisse a quatre langues officielles.",
+        "exampleEn": "Switzerland has four official languages."
+      },
+      {
+        "french": "Maroc",
+        "english": "Morocco",
+        "exampleFr": "Le Maroc est au sud de l'Espagne.",
+        "exampleEn": "Morocco is south of Spain."
+      },
+      {
+        "french": "Brésil",
+        "english": "Brazil",
+        "exampleFr": "Le Brésil est un grand pays.",
+        "exampleEn": "Brazil is a large country."
+      },
+      {
+        "french": "Chine",
+        "english": "China",
+        "exampleFr": "La Chine a une longue histoire.",
+        "exampleEn": "China has a long history."
+      },
+      {
+        "french": "Mexique",
+        "english": "Mexico",
+        "exampleFr": "Le Mexique est connu pour sa cuisine.",
+        "exampleEn": "Mexico is known for its cuisine."
+      },
+      {
+        "french": "Portugal",
+        "english": "Portugal",
+        "exampleFr": "Le Portugal est au bord de l'Atlantique.",
+        "exampleEn": "Portugal is on the Atlantic coast."
+      },
+      {
+        "french": "Grèce",
+        "english": "Greece",
+        "exampleFr": "La Grèce attire beaucoup de touristes.",
+        "exampleEn": "Greece attracts many tourists."
+      },
+      {
+        "french": "espagnol",
+        "english": "Spanish",
+        "context": "language",
+        "exampleFr": "Il parle espagnol couramment.",
+        "exampleEn": "He speaks Spanish fluently."
+      },
+      {
+        "french": "allemand",
+        "english": "German",
+        "context": "language",
+        "exampleFr": "J'apprends l'allemand à l'école.",
+        "exampleEn": "I learn German at school."
+      },
+      {
+        "french": "italien",
+        "english": "Italian",
+        "context": "language",
+        "exampleFr": "L'italien est une langue musicale.",
+        "exampleEn": "Italian is a musical language."
+      },
+      {
+        "french": "arabe",
+        "english": "Arabic",
+        "context": "language",
+        "exampleFr": "Elle étudie l'arabe.",
+        "exampleEn": "She studies Arabic."
+      },
+      {
+        "french": "japonais",
+        "english": "Japanese",
+        "context": "language",
+        "exampleFr": "Le japonais a trois écritures.",
+        "exampleEn": "Japanese has three writing systems."
+      },
+      {
+        "french": "russe",
+        "english": "Russian",
+        "context": "language",
+        "exampleFr": "Mon ami parle russe.",
+        "exampleEn": "My friend speaks Russian."
+      },
+      {
+        "french": "bilingue",
+        "english": "bilingual",
+        "exampleFr": "Elle est bilingue français-anglais.",
+        "exampleEn": "She is French-English bilingual."
+      },
+      {
+        "french": "traduction",
+        "english": "translation",
+        "article": "la",
+        "exampleFr": "La traduction est correcte.",
+        "exampleEn": "The translation is correct."
+      },
+      {
+        "french": "accent",
+        "english": "accent",
+        "article": "l'",
+        "exampleFr": "J'aime ton accent français.",
+        "exampleEn": "I like your French accent."
+      },
+      {
+        "french": "dialecte",
+        "english": "dialect",
+        "article": "le",
+        "exampleFr": "Chaque région a son dialecte.",
+        "exampleEn": "Each region has its dialect."
+      },
+      {
+        "french": "continent",
+        "english": "continent",
+        "article": "le",
+        "exampleFr": "L'Europe est un petit continent.",
+        "exampleEn": "Europe is a small continent."
+      },
+      {
+        "french": "patrie",
+        "english": "homeland",
+        "article": "la",
+        "exampleFr": "Il retourne dans sa patrie chaque été.",
+        "exampleEn": "He returns to his homeland every summer."
+      },
+      {
+        "french": "citoyen",
+        "english": "citizen",
+        "article": "un",
+        "exampleFr": "Il est citoyen français.",
+        "exampleEn": "He is a French citizen."
+      }
+    ],
+    "time-expressions": [
+      {
+        "french": "aussitôt",
+        "english": "immediately",
+        "exampleFr": "Viens aussitôt que possible.",
+        "exampleEn": "Come as soon as possible."
+      },
+      {
+        "french": "tout à coup",
+        "english": "suddenly",
+        "exampleFr": "Tout à coup, il a commencé à pleuvoir.",
+        "exampleEn": "Suddenly, it started to rain."
+      },
+      {
+        "french": "peu à peu",
+        "english": "gradually",
+        "exampleFr": "Peu à peu, il s'améliore.",
+        "exampleEn": "Gradually, he is improving."
+      },
+      {
+        "french": "de temps en temps",
+        "english": "from time to time",
+        "exampleFr": "Je voyage de temps en temps.",
+        "exampleEn": "I travel from time to time."
+      },
+      {
+        "french": "de temps à autre",
+        "english": "now and then",
+        "exampleFr": "De temps à autre, nous dînons dehors.",
+        "exampleEn": "Now and then, we dine out."
+      },
+      {
+        "french": "chaque fois",
+        "english": "each time",
+        "exampleFr": "Chaque fois, c'est pareil.",
+        "exampleEn": "Each time, it is the same."
+      },
+      {
+        "french": "une fois",
+        "english": "once",
+        "exampleFr": "Je l'ai vu une fois.",
+        "exampleEn": "I saw him once."
+      },
+      {
+        "french": "deux fois",
+        "english": "twice",
+        "exampleFr": "J'ai appelé deux fois.",
+        "exampleEn": "I called twice."
+      },
+      {
+        "french": "plusieurs fois",
+        "english": "several times",
+        "exampleFr": "Je l'ai lu plusieurs fois.",
+        "exampleEn": "I read it several times."
+      },
+      {
+        "french": "la première fois",
+        "english": "the first time",
+        "exampleFr": "C'est la première fois que je viens.",
+        "exampleEn": "It is the first time I am coming."
+      },
+      {
+        "french": "la dernière fois",
+        "english": "the last time",
+        "exampleFr": "La dernière fois, il a plu.",
+        "exampleEn": "The last time, it rained."
+      },
+      {
+        "french": "en ce moment",
+        "english": "at the moment",
+        "exampleFr": "En ce moment, je suis occupé.",
+        "exampleEn": "At the moment, I am busy."
+      },
+      {
+        "french": "ces jours-ci",
+        "english": "these days",
+        "exampleFr": "Ces jours-ci, je travaille beaucoup.",
+        "exampleEn": "These days, I work a lot."
+      },
+      {
+        "french": "autrefois",
+        "english": "in the past / formerly",
+        "exampleFr": "Autrefois, il n'y avait pas de voitures.",
+        "exampleEn": "In the past, there were no cars."
+      },
+      {
+        "french": "un jour",
+        "english": "one day / someday",
+        "exampleFr": "Un jour, je visiterai le Japon.",
+        "exampleEn": "One day, I will visit Japan."
+      },
+      {
+        "french": "tout de suite après",
+        "english": "right after",
+        "exampleFr": "Tout de suite après, nous partons.",
+        "exampleEn": "Right after, we leave."
+      },
+      {
+        "french": "juste avant",
+        "english": "just before",
+        "exampleFr": "Juste avant, j'ai fermé la fenêtre.",
+        "exampleEn": "Just before, I closed the window."
+      },
+      {
+        "french": "en retard sur",
+        "english": "behind schedule",
+        "exampleFr": "Nous sommes en retard sur le planning.",
+        "exampleEn": "We are behind schedule."
+      },
+      {
+        "french": "à l'avance",
+        "english": "in advance",
+        "exampleFr": "Réservez à l'avance.",
+        "exampleEn": "Book in advance."
+      },
+      {
+        "french": "tout à l'heure",
+        "english": "a little while ago / earlier",
+        "exampleFr": "Je l'ai vu tout à l'heure.",
+        "exampleEn": "I saw him a little while ago."
+      },
+      {
+        "french": "en même temps",
+        "english": "at the same time",
+        "exampleFr": "Ils parlent en même temps.",
+        "exampleEn": "They speak at the same time."
+      }
+    ]
+  }
+}

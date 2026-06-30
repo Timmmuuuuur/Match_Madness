@@ -1,0 +1,272 @@
+{
+  "meta": {
+    "title": "Pronunciation",
+    "subtitle": "Vowels, nasals, the French R, silent letters, liaison, elision, and accents — read anything aloud with confidence.",
+    "accent": "purple"
+  },
+  "sections": [
+    {
+      "id": "vowels",
+      "number": 1,
+      "title": "Vowels",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": [
+            "Sound",
+            "Example",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "/a/",
+              "<em>chat</em> (cat)",
+              "Like English \"ah\""
+            ],
+            [
+              "/e/",
+              "<em>été</em> (summer)",
+              "Like English \"ay\" but pure, no glide"
+            ],
+            [
+              "/ɛ/",
+              "<em>fête</em>, <em>lait</em>",
+              "Like English \"eh\""
+            ],
+            [
+              "/i/",
+              "<em>vie</em> (life)",
+              "Like English \"ee\""
+            ],
+            [
+              "/o/",
+              "<em>eau</em>, <em>beau</em>",
+              "Like English \"oh\" but pure"
+            ],
+            [
+              "/ɔ/",
+              "<em>or</em> (gold)",
+              "Like English \"aw\""
+            ],
+            [
+              "/u/",
+              "<em>vous</em> (you)",
+              "Like English \"oo\" — lips very rounded"
+            ],
+            [
+              "/y/",
+              "<em>tu</em> (you informal)",
+              "<strong>No English equivalent.</strong> Shape lips for \"oo\", say \"ee\". 🇷🇺 Like the Russian «ю» minus the initial glide"
+            ],
+            [
+              "/ø/",
+              "<em>feu</em> (fire)",
+              "Shape lips for \"o\", say \"e\""
+            ],
+            [
+              "/œ/",
+              "<em>peur</em> (fear)",
+              "Like /ø/ but more open"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nasal-vowels-unique-to-french",
+      "number": 2,
+      "title": "Nasal Vowels — Unique to French",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "These are vowels where air passes through the nose. No consonant \"n\" or \"m\" is pronounced."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Spelling",
+            "Sound",
+            "Example"
+          ],
+          "rows": [
+            [
+              "-an, -en, -am, -em",
+              "/ɑ̃/",
+              "<em>dans, enfant, temps</em>"
+            ],
+            [
+              "-in, -ain, -im",
+              "/ɛ̃/",
+              "<em>vin, main, simple</em>"
+            ],
+            [
+              "-on, -om",
+              "/ɔ̃/",
+              "<em>bon, nom</em>"
+            ],
+            [
+              "-un, -um",
+              "/œ̃/",
+              "<em>un, parfum</em> (merging with /ɛ̃/ in modern speech)"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "compare-ru",
+          "text": "🇷🇺 Russian has no nasal vowels — this requires conscious practice. The nasal quality comes from lowering the velum, not from pronouncing an \"n\"."
+        }
+      ]
+    },
+    {
+      "id": "the-french-r",
+      "number": 3,
+      "title": "The French R",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The French /R/ is a uvular fricative — made at the back of the throat, not with the tongue tip."
+        },
+        {
+          "type": "callout",
+          "variant": "compare-ru",
+          "text": "🇷🇺 It is <strong>not</strong> the Russian \"р\". Think of it as gargling gently. The closest approximation for a Russian speaker is the sound in clearing your throat softly."
+        }
+      ]
+    },
+    {
+      "id": "silent-letters-final-consonants",
+      "number": 4,
+      "title": "Silent Letters & Final Consonants",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "This is crucial. French has massive spelling-pronunciation divergence because of historical silent letters."
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Rule: Most final consonants are silent.</strong> Exceptions: C, R, F, L (remember: <strong>CaReFuL</strong>)."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Written",
+            "Pronounced",
+            "Not pronounced"
+          ],
+          "rows": [
+            [
+              "<em>vous parlez</em>",
+              "/vu paʁle/",
+              "final -z, -s silent"
+            ],
+            [
+              "<em>grand</em>",
+              "/gʁɑ̃/",
+              "final -d silent"
+            ],
+            [
+              "<em>chaud</em>",
+              "/ʃo/",
+              "final -d silent"
+            ],
+            [
+              "<em>chef</em>",
+              "/ʃɛf/",
+              "-f pronounced (CaReFuL)"
+            ],
+            [
+              "<em>mer</em>",
+              "/mɛʁ/",
+              "-r pronounced (CaReFuL)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "liaison",
+      "number": 5,
+      "title": "Liaison",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "When a word ending in a normally-silent consonant is followed by a word beginning with a vowel, the consonant is <strong>pronounced</strong> and links to the next word:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<em>les enfants</em> → /le‿zɑ̃fɑ̃/ (the z links)",
+            "<em>nous avons</em> → /nu‿zavɔ̃/",
+            "<em>vous êtes</em> → /vu‿zɛt/"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Liaison is <strong>obligatory</strong> after determiners, pronouns, and auxiliaries; <strong>optional</strong> in careful speech elsewhere; and <strong>forbidden</strong> before aspirated h."
+        }
+      ]
+    },
+    {
+      "id": "elision",
+      "number": 6,
+      "title": "Elision",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The final vowel of short words (le, la, je, me, te, se, de, ne, que) drops before a vowel or mute h:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<em>le + ami</em> → <em>l'ami</em>",
+            "<em>je + ai</em> → <em>j'ai</em>",
+            "<em>ne + est</em> → <em>n'est</em>"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "accent-marks",
+      "number": 7,
+      "title": "Accent Marks",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": [
+            "Mark",
+            "Name",
+            "Effect"
+          ],
+          "rows": [
+            [
+              "é",
+              "accent aigu",
+              "/e/ — closed e"
+            ],
+            [
+              "è, ê",
+              "accent grave/circonflexe",
+              "/ɛ/ — open e"
+            ],
+            [
+              "â, ô",
+              "circumflex",
+              "historically long vowel; now mostly signals open quality"
+            ],
+            [
+              "ç",
+              "cédille",
+              "s sound before a, o, u (<em>garçon</em>)"
+            ],
+            [
+              "ë, ï",
+              "tréma",
+              "vowel is pronounced separately (<em>Noël</em>, <em>naïf</em>)"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

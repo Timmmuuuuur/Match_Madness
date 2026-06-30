@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "title": "Breaking Bad — French (VF)",
+    "subtitle": "Vocabulary from the French dub (Dubbing Brothers / Jean-Louis Faure). Terms, chemistry slang, and iconic VF lines so you can follow Heisenberg en français.",
+    "source": "Breaking Bad VF — Arte/Netflix France dub; transcript refs: frenchdubs.miraheze.org, AlloDoublage",
+    "showTitleFr": "Breaking Bad : Le Chimiste"
+  },
+  "categories": [
+    {
+      "id": "drugs-slang",
+      "label": "Drug slang (VF)",
+      "emoji": "💊",
+      "words": [
+        { "french": "meth", "english": "meth / crystal meth", "context": "VF keeps \"meth\" colloquially", "exampleFr": "Deux grammes de meth, 99,1 % pure.", "exampleEn": "Two grams of meth, 99.1% pure.", "note": "Hank (S1E4 VF)" },
+        { "french": "crystal", "english": "crystal (meth)", "context": "street name", "exampleFr": "T'as toujours du cristal ?", "exampleEn": "You still got crystal?", "note": "Combo to Jesse" },
+        { "french": "came", "english": "dope / drugs (slang)", "context": "general drug slang", "exampleFr": "Les camés de la rue.", "exampleEn": "The junkies on the street." },
+        { "french": "drogue", "english": "drug(s)", "exampleFr": "Ils fument de la drogue.", "exampleEn": "They're smoking drugs." },
+        { "french": "dealer", "english": "dealer", "context": "often kept in VF", "exampleFr": "Un petit dealer de seconde zone.", "exampleEn": "A small-time dealer." },
+        { "french": "fourgueur", "english": "pusher / street dealer", "exampleFr": "Chaque fois qu'il nous balançait un fourgueur…", "exampleEn": "Every time he snitched on a pusher…" },
+        { "french": "trafic", "english": "drug trade / trafficking", "exampleFr": "Le trafic de drogue.", "exampleEn": "The drug trade." },
+        { "french": "dose", "english": "dose / hit", "exampleFr": "Une dose de crystal.", "exampleEn": "A hit of crystal." },
+        { "french": "camé", "english": "addict / junkie", "exampleFr": "Les camés qui cherchent leur dose.", "exampleEn": "Junkies looking for their fix." },
+        { "french": "se défoncer", "english": "to get high", "exampleFr": "Ils se défoncent dans le salon.", "exampleEn": "They're getting high in the living room." },
+        { "french": "planque", "english": "stash / hideout", "exampleFr": "Une planque à côté de toi.", "exampleEn": "A stakeout next to you." },
+        { "french": "taule", "english": "slammer / jail (slang)", "exampleFr": "Il est en taule ou pas ?", "exampleEn": "Is he in jail or not?" },
+        { "french": "indic", "english": "informant / snitch", "exampleFr": "Dans la voiture de notre indic.", "exampleEn": "In our informant's car." },
+        { "french": "balancier", "english": "to snitch / rat out", "exampleFr": "Il nous balançait un fourgueur.", "exampleEn": "He was ratting out a pusher to us." }
+      ]
+    },
+    {
+      "id": "cooking-lab",
+      "label": "Cooking & lab (VF)",
+      "emoji": "🧪",
+      "words": [
+        { "french": "cuisiner", "english": "to cook (meth)", "context": "VF verb for \"cooking\"", "exampleFr": "L'endroit où on cuisinait la meth.", "exampleEn": "The place where we were cooking meth." },
+        { "french": "cuistot", "english": "cook (slang for chemist)", "exampleFr": "Il y a de nouveaux cuistots en ville.", "exampleEn": "There are new cooks in town." },
+        { "french": "labo", "english": "lab", "exampleFr": "Notre labo à Los Alamos.", "exampleEn": "Our lab at Los Alamos." },
+        { "french": "superlabo", "english": "superlab", "exampleFr": "Ça vient pas d'un superlabo mexicain.", "exampleEn": "It doesn't come from a Mexican superlab." },
+        { "french": "camping-car", "english": "RV / mobile lab", "exampleFr": "Un labo itinérant dans un vieux camping-car.", "exampleEn": "A mobile lab in an old RV." },
+        { "french": "recette", "english": "recipe / formula", "exampleFr": "J'ai mis au point une nouvelle recette.", "exampleEn": "I came up with a new recipe." },
+        { "french": "formule", "english": "formula", "exampleFr": "C'est plutôt une formule, d'ailleurs.", "exampleEn": "It's more of a formula, actually." },
+        { "french": "pureté", "english": "purity", "exampleFr": "La plus pure qu'ils aient jamais vue.", "exampleEn": "The purest they've ever seen." },
+        { "french": "pur", "english": "pure", "exampleFr": "99 % pur.", "exampleEn": "99% pure." },
+        { "french": "filtre", "english": "filter", "exampleFr": "Les éléments du filtre.", "exampleEn": "The filter elements." },
+        { "french": "masque à gaz", "english": "gas mask", "exampleFr": "Le masque à gaz, mis sous scellé.", "exampleEn": "The gas mask, placed under seal." },
+        { "french": "produits chimiques", "english": "chemicals", "exampleFr": "Tous les produits chimiques qu'il manipulait.", "exampleEn": "All the chemicals he handled." },
+        { "french": "précurseurs", "english": "precursors", "exampleFr": "Des précurseurs chimiques.", "exampleEn": "Chemical precursors." },
+        { "french": "réactifs", "english": "reagents", "exampleFr": "Mélanger les réactifs.", "exampleEn": "Mix the reagents." },
+        { "french": "synthèse", "english": "synthesis", "exampleFr": "La synthèse de la méthamphétamine.", "exampleEn": "The synthesis of methamphetamine." },
+        { "french": "éprouvette", "english": "test tube", "context": "Hank's metaphor", "exampleFr": "Le roi de l'éprouvette est ici.", "exampleEn": "The king of the test tube is here." },
+        { "french": "chimiste", "english": "chemist", "exampleFr": "Le Chimiste.", "exampleEn": "The Chemist (Quebec title)." },
+        { "french": "méthamphétamine", "english": "methamphetamine", "exampleFr": "Fabriquer de la méthamphétamine.", "exampleEn": "To manufacture methamphetamine." }
+      ]
+    },
+    {
+      "id": "chemistry-school",
+      "label": "Chemistry & school",
+      "emoji": "⚗️",
+      "words": [
+        { "french": "chimie", "english": "chemistry", "exampleFr": "Professeur de chimie dans un lycée.", "exampleEn": "Chemistry teacher in a high school." },
+        { "french": "professeur", "english": "teacher / professor", "exampleFr": "Walter White, professeur de chimie.", "exampleEn": "Walter White, chemistry teacher." },
+        { "french": "lycée", "english": "high school", "exampleFr": "Un lycée du Nouveau-Mexique.", "exampleEn": "A high school in New Mexico." },
+        { "french": "élève", "english": "student / pupil", "exampleFr": "Un de ses anciens élèves.", "exampleEn": "One of his former students." },
+        { "french": "expérience", "english": "experiment", "exampleFr": "Une expérience en chimie.", "exampleEn": "A chemistry experiment." },
+        { "french": "élément", "english": "element (chemistry)", "exampleFr": "Le tableau des éléments.", "exampleEn": "The periodic table." },
+        { "french": "composé", "english": "compound", "exampleFr": "Un composé chimique.", "exampleEn": "A chemical compound." },
+        { "french": "réaction", "english": "reaction", "exampleFr": "Une réaction chimique.", "exampleEn": "A chemical reaction." },
+        { "french": "équipement de protection", "english": "protective equipment", "exampleFr": "Un casque de protection ou de ventilation.", "exampleEn": "A protective or ventilation hood." },
+        { "french": "précautions", "english": "precautions", "exampleFr": "On a toujours pris énormément de précautions.", "exampleEn": "We always took enormous precautions." }
+      ]
+    },
+    {
+      "id": "police-legal",
+      "label": "Police & legal",
+      "emoji": "🚔",
+      "words": [
+        { "french": "D.E.A.", "english": "DEA (drug enforcement)", "context": "often kept in VF", "exampleFr": "Hank travaille pour la D.E.A.", "exampleEn": "Hank works for the DEA." },
+        { "french": "opération", "english": "operation (police)", "exampleFr": "Opération Brise-glace.", "exampleEn": "Operation Icebreaker." },
+        { "french": "planque policière", "english": "stakeout", "exampleFr": "Une planque à côté de toi.", "exampleEn": "A stakeout next to you." },
+        { "french": "photo d'identité judiciaire", "english": "mugshot", "exampleFr": "Une photo d'identité judiciaire.", "exampleEn": "A police mugshot." },
+        { "french": "porté disparu", "english": "missing / presumed dead", "exampleFr": "Il est porté disparu.", "exampleEn": "He is missing." },
+        { "french": "présumé mort", "english": "presumed dead", "exampleFr": "Présumé mort.", "exampleEn": "Presumed dead." },
+        { "french": "scellé", "english": "sealed (evidence)", "exampleFr": "Mis sous scellé.", "exampleEn": "Placed under seal." },
+        { "french": "avocat", "english": "lawyer", "exampleFr": "Faut qu'on engage un avocat.", "exampleEn": "We need to hire a lawyer." },
+        { "french": "enquête", "english": "investigation", "exampleFr": "L'enquête continue.", "exampleEn": "The investigation continues." },
+        { "french": "pays des merveilles", "english": "wonderland (DEA nickname for NM)", "exampleFr": "Ici, au pays des merveilles.", "exampleEn": "Here, in wonderland." }
+      ]
+    },
+    {
+      "id": "characters-places",
+      "label": "Characters & places",
+      "emoji": "🌵",
+      "words": [
+        { "french": "Heisenberg", "english": "Heisenberg (alias)", "context": "kept in VF", "exampleFr": "Walter White / Heisenberg.", "exampleEn": "Walter White / Heisenberg." },
+        { "french": "Albuquerque", "english": "Albuquerque", "exampleFr": "Le roi de l'éprouvette est ici, à Albuquerque.", "exampleEn": "The king of the test tube is here, in Albuquerque." },
+        { "french": "Los Alamos", "english": "Los Alamos", "exampleFr": "Maman était hôtesse à Los Alamos.", "exampleEn": "Mom was a hostess at Los Alamos." },
+        { "french": "associé", "english": "partner / associate", "exampleFr": "T'as perdu ton associé ?", "exampleEn": "You lost your partner?" },
+        { "french": "famille", "english": "family", "exampleFr": "On est une famille.", "exampleEn": "We are a family." },
+        { "french": "cancer", "english": "cancer", "exampleFr": "J'ai un cancer. Des poumons.", "exampleEn": "I have cancer. Of the lungs." },
+        { "french": "oncologue", "english": "oncologist", "exampleFr": "Le meilleur de tous les oncologistes.", "exampleEn": "The best oncologist of all." },
+        { "french": "radiologue", "english": "radiologist", "exampleFr": "Je parle à mes radiologues.", "exampleEn": "I'll talk to my radiologists." },
+        { "french": "barbecue", "english": "barbecue", "exampleFr": "C'est un barbecue, c'est pas une crémation.", "exampleEn": "It's a barbecue, not a cremation." },
+        { "french": "persévérance", "english": "perseverance", "exampleFr": "La persévérance, tu vois ?", "exampleEn": "Perseverance, you see?" }
+      ]
+    },
+    {
+      "id": "street-attitude",
+      "label": "Street talk & attitude",
+      "emoji": "😤",
+      "words": [
+        { "french": "paranoïaque", "english": "paranoid", "exampleFr": "Ce truc-là, ça me rend paranoïaque.", "exampleEn": "This stuff makes me paranoid." },
+        { "french": "galère", "english": "hardship / struggle (slang)", "exampleFr": "C'est la galère du dimanche soir.", "exampleEn": "It's the Sunday-night struggle." },
+        { "french": "mec", "english": "dude / guy", "exampleFr": "Qu'est-ce qui se passe, mec ?", "exampleEn": "What's going on, dude?" },
+        { "french": "piger", "english": "to get it / understand (slang)", "exampleFr": "C'est ça qu'il faut que tu piges.", "exampleEn": "That's what you need to get." },
+        { "french": "canon", "english": "hot / gorgeous (slang)", "exampleFr": "Dis-lui qu'il est canon.", "exampleEn": "Tell him he's gorgeous." },
+        { "french": "kiffer", "english": "to love / dig (slang)", "exampleFr": "Tout le monde kiffe la meth qu'on a cuisinée.", "exampleEn": "Everyone loves the meth we cooked." },
+        { "french": "une bombe", "english": "the bomb / amazing (slang)", "exampleFr": "C'est une vraie bombe.", "exampleEn": "It's the real deal / it's amazing." },
+        { "french": "se couper un bras", "english": "would give an arm (for)", "exampleFr": "Prêts à se couper un bras pour en avoir.", "exampleEn": "Would give an arm to get some." },
+        { "french": "bien joué", "english": "well played / nice one", "exampleFr": "Bien joué !", "exampleEn": "Well played!" },
+        { "french": "lâcher", "english": "to quit / drop", "exampleFr": "Peut-être que je devrais lâcher ça.", "exampleEn": "Maybe I should quit this." }
+      ]
+    }
+  ],
+  "iconicQuotes": [
+    { "french": "J'ai un cancer. Des poumons.", "english": "I have cancer. Of the lungs.", "speaker": "Walt", "episode": "S1E4" },
+    { "french": "Il y a de nouveaux cuistots en ville.", "english": "There are new cooks in town.", "speaker": "Hank", "episode": "S1E4" },
+    { "french": "C'est un barbecue, c'est pas une crémation.", "english": "It's a barbecue, not a cremation.", "speaker": "Hank", "episode": "S1E4" },
+    { "french": "J'ai tout récemment cuisiné la meilleure meth de toute ma vie.", "english": "I recently cooked the best meth of my entire life.", "speaker": "Jesse", "episode": "S1E4" },
+    { "french": "Le roi de l'éprouvette est ici, à Albuquerque.", "english": "The king of the test tube is here, in Albuquerque.", "speaker": "Hank", "episode": "S1E4" },
+    { "french": "Je suis Awake.", "english": "I am awake.", "speaker": "Walt (VF varies)", "note": "Often adapted in VF as « Je suis réveillé » or kept — check your episode." }
+  ]
+}

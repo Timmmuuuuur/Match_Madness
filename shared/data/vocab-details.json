@@ -1,0 +1,1022 @@
+{
+  "entries": {
+    "temps": {
+      "pos": "noun (m.)",
+      "register": "neutral — among the most frequent French nouns",
+      "primary": "time",
+      "note": "Two core meanings; context usually disambiguates.",
+      "senses": [
+        {
+          "meaning": "time (duration, moment, availability)",
+          "connotation": "Abstract; omnipresent in daily speech.",
+          "exampleFr": "Je n'ai pas le temps.",
+          "exampleEn": "I don't have time."
+        },
+        {
+          "meaning": "weather",
+          "connotation": "Almost always in « il fait … temps » constructions.",
+          "exampleFr": "Il fait mauvais temps.",
+          "exampleEn": "The weather is bad."
+        }
+      ]
+    },
+    "est": {
+      "pos": "verb / noun / adjective",
+      "register": "neutral",
+      "primary": "is (from être)",
+      "note": "Homograph with geographic « east » and proper noun Mars.",
+      "senses": [
+        {
+          "meaning": "is (3rd person singular of être)",
+          "connotation": "Copula; links subject to description.",
+          "exampleFr": "Il est médecin.",
+          "exampleEn": "He is a doctor."
+        },
+        {
+          "meaning": "east (noun/adj.)",
+          "connotation": "Direction; often capitalized as l'Est.",
+          "exampleFr": "Le vent vient de l'est.",
+          "exampleEn": "The wind comes from the east."
+        }
+      ]
+    },
+    "son": {
+      "pos": "determiner / noun (m.)",
+      "register": "neutral",
+      "primary": "his / its / her",
+      "note": "Possessive before masculine nouns; homograph with « sound ».",
+      "senses": [
+        {
+          "meaning": "his, her, its (possessive)",
+          "connotation": "Agrees with the noun that follows, not the owner.",
+          "exampleFr": "Il a perdu son téléphone.",
+          "exampleEn": "He lost his phone."
+        },
+        {
+          "meaning": "sound",
+          "connotation": "Auditory; le son = the sound.",
+          "exampleFr": "Le son est trop fort.",
+          "exampleEn": "The sound is too loud."
+        }
+      ]
+    },
+    "fait": {
+      "pos": "noun (m.) / past participle",
+      "register": "neutral",
+      "primary": "fact / made",
+      "note": "Past participle of faire; also a standalone noun.",
+      "senses": [
+        {
+          "meaning": "fact, deed",
+          "connotation": "En fait = actually / in fact.",
+          "exampleFr": "C'est un fait connu.",
+          "exampleEn": "It is a known fact."
+        },
+        {
+          "meaning": "made, done (participle)",
+          "connotation": "Used in compound tenses with avoir.",
+          "exampleFr": "Il a fait ses devoirs.",
+          "exampleEn": "He did his homework."
+        }
+      ]
+    },
+    "même": {
+      "pos": "adjective / adverb",
+      "register": "neutral",
+      "primary": "same",
+      "note": "Also means « even » when placed before a noun or verb.",
+      "senses": [
+        {
+          "meaning": "same, identical",
+          "connotation": "Emphasizes sameness; often with definite article.",
+          "exampleFr": "Nous avons la même idée.",
+          "exampleEn": "We have the same idea."
+        },
+        {
+          "meaning": "even (emphasis)",
+          "connotation": "Intensifier; can surprise the listener.",
+          "exampleFr": "Même lui ne le savait pas.",
+          "exampleEn": "Even he didn't know."
+        }
+      ]
+    },
+    "histoire": {
+      "pos": "noun (f.)",
+      "register": "neutral",
+      "primary": "history / story",
+      "note": "Same word for academic history and narrative fiction.",
+      "senses": [
+        {
+          "meaning": "history (events of the past)",
+          "connotation": "Academic or collective past.",
+          "exampleFr": "L'histoire de France est longue.",
+          "exampleEn": "The history of France is long."
+        },
+        {
+          "meaning": "story, tale",
+          "connotation": "Narrative; often for children or anecdotes.",
+          "exampleFr": "Raconte-moi une histoire.",
+          "exampleEn": "Tell me a story."
+        }
+      ]
+    },
+    "droit": {
+      "pos": "noun (m.) / adjective",
+      "register": "formal to neutral",
+      "primary": "right / law / straight",
+      "note": "Legal, directional, and moral senses overlap in fixed phrases.",
+      "senses": [
+        {
+          "meaning": "right (legal or moral entitlement)",
+          "connotation": "Avoir le droit de = to have the right to.",
+          "exampleFr": "C'est mon droit.",
+          "exampleEn": "It is my right."
+        },
+        {
+          "meaning": "law (field or body of rules)",
+          "connotation": "Étudier le droit = study law.",
+          "exampleFr": "Elle étudie le droit.",
+          "exampleEn": "She studies law."
+        },
+        {
+          "meaning": "straight (direction)",
+          "connotation": "Tout droit = straight ahead.",
+          "exampleFr": "Allez tout droit.",
+          "exampleEn": "Go straight ahead."
+        }
+      ]
+    },
+    "sens": {
+      "pos": "noun (m.)",
+      "register": "neutral",
+      "primary": "meaning / direction / sense",
+      "senses": [
+        {
+          "meaning": "meaning (of a word or phrase)",
+          "connotation": "Quel est le sens de…? = What does … mean?",
+          "exampleFr": "Quel est le sens de ce mot ?",
+          "exampleEn": "What is the meaning of this word?"
+        },
+        {
+          "meaning": "direction",
+          "connotation": "Dans quel sens ? = Which way?",
+          "exampleFr": "Dans le sens inverse.",
+          "exampleEn": "In the opposite direction."
+        },
+        {
+          "meaning": "sense (one of five senses)",
+          "connotation": "Le sens de l'odorat = sense of smell.",
+          "exampleFr": "Le sens du toucher.",
+          "exampleEn": "The sense of touch."
+        }
+      ]
+    },
+    "livre": {
+      "pos": "noun (m.)",
+      "register": "neutral",
+      "primary": "book",
+      "note": "Also the old currency unit « pound » in historical contexts.",
+      "senses": [
+        {
+          "meaning": "book",
+          "connotation": "Most common sense today.",
+          "exampleFr": "J'ai acheté un livre.",
+          "exampleEn": "I bought a book."
+        },
+        {
+          "meaning": "pound (currency, historical)",
+          "connotation": "Livre sterling = pound sterling.",
+          "exampleFr": "Cinq livres sterling.",
+          "exampleEn": "Five pounds sterling."
+        }
+      ]
+    },
+    "fils": {
+      "pos": "noun (m.)",
+      "register": "neutral",
+      "primary": "son",
+      "senses": [
+        {
+          "meaning": "son",
+          "connotation": "Family relationship; plural irregular: des fils.",
+          "exampleFr": "Son fils a dix ans.",
+          "exampleEn": "His son is ten years old."
+        },
+        {
+          "meaning": "wire, thread",
+          "connotation": "Technical; fil de fer = iron wire.",
+          "exampleFr": "Un fil de cuivre.",
+          "exampleEn": "A copper wire."
+        }
+      ]
+    },
+    "parti": {
+      "pos": "noun (m.)",
+      "register": "neutral to political",
+      "primary": "party (political)",
+      "senses": [
+        {
+          "meaning": "political party",
+          "connotation": "Le Parti socialiste, etc.",
+          "exampleFr": "Il est membre d'un parti.",
+          "exampleEn": "He is a member of a party."
+        },
+        {
+          "meaning": "departure; decision (avoir pris son parti)",
+          "connotation": "Idiomatic: s'en prendre à = to blame.",
+          "exampleFr": "J'ai pris mon parti.",
+          "exampleEn": "I've made up my mind."
+        }
+      ]
+    },
+    "femme": {
+      "pos": "noun (f.)",
+      "register": "neutral",
+      "primary": "woman",
+      "senses": [
+        {
+          "meaning": "woman",
+          "connotation": "General; une femme = a woman.",
+          "exampleFr": "C'est une femme intelligente.",
+          "exampleEn": "She is an intelligent woman."
+        },
+        {
+          "meaning": "wife",
+          "connotation": "Often with possessive: ma femme.",
+          "exampleFr": "Ma femme travaille à Paris.",
+          "exampleEn": "My wife works in Paris."
+        }
+      ]
+    },
+    "argent": {
+      "pos": "noun (m.)",
+      "register": "neutral",
+      "primary": "money",
+      "senses": [
+        {
+          "meaning": "money",
+          "connotation": "Most frequent sense; l'argent = money in general.",
+          "exampleFr": "Je n'ai pas d'argent.",
+          "exampleEn": "I don't have money."
+        },
+        {
+          "meaning": "silver (metal)",
+          "connotation": "Material; couleur argent = silver color.",
+          "exampleFr": "Une bague en argent.",
+          "exampleEn": "A silver ring."
+        }
+      ]
+    },
+    "café": {
+      "pos": "noun (m.)",
+      "register": "neutral",
+      "primary": "coffee",
+      "senses": [
+        {
+          "meaning": "coffee (drink)",
+          "connotation": "Un café = a coffee; very common order.",
+          "exampleFr": "Un café, s'il vous plaît.",
+          "exampleEn": "A coffee, please."
+        },
+        {
+          "meaning": "café (establishment)",
+          "connotation": "Often « au café » = at the café.",
+          "exampleFr": "On se retrouve au café ?",
+          "exampleEn": "Shall we meet at the café?"
+        }
+      ]
+    },
+    "politique": {
+      "pos": "noun (f.) / adjective",
+      "register": "formal to neutral",
+      "primary": "politics / political",
+      "senses": [
+        {
+          "meaning": "politics (field, activity)",
+          "connotation": "La politique = politics as a domain.",
+          "exampleFr": "Il s'intéresse à la politique.",
+          "exampleEn": "He is interested in politics."
+        },
+        {
+          "meaning": "policy (of a company, government)",
+          "connotation": "Une politique de = a policy of.",
+          "exampleFr": "La politique de l'entreprise.",
+          "exampleEn": "The company's policy."
+        }
+      ]
+    },
+    "prix": {
+      "pos": "noun (m.)",
+      "register": "neutral",
+      "primary": "price",
+      "senses": [
+        {
+          "meaning": "price, cost",
+          "connotation": "Quel est le prix ? = How much?",
+          "exampleFr": "Le prix est trop élevé.",
+          "exampleEn": "The price is too high."
+        },
+        {
+          "meaning": "prize, award",
+          "connotation": "Prix Nobel = Nobel Prize.",
+          "exampleFr": "Il a gagné un prix.",
+          "exampleEn": "He won a prize."
+        }
+      ]
+    },
+    "cours": {
+      "pos": "noun (m.)",
+      "register": "neutral",
+      "primary": "course / class",
+      "senses": [
+        {
+          "meaning": "course, class (lesson)",
+          "connotation": "Cours de français = French class.",
+          "exampleFr": "J'ai cours demain.",
+          "exampleEn": "I have class tomorrow."
+        },
+        {
+          "meaning": "rate, exchange rate; flow (au cours de)",
+          "connotation": "Au cours de = during the course of.",
+          "exampleFr": "Au cours de la réunion.",
+          "exampleEn": "During the meeting."
+        }
+      ]
+    },
+    "rapport": {
+      "pos": "noun (m.)",
+      "register": "formal to neutral",
+      "primary": "report",
+      "senses": [
+        {
+          "meaning": "report (document)",
+          "connotation": "Written summary; rapport annuel.",
+          "exampleFr": "Lire le rapport.",
+          "exampleEn": "Read the report."
+        },
+        {
+          "meaning": "relationship, ratio",
+          "connotation": "Avoir un bon rapport avec = get along with.",
+          "exampleFr": "Le rapport qualité-prix.",
+          "exampleEn": "The quality-to-price ratio."
+        }
+      ]
+    },
+    "tour": {
+      "pos": "noun (f./m.)",
+      "register": "neutral",
+      "primary": "tower / turn / tour",
+      "note": "Feminine for tower; masculine for turn in some contexts.",
+      "senses": [
+        {
+          "meaning": "tower",
+          "connotation": "La tour Eiffel.",
+          "exampleFr": "Une haute tour.",
+          "exampleEn": "A tall tower."
+        },
+        {
+          "meaning": "turn, round (it's your turn)",
+          "connotation": "À ton tour = your turn.",
+          "exampleFr": "C'est ton tour.",
+          "exampleEn": "It's your turn."
+        },
+        {
+          "meaning": "tour, trip",
+          "connotation": "Un tour du monde.",
+          "exampleFr": "Un tour de France.",
+          "exampleEn": "A tour of France."
+        }
+      ]
+    },
+    "air": {
+      "pos": "noun (m.)",
+      "register": "neutral",
+      "primary": "air",
+      "senses": [
+        {
+          "meaning": "air (atmosphere)",
+          "connotation": "L'air pur = fresh air.",
+          "exampleFr": "Prends l'air.",
+          "exampleEn": "Get some fresh air."
+        },
+        {
+          "meaning": "look, appearance (avoir l'air)",
+          "connotation": "Avoir l'air de = to look like, seem.",
+          "exampleFr": "Tu as l'air fatigué.",
+          "exampleEn": "You look tired."
+        },
+        {
+          "meaning": "tune, melody (musical air)",
+          "connotation": "Less common; literary.",
+          "exampleFr": "Un air connu.",
+          "exampleEn": "A well-known tune."
+        }
+      ]
+    },
+    "voix": {
+      "pos": "noun (f.)",
+      "register": "neutral",
+      "primary": "voice",
+      "senses": [
+        {
+          "meaning": "voice",
+          "connotation": "Physical or singing voice.",
+          "exampleFr": "Elle a une belle voix.",
+          "exampleEn": "She has a beautiful voice."
+        },
+        {
+          "meaning": "vote",
+          "connotation": "Donner sa voix = to cast one's vote.",
+          "exampleFr": "À voix haute.",
+          "exampleEn": "Aloud (lit. in loud voice)."
+        }
+      ]
+    },
+    "place": {
+      "pos": "noun (f.)",
+      "register": "neutral",
+      "primary": "place / square / seat",
+      "senses": [
+        {
+          "meaning": "place, spot, room",
+          "connotation": "Avoir de la place = have room.",
+          "exampleFr": "Il n'y a plus de place.",
+          "exampleEn": "There is no more room."
+        },
+        {
+          "meaning": "town square",
+          "connotation": "La place de la République.",
+          "exampleFr": "On se retrouve sur la place.",
+          "exampleEn": "Let's meet in the square."
+        },
+        {
+          "meaning": "seat (reserved place)",
+          "connotation": "Prendre place = take a seat.",
+          "exampleFr": "Gardez votre place.",
+          "exampleEn": "Keep your seat."
+        }
+      ]
+    },
+    "point": {
+      "pos": "noun (m.)",
+      "register": "neutral",
+      "primary": "point",
+      "senses": [
+        {
+          "meaning": "point (score, dot, tip)",
+          "connotation": "Deux points = colon in time notation.",
+          "exampleFr": "Trois points de vue.",
+          "exampleEn": "Three points of view."
+        },
+        {
+          "meaning": "period, full stop (punctuation)",
+          "connotation": "Mettre un point = end a sentence.",
+          "exampleFr": "Point final.",
+          "exampleEn": "Full stop. / Period."
+        }
+      ]
+    },
+    "mort": {
+      "pos": "noun (f.) / adjective / past participle",
+      "register": "neutral",
+      "primary": "death / dead",
+      "senses": [
+        {
+          "meaning": "death (noun)",
+          "connotation": "La mort = death as concept.",
+          "exampleFr": "La mort est inévitable.",
+          "exampleEn": "Death is inevitable."
+        },
+        {
+          "meaning": "dead (adjective/participle)",
+          "connotation": "Il est mort = He died / He is dead.",
+          "exampleFr": "Il est mort l'an dernier.",
+          "exampleEn": "He died last year."
+        }
+      ]
+    },
+    "langue": {
+      "pos": "noun (f.)",
+      "register": "neutral",
+      "primary": "language",
+      "senses": [
+        {
+          "meaning": "language",
+          "connotation": "La langue française.",
+          "exampleFr": "Quelle langue parles-tu ?",
+          "exampleEn": "What language do you speak?"
+        },
+        {
+          "meaning": "tongue (body part)",
+          "connotation": "Physical organ; se mordre la langue.",
+          "exampleFr": "Se mordre la langue.",
+          "exampleEn": "To bite one's tongue."
+        }
+      ]
+    },
+    "esprit": {
+      "pos": "noun (m.)",
+      "register": "neutral to literary",
+      "primary": "mind / spirit",
+      "senses": [
+        {
+          "meaning": "mind, intellect",
+          "connotation": "Avoir l'esprit vif = quick-witted.",
+          "exampleFr": "Il a l'esprit ouvert.",
+          "exampleEn": "He has an open mind."
+        },
+        {
+          "meaning": "spirit, ghost",
+          "connotation": "Esprit de Noël = Christmas spirit.",
+          "exampleFr": "L'esprit de l'équipe.",
+          "exampleEn": "Team spirit."
+        }
+      ]
+    },
+    "bureau": {
+      "pos": "noun (m.)",
+      "register": "neutral",
+      "primary": "office / desk",
+      "senses": [
+        {
+          "meaning": "office (workplace)",
+          "connotation": "Au bureau = at the office.",
+          "exampleFr": "Je suis au bureau.",
+          "exampleEn": "I'm at the office."
+        },
+        {
+          "meaning": "desk (furniture)",
+          "connotation": "Physical desk.",
+          "exampleFr": "Un bureau en bois.",
+          "exampleEn": "A wooden desk."
+        }
+      ]
+    },
+    "commune": {
+      "pos": "noun (f.) / adjective",
+      "register": "administrative / neutral",
+      "primary": "town / municipality",
+      "senses": [
+        {
+          "meaning": "municipality, town (administrative unit)",
+          "connotation": "French local government term.",
+          "exampleFr": "La commune de Lyon.",
+          "exampleEn": "The municipality of Lyon."
+        },
+        {
+          "meaning": "common, shared (adjective)",
+          "connotation": "Biens communs = common goods.",
+          "exampleFr": "Un intérêt commun.",
+          "exampleEn": "A common interest."
+        }
+      ]
+    },
+    "être": {
+      "pos": "verb",
+      "register": "neutral",
+      "primary": "to be",
+      "note": "Most irregular French verb; also a noun « l'être » = being.",
+      "senses": [
+        {
+          "meaning": "to be (copula / existence)",
+          "connotation": "Je suis, tu es, il est…",
+          "exampleFr": "Je suis étudiant.",
+          "exampleEn": "I am a student."
+        },
+        {
+          "meaning": "being (noun, philosophical)",
+          "connotation": "Rare in everyday speech.",
+          "exampleFr": "L'être humain.",
+          "exampleEn": "The human being."
+        }
+      ]
+    },
+    "peut": {
+      "pos": "verb (pouvoir, 3rd sing.)",
+      "register": "neutral",
+      "primary": "can / may",
+      "note": "From pouvoir; expresses ability or permission.",
+      "senses": [
+        {
+          "meaning": "can (ability)",
+          "connotation": "Il peut nager = He can swim.",
+          "exampleFr": "Il peut parler français.",
+          "exampleEn": "He can speak French."
+        },
+        {
+          "meaning": "may (possibility, permission)",
+          "connotation": "Softer; Peut-être = maybe.",
+          "exampleFr": "Peut-on entrer ?",
+          "exampleEn": "May we come in?"
+        }
+      ]
+    },
+    "grand": {
+      "pos": "adjective",
+      "register": "neutral",
+      "primary": "big / large / great",
+      "senses": [
+        {
+          "meaning": "big, large (physical size)",
+          "connotation": "Before noun: great; after noun: tall/big.",
+          "exampleFr": "Une grande maison.",
+          "exampleEn": "A big house."
+        },
+        {
+          "meaning": "great, important",
+          "connotation": "Un grand homme = a great man.",
+          "exampleFr": "Un grand artiste.",
+          "exampleEn": "A great artist."
+        }
+      ]
+    },
+    "tout": {
+      "pos": "determiner / pronoun / adverb",
+      "register": "neutral",
+      "primary": "all / everything",
+      "note": "Highly versatile; agrees in gender/number in some forms.",
+      "senses": [
+        {
+          "meaning": "all, every",
+          "connotation": "Tous les jours = every day.",
+          "exampleFr": "Tout le monde.",
+          "exampleEn": "Everyone (lit. all the world)."
+        },
+        {
+          "meaning": "everything",
+          "connotation": "Tout = everything as pronoun.",
+          "exampleFr": "Je sais tout.",
+          "exampleEn": "I know everything."
+        }
+      ]
+    },
+    "lumière": {
+      "pos": "noun (f.)",
+      "register": "neutral to literary",
+      "primary": "light",
+      "senses": [
+        {
+          "meaning": "light (physical)",
+          "connotation": "La lumière du soleil.",
+          "exampleFr": "Allume la lumière.",
+          "exampleEn": "Turn on the light."
+        },
+        {
+          "meaning": "enlightenment, insight (figurative)",
+          "connotation": "Mettre en lumière = highlight, reveal.",
+          "exampleFr": "Jeter un jour / une lumière sur.",
+          "exampleEn": "Shed light on."
+        }
+      ]
+    },
+    "chambre": {
+      "pos": "noun (f.)",
+      "register": "neutral",
+      "primary": "room / bedroom",
+      "senses": [
+        {
+          "meaning": "bedroom",
+          "connotation": "Most common in homes.",
+          "exampleFr": "Ma chambre est au premier étage.",
+          "exampleEn": "My bedroom is on the first floor."
+        },
+        {
+          "meaning": "room (chamber, formal space)",
+          "connotation": "Chambre des députés = House of Representatives.",
+          "exampleFr": "Une chambre d'hôtel.",
+          "exampleEn": "A hotel room."
+        }
+      ]
+    },
+    "conseil": {
+      "pos": "noun (m.)",
+      "register": "neutral",
+      "primary": "advice / council",
+      "senses": [
+        {
+          "meaning": "advice (usually plural: des conseils)",
+          "connotation": "Demander conseil = ask for advice.",
+          "exampleFr": "Merci pour le conseil.",
+          "exampleEn": "Thanks for the advice."
+        },
+        {
+          "meaning": "council ( governing body)",
+          "connotation": "Conseil municipal = city council.",
+          "exampleFr": "Le conseil d'administration.",
+          "exampleEn": "The board of directors."
+        }
+      ]
+    },
+    "forme": {
+      "pos": "noun (f.)",
+      "register": "neutral",
+      "primary": "form / shape",
+      "senses": [
+        {
+          "meaning": "shape, form (physical)",
+          "connotation": "En forme = in shape (healthy).",
+          "exampleFr": "Quelle est la forme ?",
+          "exampleEn": "What is the shape?"
+        },
+        {
+          "meaning": "form (document, registration)",
+          "connotation": "Remplir un formulaire.",
+          "exampleFr": "Une forme de politesse.",
+          "exampleEn": "A form of politeness."
+        }
+      ]
+    },
+    "coupe": {
+      "pos": "noun (f.)",
+      "register": "neutral",
+      "primary": "cup / cut (haircut)",
+      "senses": [
+        {
+          "meaning": "cup (trophy)",
+          "connotation": "Sports; Coupe du monde.",
+          "exampleFr": "Gagner la coupe.",
+          "exampleEn": "Win the cup."
+        },
+        {
+          "meaning": "haircut, cut (style)",
+          "connotation": "Une coupe de cheveux.",
+          "exampleFr": "Une nouvelle coupe.",
+          "exampleEn": "A new haircut."
+        }
+      ]
+    },
+    "pied": {
+      "pos": "noun (m.)",
+      "register": "neutral",
+      "primary": "foot",
+      "senses": [
+        {
+          "meaning": "foot (body part)",
+          "connotation": "À pied = on foot.",
+          "exampleFr": "J'ai mal au pied.",
+          "exampleEn": "My foot hurts."
+        },
+        {
+          "meaning": "base, bottom (of object)",
+          "connotation": "Au pied de la montagne.",
+          "exampleFr": "Au pied de l'escalier.",
+          "exampleEn": "At the foot of the stairs."
+        }
+      ]
+    },
+    "fond": {
+      "pos": "noun (m.)",
+      "register": "neutral",
+      "primary": "bottom / background / fund",
+      "senses": [
+        {
+          "meaning": "bottom, back (of space)",
+          "connotation": "Au fond de = at the back of.",
+          "exampleFr": "Au fond de la salle.",
+          "exampleEn": "At the back of the room."
+        },
+        {
+          "meaning": "background",
+          "connotation": "Arrière-plan; en fond = in the background.",
+          "exampleFr": "En fond d'écran.",
+          "exampleEn": "As wallpaper."
+        },
+        {
+          "meaning": "fund (financial)",
+          "connotation": "Fonds d'investissement.",
+          "exampleFr": "Un fonds de pension.",
+          "exampleEn": "A pension fund."
+        }
+      ]
+    },
+    "siège": {
+      "pos": "noun (m.)",
+      "register": "neutral",
+      "primary": "seat / headquarters",
+      "senses": [
+        {
+          "meaning": "seat, chair",
+          "connotation": "Prendre un siège.",
+          "exampleFr": "Un siège confortable.",
+          "exampleEn": "A comfortable seat."
+        },
+        {
+          "meaning": "headquarters, siege (military)",
+          "connotation": "Siège social = registered office.",
+          "exampleFr": "Le siège de l'ONU.",
+          "exampleEn": "The UN headquarters."
+        }
+      ]
+    },
+    "verre": {
+      "pos": "noun (m.)",
+      "register": "neutral",
+      "primary": "glass",
+      "senses": [
+        {
+          "meaning": "glass (material)",
+          "connotation": "En verre = made of glass.",
+          "exampleFr": "Une surface en verre.",
+          "exampleEn": "A glass surface."
+        },
+        {
+          "meaning": "drinking glass; drink itself",
+          "connotation": "Un verre de vin = a glass of wine.",
+          "exampleFr": "Un verre d'eau.",
+          "exampleEn": "A glass of water."
+        }
+      ]
+    },
+    "état": {
+      "pos": "noun (m.)",
+      "register": "formal to neutral",
+      "primary": "state / condition",
+      "senses": [
+        {
+          "meaning": "state (nation, government)",
+          "connotation": "État français; États-Unis.",
+          "exampleFr": "L'État providence.",
+          "exampleEn": "The welfare state."
+        },
+        {
+          "meaning": "condition, state (of something)",
+          "connotation": "En bon état = in good condition.",
+          "exampleFr": "Dans quel état ?",
+          "exampleEn": "In what condition?"
+        }
+      ]
+    },
+    "nouvelle": {
+      "pos": "noun (f.) / adjective",
+      "register": "neutral",
+      "primary": "news / new (f.)",
+      "senses": [
+        {
+          "meaning": "news (piece of news)",
+          "connotation": "Une bonne nouvelle.",
+          "exampleFr": "J'ai une nouvelle pour toi.",
+          "exampleEn": "I have news for you."
+        },
+        {
+          "meaning": "new (feminine adjective)",
+          "connotation": "Une voiture nouvelle.",
+          "exampleFr": "C'est une nouvelle idée.",
+          "exampleEn": "It's a new idea."
+        }
+      ]
+    },
+    "société": {
+      "pos": "noun (f.)",
+      "register": "neutral",
+      "primary": "company / society",
+      "senses": [
+        {
+          "meaning": "company (business)",
+          "connotation": "Une société anonyme = corporation.",
+          "exampleFr": "Il travaille pour une société.",
+          "exampleEn": "He works for a company."
+        },
+        {
+          "meaning": "society (collective)",
+          "connotation": "La société française.",
+          "exampleFr": "La société moderne.",
+          "exampleEn": "Modern society."
+        }
+      ]
+    },
+    "fonction": {
+      "pos": "noun (f.)",
+      "register": "formal to neutral",
+      "primary": "function / role",
+      "senses": [
+        {
+          "meaning": "function (purpose, role)",
+          "connotation": "Quelle est la fonction de…?",
+          "exampleFr": "La fonction du cœur.",
+          "exampleEn": "The function of the heart."
+        },
+        {
+          "meaning": "position, office (job role)",
+          "connotation": "Exercer une fonction.",
+          "exampleFr": "Une fonction publique.",
+          "exampleEn": "A public-sector role."
+        }
+      ]
+    },
+    "partie": {
+      "pos": "noun (f.)",
+      "register": "neutral",
+      "primary": "part / game / party",
+      "senses": [
+        {
+          "meaning": "part, portion",
+          "connotation": "Une partie de = a part of.",
+          "exampleFr": "Une partie du gâteau.",
+          "exampleEn": "A piece of the cake."
+        },
+        {
+          "meaning": "game (match)",
+          "connotation": "Une partie de tennis.",
+          "exampleFr": "Une partie de cartes.",
+          "exampleEn": "A card game."
+        },
+        {
+          "meaning": "party (social gathering)",
+          "connotation": "Faire la fête vs une partie — distinct from « fête ».",
+          "exampleFr": "Une partie de campagne.",
+          "exampleEn": "A day in the country (also a film title)."
+        }
+      ]
+    },
+    "lieu": {
+      "pos": "noun (m.)",
+      "register": "neutral to formal",
+      "primary": "place / venue",
+      "senses": [
+        {
+          "meaning": "place, location",
+          "connotation": "Avoir lieu = to take place.",
+          "exampleFr": "Le lieu de naissance.",
+          "exampleEn": "Place of birth."
+        },
+        {
+          "meaning": "venue (event space)",
+          "connotation": "Formal; salle vs lieu.",
+          "exampleFr": "Le lieu de la cérémonie.",
+          "exampleEn": "The venue of the ceremony."
+        }
+      ]
+    },
+    "mars": {
+      "pos": "noun (m.) / proper noun",
+      "register": "neutral",
+      "primary": "March (month)",
+      "senses": [
+        {
+          "meaning": "March (month)",
+          "connotation": "Le mois de mars.",
+          "exampleFr": "En mars, il pleut.",
+          "exampleEn": "In March, it rains."
+        },
+        {
+          "meaning": "Mars (planet)",
+          "connotation": "Capitalized: Mars.",
+          "exampleFr": "La planète Mars.",
+          "exampleEn": "The planet Mars."
+        }
+      ]
+    },
+    "mai": {
+      "pos": "noun (m.)",
+      "register": "neutral",
+      "primary": "May (month)",
+      "note": "Homograph with subjunctive « mai » rare; context is almost always the month.",
+      "senses": [
+        {
+          "meaning": "May (month)",
+          "connotation": "Le premier mai = Labour Day.",
+          "exampleFr": "Nous partons en mai.",
+          "exampleEn": "We're leaving in May."
+        }
+      ]
+    },
+    "leur": {
+      "pos": "determiner / pronoun",
+      "register": "neutral",
+      "primary": "their",
+      "senses": [
+        {
+          "meaning": "their (possessive)",
+          "connotation": "Before noun: leur/leurs.",
+          "exampleFr": "Leur maison est grande.",
+          "exampleEn": "Their house is big."
+        },
+        {
+          "meaning": "to them (indirect object pronoun)",
+          "connotation": "Je leur parle = I speak to them.",
+          "exampleFr": "Je leur ai téléphoné.",
+          "exampleEn": "I called them."
+        }
+      ]
+    },
+    "nom": {
+      "pos": "noun (m.)",
+      "register": "neutral",
+      "primary": "name",
+      "senses": [
+        {
+          "meaning": "name (first or full)",
+          "connotation": "Comment tu t'appelles?",
+          "exampleFr": "Quel est ton nom ?",
+          "exampleEn": "What is your name?"
+        },
+        {
+          "meaning": "surname (nom de famille)",
+          "connotation": "Distinct from prénom.",
+          "exampleFr": "Mon nom est Dupont.",
+          "exampleEn": "My surname is Dupont."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "title": "Speaking practice",
+    "subtitle": "Core sentences in present, past, and future — tap to hear French pronunciation.",
+    "languagePair": "en-fr"
+  },
+  "sections": [
+    {
+      "id": "present",
+      "label": "Present",
+      "frenchLabel": "Présent",
+      "description": "Everyday present-tense statements and questions.",
+      "sentences": [
+        { "id": 1, "french": "Je parle français.", "english": "I speak French.", "note": "je parle — regular -er verb" },
+        { "id": 2, "french": "Il habite à Paris.", "english": "He lives in Paris.", "note": "habiter — no preposition in French" },
+        { "id": 3, "french": "Nous mangeons à midi.", "english": "We eat at noon.", "note": "nous mangeons — stem change" },
+        { "id": 4, "french": "Tu travailles beaucoup ?", "english": "Do you work a lot?", "note": "question by intonation" },
+        { "id": 5, "french": "Elle est professeure.", "english": "She is a teacher.", "note": "profession without article" },
+        { "id": 6, "french": "Ils ont un chien.", "english": "They have a dog.", "note": "avoir — possession" },
+        { "id": 7, "french": "Je vais au marché.", "english": "I am going to the market.", "note": "aller + à le → au" },
+        { "id": 8, "french": "Qu'est-ce que tu fais ?", "english": "What are you doing?", "note": "common spoken question" }
+      ]
+    },
+    {
+      "id": "past",
+      "label": "Past",
+      "frenchLabel": "Passé",
+      "description": "Passé composé for completed actions; imparfait for habits and background.",
+      "sentences": [
+        { "id": 9, "french": "J'ai mangé une pomme.", "english": "I ate an apple. / I have eaten an apple.", "note": "passé composé — avoir + participle" },
+        { "id": 10, "french": "Elle est arrivée hier.", "english": "She arrived yesterday.", "note": "passé composé with être (movement)" },
+        { "id": 11, "french": "Nous avons vu le film.", "english": "We saw the film.", "note": "voir — irregular participle vu" },
+        { "id": 12, "french": "Tu as compris la leçon ?", "english": "Did you understand the lesson?", "note": "comprendre — past question" },
+        { "id": 13, "french": "Quand j'étais petit, je jouais dehors.", "english": "When I was little, I used to play outside.", "note": "imparfait — repeated past state" },
+        { "id": 14, "french": "Il pleuvait et nous sommes restés.", "english": "It was raining and we stayed.", "note": "imparfait (background) + passé composé" },
+        { "id": 15, "french": "Ils n'ont pas téléphoné.", "english": "They did not call.", "note": "negation: ne…pas around auxiliary" },
+        { "id": 16, "french": "J'ai travaillé toute la journée.", "english": "I worked all day.", "note": "duration with passé composé" }
+      ]
+    },
+    {
+      "id": "future",
+      "label": "Future",
+      "frenchLabel": "Futur",
+      "description": "Futur simple for plans and predictions.",
+      "sentences": [
+        { "id": 17, "french": "Je parlerai avec lui demain.", "english": "I will speak with him tomorrow.", "note": "futur simple — infinitive + endings" },
+        { "id": 18, "french": "Nous partirons en vacances en juillet.", "english": "We will leave on holiday in July.", "note": "partir — irregular stem part-" },
+        { "id": 19, "french": "Tu réussiras l'examen.", "english": "You will pass the exam.", "note": "encouragement / prediction" },
+        { "id": 20, "french": "Il fera beau ce week-end.", "english": "The weather will be nice this weekend.", "note": "faire for weather" },
+        { "id": 21, "french": "Elle achètera une nouvelle voiture.", "english": "She will buy a new car.", "note": "acheter — accent in futur stem" },
+        { "id": 22, "french": "Est-ce que vous viendrez à la fête ?", "english": "Will you come to the party?", "note": "venir — irregular venir-" },
+        { "id": 23, "french": "Je n'aurai pas le temps.", "english": "I will not have time.", "note": "futur of avoir" },
+        { "id": 24, "french": "On se verra bientôt.", "english": "We will see each other soon.", "note": "on = informal we; reflexive se voir" }
+      ]
+    }
+  ]
+}

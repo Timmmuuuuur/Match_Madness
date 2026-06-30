@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reading Exercises — Match Madness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --green:       #58cc02; --green-dark:  #46a302; --green-light: #d7ffb8;
+        --blue:        #1cb0f6; --blue-dark:   #1899d6; --blue-light:  #ddf4ff;
+        --red:         #ff4b4b; --yellow:      #ffc800;
+        --bg:          #f0f4f8; --card:        #ffffff; --text:        #3c3c3c;
+        --text-muted:  #777;    --border:      #e5e5e5; --shadow:      0 4px 0 rgba(0,0,0,.08);
+        --radius:      16px;    --font:        'Nunito', system-ui, sans-serif;
+        --teal:        #0d9488; --teal-light:  #ccfbf1; --teal-dark:   #0f766e;
+      }
+      *, *::before, *::after { box-sizing: border-box; }
+      body { margin: 0; font-family: var(--font); color: var(--text); background: linear-gradient(160deg, #f0fdfa 0%, var(--bg) 40%, #e3f2fd 100%); min-height: 100vh; }
+
+      /* ── Top bar ── */
+      .topbar { position: sticky; top: 0; z-index: 100; display: flex; align-items: center; gap: 14px; padding: 12px 24px; background: rgba(255,255,255,.92); backdrop-filter: blur(8px); border-bottom: 2px solid var(--border); box-shadow: 0 2px 8px rgba(0,0,0,.06); }
+      .topbar-logo { width: 38px; height: 38px; border-radius: 10px; background: var(--green); color: #fff; font-weight: 800; font-size: .9rem; display: grid; place-items: center; box-shadow: 0 3px 0 var(--green-dark); flex-shrink: 0; text-decoration: none; }
+      .topbar-title { font-weight: 800; font-size: 1.1rem; flex: 1; }
+      .topbar-title span { color: var(--teal); }
+      .back-btn { display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 10px; background: var(--green); color: #fff; font-family: var(--font); font-weight: 700; font-size: .85rem; text-decoration: none; box-shadow: 0 3px 0 var(--green-dark); transition: transform .1s; border: none; cursor: pointer; }
+      .back-btn:hover { transform: translateY(-1px); }
+
+      /* ── Page layout ── */
+      .page { max-width: 860px; margin: 0 auto; padding: 28px 20px 60px; }
+
+      /* ── Hero ── */
+      .page-hero { text-align: center; margin-bottom: 28px; }
+      .page-hero .badge { display: inline-block; background: var(--teal-light); color: var(--teal-dark); border: 2px solid var(--teal); border-radius: 999px; padding: 6px 18px; font-weight: 800; font-size: .85rem; letter-spacing: .04em; margin-bottom: 12px; }
+      .page-hero h1 { margin: 0 0 6px; font-size: 2rem; font-weight: 800; }
+      .page-hero p { margin: 0; color: var(--text-muted); font-size: .95rem; }
+
+      /* ── Article picker ── */
+      .article-picker { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 28px; }
+      .picker-card { padding: 14px 16px; border-radius: var(--radius); border: 2px solid var(--border); background: var(--card); cursor: pointer; box-shadow: var(--shadow); transition: transform .12s, border-color .15s, box-shadow .15s; text-align: left; font-family: var(--font); }
+      .picker-card:hover { transform: translateY(-2px); }
+      .picker-card.active { border-color: var(--teal); box-shadow: 0 4px 0 var(--teal); background: var(--teal-light); }
+      .picker-card .picker-num { font-size: .72rem; font-weight: 800; text-transform: uppercase; letter-spacing: .07em; color: var(--text-muted); margin-bottom: 4px; }
+      .picker-card.active .picker-num { color: var(--teal-dark); }
+      .picker-card .picker-title { font-size: .95rem; font-weight: 800; color: var(--text); line-height: 1.3; margin-bottom: 4px; }
+      .picker-card .picker-meta { font-size: .75rem; font-weight: 600; color: var(--text-muted); }
+      .picker-card.active .picker-title { color: var(--teal-dark); }
+
+      /* ── Article card ── */
+      .article-card { background: var(--card); border-radius: var(--radius); border: 2px solid var(--teal); padding: 36px 40px; box-shadow: 0 4px 0 var(--teal); }
+
+      .article-header { margin-bottom: 24px; padding-bottom: 18px; border-bottom: 2px solid var(--border); }
+      .article-label { font-size: .72rem; font-weight: 800; text-transform: uppercase; letter-spacing: .08em; color: var(--teal-dark); margin-bottom: 6px; }
+      .article-title { margin: 0 0 4px; font-size: 1.6rem; font-weight: 800; }
+      .article-subtitle { margin: 0; color: var(--text-muted); font-size: .95rem; font-style: italic; }
+      .article-tags { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+      .tag { display: inline-block; padding: 3px 10px; border-radius: 999px; font-size: .72rem; font-weight: 800; border: 2px solid; }
+      .tag-level { background: var(--green-light); border-color: var(--green); color: var(--green-dark); }
+      .tag-topic { background: #e0f2fe; border-color: var(--blue); color: var(--blue-dark); }
+
+      /* ── French text ── */
+      .french-section { margin-bottom: 20px; }
+      .lang-label { font-size: .72rem; font-weight: 800; text-transform: uppercase; letter-spacing: .08em; color: var(--teal-dark); margin-bottom: 10px; display: flex; align-items: center; gap: 6px; }
+      .lang-label::before { content: ''; display: inline-block; width: 16px; height: 3px; background: var(--teal); border-radius: 2px; }
+
+      .french-text p, .english-text p { font-size: 1.05rem; line-height: 1.85; margin: 0 0 16px; color: var(--text); }
+      .french-text p:last-child, .english-text p:last-child { margin-bottom: 0; }
+      .french-text { font-style: italic; }
+
+      /* ── Translation toggle ── */
+      .translation-toggle { display: flex; align-items: center; gap: 12px; margin: 24px 0 20px; }
+      .toggle-translation-btn { display: inline-flex; align-items: center; gap: 8px; padding: 12px 22px; border-radius: 12px; border: 2px solid var(--teal); background: var(--teal-light); color: var(--teal-dark); font-family: var(--font); font-weight: 800; font-size: .9rem; cursor: pointer; box-shadow: 0 3px 0 var(--teal); transition: transform .1s, background .15s; }
+      .toggle-translation-btn:hover { transform: translateY(-1px); }
+      .toggle-translation-btn:active { transform: translateY(1px); box-shadow: 0 1px 0 var(--teal); }
+      .toggle-translation-btn.showing { background: var(--teal); color: #fff; }
+
+      /* ── English text ── */
+      .english-section { display: none; border-top: 2px solid var(--border); padding-top: 20px; margin-top: 4px; }
+      .english-section.visible { display: block; }
+      .english-text p { color: #3b5e70; }
+
+      /* ── Vocabulary hints ── */
+      .vocab-section { margin-top: 28px; padding-top: 20px; border-top: 2px solid var(--border); }
+      .vocab-heading { font-size: .75rem; font-weight: 800; text-transform: uppercase; letter-spacing: .08em; color: var(--text-muted); margin: 0 0 12px; }
+      .vocab-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 8px; }
+      .vocab-item { background: #fafafa; border: 2px solid var(--border); border-radius: 10px; padding: 8px 12px; display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+      .vocab-fr { font-weight: 800; font-size: .9rem; color: #1565c0; font-style: italic; }
+      .vocab-en { font-size: .82rem; color: var(--text-muted); font-weight: 600; }
+
+      /* ── Nav buttons ── */
+      .article-nav { display: flex; justify-content: space-between; margin-top: 28px; gap: 12px; }
+      .nav-btn { display: inline-flex; align-items: center; gap: 6px; padding: 12px 20px; border-radius: 12px; border: 2px solid var(--border); background: var(--card); font-family: var(--font); font-weight: 800; font-size: .9rem; cursor: pointer; box-shadow: var(--shadow); transition: transform .1s, border-color .15s; color: var(--text); text-decoration: none; }
+      .nav-btn:hover { transform: translateY(-1px); border-color: var(--teal); }
+      .nav-btn:disabled { opacity: .4; pointer-events: none; }
+      .nav-btn.primary { background: var(--teal); border-color: var(--teal); color: #fff; box-shadow: 0 4px 0 var(--teal-dark); }
+
+      @media (max-width: 640px) {
+        .article-picker { grid-template-columns: 1fr; }
+        .article-card { padding: 22px 18px; }
+        .vocab-grid { grid-template-columns: 1fr 1fr; }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="topbar">
+      <a class="topbar-logo" href="index.html">MM</a>
+      <span class="topbar-title">📖 <span>Reading</span> Exercises</span>
+      <a class="back-btn" href="index.html">← Back to game</a>
+    </nav>
+
+    <div class="page">
+      <div class="page-hero">
+        <div class="badge">📖 Reading</div>
+        <h1>French Reading Exercises</h1>
+        <p>Read the article in French, try to understand it, then reveal the English translation.</p>
+      </div>
+
+      <div class="article-picker" id="picker"></div>
+      <div id="article-display"></div>
+    </div>
+
+    <script>
+      const ARTICLES = [
+        {
+          id: 1,
+          title: "Une journée à Paris",
+          subtitle: "A Day in Paris",
+          level: "A2–B1",
+          topic: "Travel & Tourism",
+          french: [
+            "Sophie se réveille tôt le matin. Elle regarde par la fenêtre et voit le soleil briller sur les toits de Paris. C'est une belle journée de printemps, et elle a décidé de visiter la Tour Eiffel pour la première fois. Elle met son manteau, prend son appareil photo et sort dans la rue.",
+            "Elle prend le métro ligne 6 jusqu'à la station Bir-Hakeim. En sortant du métro, elle voit la tour devant elle, immense et impressionnante. Elle achète un billet pour monter au deuxième étage et admire la vue magnifique sur toute la ville. La Seine brille en dessous, et au loin, on voit le dôme blanc du Sacré-Cœur.",
+            "Le soir, Sophie s'installe dans un café au bord de la Seine. Elle commande un café crème et une tarte aux pommes. Elle écrit dans son carnet : « Paris est encore plus belle que je ne l'imaginais. Je reviendrai certainement. » Elle rentre à l'hôtel épuisée mais heureuse.",
+          ],
+          english: [
+            "Sophie wakes up early in the morning. She looks out the window and sees the sun shining over the rooftops of Paris. It is a beautiful spring day, and she has decided to visit the Eiffel Tower for the first time. She puts on her coat, takes her camera, and goes out into the street.",
+            "She takes metro line 6 to Bir-Hakeim station. Coming out of the metro, she sees the tower in front of her, massive and impressive. She buys a ticket to go up to the second floor and admires the magnificent view over the whole city. The Seine shines below, and in the distance, you can see the white dome of the Sacré-Cœur.",
+            "In the evening, Sophie settles into a café by the Seine. She orders a café crème and an apple tart. She writes in her notebook: \"Paris is even more beautiful than I imagined. I will certainly come back.\" She returns to the hotel exhausted but happy.",
+          ],
+          vocab: [
+            { fr: "se réveiller", en: "to wake up" },
+            { fr: "les toits", en: "the rooftops" },
+            { fr: "un manteau", en: "a coat" },
+            { fr: "un billet", en: "a ticket" },
+            { fr: "la vue", en: "the view" },
+            { fr: "au loin", en: "in the distance" },
+            { fr: "s'installer", en: "to settle (in)" },
+            { fr: "un carnet", en: "a notebook" },
+            { fr: "certainement", en: "certainly" },
+            { fr: "épuisé(e)", en: "exhausted" },
+          ],
+        },
+        {
+          id: 2,
+          title: "Le marché du dimanche",
+          subtitle: "The Sunday Market",
+          level: "A2–B1",
+          topic: "Daily Life & Food",
+          french: [
+            "Chaque dimanche matin, le quartier de la Bastille se transforme. Dès sept heures, les commerçants installent leurs étals colorés le long du boulevard. On y trouve des légumes frais couverts de rosée, des fromages aux odeurs puissantes, des bouquets de fleurs et toutes sortes de produits régionaux venus de toute la France.",
+            "Monsieur Bernard est fromager sur ce marché depuis vingt ans. Il connaît tous ses clients par leur prénom et leur recommande toujours les meilleurs fromages du moment. Ce matin, il propose un camembert de Normandie exceptionnel, encore coulant, et un comté affiné vingt-quatre mois, avec un goût de noisette. « Prenez-en, vous ne serez pas déçus ! » dit-il avec un grand sourire.",
+            "À midi, le marché commence à se vider. Les vendeurs rangent leurs affaires, nettoient le sol et chargent leurs camions. Dans quelques heures, la place redeviendra silencieuse et vide. Mais dimanche prochain, à sept heures du matin, tout recommencera — comme si la ville ne pouvait pas se passer de ce rituel hebdomadaire.",
+          ],
+          english: [
+            "Every Sunday morning, the Bastille neighbourhood transforms. From seven o'clock, traders set up their colourful stalls along the boulevard. You can find fresh vegetables covered in dew, cheeses with powerful aromas, bouquets of flowers, and all kinds of regional products from all over France.",
+            "Monsieur Bernard has been a cheesemaker at this market for twenty years. He knows all his customers by their first name and always recommends the best cheeses of the moment. This morning, he is offering an exceptional Normandy camembert, still runny, and a comté aged twenty-four months, with a hazelnut flavour. \"Take some, you won't be disappointed!\" he says with a big smile.",
+            "At noon, the market begins to empty. The vendors pack up their things, clean the ground, and load their trucks. In a few hours, the square will become silent and empty again. But next Sunday, at seven in the morning, everything will start again — as if the city cannot do without this weekly ritual.",
+          ],
+          vocab: [
+            { fr: "un étal", en: "a market stall" },
+            { fr: "la rosée", en: "dew" },
+            { fr: "coulant(e)", en: "runny (cheese)" },
+            { fr: "affiné(e)", en: "aged (cheese)" },
+            { fr: "une noisette", en: "a hazelnut" },
+            { fr: "déçu(e)", en: "disappointed" },
+            { fr: "ranger", en: "to pack up / tidy" },
+            { fr: "hebdomadaire", en: "weekly" },
+            { fr: "se passer de", en: "to do without" },
+            { fr: "un rituel", en: "a ritual" },
+          ],
+        },
+        {
+          id: 3,
+          title: "Un été en Bretagne",
+          subtitle: "A Summer in Brittany",
+          level: "B1",
+          topic: "Family & Countryside",
+          french: [
+            "Pendant les grandes vacances, Lucas et sa sœur Camille partent toujours chez leurs grands-parents, dans un petit village breton près de la côte. La maison est grande et ancienne, entourée d'un jardin plein de fleurs sauvages et d'arbres fruitiers. Dès leur arrivée, leur grand-mère les accueille avec une soupe chaude et des galettes de blé noir fraîchement préparées.",
+            "Les journées s'écoulent lentement et agréablement. Le matin, Lucas et Camille font du vélo sur les chemins qui longent la côte et s'arrêtent parfois pour regarder les bateaux de pêche rentrer au port. L'après-midi, ils lisent dans le jardin, jouent aux cartes sous le grand chêne ou aident leur grand-père à ramasser les pommes. Le soir, autour de la table, il raconte des histoires sur la pêche au thon et les grandes tempêtes qu'il a connues dans sa jeunesse.",
+            "Quand arrive le mois de septembre, il faut préparer les valises et rentrer à Paris. Lucas et Camille font leurs bagages avec tristesse, en promettant de revenir à Noël. Leur grand-mère glisse toujours un pot de confiture de fraises dans le sac de chacun, pour qu'ils se souviennent du goût de l'été breton pendant les longs mois d'hiver.",
+          ],
+          english: [
+            "During the summer holidays, Lucas and his sister Camille always go to their grandparents' house in a small Breton village near the coast. The house is large and old, surrounded by a garden full of wild flowers and fruit trees. As soon as they arrive, their grandmother welcomes them with hot soup and freshly made buckwheat crêpes.",
+            "The days pass slowly and pleasantly. In the morning, Lucas and Camille cycle along the paths that follow the coastline and sometimes stop to watch the fishing boats returning to port. In the afternoon, they read in the garden, play cards under the big oak tree, or help their grandfather pick apples. In the evening, around the table, he tells stories about tuna fishing and the great storms he experienced in his youth.",
+            "When September arrives, it is time to pack the suitcases and go back to Paris. Lucas and Camille pack their bags sadly, promising to come back at Christmas. Their grandmother always slips a jar of strawberry jam into each of their bags, so that they remember the taste of a Breton summer during the long winter months.",
+          ],
+          vocab: [
+            { fr: "breton(ne)", en: "Breton (from Brittany)" },
+            { fr: "une galette de blé noir", en: "buckwheat crêpe" },
+            { fr: "s'écouler", en: "to pass / flow (time)" },
+            { fr: "longer", en: "to run alongside" },
+            { fr: "ramasser", en: "to pick up / collect" },
+            { fr: "une tempête", en: "a storm" },
+            { fr: "la jeunesse", en: "youth" },
+            { fr: "un bagage", en: "luggage / bag" },
+            { fr: "glisser", en: "to slip / slide" },
+            { fr: "se souvenir de", en: "to remember" },
+          ],
+        },
+        {
+          id: 4,
+          title: "La rentrée scolaire",
+          subtitle: "Back to School",
+          level: "A2",
+          topic: "School & Everyday Life",
+          french: [
+            "En France, la rentrée scolaire a lieu chaque année au début du mois de septembre. C'est un moment important dans la vie des familles. Les parents accompagnent leurs enfants jusqu'à l'école, les cartables bien remplis de cahiers neufs et de crayons de couleur. Dans les rues, on voit des files de voitures et des familles qui marchent rapidement vers les établissements scolaires.",
+            "Pour Léa, c'est la rentrée en sixième — son entrée au collège. Elle est à la fois excitée et nerveuse. Elle ne connaît personne dans sa nouvelle classe, car ses amies du primaire sont allées dans des collèges différents. Mais dès la première heure de cours, elle rencontre Yasmine, qui est assise à côté d'elle en cours de français. Elles se présentent et se rendent compte qu'elles habitent dans la même rue.",
+            "Le soir, Léa rentre à la maison avec le sourire. Elle raconte à ses parents sa nouvelle classe, ses professeurs et sa nouvelle amie. Son père lui prépare un goûter — du pain beurré avec du chocolat chaud — comme il le faisait quand elle était petite. « La rentrée, c'est stressant », admet Léa, « mais c'est aussi le début de quelque chose de nouveau. »",
+          ],
+          english: [
+            "In France, the start of the school year takes place every year at the beginning of September. It is an important moment in family life. Parents accompany their children to school, with school bags well filled with new notebooks and coloured pencils. In the streets, you see queues of cars and families walking quickly towards schools.",
+            "For Léa, it is the start of sixth grade — her entry into secondary school. She is both excited and nervous. She does not know anyone in her new class, because her friends from primary school went to different secondary schools. But from the very first lesson, she meets Yasmine, who is sitting next to her in French class. They introduce themselves and realise they live on the same street.",
+            "In the evening, Léa comes home smiling. She tells her parents about her new class, her teachers, and her new friend. Her father prepares her an afternoon snack — buttered bread with hot chocolate — just as he used to when she was little. \"The start of school is stressful,\" admits Léa, \"but it is also the beginning of something new.\"",
+          ],
+          vocab: [
+            { fr: "la rentrée", en: "start of school year" },
+            { fr: "un cartable", en: "a school bag" },
+            { fr: "la sixième", en: "Year 7 / 6th grade" },
+            { fr: "le collège", en: "secondary school (11–15)" },
+            { fr: "à la fois", en: "at the same time / both" },
+            { fr: "le primaire", en: "primary school" },
+            { fr: "se rendre compte", en: "to realise" },
+            { fr: "un goûter", en: "afternoon snack" },
+            { fr: "beurré(e)", en: "buttered" },
+            { fr: "admettre", en: "to admit" },
+          ],
+        },
+        {
+          id: 5,
+          title: "Le café du coin",
+          subtitle: "The Corner Café",
+          level: "B1–B2",
+          topic: "Culture & Society",
+          french: [
+            "Le café de quartier occupe une place unique dans la culture française. Ce n'est pas seulement un endroit où l'on boit du café — c'est un espace social, un lieu de rencontre, presque une institution. Les habitués s'y retrouvent le matin pour le « petit noir » du réveil, à midi pour un plat du jour rapide, et parfois le soir pour un verre de vin entre collègues.",
+            "Au Café des Amis, dans le 11e arrondissement de Paris, le patron s'appelle René. Il est là depuis trente ans et connaît ses clients comme sa propre famille. Il sait que Madame Dupont prend toujours un décaféiné sans sucre, que le jeune ingénieur du coin préfère son café serré debout au comptoir, et que les retraités du quartier viennent jouer aux dominos chaque jeudi après-midi. René ne vend pas seulement des boissons — il vend de la continuité et du lien social.",
+            "Pourtant, les cafés de quartier disparaissent peu à peu. En 1960, la France comptait plus de deux cent mille cafés ; aujourd'hui, il en reste moins de trente mille. La concurrence des grandes chaînes, la hausse des loyers et le changement des habitudes de consommation menacent ces lieux emblématiques. René, lui, refuse de s'inquiéter. « Tant qu'il y aura des gens qui ont envie de se parler, il y aura besoin d'un café comme le nôtre. »",
+          ],
+          english: [
+            "The neighbourhood café occupies a unique place in French culture. It is not simply a place where one drinks coffee — it is a social space, a meeting place, almost an institution. Regulars gather there in the morning for their wake-up espresso, at noon for a quick daily special, and sometimes in the evening for a glass of wine with colleagues.",
+            "At the Café des Amis, in the 11th arrondissement of Paris, the owner's name is René. He has been there for thirty years and knows his customers like his own family. He knows that Madame Dupont always has a decaffeinated coffee with no sugar, that the young engineer from the area prefers his espresso strong, standing at the counter, and that the retired residents of the neighbourhood come to play dominoes every Thursday afternoon. René does not just sell drinks — he sells continuity and social bonds.",
+            "Yet neighbourhood cafés are gradually disappearing. In 1960, France had more than two hundred thousand cafés; today, fewer than thirty thousand remain. Competition from large chains, rising rents, and changing consumer habits are threatening these iconic places. René, for his part, refuses to worry. \"As long as there are people who want to talk to each other, there will be a need for a café like ours.\"",
+          ],
+          vocab: [
+            { fr: "un habitué", en: "a regular (customer)" },
+            { fr: "un petit noir", en: "an espresso" },
+            { fr: "serré(e)", en: "strong (espresso)" },
+            { fr: "le comptoir", en: "the counter / bar" },
+            { fr: "un retraité", en: "a retired person" },
+            { fr: "disparaître", en: "to disappear" },
+            { fr: "la hausse", en: "the rise / increase" },
+            { fr: "emblématique", en: "iconic / emblematic" },
+            { fr: "la continuité", en: "continuity" },
+            { fr: "le lien social", en: "social bond / connection" },
+          ],
+        },
+      ];
+
+      let currentId = 1;
+      let showingTranslation = false;
+
+      function getArticle(id) { return ARTICLES.find((a) => a.id === id); }
+
+      function renderPicker() {
+        const picker = document.getElementById('picker');
+        picker.innerHTML = ARTICLES.map((a) => `
+          <button type="button" class="picker-card ${a.id === currentId ? 'active' : ''}" data-id="${a.id}">
+            <div class="picker-num">Article ${a.id}</div>
+            <div class="picker-title">${a.title}</div>
+            <div class="picker-meta">${a.level} · ${a.topic}</div>
+          </button>`).join('');
+        picker.querySelectorAll('[data-id]').forEach((btn) =>
+          btn.addEventListener('click', () => { currentId = Number(btn.dataset.id); showingTranslation = false; renderPicker(); renderArticle(); })
+        );
+      }
+
+      function renderArticle() {
+        const a = getArticle(currentId);
+        const idx = ARTICLES.findIndex((x) => x.id === currentId);
+        const hasPrev = idx > 0;
+        const hasNext = idx < ARTICLES.length - 1;
+
+        const frenchParas = a.french.map((p) => `<p>${p}</p>`).join('');
+        const englishParas = a.english.map((p) => `<p>${p}</p>`).join('');
+        const vocabItems = a.vocab.map((v) =>
+          `<div class="vocab-item"><span class="vocab-fr">${v.fr}</span><span class="vocab-en">${v.en}</span></div>`
+        ).join('');
+
+        document.getElementById('article-display').innerHTML = `
+          <div class="article-card">
+            <div class="article-header">
+              <div class="article-label">Article ${a.id} of ${ARTICLES.length}</div>
+              <h2 class="article-title">${a.title}</h2>
+              <p class="article-subtitle">${a.subtitle}</p>
+              <div class="article-tags">
+                <span class="tag tag-level">${a.level}</span>
+                <span class="tag tag-topic">${a.topic}</span>
+              </div>
+            </div>
+
+            <div class="french-section">
+              <div class="lang-label">🇫🇷 French</div>
+              <div class="french-text">${frenchParas}</div>
+            </div>
+
+            <div class="translation-toggle">
+              <button type="button" class="toggle-translation-btn ${showingTranslation ? 'showing' : ''}" id="toggle-btn">
+                ${showingTranslation ? '🙈 Hide Translation' : '🇬🇧 Show English Translation'}
+              </button>
+            </div>
+
+            <div class="english-section ${showingTranslation ? 'visible' : ''}" id="english-section">
+              <div class="lang-label">🇬🇧 English</div>
+              <div class="english-text">${englishParas}</div>
+            </div>
+
+            <div class="vocab-section">
+              <div class="vocab-heading">Key Vocabulary</div>
+              <div class="vocab-grid">${vocabItems}</div>
+            </div>
+
+            <div class="article-nav">
+              <button type="button" class="nav-btn" id="prev-btn" ${!hasPrev ? 'disabled' : ''}>← Previous</button>
+              <button type="button" class="nav-btn primary" id="next-btn" ${!hasNext ? 'disabled' : ''}>Next Article →</button>
+            </div>
+          </div>`;
+
+        document.getElementById('toggle-btn').addEventListener('click', () => {
+          showingTranslation = !showingTranslation;
+          document.getElementById('toggle-btn').classList.toggle('showing', showingTranslation);
+          document.getElementById('toggle-btn').textContent = showingTranslation ? '🙈 Hide Translation' : '🇬🇧 Show English Translation';
+          document.getElementById('english-section').classList.toggle('visible', showingTranslation);
+        });
+
+        if (hasPrev) {
+          document.getElementById('prev-btn').addEventListener('click', () => {
+            currentId = ARTICLES[idx - 1].id; showingTranslation = false; renderPicker(); renderArticle();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          });
+        }
+        if (hasNext) {
+          document.getElementById('next-btn').addEventListener('click', () => {
+            currentId = ARTICLES[idx + 1].id; showingTranslation = false; renderPicker(); renderArticle();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          });
+        }
+      }
+
+      renderPicker();
+      renderArticle();
+    </script>
+  </body>
+</html>
