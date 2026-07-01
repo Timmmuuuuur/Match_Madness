@@ -181,7 +181,7 @@ export function GameScreen({ words, settings, onComplete, onQuit }: GameScreenPr
       correctIdsRef.current = nextCorrect;
       setCorrectIds(nextCorrect);
 
-      playCorrectSound();
+      playCorrectSound().catch(() => {});
       const nextStreak = streakRef.current + 1;
       const nextCorrectCount = correctMatches + 1;
       maybeCelebrateHaptic(nextCorrectCount);
@@ -232,7 +232,7 @@ export function GameScreen({ words, settings, onComplete, onQuit }: GameScreenPr
     setStreak(0);
     streakRef.current = 0;
     setWrongMatches((w) => w + 1);
-    playWrongSound();
+    playWrongSound().catch(() => {});
     setWrongIds(new Set([cur.id, tile.id]));
     if (flashTimerRef.current) clearTimeout(flashTimerRef.current);
     flashTimerRef.current = window.setTimeout(() => setWrongIds(new Set()), WRONG_FLASH_MS);
@@ -270,9 +270,7 @@ export function GameScreen({ words, settings, onComplete, onQuit }: GameScreenPr
         </span>
       </div>
 
-      <GameToast message={toast} />
-
-      <div className="match-board" onPointerDown={primeGameAudio}>
+      <div className="match-board" onPointerDown={() => { void primeGameAudio(); }}>
         <div className="match-column">
           <h3 className="column-label">{primaryColumnLabel(settings.direction)}</h3>
           <div className="tile-column">
@@ -306,6 +304,8 @@ export function GameScreen({ words, settings, onComplete, onQuit }: GameScreenPr
           </div>
         </div>
       </div>
+
+      <GameToast message={toast} />
     </div>
   );
 }

@@ -117,7 +117,7 @@ function SentenceTileButton({
       className={cls}
       disabled={correct}
       onPointerDown={(e) => {
-        primeGameAudio();
+        void primeGameAudio();
         e.currentTarget.setPointerCapture(e.pointerId);
       }}
       onPointerUp={(e) => {
@@ -222,7 +222,7 @@ export function SentenceGameScreen({ direction, onComplete }: Props) {
       correctIdsRef.current = nextCorrect;
       setCorrectIds(nextCorrect);
 
-      playCorrectSound();
+      playCorrectSound().catch(() => {});
       const nextStreak = streakRef.current + 1;
       const nextCorrectCount = correctRef.current + 1;
       maybeCelebrateHaptic(nextCorrectCount);
@@ -262,7 +262,7 @@ export function SentenceGameScreen({ direction, onComplete }: Props) {
         setCorrectIds(new Set(correctIdsRef.current));
       }, CORRECT_HOLD_MS);
     } else {
-      playWrongSound();
+      playWrongSound().catch(() => {});
       setWrong((w) => w + 1);
       setStreak(0);
       streakRef.current = 0;
@@ -295,9 +295,7 @@ export function SentenceGameScreen({ direction, onComplete }: Props) {
         </span>
       </div>
 
-      <GameToast message={toast} />
-
-      <div className="match-board sentence-board" onPointerDown={primeGameAudio}>
+      <div className="match-board sentence-board" onPointerDown={() => { void primeGameAudio(); }}>
         <div className="match-column">
           <h3 className="column-label">{leftLabel}</h3>
           <div className="tile-column">
@@ -329,6 +327,8 @@ export function SentenceGameScreen({ direction, onComplete }: Props) {
           </div>
         </div>
       </div>
+
+      <GameToast message={toast} />
 
       <p className="game-hint">Tap ✕ when finished to see your results.</p>
     </div>

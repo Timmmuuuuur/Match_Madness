@@ -20,53 +20,82 @@ const STREAK_MSGS = [
 ];
 
 let audioCtx: AudioContext | null = null;
+let audioReady: Promise<AudioContext | null> | null = null;
 
-function getAudioContext(): AudioContext | null {
+function createContext(): AudioContext | null {
   try {
-    if (!audioCtx) audioCtx = new AudioContext();
-    if (audioCtx.state === 'suspended') void audioCtx.resume();
+    const Ctx = window.AudioContext ?? (window as unknown as { webkitAudioContext?: typeof AudioContext }).webkitAudioContext;
+    if (!Ctx) return null;
+    if (!audioCtx) audioCtx = new Ctx();
     return audioCtx;
   } catch {
     return null;
   }
 }
 
-/** Short, soft ascending chime — not annoying. */
-export function playCorrectSound(): void {
-  const ctx = getAudioContext();
+/** Must run during a user gesture — call on first tap. */
+export async function primeGameAudio(): Promise<void> {
+  const ctx = createContext();
+  if (!ctx) return;
+  if (ctx.state === 'suspended') {
+    audioReady = ctx.resume().then(() => ctx).catch(() => null);
+    await audioReady;
+  } else {
+    audioReady = Promise.resolve(ctx);
+  }
+}
+
+async function ensureAudioReady(): Promise<AudioContext | null> {
+  if (audioReady) return audioReady;
+  const ctx = createContext();
+  if (!ctx) return null;
+  if (ctx.state === 'suspended') {
+    try {
+      await ctx.resume();
+    } catch {
+      return null;
+    }
+  }
+  audioReady = Promise.resolve(ctx);
+  return ctx;
+}
+
+/** Short, soft ascending chime — audible but not annoying. */
+export async function playCorrectSound(): Promise<void> {
+  const ctx = await ensureAudioReady();
   if (!ctx) return;
 
   const t = ctx.currentTime;
   const osc = ctx.createOscillator();
   const gain = ctx.createGain();
   osc.type = 'sine';
-  osc.frequency.setValueAtTime(440, t);
-  osc.frequency.exponentialRampToValueAtTime(660, t + 0.07);
+  osc.frequency.setValueAtTime(523.25, t);
+  osc.frequency.exponentialRampToValueAtTime(783.99, t + 0.09);
   gain.gain.setValueAtTime(0.0001, t);
-  gain.gain.linearRampToValueAtTime(0.06, t + 0.015);
-  gain.gain.exponentialRampToValueAtTime(0.0001, t + 0.18);
+  gain.gain.linearRampToValueAtTime(0.14, t + 0.012);
+  gain.gain.exponentialRampToValueAtTime(0.0001, t + 0.22);
   osc.connect(gain);
   gain.connect(ctx.destination);
   osc.start(t);
-  osc.stop(t + 0.2);
+  osc.stop(t + 0.24);
 }
 
-/** Gentle low tone on wrong match — optional, very quiet. */
-export function playWrongSound(): void {
-  const ctx = getAudioContext();
+/** Gentle low tone on wrong match. */
+export async function playWrongSound(): Promise<void> {
+  const ctx = await ensureAudioReady();
   if (!ctx) return;
 
   const t = ctx.currentTime;
   const osc = ctx.createOscillator();
   const gain = ctx.createGain();
   osc.type = 'triangle';
-  osc.frequency.setValueAtTime(220, t);
-  gain.gain.setValueAtTime(0.04, t);
-  gain.gain.exponentialRampToValueAtTime(0.0001, t + 0.12);
+  osc.frequency.setValueAtTime(196, t);
+  gain.gain.setValueAtTime(0.08, t);
+  gain.gain.exponentialRampToValueAtTime(0.0001, t + 0.14);
   osc.connect(gain);
   gain.connect(ctx.destination);
   osc.start(t);
-  osc.stop(t + 0.14);
+  osc.stop(t + 0.16);
 }
 
 /** Buzz every 5 correct matches on supported phones. */
@@ -85,9 +114,4 @@ export function pickEncouragement(streak: number, correctCount: number): string 
   }
   if (streak === 3) return 'Three in a row!';
   return null;
-}
-
-/** Resume audio after first user tap (browser autoplay policy). */
-export function primeGameAudio(): void {
-  void getAudioContext()?.resume();
 }

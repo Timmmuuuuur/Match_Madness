@@ -36,6 +36,7 @@ export function Tile({ tile, selected, correct, wrong, disabled, onSelect, hideC
     const now = Date.now();
     if (now - lastTapRef.current < 150) return;
     lastTapRef.current = now;
+    void primeGameAudio();
     onSelect(tile.id);
   };
 
@@ -45,7 +46,7 @@ export function Tile({ tile, selected, correct, wrong, disabled, onSelect, hideC
       className={className}
       disabled={disabled || correct}
       onPointerDown={(e) => {
-        primeGameAudio();
+        void primeGameAudio();
         e.currentTarget.setPointerCapture(e.pointerId);
       }}
       onPointerUp={(e) => {
