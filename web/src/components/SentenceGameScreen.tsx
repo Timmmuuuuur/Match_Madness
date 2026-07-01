@@ -3,7 +3,15 @@ import type { Direction, GameStats } from '@shared/types';
 import sentences from '@shared/data/sentences.json';
 import { calcMatchScore, shuffle } from '../lib/gameEngine';
 import { ProgressBar } from './ProgressBar';
+import { GameToast } from './GameToast';
 import { useGameLayoutLock } from '../hooks/useGameLayoutLock';
+import {
+  maybeCelebrateHaptic,
+  pickEncouragement,
+  playCorrectSound,
+  playWrongSound,
+  primeGameAudio,
+} from '../lib/gameFeedback';
 
 const PAIRS_ON_BOARD = 5;
 const CORRECT_HOLD_MS = 420;
@@ -23,10 +31,11 @@ function pickRandom<T>(arr: T[], n: number): T[] {
   return shuffle(arr).slice(0, n);
 }
 
-function pickNext<T extends { id: number }>(all: T[], used: Set<number>): T {
-  const available = all.filter((s) => !used.has(s.id));
-  const source = available.length > 0 ? available : all;
-  return pickRandom(source, 1)[0];
+function pickNext<T extends { id: number }>(all: T[], used: Set<number>, onBoard: Set<number>): T {
+  const available = all.filter((s) => !used.has(s.id) && !onBoard.has(s.id));
+  const source = available.length > 0 ? available : all.filter((s) => !onBoard.has(s.id));
+  const fallback = source.length > 0 ? source : all;
+  return pickRandom(fallback, 1)[0];
 }
 
 function buildColumns(pairs: Sentence[], direction: Direction) {
@@ -78,6 +87,53 @@ interface Props {
   onQuit: () => void;
 }
 
+function SentenceTileButton({
+  tile,
+  selected,
+  correct,
+  wrong,
+  onSelect,
+}: {
+  tile: SentenceTile;
+  selected: boolean;
+  correct: boolean;
+  wrong: boolean;
+  onSelect: (id: string) => void;
+}) {
+  const lastTapRef = useRef(0);
+  const cls = ['tile', 'tile-sentence', selected && 'selected', correct && 'correct', wrong && 'wrong'].filter(Boolean).join(' ');
+
+  const activate = () => {
+    if (correct || wrong) return;
+    const now = Date.now();
+    if (now - lastTapRef.current < 150) return;
+    lastTapRef.current = now;
+    onSelect(tile.id);
+  };
+
+  return (
+    <button
+      type="button"
+      className={cls}
+      disabled={correct}
+      onPointerDown={(e) => {
+        primeGameAudio();
+        e.currentTarget.setPointerCapture(e.pointerId);
+      }}
+      onPointerUp={(e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        if (e.currentTarget.hasPointerCapture(e.pointerId)) {
+          e.currentTarget.releasePointerCapture(e.pointerId);
+        }
+        activate();
+      }}
+    >
+      <span className="tile-text">{tile.text}</span>
+    </button>
+  );
+}
+
 export function SentenceGameScreen({ direction, onComplete }: Props) {
   useGameLayoutLock();
 
@@ -94,9 +150,11 @@ export function SentenceGameScreen({ direction, onComplete }: Props) {
   const [selected, setSelected] = useState<SentenceTile | null>(null);
   const [correctIds, setCorrectIds] = useState<Set<string>>(new Set());
   const [wrongIds, setWrongIds] = useState<Set<string>>(new Set());
+  const [toast, setToast] = useState<string | null>(null);
 
   const selectedRef = useRef<SentenceTile | null>(null);
   const streakRef = useRef(0);
+  const correctRef = useRef(0);
   const flashTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const correctIdsRef = useRef<Set<string>>(new Set());
   const boardRef = useRef({ leftTiles, rightTiles, usedIds, tileMap });
@@ -108,6 +166,10 @@ export function SentenceGameScreen({ direction, onComplete }: Props) {
   useEffect(() => {
     streakRef.current = streak;
   }, [streak]);
+
+  useEffect(() => {
+    correctRef.current = correct;
+  }, [correct]);
 
   useEffect(() => {
     const pairs = pickRandom(all, PAIRS_ON_BOARD);
@@ -160,6 +222,13 @@ export function SentenceGameScreen({ direction, onComplete }: Props) {
       correctIdsRef.current = nextCorrect;
       setCorrectIds(nextCorrect);
 
+      playCorrectSound();
+      const nextStreak = streakRef.current + 1;
+      const nextCorrectCount = correctRef.current + 1;
+      maybeCelebrateHaptic(nextCorrectCount);
+      const encouragement = pickEncouragement(nextStreak, nextCorrectCount);
+      if (encouragement) setToast(encouragement);
+
       setScore((s) => s + calcMatchScore(streakRef.current));
       setStreak((s) => {
         const next = s + 1;
@@ -172,7 +241,9 @@ export function SentenceGameScreen({ direction, onComplete }: Props) {
         const { leftTiles: left, rightTiles: right, usedIds: used } = boardRef.current;
         const nextUsed = new Set(used);
         nextUsed.add(matchedPairId);
-        const newPair = pickNext(all, nextUsed);
+        const onBoard = new Set([...left, ...right].map((t) => t.pairId));
+        onBoard.delete(matchedPairId);
+        const newPair = pickNext(all, nextUsed, onBoard);
         nextUsed.add(newPair.id);
 
         const updated = replaceSentencePair(matchedPairId, newPair, left, right, direction);
@@ -191,6 +262,7 @@ export function SentenceGameScreen({ direction, onComplete }: Props) {
         setCorrectIds(new Set(correctIdsRef.current));
       }, CORRECT_HOLD_MS);
     } else {
+      playWrongSound();
       setWrong((w) => w + 1);
       setStreak(0);
       streakRef.current = 0;
@@ -202,28 +274,6 @@ export function SentenceGameScreen({ direction, onComplete }: Props) {
 
   const leftLabel = direction === 'en-fr' ? 'English' : 'French';
   const rightLabel = direction === 'en-fr' ? 'French' : 'English';
-
-  const renderTile = (tile: SentenceTile) => {
-    const cls = [
-      'tile', 'tile-sentence',
-      selected?.id === tile.id && 'selected',
-      correctIds.has(tile.id) && 'correct',
-      wrongIds.has(tile.id) && 'wrong',
-    ].filter(Boolean).join(' ');
-    return (
-      <button
-        key={tile.id}
-        type="button"
-        className={cls}
-        onPointerDown={(e) => {
-          e.preventDefault();
-          handleSelect(tile.id);
-        }}
-      >
-        <span className="tile-text">{tile.text}</span>
-      </button>
-    );
-  };
 
   return (
     <div className="screen game-screen">
@@ -245,14 +295,38 @@ export function SentenceGameScreen({ direction, onComplete }: Props) {
         </span>
       </div>
 
-      <div className="match-board sentence-board">
+      <GameToast message={toast} />
+
+      <div className="match-board sentence-board" onPointerDown={primeGameAudio}>
         <div className="match-column">
           <h3 className="column-label">{leftLabel}</h3>
-          <div className="tile-column">{leftTiles.map(renderTile)}</div>
+          <div className="tile-column">
+            {leftTiles.map((tile, index) => (
+              <SentenceTileButton
+                key={`left-${index}`}
+                tile={tile}
+                selected={selected?.id === tile.id}
+                correct={correctIds.has(tile.id)}
+                wrong={wrongIds.has(tile.id)}
+                onSelect={handleSelect}
+              />
+            ))}
+          </div>
         </div>
         <div className="match-column">
           <h3 className="column-label">{rightLabel}</h3>
-          <div className="tile-column">{rightTiles.map(renderTile)}</div>
+          <div className="tile-column">
+            {rightTiles.map((tile, index) => (
+              <SentenceTileButton
+                key={`right-${index}`}
+                tile={tile}
+                selected={selected?.id === tile.id}
+                correct={correctIds.has(tile.id)}
+                wrong={wrongIds.has(tile.id)}
+                onSelect={handleSelect}
+              />
+            ))}
+          </div>
         </div>
       </div>
 

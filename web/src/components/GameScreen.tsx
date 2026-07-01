@@ -12,7 +12,15 @@ import {
 import { dirLabel, primaryColumnLabel, secondaryColumnLabel } from '../lib/matchLabels';
 import { ProgressBar } from './ProgressBar';
 import { Tile } from './Tile';
+import { GameToast } from './GameToast';
 import { useGameLayoutLock } from '../hooks/useGameLayoutLock';
+import {
+  maybeCelebrateHaptic,
+  pickEncouragement,
+  playCorrectSound,
+  playWrongSound,
+  primeGameAudio,
+} from '../lib/gameFeedback';
 
 const GAME_DURATION_S = 60;
 const CORRECT_HOLD_MS = 420;
@@ -49,6 +57,7 @@ export function GameScreen({ words, settings, onComplete, onQuit }: GameScreenPr
   const [rightTiles, setRightTiles] = useState<TileData[]>([]);
   const [tileMap, setTileMap] = useState<Map<string, TileData>>(new Map());
   const [timeLeft, setTimeLeft] = useState(GAME_DURATION_S);
+  const [toast, setToast] = useState<string | null>(null);
 
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const selectedRef = useRef<TileData | null>(null);
@@ -172,6 +181,13 @@ export function GameScreen({ words, settings, onComplete, onQuit }: GameScreenPr
       correctIdsRef.current = nextCorrect;
       setCorrectIds(nextCorrect);
 
+      playCorrectSound();
+      const nextStreak = streakRef.current + 1;
+      const nextCorrectCount = correctMatches + 1;
+      maybeCelebrateHaptic(nextCorrectCount);
+      const encouragement = pickEncouragement(nextStreak, nextCorrectCount);
+      if (encouragement) setToast(encouragement);
+
       setScore((s) => s + calcMatchScore(streakRef.current));
       setStreak((s) => {
         const next = s + 1;
@@ -190,7 +206,9 @@ export function GameScreen({ words, settings, onComplete, onQuit }: GameScreenPr
         const { leftTiles: left, rightTiles: right, usedPairIds: used } = boardRef.current;
         const nextUsed = new Set(used);
         nextUsed.add(matchedPairId);
-        const newPair = pickNextPair(wordsRef.current, nextUsed);
+        const onBoard = new Set([...left, ...right].map((t) => t.pairId));
+        onBoard.delete(matchedPairId);
+        const newPair = pickNextPair(wordsRef.current, nextUsed, onBoard);
         nextUsed.add(newPair.id);
 
         const updated = replacePairOnBoard(matchedPairId, newPair, left, right, settings.direction);
@@ -214,6 +232,7 @@ export function GameScreen({ words, settings, onComplete, onQuit }: GameScreenPr
     setStreak(0);
     streakRef.current = 0;
     setWrongMatches((w) => w + 1);
+    playWrongSound();
     setWrongIds(new Set([cur.id, tile.id]));
     if (flashTimerRef.current) clearTimeout(flashTimerRef.current);
     flashTimerRef.current = window.setTimeout(() => setWrongIds(new Set()), WRONG_FLASH_MS);
@@ -251,13 +270,15 @@ export function GameScreen({ words, settings, onComplete, onQuit }: GameScreenPr
         </span>
       </div>
 
-      <div className="match-board">
+      <GameToast message={toast} />
+
+      <div className="match-board" onPointerDown={primeGameAudio}>
         <div className="match-column">
           <h3 className="column-label">{primaryColumnLabel(settings.direction)}</h3>
           <div className="tile-column">
-            {leftTiles.map((tile) => (
+            {leftTiles.map((tile, index) => (
               <Tile
-                key={tile.id}
+                key={`left-${index}`}
                 tile={tile}
                 selected={selected?.id === tile.id}
                 correct={correctIds.has(tile.id)}
@@ -271,9 +292,9 @@ export function GameScreen({ words, settings, onComplete, onQuit }: GameScreenPr
         <div className="match-column">
           <h3 className="column-label">{secondaryColumnLabel(settings.direction)}</h3>
           <div className="tile-column">
-            {rightTiles.map((tile) => (
+            {rightTiles.map((tile, index) => (
               <Tile
-                key={tile.id}
+                key={`right-${index}`}
                 tile={tile}
                 selected={selected?.id === tile.id}
                 correct={correctIds.has(tile.id)}

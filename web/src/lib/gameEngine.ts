@@ -121,8 +121,10 @@ export function replacePairOnBoard(
   return { leftTiles: newLeft, rightTiles: newRight, tileMap };
 }
 
-export function pickNextPair(words: WordPair[], used: Set<number>): WordPair {
-  const available = words.filter((w) => !used.has(w.id));
-  const source = available.length > 0 ? available : words;
-  return pickRandomPairs(source, 1)[0];
+export function pickNextPair(words: WordPair[], used: Set<number>, onBoard?: Set<number>): WordPair {
+  const boardIds = onBoard ?? new Set<number>();
+  const available = words.filter((w) => !used.has(w.id) && !boardIds.has(w.id));
+  const source = available.length > 0 ? available : words.filter((w) => !boardIds.has(w.id));
+  const fallback = source.length > 0 ? source : words;
+  return pickRandomPairs(fallback, 1)[0];
 }

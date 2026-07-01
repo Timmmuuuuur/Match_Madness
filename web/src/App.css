@@ -169,16 +169,16 @@ body.game-active .app-shell {
 }
 
 .game-screen .tile-column {
-  gap: 7px;
-  overflow: hidden;
+  gap: 10px;
+  overflow: visible;
 }
 
 .game-screen .tile {
-  height: 62px;
-  min-height: 62px;
-  max-height: 62px;
-  padding: 0 8px;
-  border-radius: 14px;
+  min-height: 88px;
+  height: auto;
+  max-height: none;
+  padding: 14px 10px;
+  border-radius: 16px;
   font-size: 1.2rem;
   font-weight: 800;
   border-width: 2.5px;
@@ -187,6 +187,19 @@ body.game-active .app-shell {
   justify-content: center;
   text-align: center;
   color: var(--text);
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+}
+
+.game-screen .tile-arabic {
+  min-height: 92px;
+}
+
+.game-screen .tile-arabic .tile-line {
+  white-space: normal;
+  line-height: 1.4;
+  word-break: break-word;
 }
 
 .game-screen .tile.selected {
@@ -226,9 +239,9 @@ body.game-active .app-shell {
 }
 
 .game-screen .tile-sentence {
-  min-height: 72px;
+  min-height: 88px;
   font-size: 1rem;
-  padding: 8px 10px;
+  padding: 12px 10px;
   line-height: 1.35;
   justify-content: center;
   text-align: center;
@@ -603,6 +616,32 @@ body.game-active .app-shell {
   visibility: visible;
 }
 
+.game-toast {
+  text-align: center;
+  font-weight: 800;
+  font-size: 1.05rem;
+  color: var(--green);
+  min-height: 0;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: opacity 0.25s ease, max-height 0.25s ease, margin 0.25s ease;
+  margin: 0;
+}
+
+.game-toast--on {
+  opacity: 1;
+  max-height: 2.5rem;
+  margin: 0 0 10px;
+  animation: toast-pop 0.35s ease;
+}
+
+@keyframes toast-pop {
+  0% { transform: scale(0.92); opacity: 0; }
+  60% { transform: scale(1.03); opacity: 1; }
+  100% { transform: scale(1); }
+}
+
 .match-board {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -634,11 +673,11 @@ body.game-active .app-shell {
 
 .tile {
   width: 100%;
-  height: 48px;
-  min-height: 48px;
-  max-height: 48px;
-  padding: 0 10px;
-  border-radius: 12px;
+  min-height: 72px;
+  height: auto;
+  max-height: none;
+  padding: 14px 12px;
+  border-radius: 14px;
   border: 2px solid var(--border);
   background: var(--bg-soft);
   font-family: inherit;
@@ -690,6 +729,7 @@ body.game-active .app-shell {
   background: var(--red-glow) !important;
   color: #fff !important;
   box-shadow: 0 0 12px rgba(255, 75, 75, 0.35) !important;
+  pointer-events: none;
 }
 
 .tile.wrong .tile-text,
@@ -1967,11 +2007,13 @@ body.game-active .app-shell {
   }
 
   .game-screen .tile {
-    height: 56px;
-    min-height: 56px;
-    max-height: 56px;
-    padding: 0 6px;
-    font-size: 1.1rem;
+    min-height: 84px;
+    padding: 12px 8px;
+    font-size: 1.05rem;
+  }
+
+  .game-screen .tile-arabic {
+    min-height: 88px;
   }
 
   .game-screen .tile-line {
