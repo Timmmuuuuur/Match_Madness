@@ -1,9 +1,11 @@
 import { useState, type ReactNode } from 'react';
 import type { Direction, GameSettings, GameStats, WordPoolId } from '@shared/types';
 import { usePathname } from './lib/router';
+import { frenchSubPath, isHomePath, quranSubPath } from './lib/tracks';
 import { useWordPool } from './hooks/useWordPool';
 import { saveBestScore } from './lib/storage';
 import { AppNav } from './components/AppNav';
+import { ModeSelectorPage } from './components/ModeSelectorPage';
 import { HomeScreen } from './components/HomeScreen';
 import { GameScreen } from './components/GameScreen';
 import { SentenceGameScreen } from './components/SentenceGameScreen';
@@ -16,6 +18,14 @@ import { GrammarPage } from './components/GrammarPage';
 import { ReadingPage } from './components/ReadingPage';
 import { BreakingBadPage } from './components/BreakingBadPage';
 import { TefTcfPage } from './components/TefTcfPage';
+import { QuranMatchApp } from './components/quran/QuranMatchApp';
+import { LettersPage } from './components/quran/LettersPage';
+import { HarakatPage } from './components/quran/HarakatPage';
+import { QuranVocabPage } from './components/quran/QuranVocabPage';
+import { QuranReadingPage } from './components/quran/QuranReadingPage';
+import { QuranSpeakingPage } from './components/quran/QuranSpeakingPage';
+import { WordPracticePage } from './components/quran/WordPracticePage';
+import { TajweedPage } from './components/quran/TajweedPage';
 import './App.css';
 
 type Screen = 'home' | 'game' | 'results';
@@ -95,32 +105,43 @@ function MatchApp() {
   );
 }
 
+function renderFrenchPage(sub: string): ReactNode {
+  if (sub === '/vocab' || sub.startsWith('/vocab/')) return <VocabPage />;
+  if (sub === '/reading' || sub.startsWith('/reading/')) return <ReadingPage />;
+  if (sub === '/breaking-bad' || sub.startsWith('/breaking-bad/')) return <BreakingBadPage />;
+  if (sub === '/tef-tcf' || sub.startsWith('/tef-tcf/')) return <TefTcfPage />;
+  if (sub === '/speaking' || sub.startsWith('/speaking/')) return <SpeakingPage />;
+  if (sub === '/topics' || sub.startsWith('/topics/')) return <TopicsPage />;
+  if (sub === '/pronunciation' || sub.startsWith('/pronunciation/')) return <PronunciationPage />;
+  if (sub === '/grammar' || sub.startsWith('/grammar/')) return <GrammarPage />;
+  return <MatchApp />;
+}
+
+function renderQuranPage(sub: string): ReactNode {
+  if (sub === '/letters' || sub.startsWith('/letters/')) return <LettersPage />;
+  if (sub === '/harakat' || sub.startsWith('/harakat/')) return <HarakatPage />;
+  if (sub === '/vocab' || sub.startsWith('/vocab/')) return <QuranVocabPage />;
+  if (sub === '/reading' || sub.startsWith('/reading/')) return <QuranReadingPage />;
+  if (sub === '/speaking' || sub.startsWith('/speaking/')) return <QuranSpeakingPage />;
+  if (sub === '/practice' || sub.startsWith('/practice/')) return <WordPracticePage />;
+  if (sub === '/tajweed' || sub.startsWith('/tajweed/')) return <TajweedPage />;
+  return <QuranMatchApp />;
+}
+
 function App() {
   const path = usePathname();
 
   let page: ReactNode;
-  if (path === '/vocab' || path.startsWith('/vocab/')) {
-    page = <VocabPage />;
-  } else if (path === '/reading' || path.startsWith('/reading/')) {
-    page = <ReadingPage />;
-  } else if (path === '/breaking-bad' || path.startsWith('/breaking-bad/')) {
-    page = <BreakingBadPage />;
-  } else if (path === '/tef-tcf' || path.startsWith('/tef-tcf/')) {
-    page = <TefTcfPage />;
-  } else if (path === '/speaking' || path.startsWith('/speaking/')) {
-    page = <SpeakingPage />;
-  } else if (path === '/topics' || path.startsWith('/topics/')) {
-    page = <TopicsPage />;
-  } else if (path === '/pronunciation' || path.startsWith('/pronunciation/')) {
-    page = <PronunciationPage />;
-  } else if (path === '/grammar' || path.startsWith('/grammar/')) {
-    page = <GrammarPage />;
+  if (isHomePath(path)) {
+    page = <ModeSelectorPage />;
+  } else if (path === '/quran' || path.startsWith('/quran/')) {
+    page = renderQuranPage(quranSubPath(path));
   } else {
-    page = <MatchApp />;
+    page = renderFrenchPage(frenchSubPath(path));
   }
 
   return (
-    <div className="app-shell">
+    <div className={`app-shell${path.startsWith('/quran') ? ' app-shell--quran' : ''}`}>
       <AppNav />
       {page}
     </div>

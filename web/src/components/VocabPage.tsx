@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import words2000 from '@shared/data/words-2000.json';
 import vocabDetails from '@shared/data/vocab-details.json';
-import { TOPICS } from '@shared/topics';
+import { TOPICS, topicsByUnit, UNIT_LABELS } from '@shared/topics';
 import type { Topic, WordPair } from '@shared/types';
 import { LearningProse } from './LearningProse';
 import { SpeakButton } from './SpeakButton';
@@ -28,13 +28,6 @@ const ALL_WORDS = (words2000 as { words: WordPair[] }).words;
 const DETAILS = vocabDetails.entries as Record<string, VocabDetail>;
 
 const SPECIAL_COLLECTIONS = [
-  {
-    href: '/breaking-bad',
-    emoji: '🧪',
-    title: 'Breaking Bad VF',
-    desc: 'Meth, chemistry, police slang — watch in French',
-    accent: 'bb',
-  },
   {
     href: '/tef-tcf',
     emoji: '📝',
@@ -260,7 +253,7 @@ function TopicVocab({ topic, query }: { topic: Topic; query: string }) {
           <h2>{topic.label}</h2>
           <p className="vocab-topic-fr">{topic.frenchLabel}</p>
           <p className="vocab-topic-desc">{topic.description}</p>
-          <p className="vocab-topic-count">{topic.words.length} words with examples</p>
+          <p className="vocab-topic-count">{topic.words.length} words · Unit {topic.unit} · {topic.level}</p>
         </div>
       </header>
 
@@ -307,7 +300,7 @@ export function VocabPage() {
       <header className="vocab-hero">
         <h1>Vocab</h1>
         <p className="subtitle">
-          Frequency dictionary, 30 topic themes with examples, plus special collections for exams and pop culture.
+          Frequency dictionary or follow the A1→B2 path by topic — each unit builds on the last.
         </p>
       </header>
 
@@ -354,22 +347,32 @@ export function VocabPage() {
               />
               <span className="vocab-count">{activeTopic.words.length} in {activeTopic.label}</span>
             </div>
-            <div className="vocab-topic-chips" role="tablist" aria-label="Topics">
-              {TOPICS.map((t) => (
-                <button
-                  key={t.id}
-                  type="button"
-                  role="tab"
-                  aria-selected={t.id === activeTopicId}
-                  className={`vocab-topic-chip topic-accent-${t.accent}${t.id === activeTopicId ? ' active' : ''}`}
-                  onClick={() => {
-                    setActiveTopicId(t.id);
-                    setQuery('');
-                  }}
-                >
-                  <span>{t.emoji}</span> {t.label}
-                  <span className="vocab-chip-count">{t.words.length}</span>
-                </button>
+            <div className="vocab-topic-chips curriculum-chips" role="tablist" aria-label="Topics by unit">
+              {[...topicsByUnit().entries()].sort(([a], [b]) => a - b).map(([unit, unitTopics]) => (
+                <div key={unit} className="curriculum-unit-group">
+                  <p className="curriculum-unit-label">
+                    Unit {unit} · {UNIT_LABELS[unit] ?? `Level ${unit}`}
+                    <span className="curriculum-level">{unitTopics[0]?.level ?? ''}</span>
+                  </p>
+                  <div className="curriculum-unit-chips">
+                    {unitTopics.map((t) => (
+                      <button
+                        key={t.id}
+                        type="button"
+                        role="tab"
+                        aria-selected={t.id === activeTopicId}
+                        className={`vocab-topic-chip topic-accent-${t.accent}${t.id === activeTopicId ? ' active' : ''}`}
+                        onClick={() => {
+                          setActiveTopicId(t.id);
+                          setQuery('');
+                        }}
+                      >
+                        <span>{t.emoji}</span> {t.label}
+                        <span className="vocab-chip-count">{t.words.length}</span>
+                      </button>
+                    ))}
+                  </div>
+                </div>
               ))}
             </div>
           </div>

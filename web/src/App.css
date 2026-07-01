@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&family=Amiri:wght@400;700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap');
 
 :root {
   /* Learning-focused dark palette — calm, low-glare, retention-oriented */
@@ -40,6 +40,9 @@
 
   --radius: 16px;
   --font: 'Nunito', system-ui, sans-serif;
+  --font-arabic: 'Noto Naskh Arabic', 'Amiri', 'Traditional Arabic', serif;
+  --quran-accent: #2dd4bf;
+  --quran-accent-soft: rgba(45, 212, 191, 0.14);
 }
 
 * {
@@ -2586,5 +2589,428 @@ body.game-active .app-shell {
 
   .topic-words-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+/* ── Track picker & Quran track ── */
+
+.track-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 16px 0;
+  max-width: 960px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.track-bar-switch {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.track-bar-switch:hover {
+  color: var(--blue);
+}
+
+.track-bar-label {
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: var(--text-muted);
+}
+
+.mode-selector-screen {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.mode-hero {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.track-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.track-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  padding: 24px;
+  transition: transform 0.15s, background 0.15s;
+}
+
+.track-card:hover {
+  transform: translateY(-2px);
+  background: var(--card-hover);
+}
+
+.track-card-emoji {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.track-card h2 {
+  margin: 0 0 8px;
+  font-size: 1.35rem;
+}
+
+.track-card p {
+  margin: 0 0 16px;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.track-card-cta {
+  font-weight: 800;
+  color: var(--green);
+}
+
+.track-french {
+  border-left: 4px solid var(--blue);
+}
+
+.track-quran {
+  border-left: 4px solid var(--quran-accent);
+}
+
+.app-shell--quran .nav-link.active {
+  background: var(--quran-accent-soft);
+  color: var(--quran-accent);
+}
+
+.quran-badge {
+  font-family: var(--font-arabic);
+  font-size: 1.1rem;
+}
+
+.quran-screen {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+[dir="rtl"].quran-passage-arabic,
+.quran-passage-arabic,
+.quran-vocab-arabic,
+.quran-letter-glyph,
+.quran-harakat-symbol,
+.quran-letter-example,
+.tile-arabic .tile-text {
+  font-family: var(--font-arabic);
+  line-height: 1.8;
+}
+
+.quran-letter-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 12px;
+}
+
+.quran-letter-card {
+  text-align: center;
+  padding: 16px 12px;
+  position: relative;
+}
+
+.quran-letter-order {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-weight: 800;
+}
+
+.quran-letter-glyph {
+  display: block;
+  font-size: 2.5rem;
+  margin: 8px 0;
+}
+
+.quran-letter-card h3 {
+  margin: 0 0 4px;
+  font-size: 1rem;
+}
+
+.quran-letter-translit,
+.quran-letter-sound {
+  margin: 4px 0;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.quran-letter-example {
+  margin: 8px 0 0;
+  font-size: 1.25rem;
+}
+
+.quran-note {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.quran-harakat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.quran-harakat-card {
+  text-align: center;
+  padding: 16px;
+}
+
+.quran-harakat-symbol {
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.quran-harakat-card h3 {
+  margin: 0 0 6px;
+  font-size: 0.95rem;
+}
+
+.quran-theory-card {
+  margin-top: 8px;
+}
+
+.quran-vocab-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.quran-vocab-list {
+  display: grid;
+  gap: 10px;
+}
+
+.quran-vocab-row {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 16px;
+  align-items: center;
+  padding: 16px;
+}
+
+.quran-vocab-arabic {
+  font-size: 1.6rem;
+  margin: 0;
+  text-align: right;
+}
+
+.quran-vocab-en {
+  margin: 0 0 4px;
+  font-weight: 800;
+}
+
+.quran-passage-card .quran-passage-body {
+  padding: 8px 0;
+}
+
+.quran-passage-arabic {
+  font-size: 1.75rem;
+  margin: 0 0 12px;
+  text-align: right;
+}
+
+.quran-passage-en {
+  margin: 12px 0 0;
+  line-height: 1.6;
+}
+
+.quran-tajweed-section {
+  margin-bottom: 16px;
+}
+
+.quran-tajweed-section h2 {
+  margin-top: 0;
+}
+
+.quran-tajweed-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 16px;
+}
+
+.quran-tajweed-item {
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.quran-tajweed-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.quran-tajweed-rule {
+  margin: 0 0 6px;
+  line-height: 1.5;
+}
+
+.tile-arabic {
+  font-size: 1.15rem;
+}
+
+.timer--off {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-weight: 700;
+}
+
+.curriculum-unit-group {
+  margin-bottom: 16px;
+}
+
+.curriculum-unit-label {
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: var(--text-muted);
+  margin: 0 0 8px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.curriculum-level {
+  background: var(--learn-purple-soft);
+  color: var(--learn-purple);
+  padding: 2px 8px;
+  border-radius: 8px;
+  font-size: 0.7rem;
+}
+
+.curriculum-unit-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.topics-unit-section {
+  margin-bottom: 28px;
+}
+
+.topics-unit-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.topics-unit-head h2 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.quran-vocab-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  align-items: start;
+}
+
+.quran-vocab-row--btn {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr auto;
+  gap: 12px;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.quran-vocab-row--btn.active {
+  border-color: var(--quran-accent);
+}
+
+.quran-rule-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.quran-rule-tag {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 8px;
+  background: var(--quran-accent-soft);
+  color: var(--quran-accent);
+}
+
+.quran-word-detail {
+  position: sticky;
+  top: 12px;
+}
+
+.quran-rules-section h3,
+.quran-examples-section h3 {
+  margin: 12px 0 8px;
+  font-size: 0.95rem;
+}
+
+.quran-rule-note {
+  line-height: 1.55;
+  margin: 8px 0 0;
+}
+
+.quran-length-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 800;
+  padding: 4px 10px;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+
+.quran-length-short { background: var(--learn-teal-soft); color: var(--learn-teal); }
+.quran-length-medium { background: var(--learn-amber-soft); color: var(--learn-amber); }
+.quran-length-long { background: var(--learn-purple-soft); color: var(--learn-purple); }
+
+.quran-practice-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.quran-practice-card {
+  text-align: center;
+  padding: 14px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.quran-practice-card.active {
+  border-color: var(--quran-accent);
+}
+
+.quran-meta-count {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 800px) {
+  .quran-vocab-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .quran-word-detail {
+    position: static;
   }
 }

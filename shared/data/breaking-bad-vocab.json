@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Breaking Bad — French (VF)",
-    "subtitle": "Vocabulary from the French dub (Dubbing Brothers / Jean-Louis Faure). Terms, chemistry slang, and iconic VF lines so you can follow Heisenberg en français.",
+    "subtitle": "VF vocabulary — crime & chemistry plus the everyday slice-of-life: bills, family, car wash, school, and iconic lines.",
     "source": "Breaking Bad VF — Arte/Netflix France dub; transcript refs: frenchdubs.miraheze.org, AlloDoublage",
     "showTitleFr": "Breaking Bad : Le Chimiste"
   },
@@ -11,20 +11,96 @@
       "label": "Drug slang (VF)",
       "emoji": "💊",
       "words": [
-        { "french": "meth", "english": "meth / crystal meth", "context": "VF keeps \"meth\" colloquially", "exampleFr": "Deux grammes de meth, 99,1 % pure.", "exampleEn": "Two grams of meth, 99.1% pure.", "note": "Hank (S1E4 VF)" },
-        { "french": "crystal", "english": "crystal (meth)", "context": "street name", "exampleFr": "T'as toujours du cristal ?", "exampleEn": "You still got crystal?", "note": "Combo to Jesse" },
-        { "french": "came", "english": "dope / drugs (slang)", "context": "general drug slang", "exampleFr": "Les camés de la rue.", "exampleEn": "The junkies on the street." },
-        { "french": "drogue", "english": "drug(s)", "exampleFr": "Ils fument de la drogue.", "exampleEn": "They're smoking drugs." },
-        { "french": "dealer", "english": "dealer", "context": "often kept in VF", "exampleFr": "Un petit dealer de seconde zone.", "exampleEn": "A small-time dealer." },
-        { "french": "fourgueur", "english": "pusher / street dealer", "exampleFr": "Chaque fois qu'il nous balançait un fourgueur…", "exampleEn": "Every time he snitched on a pusher…" },
-        { "french": "trafic", "english": "drug trade / trafficking", "exampleFr": "Le trafic de drogue.", "exampleEn": "The drug trade." },
-        { "french": "dose", "english": "dose / hit", "exampleFr": "Une dose de crystal.", "exampleEn": "A hit of crystal." },
-        { "french": "camé", "english": "addict / junkie", "exampleFr": "Les camés qui cherchent leur dose.", "exampleEn": "Junkies looking for their fix." },
-        { "french": "se défoncer", "english": "to get high", "exampleFr": "Ils se défoncent dans le salon.", "exampleEn": "They're getting high in the living room." },
-        { "french": "planque", "english": "stash / hideout", "exampleFr": "Une planque à côté de toi.", "exampleEn": "A stakeout next to you." },
-        { "french": "taule", "english": "slammer / jail (slang)", "exampleFr": "Il est en taule ou pas ?", "exampleEn": "Is he in jail or not?" },
-        { "french": "indic", "english": "informant / snitch", "exampleFr": "Dans la voiture de notre indic.", "exampleEn": "In our informant's car." },
-        { "french": "balancier", "english": "to snitch / rat out", "exampleFr": "Il nous balançait un fourgueur.", "exampleEn": "He was ratting out a pusher to us." }
+        {
+          "french": "meth",
+          "english": "meth / crystal meth",
+          "context": "VF keeps \"meth\" colloquially",
+          "exampleFr": "Deux grammes de meth, 99,1 % pure.",
+          "exampleEn": "Two grams of meth, 99.1% pure.",
+          "note": "Hank (S1E4 VF)"
+        },
+        {
+          "french": "crystal",
+          "english": "crystal (meth)",
+          "context": "street name",
+          "exampleFr": "T'as toujours du cristal ?",
+          "exampleEn": "You still got crystal?",
+          "note": "Combo to Jesse"
+        },
+        {
+          "french": "came",
+          "english": "dope / drugs (slang)",
+          "context": "general drug slang",
+          "exampleFr": "Les camés de la rue.",
+          "exampleEn": "The junkies on the street."
+        },
+        {
+          "french": "drogue",
+          "english": "drug(s)",
+          "exampleFr": "Ils fument de la drogue.",
+          "exampleEn": "They're smoking drugs."
+        },
+        {
+          "french": "dealer",
+          "english": "dealer",
+          "context": "often kept in VF",
+          "exampleFr": "Un petit dealer de seconde zone.",
+          "exampleEn": "A small-time dealer."
+        },
+        {
+          "french": "fourgueur",
+          "english": "pusher / street dealer",
+          "exampleFr": "Chaque fois qu'il nous balançait un fourgueur…",
+          "exampleEn": "Every time he snitched on a pusher…"
+        },
+        {
+          "french": "trafic",
+          "english": "drug trade / trafficking",
+          "exampleFr": "Le trafic de drogue.",
+          "exampleEn": "The drug trade."
+        },
+        {
+          "french": "dose",
+          "english": "dose / hit",
+          "exampleFr": "Une dose de crystal.",
+          "exampleEn": "A hit of crystal."
+        },
+        {
+          "french": "camé",
+          "english": "addict / junkie",
+          "exampleFr": "Les camés qui cherchent leur dose.",
+          "exampleEn": "Junkies looking for their fix."
+        },
+        {
+          "french": "se défoncer",
+          "english": "to get high",
+          "exampleFr": "Ils se défoncent dans le salon.",
+          "exampleEn": "They're getting high in the living room."
+        },
+        {
+          "french": "planque",
+          "english": "stash / hideout",
+          "exampleFr": "Une planque à côté de toi.",
+          "exampleEn": "A stakeout next to you."
+        },
+        {
+          "french": "taule",
+          "english": "slammer / jail (slang)",
+          "exampleFr": "Il est en taule ou pas ?",
+          "exampleEn": "Is he in jail or not?"
+        },
+        {
+          "french": "indic",
+          "english": "informant / snitch",
+          "exampleFr": "Dans la voiture de notre indic.",
+          "exampleEn": "In our informant's car."
+        },
+        {
+          "french": "balancier",
+          "english": "to snitch / rat out",
+          "exampleFr": "Il nous balançait un fourgueur.",
+          "exampleEn": "He was ratting out a pusher to us."
+        }
       ]
     },
     {
@@ -32,24 +108,116 @@
       "label": "Cooking & lab (VF)",
       "emoji": "🧪",
       "words": [
-        { "french": "cuisiner", "english": "to cook (meth)", "context": "VF verb for \"cooking\"", "exampleFr": "L'endroit où on cuisinait la meth.", "exampleEn": "The place where we were cooking meth." },
-        { "french": "cuistot", "english": "cook (slang for chemist)", "exampleFr": "Il y a de nouveaux cuistots en ville.", "exampleEn": "There are new cooks in town." },
-        { "french": "labo", "english": "lab", "exampleFr": "Notre labo à Los Alamos.", "exampleEn": "Our lab at Los Alamos." },
-        { "french": "superlabo", "english": "superlab", "exampleFr": "Ça vient pas d'un superlabo mexicain.", "exampleEn": "It doesn't come from a Mexican superlab." },
-        { "french": "camping-car", "english": "RV / mobile lab", "exampleFr": "Un labo itinérant dans un vieux camping-car.", "exampleEn": "A mobile lab in an old RV." },
-        { "french": "recette", "english": "recipe / formula", "exampleFr": "J'ai mis au point une nouvelle recette.", "exampleEn": "I came up with a new recipe." },
-        { "french": "formule", "english": "formula", "exampleFr": "C'est plutôt une formule, d'ailleurs.", "exampleEn": "It's more of a formula, actually." },
-        { "french": "pureté", "english": "purity", "exampleFr": "La plus pure qu'ils aient jamais vue.", "exampleEn": "The purest they've ever seen." },
-        { "french": "pur", "english": "pure", "exampleFr": "99 % pur.", "exampleEn": "99% pure." },
-        { "french": "filtre", "english": "filter", "exampleFr": "Les éléments du filtre.", "exampleEn": "The filter elements." },
-        { "french": "masque à gaz", "english": "gas mask", "exampleFr": "Le masque à gaz, mis sous scellé.", "exampleEn": "The gas mask, placed under seal." },
-        { "french": "produits chimiques", "english": "chemicals", "exampleFr": "Tous les produits chimiques qu'il manipulait.", "exampleEn": "All the chemicals he handled." },
-        { "french": "précurseurs", "english": "precursors", "exampleFr": "Des précurseurs chimiques.", "exampleEn": "Chemical precursors." },
-        { "french": "réactifs", "english": "reagents", "exampleFr": "Mélanger les réactifs.", "exampleEn": "Mix the reagents." },
-        { "french": "synthèse", "english": "synthesis", "exampleFr": "La synthèse de la méthamphétamine.", "exampleEn": "The synthesis of methamphetamine." },
-        { "french": "éprouvette", "english": "test tube", "context": "Hank's metaphor", "exampleFr": "Le roi de l'éprouvette est ici.", "exampleEn": "The king of the test tube is here." },
-        { "french": "chimiste", "english": "chemist", "exampleFr": "Le Chimiste.", "exampleEn": "The Chemist (Quebec title)." },
-        { "french": "méthamphétamine", "english": "methamphetamine", "exampleFr": "Fabriquer de la méthamphétamine.", "exampleEn": "To manufacture methamphetamine." }
+        {
+          "french": "cuisiner",
+          "english": "to cook (meth)",
+          "context": "VF verb for \"cooking\"",
+          "exampleFr": "L'endroit où on cuisinait la meth.",
+          "exampleEn": "The place where we were cooking meth."
+        },
+        {
+          "french": "cuistot",
+          "english": "cook (slang for chemist)",
+          "exampleFr": "Il y a de nouveaux cuistots en ville.",
+          "exampleEn": "There are new cooks in town."
+        },
+        {
+          "french": "labo",
+          "english": "lab",
+          "exampleFr": "Notre labo à Los Alamos.",
+          "exampleEn": "Our lab at Los Alamos."
+        },
+        {
+          "french": "superlabo",
+          "english": "superlab",
+          "exampleFr": "Ça vient pas d'un superlabo mexicain.",
+          "exampleEn": "It doesn't come from a Mexican superlab."
+        },
+        {
+          "french": "camping-car",
+          "english": "RV / mobile lab",
+          "exampleFr": "Un labo itinérant dans un vieux camping-car.",
+          "exampleEn": "A mobile lab in an old RV."
+        },
+        {
+          "french": "recette",
+          "english": "recipe / formula",
+          "exampleFr": "J'ai mis au point une nouvelle recette.",
+          "exampleEn": "I came up with a new recipe."
+        },
+        {
+          "french": "formule",
+          "english": "formula",
+          "exampleFr": "C'est plutôt une formule, d'ailleurs.",
+          "exampleEn": "It's more of a formula, actually."
+        },
+        {
+          "french": "pureté",
+          "english": "purity",
+          "exampleFr": "La plus pure qu'ils aient jamais vue.",
+          "exampleEn": "The purest they've ever seen."
+        },
+        {
+          "french": "pur",
+          "english": "pure",
+          "exampleFr": "99 % pur.",
+          "exampleEn": "99% pure."
+        },
+        {
+          "french": "filtre",
+          "english": "filter",
+          "exampleFr": "Les éléments du filtre.",
+          "exampleEn": "The filter elements."
+        },
+        {
+          "french": "masque à gaz",
+          "english": "gas mask",
+          "exampleFr": "Le masque à gaz, mis sous scellé.",
+          "exampleEn": "The gas mask, placed under seal."
+        },
+        {
+          "french": "produits chimiques",
+          "english": "chemicals",
+          "exampleFr": "Tous les produits chimiques qu'il manipulait.",
+          "exampleEn": "All the chemicals he handled."
+        },
+        {
+          "french": "précurseurs",
+          "english": "precursors",
+          "exampleFr": "Des précurseurs chimiques.",
+          "exampleEn": "Chemical precursors."
+        },
+        {
+          "french": "réactifs",
+          "english": "reagents",
+          "exampleFr": "Mélanger les réactifs.",
+          "exampleEn": "Mix the reagents."
+        },
+        {
+          "french": "synthèse",
+          "english": "synthesis",
+          "exampleFr": "La synthèse de la méthamphétamine.",
+          "exampleEn": "The synthesis of methamphetamine."
+        },
+        {
+          "french": "éprouvette",
+          "english": "test tube",
+          "context": "Hank's metaphor",
+          "exampleFr": "Le roi de l'éprouvette est ici.",
+          "exampleEn": "The king of the test tube is here."
+        },
+        {
+          "french": "chimiste",
+          "english": "chemist",
+          "exampleFr": "Le Chimiste.",
+          "exampleEn": "The Chemist (Quebec title)."
+        },
+        {
+          "french": "méthamphétamine",
+          "english": "methamphetamine",
+          "exampleFr": "Fabriquer de la méthamphétamine.",
+          "exampleEn": "To manufacture methamphetamine."
+        }
       ]
     },
     {
@@ -57,16 +225,66 @@
       "label": "Chemistry & school",
       "emoji": "⚗️",
       "words": [
-        { "french": "chimie", "english": "chemistry", "exampleFr": "Professeur de chimie dans un lycée.", "exampleEn": "Chemistry teacher in a high school." },
-        { "french": "professeur", "english": "teacher / professor", "exampleFr": "Walter White, professeur de chimie.", "exampleEn": "Walter White, chemistry teacher." },
-        { "french": "lycée", "english": "high school", "exampleFr": "Un lycée du Nouveau-Mexique.", "exampleEn": "A high school in New Mexico." },
-        { "french": "élève", "english": "student / pupil", "exampleFr": "Un de ses anciens élèves.", "exampleEn": "One of his former students." },
-        { "french": "expérience", "english": "experiment", "exampleFr": "Une expérience en chimie.", "exampleEn": "A chemistry experiment." },
-        { "french": "élément", "english": "element (chemistry)", "exampleFr": "Le tableau des éléments.", "exampleEn": "The periodic table." },
-        { "french": "composé", "english": "compound", "exampleFr": "Un composé chimique.", "exampleEn": "A chemical compound." },
-        { "french": "réaction", "english": "reaction", "exampleFr": "Une réaction chimique.", "exampleEn": "A chemical reaction." },
-        { "french": "équipement de protection", "english": "protective equipment", "exampleFr": "Un casque de protection ou de ventilation.", "exampleEn": "A protective or ventilation hood." },
-        { "french": "précautions", "english": "precautions", "exampleFr": "On a toujours pris énormément de précautions.", "exampleEn": "We always took enormous precautions." }
+        {
+          "french": "chimie",
+          "english": "chemistry",
+          "exampleFr": "Professeur de chimie dans un lycée.",
+          "exampleEn": "Chemistry teacher in a high school."
+        },
+        {
+          "french": "professeur",
+          "english": "teacher / professor",
+          "exampleFr": "Walter White, professeur de chimie.",
+          "exampleEn": "Walter White, chemistry teacher."
+        },
+        {
+          "french": "lycée",
+          "english": "high school",
+          "exampleFr": "Un lycée du Nouveau-Mexique.",
+          "exampleEn": "A high school in New Mexico."
+        },
+        {
+          "french": "élève",
+          "english": "student / pupil",
+          "exampleFr": "Un de ses anciens élèves.",
+          "exampleEn": "One of his former students."
+        },
+        {
+          "french": "expérience",
+          "english": "experiment",
+          "exampleFr": "Une expérience en chimie.",
+          "exampleEn": "A chemistry experiment."
+        },
+        {
+          "french": "élément",
+          "english": "element (chemistry)",
+          "exampleFr": "Le tableau des éléments.",
+          "exampleEn": "The periodic table."
+        },
+        {
+          "french": "composé",
+          "english": "compound",
+          "exampleFr": "Un composé chimique.",
+          "exampleEn": "A chemical compound."
+        },
+        {
+          "french": "réaction",
+          "english": "reaction",
+          "exampleFr": "Une réaction chimique.",
+          "exampleEn": "A chemical reaction."
+        },
+        {
+          "french": "équipement de protection",
+          "english": "protective equipment",
+          "exampleFr": "Un casque de protection ou de ventilation.",
+          "exampleEn": "A protective or ventilation hood."
+        },
+        {
+          "french": "précautions",
+          "english": "precautions",
+          "exampleFr": "On a toujours pris énormément de précautions.",
+          "exampleEn": "We always took enormous precautions."
+        }
       ]
     },
     {
@@ -74,16 +292,67 @@
       "label": "Police & legal",
       "emoji": "🚔",
       "words": [
-        { "french": "D.E.A.", "english": "DEA (drug enforcement)", "context": "often kept in VF", "exampleFr": "Hank travaille pour la D.E.A.", "exampleEn": "Hank works for the DEA." },
-        { "french": "opération", "english": "operation (police)", "exampleFr": "Opération Brise-glace.", "exampleEn": "Operation Icebreaker." },
-        { "french": "planque policière", "english": "stakeout", "exampleFr": "Une planque à côté de toi.", "exampleEn": "A stakeout next to you." },
-        { "french": "photo d'identité judiciaire", "english": "mugshot", "exampleFr": "Une photo d'identité judiciaire.", "exampleEn": "A police mugshot." },
-        { "french": "porté disparu", "english": "missing / presumed dead", "exampleFr": "Il est porté disparu.", "exampleEn": "He is missing." },
-        { "french": "présumé mort", "english": "presumed dead", "exampleFr": "Présumé mort.", "exampleEn": "Presumed dead." },
-        { "french": "scellé", "english": "sealed (evidence)", "exampleFr": "Mis sous scellé.", "exampleEn": "Placed under seal." },
-        { "french": "avocat", "english": "lawyer", "exampleFr": "Faut qu'on engage un avocat.", "exampleEn": "We need to hire a lawyer." },
-        { "french": "enquête", "english": "investigation", "exampleFr": "L'enquête continue.", "exampleEn": "The investigation continues." },
-        { "french": "pays des merveilles", "english": "wonderland (DEA nickname for NM)", "exampleFr": "Ici, au pays des merveilles.", "exampleEn": "Here, in wonderland." }
+        {
+          "french": "D.E.A.",
+          "english": "DEA (drug enforcement)",
+          "context": "often kept in VF",
+          "exampleFr": "Hank travaille pour la D.E.A.",
+          "exampleEn": "Hank works for the DEA."
+        },
+        {
+          "french": "opération",
+          "english": "operation (police)",
+          "exampleFr": "Opération Brise-glace.",
+          "exampleEn": "Operation Icebreaker."
+        },
+        {
+          "french": "planque policière",
+          "english": "stakeout",
+          "exampleFr": "Une planque à côté de toi.",
+          "exampleEn": "A stakeout next to you."
+        },
+        {
+          "french": "photo d'identité judiciaire",
+          "english": "mugshot",
+          "exampleFr": "Une photo d'identité judiciaire.",
+          "exampleEn": "A police mugshot."
+        },
+        {
+          "french": "porté disparu",
+          "english": "missing / presumed dead",
+          "exampleFr": "Il est porté disparu.",
+          "exampleEn": "He is missing."
+        },
+        {
+          "french": "présumé mort",
+          "english": "presumed dead",
+          "exampleFr": "Présumé mort.",
+          "exampleEn": "Presumed dead."
+        },
+        {
+          "french": "scellé",
+          "english": "sealed (evidence)",
+          "exampleFr": "Mis sous scellé.",
+          "exampleEn": "Placed under seal."
+        },
+        {
+          "french": "avocat",
+          "english": "lawyer",
+          "exampleFr": "Faut qu'on engage un avocat.",
+          "exampleEn": "We need to hire a lawyer."
+        },
+        {
+          "french": "enquête",
+          "english": "investigation",
+          "exampleFr": "L'enquête continue.",
+          "exampleEn": "The investigation continues."
+        },
+        {
+          "french": "pays des merveilles",
+          "english": "wonderland (DEA nickname for NM)",
+          "exampleFr": "Ici, au pays des merveilles.",
+          "exampleEn": "Here, in wonderland."
+        }
       ]
     },
     {
@@ -91,16 +360,67 @@
       "label": "Characters & places",
       "emoji": "🌵",
       "words": [
-        { "french": "Heisenberg", "english": "Heisenberg (alias)", "context": "kept in VF", "exampleFr": "Walter White / Heisenberg.", "exampleEn": "Walter White / Heisenberg." },
-        { "french": "Albuquerque", "english": "Albuquerque", "exampleFr": "Le roi de l'éprouvette est ici, à Albuquerque.", "exampleEn": "The king of the test tube is here, in Albuquerque." },
-        { "french": "Los Alamos", "english": "Los Alamos", "exampleFr": "Maman était hôtesse à Los Alamos.", "exampleEn": "Mom was a hostess at Los Alamos." },
-        { "french": "associé", "english": "partner / associate", "exampleFr": "T'as perdu ton associé ?", "exampleEn": "You lost your partner?" },
-        { "french": "famille", "english": "family", "exampleFr": "On est une famille.", "exampleEn": "We are a family." },
-        { "french": "cancer", "english": "cancer", "exampleFr": "J'ai un cancer. Des poumons.", "exampleEn": "I have cancer. Of the lungs." },
-        { "french": "oncologue", "english": "oncologist", "exampleFr": "Le meilleur de tous les oncologistes.", "exampleEn": "The best oncologist of all." },
-        { "french": "radiologue", "english": "radiologist", "exampleFr": "Je parle à mes radiologues.", "exampleEn": "I'll talk to my radiologists." },
-        { "french": "barbecue", "english": "barbecue", "exampleFr": "C'est un barbecue, c'est pas une crémation.", "exampleEn": "It's a barbecue, not a cremation." },
-        { "french": "persévérance", "english": "perseverance", "exampleFr": "La persévérance, tu vois ?", "exampleEn": "Perseverance, you see?" }
+        {
+          "french": "Heisenberg",
+          "english": "Heisenberg (alias)",
+          "context": "kept in VF",
+          "exampleFr": "Walter White / Heisenberg.",
+          "exampleEn": "Walter White / Heisenberg."
+        },
+        {
+          "french": "Albuquerque",
+          "english": "Albuquerque",
+          "exampleFr": "Le roi de l'éprouvette est ici, à Albuquerque.",
+          "exampleEn": "The king of the test tube is here, in Albuquerque."
+        },
+        {
+          "french": "Los Alamos",
+          "english": "Los Alamos",
+          "exampleFr": "Maman était hôtesse à Los Alamos.",
+          "exampleEn": "Mom was a hostess at Los Alamos."
+        },
+        {
+          "french": "associé",
+          "english": "partner / associate",
+          "exampleFr": "T'as perdu ton associé ?",
+          "exampleEn": "You lost your partner?"
+        },
+        {
+          "french": "famille",
+          "english": "family",
+          "exampleFr": "On est une famille.",
+          "exampleEn": "We are a family."
+        },
+        {
+          "french": "cancer",
+          "english": "cancer",
+          "exampleFr": "J'ai un cancer. Des poumons.",
+          "exampleEn": "I have cancer. Of the lungs."
+        },
+        {
+          "french": "oncologue",
+          "english": "oncologist",
+          "exampleFr": "Le meilleur de tous les oncologistes.",
+          "exampleEn": "The best oncologist of all."
+        },
+        {
+          "french": "radiologue",
+          "english": "radiologist",
+          "exampleFr": "Je parle à mes radiologues.",
+          "exampleEn": "I'll talk to my radiologists."
+        },
+        {
+          "french": "barbecue",
+          "english": "barbecue",
+          "exampleFr": "C'est un barbecue, c'est pas une crémation.",
+          "exampleEn": "It's a barbecue, not a cremation."
+        },
+        {
+          "french": "persévérance",
+          "english": "perseverance",
+          "exampleFr": "La persévérance, tu vois ?",
+          "exampleEn": "Perseverance, you see?"
+        }
       ]
     },
     {
@@ -108,25 +428,584 @@
       "label": "Street talk & attitude",
       "emoji": "😤",
       "words": [
-        { "french": "paranoïaque", "english": "paranoid", "exampleFr": "Ce truc-là, ça me rend paranoïaque.", "exampleEn": "This stuff makes me paranoid." },
-        { "french": "galère", "english": "hardship / struggle (slang)", "exampleFr": "C'est la galère du dimanche soir.", "exampleEn": "It's the Sunday-night struggle." },
-        { "french": "mec", "english": "dude / guy", "exampleFr": "Qu'est-ce qui se passe, mec ?", "exampleEn": "What's going on, dude?" },
-        { "french": "piger", "english": "to get it / understand (slang)", "exampleFr": "C'est ça qu'il faut que tu piges.", "exampleEn": "That's what you need to get." },
-        { "french": "canon", "english": "hot / gorgeous (slang)", "exampleFr": "Dis-lui qu'il est canon.", "exampleEn": "Tell him he's gorgeous." },
-        { "french": "kiffer", "english": "to love / dig (slang)", "exampleFr": "Tout le monde kiffe la meth qu'on a cuisinée.", "exampleEn": "Everyone loves the meth we cooked." },
-        { "french": "une bombe", "english": "the bomb / amazing (slang)", "exampleFr": "C'est une vraie bombe.", "exampleEn": "It's the real deal / it's amazing." },
-        { "french": "se couper un bras", "english": "would give an arm (for)", "exampleFr": "Prêts à se couper un bras pour en avoir.", "exampleEn": "Would give an arm to get some." },
-        { "french": "bien joué", "english": "well played / nice one", "exampleFr": "Bien joué !", "exampleEn": "Well played!" },
-        { "french": "lâcher", "english": "to quit / drop", "exampleFr": "Peut-être que je devrais lâcher ça.", "exampleEn": "Maybe I should quit this." }
+        {
+          "french": "paranoïaque",
+          "english": "paranoid",
+          "exampleFr": "Ce truc-là, ça me rend paranoïaque.",
+          "exampleEn": "This stuff makes me paranoid."
+        },
+        {
+          "french": "galère",
+          "english": "hardship / struggle (slang)",
+          "exampleFr": "C'est la galère du dimanche soir.",
+          "exampleEn": "It's the Sunday-night struggle."
+        },
+        {
+          "french": "mec",
+          "english": "dude / guy",
+          "exampleFr": "Qu'est-ce qui se passe, mec ?",
+          "exampleEn": "What's going on, dude?"
+        },
+        {
+          "french": "piger",
+          "english": "to get it / understand (slang)",
+          "exampleFr": "C'est ça qu'il faut que tu piges.",
+          "exampleEn": "That's what you need to get."
+        },
+        {
+          "french": "canon",
+          "english": "hot / gorgeous (slang)",
+          "exampleFr": "Dis-lui qu'il est canon.",
+          "exampleEn": "Tell him he's gorgeous."
+        },
+        {
+          "french": "kiffer",
+          "english": "to love / dig (slang)",
+          "exampleFr": "Tout le monde kiffe la meth qu'on a cuisinée.",
+          "exampleEn": "Everyone loves the meth we cooked."
+        },
+        {
+          "french": "une bombe",
+          "english": "the bomb / amazing (slang)",
+          "exampleFr": "C'est une vraie bombe.",
+          "exampleEn": "It's the real deal / it's amazing."
+        },
+        {
+          "french": "se couper un bras",
+          "english": "would give an arm (for)",
+          "exampleFr": "Prêts à se couper un bras pour en avoir.",
+          "exampleEn": "Would give an arm to get some."
+        },
+        {
+          "french": "bien joué",
+          "english": "well played / nice one",
+          "exampleFr": "Bien joué !",
+          "exampleEn": "Well played!"
+        },
+        {
+          "french": "lâcher",
+          "english": "to quit / drop",
+          "exampleFr": "Peut-être que je devrais lâcher ça.",
+          "exampleEn": "Maybe I should quit this."
+        }
+      ]
+    },
+    {
+      "id": "daily-adulting",
+      "label": "Daily life & adulting",
+      "emoji": "🏠",
+      "words": [
+        {
+          "french": "facture",
+          "english": "bill / invoice",
+          "exampleFr": "Il faut payer les factures.",
+          "exampleEn": "We have to pay the bills.",
+          "note": "Walt & Skyler household stress"
+        },
+        {
+          "french": "hypothèque",
+          "english": "mortgage",
+          "exampleFr": "On a encore l'hypothèque sur la maison.",
+          "exampleEn": "We still have the mortgage on the house."
+        },
+        {
+          "french": "compte en banque",
+          "english": "bank account",
+          "exampleFr": "Le compte en banque est à sec.",
+          "exampleEn": "The bank account is empty."
+        },
+        {
+          "french": "épicerie",
+          "english": "grocery store",
+          "exampleFr": "Je passe à l'épicerie.",
+          "exampleEn": "I'm stopping by the grocery store."
+        },
+        {
+          "french": "courses",
+          "english": "groceries / errands",
+          "exampleFr": "Je fais les courses.",
+          "exampleEn": "I'm doing the groceries."
+        },
+        {
+          "french": "laver la vaisselle",
+          "english": "to do the dishes",
+          "exampleFr": "Tu peux laver la vaisselle ?",
+          "exampleEn": "Can you do the dishes?"
+        },
+        {
+          "french": "aspirateur",
+          "english": "vacuum cleaner",
+          "exampleFr": "Passe l'aspirateur dans le salon.",
+          "exampleEn": "Vacuum the living room."
+        },
+        {
+          "french": "tondeuse",
+          "english": "lawn mower",
+          "exampleFr": "Walt tond la pelouse le dimanche.",
+          "exampleEn": "Walt mows the lawn on Sunday."
+        },
+        {
+          "french": "pelouse",
+          "english": "lawn",
+          "exampleFr": "La pelouse est trop haute.",
+          "exampleEn": "The lawn is too tall."
+        },
+        {
+          "french": "garage",
+          "english": "garage",
+          "exampleFr": "Range le garage.",
+          "exampleEn": "Clean up the garage."
+        },
+        {
+          "french": "classe moyenne",
+          "english": "middle class",
+          "exampleFr": "Une famille de classe moyenne.",
+          "exampleEn": "A middle-class family."
+        },
+        {
+          "french": "budget",
+          "english": "budget",
+          "exampleFr": "On n'a pas le budget.",
+          "exampleEn": "We don't have the budget."
+        },
+        {
+          "french": "économiser",
+          "english": "to save money",
+          "exampleFr": "Il faut économiser.",
+          "exampleEn": "We need to save money."
+        },
+        {
+          "french": "dépenser",
+          "english": "to spend",
+          "exampleFr": "Tu dépenses trop.",
+          "exampleEn": "You spend too much."
+        },
+        {
+          "french": "salaire",
+          "english": "salary",
+          "exampleFr": "Mon salaire de prof ne suffit pas.",
+          "exampleEn": "My teacher salary isn't enough."
+        },
+        {
+          "french": "heures sup",
+          "english": "overtime",
+          "exampleFr": "Il fait des heures sup au car wash.",
+          "exampleEn": "He works overtime at the car wash."
+        },
+        {
+          "french": "embaucher",
+          "english": "to hire",
+          "exampleFr": "On va t'embaucher.",
+          "exampleEn": "We're going to hire you."
+        },
+        {
+          "french": "licencier",
+          "english": "to fire / lay off",
+          "exampleFr": "Ils m'ont licencié.",
+          "exampleEn": "They laid me off."
+        },
+        {
+          "french": "assurance",
+          "english": "insurance",
+          "exampleFr": "L'assurance ne couvre pas tout.",
+          "exampleEn": "Insurance doesn't cover everything."
+        },
+        {
+          "french": "rendez-vous médical",
+          "english": "medical appointment",
+          "exampleFr": "J'ai un rendez-vous médical demain.",
+          "exampleEn": "I have a medical appointment tomorrow."
+        }
+      ]
+    },
+    {
+      "id": "family-slice",
+      "label": "Family & slice of life",
+      "emoji": "👨‍👩‍👦",
+      "words": [
+        {
+          "french": "petit-déjeuner",
+          "english": "breakfast",
+          "exampleFr": "On prend le petit-déjeuner ensemble.",
+          "exampleEn": "We have breakfast together."
+        },
+        {
+          "french": "dîner",
+          "english": "dinner",
+          "exampleFr": "Le dîner est prêt.",
+          "exampleEn": "Dinner is ready."
+        },
+        {
+          "french": "anniversaire",
+          "english": "birthday",
+          "exampleFr": "C'est son anniversaire.",
+          "exampleEn": "It's his birthday."
+        },
+        {
+          "french": "adolescent",
+          "english": "teenager",
+          "exampleFr": "Notre adolescent ne parle plus.",
+          "exampleEn": "Our teenager doesn't talk anymore."
+        },
+        {
+          "french": "bébé",
+          "english": "baby",
+          "exampleFr": "Le bébé dort.",
+          "exampleEn": "The baby is sleeping."
+        },
+        {
+          "french": "enceinte",
+          "english": "pregnant",
+          "exampleFr": "Elle est enceinte.",
+          "exampleEn": "She is pregnant."
+        },
+        {
+          "french": "dispute",
+          "english": "argument / fight",
+          "exampleFr": "Encore une dispute.",
+          "exampleEn": "Another argument."
+        },
+        {
+          "french": "mensonge",
+          "english": "lie",
+          "exampleFr": "C'est un mensonge.",
+          "exampleEn": "It's a lie."
+        },
+        {
+          "french": "secret",
+          "english": "secret",
+          "exampleFr": "Tu me caches un secret.",
+          "exampleEn": "You're hiding a secret from me."
+        },
+        {
+          "french": "confiance",
+          "english": "trust",
+          "exampleFr": "Tu as perdu ma confiance.",
+          "exampleEn": "You lost my trust."
+        },
+        {
+          "french": "pardon",
+          "english": "sorry / forgiveness",
+          "exampleFr": "Je te demande pardon.",
+          "exampleEn": "I'm asking your forgiveness."
+        },
+        {
+          "french": "s'excuser",
+          "english": "to apologize",
+          "exampleFr": "Il refuse de s'excuser.",
+          "exampleEn": "He refuses to apologize."
+        },
+        {
+          "french": "inquiet",
+          "english": "worried",
+          "exampleFr": "Je suis inquiet pour toi.",
+          "exampleEn": "I'm worried about you."
+        },
+        {
+          "french": "fierté",
+          "english": "pride",
+          "exampleFr": "C'est une question de fierté.",
+          "exampleEn": "It's a matter of pride."
+        },
+        {
+          "french": "honte",
+          "english": "shame",
+          "exampleFr": "J'ai honte.",
+          "exampleEn": "I'm ashamed."
+        },
+        {
+          "french": "soutenir",
+          "english": "to support",
+          "exampleFr": "Je veux te soutenir.",
+          "exampleEn": "I want to support you."
+        },
+        {
+          "french": "protéger",
+          "english": "to protect",
+          "exampleFr": "Je fais ça pour protéger ma famille.",
+          "exampleEn": "I do this to protect my family."
+        },
+        {
+          "french": "partir",
+          "english": "to leave",
+          "exampleFr": "Je dois partir.",
+          "exampleEn": "I have to leave."
+        },
+        {
+          "french": "rentrer",
+          "english": "to come home",
+          "exampleFr": "Tu rentres tard.",
+          "exampleEn": "You come home late."
+        },
+        {
+          "french": "souper",
+          "english": "supper / evening meal",
+          "exampleFr": "On soupe à huit heures.",
+          "exampleEn": "We eat supper at eight."
+        }
+      ]
+    },
+    {
+      "id": "car-wash-jobs",
+      "label": "Car wash & odd jobs",
+      "emoji": "🚗",
+      "words": [
+        {
+          "french": "lavage de voiture",
+          "english": "car wash",
+          "exampleFr": "Il bosse au lavage de voiture.",
+          "exampleEn": "He works at the car wash."
+        },
+        {
+          "french": "éponge",
+          "english": "sponge",
+          "exampleFr": "Prends une éponge.",
+          "exampleEn": "Grab a sponge."
+        },
+        {
+          "french": "chiffon",
+          "english": "rag / cloth",
+          "exampleFr": "Un chiffon propre.",
+          "exampleEn": "A clean rag."
+        },
+        {
+          "french": "pare-brise",
+          "english": "windshield",
+          "exampleFr": "Nettoie le pare-brise.",
+          "exampleEn": "Clean the windshield."
+        },
+        {
+          "french": "pneu",
+          "english": "tire",
+          "exampleFr": "Le pneu est crevé.",
+          "exampleEn": "The tire is flat."
+        },
+        {
+          "french": "moteur",
+          "english": "engine",
+          "exampleFr": "Le moteur fait un bruit bizarre.",
+          "exampleEn": "The engine is making a weird noise."
+        },
+        {
+          "french": "plein",
+          "english": "full tank (of gas)",
+          "exampleFr": "Fais le plein.",
+          "exampleEn": "Fill up the tank."
+        },
+        {
+          "french": "station-service",
+          "english": "gas station",
+          "exampleFr": "Arrête-toi à la station-service.",
+          "exampleEn": "Stop at the gas station."
+        },
+        {
+          "french": "pourboire",
+          "english": "tip (money)",
+          "exampleFr": "Garde le pourboire.",
+          "exampleEn": "Keep the tip."
+        },
+        {
+          "french": "patron",
+          "english": "boss",
+          "exampleFr": "Le patron veut te voir.",
+          "exampleEn": "The boss wants to see you."
+        },
+        {
+          "french": "équipe",
+          "english": "team",
+          "exampleFr": "Bonne équipe ce soir.",
+          "exampleEn": "Good team tonight."
+        },
+        {
+          "french": "pause",
+          "english": "break",
+          "exampleFr": "On fait une pause ?",
+          "exampleEn": "Should we take a break?"
+        },
+        {
+          "french": "planning",
+          "english": "schedule",
+          "exampleFr": "C'est pas mon planning.",
+          "exampleEn": "That's not my schedule."
+        },
+        {
+          "french": "corvée",
+          "english": "chore",
+          "exampleFr": "Encore une corvée.",
+          "exampleEn": "Another chore."
+        },
+        {
+          "french": "se débrouiller",
+          "english": "to manage / get by",
+          "exampleFr": "On se débrouille.",
+          "exampleEn": "We're managing."
+        }
+      ]
+    },
+    {
+      "id": "school-home-more",
+      "label": "School & home (more)",
+      "emoji": "📚",
+      "words": [
+        {
+          "french": "devoirs",
+          "english": "homework",
+          "exampleFr": "Fais tes devoirs.",
+          "exampleEn": "Do your homework."
+        },
+        {
+          "french": "cours de chimie",
+          "english": "chemistry class",
+          "exampleFr": "Le cours de chimie commence.",
+          "exampleEn": "Chemistry class is starting."
+        },
+        {
+          "french": "tableau",
+          "english": "board (whiteboard)",
+          "exampleFr": "Écris ça au tableau.",
+          "exampleEn": "Write that on the board."
+        },
+        {
+          "french": "craie",
+          "english": "chalk",
+          "exampleFr": "Prends la craie.",
+          "exampleEn": "Take the chalk."
+        },
+        {
+          "french": "salle des profs",
+          "english": "teachers' lounge",
+          "exampleFr": "Il est dans la salle des profs.",
+          "exampleEn": "He's in the teachers' lounge."
+        },
+        {
+          "french": "réunion",
+          "english": "meeting",
+          "exampleFr": "Réunion de parents ce soir.",
+          "exampleEn": "Parents' meeting tonight."
+        },
+        {
+          "french": "canapé",
+          "english": "couch / sofa",
+          "exampleFr": "Assieds-toi sur le canapé.",
+          "exampleEn": "Sit on the couch."
+        },
+        {
+          "french": "télécommande",
+          "english": "remote control",
+          "exampleFr": "Passe-moi la télécommande.",
+          "exampleEn": "Hand me the remote."
+        },
+        {
+          "french": "laver le linge",
+          "english": "to do laundry",
+          "exampleFr": "Je dois laver le linge.",
+          "exampleEn": "I need to do laundry."
+        },
+        {
+          "french": "sèche-linge",
+          "english": "dryer",
+          "exampleFr": "Le sèche-linge est en panne.",
+          "exampleEn": "The dryer is broken."
+        },
+        {
+          "french": "plafond",
+          "english": "ceiling",
+          "exampleFr": "Une tache au plafond.",
+          "exampleEn": "A stain on the ceiling."
+        },
+        {
+          "french": "fuite",
+          "english": "leak",
+          "exampleFr": "Y a une fuite.",
+          "exampleEn": "There's a leak."
+        },
+        {
+          "french": "réparer",
+          "english": "to repair",
+          "exampleFr": "Je peux réparer ça.",
+          "exampleEn": "I can fix that."
+        },
+        {
+          "french": "bricoler",
+          "english": "to DIY / tinker",
+          "exampleFr": "Il bricole dans le garage.",
+          "exampleEn": "He's tinkering in the garage."
+        },
+        {
+          "french": "voisin",
+          "english": "neighbor",
+          "exampleFr": "Le voisin s'inquiète.",
+          "exampleEn": "The neighbor is worried."
+        }
       ]
     }
   ],
   "iconicQuotes": [
-    { "french": "J'ai un cancer. Des poumons.", "english": "I have cancer. Of the lungs.", "speaker": "Walt", "episode": "S1E4" },
-    { "french": "Il y a de nouveaux cuistots en ville.", "english": "There are new cooks in town.", "speaker": "Hank", "episode": "S1E4" },
-    { "french": "C'est un barbecue, c'est pas une crémation.", "english": "It's a barbecue, not a cremation.", "speaker": "Hank", "episode": "S1E4" },
-    { "french": "J'ai tout récemment cuisiné la meilleure meth de toute ma vie.", "english": "I recently cooked the best meth of my entire life.", "speaker": "Jesse", "episode": "S1E4" },
-    { "french": "Le roi de l'éprouvette est ici, à Albuquerque.", "english": "The king of the test tube is here, in Albuquerque.", "speaker": "Hank", "episode": "S1E4" },
-    { "french": "Je suis Awake.", "english": "I am awake.", "speaker": "Walt (VF varies)", "note": "Often adapted in VF as « Je suis réveillé » or kept — check your episode." }
+    {
+      "french": "J'ai un cancer. Des poumons.",
+      "english": "I have cancer. Of the lungs.",
+      "speaker": "Walt",
+      "episode": "S1E4"
+    },
+    {
+      "french": "Il y a de nouveaux cuistots en ville.",
+      "english": "There are new cooks in town.",
+      "speaker": "Hank",
+      "episode": "S1E4"
+    },
+    {
+      "french": "C'est un barbecue, c'est pas une crémation.",
+      "english": "It's a barbecue, not a cremation.",
+      "speaker": "Hank",
+      "episode": "S1E4"
+    },
+    {
+      "french": "J'ai tout récemment cuisiné la meilleure meth de toute ma vie.",
+      "english": "I recently cooked the best meth of my entire life.",
+      "speaker": "Jesse",
+      "episode": "S1E4"
+    },
+    {
+      "french": "Le roi de l'éprouvette est ici, à Albuquerque.",
+      "english": "The king of the test tube is here, in Albuquerque.",
+      "speaker": "Hank",
+      "episode": "S1E4"
+    },
+    {
+      "french": "Je suis Awake.",
+      "english": "I am awake.",
+      "speaker": "Walt (VF varies)",
+      "note": "Often adapted in VF as « Je suis réveillé » or kept — check your episode."
+    },
+    {
+      "french": "Je suis l'homme qui a peur.",
+      "english": "I am the man who is afraid.",
+      "speaker": "Walt",
+      "note": "VF introspection — slice of life"
+    },
+    {
+      "french": "On fait ce qu'on peut.",
+      "english": "We do what we can.",
+      "speaker": "Skyler",
+      "note": "Household realism"
+    },
+    {
+      "french": "T'es en retard pour le dîner.",
+      "english": "You're late for dinner.",
+      "speaker": "Skyler",
+      "note": "Family routine"
+    },
+    {
+      "french": "Range ta chambre.",
+      "english": "Clean your room.",
+      "speaker": "Parents",
+      "note": "Everyday parenting VF"
+    },
+    {
+      "french": "J'ai besoin d'un peu d'air.",
+      "english": "I need some air.",
+      "speaker": "Jesse",
+      "note": "Emotional / everyday"
+    }
   ]
 }

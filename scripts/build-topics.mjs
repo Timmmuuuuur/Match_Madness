@@ -6,6 +6,11 @@ import { readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { TOPIC_DEFINITIONS } from './topic-data.mjs';
+import { CURRICULUM_PATH } from './curriculum-order.mjs';
+
+const CURRICULUM_BY_ID = Object.fromEntries(
+  CURRICULUM_PATH.map((entry, index) => [entry.id, { ...entry, order: index + 1 }]),
+);
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUT = join(__dirname, '../shared/data/topics.json');
@@ -68,6 +73,8 @@ const topics = TOPIC_DEFINITIONS.map((def) => {
   const merged = mergeWords(def.words, extra);
   const words = merged.map((word) => toEntry(word, globalId++));
 
+  const curriculum = CURRICULUM_BY_ID[def.id] ?? { order: 999, unit: 99, level: 'B2' };
+
   return {
     id: def.id,
     label: def.label,
@@ -75,10 +82,13 @@ const topics = TOPIC_DEFINITIONS.map((def) => {
     emoji: def.emoji,
     accent: def.accent,
     description: def.description,
+    level: curriculum.level,
+    unit: curriculum.unit,
+    order: curriculum.order,
     theory: def.theory,
     words,
   };
-});
+}).sort((a, b) => (a.order ?? 999) - (b.order ?? 999));
 
 const payload = {
   meta: {

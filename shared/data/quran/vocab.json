@@ -1,0 +1,3028 @@
+{
+  "meta": {
+    "title": "Quranic Vocabulary",
+    "subtitle": "High-frequency Quran words with harakat, transliteration, and reading rules per word.",
+    "wordCount": 191
+  },
+  "categories": [
+    {
+      "id": "alphabet",
+      "label": "Alphabet & letter forms",
+      "words": [
+        {
+          "arabic": "ا",
+          "transliteration": "alif",
+          "english": "letter alif",
+          "length": "short",
+          "rules": [
+            "letter-form",
+            "harakat-on-letter"
+          ],
+          "ruleNote": "alif (alif) — a / glottal stop. Example with fatha: اَلْ",
+          "examples": [
+            {
+              "arabic": "اَلْ",
+              "transliteration": "alifa",
+              "english": "alif + short a"
+            }
+          ],
+          "context": "alif",
+          "id": 9001
+        },
+        {
+          "arabic": "ب",
+          "transliteration": "b",
+          "english": "letter baa",
+          "length": "short",
+          "rules": [
+            "letter-form",
+            "harakat-on-letter"
+          ],
+          "ruleNote": "baa (b) — b as in book. Example with fatha: بَ",
+          "examples": [
+            {
+              "arabic": "بَ",
+              "transliteration": "ba",
+              "english": "b + short a"
+            }
+          ],
+          "context": "baa",
+          "id": 9002
+        },
+        {
+          "arabic": "ت",
+          "transliteration": "t",
+          "english": "letter taa",
+          "length": "short",
+          "rules": [
+            "letter-form",
+            "harakat-on-letter"
+          ],
+          "ruleNote": "taa (t) — t as in tea. Example with fatha: تَ",
+          "examples": [
+            {
+              "arabic": "تَ",
+              "transliteration": "ta",
+              "english": "t + short a"
+            }
+          ],
+          "context": "taa",
+          "id": 9003
+        },
+        {
+          "arabic": "ث",
+          "transliteration": "th",
+          "english": "letter thaa",
+          "length": "short",
+          "rules": [
+            "letter-form",
+            "harakat-on-letter"
+          ],
+          "ruleNote": "thaa (th) — th as in think. Example with fatha: ثَ",
+          "examples": [
+            {
+              "arabic": "ثَ",
+              "transliteration": "tha",
+              "english": "th + short a"
+            }
+          ],
+          "context": "thaa",
+          "id": 9004
+        },
+        {
+          "arabic": "ج",
+          "transliteration": "j",
+          "english": "letter jeem",
+          "length": "short",
+          "rules": [
+            "letter-form",
+            "harakat-on-letter"
+          ],
+          "ruleNote": "jeem (j) — j as in jam. Example with fatha: جَ",
+          "examples": [
+            {
+              "arabic": "جَ",
+              "transliteration": "ja",
+              "english": "j + short a"
+            }
+          ],
+          "context": "jeem",
+          "id": 9005
+        },
+        {
+          "arabic": "ح",
+          "transliteration": "ḥ",
+          "english": "letter haa",
+          "length": "short",
+          "rules": [
+            "letter-form",
+            "harakat-on-letter"
+          ],
+          "ruleNote": "haa (ḥ) — breathy h from throat. Example with fatha: حَ",
+          "examples": [
+            {
+              "arabic": "حَ",
+              "transliteration": "ḥa",
+              "english": "ḥ + short a"
+            }
+          ],
+          "context": "haa",
+          "id": 9006
+        },
+        {
+          "arabic": "خ",
+          "transliteration": "kh",
+          "english": "letter khaa",
+          "length": "short",
+          "rules": [
+            "letter-form",
+            "harakat-on-letter"
+          ],
+          "ruleNote": "khaa (kh) — ch in Scottish loch. Example with fatha: خَ",
+          "examples": [
+            {
+              "arabic": "خَ",
+              "transliteration": "kha",
+              "english": "kh + short a"
+            }
+          ],
+          "context": "khaa",
+          "id": 9007
+        },
+        {
+          "arabic": "د",
+          "transliteration": "d",
+          "english": "letter daal",
+          "length": "short",
+          "rules": [
+            "letter-form",
+            "harakat-on-letter"
+          ],
+          "ruleNote": "daal (d) — d as in day. Example with fatha: دَ",
+          "examples": [
+            {
+              "arabic": "دَ",
+              "transliteration": "da",
+              "english": "d + short a"
+            }
+          ],
+          "context": "daal",
+          "id": 9008
+        },
+        {
+          "arabic": "ذ",
+          "transliteration": "dh",
+          "english": "letter dhaal",
+          "length": "short",
+          "rules": [
+            "letter-form",
+            "harakat-on-letter"
+          ],
+          "ruleNote": "dhaal (dh) — th as in this. Example with fatha: ذَ",
+          "examples": [
+            {
+              "arabic": "ذَ",
+              "transliteration": "dha",
+              "english": "dh + short a"
+            }
+          ],
+          "context": "dhaal",
+          "id": 9009
+        },
+        {
+          "arabic": "ر",
+          "transliteration": "r",
+          "english": "letter raa",
+          "length": "short",
+          "rules": [
+            "letter-form",
+            "harakat-on-letter"
+          ],
+          "ruleNote": "raa (r) — rolled r. Example with fatha: رَ",
+          "examples": [
+            {
+              "arabic": "رَ",
+              "transliteration": "ra",
+              "english": "r + short a"
+            }
+          ],
+          "context": "raa",
+          "id": 9010
+        },
+        {
+          "arabic": "ز",
+          "transliteration": "z",
+          "english": "letter zaay",
+          "length": "short",
+          "rules": [
+            "letter-form",
+            "harakat-on-letter"
+          ],
+          "ruleNote": "zaay (z) — z as in zoo. Example with fatha: زَ",
+          "examples": [
+            {
+              "arabic": "زَ",
+              "transliteration": "za",
+              "english": "z + short a"
+            }
+          ],
+          "context": "zaay",
+          "id": 9011
+        },
+        {
+          "arabic": "س",
+          "transliteration": "s",
+          "english": "letter seen",
+          "length": "short",
+          "rules": [
+            "letter-form",
+            "harakat-on-letter"
+          ],
+          "ruleNote": "seen (s) — s as in sun. Example with fatha: سَ",
+          "examples": [
+            {
+              "arabic": "سَ",
+              "transliteration": "sa",
+              "english": "s + short a"
+            }
+          ],
+          "context": "seen",
+          "id": 9012
+        },
+        {
+          "arabic": "ش",
+          "transliteration": "sh",
+          "english": "letter sheen",
+          "length": "short",
+          "rules": [
+            "letter-form",
+            "harakat-on-letter"
+          ],
+          "ruleNote": "sheen (sh) — sh as in she. Example with fatha: شَ",
+          "examples": [
+            {
+              "arabic": "شَ",
+              "transliteration": "sha",
+              "english": "sh + short a"
+            }
+          ],
+          "context": "sheen",
+          "id": 9013
+        },
+        {
+          "arabic": "ص",
+          "transliteration": "ṣ",
+          "english": "letter saad",
+          "length": "short",
+          "rules": [
+            "letter-form",
+            "harakat-on-letter"
+          ],
+          "ruleNote": "saad (ṣ) — emphatic s. Example with fatha: صَ",
+          "examples": [
+            {
+              "arabic": "صَ",
+              "transliteration": "ṣa",
+              "english": "ṣ + short a"
+            }
+          ],
+          "context": "saad",
+          "id": 9014
+        },
+        {
+          "arabic": "ض",
+          "transliteration": "ḍ",
+          "english": "letter daad",
+          "length": "short",
+          "rules": [
+            "letter-form",
+            "harakat-on-letter"
+          ],
+          "ruleNote": "daad (ḍ) — emphatic d. Example with fatha: ضَ",
+          "examples": [
+            {
+              "arabic": "ضَ",
+              "transliteration": "ḍa",
+              "english": "ḍ + short a"
+            }
+          ],
+          "context": "daad",
+          "id": 9015
+        },
+        {
+          "arabic": "ط",
+          "transliteration": "ṭ",
+          "english": "letter taa",
+          "length": "short",
+          "rules": [
+            "letter-form",
+            "harakat-on-letter"
+          ],
+          "ruleNote": "taa (ṭ) — emphatic t. Example with fatha: طَ",
+          "examples": [
+            {
+              "arabic": "طَ",
+              "transliteration": "ṭa",
+              "english": "ṭ + short a"
+            }
+          ],
+          "context": "taa",
+          "id": 9016
+        },
+        {
+          "arabic": "ظ",
+          "transliteration": "ẓ",
+          "english": "letter dhaa",
+          "length": "short",
+          "rules": [
+            "letter-form",
+            "harakat-on-letter"
+          ],
+          "ruleNote": "dhaa (ẓ) — emphatic dh. Example with fatha: ظَ",
+          "examples": [
+            {
+              "arabic": "ظَ",
+              "transliteration": "ẓa",
+              "english": "ẓ + short a"
+            }
+          ],
+          "context": "dhaa",
+          "id": 9017
+        },
+        {
+          "arabic": "ع",
+          "transliteration": "ʿ",
+          "english": "letter ayn",
+          "length": "short",
+          "rules": [
+            "letter-form",
+            "harakat-on-letter"
+          ],
+          "ruleNote": "ayn (ʿ) — constriction in throat. Example with fatha: عَ",
+          "examples": [
+            {
+              "arabic": "عَ",
+              "transliteration": "ʿa",
+              "english": "ʿ + short a"
+            }
+          ],
+          "context": "ayn",
+          "id": 9018
+        },
+        {
+          "arabic": "غ",
+          "transliteration": "gh",
+          "english": "letter ghayn",
+          "length": "short",
+          "rules": [
+            "letter-form",
+            "harakat-on-letter"
+          ],
+          "ruleNote": "ghayn (gh) — gargle-like fricative. Example with fatha: غَ",
+          "examples": [
+            {
+              "arabic": "غَ",
+              "transliteration": "gha",
+              "english": "gh + short a"
+            }
+          ],
+          "context": "ghayn",
+          "id": 9019
+        },
+        {
+          "arabic": "ف",
+          "transliteration": "f",
+          "english": "letter faa",
+          "length": "short",
+          "rules": [
+            "letter-form",
+            "harakat-on-letter"
+          ],
+          "ruleNote": "faa (f) — f as in fan. Example with fatha: فَ",
+          "examples": [
+            {
+              "arabic": "فَ",
+              "transliteration": "fa",
+              "english": "f + short a"
+            }
+          ],
+          "context": "faa",
+          "id": 9020
+        },
+        {
+          "arabic": "ق",
+          "transliteration": "q",
+          "english": "letter qaaf",
+          "length": "short",
+          "rules": [
+            "letter-form",
+            "harakat-on-letter"
+          ],
+          "ruleNote": "qaaf (q) — deep k from back of throat. Example with fatha: قَ",
+          "examples": [
+            {
+              "arabic": "قَ",
+              "transliteration": "qa",
+              "english": "q + short a"
+            }
+          ],
+          "context": "qaaf",
+          "id": 9021
+        },
+        {
+          "arabic": "ك",
+          "transliteration": "k",
+          "english": "letter kaaf",
+          "length": "short",
+          "rules": [
+            "letter-form",
+            "harakat-on-letter"
+          ],
+          "ruleNote": "kaaf (k) — k as in kite. Example with fatha: كَ",
+          "examples": [
+            {
+              "arabic": "كَ",
+              "transliteration": "ka",
+              "english": "k + short a"
+            }
+          ],
+          "context": "kaaf",
+          "id": 9022
+        },
+        {
+          "arabic": "ل",
+          "transliteration": "l",
+          "english": "letter laam",
+          "length": "short",
+          "rules": [
+            "letter-form",
+            "harakat-on-letter"
+          ],
+          "ruleNote": "laam (l) — l as in lamp. Example with fatha: لَ",
+          "examples": [
+            {
+              "arabic": "لَ",
+              "transliteration": "la",
+              "english": "l + short a"
+            }
+          ],
+          "context": "laam",
+          "id": 9023
+        },
+        {
+          "arabic": "م",
+          "transliteration": "m",
+          "english": "letter meem",
+          "length": "short",
+          "rules": [
+            "letter-form",
+            "harakat-on-letter"
+          ],
+          "ruleNote": "meem (m) — m as in man. Example with fatha: مَ",
+          "examples": [
+            {
+              "arabic": "مَ",
+              "transliteration": "ma",
+              "english": "m + short a"
+            }
+          ],
+          "context": "meem",
+          "id": 9024
+        },
+        {
+          "arabic": "ن",
+          "transliteration": "n",
+          "english": "letter noon",
+          "length": "short",
+          "rules": [
+            "letter-form",
+            "harakat-on-letter"
+          ],
+          "ruleNote": "noon (n) — n as in no. Example with fatha: نَ",
+          "examples": [
+            {
+              "arabic": "نَ",
+              "transliteration": "na",
+              "english": "n + short a"
+            }
+          ],
+          "context": "noon",
+          "id": 9025
+        },
+        {
+          "arabic": "ه",
+          "transliteration": "h",
+          "english": "letter haa",
+          "length": "short",
+          "rules": [
+            "letter-form",
+            "harakat-on-letter"
+          ],
+          "ruleNote": "haa (h) — h as in he. Example with fatha: هَ",
+          "examples": [
+            {
+              "arabic": "هَ",
+              "transliteration": "ha",
+              "english": "h + short a"
+            }
+          ],
+          "context": "haa",
+          "id": 9026
+        },
+        {
+          "arabic": "و",
+          "transliteration": "w / uu",
+          "english": "letter waaw",
+          "length": "short",
+          "rules": [
+            "letter-form",
+            "harakat-on-letter"
+          ],
+          "ruleNote": "waaw (w / uu) — w or long uu. Example with fatha: وَ",
+          "examples": [
+            {
+              "arabic": "وَ",
+              "transliteration": "w / uua",
+              "english": "w / uu + short a"
+            }
+          ],
+          "context": "waaw",
+          "id": 9027
+        },
+        {
+          "arabic": "ي",
+          "transliteration": "y / ii",
+          "english": "letter yaa",
+          "length": "short",
+          "rules": [
+            "letter-form",
+            "harakat-on-letter"
+          ],
+          "ruleNote": "yaa (y / ii) — y or long ii. Example with fatha: يَ",
+          "examples": [
+            {
+              "arabic": "يَ",
+              "transliteration": "y / iia",
+              "english": "y / ii + short a"
+            }
+          ],
+          "context": "yaa",
+          "id": 9028
+        }
+      ]
+    },
+    {
+      "id": "harakat-practice",
+      "label": "Harakat in practice",
+      "words": [
+        {
+          "arabic": "بَ",
+          "transliteration": "ba",
+          "english": "ba (short a)",
+          "length": "short",
+          "rules": [
+            "harakat:fatha",
+            "consonant-vowel"
+          ],
+          "ruleNote": "Fatha (َ) gives short a. Read بَ as \"ba\".",
+          "examples": [],
+          "context": "Fatha",
+          "id": 9029
+        },
+        {
+          "arabic": "بِ",
+          "transliteration": "bi",
+          "english": "bi (short i)",
+          "length": "short",
+          "rules": [
+            "harakat:kasra",
+            "consonant-vowel"
+          ],
+          "ruleNote": "Kasra (ِ) gives short i. Read بِ as \"bi\".",
+          "examples": [],
+          "context": "Kasra",
+          "id": 9030
+        },
+        {
+          "arabic": "بُ",
+          "transliteration": "bu",
+          "english": "bu (short u)",
+          "length": "short",
+          "rules": [
+            "harakat:damma",
+            "consonant-vowel"
+          ],
+          "ruleNote": "Damma (ُ) gives short u. Read بُ as \"bu\".",
+          "examples": [],
+          "context": "Damma",
+          "id": 9031
+        },
+        {
+          "arabic": "بْ",
+          "transliteration": "b",
+          "english": "b (consonant stop)",
+          "length": "short",
+          "rules": [
+            "harakat:sukun",
+            "consonant-vowel"
+          ],
+          "ruleNote": "Sukun (ْ) gives no vowel. Read بْ as \"b\".",
+          "examples": [],
+          "context": "Sukun",
+          "id": 9032
+        },
+        {
+          "arabic": "بّ",
+          "transliteration": "bb",
+          "english": "emphatic doubling",
+          "length": "short",
+          "rules": [
+            "harakat:shadda",
+            "consonant-vowel"
+          ],
+          "ruleNote": "Shadda (ّ) gives double consonant. Read بّ as \"bb\".",
+          "examples": [],
+          "context": "Shadda",
+          "id": 9033
+        },
+        {
+          "arabic": "بًا",
+          "transliteration": "ban",
+          "english": "ban",
+          "length": "short",
+          "rules": [
+            "harakat:tanween-fath",
+            "consonant-vowel"
+          ],
+          "ruleNote": "Tanween Fath (ً) gives an. Read بًا as \"ban\".",
+          "examples": [],
+          "context": "Tanween Fath",
+          "id": 9034
+        },
+        {
+          "arabic": "بٍ",
+          "transliteration": "bin",
+          "english": "bin",
+          "length": "short",
+          "rules": [
+            "harakat:tanween-kasr",
+            "consonant-vowel"
+          ],
+          "ruleNote": "Tanween Kasr (ٍ) gives in. Read بٍ as \"bin\".",
+          "examples": [],
+          "context": "Tanween Kasr",
+          "id": 9035
+        },
+        {
+          "arabic": "بٌ",
+          "transliteration": "bun",
+          "english": "bun",
+          "length": "short",
+          "rules": [
+            "harakat:tanween-damm",
+            "consonant-vowel"
+          ],
+          "ruleNote": "Tanween Damm (ٌ) gives un. Read بٌ as \"bun\".",
+          "examples": [],
+          "context": "Tanween Damm",
+          "id": 9036
+        },
+        {
+          "arabic": "بَا",
+          "transliteration": "baa",
+          "english": "baa (long a)",
+          "length": "short",
+          "rules": [
+            "harakat:madd",
+            "consonant-vowel"
+          ],
+          "ruleNote": "Alif Madd (ا after vowel) gives long aa. Read بَا as \"baa\".",
+          "examples": [],
+          "context": "Alif Madd",
+          "id": 9037
+        },
+        {
+          "arabic": "أَ",
+          "transliteration": "a",
+          "english": "starts many words",
+          "length": "short",
+          "rules": [
+            "harakat:hamza",
+            "consonant-vowel"
+          ],
+          "ruleNote": "Hamza (ء) gives glottal stop. Read أَ as \"a\".",
+          "examples": [],
+          "context": "Hamza",
+          "id": 9038
+        }
+      ]
+    },
+    {
+      "id": "allah-worship",
+      "label": "Allah & worship",
+      "words": [
+        {
+          "arabic": "اللَّه",
+          "transliteration": "Allāh",
+          "english": "Allah",
+          "length": "short",
+          "rules": [
+            "shadda",
+            "lam-tafkhim"
+          ],
+          "ruleNote": "Lām in Allāh is heavy after fatḥa; shadda on lām in some scripts.",
+          "examples": [],
+          "context": "Allāh",
+          "id": 9039
+        },
+        {
+          "arabic": "رَبّ",
+          "transliteration": "Rabb",
+          "english": "Lord / Sustainer",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "shadda"
+          ],
+          "ruleNote": "Fatḥa on rā, then doubled bā (shadda) — hold the b briefly.",
+          "examples": [],
+          "context": "Rabb",
+          "id": 9040
+        },
+        {
+          "arabic": "رَحْمَٰن",
+          "transliteration": "Raḥmān",
+          "english": "Most Merciful",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "sukun",
+            "alif-khanjariyya"
+          ],
+          "ruleNote": "ḥ with sukūn, m with fatḥa, dagger alif lengthens ā before nūn.",
+          "examples": [],
+          "context": "Raḥmān",
+          "id": 9041
+        },
+        {
+          "arabic": "رَحِيم",
+          "transliteration": "Raḥīm",
+          "english": "Especially Merciful",
+          "length": "short",
+          "rules": [
+            "kasra",
+            "long-ya"
+          ],
+          "ruleNote": "Kasra on ḥā, long ī from yā (two counts).",
+          "examples": [],
+          "context": "Raḥīm",
+          "id": 9042
+        },
+        {
+          "arabic": "مَالِك",
+          "transliteration": "Mālik",
+          "english": "Master / Owner",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "kasra",
+            "long-alif"
+          ],
+          "ruleNote": "Māl- with long ā, -ik with kasra on kāf.",
+          "examples": [],
+          "context": "Mālik",
+          "id": 9043
+        },
+        {
+          "arabic": "عَبْد",
+          "transliteration": "ʿabd",
+          "english": "servant",
+          "length": "short",
+          "rules": [
+            "ayn",
+            "sukun",
+            "fatha"
+          ],
+          "ruleNote": "ʿayn then b with sukūn — stop cleanly on b.",
+          "examples": [],
+          "context": "ʿabd",
+          "id": 9044
+        },
+        {
+          "arabic": "صَلَاة",
+          "transliteration": "ṣalāh",
+          "english": "prayer",
+          "length": "short",
+          "rules": [
+            "emphatic-sad",
+            "long-alif",
+            "tā-marbuta"
+          ],
+          "ruleNote": "Ṣād is emphatic; tā marbūṭa at end = ah in pause.",
+          "examples": [],
+          "context": "ṣalāh",
+          "id": 9045
+        },
+        {
+          "arabic": "زَكَاة",
+          "transliteration": "zakāh",
+          "english": "obligatory charity",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "long-alif"
+          ],
+          "ruleNote": "Za-kaa — long ā before h at pause.",
+          "examples": [],
+          "context": "zakāh",
+          "id": 9046
+        },
+        {
+          "arabic": "جَنَّة",
+          "transliteration": "jannah",
+          "english": "Paradise",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "shadda",
+            "tā-marbuta"
+          ],
+          "ruleNote": "Shadda doubles nūn: jan-na.",
+          "examples": [],
+          "context": "jannah",
+          "id": 9047
+        },
+        {
+          "arabic": "نَار",
+          "transliteration": "nār",
+          "english": "Fire",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "long-alif"
+          ],
+          "ruleNote": "Short na + long ār.",
+          "examples": [],
+          "context": "nār",
+          "id": 9048
+        },
+        {
+          "arabic": "إِلَٰه",
+          "transliteration": "ilāh",
+          "english": "deity / god",
+          "length": "short",
+          "rules": [
+            "hamza-wasl",
+            "kasra",
+            "long-alif"
+          ],
+          "ruleNote": "Hamza under alif with kasra when not after waṣl; ā lengthened.",
+          "examples": [],
+          "context": "ilāh",
+          "id": 9049
+        },
+        {
+          "arabic": "دِين",
+          "transliteration": "dīn",
+          "english": "religion / recompense",
+          "length": "short",
+          "rules": [
+            "kasra",
+            "long-ya"
+          ],
+          "ruleNote": "Dīn — long ī from yā.",
+          "examples": [],
+          "context": "dīn",
+          "id": 9050
+        },
+        {
+          "arabic": "آمِين",
+          "transliteration": "āmīn",
+          "english": "O Allah accept",
+          "length": "short",
+          "rules": [
+            "madd-alif",
+            "kasra",
+            "long-ya"
+          ],
+          "ruleNote": "Madd on alif (ā), mīn with kasra + long ī.",
+          "examples": [],
+          "context": "āmīn",
+          "id": 9051
+        }
+      ]
+    },
+    {
+      "id": "fatiha-openers",
+      "label": "Al-Fatiha & openers",
+      "words": [
+        {
+          "arabic": "بِسْمِ",
+          "transliteration": "bismi",
+          "english": "in the name of",
+          "length": "short",
+          "rules": [
+            "kasra",
+            "sukun"
+          ],
+          "ruleNote": "Bi-sm — kasra on bā, m with sukūn.",
+          "examples": [],
+          "context": "bismi",
+          "id": 9052
+        },
+        {
+          "arabic": "الْحَمْدُ",
+          "transliteration": "al-ḥamdu",
+          "english": "all praise",
+          "length": "medium",
+          "rules": [
+            "sun-letter",
+            "sukun",
+            "damma"
+          ],
+          "ruleNote": "Lām assimilates into ḥā (sun letter); damma on dāl.",
+          "examples": [],
+          "context": "al-ḥamdu",
+          "id": 9053
+        },
+        {
+          "arabic": "الْعَالَمِينَ",
+          "transliteration": "al-ʿālamīn",
+          "english": "the worlds",
+          "length": "medium",
+          "rules": [
+            "moon-letter",
+            "long-alif",
+            "kasra-plural"
+          ],
+          "ruleNote": "ʿayn is moon letter — clear lām; ā then īn ending.",
+          "examples": [],
+          "context": "al-ʿālamīn",
+          "id": 9054
+        },
+        {
+          "arabic": "يَوْمِ",
+          "transliteration": "yawm",
+          "english": "day",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "sukun"
+          ],
+          "ruleNote": "Ya-wm — wāw carries sukūn.",
+          "examples": [],
+          "context": "yawm",
+          "id": 9055
+        },
+        {
+          "arabic": "نَعْبُدُ",
+          "transliteration": "naʿbudu",
+          "english": "we worship",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "damma",
+            "ʿayn"
+          ],
+          "ruleNote": "Naʿ-bu-du — ʿayn in middle, damma on bā.",
+          "examples": [],
+          "context": "naʿbudu",
+          "id": 9056
+        },
+        {
+          "arabic": "نَسْتَعِين",
+          "transliteration": "nastaʿīn",
+          "english": "we seek help",
+          "length": "medium",
+          "rules": [
+            "sukun",
+            "kasra",
+            "long-ya"
+          ],
+          "ruleNote": "Nas-ta-ʿīn — long ī at end.",
+          "examples": [],
+          "context": "nastaʿīn",
+          "id": 9057
+        },
+        {
+          "arabic": "الصِّرَاط",
+          "transliteration": "aṣ-ṣirāṭ",
+          "english": "the path",
+          "length": "medium",
+          "rules": [
+            "sun-letter",
+            "shadda",
+            "kasra",
+            "long-alif"
+          ],
+          "ruleNote": "Ṣād is sun letter — lām merges; shadda on ṣād.",
+          "examples": [],
+          "context": "aṣ-ṣirāṭ",
+          "id": 9058
+        },
+        {
+          "arabic": "الْمُسْتَقِيم",
+          "transliteration": "al-mustaqīm",
+          "english": "the straight",
+          "length": "medium",
+          "rules": [
+            "kasra",
+            "sukun",
+            "long-ya"
+          ],
+          "ruleNote": "Mus-ta-qīm — qāf then long īm.",
+          "examples": [],
+          "context": "al-mustaqīm",
+          "id": 9059
+        },
+        {
+          "arabic": "أَنْعَمْ",
+          "transliteration": "anʿamta",
+          "english": "You have blessed",
+          "length": "short",
+          "rules": [
+            "hamza",
+            "sukun",
+            "shadda"
+          ],
+          "ruleNote": "An-ʿam — hamza with fatḥa, ʿayn with fatḥa.",
+          "examples": [],
+          "context": "anʿamta",
+          "id": 9060
+        },
+        {
+          "arabic": "الضَّالِّين",
+          "transliteration": "aḍ-ḍāllīn",
+          "english": "those astray",
+          "length": "medium",
+          "rules": [
+            "sun-letter",
+            "shadda",
+            "long-alif"
+          ],
+          "ruleNote": "Ḍād is sun letter; shadda doubles ḍād.",
+          "examples": [],
+          "context": "aḍ-ḍāllīn",
+          "id": 9061
+        }
+      ]
+    },
+    {
+      "id": "common-verbs",
+      "label": "Common Quranic verbs",
+      "words": [
+        {
+          "arabic": "قَالَ",
+          "transliteration": "qāla",
+          "english": "he said",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "long-alif",
+            "fatha-pause"
+          ],
+          "ruleNote": "Qā-la — qāf from deep throat, long ā.",
+          "examples": [],
+          "context": "qāla",
+          "id": 9062
+        },
+        {
+          "arabic": "كَانَ",
+          "transliteration": "kāna",
+          "english": "he was",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "long-alif"
+          ],
+          "ruleNote": "Kā-na — standard past tense pattern.",
+          "examples": [],
+          "context": "kāna",
+          "id": 9063
+        },
+        {
+          "arabic": "جَاءَ",
+          "transliteration": "jā'a",
+          "english": "he came",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "hamza-madd"
+          ],
+          "ruleNote": "Jā'a — madd on alif before hamza.",
+          "examples": [],
+          "context": "jā'a",
+          "id": 9064
+        },
+        {
+          "arabic": "عَلِمَ",
+          "transliteration": "ʿalima",
+          "english": "he knew",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "kasra"
+          ],
+          "ruleNote": "ʿa-li-ma — kasra on lām.",
+          "examples": [],
+          "context": "ʿalima",
+          "id": 9065
+        },
+        {
+          "arabic": "آمَنَ",
+          "transliteration": "āmana",
+          "english": "he believed",
+          "length": "short",
+          "rules": [
+            "madd-alif",
+            "fatha"
+          ],
+          "ruleNote": "Ā-ma-na — madd alif at start.",
+          "examples": [],
+          "context": "āmana",
+          "id": 9066
+        },
+        {
+          "arabic": "اتَّقَى",
+          "transliteration": "ittaqā",
+          "english": "he was mindful",
+          "length": "short",
+          "rules": [
+            "idgham",
+            "fatha",
+            "long-alif"
+          ],
+          "ruleNote": "Tā merges with tā (shadda) in written form اتّقى.",
+          "examples": [],
+          "context": "ittaqā",
+          "id": 9067
+        },
+        {
+          "arabic": "أَنزَلَ",
+          "transliteration": "anzala",
+          "english": "He sent down",
+          "length": "short",
+          "rules": [
+            "hamza",
+            "sukun",
+            "fatha"
+          ],
+          "ruleNote": "An-za-la — nūn sukūn before zāy.",
+          "examples": [],
+          "context": "anzala",
+          "id": 9068
+        },
+        {
+          "arabic": "خَلَقَ",
+          "transliteration": "khalaqa",
+          "english": "He created",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "qalqalah"
+          ],
+          "ruleNote": "Kha-la-qa — light qalqalah on qāf with sukūn at stop.",
+          "examples": [],
+          "context": "khalaqa",
+          "id": 9069
+        },
+        {
+          "arabic": "هَدَى",
+          "transliteration": "hadā",
+          "english": "He guided",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "long-alif"
+          ],
+          "ruleNote": "Ha-dā — long ā on alif.",
+          "examples": [],
+          "context": "hadā",
+          "id": 9070
+        },
+        {
+          "arabic": "يَتَذَكَّرُ",
+          "transliteration": "yatadhakkaru",
+          "english": "he remembers",
+          "length": "medium",
+          "rules": [
+            "fatha",
+            "shadda",
+            "damma"
+          ],
+          "ruleNote": "Ya-ta-dhak-ka-ru — shadda on kāf.",
+          "examples": [],
+          "context": "yatadhakkaru",
+          "id": 9071
+        },
+        {
+          "arabic": "يَعْلَمُ",
+          "transliteration": "yaʿlamu",
+          "english": "He knows",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "sukun",
+            "damma"
+          ],
+          "ruleNote": "Yaʿ-lamu — ʿayn with sukūn.",
+          "examples": [],
+          "context": "yaʿlamu",
+          "id": 9072
+        },
+        {
+          "arabic": "يَخْلُقُ",
+          "transliteration": "yakhluqu",
+          "english": "He creates",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "sukun",
+            "damma"
+          ],
+          "ruleNote": "Yakh-lu-qu — khā with sukūn.",
+          "examples": [],
+          "context": "yakhluqu",
+          "id": 9073
+        },
+        {
+          "arabic": "أَرْسَلَ",
+          "transliteration": "arsala",
+          "english": "He sent",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "sukun"
+          ],
+          "ruleNote": "Ar-sa-la — r with sukūn.",
+          "examples": [],
+          "context": "arsala",
+          "id": 9074
+        },
+        {
+          "arabic": "نَزَّلَ",
+          "transliteration": "nazzala",
+          "english": "He sent down (intensive)",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "shadda"
+          ],
+          "ruleNote": "Naz-za-la — doubled zāy.",
+          "examples": [],
+          "context": "nazzala",
+          "id": 9075
+        },
+        {
+          "arabic": "يَوْمَئِذٍ",
+          "transliteration": "yawma'idhin",
+          "english": "that Day",
+          "length": "medium",
+          "rules": [
+            "fatha",
+            "sukun",
+            "tanween-kasr"
+          ],
+          "ruleNote": "Ends with -in tanwīn kasr.",
+          "examples": [],
+          "context": "yawma'idhin",
+          "id": 9076
+        }
+      ]
+    },
+    {
+      "id": "particles",
+      "label": "Particles & connectors",
+      "words": [
+        {
+          "arabic": "إِنَّ",
+          "transliteration": "inna",
+          "english": "indeed / verily",
+          "length": "short",
+          "rules": [
+            "shadda",
+            "tanween"
+          ],
+          "ruleNote": "Inna — shadda on nūn, fatḥa on alif.",
+          "examples": [],
+          "context": "inna",
+          "id": 9077
+        },
+        {
+          "arabic": "إِلَّا",
+          "transliteration": "illā",
+          "english": "except",
+          "length": "short",
+          "rules": [
+            "kasra",
+            "shadda",
+            "long-alif"
+          ],
+          "ruleNote": "Il-lā — kasra, doubled lām, long ā.",
+          "examples": [],
+          "context": "illā",
+          "id": 9078
+        },
+        {
+          "arabic": "لَا",
+          "transliteration": "lā",
+          "english": "no / not",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "long-alif"
+          ],
+          "ruleNote": "Lā negation — long ā.",
+          "examples": [],
+          "context": "lā",
+          "id": 9079
+        },
+        {
+          "arabic": "مَا",
+          "transliteration": "mā",
+          "english": "what / not",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "long-alif"
+          ],
+          "ruleNote": "Mā — context decides meaning.",
+          "examples": [],
+          "context": "mā",
+          "id": 9080
+        },
+        {
+          "arabic": "مِن",
+          "transliteration": "min",
+          "english": "from",
+          "length": "short",
+          "rules": [
+            "kasra",
+            "sukun"
+          ],
+          "ruleNote": "Min — ikhfa rules apply before certain letters.",
+          "examples": [],
+          "context": "min",
+          "id": 9081
+        },
+        {
+          "arabic": "إِلَى",
+          "transliteration": "ilā",
+          "english": "to / toward",
+          "length": "short",
+          "rules": [
+            "kasra",
+            "long-alif"
+          ],
+          "ruleNote": "Ilā — long ā at end.",
+          "examples": [],
+          "context": "ilā",
+          "id": 9082
+        },
+        {
+          "arabic": "عَلَى",
+          "transliteration": "ʿalā",
+          "english": "on / upon",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "shadda",
+            "long-alif"
+          ],
+          "ruleNote": "ʿa-lā — ʿayn then long ā.",
+          "examples": [],
+          "context": "ʿalā",
+          "id": 9083
+        },
+        {
+          "arabic": "فِي",
+          "transliteration": "fī",
+          "english": "in",
+          "length": "short",
+          "rules": [
+            "kasra",
+            "long-ya"
+          ],
+          "ruleNote": "Fī — kasra + long ī.",
+          "examples": [],
+          "context": "fī",
+          "id": 9084
+        },
+        {
+          "arabic": "بِ",
+          "transliteration": "bi",
+          "english": "with / by",
+          "length": "short",
+          "rules": [
+            "kasra"
+          ],
+          "ruleNote": "Bi — single kasra, connects to next word.",
+          "examples": [],
+          "context": "bi",
+          "id": 9085
+        },
+        {
+          "arabic": "وَ",
+          "transliteration": "wa",
+          "english": "and",
+          "length": "short",
+          "rules": [
+            "fatha"
+          ],
+          "ruleNote": "Wa — joins words; read lightly.",
+          "examples": [],
+          "context": "wa",
+          "id": 9086
+        },
+        {
+          "arabic": "أَن",
+          "transliteration": "an",
+          "english": "that (subordinator)",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "sukun"
+          ],
+          "ruleNote": "An — nūn sukūn; ikhfa before verbs.",
+          "examples": [],
+          "context": "an",
+          "id": 9087
+        },
+        {
+          "arabic": "كَمَا",
+          "transliteration": "kamā",
+          "english": "as / like",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "long-alif"
+          ],
+          "ruleNote": "Ka-mā — comparison particle.",
+          "examples": [],
+          "context": "kamā",
+          "id": 9088
+        },
+        {
+          "arabic": "ثُمَّ",
+          "transliteration": "thumma",
+          "english": "then",
+          "length": "short",
+          "rules": [
+            "damma",
+            "shadda"
+          ],
+          "ruleNote": "Thum-ma — emphatic thā, doubled mīm.",
+          "examples": [],
+          "context": "thumma",
+          "id": 9089
+        },
+        {
+          "arabic": "أَوْ",
+          "transliteration": "aw",
+          "english": "or",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "sukun"
+          ],
+          "ruleNote": "Aw — wāw sukūn.",
+          "examples": [],
+          "context": "aw",
+          "id": 9090
+        },
+        {
+          "arabic": "هَلْ",
+          "transliteration": "hal",
+          "english": "question marker",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "sukun"
+          ],
+          "ruleNote": "Hal — starts yes/no questions.",
+          "examples": [],
+          "context": "hal",
+          "id": 9091
+        }
+      ]
+    },
+    {
+      "id": "short-words",
+      "label": "Short words (2–4 letters)",
+      "words": [
+        {
+          "arabic": "هُوَ",
+          "transliteration": "huwa",
+          "english": "he / He",
+          "length": "short",
+          "rules": [
+            "damma",
+            "fatha"
+          ],
+          "ruleNote": "Hu-wa — pronoun.",
+          "examples": [],
+          "context": "huwa",
+          "id": 9092
+        },
+        {
+          "arabic": "هِيَ",
+          "transliteration": "hiya",
+          "english": "she / it",
+          "length": "short",
+          "rules": [
+            "kasra",
+            "fatha"
+          ],
+          "ruleNote": "Hi-ya.",
+          "examples": [],
+          "context": "hiya",
+          "id": 9093
+        },
+        {
+          "arabic": "نَحْنُ",
+          "transliteration": "naḥnu",
+          "english": "we",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "sukun",
+            "damma"
+          ],
+          "ruleNote": "Naḥ-nu — ḥā with sukūn.",
+          "examples": [],
+          "context": "naḥnu",
+          "id": 9094
+        },
+        {
+          "arabic": "هُمْ",
+          "transliteration": "hum",
+          "english": "they (m)",
+          "length": "short",
+          "rules": [
+            "damma",
+            "sukun"
+          ],
+          "ruleNote": "Hum — m sukūn at stop.",
+          "examples": [],
+          "context": "hum",
+          "id": 9095
+        },
+        {
+          "arabic": "قُلْ",
+          "transliteration": "qul",
+          "english": "say!",
+          "length": "short",
+          "rules": [
+            "damma",
+            "sukun",
+            "qalqalah"
+          ],
+          "ruleNote": "Qul — imperative; qalqalah on lām.",
+          "examples": [],
+          "context": "qul",
+          "id": 9096
+        },
+        {
+          "arabic": "نُور",
+          "transliteration": "nūr",
+          "english": "light",
+          "length": "short",
+          "rules": [
+            "damma",
+            "long-waw"
+          ],
+          "ruleNote": "Nūr — long ū from wāw.",
+          "examples": [],
+          "context": "nūr",
+          "id": 9097
+        },
+        {
+          "arabic": "بَيْت",
+          "transliteration": "bayt",
+          "english": "house",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "sukun"
+          ],
+          "ruleNote": "Bayt — t sukūn.",
+          "examples": [],
+          "context": "bayt",
+          "id": 9098
+        },
+        {
+          "arabic": "مَاء",
+          "transliteration": "mā'",
+          "english": "water",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "hamza-madd"
+          ],
+          "ruleNote": "Mā' — hamza at end for glottal stop.",
+          "examples": [],
+          "context": "mā'",
+          "id": 9099
+        },
+        {
+          "arabic": "أَرْض",
+          "transliteration": "arḍ",
+          "english": "earth",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "sukun",
+            "emphatic-dad"
+          ],
+          "ruleNote": "Arḍ — emphatic ḍād.",
+          "examples": [],
+          "context": "arḍ",
+          "id": 9100
+        },
+        {
+          "arabic": "سَمَاء",
+          "transliteration": "samā'",
+          "english": "sky / heaven",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "hamza-madd"
+          ],
+          "ruleNote": "Sa-mā' — long ā before hamza.",
+          "examples": [],
+          "context": "samā'",
+          "id": 9101
+        },
+        {
+          "arabic": "رُوح",
+          "transliteration": "rūḥ",
+          "english": "soul / spirit",
+          "length": "short",
+          "rules": [
+            "damma",
+            "long-waw"
+          ],
+          "ruleNote": "Rūḥ — long ū.",
+          "examples": [],
+          "context": "rūḥ",
+          "id": 9102
+        },
+        {
+          "arabic": "حَقّ",
+          "transliteration": "ḥaqq",
+          "english": "truth / right",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "shadda"
+          ],
+          "ruleNote": "Ḥaq-q — doubled qāf.",
+          "examples": [],
+          "context": "ḥaqq",
+          "id": 9103
+        },
+        {
+          "arabic": "شَرّ",
+          "transliteration": "sharr",
+          "english": "evil",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "shadda"
+          ],
+          "ruleNote": "Shar-r — doubled rā.",
+          "examples": [],
+          "context": "sharr",
+          "id": 9104
+        },
+        {
+          "arabic": "خَيْر",
+          "transliteration": "khayr",
+          "english": "good",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "sukun"
+          ],
+          "ruleNote": "Khayr — kh then ay.",
+          "examples": [],
+          "context": "khayr",
+          "id": 9105
+        },
+        {
+          "arabic": "عَلِم",
+          "transliteration": "ʿilm",
+          "english": "knowledge",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "kasra",
+            "sukun"
+          ],
+          "ruleNote": "ʿIlm — i sound on lām.",
+          "examples": [],
+          "context": "ʿilm",
+          "id": 9106
+        }
+      ]
+    },
+    {
+      "id": "medium-words",
+      "label": "Medium words (5–10 letters)",
+      "words": [
+        {
+          "arabic": "الْكِتَاب",
+          "transliteration": "al-kitāb",
+          "english": "the Book",
+          "length": "medium",
+          "rules": [
+            "sun-letter",
+            "kasra",
+            "fatha",
+            "long-alif"
+          ],
+          "ruleNote": "Kāf is sun letter — lām assimilates; kitāb.",
+          "examples": [],
+          "context": "al-kitāb",
+          "id": 9107
+        },
+        {
+          "arabic": "الْقُرْآن",
+          "transliteration": "al-Qur'ān",
+          "english": "the Quran",
+          "length": "medium",
+          "rules": [
+            "sun-letter",
+            "damma",
+            "sukun",
+            "madd"
+          ],
+          "ruleNote": "Qāf sun letter; Qur-ān with madd on alif.",
+          "examples": [],
+          "context": "al-Qur'ān",
+          "id": 9108
+        },
+        {
+          "arabic": "رَسُول",
+          "transliteration": "rasūl",
+          "english": "messenger",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "damma",
+            "long-waw"
+          ],
+          "ruleNote": "Ra-sūl — long ū.",
+          "examples": [],
+          "context": "rasūl",
+          "id": 9109
+        },
+        {
+          "arabic": "نَبِيّ",
+          "transliteration": "nabiyy",
+          "english": "prophet",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "kasra",
+            "shadda"
+          ],
+          "ruleNote": "Na-biyy — doubled yā.",
+          "examples": [],
+          "context": "nabiyy",
+          "id": 9110
+        },
+        {
+          "arabic": "مُؤْمِن",
+          "transliteration": "mu'min",
+          "english": "believer",
+          "length": "short",
+          "rules": [
+            "damma",
+            "hamza",
+            "kasra",
+            "sukun"
+          ],
+          "ruleNote": "Mu'-min — hamza on wāw seat.",
+          "examples": [],
+          "context": "mu'min",
+          "id": 9111
+        },
+        {
+          "arabic": "كَافِر",
+          "transliteration": "kāfir",
+          "english": "disbeliever",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "long-alif",
+            "kasra"
+          ],
+          "ruleNote": "Kā-fir.",
+          "examples": [],
+          "context": "kāfir",
+          "id": 9112
+        },
+        {
+          "arabic": "صِرَاط",
+          "transliteration": "ṣirāṭ",
+          "english": "path",
+          "length": "short",
+          "rules": [
+            "kasra",
+            "fatha",
+            "long-alif",
+            "sukun"
+          ],
+          "ruleNote": "Ṣi-rāṭ — emphatic ṣād.",
+          "examples": [],
+          "context": "ṣirāṭ",
+          "id": 9113
+        },
+        {
+          "arabic": "عَذَاب",
+          "transliteration": "ʿadhāb",
+          "english": "punishment",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "long-alif"
+          ],
+          "ruleNote": "ʿA-dhāb — dhāl then long ā.",
+          "examples": [],
+          "context": "ʿadhāb",
+          "id": 9114
+        },
+        {
+          "arabic": "مُصَلٍّ",
+          "transliteration": "muṣallin",
+          "english": "those who pray",
+          "length": "short",
+          "rules": [
+            "damma",
+            "shadda",
+            "tanween"
+          ],
+          "ruleNote": "Mu-ṣal-lin — active participle pattern.",
+          "examples": [],
+          "context": "muṣallin",
+          "id": 9115
+        },
+        {
+          "arabic": "مُؤْمِنُون",
+          "transliteration": "mu'minūn",
+          "english": "believers (pl)",
+          "length": "medium",
+          "rules": [
+            "damma",
+            "hamza",
+            "long-waw"
+          ],
+          "ruleNote": "Mu'minūn — plural ending ūn.",
+          "examples": [],
+          "context": "mu'minūn",
+          "id": 9116
+        },
+        {
+          "arabic": "الْمَلَائِكَة",
+          "transliteration": "al-malā'ikah",
+          "english": "the angels",
+          "length": "medium",
+          "rules": [
+            "kasra",
+            "long-alif",
+            "hamza",
+            "fatha"
+          ],
+          "ruleNote": "Malā'ikah — broken plural.",
+          "examples": [],
+          "context": "al-malā'ikah",
+          "id": 9117
+        },
+        {
+          "arabic": "يَوْمَ الْقِيَامَة",
+          "transliteration": "yawm al-qiyāmah",
+          "english": "Day of Resurrection",
+          "length": "medium",
+          "rules": [
+            "idafa",
+            "kasra",
+            "long-alif"
+          ],
+          "ruleNote": "Idāfa chain — Day of the Standing.",
+          "examples": [],
+          "context": "yawm al-qiyāmah",
+          "id": 9118
+        },
+        {
+          "arabic": "الْجَنَّة",
+          "transliteration": "al-jannah",
+          "english": "Paradise",
+          "length": "medium",
+          "rules": [
+            "sun-letter",
+            "shadda"
+          ],
+          "ruleNote": "Jīm sun letter; jan-na with shadda.",
+          "examples": [],
+          "context": "al-jannah",
+          "id": 9119
+        },
+        {
+          "arabic": "النَّار",
+          "transliteration": "an-nār",
+          "english": "the Fire",
+          "length": "medium",
+          "rules": [
+            "sun-letter",
+            "shadda",
+            "long-alif"
+          ],
+          "ruleNote": "Nūn sun letter — lām merges into nūn.",
+          "examples": [],
+          "context": "an-nār",
+          "id": 9120
+        },
+        {
+          "arabic": "الشَّيْطَان",
+          "transliteration": "ash-shayṭān",
+          "english": "Satan",
+          "length": "medium",
+          "rules": [
+            "sun-letter",
+            "shadda",
+            "fatha",
+            "long-alif"
+          ],
+          "ruleNote": "Shīn sun letter; shay-ṭān.",
+          "examples": [],
+          "context": "ash-shayṭān",
+          "id": 9121
+        }
+      ]
+    },
+    {
+      "id": "long-words",
+      "label": "Long words & phrases",
+      "words": [
+        {
+          "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+          "transliteration": "Bismillāhi r-Raḥmāni r-Raḥīm",
+          "english": "In the name of Allah, the Most Merciful, the Especially Merciful",
+          "length": "long",
+          "rules": [
+            "kasra",
+            "idafa",
+            "shadda",
+            "lam-tafkhim",
+            "dagger-alif"
+          ],
+          "ruleNote": "Chain of idāfa: bi-smi Allāhi ar-Raḥmāni ar-Raḥīm. Heavy lām in Allāh after kasra in bi-smi.",
+          "examples": [],
+          "context": "Bismillāhi r-Raḥmāni r-Raḥīm",
+          "id": 9122
+        },
+        {
+          "arabic": "رَبِّ الْعَالَمِينَ",
+          "transliteration": "rabbi l-ʿālamīn",
+          "english": "Lord of the worlds",
+          "length": "long",
+          "rules": [
+            "kasra",
+            "idafa",
+            "long-alif"
+          ],
+          "ruleNote": "Rab-bi — kasra + shadda on bā, then ʿālamīn.",
+          "examples": [],
+          "context": "rabbi l-ʿālamīn",
+          "id": 9123
+        },
+        {
+          "arabic": "مَالِكِ يَوْمِ الدِّينِ",
+          "transliteration": "māliki yawmi d-dīn",
+          "english": "Master of the Day of Judgment",
+          "length": "long",
+          "rules": [
+            "kasra",
+            "idafa",
+            "sun-letter",
+            "shadda"
+          ],
+          "ruleNote": "Idāfa: Owner of Day of d-Dīn — dāl is sun letter.",
+          "examples": [],
+          "context": "māliki yawmi d-dīn",
+          "id": 9124
+        },
+        {
+          "arabic": "إِيَّاكَ نَعْبُدُ",
+          "transliteration": "iyyāka naʿbudu",
+          "english": "You alone we worship",
+          "length": "long",
+          "rules": [
+            "madd",
+            "fatha",
+            "ʿayn"
+          ],
+          "ruleNote": "Iyyāka — emphasis on You (kāf object pronoun).",
+          "examples": [],
+          "context": "iyyāka naʿbudu",
+          "id": 9125
+        },
+        {
+          "arabic": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+          "transliteration": "ihdinā aṣ-ṣirāṭa l-mustaqīm",
+          "english": "Guide us to the straight path",
+          "length": "long",
+          "rules": [
+            "imperative",
+            "sun-letter",
+            "kasra",
+            "long-alif"
+          ],
+          "ruleNote": "Duʿā form; ṣād sun letter in aṣ-ṣirāṭ.",
+          "examples": [],
+          "context": "ihdinā aṣ-ṣirāṭa l-mustaqīm",
+          "id": 9126
+        },
+        {
+          "arabic": "قُلْ هُوَ اللَّهُ أَحَدٌ",
+          "transliteration": "Qul huwa Allāhu aḥad",
+          "english": "Say: He is Allah, One",
+          "length": "long",
+          "rules": [
+            "imperative",
+            "damma",
+            "tanween"
+          ],
+          "ruleNote": "Start of Surah al-Ikhlās; aḥad ends with tanwīn fatḥ.",
+          "examples": [],
+          "context": "Qul huwa Allāhu aḥad",
+          "id": 9127
+        },
+        {
+          "arabic": "اللَّهُ الصَّمَدُ",
+          "transliteration": "Allāhu ṣ-ṣamad",
+          "english": "Allah, the Eternal Refuge",
+          "length": "long",
+          "rules": [
+            "damma",
+            "sun-letter",
+            "shadda"
+          ],
+          "ruleNote": "Ṣād sun letter; ṣ-ṣamad with shadda.",
+          "examples": [],
+          "context": "Allāhu ṣ-ṣamad",
+          "id": 9128
+        },
+        {
+          "arabic": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+          "transliteration": "lam yalid wa lam yūlad",
+          "english": "He neither begets nor is born",
+          "length": "long",
+          "rules": [
+            "sukun",
+            "kasra",
+            "long-waw"
+          ],
+          "ruleNote": "Lam negation + past tense verbs.",
+          "examples": [],
+          "context": "lam yalid wa lam yūlad",
+          "id": 9129
+        },
+        {
+          "arabic": "وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ",
+          "transliteration": "wa lam yakun lahu kufuwan aḥad",
+          "english": "Nor is there any equivalent to Him",
+          "length": "long",
+          "rules": [
+            "wa",
+            "sukun",
+            "idafa",
+            "tanween"
+          ],
+          "ruleNote": "Ends Ikhlās; kufuwan aḥad — no equal.",
+          "examples": [],
+          "context": "wa lam yakun lahu kufuwan aḥad",
+          "id": 9130
+        },
+        {
+          "arabic": "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ",
+          "transliteration": "Allāhu lā ilāha illā huwa l-ḥayyu l-qayyūm",
+          "english": "Allah — no god but He, the Ever-Living, the Sustainer",
+          "length": "long",
+          "rules": [
+            "damma",
+            "negation",
+            "shadda",
+            "idafa"
+          ],
+          "ruleNote": "Opening of Ayat al-Kursi (2:255).",
+          "examples": [],
+          "context": "Allāhu lā ilāha illā huwa l-ḥayyu l-qayyūm",
+          "id": 9131
+        }
+      ]
+    },
+    {
+      "id": "surah-phrases",
+      "label": "Surah phrases & dhikr",
+      "words": [
+        {
+          "arabic": "سُبْحَانَ اللَّه",
+          "transliteration": "subḥāna Allāh",
+          "english": "Glory be to Allah",
+          "length": "medium",
+          "rules": [
+            "damma",
+            "sukun",
+            "fatha",
+            "idafa"
+          ],
+          "ruleNote": "Sub-ḥā-na — dhikr phrase.",
+          "examples": [],
+          "context": "subḥāna Allāh",
+          "id": 9132
+        },
+        {
+          "arabic": "الْحَمْدُ لِلَّه",
+          "transliteration": "al-ḥamdu lillāh",
+          "english": "Praise be to Allah",
+          "length": "medium",
+          "rules": [
+            "damma",
+            "idafa",
+            "shadda"
+          ],
+          "ruleNote": "Li-llāh — lām assimilates to lām of Allāh.",
+          "examples": [],
+          "context": "al-ḥamdu lillāh",
+          "id": 9133
+        },
+        {
+          "arabic": "اللَّهُ أَكْبَر",
+          "transliteration": "Allāhu akbar",
+          "english": "Allah is Greatest",
+          "length": "medium",
+          "rules": [
+            "damma",
+            "fatha",
+            "sukun"
+          ],
+          "ruleNote": "Takbīr — akbar comparative.",
+          "examples": [],
+          "context": "Allāhu akbar",
+          "id": 9134
+        },
+        {
+          "arabic": "أَسْتَغْفِرُ اللَّه",
+          "transliteration": "astaghfiru Allāh",
+          "english": "I seek forgiveness from Allah",
+          "length": "medium",
+          "rules": [
+            "fatha",
+            "sukun",
+            "kasra"
+          ],
+          "ruleNote": "Istighfār formula.",
+          "examples": [],
+          "context": "astaghfiru Allāh",
+          "id": 9135
+        },
+        {
+          "arabic": "إِنْ شَاءَ اللَّه",
+          "transliteration": "in shā'a Allāh",
+          "english": "if Allah wills",
+          "length": "medium",
+          "rules": [
+            "sukun",
+            "hamza-madd",
+            "idafa"
+          ],
+          "ruleNote": "In shā'a — madd on alif before hamza.",
+          "examples": [],
+          "context": "in shā'a Allāh",
+          "id": 9136
+        },
+        {
+          "arabic": "مَا شَاءَ اللَّه",
+          "transliteration": "mā shā'a Allāh",
+          "english": "what Allah willed",
+          "length": "medium",
+          "rules": [
+            "long-alif",
+            "hamza-madd"
+          ],
+          "ruleNote": "Mā shā'a — acceptance phrase.",
+          "examples": [],
+          "context": "mā shā'a Allāh",
+          "id": 9137
+        },
+        {
+          "arabic": "بَارَكَ اللَّهُ فِيك",
+          "transliteration": "bāraka Allāhu fīk",
+          "english": "May Allah bless you",
+          "length": "long",
+          "rules": [
+            "fatha",
+            "damma",
+            "kasra"
+          ],
+          "ruleNote": "Duʿā for someone.",
+          "examples": [],
+          "context": "bāraka Allāhu fīk",
+          "id": 9138
+        },
+        {
+          "arabic": "جَزَاكَ اللَّهُ خَيْرًا",
+          "transliteration": "jazāka Allāhu khayran",
+          "english": "May Allah reward you with good",
+          "length": "long",
+          "rules": [
+            "fatha",
+            "damma",
+            "tanween"
+          ],
+          "ruleNote": "Thanks — khayran with tanwīn.",
+          "examples": [],
+          "context": "jazāka Allāhu khayran",
+          "id": 9139
+        },
+        {
+          "arabic": "السَّلَامُ عَلَيْكُم",
+          "transliteration": "as-salāmu ʿalaykum",
+          "english": "peace be upon you",
+          "length": "long",
+          "rules": [
+            "sun-letter",
+            "damma",
+            "kasra"
+          ],
+          "ruleNote": "Greeting — sīn sun letter.",
+          "examples": [],
+          "context": "as-salāmu ʿalaykum",
+          "id": 9140
+        },
+        {
+          "arabic": "وَعَلَيْكُمُ السَّلَام",
+          "transliteration": "wa ʿalaykumu s-salām",
+          "english": "and upon you peace",
+          "length": "long",
+          "rules": [
+            "wa",
+            "damma",
+            "sun-letter"
+          ],
+          "ruleNote": "Reply to salām.",
+          "examples": [],
+          "context": "wa ʿalaykumu s-salām",
+          "id": 9141
+        }
+      ]
+    },
+    {
+      "id": "names-attributes",
+      "label": "Names & attributes",
+      "words": [
+        {
+          "arabic": "الْحَكِيم",
+          "transliteration": "al-ḥakīm",
+          "english": "the Wise",
+          "length": "medium",
+          "rules": [
+            "kasra",
+            "long-ya"
+          ],
+          "ruleNote": "Ḥa-kīm — divine name pattern.",
+          "examples": [],
+          "context": "al-ḥakīm",
+          "id": 9142
+        },
+        {
+          "arabic": "الْعَلِيم",
+          "transliteration": "al-ʿalīm",
+          "english": "the All-Knowing",
+          "length": "medium",
+          "rules": [
+            "kasra",
+            "long-ya"
+          ],
+          "ruleNote": "ʿA-līm.",
+          "examples": [],
+          "context": "al-ʿalīm",
+          "id": 9143
+        },
+        {
+          "arabic": "الْقَدِير",
+          "transliteration": "al-qadīr",
+          "english": "the All-Powerful",
+          "length": "medium",
+          "rules": [
+            "fatha",
+            "kasra",
+            "long-ya"
+          ],
+          "ruleNote": "Qa-dīr.",
+          "examples": [],
+          "context": "al-qadīr",
+          "id": 9144
+        },
+        {
+          "arabic": "الْغَفُور",
+          "transliteration": "al-ghafūr",
+          "english": "the Forgiving",
+          "length": "medium",
+          "rules": [
+            "fatha",
+            "damma",
+            "long-waw"
+          ],
+          "ruleNote": "Gha-fūr — long ū.",
+          "examples": [],
+          "context": "al-ghafūr",
+          "id": 9145
+        },
+        {
+          "arabic": "الرَّحِيم",
+          "transliteration": "ar-raḥīm",
+          "english": "the Merciful",
+          "length": "medium",
+          "rules": [
+            "sun-letter",
+            "kasra",
+            "long-ya"
+          ],
+          "ruleNote": "Rā sun letter.",
+          "examples": [],
+          "context": "ar-raḥīm",
+          "id": 9146
+        },
+        {
+          "arabic": "الْخَالِق",
+          "transliteration": "al-khāliq",
+          "english": "the Creator",
+          "length": "medium",
+          "rules": [
+            "fatha",
+            "long-alif",
+            "kasra"
+          ],
+          "ruleNote": "Khā-liq — active participle.",
+          "examples": [],
+          "context": "al-khāliq",
+          "id": 9147
+        },
+        {
+          "arabic": "الْوَدُود",
+          "transliteration": "al-wadūd",
+          "english": "the Loving",
+          "length": "medium",
+          "rules": [
+            "fatha",
+            "damma",
+            "long-waw"
+          ],
+          "ruleNote": "Wa-dūd.",
+          "examples": [],
+          "context": "al-wadūd",
+          "id": 9148
+        },
+        {
+          "arabic": "السَّمِيع",
+          "transliteration": "as-samīʿ",
+          "english": "the All-Hearing",
+          "length": "medium",
+          "rules": [
+            "sun-letter",
+            "kasra",
+            "long-ya"
+          ],
+          "ruleNote": "Sīn sun letter.",
+          "examples": [],
+          "context": "as-samīʿ",
+          "id": 9149
+        },
+        {
+          "arabic": "الْبَصِير",
+          "transliteration": "al-baṣīr",
+          "english": "the All-Seeing",
+          "length": "medium",
+          "rules": [
+            "fatha",
+            "kasra",
+            "long-ya"
+          ],
+          "ruleNote": "Ba-ṣīr — emphatic ṣād.",
+          "examples": [],
+          "context": "al-baṣīr",
+          "id": 9150
+        },
+        {
+          "arabic": "الْحَيُّ",
+          "transliteration": "al-ḥayy",
+          "english": "the Ever-Living",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "shadda"
+          ],
+          "ruleNote": "Ḥay-y — shadda on yā.",
+          "examples": [],
+          "context": "al-ḥayy",
+          "id": 9151
+        },
+        {
+          "arabic": "الْقَيُّوم",
+          "transliteration": "al-qayyūm",
+          "english": "the Sustainer",
+          "length": "medium",
+          "rules": [
+            "fatha",
+            "shadda",
+            "long-waw"
+          ],
+          "ruleNote": "Qay-yūm — from Ayat al-Kursi.",
+          "examples": [],
+          "context": "al-qayyūm",
+          "id": 9152
+        },
+        {
+          "arabic": "الْأَوَّل",
+          "transliteration": "al-awwal",
+          "english": "the First",
+          "length": "medium",
+          "rules": [
+            "hamza",
+            "shadda",
+            "fatha"
+          ],
+          "ruleNote": "Aw-wal.",
+          "examples": [],
+          "context": "al-awwal",
+          "id": 9153
+        },
+        {
+          "arabic": "الْآخِر",
+          "transliteration": "al-ākhir",
+          "english": "the Last",
+          "length": "medium",
+          "rules": [
+            "madd-alif",
+            "kasra"
+          ],
+          "ruleNote": "Ā-khir.",
+          "examples": [],
+          "context": "al-ākhir",
+          "id": 9154
+        },
+        {
+          "arabic": "الظَّاهِر",
+          "transliteration": "aẓ-ẓāhir",
+          "english": "the Manifest",
+          "length": "medium",
+          "rules": [
+            "sun-letter",
+            "shadda",
+            "kasra"
+          ],
+          "ruleNote": "Ẓā sun letter.",
+          "examples": [],
+          "context": "aẓ-ẓāhir",
+          "id": 9155
+        },
+        {
+          "arabic": "الْبَاطِن",
+          "transliteration": "al-bāṭin",
+          "english": "the Hidden",
+          "length": "medium",
+          "rules": [
+            "fatha",
+            "long-alif",
+            "kasra"
+          ],
+          "ruleNote": "Bā-ṭin — emphatic ṭā.",
+          "examples": [],
+          "context": "al-bāṭin",
+          "id": 9156
+        }
+      ]
+    },
+    {
+      "id": "commands-stories",
+      "label": "Commands & stories",
+      "words": [
+        {
+          "arabic": "يَا",
+          "transliteration": "yā",
+          "english": "O (vocative)",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "long-alif"
+          ],
+          "ruleNote": "Yā — calling someone: Yā Maryam.",
+          "examples": [],
+          "context": "yā",
+          "id": 9157
+        },
+        {
+          "arabic": "يَا أَيُّهَا",
+          "transliteration": "yā ayyuhā",
+          "english": "O you (address)",
+          "length": "medium",
+          "rules": [
+            "vocative",
+            "long-alif"
+          ],
+          "ruleNote": "Formal address in Quran.",
+          "examples": [],
+          "context": "yā ayyuhā",
+          "id": 9158
+        },
+        {
+          "arabic": "قَصَص",
+          "transliteration": "qaṣaṣ",
+          "english": "stories",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "sukun"
+          ],
+          "ruleNote": "Qa-ṣaṣ — plural of qaṣaṣ.",
+          "examples": [],
+          "context": "qaṣaṣ",
+          "id": 9159
+        },
+        {
+          "arabic": "آيَة",
+          "transliteration": "āyah",
+          "english": "verse / sign",
+          "length": "short",
+          "rules": [
+            "madd-alif",
+            "tā-marbuta"
+          ],
+          "ruleNote": "Ā-yah — one verse of Quran.",
+          "examples": [],
+          "context": "āyah",
+          "id": 9160
+        },
+        {
+          "arabic": "سُورَة",
+          "transliteration": "sūrah",
+          "english": "chapter (surah)",
+          "length": "short",
+          "rules": [
+            "damma",
+            "fatha",
+            "tā-marbuta"
+          ],
+          "ruleNote": "Sū-rah — 114 surahs.",
+          "examples": [],
+          "context": "sūrah",
+          "id": 9161
+        },
+        {
+          "arabic": "وَحْي",
+          "transliteration": "waḥy",
+          "english": "revelation",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "sukun"
+          ],
+          "ruleNote": "Waḥy — divine inspiration.",
+          "examples": [],
+          "context": "waḥy",
+          "id": 9162
+        },
+        {
+          "arabic": "تَوْرَاة",
+          "transliteration": "tawrāh",
+          "english": "Torah",
+          "length": "medium",
+          "rules": [
+            "fatha",
+            "long-alif"
+          ],
+          "ruleNote": "Taw-rāh — book given to Mūsā.",
+          "examples": [],
+          "context": "tawrāh",
+          "id": 9163
+        },
+        {
+          "arabic": "إِنْجِيل",
+          "transliteration": "injīl",
+          "english": "Gospel",
+          "length": "medium",
+          "rules": [
+            "kasra",
+            "long-ya"
+          ],
+          "ruleNote": "In-jīl — book given to ʿĪsā.",
+          "examples": [],
+          "context": "injīl",
+          "id": 9164
+        },
+        {
+          "arabic": "مُوسَى",
+          "transliteration": "mūsā",
+          "english": "Moses",
+          "length": "short",
+          "rules": [
+            "damma",
+            "long-waw",
+            "fatha"
+          ],
+          "ruleNote": "Mū-sā — prophet name.",
+          "examples": [],
+          "context": "mūsā",
+          "id": 9165
+        },
+        {
+          "arabic": "عِيسَى",
+          "transliteration": "ʿīsā",
+          "english": "Jesus",
+          "length": "short",
+          "rules": [
+            "kasra",
+            "long-ya",
+            "fatha"
+          ],
+          "ruleNote": "ʿĪ-sā — prophet name.",
+          "examples": [],
+          "context": "ʿīsā",
+          "id": 9166
+        },
+        {
+          "arabic": "إِبْرَاهِيم",
+          "transliteration": "ibrāhīm",
+          "english": "Abraham",
+          "length": "medium",
+          "rules": [
+            "kasra",
+            "sukun",
+            "long-alif"
+          ],
+          "ruleNote": "Ibrā-hīm — Khalīl Allāh.",
+          "examples": [],
+          "context": "ibrāhīm",
+          "id": 9167
+        },
+        {
+          "arabic": "مُحَمَّد",
+          "transliteration": "muḥammad",
+          "english": "Muhammad",
+          "length": "short",
+          "rules": [
+            "damma",
+            "shadda",
+            "fatha"
+          ],
+          "ruleNote": "Muḥam-mad — final messenger.",
+          "examples": [],
+          "context": "muḥammad",
+          "id": 9168
+        },
+        {
+          "arabic": "مَرْيَم",
+          "transliteration": "maryam",
+          "english": "Mary",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "sukun",
+            "fatha"
+          ],
+          "ruleNote": "Maryam — mother of ʿĪsā.",
+          "examples": [],
+          "context": "maryam",
+          "id": 9169
+        },
+        {
+          "arabic": "فِرْعَوْن",
+          "transliteration": "firʿawn",
+          "english": "Pharaoh",
+          "length": "medium",
+          "rules": [
+            "kasra",
+            "sukun",
+            "fatha"
+          ],
+          "ruleNote": "Firʿawn — enemy of Mūsā.",
+          "examples": [],
+          "context": "firʿawn",
+          "id": 9170
+        },
+        {
+          "arabic": "شَدَّد",
+          "transliteration": "shaddada",
+          "english": "he strengthened",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "shadda"
+          ],
+          "ruleNote": "Past tense Form II — intensification.",
+          "examples": [],
+          "context": "shaddada",
+          "id": 9171
+        },
+        {
+          "arabic": "أَطِيعُوا",
+          "transliteration": "aṭīʿū",
+          "english": "obey (plural command)",
+          "length": "medium",
+          "rules": [
+            "fatha",
+            "kasra",
+            "long-ya"
+          ],
+          "ruleNote": "Imperative plural — ū ending.",
+          "examples": [],
+          "context": "aṭīʿū",
+          "id": 9172
+        },
+        {
+          "arabic": "اتَّبِعُوا",
+          "transliteration": "ittabiʿū",
+          "english": "follow (plural)",
+          "length": "medium",
+          "rules": [
+            "idgham",
+            "kasra",
+            "long-ya"
+          ],
+          "ruleNote": "Ittabiʿū — follow the prophets.",
+          "examples": [],
+          "context": "ittabiʿū",
+          "id": 9173
+        },
+        {
+          "arabic": "اذْكُرُوا",
+          "transliteration": "udhkurū",
+          "english": "remember (plural)",
+          "length": "medium",
+          "rules": [
+            "sukun",
+            "damma",
+            "long-waw"
+          ],
+          "ruleNote": "Udh-ku-rū — dhikr command.",
+          "examples": [],
+          "context": "udhkurū",
+          "id": 9174
+        },
+        {
+          "arabic": "تَبَارَكَ",
+          "transliteration": "tabāraka",
+          "english": "blessed is",
+          "length": "medium",
+          "rules": [
+            "fatha",
+            "long-alif",
+            "fatha"
+          ],
+          "ruleNote": "Tabāraka — divine blessing formula.",
+          "examples": [],
+          "context": "tabāraka",
+          "id": 9175
+        },
+        {
+          "arabic": "تَعَالَى",
+          "transliteration": "taʿālā",
+          "english": "Exalted is",
+          "length": "medium",
+          "rules": [
+            "fatha",
+            "shadda",
+            "long-alif"
+          ],
+          "ruleNote": "Taʿālā — after Allāh's name.",
+          "examples": [],
+          "context": "taʿālā",
+          "id": 9176
+        }
+      ]
+    },
+    {
+      "id": "more-particles",
+      "label": "More particles & grammar",
+      "words": [
+        {
+          "arabic": "لَوْ",
+          "transliteration": "law",
+          "english": "if only / would that",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "sukun"
+          ],
+          "ruleNote": "Law — counterfactual condition.",
+          "examples": [],
+          "context": "law",
+          "id": 9177
+        },
+        {
+          "arabic": "لَعَلَّ",
+          "transliteration": "laʿalla",
+          "english": "perhaps / maybe",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "shadda"
+          ],
+          "ruleNote": "Laʿalla — hope or possibility.",
+          "examples": [],
+          "context": "laʿalla",
+          "id": 9178
+        },
+        {
+          "arabic": "حَتَّى",
+          "transliteration": "ḥattā",
+          "english": "until",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "shadda",
+            "long-alif"
+          ],
+          "ruleNote": "Ḥattā — time or purpose.",
+          "examples": [],
+          "context": "ḥattā",
+          "id": 9179
+        },
+        {
+          "arabic": "بَلْ",
+          "transliteration": "bal",
+          "english": "rather / but",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "sukun"
+          ],
+          "ruleNote": "Bal — correction or emphasis.",
+          "examples": [],
+          "context": "bal",
+          "id": 9180
+        },
+        {
+          "arabic": "أَمْ",
+          "transliteration": "am",
+          "english": "or (question)",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "sukun"
+          ],
+          "ruleNote": "Am — presents alternatives.",
+          "examples": [],
+          "context": "am",
+          "id": 9181
+        },
+        {
+          "arabic": "لَمْ",
+          "transliteration": "lam",
+          "english": "did not (jussive)",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "sukun"
+          ],
+          "ruleNote": "Lam + present → past negation.",
+          "examples": [],
+          "context": "lam",
+          "id": 9182
+        },
+        {
+          "arabic": "لَنْ",
+          "transliteration": "lan",
+          "english": "will not",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "sukun"
+          ],
+          "ruleNote": "Lan + subjunctive — future negation.",
+          "examples": [],
+          "context": "lan",
+          "id": 9183
+        },
+        {
+          "arabic": "قَدْ",
+          "transliteration": "qad",
+          "english": "indeed / already",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "sukun"
+          ],
+          "ruleNote": "Qad — aspect particle.",
+          "examples": [],
+          "context": "qad",
+          "id": 9184
+        },
+        {
+          "arabic": "سَوْفَ",
+          "transliteration": "sawfa",
+          "english": "will (future)",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "sukun",
+            "fatha"
+          ],
+          "ruleNote": "Sawfa — future marker before verb.",
+          "examples": [],
+          "context": "sawfa",
+          "id": 9185
+        },
+        {
+          "arabic": "عَسَى",
+          "transliteration": "ʿasā",
+          "english": "perhaps",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "fatha",
+            "long-alif"
+          ],
+          "ruleNote": "ʿAsā — hope for future.",
+          "examples": [],
+          "context": "ʿasā",
+          "id": 9186
+        },
+        {
+          "arabic": "إِذْ",
+          "transliteration": "idh",
+          "english": "when / since",
+          "length": "short",
+          "rules": [
+            "kasra",
+            "sukun"
+          ],
+          "ruleNote": "Idh — temporal clause.",
+          "examples": [],
+          "context": "idh",
+          "id": 9187
+        },
+        {
+          "arabic": "إِذَا",
+          "transliteration": "idhā",
+          "english": "when (future)",
+          "length": "short",
+          "rules": [
+            "kasra",
+            "fatha",
+            "long-alif"
+          ],
+          "ruleNote": "Idhā — conditional when.",
+          "examples": [],
+          "context": "idhā",
+          "id": 9188
+        },
+        {
+          "arabic": "كَيْ",
+          "transliteration": "kay",
+          "english": "so that",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "sukun"
+          ],
+          "ruleNote": "Kay — purpose clause.",
+          "examples": [],
+          "context": "kay",
+          "id": 9189
+        },
+        {
+          "arabic": "أَنْ",
+          "transliteration": "an",
+          "english": "that",
+          "length": "short",
+          "rules": [
+            "fatha",
+            "sukun"
+          ],
+          "ruleNote": "An — subordinator before verb.",
+          "examples": [],
+          "context": "an",
+          "id": 9190
+        },
+        {
+          "arabic": "لِأَنَّ",
+          "transliteration": "li-anna",
+          "english": "because",
+          "length": "short",
+          "rules": [
+            "kasra",
+            "shadda"
+          ],
+          "ruleNote": "Li-anna — causal, inna for emphasis.",
+          "examples": [],
+          "context": "li-anna",
+          "id": 9191
+        }
+      ]
+    }
+  ]
+}

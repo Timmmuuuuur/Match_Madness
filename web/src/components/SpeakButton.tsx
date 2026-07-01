@@ -1,13 +1,22 @@
 import { useState } from 'react';
-import { speakFrench, speechSupported } from '../lib/speech';
+import { speakText, speechSupported, type SpeechLang } from '../lib/speech';
 
 interface SpeakButtonProps {
   text: string;
+  /** Transliteration fallback for Arabic TTS */
+  transliteration?: string;
+  lang?: SpeechLang;
   label?: string;
   compact?: boolean;
 }
 
-export function SpeakButton({ text, label = 'Listen', compact }: SpeakButtonProps) {
+export function SpeakButton({
+  text,
+  transliteration,
+  lang = 'fr',
+  label = 'Listen',
+  compact,
+}: SpeakButtonProps) {
   const [busy, setBusy] = useState(false);
   const supported = speechSupported();
 
@@ -16,7 +25,7 @@ export function SpeakButton({ text, label = 'Listen', compact }: SpeakButtonProp
   const handleClick = async (e: React.MouseEvent) => {
     e.stopPropagation();
     setBusy(true);
-    await speakFrench(text);
+    await speakText(text, lang, transliteration);
     window.setTimeout(() => setBusy(false), 300);
   };
 

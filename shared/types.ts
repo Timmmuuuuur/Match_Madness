@@ -4,7 +4,10 @@ export type WordPoolId = '500' | '500-2' | '1000' | '1500' | '2000';
 /** @deprecated Use WordPoolId */
 export type PoolSize = 500 | 1000 | 1500 | 2000;
 
-export type Direction = 'en-fr' | 'fr-en';
+export type Direction = 'en-fr' | 'fr-en' | 'en-ar' | 'ar-en';
+
+/** Top-level learning track. */
+export type LearningTrack = 'french' | 'quran';
 
 export interface WordPair {
   id: number;
@@ -24,7 +27,8 @@ export type LearningBlock =
   | { type: 'callout'; variant: 'note' | 'tip' | 'warning' | 'compare-en' | 'compare-ru'; text: string }
   | { type: 'list'; items: string[] }
   | { type: 'rule'; title: string; text: string }
-  | { type: 'example'; fr: string; en: string; note?: string };
+  | { type: 'example'; fr: string; en: string; note?: string }
+  | { type: 'tip'; text: string };
 
 export interface Topic {
   id: string;
@@ -33,6 +37,12 @@ export interface Topic {
   emoji: string;
   accent: string;
   description: string;
+  /** Duolingo-style path: A1 → B2 */
+  level?: 'A1' | 'A2' | 'B1' | 'B2';
+  /** Unit number on the learning path */
+  unit?: number;
+  /** Sort order within the full curriculum */
+  order?: number;
   theory: LearningBlock[];
   words: WordPair[];
 }
@@ -66,6 +76,12 @@ export interface GameSettings {
   direction: Direction;
   pairsPerRound: number;
   totalRounds: number;
+  /** When false, play until quit or matchGoal (Quran track). */
+  timed?: boolean;
+  /** Hide transliteration/context hints on tiles — harder mode. */
+  hideHints?: boolean;
+  /** End untimed game after N correct matches (optional). */
+  matchGoal?: number;
 }
 
 export interface GameStats {

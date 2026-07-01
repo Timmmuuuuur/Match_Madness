@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "title": "Arabic Letters",
+    "subtitle": "The 28 letters of the Arabic alphabet — foundation of Quranic reading."
+  },
+  "letters": [
+    { "order": 1, "isolated": "ا", "name": "alif", "transliteration": "alif", "sound": "a / glottal stop", "example": "اَلْ", "exampleNote": "carrier of hamza and long aa" },
+    { "order": 2, "isolated": "ب", "name": "baa", "transliteration": "b", "sound": "b as in book", "example": "بَ", "exampleNote": "with fatha → ba" },
+    { "order": 3, "isolated": "ت", "name": "taa", "transliteration": "t", "sound": "t as in tea", "example": "تَ", "exampleNote": "" },
+    { "order": 4, "isolated": "ث", "name": "thaa", "transliteration": "th", "sound": "th as in think", "example": "ثَ", "exampleNote": "emphatic interdental" },
+    { "order": 5, "isolated": "ج", "name": "jeem", "transliteration": "j", "sound": "j as in jam", "example": "جَ", "exampleNote": "" },
+    { "order": 6, "isolated": "ح", "name": "haa", "transliteration": "ḥ", "sound": "breathy h from throat", "example": "حَ", "exampleNote": "not English h" },
+    { "order": 7, "isolated": "خ", "name": "khaa", "transliteration": "kh", "sound": "ch in Scottish loch", "example": "خَ", "exampleNote": "" },
+    { "order": 8, "isolated": "د", "name": "daal", "transliteration": "d", "sound": "d as in day", "example": "دَ", "exampleNote": "" },
+    { "order": 9, "isolated": "ذ", "name": "dhaal", "transliteration": "dh", "sound": "th as in this", "example": "ذَ", "exampleNote": "" },
+    { "order": 10, "isolated": "ر", "name": "raa", "transliteration": "r", "sound": "rolled r", "example": "رَ", "exampleNote": "" },
+    { "order": 11, "isolated": "ز", "name": "zaay", "transliteration": "z", "sound": "z as in zoo", "example": "زَ", "exampleNote": "" },
+    { "order": 12, "isolated": "س", "name": "seen", "transliteration": "s", "sound": "s as in sun", "example": "سَ", "exampleNote": "" },
+    { "order": 13, "isolated": "ش", "name": "sheen", "transliteration": "sh", "sound": "sh as in she", "example": "شَ", "exampleNote": "" },
+    { "order": 14, "isolated": "ص", "name": "saad", "transliteration": "ṣ", "sound": "emphatic s", "example": "صَ", "exampleNote": "deeper in throat" },
+    { "order": 15, "isolated": "ض", "name": "daad", "transliteration": "ḍ", "sound": "emphatic d", "example": "ضَ", "exampleNote": "unique to Arabic" },
+    { "order": 16, "isolated": "ط", "name": "taa", "transliteration": "ṭ", "sound": "emphatic t", "example": "طَ", "exampleNote": "" },
+    { "order": 17, "isolated": "ظ", "name": "dhaa", "transliteration": "ẓ", "sound": "emphatic dh", "example": "ظَ", "exampleNote": "" },
+    { "order": 18, "isolated": "ع", "name": "ayn", "transliteration": "ʿ", "sound": "constriction in throat", "example": "عَ", "exampleNote": "no English equivalent" },
+    { "order": 19, "isolated": "غ", "name": "ghayn", "transliteration": "gh", "sound": "gargle-like fricative", "example": "غَ", "exampleNote": "" },
+    { "order": 20, "isolated": "ف", "name": "faa", "transliteration": "f", "sound": "f as in fan", "example": "فَ", "exampleNote": "" },
+    { "order": 21, "isolated": "ق", "name": "qaaf", "transliteration": "q", "sound": "deep k from back of throat", "example": "قَ", "exampleNote": "not English k" },
+    { "order": 22, "isolated": "ك", "name": "kaaf", "transliteration": "k", "sound": "k as in kite", "example": "كَ", "exampleNote": "" },
+    { "order": 23, "isolated": "ل", "name": "laam", "transliteration": "l", "sound": "l as in lamp", "example": "لَ", "exampleNote": "" },
+    { "order": 24, "isolated": "م", "name": "meem", "transliteration": "m", "sound": "m as in man", "example": "مَ", "exampleNote": "" },
+    { "order": 25, "isolated": "ن", "name": "noon", "transliteration": "n", "sound": "n as in no", "example": "نَ", "exampleNote": "" },
+    { "order": 26, "isolated": "ه", "name": "haa", "transliteration": "h", "sound": "h as in he", "example": "هَ", "exampleNote": "light h" },
+    { "order": 27, "isolated": "و", "name": "waaw", "transliteration": "w / uu", "sound": "w or long uu", "example": "وَ", "exampleNote": "consonant or long vowel" },
+    { "order": 28, "isolated": "ي", "name": "yaa", "transliteration": "y / ii", "sound": "y or long ii", "example": "يَ", "exampleNote": "consonant or long vowel" }
+  ]
+}

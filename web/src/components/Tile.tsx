@@ -6,9 +6,10 @@ interface TileProps {
   correct: boolean;
   wrong: boolean;
   onSelect: (tileId: string) => void;
+  hideContext?: boolean;
 }
 
-export function Tile({ tile, selected, correct, wrong, onSelect }: TileProps) {
+export function Tile({ tile, selected, correct, wrong, onSelect, hideContext }: TileProps) {
   const className = [
     'tile',
     tile.context ? 'tile-has-context' : '',
@@ -26,7 +27,7 @@ export function Tile({ tile, selected, correct, wrong, onSelect }: TileProps) {
   return (
     <button
       type="button"
-      className={className}
+      className={`${className}${tile.language === 'arabic' ? ' tile-arabic' : ''}`}
       onPointerDown={(e) => {
         e.preventDefault();
         onSelect(tile.id);
@@ -39,7 +40,7 @@ export function Tile({ tile, selected, correct, wrong, onSelect }: TileProps) {
           <span className="tile-article">{tile.article}&nbsp;</span>
         )}
         <span className="tile-text">{tile.text}</span>
-        {tile.context && (
+        {!hideContext && tile.context && (
           <span className="tile-context">&nbsp;·&nbsp;{tile.context}</span>
         )}
       </span>

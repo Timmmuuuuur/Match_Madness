@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
-import type { Direction, GameSettings, GameStats, WordPair } from '@shared/types';
+import type { GameSettings, GameStats, WordPair } from '@shared/types';
 import {
   calcMatchScore,
   isMatch,
@@ -9,6 +9,7 @@ import {
   replacePairOnBoard,
   type TileData,
 } from '../lib/gameEngine';
+import { dirLabel, primaryColumnLabel, secondaryColumnLabel } from '../lib/matchLabels';
 import { ProgressBar } from './ProgressBar';
 import { Tile } from './Tile';
 import { useGameLayoutLock } from '../hooks/useGameLayoutLock';
@@ -31,6 +32,9 @@ interface GameScreenProps {
 }
 
 export function GameScreen({ words, settings, onComplete, onQuit }: GameScreenProps) {
+  const timed = settings.timed !== false;
+  const hideContext = settings.hideHints === true;
+  const matchGoal = settings.matchGoal;
   useGameLayoutLock();
 
   const [score, setScore] = useState(0);
@@ -113,6 +117,7 @@ export function GameScreen({ words, settings, onComplete, onQuit }: GameScreenPr
   }, [score, correctMatches, wrongMatches, settings, onComplete]);
 
   useEffect(() => {
+    if (!timed) return undefined;
     timerRef.current = setInterval(() => {
       setTimeLeft((t) => {
         if (t <= 1) {
@@ -127,11 +132,11 @@ export function GameScreen({ words, settings, onComplete, onQuit }: GameScreenPr
       if (flashTimerRef.current) clearTimeout(flashTimerRef.current);
       clearSwapTimers();
     };
-  }, [clearSwapTimers]);
+  }, [clearSwapTimers, timed]);
 
   useEffect(() => {
-    if (timeLeft === 0) finishGame();
-  }, [timeLeft, finishGame]);
+    if (timed && timeLeft === 0) finishGame();
+  }, [timeLeft, finishGame, timed]);
 
   const handleSelect = (tileId: string) => {
     const tile = boardRef.current.tileMap.get(tileId);
@@ -173,7 +178,13 @@ export function GameScreen({ words, settings, onComplete, onQuit }: GameScreenPr
         streakRef.current = next;
         return next;
       });
-      setCorrectMatches((c) => c + 1);
+      setCorrectMatches((c) => {
+        const next = c + 1;
+        if (!timed && matchGoal && next >= matchGoal) {
+          window.setTimeout(() => finishGame(), CORRECT_HOLD_MS + 80);
+        }
+        return next;
+      });
 
       scheduleSwap(() => {
         const { leftTiles: left, rightTiles: right, usedPairIds: used } = boardRef.current;
@@ -208,9 +219,9 @@ export function GameScreen({ words, settings, onComplete, onQuit }: GameScreenPr
     flashTimerRef.current = window.setTimeout(() => setWrongIds(new Set()), WRONG_FLASH_MS);
   };
 
-  const dirLabel: Record<Direction, string> = { 'en-fr': 'EN → FR', 'fr-en': 'FR → EN' };
-  const urgent = timeLeft <= 10;
-  const timeProgress = 1 - timeLeft / GAME_DURATION_S;
+  const dirTag = dirLabel(settings.direction);
+  const urgent = timed && timeLeft <= 10;
+  const timeProgress = timed ? 1 - timeLeft / GAME_DURATION_S : 0;
 
   return (
     <div className="screen game-screen">
@@ -219,13 +230,19 @@ export function GameScreen({ words, settings, onComplete, onQuit }: GameScreenPr
           ✕
         </button>
         <div className="game-meta">
-          <span className="round-tag">{correctMatches} matched</span>
-          <span className="direction-tag">{dirLabel[settings.direction]}</span>
+          <span className="round-tag">
+            {correctMatches} matched{matchGoal ? ` / ${matchGoal}` : ''}
+          </span>
+          <span className="direction-tag">{dirTag}</span>
         </div>
-        <div className={`timer${urgent ? ' timer-urgent' : ''}`}>{formatTime(timeLeft)}</div>
+        {timed ? (
+          <div className={`timer${urgent ? ' timer-urgent' : ''}`}>{formatTime(timeLeft)}</div>
+        ) : (
+          <div className="timer timer--off">No timer</div>
+        )}
       </header>
 
-      <ProgressBar current={timeProgress * 100} total={100} />
+      {timed && <ProgressBar current={timeProgress * 100} total={100} />}
 
       <div className="game-status">
         <div className="score-display">{score} pts</div>
@@ -236,7 +253,7 @@ export function GameScreen({ words, settings, onComplete, onQuit }: GameScreenPr
 
       <div className="match-board">
         <div className="match-column">
-          <h3 className="column-label">{settings.direction === 'en-fr' ? 'English' : 'French'}</h3>
+          <h3 className="column-label">{primaryColumnLabel(settings.direction)}</h3>
           <div className="tile-column">
             {leftTiles.map((tile) => (
               <Tile
@@ -246,12 +263,13 @@ export function GameScreen({ words, settings, onComplete, onQuit }: GameScreenPr
                 correct={correctIds.has(tile.id)}
                 wrong={wrongIds.has(tile.id)}
                 onSelect={handleSelect}
+                hideContext={hideContext}
               />
             ))}
           </div>
         </div>
         <div className="match-column">
-          <h3 className="column-label">{settings.direction === 'en-fr' ? 'French' : 'English'}</h3>
+          <h3 className="column-label">{secondaryColumnLabel(settings.direction)}</h3>
           <div className="tile-column">
             {rightTiles.map((tile) => (
               <Tile
@@ -261,6 +279,7 @@ export function GameScreen({ words, settings, onComplete, onQuit }: GameScreenPr
                 correct={correctIds.has(tile.id)}
                 wrong={wrongIds.has(tile.id)}
                 onSelect={handleSelect}
+                hideContext={hideContext}
               />
             ))}
           </div>

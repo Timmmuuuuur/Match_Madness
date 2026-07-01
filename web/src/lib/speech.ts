@@ -1,12 +1,4 @@
-/** Browser TTS — zero audio files, uses OS voices (incl. French on iOS/macOS). */
-
-function pickFrenchVoice(voices: SpeechSynthesisVoice[]): SpeechSynthesisVoice | undefined {
-  return (
-    voices.find((v) => v.lang === 'fr-FR') ??
-    voices.find((v) => v.lang.startsWith('fr')) ??
-    voices.find((v) => v.name.toLowerCase().includes('french'))
-  );
-}
+/** Browser TTS — French & Arabic via OS voices (no audio files required). */
 
 function loadVoices(): Promise<SpeechSynthesisVoice[]> {
   return new Promise((resolve) => {
@@ -24,11 +16,18 @@ function loadVoices(): Promise<SpeechSynthesisVoice[]> {
   });
 }
 
-export function speechSupported(): boolean {
-  return typeof window !== 'undefined' && 'speechSynthesis' in window;
+function pickVoice(voices: SpeechSynthesisVoice[], lang: string, nameHint?: string): SpeechSynthesisVoice | undefined {
+  const exact = voices.find((v) => v.lang === lang);
+  if (exact) return exact;
+  const prefix = voices.find((v) => v.lang.startsWith(lang.split('-')[0]));
+  if (prefix) return prefix;
+  if (nameHint) {
+    return voices.find((v) => v.name.toLowerCase().includes(nameHint));
+  }
+  return undefined;
 }
 
-export async function speakFrench(text: string): Promise<boolean> {
+async function speak(text: string, lang: string, nameHint?: string, rate = 0.88): Promise<boolean> {
   if (!speechSupported()) return false;
   const trimmed = text.trim();
   if (!trimmed) return false;
@@ -36,17 +35,45 @@ export async function speakFrench(text: string): Promise<boolean> {
   speechSynthesis.cancel();
   const voices = await loadVoices();
   const utterance = new SpeechSynthesisUtterance(trimmed);
-  utterance.lang = 'fr-FR';
-  utterance.rate = 0.9;
+  utterance.lang = lang;
+  utterance.rate = rate;
   utterance.pitch = 1;
-  const voice = pickFrenchVoice(voices);
+  const voice = pickVoice(voices, lang, nameHint);
   if (voice) utterance.voice = voice;
   speechSynthesis.speak(utterance);
   return true;
 }
 
-/** Speak full headword including article when present. */
+export function speechSupported(): boolean {
+  return typeof window !== 'undefined' && 'speechSynthesis' in window;
+}
+
+export async function speakFrench(text: string): Promise<boolean> {
+  return speak(text, 'fr-FR', 'french', 0.9);
+}
+
+export async function speakArabic(text: string): Promise<boolean> {
+  const ok = await speak(text, 'ar-SA', 'arabic', 0.82);
+  if (ok) return true;
+  return speak(text, 'ar', 'arabic', 0.82);
+}
+
+/** Prefer Arabic script; fall back to transliteration if TTS fails. */
+export async function speakArabicWord(arabic: string, transliteration?: string): Promise<boolean> {
+  const primary = await speakArabic(arabic);
+  if (primary) return true;
+  if (transliteration) return speakArabic(transliteration);
+  return false;
+}
+
 export function speakWord(french: string, article?: string): Promise<boolean> {
   const phrase = article ? `${article} ${french}` : french;
   return speakFrench(phrase);
+}
+
+export type SpeechLang = 'fr' | 'ar';
+
+export async function speakText(text: string, lang: SpeechLang, transliteration?: string): Promise<boolean> {
+  if (lang === 'ar') return speakArabicWord(text, transliteration);
+  return speakFrench(text);
 }

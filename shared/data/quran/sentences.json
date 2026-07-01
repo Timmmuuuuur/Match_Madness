@@ -1,0 +1,240 @@
+{
+  "meta": {
+    "title": "Spoken Arabic — Quranic phrases",
+    "subtitle": "Full sentences from the Quran and daily dhikr — listen, read, and note the rules.",
+    "count": 20
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "transliteration": "Bismillāhi r-Raḥmāni r-Raḥīm",
+      "english": "In the name of Allah, the Most Merciful, the Especially Merciful.",
+      "rules": [
+        "idafa",
+        "harakat",
+        "lam-tafkhim"
+      ],
+      "level": "beginner"
+    },
+    {
+      "id": "s2",
+      "arabic": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+      "transliteration": "Al-ḥamdu lillāhi rabbi l-ʿālamīn",
+      "english": "All praise is due to Allah, Lord of all the worlds.",
+      "rules": [
+        "idafa",
+        "sun-letter"
+      ],
+      "level": "beginner"
+    },
+    {
+      "id": "s3",
+      "arabic": "قُلْ هُوَ اللَّهُ أَحَدٌ",
+      "transliteration": "Qul huwa Allāhu aḥad",
+      "english": "Say: He is Allah, One.",
+      "rules": [
+        "imperative",
+        "tanween"
+      ],
+      "level": "beginner"
+    },
+    {
+      "id": "s4",
+      "arabic": "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ",
+      "transliteration": "Qul aʿūdhu bi-rabbi l-falaq",
+      "english": "Say: I seek refuge in the Lord of daybreak.",
+      "rules": [
+        "imperative",
+        "kasra",
+        "idafa"
+      ],
+      "level": "beginner"
+    },
+    {
+      "id": "s5",
+      "arabic": "قُلْ أَعُوذُ بِرَبِّ النَّاسِ",
+      "transliteration": "Qul aʿūdhu bi-rabbi n-nās",
+      "english": "Say: I seek refuge in the Lord of mankind.",
+      "rules": [
+        "imperative",
+        "sun-letter"
+      ],
+      "level": "beginner"
+    },
+    {
+      "id": "s6",
+      "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً",
+      "transliteration": "Rabbanā ātinā fī d-dunyā ḥasanah",
+      "english": "Our Lord, give us good in this world.",
+      "rules": [
+        "dua",
+        "kasra",
+        "tanween"
+      ],
+      "level": "intermediate"
+    },
+    {
+      "id": "s7",
+      "arabic": "وَفِي الْآخِرَةِ حَسَنَةً",
+      "transliteration": "Wa fī l-ākhirati ḥasanah",
+      "english": "And good in the Hereafter.",
+      "rules": [
+        "wa",
+        "idafa",
+        "tanween"
+      ],
+      "level": "intermediate"
+    },
+    {
+      "id": "s8",
+      "arabic": "وَقِنَا عَذَابَ النَّار",
+      "transliteration": "Wa qinā ʿadhāba n-nār",
+      "english": "And protect us from the punishment of the Fire.",
+      "rules": [
+        "wa",
+        "sun-letter",
+        "idafa"
+      ],
+      "level": "intermediate"
+    },
+    {
+      "id": "s9",
+      "arabic": "إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ",
+      "transliteration": "Innā lillāhi wa innā ilayhi rājiʿūn",
+      "english": "Indeed we belong to Allah, and indeed to Him we return.",
+      "rules": [
+        "inna",
+        "idafa",
+        "wa"
+      ],
+      "level": "intermediate"
+    },
+    {
+      "id": "s10",
+      "arabic": "رَبِّ اشْرَحْ لِي صَدْرِي",
+      "transliteration": "Rabbi ishraḥ lī ṣadrī",
+      "english": "My Lord, expand for me my chest.",
+      "rules": [
+        "dua",
+        "imperative",
+        "kasra"
+      ],
+      "level": "intermediate"
+    },
+    {
+      "id": "s11",
+      "arabic": "وَيَسِّرْ لِي أَمْرِي",
+      "transliteration": "Wa yassir lī amrī",
+      "english": "And ease for me my affair.",
+      "rules": [
+        "wa",
+        "imperative",
+        "idafa"
+      ],
+      "level": "intermediate"
+    },
+    {
+      "id": "s12",
+      "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْجَنَّة",
+      "transliteration": "Allāhumma innī as'aluka l-jannah",
+      "english": "O Allah, I ask You for Paradise.",
+      "rules": [
+        "dua",
+        "inna"
+      ],
+      "level": "advanced"
+    },
+    {
+      "id": "s13",
+      "arabic": "وَأَعُوذُ بِكَ مِنَ النَّار",
+      "transliteration": "Wa aʿūdhu bika mina n-nār",
+      "english": "And I seek refuge in You from the Fire.",
+      "rules": [
+        "wa",
+        "kasra",
+        "sun-letter"
+      ],
+      "level": "advanced"
+    },
+    {
+      "id": "s14",
+      "arabic": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ",
+      "transliteration": "Subḥāna Allāhi wa bi-ḥamdih",
+      "english": "Glory be to Allah and praise be to Him.",
+      "rules": [
+        "dhikr",
+        "wa",
+        "idafa"
+      ],
+      "level": "beginner"
+    },
+    {
+      "id": "s15",
+      "arabic": "سُبْحَانَ اللَّهِ الْعَظِيم",
+      "transliteration": "Subḥāna Allāhi l-ʿaẓīm",
+      "english": "Glory be to Allah, the Magnificent.",
+      "rules": [
+        "dhikr",
+        "idafa"
+      ],
+      "level": "beginner"
+    },
+    {
+      "id": "s16",
+      "arabic": "لَا إِلَٰهَ إِلَّا أَنْتَ سُبْحَانَكَ",
+      "transliteration": "Lā ilāha illā anta subḥānaka",
+      "english": "There is no god but You; glory be to You.",
+      "rules": [
+        "negation",
+        "dua"
+      ],
+      "level": "advanced"
+    },
+    {
+      "id": "s17",
+      "arabic": "إِنِّي ظَلَمْتُ نَفْسِي",
+      "transliteration": "Innī ẓalamtu nafsī",
+      "english": "Indeed I have wronged myself.",
+      "rules": [
+        "inna",
+        "idafa"
+      ],
+      "level": "intermediate"
+    },
+    {
+      "id": "s18",
+      "arabic": "تَوَكَّلْتُ عَلَى اللَّه",
+      "transliteration": "Tawakkaltu ʿalā Allāh",
+      "english": "I have relied upon Allah.",
+      "rules": [
+        "shadda",
+        "idafa"
+      ],
+      "level": "intermediate"
+    },
+    {
+      "id": "s19",
+      "arabic": "حَسْبِيَ اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ",
+      "transliteration": "Ḥasbiya Allāhu lā ilāha illā huwa",
+      "english": "Allah is sufficient for me; there is no god but He.",
+      "rules": [
+        "idafa",
+        "negation"
+      ],
+      "level": "advanced"
+    },
+    {
+      "id": "s20",
+      "arabic": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ",
+      "transliteration": "Allāhumma ṣalli ʿalā Muḥammad",
+      "english": "O Allah, send blessings upon Muhammad.",
+      "rules": [
+        "dua",
+        "kasra",
+        "tanween"
+      ],
+      "level": "intermediate"
+    }
+  ]
+}

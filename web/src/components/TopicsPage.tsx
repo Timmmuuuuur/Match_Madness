@@ -1,6 +1,6 @@
 import { useCallback, useMemo, useState } from 'react';
 import type { Direction, GameSettings, GameStats } from '@shared/types';
-import { TOPICS, countTopicWords, resolveTopicWords, topicBestScoreKey } from '@shared/topics';
+import { TOPICS, countTopicWords, resolveTopicWords, topicBestScoreKey, topicsByUnit, UNIT_LABELS } from '@shared/topics';
 import { loadBestScore, saveBestScore } from '../lib/storage';
 import { GameScreen } from './GameScreen';
 import { ResultsScreen } from './ResultsScreen';
@@ -58,6 +58,13 @@ export function TopicsPage() {
     setPhase('results');
   };
 
+  const selectUnit = (unit: number) => {
+    const unitTopics = topicsByUnit().get(unit) ?? [];
+    setSelected(new Set(unitTopics.map((t) => t.id)));
+  };
+
+  const unitMap = topicsByUnit();
+
   if (phase === 'game' && words.length >= 5) {
     return (
       <GameScreen
@@ -86,7 +93,7 @@ export function TopicsPage() {
       <header className="topics-hero">
         <h1>Topics</h1>
         <p className="subtitle">
-          Pick one or many themes — words from every selected topic get mixed together for matching.
+          Follow the A1→B2 path by unit, or mix topics yourself. Greetings and basics come first — like Duolingo.
         </p>
       </header>
 
@@ -142,25 +149,38 @@ export function TopicsPage() {
         </button>
       </section>
 
-      <div className="topic-grid">
-        {TOPICS.map((topic) => {
-          const checked = selected.has(topic.id);
-          return (
-            <button
-              key={topic.id}
-              type="button"
-              className={`topic-card topic-accent-${topic.accent}${checked ? ' selected' : ''}`}
-              onClick={() => toggle(topic.id)}
-              aria-pressed={checked}
-            >
-              <span className="topic-check" aria-hidden>{checked ? '✓' : ''}</span>
-              <span className="topic-emoji">{topic.emoji}</span>
-              <span className="topic-label">{topic.label}</span>
-              <span className="topic-fr">{topic.frenchLabel}</span>
-              <span className="topic-count">{topic.words.length} words</span>
-            </button>
-          );
-        })}
+      <div className="topics-units">
+        {[...unitMap.entries()].sort(([a], [b]) => a - b).map(([unit, unitTopics]) => (
+          <section key={unit} className="topics-unit-section">
+            <header className="topics-unit-head">
+              <h2>Unit {unit} — {UNIT_LABELS[unit] ?? ''}</h2>
+              <span className="curriculum-level">{unitTopics[0]?.level}</span>
+              <button type="button" className="text-btn" onClick={() => selectUnit(unit)}>
+                Select unit
+              </button>
+            </header>
+            <div className="topic-grid">
+              {unitTopics.map((topic) => {
+                const checked = selected.has(topic.id);
+                return (
+                  <button
+                    key={topic.id}
+                    type="button"
+                    className={`topic-card topic-accent-${topic.accent}${checked ? ' selected' : ''}`}
+                    onClick={() => toggle(topic.id)}
+                    aria-pressed={checked}
+                  >
+                    <span className="topic-check" aria-hidden>{checked ? '✓' : ''}</span>
+                    <span className="topic-emoji">{topic.emoji}</span>
+                    <span className="topic-label">{topic.label}</span>
+                    <span className="topic-fr">{topic.frenchLabel}</span>
+                    <span className="topic-count">{topic.words.length} words</span>
+                  </button>
+                );
+              })}
+            </div>
+          </section>
+        ))}
       </div>
     </div>
   );

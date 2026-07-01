@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "title": "Tajweed Basics",
+    "subtitle": "Rules of proper Quranic recitation — start with these essentials."
+  },
+  "sections": [
+    {
+      "id": "makhraj",
+      "title": "Makhārij — points of articulation",
+      "items": [
+        { "rule": "Each Arabic letter has a fixed exit point in the mouth or throat.", "example": "ق from deepest part of tongue; ك from palate.", "tip": "Mixing qāf and kāf is a common beginner error." },
+        { "rule": "ح and ه are different — ح is breathy from middle throat.", "example": "الْحَمْد vs هُوَ", "tip": "Place hand on throat; feel vibration on ح." }
+      ]
+    },
+    {
+      "id": "noon-sakin",
+      "title": "Nūn sākinah & tanwīn",
+      "items": [
+        { "rule": "Iẓhār — clear n sound before throat letters (ء ه ع ح غ خ).", "example": "مِنْ عِلْم", "tip": "Full noon pronounced." },
+        { "rule": "Idghām — merge n into following letter (ي ر م ل و ن).", "example": "مِن رَّبِّ", "tip": "With ghunnah (nasal hold) on some." },
+        { "rule": "Iqlāb — turn n into m before bā.", "example": "مِنْ بَعْد", "tip": "Hidden m sound." },
+        { "rule": "Ikhfa — hide n with ghunnah before 15 letters.", "example": "مِنْ قَبْل", "tip": "Nasal hum, not full n." }
+      ]
+    },
+    {
+      "id": "madd",
+      "title": "Madd — prolongation",
+      "items": [
+        { "rule": "Natural madd (2 counts): vowel + alif/wāw/yā of lengthening.", "example": "قَالَ — hold the aa.", "tip": "One alif length ≈ 2 short vowels." },
+        { "rule": "Madd munfaṣil: madd letter at end of word + hamza at start of next.", "example": "جَاءَ أَمْر", "tip": "4 or 5 counts in slow recitation." }
+      ]
+    },
+    {
+      "id": "qalqalah",
+      "title": "Qalqalah",
+      "items": [
+        { "rule": "Bounce ق ط ب ج د when they have sukūn.", "example": "يَخْلُقْ — slight bounce on qāf.", "tip": "Not a full second vowel — a echo." }
+      ]
+    },
+    {
+      "id": "lam-allah",
+      "title": "Lām in Allāh",
+      "items": [
+        { "rule": "Heavy (tafkhīm) lām after fatḥa or ḍamma: اللَّهُ", "example": "قُلِ اللَّه", "tip": "Fill mouth, deep sound." },
+        { "rule": "Light lām after kasra: بِسْمِ اللَّه", "example": "Bismillah", "tip": "Softer lām." }
+      ]
+    }
+  ]
+}

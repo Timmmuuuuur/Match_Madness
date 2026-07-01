@@ -68,10 +68,17 @@ function Block({ block }: { block: LearningBlock }) {
     case 'example':
       return (
         <figure className="learn-example">
-          <blockquote className="learn-example-fr">{block.fr}</blockquote>
+          <blockquote className="learn-example-fr" dir="auto">{block.fr}</blockquote>
           <figcaption className="learn-example-en">{block.en}</figcaption>
           {block.note && <p className="learn-example-note">{block.note}</p>}
         </figure>
+      );
+
+    case 'tip':
+      return (
+        <aside className="learn-callout learn-callout--tip">
+          <div className="learn-callout-inner" dangerouslySetInnerHTML={{ __html: block.text }} />
+        </aside>
       );
 
     default:

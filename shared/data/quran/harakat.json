@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "title": "Harakat — Vowel Marks",
+    "subtitle": "Short vowels and signs you must read to recite the Quran correctly."
+  },
+  "marks": [
+    { "id": "fatha", "symbol": "َ", "name": "Fatha", "sound": "short a", "example": "بَ", "transliteration": "ba", "english": "ba (short a)" },
+    { "id": "kasra", "symbol": "ِ", "name": "Kasra", "sound": "short i", "example": "بِ", "transliteration": "bi", "english": "bi (short i)" },
+    { "id": "damma", "symbol": "ُ", "name": "Damma", "sound": "short u", "example": "بُ", "transliteration": "bu", "english": "bu (short u)" },
+    { "id": "sukun", "symbol": "ْ", "name": "Sukun", "sound": "no vowel", "example": "بْ", "transliteration": "b", "english": "b (consonant stop)" },
+    { "id": "shadda", "symbol": "ّ", "name": "Shadda", "sound": "double consonant", "example": "بّ", "transliteration": "bb", "english": "emphatic doubling" },
+    { "id": "tanween-fath", "symbol": "ً", "name": "Tanween Fath", "sound": "an", "example": "بًا", "transliteration": "ban", "english": "ban" },
+    { "id": "tanween-kasr", "symbol": "ٍ", "name": "Tanween Kasr", "sound": "in", "example": "بٍ", "transliteration": "bin", "english": "bin" },
+    { "id": "tanween-damm", "symbol": "ٌ", "name": "Tanween Damm", "sound": "un", "example": "بٌ", "transliteration": "bun", "english": "bun" },
+    { "id": "madd", "symbol": "ا after vowel", "name": "Alif Madd", "sound": "long aa", "example": "بَا", "transliteration": "baa", "english": "baa (long a)" },
+    { "id": "hamza", "symbol": "ء", "name": "Hamza", "sound": "glottal stop", "example": "أَ", "transliteration": "a", "english": "starts many words" }
+  ],
+  "theory": [
+    { "type": "rule", "title": "Read every mark", "text": "In Quranic script, <strong>harakat are written</strong> — unlike modern Arabic newspapers. Never skip a vowel sign." },
+    { "type": "callout", "variant": "tip", "text": "Long vowels: alif (aa), waaw (uu/aw), yaa (ii/ay) — hold the vowel roughly twice as long as fatha/kasra/damma." },
+    { "type": "example", "fr": "بِسْمِ", "en": "bismi — in the name of", "note": "From Bismillah" }
+  ]
+}
