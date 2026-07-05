@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "title": "Sounds",
+    "subtitle": "Kazakh vowels, harmony, and Cyrillic letters that differ from Russian.",
+    "accent": "teal"
+  },
+  "sections": [
+    {
+      "id": "alphabet",
+      "number": 1,
+      "title": "Alphabet essentials",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kazakh Cyrillic includes special letters: <strong>ә, ғ, қ, ң, ө, ұ, ү, h, і</strong>. Vowel harmony means front vowels (е, i, ü…) take front suffixes."
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "number": 2,
+      "title": "Pronunciation tips",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Roll or tap /r/ lightly",
+            "Қ is a back k — deeper in the throat",
+            "Listen for vowel length — it can change meaning",
+            "Use 🔊 on every word in Vocab and Reading"
+          ]
+        }
+      ]
+    }
+  ]
+}

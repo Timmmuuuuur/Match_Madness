@@ -1,0 +1,286 @@
+{
+  "meta": {
+    "subtitle": "Kazakh phrases for speaking practice — tap 🔊 to hear each line."
+  },
+  "sections": [
+    {
+      "id": "basics",
+      "label": "Basics",
+      "frenchLabel": "Негіздер",
+      "description": "Essential everyday phrases.",
+      "sentences": [
+        {
+          "id": 1,
+          "french": "сәлем",
+          "english": "hello (informal)"
+        },
+        {
+          "id": 2,
+          "french": "сәлеметсіз бе",
+          "english": "hello (formal)"
+        },
+        {
+          "id": 3,
+          "french": "қайырлы таң",
+          "english": "good morning"
+        },
+        {
+          "id": 4,
+          "french": "қайырлы күн",
+          "english": "good afternoon"
+        },
+        {
+          "id": 5,
+          "french": "қайырлы кеш",
+          "english": "good evening"
+        },
+        {
+          "id": 6,
+          "french": "қайырлы түн",
+          "english": "good night"
+        },
+        {
+          "id": 7,
+          "french": "сау бол",
+          "english": "goodbye (informal)"
+        },
+        {
+          "id": 8,
+          "french": "сау болыңыз",
+          "english": "goodbye (formal)"
+        },
+        {
+          "id": 9,
+          "french": "көріскенше",
+          "english": "see you"
+        },
+        {
+          "id": 10,
+          "french": "кездескенше",
+          "english": "see you later"
+        },
+        {
+          "id": 11,
+          "french": "рахмет",
+          "english": "thank you"
+        },
+        {
+          "id": 12,
+          "french": "көп рақмет",
+          "english": "thank you very much"
+        },
+        {
+          "id": 13,
+          "french": "өтінемін",
+          "english": "please"
+        },
+        {
+          "id": 14,
+          "french": "оқасы жоқ",
+          "english": "you are welcome"
+        },
+        {
+          "id": 15,
+          "french": "кешіріңіз",
+          "english": "excuse me"
+        },
+        {
+          "id": 16,
+          "french": "кешіріңізші",
+          "english": "sorry"
+        },
+        {
+          "id": 17,
+          "french": "иә",
+          "english": "yes"
+        },
+        {
+          "id": 18,
+          "french": "жоқ",
+          "english": "no"
+        },
+        {
+          "id": 19,
+          "french": "мүмкін",
+          "english": "maybe"
+        },
+        {
+          "id": 20,
+          "french": "әрине",
+          "english": "of course"
+        },
+        {
+          "id": 21,
+          "french": "жарайды",
+          "english": "okay"
+        },
+        {
+          "id": 22,
+          "french": "түсінемін",
+          "english": "I understand"
+        },
+        {
+          "id": 23,
+          "french": "түсінбеймін",
+          "english": "I do not understand"
+        },
+        {
+          "id": 24,
+          "french": "қайталаңызшы",
+          "english": "please repeat"
+        },
+        {
+          "id": 25,
+          "french": "баяу сөйлеңізші",
+          "english": "please speak slowly"
+        }
+      ]
+    },
+    {
+      "id": "questions",
+      "label": "Questions",
+      "frenchLabel": "Сұрақтар",
+      "description": "Asking for help, directions, and prices.",
+      "sentences": [
+        {
+          "id": 1,
+          "french": "Бұл не?",
+          "english": "What is this?"
+        },
+        {
+          "id": 2,
+          "french": "Сіз қайда?",
+          "english": "Where are you?"
+        },
+        {
+          "id": 3,
+          "french": "Қашан?",
+          "english": "When?"
+        },
+        {
+          "id": 4,
+          "french": "Неге?",
+          "english": "Why?"
+        },
+        {
+          "id": 5,
+          "french": "Кім?",
+          "english": "Who?"
+        },
+        {
+          "id": 6,
+          "french": "Қалай?",
+          "english": "How?"
+        }
+      ]
+    },
+    {
+      "id": "social",
+      "label": "Social",
+      "frenchLabel": "Қарым-қатынас",
+      "description": "Friendly conversation phrases.",
+      "sentences": [
+        {
+          "id": 1,
+          "french": "қазақша сөйлейсіз бе",
+          "english": "do you speak Kazakh"
+        },
+        {
+          "id": 2,
+          "french": "орысша сөйлейсіз бе",
+          "english": "do you speak Russian"
+        },
+        {
+          "id": 3,
+          "french": "ағылшынша сөйлейсіз бе",
+          "english": "do you speak English"
+        },
+        {
+          "id": 4,
+          "french": "менің атым",
+          "english": "my name is"
+        },
+        {
+          "id": 5,
+          "french": "қалыңыз қалай",
+          "english": "how are you"
+        },
+        {
+          "id": 6,
+          "french": "жақсымын",
+          "english": "I am fine"
+        },
+        {
+          "id": 7,
+          "french": "танысқаныма қуаныштымын",
+          "english": "nice to meet you"
+        },
+        {
+          "id": 8,
+          "french": "қайдан келдіңіз",
+          "english": "where are you from"
+        },
+        {
+          "id": 9,
+          "french": "мен түсінбедім",
+          "english": "I did not understand"
+        },
+        {
+          "id": 10,
+          "french": "тағы бір рет айтыңызшы",
+          "english": "say it one more time please"
+        },
+        {
+          "id": 11,
+          "french": "көмектесіңізші",
+          "english": "please help"
+        },
+        {
+          "id": 12,
+          "french": "маған көмек керек",
+          "english": "I need help"
+        },
+        {
+          "id": 13,
+          "french": "бәрі жақсы",
+          "english": "everything is good"
+        },
+        {
+          "id": 14,
+          "french": "ештеңе етпейді",
+          "english": "it is okay / no problem"
+        },
+        {
+          "id": 15,
+          "french": "сәттілік",
+          "english": "good luck"
+        },
+        {
+          "id": 16,
+          "french": "құтты болсын",
+          "english": "congratulations"
+        },
+        {
+          "id": 17,
+          "french": "ас болсын",
+          "english": "enjoy your meal"
+        },
+        {
+          "id": 18,
+          "french": "аман болыңыз",
+          "english": "stay well"
+        },
+        {
+          "id": 19,
+          "french": "ертең көріскенше",
+          "english": "see you tomorrow"
+        },
+        {
+          "id": 20,
+          "french": "жолыңыз болсын",
+          "english": "have a good trip"
+        }
+      ]
+    }
+  ]
+}

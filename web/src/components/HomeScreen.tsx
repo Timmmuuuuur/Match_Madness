@@ -1,6 +1,6 @@
 import type { Direction, WordPoolId } from '@shared/types';
-import { POOL_OPTIONS } from '@shared/wordPools';
 import { loadBestScore } from '../lib/storage';
+import { useTrack } from '../context/TrackContext';
 
 type GameMode = 'words' | 'sentences';
 
@@ -23,15 +23,19 @@ export function HomeScreen({
   onModeChange,
   onStart,
 }: HomeScreenProps) {
+  const track = useTrack();
+  const { enPrimary, primaryEn } = track.directions;
+  const lang = track.primaryLangName;
   const bestKey = mode === 'sentences' ? `sent-${direction}` : poolId;
   const best = loadBestScore(bestKey);
+  const sentenceCount = track.sentences.meta.size;
 
   return (
     <div className="screen home-screen">
       <header className="hero">
         <div className="logo-badge">MM</div>
         <h1>Match Madness</h1>
-        <p className="subtitle">English ↔ French — match, learn, look up</p>
+        <p className="subtitle">{track.matchSubtitle}</p>
       </header>
 
       <section className="card">
@@ -46,7 +50,7 @@ export function HomeScreen({
         <section className="card">
           <h2>Word pool</h2>
           <div className="option-grid pool-grid">
-            {POOL_OPTIONS.map((opt) => (
+            {track.poolOptions.map((opt) => (
               <button
                 key={opt.id}
                 type="button"
@@ -64,7 +68,9 @@ export function HomeScreen({
       {mode === 'sentences' && (
         <section className="card">
           <h2>Sentence pool</h2>
-          <p className="hint" style={{ margin: 0 }}>200 common phrases — beginner to intermediate</p>
+          <p className="hint" style={{ margin: 0 }}>
+            {sentenceCount} common phrases — beginner to intermediate
+          </p>
         </section>
       )}
 
@@ -73,23 +79,23 @@ export function HomeScreen({
         <div className="toggle-row">
           <button
             type="button"
-            className={`toggle-btn ${direction === 'en-fr' ? 'active' : ''}`}
-            onClick={() => onDirectionChange('en-fr')}
+            className={`toggle-btn ${direction === enPrimary ? 'active' : ''}`}
+            onClick={() => onDirectionChange(enPrimary)}
           >
-            English → French
+            {track.enPrimaryLabel}
           </button>
           <button
             type="button"
-            className={`toggle-btn ${direction === 'fr-en' ? 'active' : ''}`}
-            onClick={() => onDirectionChange('fr-en')}
+            className={`toggle-btn ${direction === primaryEn ? 'active' : ''}`}
+            onClick={() => onDirectionChange(primaryEn)}
           >
-            French → English
+            {track.primaryEnLabel}
           </button>
         </div>
         <p className="hint">
-          {direction === 'en-fr'
-            ? 'English tiles appear on the left, French on the right.'
-            : 'French tiles appear on the left, English on the right.'}
+          {direction === enPrimary
+            ? `English tiles appear on the left, ${lang} on the right.`
+            : `${lang} tiles appear on the left, English on the right.`}
         </p>
       </section>
 

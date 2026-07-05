@@ -1,7 +1,12 @@
 import type { Direction } from '@shared/types';
 
 export function isEnglishFirst(direction: Direction): boolean {
-  return direction === 'en-fr' || direction === 'en-ar';
+  return (
+    direction === 'en-fr'
+    || direction === 'en-ar'
+    || direction === 'en-kk'
+    || direction === 'en-ru'
+  );
 }
 
 export function isArabicDirection(direction: Direction): boolean {
@@ -14,18 +19,28 @@ export function dirLabel(direction: Direction): string {
     'fr-en': 'FR → EN',
     'en-ar': 'EN → AR',
     'ar-en': 'AR → EN',
+    'en-kk': 'EN → KK',
+    'kk-en': 'KK → EN',
+    'en-ru': 'EN → RU',
+    'ru-en': 'RU → EN',
   };
   return labels[direction];
 }
 
 export function primaryColumnLabel(direction: Direction): string {
   if (isEnglishFirst(direction)) return 'English';
-  return isArabicDirection(direction) ? 'Arabic' : 'French';
+  if (isArabicDirection(direction)) return 'Arabic';
+  if (direction === 'kk-en') return 'Kazakh';
+  if (direction === 'ru-en') return 'Russian';
+  return 'French';
 }
 
 export function secondaryColumnLabel(direction: Direction): string {
   if (isEnglishFirst(direction)) {
-    return isArabicDirection(direction) ? 'Arabic' : 'French';
+    if (isArabicDirection(direction)) return 'Arabic';
+    if (direction === 'en-kk') return 'Kazakh';
+    if (direction === 'en-ru') return 'Russian';
+    return 'French';
   }
   return 'English';
 }

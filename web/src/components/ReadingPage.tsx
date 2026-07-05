@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
-import readingData from '@shared/data/reading-articles.json';
 import { SpeakButton } from './SpeakButton';
+import { ReadingFrenchText } from './ReadingFrenchText';
+import { useTrack } from '../context/TrackContext';
 
 interface Paragraph {
   french: string;
@@ -18,30 +19,32 @@ interface Article {
   vocab: Array<{ fr: string; en: string }>;
 }
 
-const ARTICLES = readingData.articles as Article[];
-
 export function ReadingPage() {
-  const [activeId, setActiveId] = useState(ARTICLES[0]?.id ?? 1);
+  const track = useTrack();
+  const data = track.reading;
+  const articles = data.articles as Article[];
+  const [activeId, setActiveId] = useState(articles[0]?.id ?? 1);
   const [showEnglish, setShowEnglish] = useState(true);
 
   const article = useMemo(
-    () => ARTICLES.find((a) => a.id === activeId) ?? ARTICLES[0],
-    [activeId],
+    () => articles.find((a) => a.id === activeId) ?? articles[0],
+    [articles, activeId],
   );
 
   if (!article) return null;
 
-  const idx = ARTICLES.findIndex((a) => a.id === activeId);
+  const idx = articles.findIndex((a) => a.id === activeId);
+  const langLabel = track.id === 'french' ? 'Français' : track.label;
 
   return (
     <div className="screen reading-screen">
       <header className="reading-hero">
         <h1>Reading</h1>
-        <p className="subtitle">{readingData.meta.subtitle}</p>
+        <p className="subtitle">{data.meta.subtitle}</p>
       </header>
 
       <div className="reading-picker">
-        {ARTICLES.map((a) => (
+        {articles.map((a) => (
           <button
             key={a.id}
             type="button"
@@ -57,7 +60,7 @@ export function ReadingPage() {
 
       <article className="reading-article card">
         <header className="reading-article-head">
-          <span className="reading-article-label">Article {article.id} of {ARTICLES.length}</span>
+          <span className="reading-article-label">Article {article.id} of {articles.length}</span>
           <h2>{article.title}</h2>
           <p className="reading-subtitle">{article.subtitle}</p>
           <div className="reading-tags">
@@ -68,12 +71,13 @@ export function ReadingPage() {
         </header>
 
         <div className="reading-toolbar">
+          <p className="reading-hint">Hover highlighted words for 🔊 — or tap on mobile.</p>
           <button
             type="button"
             className={`toggle-btn${showEnglish ? ' active' : ''}`}
             onClick={() => setShowEnglish((v) => !v)}
           >
-            {showEnglish ? 'Side-by-side ON' : 'French only'}
+            {showEnglish ? 'Side-by-side ON' : `${langLabel} only`}
           </button>
         </div>
 
@@ -81,8 +85,8 @@ export function ReadingPage() {
           {article.paragraphs.map((p, i) => (
             <div key={i} className="reading-para-row">
               <div className="reading-col reading-col-fr">
-                <span className="reading-lang-label">Français</span>
-                <p>{p.french}</p>
+                <span className="reading-lang-label">{langLabel}</span>
+                <ReadingFrenchText text={p.french} vocab={article.vocab} lang={track.ttsLang} />
               </div>
               {showEnglish && (
                 <div className="reading-col reading-col-en">
@@ -102,7 +106,7 @@ export function ReadingPage() {
                 <li key={v.fr} className="reading-vocab-item">
                   <span className="reading-vocab-fr">{v.fr}</span>
                   <span className="reading-vocab-en">{v.en}</span>
-                  <SpeakButton text={v.fr} compact />
+                  <SpeakButton text={v.fr} lang={track.ttsLang} compact />
                 </li>
               ))}
             </ul>
@@ -114,15 +118,15 @@ export function ReadingPage() {
             type="button"
             className="secondary-btn"
             disabled={idx <= 0}
-            onClick={() => setActiveId(ARTICLES[idx - 1].id)}
+            onClick={() => setActiveId(articles[idx - 1].id)}
           >
             ← Previous
           </button>
           <button
             type="button"
             className="primary-btn"
-            disabled={idx >= ARTICLES.length - 1}
-            onClick={() => setActiveId(ARTICLES[idx + 1].id)}
+            disabled={idx >= articles.length - 1}
+            onClick={() => setActiveId(articles[idx + 1].id)}
           >
             Next →
           </button>

@@ -4,10 +4,13 @@ export type WordPoolId = '500' | '500-2' | '1000' | '1500' | '2000';
 /** @deprecated Use WordPoolId */
 export type PoolSize = 500 | 1000 | 1500 | 2000;
 
-export type Direction = 'en-fr' | 'fr-en' | 'en-ar' | 'ar-en';
+export type Direction = 'en-fr' | 'fr-en' | 'en-ar' | 'ar-en' | 'en-kk' | 'kk-en' | 'en-ru' | 'ru-en';
 
 /** Top-level learning track. */
-export type LearningTrack = 'french' | 'quran';
+export type LearningTrack = 'french' | 'quran' | 'kazakh' | 'russian';
+
+/** Browser TTS language codes used by SpeakButton. */
+export type SpeechLang = 'fr' | 'ar' | 'kk' | 'ru';
 
 export interface WordPair {
   id: number;

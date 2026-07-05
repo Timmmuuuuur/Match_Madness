@@ -1,0 +1,2655 @@
+{
+  "meta": {
+    "size": 529,
+    "targetSize": 1000,
+    "languagePair": "en-kk",
+    "source": "Curated Kazakh frequency list"
+  },
+  "words": [
+    {
+      "id": 1,
+      "french": "сәлем",
+      "english": "hello (informal)"
+    },
+    {
+      "id": 2,
+      "french": "сәлеметсіз бе",
+      "english": "hello (formal)"
+    },
+    {
+      "id": 3,
+      "french": "қайырлы таң",
+      "english": "good morning"
+    },
+    {
+      "id": 4,
+      "french": "қайырлы күн",
+      "english": "good afternoon"
+    },
+    {
+      "id": 5,
+      "french": "қайырлы кеш",
+      "english": "good evening"
+    },
+    {
+      "id": 6,
+      "french": "қайырлы түн",
+      "english": "good night"
+    },
+    {
+      "id": 7,
+      "french": "сау бол",
+      "english": "goodbye (informal)"
+    },
+    {
+      "id": 8,
+      "french": "сау болыңыз",
+      "english": "goodbye (formal)"
+    },
+    {
+      "id": 9,
+      "french": "көріскенше",
+      "english": "see you"
+    },
+    {
+      "id": 10,
+      "french": "кездескенше",
+      "english": "see you later"
+    },
+    {
+      "id": 11,
+      "french": "рахмет",
+      "english": "thank you"
+    },
+    {
+      "id": 12,
+      "french": "көп рақмет",
+      "english": "thank you very much"
+    },
+    {
+      "id": 13,
+      "french": "өтінемін",
+      "english": "please"
+    },
+    {
+      "id": 14,
+      "french": "оқасы жоқ",
+      "english": "you are welcome"
+    },
+    {
+      "id": 15,
+      "french": "кешіріңіз",
+      "english": "excuse me"
+    },
+    {
+      "id": 16,
+      "french": "кешіріңізші",
+      "english": "sorry"
+    },
+    {
+      "id": 17,
+      "french": "иә",
+      "english": "yes"
+    },
+    {
+      "id": 18,
+      "french": "жоқ",
+      "english": "no"
+    },
+    {
+      "id": 19,
+      "french": "мүмкін",
+      "english": "maybe"
+    },
+    {
+      "id": 20,
+      "french": "әрине",
+      "english": "of course"
+    },
+    {
+      "id": 21,
+      "french": "жарайды",
+      "english": "okay"
+    },
+    {
+      "id": 22,
+      "french": "түсінемін",
+      "english": "I understand"
+    },
+    {
+      "id": 23,
+      "french": "түсінбеймін",
+      "english": "I do not understand"
+    },
+    {
+      "id": 24,
+      "french": "қайталаңызшы",
+      "english": "please repeat"
+    },
+    {
+      "id": 25,
+      "french": "баяу сөйлеңізші",
+      "english": "please speak slowly"
+    },
+    {
+      "id": 26,
+      "french": "қазақша сөйлейсіз бе",
+      "english": "do you speak Kazakh"
+    },
+    {
+      "id": 27,
+      "french": "орысша сөйлейсіз бе",
+      "english": "do you speak Russian"
+    },
+    {
+      "id": 28,
+      "french": "ағылшынша сөйлейсіз бе",
+      "english": "do you speak English"
+    },
+    {
+      "id": 29,
+      "french": "менің атым",
+      "english": "my name is"
+    },
+    {
+      "id": 30,
+      "french": "қалыңыз қалай",
+      "english": "how are you"
+    },
+    {
+      "id": 31,
+      "french": "жақсымын",
+      "english": "I am fine"
+    },
+    {
+      "id": 32,
+      "french": "танысқаныма қуаныштымын",
+      "english": "nice to meet you"
+    },
+    {
+      "id": 33,
+      "french": "қайдан келдіңіз",
+      "english": "where are you from"
+    },
+    {
+      "id": 34,
+      "french": "мен түсінбедім",
+      "english": "I did not understand"
+    },
+    {
+      "id": 35,
+      "french": "тағы бір рет айтыңызшы",
+      "english": "say it one more time please"
+    },
+    {
+      "id": 36,
+      "french": "көмектесіңізші",
+      "english": "please help"
+    },
+    {
+      "id": 37,
+      "french": "маған көмек керек",
+      "english": "I need help"
+    },
+    {
+      "id": 38,
+      "french": "бәрі жақсы",
+      "english": "everything is good"
+    },
+    {
+      "id": 39,
+      "french": "ештеңе етпейді",
+      "english": "it is okay / no problem"
+    },
+    {
+      "id": 40,
+      "french": "сәттілік",
+      "english": "good luck"
+    },
+    {
+      "id": 41,
+      "french": "құтты болсын",
+      "english": "congratulations"
+    },
+    {
+      "id": 42,
+      "french": "ас болсын",
+      "english": "enjoy your meal"
+    },
+    {
+      "id": 43,
+      "french": "аман болыңыз",
+      "english": "stay well"
+    },
+    {
+      "id": 44,
+      "french": "ертең көріскенше",
+      "english": "see you tomorrow"
+    },
+    {
+      "id": 45,
+      "french": "жолыңыз болсын",
+      "english": "have a good trip"
+    },
+    {
+      "id": 46,
+      "french": "жауап беріңізші",
+      "english": "please answer"
+    },
+    {
+      "id": 47,
+      "french": "тыңдап тұрмын",
+      "english": "I am listening"
+    },
+    {
+      "id": 48,
+      "french": "мен келісемін",
+      "english": "I agree"
+    },
+    {
+      "id": 49,
+      "french": "мен келіспеймін",
+      "english": "I disagree"
+    },
+    {
+      "id": 50,
+      "french": "маған ұнайды",
+      "english": "I like it"
+    },
+    {
+      "id": 51,
+      "french": "маған ұнамайды",
+      "english": "I do not like it"
+    },
+    {
+      "id": 52,
+      "french": "өте жақсы",
+      "english": "very good"
+    },
+    {
+      "id": 53,
+      "french": "өте жаман",
+      "english": "very bad"
+    },
+    {
+      "id": 54,
+      "french": "білмеймін",
+      "english": "I do not know"
+    },
+    {
+      "id": 55,
+      "french": "мәселе жоқ",
+      "english": "no problem"
+    },
+    {
+      "id": 56,
+      "french": "аздап",
+      "english": "a little"
+    },
+    {
+      "id": 57,
+      "french": "дәл қазір",
+      "english": "right now"
+    },
+    {
+      "id": 58,
+      "french": "кейінірек",
+      "english": "later"
+    },
+    {
+      "id": 59,
+      "french": "бір минут",
+      "english": "one minute"
+    },
+    {
+      "id": 60,
+      "french": "асықпаңыз",
+      "english": "do not hurry"
+    },
+    {
+      "id": 61,
+      "french": "рақмет сізге",
+      "english": "thank you to you"
+    },
+    {
+      "id": 62,
+      "french": "отбасы",
+      "english": "family"
+    },
+    {
+      "id": 63,
+      "french": "ата-ана",
+      "english": "parents"
+    },
+    {
+      "id": 64,
+      "french": "ана",
+      "english": "mother"
+    },
+    {
+      "id": 65,
+      "french": "әке",
+      "english": "father"
+    },
+    {
+      "id": 66,
+      "french": "ата",
+      "english": "grandfather"
+    },
+    {
+      "id": 67,
+      "french": "әже",
+      "english": "grandmother"
+    },
+    {
+      "id": 68,
+      "french": "аға",
+      "english": "older brother"
+    },
+    {
+      "id": 69,
+      "french": "әпке",
+      "english": "older sister"
+    },
+    {
+      "id": 70,
+      "french": "іні",
+      "english": "younger brother"
+    },
+    {
+      "id": 71,
+      "french": "қарындас",
+      "english": "younger sister (for male speaker)"
+    },
+    {
+      "id": 72,
+      "french": "сіңлі",
+      "english": "younger sister (for female speaker)"
+    },
+    {
+      "id": 73,
+      "french": "ұл",
+      "english": "son"
+    },
+    {
+      "id": 74,
+      "french": "қыз",
+      "english": "daughter"
+    },
+    {
+      "id": 75,
+      "french": "бала",
+      "english": "child"
+    },
+    {
+      "id": 76,
+      "french": "нәресте",
+      "english": "baby"
+    },
+    {
+      "id": 77,
+      "french": "немере",
+      "english": "grandchild"
+    },
+    {
+      "id": 78,
+      "french": "күйеу",
+      "english": "husband"
+    },
+    {
+      "id": 79,
+      "french": "әйел",
+      "english": "wife"
+    },
+    {
+      "id": 80,
+      "french": "жұбай",
+      "english": "spouse"
+    },
+    {
+      "id": 81,
+      "french": "ағайын",
+      "english": "relatives"
+    },
+    {
+      "id": 82,
+      "french": "туыс",
+      "english": "relative"
+    },
+    {
+      "id": 83,
+      "french": "дос",
+      "english": "friend"
+    },
+    {
+      "id": 84,
+      "french": "құрбы",
+      "english": "female friend"
+    },
+    {
+      "id": 85,
+      "french": "көрші",
+      "english": "neighbor"
+    },
+    {
+      "id": 86,
+      "french": "қонақ",
+      "english": "guest"
+    },
+    {
+      "id": 87,
+      "french": "ұстаз",
+      "english": "teacher"
+    },
+    {
+      "id": 88,
+      "french": "оқушы",
+      "english": "student (school)"
+    },
+    {
+      "id": 89,
+      "french": "студент",
+      "english": "student (college)"
+    },
+    {
+      "id": 90,
+      "french": "дәрігер",
+      "english": "doctor"
+    },
+    {
+      "id": 91,
+      "french": "мұғалім",
+      "english": "teacher"
+    },
+    {
+      "id": 92,
+      "french": "инженер",
+      "english": "engineer"
+    },
+    {
+      "id": 93,
+      "french": "сатушы",
+      "english": "seller"
+    },
+    {
+      "id": 94,
+      "french": "жүргізуші",
+      "english": "driver"
+    },
+    {
+      "id": 95,
+      "french": "аспаз",
+      "english": "cook"
+    },
+    {
+      "id": 96,
+      "french": "полиция қызметкері",
+      "english": "police officer"
+    },
+    {
+      "id": 97,
+      "french": "клиент",
+      "english": "client"
+    },
+    {
+      "id": 98,
+      "french": "әріптес",
+      "english": "colleague"
+    },
+    {
+      "id": 99,
+      "french": "бастық",
+      "english": "boss"
+    },
+    {
+      "id": 100,
+      "french": "қызметкер",
+      "english": "employee"
+    },
+    {
+      "id": 101,
+      "french": "команда",
+      "english": "team"
+    },
+    {
+      "id": 102,
+      "french": "нөл",
+      "english": "zero"
+    },
+    {
+      "id": 103,
+      "french": "бір",
+      "english": "one"
+    },
+    {
+      "id": 104,
+      "french": "екі",
+      "english": "two"
+    },
+    {
+      "id": 105,
+      "french": "үш",
+      "english": "three"
+    },
+    {
+      "id": 106,
+      "french": "төрт",
+      "english": "four"
+    },
+    {
+      "id": 107,
+      "french": "бес",
+      "english": "five"
+    },
+    {
+      "id": 108,
+      "french": "алты",
+      "english": "six"
+    },
+    {
+      "id": 109,
+      "french": "жеті",
+      "english": "seven"
+    },
+    {
+      "id": 110,
+      "french": "сегіз",
+      "english": "eight"
+    },
+    {
+      "id": 111,
+      "french": "тоғыз",
+      "english": "nine"
+    },
+    {
+      "id": 112,
+      "french": "он",
+      "english": "ten"
+    },
+    {
+      "id": 113,
+      "french": "он бір",
+      "english": "eleven"
+    },
+    {
+      "id": 114,
+      "french": "он екі",
+      "english": "twelve"
+    },
+    {
+      "id": 115,
+      "french": "он үш",
+      "english": "thirteen"
+    },
+    {
+      "id": 116,
+      "french": "он төрт",
+      "english": "fourteen"
+    },
+    {
+      "id": 117,
+      "french": "он бес",
+      "english": "fifteen"
+    },
+    {
+      "id": 118,
+      "french": "он алты",
+      "english": "sixteen"
+    },
+    {
+      "id": 119,
+      "french": "он жеті",
+      "english": "seventeen"
+    },
+    {
+      "id": 120,
+      "french": "он сегіз",
+      "english": "eighteen"
+    },
+    {
+      "id": 121,
+      "french": "он тоғыз",
+      "english": "nineteen"
+    },
+    {
+      "id": 122,
+      "french": "жиырма",
+      "english": "twenty"
+    },
+    {
+      "id": 123,
+      "french": "жиырма бір",
+      "english": "twenty one"
+    },
+    {
+      "id": 124,
+      "french": "жиырма екі",
+      "english": "twenty two"
+    },
+    {
+      "id": 125,
+      "french": "жиырма үш",
+      "english": "twenty three"
+    },
+    {
+      "id": 126,
+      "french": "жиырма төрт",
+      "english": "twenty four"
+    },
+    {
+      "id": 127,
+      "french": "жиырма бес",
+      "english": "twenty five"
+    },
+    {
+      "id": 128,
+      "french": "жиырма алты",
+      "english": "twenty six"
+    },
+    {
+      "id": 129,
+      "french": "жиырма жеті",
+      "english": "twenty seven"
+    },
+    {
+      "id": 130,
+      "french": "жиырма сегіз",
+      "english": "twenty eight"
+    },
+    {
+      "id": 131,
+      "french": "жиырма тоғыз",
+      "english": "twenty nine"
+    },
+    {
+      "id": 132,
+      "french": "отыз",
+      "english": "thirty"
+    },
+    {
+      "id": 133,
+      "french": "отыз бір",
+      "english": "thirty one"
+    },
+    {
+      "id": 134,
+      "french": "отыз екі",
+      "english": "thirty two"
+    },
+    {
+      "id": 135,
+      "french": "отыз үш",
+      "english": "thirty three"
+    },
+    {
+      "id": 136,
+      "french": "отыз төрт",
+      "english": "thirty four"
+    },
+    {
+      "id": 137,
+      "french": "отыз бес",
+      "english": "thirty five"
+    },
+    {
+      "id": 138,
+      "french": "отыз алты",
+      "english": "thirty six"
+    },
+    {
+      "id": 139,
+      "french": "отыз жеті",
+      "english": "thirty seven"
+    },
+    {
+      "id": 140,
+      "french": "отыз сегіз",
+      "english": "thirty eight"
+    },
+    {
+      "id": 141,
+      "french": "отыз тоғыз",
+      "english": "thirty nine"
+    },
+    {
+      "id": 142,
+      "french": "қырық",
+      "english": "forty"
+    },
+    {
+      "id": 143,
+      "french": "қырық бір",
+      "english": "forty one"
+    },
+    {
+      "id": 144,
+      "french": "қырық екі",
+      "english": "forty two"
+    },
+    {
+      "id": 145,
+      "french": "қырық үш",
+      "english": "forty three"
+    },
+    {
+      "id": 146,
+      "french": "қырық төрт",
+      "english": "forty four"
+    },
+    {
+      "id": 147,
+      "french": "қырық бес",
+      "english": "forty five"
+    },
+    {
+      "id": 148,
+      "french": "қырық алты",
+      "english": "forty six"
+    },
+    {
+      "id": 149,
+      "french": "қырық жеті",
+      "english": "forty seven"
+    },
+    {
+      "id": 150,
+      "french": "қырық сегіз",
+      "english": "forty eight"
+    },
+    {
+      "id": 151,
+      "french": "қырық тоғыз",
+      "english": "forty nine"
+    },
+    {
+      "id": 152,
+      "french": "елу",
+      "english": "fifty"
+    },
+    {
+      "id": 153,
+      "french": "алпыс",
+      "english": "sixty"
+    },
+    {
+      "id": 154,
+      "french": "жетпіс",
+      "english": "seventy"
+    },
+    {
+      "id": 155,
+      "french": "сексен",
+      "english": "eighty"
+    },
+    {
+      "id": 156,
+      "french": "тоқсан",
+      "english": "ninety"
+    },
+    {
+      "id": 157,
+      "french": "жүз",
+      "english": "one hundred"
+    },
+    {
+      "id": 158,
+      "french": "мың",
+      "english": "thousand"
+    },
+    {
+      "id": 159,
+      "french": "миллион",
+      "english": "million"
+    },
+    {
+      "id": 160,
+      "french": "бірінші",
+      "english": "first"
+    },
+    {
+      "id": 161,
+      "french": "екінші",
+      "english": "second"
+    },
+    {
+      "id": 162,
+      "french": "үшінші",
+      "english": "third"
+    },
+    {
+      "id": 163,
+      "french": "төртінші",
+      "english": "fourth"
+    },
+    {
+      "id": 164,
+      "french": "бесінші",
+      "english": "fifth"
+    },
+    {
+      "id": 165,
+      "french": "ас",
+      "english": "meal / food"
+    },
+    {
+      "id": 166,
+      "french": "тағам",
+      "english": "dish / food"
+    },
+    {
+      "id": 167,
+      "french": "нан",
+      "english": "bread"
+    },
+    {
+      "id": 168,
+      "french": "су",
+      "english": "water"
+    },
+    {
+      "id": 169,
+      "french": "шай",
+      "english": "tea"
+    },
+    {
+      "id": 170,
+      "french": "кофе",
+      "english": "coffee"
+    },
+    {
+      "id": 171,
+      "french": "сүт",
+      "english": "milk"
+    },
+    {
+      "id": 172,
+      "french": "айран",
+      "english": "kefir drink"
+    },
+    {
+      "id": 173,
+      "french": "шырын",
+      "english": "juice"
+    },
+    {
+      "id": 174,
+      "french": "қант",
+      "english": "sugar"
+    },
+    {
+      "id": 175,
+      "french": "тұз",
+      "english": "salt"
+    },
+    {
+      "id": 176,
+      "french": "бұрыш",
+      "english": "pepper"
+    },
+    {
+      "id": 177,
+      "french": "ет",
+      "english": "meat"
+    },
+    {
+      "id": 178,
+      "french": "сиыр еті",
+      "english": "beef"
+    },
+    {
+      "id": 179,
+      "french": "қой еті",
+      "english": "lamb"
+    },
+    {
+      "id": 180,
+      "french": "тауық еті",
+      "english": "chicken meat"
+    },
+    {
+      "id": 181,
+      "french": "балық",
+      "english": "fish"
+    },
+    {
+      "id": 182,
+      "french": "жұмыртқа",
+      "english": "egg"
+    },
+    {
+      "id": 183,
+      "french": "күріш",
+      "english": "rice"
+    },
+    {
+      "id": 184,
+      "french": "кеспе",
+      "english": "noodles"
+    },
+    {
+      "id": 185,
+      "french": "ботқа",
+      "english": "porridge"
+    },
+    {
+      "id": 186,
+      "french": "сорпа",
+      "english": "soup"
+    },
+    {
+      "id": 187,
+      "french": "салат",
+      "english": "salad"
+    },
+    {
+      "id": 188,
+      "french": "картоп",
+      "english": "potato"
+    },
+    {
+      "id": 189,
+      "french": "сәбіз",
+      "english": "carrot"
+    },
+    {
+      "id": 190,
+      "french": "пияз",
+      "english": "onion"
+    },
+    {
+      "id": 191,
+      "french": "сарымсақ",
+      "english": "garlic"
+    },
+    {
+      "id": 192,
+      "french": "қызанақ",
+      "english": "tomato"
+    },
+    {
+      "id": 193,
+      "french": "қияр",
+      "english": "cucumber"
+    },
+    {
+      "id": 194,
+      "french": "орамжапырақ",
+      "english": "cabbage"
+    },
+    {
+      "id": 195,
+      "french": "бұрыш көкөнісі",
+      "english": "bell pepper"
+    },
+    {
+      "id": 196,
+      "french": "алма",
+      "english": "apple"
+    },
+    {
+      "id": 197,
+      "french": "алмұрт",
+      "english": "pear"
+    },
+    {
+      "id": 198,
+      "french": "банан",
+      "english": "banana"
+    },
+    {
+      "id": 199,
+      "french": "апельсин",
+      "english": "orange"
+    },
+    {
+      "id": 200,
+      "french": "лимон",
+      "english": "lemon"
+    },
+    {
+      "id": 201,
+      "french": "жүзім",
+      "english": "grape"
+    },
+    {
+      "id": 202,
+      "french": "қарбыз",
+      "english": "watermelon"
+    },
+    {
+      "id": 203,
+      "french": "қауын",
+      "english": "melon"
+    },
+    {
+      "id": 204,
+      "french": "құлпынай",
+      "english": "strawberry"
+    },
+    {
+      "id": 205,
+      "french": "шие",
+      "english": "cherry"
+    },
+    {
+      "id": 206,
+      "french": "өрік",
+      "english": "apricot"
+    },
+    {
+      "id": 207,
+      "french": "шабдалы",
+      "english": "peach"
+    },
+    {
+      "id": 208,
+      "french": "жаңғақ",
+      "english": "nut"
+    },
+    {
+      "id": 209,
+      "french": "ірімшік",
+      "english": "cheese"
+    },
+    {
+      "id": 210,
+      "french": "май",
+      "english": "butter / oil"
+    },
+    {
+      "id": 211,
+      "french": "бал",
+      "english": "honey"
+    },
+    {
+      "id": 212,
+      "french": "тәтті",
+      "english": "sweet (dessert)"
+    },
+    {
+      "id": 213,
+      "french": "балмұздақ",
+      "english": "ice cream"
+    },
+    {
+      "id": 214,
+      "french": "бәліш",
+      "english": "pie"
+    },
+    {
+      "id": 215,
+      "french": "бауырсақ",
+      "english": "fried dough"
+    },
+    {
+      "id": 216,
+      "french": "бешбармақ",
+      "english": "beshbarmak"
+    },
+    {
+      "id": 217,
+      "french": "палау",
+      "english": "pilaf"
+    },
+    {
+      "id": 218,
+      "french": "дәмді",
+      "english": "delicious"
+    },
+    {
+      "id": 219,
+      "french": "ащы",
+      "english": "spicy"
+    },
+    {
+      "id": 220,
+      "french": "тойдым",
+      "english": "I am full"
+    },
+    {
+      "id": 221,
+      "french": "қарным ашты",
+      "english": "I am hungry"
+    },
+    {
+      "id": 222,
+      "french": "шөлдедім",
+      "english": "I am thirsty"
+    },
+    {
+      "id": 223,
+      "french": "шот әкеліңізші",
+      "english": "please bring the bill"
+    },
+    {
+      "id": 224,
+      "french": "сапар",
+      "english": "trip"
+    },
+    {
+      "id": 225,
+      "french": "саяхат",
+      "english": "travel"
+    },
+    {
+      "id": 226,
+      "french": "жол",
+      "english": "road / way"
+    },
+    {
+      "id": 227,
+      "french": "көше",
+      "english": "street"
+    },
+    {
+      "id": 228,
+      "french": "даңғыл",
+      "english": "avenue"
+    },
+    {
+      "id": 229,
+      "french": "бұрылыс",
+      "english": "turn"
+    },
+    {
+      "id": 230,
+      "french": "бағыт",
+      "english": "direction"
+    },
+    {
+      "id": 231,
+      "french": "мекенжай",
+      "english": "address"
+    },
+    {
+      "id": 232,
+      "french": "қала",
+      "english": "city"
+    },
+    {
+      "id": 233,
+      "french": "ауыл",
+      "english": "village"
+    },
+    {
+      "id": 234,
+      "french": "ел",
+      "english": "country"
+    },
+    {
+      "id": 235,
+      "french": "орталық",
+      "english": "center"
+    },
+    {
+      "id": 236,
+      "french": "әуежай",
+      "english": "airport"
+    },
+    {
+      "id": 237,
+      "french": "вокзал",
+      "english": "station"
+    },
+    {
+      "id": 238,
+      "french": "аялдама",
+      "english": "stop (bus stop)"
+    },
+    {
+      "id": 239,
+      "french": "билет",
+      "english": "ticket"
+    },
+    {
+      "id": 240,
+      "french": "ұшақ",
+      "english": "airplane"
+    },
+    {
+      "id": 241,
+      "french": "пойыз",
+      "english": "train"
+    },
+    {
+      "id": 242,
+      "french": "автобус",
+      "english": "bus"
+    },
+    {
+      "id": 243,
+      "french": "такси",
+      "english": "taxi"
+    },
+    {
+      "id": 244,
+      "french": "метро",
+      "english": "metro"
+    },
+    {
+      "id": 245,
+      "french": "көлік",
+      "english": "transport / vehicle"
+    },
+    {
+      "id": 246,
+      "french": "машина",
+      "english": "car"
+    },
+    {
+      "id": 247,
+      "french": "жүргізу куәлігі",
+      "english": "driver license"
+    },
+    {
+      "id": 248,
+      "french": "қонақүй",
+      "english": "hotel"
+    },
+    {
+      "id": 249,
+      "french": "бөлме",
+      "english": "room"
+    },
+    {
+      "id": 250,
+      "french": "кілт",
+      "english": "key"
+    },
+    {
+      "id": 251,
+      "french": "бронь",
+      "english": "reservation"
+    },
+    {
+      "id": 252,
+      "french": "төлқұжат",
+      "english": "passport"
+    },
+    {
+      "id": 253,
+      "french": "шекара",
+      "english": "border"
+    },
+    {
+      "id": 254,
+      "french": "кеден",
+      "english": "customs"
+    },
+    {
+      "id": 255,
+      "french": "карта",
+      "english": "map"
+    },
+    {
+      "id": 256,
+      "french": "касса",
+      "english": "ticket office"
+    },
+    {
+      "id": 257,
+      "french": "жол жүру құны",
+      "english": "fare"
+    },
+    {
+      "id": 258,
+      "french": "солға бұрылыңыз",
+      "english": "turn left"
+    },
+    {
+      "id": 259,
+      "french": "оңға бұрылыңыз",
+      "english": "turn right"
+    },
+    {
+      "id": 260,
+      "french": "тура жүріңіз",
+      "english": "go straight"
+    },
+    {
+      "id": 261,
+      "french": "алыс емес",
+      "english": "not far"
+    },
+    {
+      "id": 262,
+      "french": "жақын жерде",
+      "english": "nearby"
+    },
+    {
+      "id": 263,
+      "french": "қайда орналасқан",
+      "english": "where is located"
+    },
+    {
+      "id": 264,
+      "french": "дәріхана қайда",
+      "english": "where is the pharmacy"
+    },
+    {
+      "id": 265,
+      "french": "дәретхана қайда",
+      "english": "where is the toilet"
+    },
+    {
+      "id": 266,
+      "french": "мен жолдан адастым",
+      "english": "I am lost"
+    },
+    {
+      "id": 267,
+      "french": "маған такси керек",
+      "english": "I need a taxi"
+    },
+    {
+      "id": 268,
+      "french": "осы жерге апарыңыз",
+      "english": "take me to this place"
+    },
+    {
+      "id": 269,
+      "french": "бір жаққа билет",
+      "english": "one-way ticket"
+    },
+    {
+      "id": 270,
+      "french": "екі жаққа билет",
+      "english": "round-trip ticket"
+    },
+    {
+      "id": 271,
+      "french": "жұмыс",
+      "english": "work"
+    },
+    {
+      "id": 272,
+      "french": "кеңсе",
+      "english": "office"
+    },
+    {
+      "id": 273,
+      "french": "компания",
+      "english": "company"
+    },
+    {
+      "id": 274,
+      "french": "ұйым",
+      "english": "organization"
+    },
+    {
+      "id": 275,
+      "french": "жоба",
+      "english": "project"
+    },
+    {
+      "id": 276,
+      "french": "тапсырма",
+      "english": "task"
+    },
+    {
+      "id": 277,
+      "french": "міндет",
+      "english": "duty"
+    },
+    {
+      "id": 278,
+      "french": "мақсат",
+      "english": "goal"
+    },
+    {
+      "id": 279,
+      "french": "жоспар",
+      "english": "plan"
+    },
+    {
+      "id": 280,
+      "french": "кесте",
+      "english": "schedule"
+    },
+    {
+      "id": 281,
+      "french": "жиналыс",
+      "english": "meeting"
+    },
+    {
+      "id": 282,
+      "french": "есеп",
+      "english": "report"
+    },
+    {
+      "id": 283,
+      "french": "нәтиже",
+      "english": "result"
+    },
+    {
+      "id": 284,
+      "french": "тәжірибе",
+      "english": "experience"
+    },
+    {
+      "id": 285,
+      "french": "дағды",
+      "english": "skill"
+    },
+    {
+      "id": 286,
+      "french": "білім",
+      "english": "knowledge"
+    },
+    {
+      "id": 287,
+      "french": "сабақ",
+      "english": "lesson"
+    },
+    {
+      "id": 288,
+      "french": "емтихан",
+      "english": "exam"
+    },
+    {
+      "id": 289,
+      "french": "үй тапсырмасы",
+      "english": "homework"
+    },
+    {
+      "id": 290,
+      "french": "жалақы",
+      "english": "salary"
+    },
+    {
+      "id": 291,
+      "french": "бонус",
+      "english": "bonus"
+    },
+    {
+      "id": 292,
+      "french": "келісімшарт",
+      "english": "contract"
+    },
+    {
+      "id": 293,
+      "french": "қолтаңба",
+      "english": "signature"
+    },
+    {
+      "id": 294,
+      "french": "құжат",
+      "english": "document"
+    },
+    {
+      "id": 295,
+      "french": "хат",
+      "english": "letter"
+    },
+    {
+      "id": 296,
+      "french": "электрондық пошта",
+      "english": "email"
+    },
+    {
+      "id": 297,
+      "french": "қоңырау",
+      "english": "call"
+    },
+    {
+      "id": 298,
+      "french": "сұхбат",
+      "english": "interview"
+    },
+    {
+      "id": 299,
+      "french": "демалыс",
+      "english": "vacation"
+    },
+    {
+      "id": 300,
+      "french": "үзіліс",
+      "english": "break"
+    },
+    {
+      "id": 301,
+      "french": "жұмыс күні",
+      "english": "workday"
+    },
+    {
+      "id": 302,
+      "french": "жұмыс уақыты",
+      "english": "working hours"
+    },
+    {
+      "id": 303,
+      "french": "толық уақыт",
+      "english": "full time"
+    },
+    {
+      "id": 304,
+      "french": "жартылай уақыт",
+      "english": "part time"
+    },
+    {
+      "id": 305,
+      "french": "қызмет",
+      "english": "position / service"
+    },
+    {
+      "id": 306,
+      "french": "мансап",
+      "english": "career"
+    },
+    {
+      "id": 307,
+      "french": "кеңес",
+      "english": "advice"
+    },
+    {
+      "id": 308,
+      "french": "шешім",
+      "english": "decision"
+    },
+    {
+      "id": 309,
+      "french": "пікір",
+      "english": "opinion"
+    },
+    {
+      "id": 310,
+      "french": "сұрақ",
+      "english": "question"
+    },
+    {
+      "id": 311,
+      "french": "жауап",
+      "english": "answer"
+    },
+    {
+      "id": 312,
+      "french": "дене",
+      "english": "body"
+    },
+    {
+      "id": 313,
+      "french": "бас",
+      "english": "head"
+    },
+    {
+      "id": 314,
+      "french": "бет",
+      "english": "face"
+    },
+    {
+      "id": 315,
+      "french": "көз",
+      "english": "eye"
+    },
+    {
+      "id": 316,
+      "french": "құлақ",
+      "english": "ear"
+    },
+    {
+      "id": 317,
+      "french": "мұрын",
+      "english": "nose"
+    },
+    {
+      "id": 318,
+      "french": "ауыз",
+      "english": "mouth"
+    },
+    {
+      "id": 319,
+      "french": "ерін",
+      "english": "lip"
+    },
+    {
+      "id": 320,
+      "french": "тіс",
+      "english": "tooth"
+    },
+    {
+      "id": 321,
+      "french": "тіл",
+      "english": "tongue"
+    },
+    {
+      "id": 322,
+      "french": "жақ",
+      "english": "jaw"
+    },
+    {
+      "id": 323,
+      "french": "мойын",
+      "english": "neck"
+    },
+    {
+      "id": 324,
+      "french": "иық",
+      "english": "shoulder"
+    },
+    {
+      "id": 325,
+      "french": "қол",
+      "english": "arm / hand"
+    },
+    {
+      "id": 326,
+      "french": "шынтақ",
+      "english": "elbow"
+    },
+    {
+      "id": 327,
+      "french": "білезік",
+      "english": "wrist"
+    },
+    {
+      "id": 328,
+      "french": "алақан",
+      "english": "palm"
+    },
+    {
+      "id": 329,
+      "french": "саусақ",
+      "english": "finger"
+    },
+    {
+      "id": 330,
+      "french": "тырнақ",
+      "english": "nail"
+    },
+    {
+      "id": 331,
+      "french": "кеуде",
+      "english": "chest"
+    },
+    {
+      "id": 332,
+      "french": "арқа",
+      "english": "back"
+    },
+    {
+      "id": 333,
+      "french": "бел",
+      "english": "waist"
+    },
+    {
+      "id": 334,
+      "french": "іш",
+      "english": "belly"
+    },
+    {
+      "id": 335,
+      "french": "жүрек",
+      "english": "heart"
+    },
+    {
+      "id": 336,
+      "french": "өкпе",
+      "english": "lung"
+    },
+    {
+      "id": 337,
+      "french": "асқазан",
+      "english": "stomach"
+    },
+    {
+      "id": 338,
+      "french": "бауыр",
+      "english": "liver"
+    },
+    {
+      "id": 339,
+      "french": "аяқ",
+      "english": "leg / foot"
+    },
+    {
+      "id": 340,
+      "french": "сан",
+      "english": "thigh"
+    },
+    {
+      "id": 341,
+      "french": "тізе",
+      "english": "knee"
+    },
+    {
+      "id": 342,
+      "french": "балтыр",
+      "english": "calf"
+    },
+    {
+      "id": 343,
+      "french": "өкше",
+      "english": "heel"
+    },
+    {
+      "id": 344,
+      "french": "табан",
+      "english": "sole"
+    },
+    {
+      "id": 345,
+      "french": "қан",
+      "english": "blood"
+    },
+    {
+      "id": 346,
+      "french": "тері",
+      "english": "skin"
+    },
+    {
+      "id": 347,
+      "french": "сүйек",
+      "english": "bone"
+    },
+    {
+      "id": 348,
+      "french": "бұлшықет",
+      "english": "muscle"
+    },
+    {
+      "id": 349,
+      "french": "ауру",
+      "english": "illness / pain"
+    },
+    {
+      "id": 350,
+      "french": "денсаулық",
+      "english": "health"
+    },
+    {
+      "id": 351,
+      "french": "дәрі",
+      "english": "medicine"
+    },
+    {
+      "id": 352,
+      "french": "аурухана",
+      "english": "hospital"
+    },
+    {
+      "id": 353,
+      "french": "емхана",
+      "english": "clinic"
+    },
+    {
+      "id": 354,
+      "french": "жедел жәрдем",
+      "english": "ambulance"
+    },
+    {
+      "id": 355,
+      "french": "температура",
+      "english": "temperature"
+    },
+    {
+      "id": 356,
+      "french": "басым ауырып тұр",
+      "english": "my head hurts"
+    },
+    {
+      "id": 357,
+      "french": "өзімді нашар сезініп тұрмын",
+      "english": "I feel unwell"
+    },
+    {
+      "id": 358,
+      "french": "уақыт",
+      "english": "time"
+    },
+    {
+      "id": 359,
+      "french": "сағат",
+      "english": "hour / clock"
+    },
+    {
+      "id": 360,
+      "french": "минут",
+      "english": "minute"
+    },
+    {
+      "id": 361,
+      "french": "секунд",
+      "english": "second"
+    },
+    {
+      "id": 362,
+      "french": "күн",
+      "english": "day / sun"
+    },
+    {
+      "id": 363,
+      "french": "апта",
+      "english": "week"
+    },
+    {
+      "id": 364,
+      "french": "ай",
+      "english": "month"
+    },
+    {
+      "id": 365,
+      "french": "жыл",
+      "english": "year"
+    },
+    {
+      "id": 366,
+      "french": "бүгін",
+      "english": "today"
+    },
+    {
+      "id": 367,
+      "french": "кеше",
+      "english": "yesterday"
+    },
+    {
+      "id": 368,
+      "french": "ертең",
+      "english": "tomorrow"
+    },
+    {
+      "id": 369,
+      "french": "таңертең",
+      "english": "in the morning"
+    },
+    {
+      "id": 370,
+      "french": "түсте",
+      "english": "at noon"
+    },
+    {
+      "id": 371,
+      "french": "кешке",
+      "english": "in the evening"
+    },
+    {
+      "id": 372,
+      "french": "түнде",
+      "english": "at night"
+    },
+    {
+      "id": 373,
+      "french": "қазір",
+      "english": "now"
+    },
+    {
+      "id": 374,
+      "french": "бұрын",
+      "english": "before"
+    },
+    {
+      "id": 375,
+      "french": "кейін",
+      "english": "after / later"
+    },
+    {
+      "id": 376,
+      "french": "әрқашан",
+      "english": "always"
+    },
+    {
+      "id": 377,
+      "french": "кейде",
+      "english": "sometimes"
+    },
+    {
+      "id": 378,
+      "french": "ешқашан",
+      "english": "never"
+    },
+    {
+      "id": 379,
+      "french": "жиі",
+      "english": "often"
+    },
+    {
+      "id": 380,
+      "french": "сирек",
+      "english": "rarely"
+    },
+    {
+      "id": 381,
+      "french": "дүйсенбі",
+      "english": "Monday"
+    },
+    {
+      "id": 382,
+      "french": "сейсенбі",
+      "english": "Tuesday"
+    },
+    {
+      "id": 383,
+      "french": "сәрсенбі",
+      "english": "Wednesday"
+    },
+    {
+      "id": 384,
+      "french": "бейсенбі",
+      "english": "Thursday"
+    },
+    {
+      "id": 385,
+      "french": "жұма",
+      "english": "Friday"
+    },
+    {
+      "id": 386,
+      "french": "сенбі",
+      "english": "Saturday"
+    },
+    {
+      "id": 387,
+      "french": "жексенбі",
+      "english": "Sunday"
+    },
+    {
+      "id": 388,
+      "french": "қаңтар",
+      "english": "January"
+    },
+    {
+      "id": 389,
+      "french": "ақпан",
+      "english": "February"
+    },
+    {
+      "id": 390,
+      "french": "наурыз",
+      "english": "March"
+    },
+    {
+      "id": 391,
+      "french": "сәуір",
+      "english": "April"
+    },
+    {
+      "id": 392,
+      "french": "мамыр",
+      "english": "May"
+    },
+    {
+      "id": 393,
+      "french": "маусым",
+      "english": "June"
+    },
+    {
+      "id": 394,
+      "french": "шілде",
+      "english": "July"
+    },
+    {
+      "id": 395,
+      "french": "тамыз",
+      "english": "August"
+    },
+    {
+      "id": 396,
+      "french": "қыркүйек",
+      "english": "September"
+    },
+    {
+      "id": 397,
+      "french": "қазан",
+      "english": "October"
+    },
+    {
+      "id": 398,
+      "french": "қараша",
+      "english": "November"
+    },
+    {
+      "id": 399,
+      "french": "желтоқсан",
+      "english": "December"
+    },
+    {
+      "id": 400,
+      "french": "бару",
+      "english": "to go"
+    },
+    {
+      "id": 401,
+      "french": "келу",
+      "english": "to come"
+    },
+    {
+      "id": 402,
+      "french": "жүру",
+      "english": "to walk / to go"
+    },
+    {
+      "id": 403,
+      "french": "жүгіру",
+      "english": "to run"
+    },
+    {
+      "id": 404,
+      "french": "отыру",
+      "english": "to sit"
+    },
+    {
+      "id": 405,
+      "french": "тұру",
+      "english": "to stand / live"
+    },
+    {
+      "id": 406,
+      "french": "жату",
+      "english": "to lie down"
+    },
+    {
+      "id": 407,
+      "french": "ұйықтау",
+      "english": "to sleep"
+    },
+    {
+      "id": 408,
+      "french": "ояну",
+      "english": "to wake up"
+    },
+    {
+      "id": 409,
+      "french": "істеу",
+      "english": "to do"
+    },
+    {
+      "id": 410,
+      "french": "жасау",
+      "english": "to make"
+    },
+    {
+      "id": 411,
+      "french": "айту",
+      "english": "to say"
+    },
+    {
+      "id": 412,
+      "french": "сөйлеу",
+      "english": "to speak"
+    },
+    {
+      "id": 413,
+      "french": "тыңдау",
+      "english": "to listen"
+    },
+    {
+      "id": 414,
+      "french": "көру",
+      "english": "to see"
+    },
+    {
+      "id": 415,
+      "french": "есту",
+      "english": "to hear"
+    },
+    {
+      "id": 416,
+      "french": "оқу",
+      "english": "to read / study"
+    },
+    {
+      "id": 417,
+      "french": "жазу",
+      "english": "to write"
+    },
+    {
+      "id": 418,
+      "french": "үйрену",
+      "english": "to learn"
+    },
+    {
+      "id": 419,
+      "french": "үйрету",
+      "english": "to teach"
+    },
+    {
+      "id": 420,
+      "french": "білу",
+      "english": "to know"
+    },
+    {
+      "id": 421,
+      "french": "түсіну",
+      "english": "to understand"
+    },
+    {
+      "id": 422,
+      "french": "алу",
+      "english": "to take"
+    },
+    {
+      "id": 423,
+      "french": "беру",
+      "english": "to give"
+    },
+    {
+      "id": 424,
+      "french": "ашу",
+      "english": "to open"
+    },
+    {
+      "id": 425,
+      "french": "жабу",
+      "english": "to close"
+    },
+    {
+      "id": 426,
+      "french": "бастау",
+      "english": "to start"
+    },
+    {
+      "id": 427,
+      "french": "аяқтау",
+      "english": "to finish"
+    },
+    {
+      "id": 428,
+      "french": "күту",
+      "english": "to wait"
+    },
+    {
+      "id": 429,
+      "french": "іздеу",
+      "english": "to search"
+    },
+    {
+      "id": 430,
+      "french": "табу",
+      "english": "to find"
+    },
+    {
+      "id": 431,
+      "french": "жоғалту",
+      "english": "to lose"
+    },
+    {
+      "id": 432,
+      "french": "сұрау",
+      "english": "to ask"
+    },
+    {
+      "id": 433,
+      "french": "жауап беру",
+      "english": "to answer"
+    },
+    {
+      "id": 434,
+      "french": "көмектесу",
+      "english": "to help"
+    },
+    {
+      "id": 435,
+      "french": "пайдалану",
+      "english": "to use"
+    },
+    {
+      "id": 436,
+      "french": "қалау",
+      "english": "to want"
+    },
+    {
+      "id": 437,
+      "french": "ұнату",
+      "english": "to like"
+    },
+    {
+      "id": 438,
+      "french": "жақсы көру",
+      "english": "to love"
+    },
+    {
+      "id": 439,
+      "french": "жек көру",
+      "english": "to hate"
+    },
+    {
+      "id": 440,
+      "french": "ойлау",
+      "english": "to think"
+    },
+    {
+      "id": 441,
+      "french": "сену",
+      "english": "to believe"
+    },
+    {
+      "id": 442,
+      "french": "есте сақтау",
+      "english": "to remember"
+    },
+    {
+      "id": 443,
+      "french": "ұмыту",
+      "english": "to forget"
+    },
+    {
+      "id": 444,
+      "french": "келісу",
+      "english": "to agree"
+    },
+    {
+      "id": 445,
+      "french": "келіспеу",
+      "english": "to disagree"
+    },
+    {
+      "id": 446,
+      "french": "таңдау",
+      "english": "to choose"
+    },
+    {
+      "id": 447,
+      "french": "сатып алу",
+      "english": "to buy"
+    },
+    {
+      "id": 448,
+      "french": "сату",
+      "english": "to sell"
+    },
+    {
+      "id": 449,
+      "french": "төлеу",
+      "english": "to pay"
+    },
+    {
+      "id": 450,
+      "french": "жеу",
+      "english": "to eat"
+    },
+    {
+      "id": 451,
+      "french": "ішу",
+      "english": "to drink"
+    },
+    {
+      "id": 452,
+      "french": "пісіру",
+      "english": "to cook"
+    },
+    {
+      "id": 453,
+      "french": "жуу",
+      "english": "to wash"
+    },
+    {
+      "id": 454,
+      "french": "тазалау",
+      "english": "to clean"
+    },
+    {
+      "id": 455,
+      "french": "жөндеу",
+      "english": "to repair"
+    },
+    {
+      "id": 456,
+      "french": "ашулану",
+      "english": "to get angry"
+    },
+    {
+      "id": 457,
+      "french": "күлу",
+      "english": "to laugh"
+    },
+    {
+      "id": 458,
+      "french": "жылау",
+      "english": "to cry"
+    },
+    {
+      "id": 459,
+      "french": "сүю",
+      "english": "to kiss"
+    },
+    {
+      "id": 460,
+      "french": "ойнау",
+      "english": "to play"
+    },
+    {
+      "id": 461,
+      "french": "жеңу",
+      "english": "to win"
+    },
+    {
+      "id": 462,
+      "french": "ұтылу",
+      "english": "to lose (a game)"
+    },
+    {
+      "id": 463,
+      "french": "болу",
+      "english": "to be / to become"
+    },
+    {
+      "id": 464,
+      "french": "қалу",
+      "english": "to stay"
+    },
+    {
+      "id": 465,
+      "french": "кету",
+      "english": "to leave"
+    },
+    {
+      "id": 466,
+      "french": "үлкен",
+      "english": "big"
+    },
+    {
+      "id": 467,
+      "french": "кіші",
+      "english": "small"
+    },
+    {
+      "id": 468,
+      "french": "ұзын",
+      "english": "long"
+    },
+    {
+      "id": 469,
+      "french": "қысқа",
+      "english": "short"
+    },
+    {
+      "id": 470,
+      "french": "кең",
+      "english": "wide"
+    },
+    {
+      "id": 471,
+      "french": "тар",
+      "english": "narrow"
+    },
+    {
+      "id": 472,
+      "french": "биік",
+      "english": "high / tall"
+    },
+    {
+      "id": 473,
+      "french": "төмен",
+      "english": "low"
+    },
+    {
+      "id": 474,
+      "french": "ауыр",
+      "english": "heavy"
+    },
+    {
+      "id": 475,
+      "french": "жеңіл",
+      "english": "light"
+    },
+    {
+      "id": 476,
+      "french": "жылы",
+      "english": "warm"
+    },
+    {
+      "id": 477,
+      "french": "суық",
+      "english": "cold"
+    },
+    {
+      "id": 478,
+      "french": "ыстық",
+      "english": "hot"
+    },
+    {
+      "id": 479,
+      "french": "салқын",
+      "english": "cool"
+    },
+    {
+      "id": 480,
+      "french": "жаңа",
+      "english": "new"
+    },
+    {
+      "id": 481,
+      "french": "ескі",
+      "english": "old (thing)"
+    },
+    {
+      "id": 482,
+      "french": "жас",
+      "english": "young"
+    },
+    {
+      "id": 483,
+      "french": "кәрі",
+      "english": "old (person)"
+    },
+    {
+      "id": 484,
+      "french": "жылдам",
+      "english": "fast"
+    },
+    {
+      "id": 485,
+      "french": "баяу",
+      "english": "slow"
+    },
+    {
+      "id": 486,
+      "french": "ерте",
+      "english": "early"
+    },
+    {
+      "id": 487,
+      "french": "кеш",
+      "english": "late"
+    },
+    {
+      "id": 488,
+      "french": "әдемі",
+      "english": "beautiful"
+    },
+    {
+      "id": 489,
+      "french": "сұлу",
+      "english": "pretty"
+    },
+    {
+      "id": 490,
+      "french": "күшті",
+      "english": "strong"
+    },
+    {
+      "id": 491,
+      "french": "әлсіз",
+      "english": "weak"
+    },
+    {
+      "id": 492,
+      "french": "батыл",
+      "english": "brave"
+    },
+    {
+      "id": 493,
+      "french": "қорқақ",
+      "english": "cowardly"
+    },
+    {
+      "id": 494,
+      "french": "бай",
+      "english": "rich"
+    },
+    {
+      "id": 495,
+      "french": "кедей",
+      "english": "poor"
+    },
+    {
+      "id": 496,
+      "french": "таза",
+      "english": "clean"
+    },
+    {
+      "id": 497,
+      "french": "лас",
+      "english": "dirty"
+    },
+    {
+      "id": 498,
+      "french": "қымбат",
+      "english": "expensive"
+    },
+    {
+      "id": 499,
+      "french": "арзан",
+      "english": "cheap"
+    },
+    {
+      "id": 500,
+      "french": "қиын",
+      "english": "difficult"
+    },
+    {
+      "id": 501,
+      "french": "оңай",
+      "english": "easy"
+    },
+    {
+      "id": 502,
+      "french": "маңызды",
+      "english": "important"
+    },
+    {
+      "id": 503,
+      "french": "қызық",
+      "english": "interesting"
+    },
+    {
+      "id": 504,
+      "french": "зеріктіргіш",
+      "english": "boring"
+    },
+    {
+      "id": 505,
+      "french": "дұрыс",
+      "english": "correct"
+    },
+    {
+      "id": 506,
+      "french": "қате",
+      "english": "wrong"
+    },
+    {
+      "id": 507,
+      "french": "толық",
+      "english": "full / complete"
+    },
+    {
+      "id": 508,
+      "french": "бос",
+      "english": "empty / free"
+    },
+    {
+      "id": 509,
+      "french": "бақытты",
+      "english": "happy"
+    },
+    {
+      "id": 510,
+      "french": "мұңды",
+      "english": "sad"
+    },
+    {
+      "id": 511,
+      "french": "ашулы",
+      "english": "angry"
+    },
+    {
+      "id": 512,
+      "french": "тыныш",
+      "english": "calm / quiet"
+    },
+    {
+      "id": 513,
+      "french": "шаршаған",
+      "english": "tired"
+    },
+    {
+      "id": 514,
+      "french": "қауіпті",
+      "english": "dangerous"
+    },
+    {
+      "id": 515,
+      "french": "қауіпсіз",
+      "english": "safe"
+    },
+    {
+      "id": 516,
+      "french": "жақын",
+      "english": "near"
+    },
+    {
+      "id": 517,
+      "french": "алыс",
+      "english": "far"
+    },
+    {
+      "id": 518,
+      "french": "белгілі",
+      "english": "famous / known"
+    },
+    {
+      "id": 519,
+      "french": "бейтаныс",
+      "english": "unfamiliar"
+    },
+    {
+      "id": 520,
+      "french": "ақылды",
+      "english": "smart"
+    },
+    {
+      "id": 521,
+      "french": "әдепті",
+      "english": "polite"
+    },
+    {
+      "id": 522,
+      "french": "адал",
+      "english": "honest"
+    },
+    {
+      "id": 523,
+      "french": "мейірімді",
+      "english": "kind"
+    },
+    {
+      "id": 524,
+      "french": "қатал",
+      "english": "strict"
+    },
+    {
+      "id": 525,
+      "french": "ұқыпты",
+      "english": "neat"
+    },
+    {
+      "id": 526,
+      "french": "лас емес",
+      "english": "not dirty"
+    },
+    {
+      "id": 527,
+      "french": "тегін",
+      "english": "free (no cost)"
+    },
+    {
+      "id": 528,
+      "french": "жеке",
+      "english": "private / personal"
+    },
+    {
+      "id": 529,
+      "french": "ортақ",
+      "english": "shared / common"
+    }
+  ]
+}

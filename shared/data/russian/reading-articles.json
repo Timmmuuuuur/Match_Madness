@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Reading",
+    "subtitle": "Graded Russian texts with English side by side — hover highlighted words for pronunciation."
+  },
+  "articles": [
+    {
+      "id": 1,
+      "title": "День в Москве",
+      "subtitle": "A Day in Moscow",
+      "level": "A2",
+      "topic": "Travel & City",
+      "paragraphs": [
+        {
+          "french": "В субботу я рано проснулся и решил прогуляться по центру Москвы. Воздух был прохладный, но солнце светило ярко. Я вышел из метро у Красной площади.",
+          "english": "On Saturday I woke up early and decided to walk around central Moscow. The air was cool but the sun shone brightly. I left the metro at Red Square."
+        },
+        {
+          "french": "Я долго смотрел на собор Василия Блаженного и фотографировал. Потом я зашёл в маленькое кафе и заказал кофе с пирогом. Официант был очень вежлив.",
+          "english": "I looked at St Basil's Cathedral for a long time and took photos. Then I went into a small café and ordered coffee with pie. The waiter was very polite."
+        },
+        {
+          "french": "Вечером я встретился с друзьями. Мы гуляли по набережной и говорили о работе и планах. «Москва никогда не спит», — сказал мой друг, и мы рассмеялись.",
+          "english": "In the evening I met friends. We walked along the embankment and talked about work and plans. \"Moscow never sleeps,\" said my friend, and we laughed."
+        }
+      ],
+      "vocab": [
+        {
+          "fr": "проснуться",
+          "en": "to wake up"
+        },
+        {
+          "fr": "площадь",
+          "en": "square"
+        },
+        {
+          "fr": "собор",
+          "en": "cathedral"
+        },
+        {
+          "fr": "набережная",
+          "en": "embankment"
+        },
+        {
+          "fr": "вежливый",
+          "en": "polite"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Моя семья",
+      "subtitle": "My Family",
+      "level": "A1–A2",
+      "topic": "Family & Home",
+      "paragraphs": [
+        {
+          "french": "У меня большая и дружная семья. Я живу с родителями и младшей сестрой в Санкт-Петербурге. Мой отец работает врачом, мама — бухгалтер.",
+          "english": "I have a large and close family. I live with my parents and younger sister in Saint Petersburg. My father works as a doctor, my mother is an accountant."
+        },
+        {
+          "french": "По воскресеньям мы всегда собираемся за столом. Бабушка готовит суп и рассказывает истории из детства. Эти вечера — самая важная традиция в нашей семье.",
+          "english": "On Sundays we always gather at the table. Grandma makes soup and tells stories from childhood. These evenings are the most important tradition in our family."
+        }
+      ],
+      "vocab": [
+        {
+          "fr": "семья",
+          "en": "family"
+        },
+        {
+          "fr": "родители",
+          "en": "parents"
+        },
+        {
+          "fr": "сестра",
+          "en": "sister"
+        },
+        {
+          "fr": "бабушка",
+          "en": "grandmother"
+        },
+        {
+          "fr": "традиция",
+          "en": "tradition"
+        }
+      ]
+    }
+  ]
+}

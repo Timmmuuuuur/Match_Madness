@@ -10,6 +10,22 @@ const TRACKS = [
     accent: 'track-french',
   },
   {
+    id: 'kazakh',
+    href: '/kazakh',
+    emoji: '🇰🇿',
+    title: 'Kazakh',
+    subtitle: 'Match game, topics, vocab, reading, speaking, grammar & pronunciation — Cyrillic Kazakh.',
+    accent: 'track-kazakh',
+  },
+  {
+    id: 'russian',
+    href: '/russian',
+    emoji: '🇷🇺',
+    title: 'Russian',
+    subtitle: 'Match game, topics, vocab, reading, speaking, grammar & pronunciation — Cyrillic Russian.',
+    accent: 'track-russian',
+  },
+  {
     id: 'quran',
     href: '/quran',
     emoji: '📖',

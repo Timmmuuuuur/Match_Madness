@@ -1,7 +1,8 @@
 import { useMemo } from 'react';
 import type { WordPoolId } from '@shared/types';
-import { resolveWordPool } from '@shared/wordPools';
+import { useTrack } from '../context/TrackContext';
 
 export function useWordPool(poolId: WordPoolId) {
-  return useMemo(() => resolveWordPool(poolId), [poolId]);
+  const track = useTrack();
+  return useMemo(() => track.getWords(poolId), [track, poolId]);
 }

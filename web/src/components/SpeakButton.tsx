@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { speakText, speechSupported, type SpeechLang } from '../lib/speech';
+import type { SpeechLang } from '@shared/types';
+import { speakText, speechSupported } from '../lib/speech';
 
 interface SpeakButtonProps {
   text: string;

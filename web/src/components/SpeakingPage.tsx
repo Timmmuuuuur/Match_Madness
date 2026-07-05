@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import speakingData from '@shared/data/speaking-sentences.json';
 import { appPath } from '../lib/base';
 import { SpeakButton } from './SpeakButton';
+import { useTrack } from '../context/TrackContext';
 
 interface Sentence {
   id: number;
@@ -18,30 +18,33 @@ interface Section {
   sentences: Sentence[];
 }
 
-const SECTIONS = speakingData.sections as Section[];
-
 export function SpeakingPage() {
-  const [activeId, setActiveId] = useState(SECTIONS[0]?.id ?? 'present');
-  const section = SECTIONS.find((s) => s.id === activeId) ?? SECTIONS[0];
+  const track = useTrack();
+  const sections = track.speaking.sections as Section[];
+  const [activeId, setActiveId] = useState(sections[0]?.id ?? 'basics');
+  const section = sections.find((s) => s.id === activeId) ?? sections[0];
+  const langName = track.primaryLangName;
 
   return (
     <div className="screen speaking-screen">
       <header className="speaking-hero">
         <h1>Speaking</h1>
-        <p className="subtitle">{speakingData.meta.subtitle}</p>
+        <p className="subtitle">{track.speaking.meta.subtitle}</p>
       </header>
 
-      <a href={appPath('/breaking-bad')} className="speaking-bb-promo card">
-        <span className="speaking-bb-emoji">🧪</span>
-        <span>
-          <strong>Breaking Bad en français</strong>
-          <span className="speaking-bb-desc">VF vocabulary &amp; iconic lines — cuistots, meth, chimie</span>
-        </span>
-        <span className="speaking-bb-arrow">→</span>
-      </a>
+      {track.showBreakingBad && (
+        <a href={appPath('/breaking-bad')} className="speaking-bb-promo card">
+          <span className="speaking-bb-emoji">🧪</span>
+          <span>
+            <strong>Breaking Bad en français</strong>
+            <span className="speaking-bb-desc">VF vocabulary &amp; iconic lines — cuistots, meth, chimie</span>
+          </span>
+          <span className="speaking-bb-arrow">→</span>
+        </a>
+      )}
 
-      <div className="tense-tabs" role="tablist" aria-label="Tense">
-        {SECTIONS.map((s) => (
+      <div className="tense-tabs" role="tablist" aria-label="Section">
+        {sections.map((s) => (
           <button
             key={s.id}
             type="button"
@@ -67,7 +70,7 @@ export function SpeakingPage() {
                   <p className="speaking-en">{s.english}</p>
                   {s.note && <p className="speaking-note">{s.note}</p>}
                 </div>
-                <SpeakButton text={s.french} label="Listen" />
+                <SpeakButton text={s.french} lang={track.ttsLang} label="Listen" />
               </li>
             ))}
           </ul>
@@ -76,7 +79,7 @@ export function SpeakingPage() {
 
       <p className="speaking-footnote learn-callout learn-callout--tip">
         <span className="learn-callout-inner" style={{ display: 'block', padding: 0 }}>
-          Pronunciation uses your device&apos;s built-in French voice — no extra downloads. Works best with silent mode off on iPhone.
+          Pronunciation uses your device&apos;s built-in {langName} voice — no extra downloads. Works best with silent mode off on iPhone.
         </span>
       </p>
     </div>

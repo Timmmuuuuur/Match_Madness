@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "Reading",
+    "subtitle": "Graded Kazakh texts with English side by side — hover highlighted words for pronunciation."
+  },
+  "articles": [
+    {
+      "id": 1,
+      "title": "Алматыда бір күн",
+      "subtitle": "A Day in Almaty",
+      "level": "A2",
+      "topic": "Travel & City",
+      "paragraphs": [
+        {
+          "french": "Демалыс күні мен ерте оятқышпен ояндым. Терезеден Алатау тауларын көрдім — ауа таза, күн жарқын. Мен қала орталығына баруды шештім.",
+          "english": "On my day off I woke up early without an alarm. Through the window I saw the Alatau mountains — the air was fresh, the sun bright. I decided to go to the city centre."
+        },
+        {
+          "french": "Алдымен мен «Астана» базарында жеміс пен нан сатып алдым. Сатушылар мейірімді, бағаңдар қолжетімді. Кейін мен көше музыканттарын тыңдап, кофе іштім.",
+          "english": "First I bought fruit and bread at the Green Bazaar. The sellers were friendly, the prices affordable. Then I listened to street musicians and drank coffee."
+        },
+        {
+          "french": "Кешке мен достарыммен кездестім. Біз ұлттық тамақ — бесбармақ пен шай іштік. «Ертең тағы келеміз», — дедік. Алматы маған әр күнде жаңа сезім береді.",
+          "english": "In the evening I met my friends. We ate national food — beshbarmak and tea. \"We will come again tomorrow,\" we said. Almaty gives me new feelings every day."
+        }
+      ],
+      "vocab": [
+        {
+          "fr": "демалыс",
+          "en": "day off / holiday"
+        },
+        {
+          "fr": "тау",
+          "en": "mountain"
+        },
+        {
+          "fr": "бazar",
+          "en": "bazaar / market"
+        },
+        {
+          "fr": "сатушы",
+          "en": "seller"
+        },
+        {
+          "fr": "ұлттық",
+          "en": "national"
+        },
+        {
+          "fr": "кездесу",
+          "en": "to meet"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Жаңа семья",
+      "subtitle": "A New Family",
+      "level": "A1–A2",
+      "topic": "Family & Home",
+      "paragraphs": [
+        {
+          "french": "Менің отбасым кішкентай: анам, әкем, мен және кіші інім. Біз Астанада тұрамыз. Әкем инженер, анам мұғалім.",
+          "english": "My family is small: my mother, father, me and my younger brother. We live in Astana. My father is an engineer, my mother is a teacher."
+        },
+        {
+          "french": "Күн сайын таңертең біз бірге таңғы ас ішеміз. Инім мектепке барады, мен университетке. Кешке біз отбасымен кино көреміз немесе сөйлесеміз.",
+          "english": "Every morning we have breakfast together. My brother goes to school, I go to university. In the evening we watch films or talk as a family."
+        }
+      ],
+      "vocab": [
+        {
+          "fr": "отбасы",
+          "en": "family"
+        },
+        {
+          "fr": "іні",
+          "en": "younger brother"
+        },
+        {
+          "fr": "мұғалім",
+          "en": "teacher"
+        },
+        {
+          "fr": "таңғы ас",
+          "en": "breakfast"
+        },
+        {
+          "fr": "университет",
+          "en": "university"
+        }
+      ]
+    }
+  ]
+}

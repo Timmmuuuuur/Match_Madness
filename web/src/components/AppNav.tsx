@@ -1,35 +1,28 @@
 import { usePathname } from '../lib/router';
 import { appPath } from '../lib/base';
-import { frenchSubPath, getTrackFromPath, isHomePath, quranSubPath } from '../lib/tracks';
+import {
+  frenchSubPath,
+  getTrackConfigForPath,
+  getTrackFromPath,
+  isHomePath,
+  kazakhSubPath,
+  quranSubPath,
+  russianSubPath,
+  trackPath,
+} from '../lib/tracks';
+import type { LearningTrack } from '@shared/types';
 
-const FRENCH_LINKS = [
-  { href: '/french', label: 'Match' },
-  { href: '/topics', label: 'Topics' },
-  { href: '/vocab', label: 'Vocab' },
-  { href: '/reading', label: 'Reading' },
-  { href: '/breaking-bad', label: 'Breaking Bad' },
-  { href: '/speaking', label: 'Speaking' },
-  { href: '/tef-tcf', label: 'TEF/TCF' },
-  { href: '/pronunciation', label: 'Sounds' },
-  { href: '/grammar', label: 'Grammar' },
-] as const;
+function subPathForLanguage(path: string, track: LearningTrack): string {
+  if (track === 'kazakh') return kazakhSubPath(path);
+  if (track === 'russian') return russianSubPath(path);
+  return frenchSubPath(path);
+}
 
-const QURAN_LINKS = [
-  { href: '/quran', label: 'Match' },
-  { href: '/quran/letters', label: 'Letters' },
-  { href: '/quran/harakat', label: 'Harakat' },
-  { href: '/quran/practice', label: 'Word drills' },
-  { href: '/quran/vocab', label: 'Vocab' },
-  { href: '/quran/speaking', label: 'Sentences' },
-  { href: '/quran/reading', label: 'Reading' },
-  { href: '/quran/tajweed', label: 'Tajweed' },
-] as const;
-
-function isFrenchActive(path: string, href: string): boolean {
-  const sub = frenchSubPath(path);
-  if (href === '/french') return sub === '/' || sub === '';
-  const legacy = href;
-  return sub === legacy || sub.startsWith(`${legacy}/`);
+function isLanguageActive(path: string, track: LearningTrack, subHref: string): boolean {
+  const sub = subPathForLanguage(path, track);
+  const normalized = subHref || '/';
+  if (normalized === '/') return sub === '/' || sub === '';
+  return sub === normalized || sub.startsWith(`${normalized}/`);
 }
 
 function isQuranActive(path: string, href: string): boolean {
@@ -41,26 +34,57 @@ function isQuranActive(path: string, href: string): boolean {
 
 export function AppNav() {
   const path = usePathname();
-  const track = getTrackFromPath(path);
+  const trackId = getTrackFromPath(path);
 
   if (isHomePath(path)) return null;
 
-  const links = track === 'quran' ? QURAN_LINKS : FRENCH_LINKS;
-  const isActive = track === 'quran' ? isQuranActive : isFrenchActive;
-  const trackLabel = track === 'quran' ? '📖 Quran reading' : '🇫🇷 French';
+  if (trackId === 'quran') {
+    const QURAN_LINKS = [
+      { href: '/quran', label: 'Match' },
+      { href: '/quran/letters', label: 'Letters' },
+      { href: '/quran/harakat', label: 'Harakat' },
+      { href: '/quran/practice', label: 'Word drills' },
+      { href: '/quran/vocab', label: 'Vocab' },
+      { href: '/quran/speaking', label: 'Sentences' },
+      { href: '/quran/reading', label: 'Reading' },
+      { href: '/quran/tajweed', label: 'Tajweed' },
+    ] as const;
+
+    return (
+      <>
+        <div className="track-bar">
+          <a href={appPath('/')} className="track-bar-switch">← All tracks</a>
+          <span className="track-bar-label">📖 Quran reading</span>
+        </div>
+        <nav className="app-nav" aria-label="Main">
+          {QURAN_LINKS.map(({ href, label }) => (
+            <a
+              key={href}
+              href={appPath(href)}
+              className={`nav-link${isQuranActive(path, href) ? ' active' : ''}`}
+            >
+              {label}
+            </a>
+          ))}
+        </nav>
+      </>
+    );
+  }
+
+  const track = getTrackConfigForPath(path);
 
   return (
     <>
       <div className="track-bar">
         <a href={appPath('/')} className="track-bar-switch">← All tracks</a>
-        <span className="track-bar-label">{trackLabel}</span>
+        <span className="track-bar-label">{track.flag} {track.label}</span>
       </div>
       <nav className="app-nav" aria-label="Main">
-        {links.map(({ href, label }) => (
+        {track.navLinks.map(({ href, label }) => (
           <a
-            key={href}
-            href={appPath(href)}
-            className={`nav-link${isActive(path, href) ? ' active' : ''}`}
+            key={href || 'match'}
+            href={appPath(trackPath(track.id, href))}
+            className={`nav-link${isLanguageActive(path, track.id, href || '/') ? ' active' : ''}`}
           >
             {label}
           </a>

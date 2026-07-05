@@ -1,7 +1,15 @@
 import { useState, type ReactNode } from 'react';
 import type { Direction, GameSettings, GameStats, WordPoolId } from '@shared/types';
 import { usePathname } from './lib/router';
-import { frenchSubPath, isHomePath, quranSubPath } from './lib/tracks';
+import {
+  frenchSubPath,
+  getTrackConfigForPath,
+  isHomePath,
+  kazakhSubPath,
+  quranSubPath,
+  russianSubPath,
+} from './lib/tracks';
+import { TrackProvider } from './context/TrackContext';
 import { useWordPool } from './hooks/useWordPool';
 import { saveBestScore } from './lib/storage';
 import { AppNav } from './components/AppNav';
@@ -26,22 +34,22 @@ import { QuranReadingPage } from './components/quran/QuranReadingPage';
 import { QuranSpeakingPage } from './components/quran/QuranSpeakingPage';
 import { WordPracticePage } from './components/quran/WordPracticePage';
 import { TajweedPage } from './components/quran/TajweedPage';
+import { useTrack } from './context/TrackContext';
 import './App.css';
 
 type Screen = 'home' | 'game' | 'results';
 type GameMode = 'words' | 'sentences';
 
-const DEFAULT_SETTINGS: GameSettings = {
-  poolId: '500',
-  direction: 'en-fr',
-  pairsPerRound: 5,
-  totalRounds: 5,
-};
-
 function MatchApp() {
+  const track = useTrack();
   const [screen, setScreen] = useState<Screen>('home');
   const [mode, setMode] = useState<GameMode>('words');
-  const [settings, setSettings] = useState<GameSettings>(DEFAULT_SETTINGS);
+  const [settings, setSettings] = useState<GameSettings>({
+    poolId: '500',
+    direction: track.directions.enPrimary,
+    pairsPerRound: 5,
+    totalRounds: 5,
+  });
   const [stats, setStats] = useState<GameStats | null>(null);
   const [isNewBest, setIsNewBest] = useState(false);
   const [gameSession, setGameSession] = useState(0);
@@ -105,7 +113,7 @@ function MatchApp() {
   );
 }
 
-function renderFrenchPage(sub: string): ReactNode {
+function renderLanguagePage(sub: string): ReactNode {
   if (sub === '/vocab' || sub.startsWith('/vocab/')) return <VocabPage />;
   if (sub === '/reading' || sub.startsWith('/reading/')) return <ReadingPage />;
   if (sub === '/breaking-bad' || sub.startsWith('/breaking-bad/')) return <BreakingBadPage />;
@@ -130,22 +138,37 @@ function renderQuranPage(sub: string): ReactNode {
 
 function App() {
   const path = usePathname();
+  const trackConfig = getTrackConfigForPath(path);
 
   let page: ReactNode;
+  let shellClass = trackConfig.shellClass ?? '';
+
   if (isHomePath(path)) {
     page = <ModeSelectorPage />;
+    shellClass = '';
   } else if (path === '/quran' || path.startsWith('/quran/')) {
     page = renderQuranPage(quranSubPath(path));
+    shellClass = 'app-shell--quran';
+  } else if (path === '/kazakh' || path.startsWith('/kazakh/')) {
+    page = renderLanguagePage(kazakhSubPath(path));
+  } else if (path === '/russian' || path.startsWith('/russian/')) {
+    page = renderLanguagePage(russianSubPath(path));
   } else {
-    page = renderFrenchPage(frenchSubPath(path));
+    page = renderLanguagePage(frenchSubPath(path));
   }
 
-  return (
-    <div className={`app-shell${path.startsWith('/quran') ? ' app-shell--quran' : ''}`}>
+  const inner = (
+    <div className={`app-shell${shellClass ? ` ${shellClass}` : ''}`}>
       <AppNav />
       {page}
     </div>
   );
+
+  if (isHomePath(path) || path.startsWith('/quran')) {
+    return inner;
+  }
+
+  return <TrackProvider track={trackConfig}>{inner}</TrackProvider>;
 }
 
 export default App;

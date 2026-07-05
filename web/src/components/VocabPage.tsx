@@ -1,11 +1,14 @@
 import { useMemo, useState } from 'react';
-import words2000 from '@shared/data/words-2000.json';
 import vocabDetails from '@shared/data/vocab-details.json';
-import { TOPICS, topicsByUnit, UNIT_LABELS } from '@shared/topics';
+import { topicsByUnitForTrack } from '@shared/trackRegistry';
+import type { LanguageTrackConfig } from '@shared/trackRegistry';
 import type { Topic, WordPair } from '@shared/types';
+import type { SpeechLang } from '@shared/types';
 import { LearningProse } from './LearningProse';
 import { SpeakButton } from './SpeakButton';
 import { appPath } from '../lib/base';
+import { trackPath } from '../lib/tracks';
+import { useTrack } from '../context/TrackContext';
 
 interface VocabSense {
   meaning: string;
@@ -24,32 +27,14 @@ interface VocabDetail {
 
 type VocabView = 'frequency' | 'topics';
 
-const ALL_WORDS = (words2000 as { words: WordPair[] }).words;
 const DETAILS = vocabDetails.entries as Record<string, VocabDetail>;
-
-const SPECIAL_COLLECTIONS = [
-  {
-    href: '/tef-tcf',
-    emoji: '📝',
-    title: 'TEF / TCF',
-    desc: 'Exam vocabulary for immigration & B1–B2',
-    accent: 'tef',
-  },
-  {
-    href: '/reading',
-    emoji: '📖',
-    title: 'Reading',
-    desc: 'Graded articles with English side by side',
-    accent: 'read',
-  },
-] as const;
 
 function formatHeadword(w: Pick<WordPair, 'french' | 'article'>): string {
   return w.article ? `${w.article} ${w.french}` : w.french;
 }
 
-function WordDetailPanel({ selected }: { selected: WordPair }) {
-  const detail = DETAILS[selected.french];
+function WordDetailPanel({ selected, ttsLang, showRichDetails }: { selected: WordPair; ttsLang: SpeechLang; showRichDetails: boolean }) {
+  const detail = showRichDetails ? DETAILS[selected.french] : undefined;
   const hasDetails = detail && detail.senses.length > 0;
   const hasTopicExample = Boolean(selected.exampleFr && selected.exampleEn);
 
@@ -58,7 +43,7 @@ function WordDetailPanel({ selected }: { selected: WordPair }) {
       <header className="vocab-detail-head">
         <div className="vocab-detail-title">
           <h2>{formatHeadword(selected)}</h2>
-          <SpeakButton text={formatHeadword(selected)} label="Pronounce" />
+          <SpeakButton text={formatHeadword(selected)} lang={ttsLang} label="Pronounce" />
         </div>
         <p className="vocab-primary-en">{selected.english}</p>
         {selected.context && !hasDetails && (
@@ -116,10 +101,31 @@ function WordDetailPanel({ selected }: { selected: WordPair }) {
   );
 }
 
-function SpecialCollections() {
+function SpecialCollections({ track }: { track: LanguageTrackConfig }) {
+  const collections = [
+    ...(track.showTefTcf
+      ? [{
+          href: trackPath(track.id, '/tef-tcf'),
+          emoji: '📝',
+          title: 'TEF / TCF',
+          desc: 'Exam vocabulary for immigration & B1–B2',
+          accent: 'tef',
+        }]
+      : []),
+    {
+      href: trackPath(track.id, '/reading'),
+      emoji: '📖',
+      title: 'Reading',
+      desc: 'Graded articles with English side by side',
+      accent: 'read',
+    },
+  ];
+
+  if (collections.length === 0) return null;
+
   return (
     <section className="vocab-collections" aria-label="Special vocabulary collections">
-      {SPECIAL_COLLECTIONS.map((c) => (
+      {collections.map((c) => (
         <a key={c.href} href={appPath(c.href)} className={`vocab-collection-card vocab-collection-${c.accent}`}>
           <span className="vocab-collection-emoji">{c.emoji}</span>
           <span className="vocab-collection-title">{c.title}</span>
@@ -130,27 +136,79 @@ function SpecialCollections() {
   );
 }
 
+function WordList({
+  words,
+  selectedId,
+  onSelect,
+  ttsLang,
+  limit = 120,
+}: {
+  words: WordPair[];
+  selectedId: number | null;
+  onSelect: (id: number) => void;
+  ttsLang: SpeechLang;
+  limit?: number;
+}) {
+  const shown = words.slice(0, limit);
+
+  return (
+    <ul className="vocab-list" role="listbox" aria-label="Word list">
+      {shown.map((w) => (
+        <li key={w.id}>
+          <div className={`vocab-row-wrap${selectedId === w.id ? ' active' : ''}`}>
+            <button
+              type="button"
+              role="option"
+              aria-selected={selectedId === w.id}
+              className="vocab-row"
+              onClick={() => onSelect(w.id)}
+            >
+              <span className="vocab-row-fr">{formatHeadword(w)}</span>
+              <span className="vocab-row-en">{w.english}</span>
+            </button>
+            <SpeakButton text={formatHeadword(w)} lang={ttsLang} compact />
+          </div>
+        </li>
+      ))}
+      {words.length > limit && (
+        <li className="vocab-more">Refine search to see more — showing first {limit} matches.</li>
+      )}
+      {words.length === 0 && (
+        <li className="vocab-more">No matches. Try a shorter or different term.</li>
+      )}
+    </ul>
+  );
+}
+
 function FrequencyVocab({
   query,
   onQueryChange,
+  allWords,
+  ttsLang,
+  langName,
+  showRichDetails,
 }: {
   query: string;
   onQueryChange: (q: string) => void;
+  allWords: WordPair[];
+  ttsLang: SpeechLang;
+  langName: string;
+  showRichDetails: boolean;
 }) {
-  const [selectedId, setSelectedId] = useState<number | null>(ALL_WORDS[0]?.id ?? null);
+  const [selectedId, setSelectedId] = useState<number | null>(allWords[0]?.id ?? null);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-    if (!q) return ALL_WORDS;
-    return ALL_WORDS.filter(
+    if (!q) return allWords;
+    return allWords.filter(
       (w) =>
         w.french.toLowerCase().includes(q) ||
         w.english.toLowerCase().includes(q) ||
         (w.context?.toLowerCase().includes(q) ?? false),
     );
-  }, [query]);
+  }, [allWords, query]);
 
-  const selected = ALL_WORDS.find((w) => w.id === selectedId) ?? filtered[0] ?? null;
+  const selected = allWords.find((w) => w.id === selectedId) ?? filtered[0] ?? null;
 
   return (
     <>
@@ -158,7 +216,7 @@ function FrequencyVocab({
         <input
           type="search"
           className="vocab-search"
-          placeholder="Search French or English…"
+          placeholder={`Search ${langName} or English…`}
           value={query}
           onChange={(e) => onQueryChange(e.target.value)}
           aria-label="Search vocabulary"
@@ -167,68 +225,21 @@ function FrequencyVocab({
       </div>
 
       <div className="vocab-layout">
-        <ul className="vocab-list" role="listbox" aria-label="Word list">
-          {filtered.slice(0, 120).map((w) => (
-            <li key={w.id}>
-              <div className={`vocab-row-wrap${selected?.id === w.id ? ' active' : ''}`}>
-                <button
-                  type="button"
-                  role="option"
-                  aria-selected={selected?.id === w.id}
-                  className="vocab-row"
-                  onClick={() => setSelectedId(w.id)}
-                >
-                  <span className="vocab-row-fr">{formatHeadword(w)}</span>
-                  <span className="vocab-row-en">{w.english}</span>
-                </button>
-                <SpeakButton text={formatHeadword(w)} compact />
-              </div>
-            </li>
-          ))}
-          {filtered.length > 120 && (
-            <li className="vocab-more">Refine search to see more — showing first 120 matches.</li>
-          )}
-          {filtered.length === 0 && (
-            <li className="vocab-more">No matches. Try a shorter or different term.</li>
-          )}
-        </ul>
-
-        {selected && <WordDetailPanel selected={selected} />}
+        <WordList
+          words={filtered}
+          selectedId={selected?.id ?? null}
+          onSelect={setSelectedId}
+          ttsLang={ttsLang}
+        />
+        {selected && (
+          <WordDetailPanel selected={selected} ttsLang={ttsLang} showRichDetails={showRichDetails} />
+        )}
       </div>
     </>
   );
 }
 
-function TopicWordCard({
-  word,
-  selected,
-  onSelect,
-}: {
-  word: WordPair;
-  selected: boolean;
-  onSelect: () => void;
-}) {
-  return (
-    <button
-      type="button"
-      className={`topic-word-card topic-word-card--${selected ? 'selected' : 'idle'}`}
-      onClick={onSelect}
-      aria-pressed={selected}
-    >
-      <div className="topic-word-card-top">
-        <span className="topic-word-fr">{formatHeadword(word)}</span>
-        <SpeakButton text={formatHeadword(word)} compact />
-      </div>
-      <span className="topic-word-en">{word.english}</span>
-      {word.context && <span className="topic-word-ctx">{word.context}</span>}
-      {word.exampleFr && (
-        <span className="topic-word-ex-preview">{word.exampleFr}</span>
-      )}
-    </button>
-  );
-}
-
-function TopicVocab({ topic, query }: { topic: Topic; query: string }) {
+function TopicVocab({ topic, query, ttsLang, showRichDetails }: { topic: Topic; query: string; ttsLang: SpeechLang; showRichDetails: boolean }) {
   const [selectedId, setSelectedId] = useState<number | null>(topic.words[0]?.id ?? null);
 
   const filtered = useMemo(() => {
@@ -264,36 +275,36 @@ function TopicVocab({ topic, query }: { topic: Topic; query: string }) {
         </section>
       )}
 
-      <div className="topic-words-grid">
-        {filtered.map((w) => (
-          <TopicWordCard
-            key={w.id}
-            word={w}
-            selected={selected?.id === w.id}
-            onSelect={() => setSelectedId(w.id)}
-          />
-        ))}
+      <div className="vocab-layout">
+        <WordList
+          words={filtered}
+          selectedId={selected?.id ?? null}
+          onSelect={setSelectedId}
+          ttsLang={ttsLang}
+          limit={200}
+        />
+        {selected && (
+          <WordDetailPanel selected={selected} ttsLang={ttsLang} showRichDetails={showRichDetails} />
+        )}
       </div>
-
-      {filtered.length === 0 && (
-        <p className="vocab-more">No matches in this topic.</p>
-      )}
-
-      {selected && (
-        <div className="topic-detail-sticky">
-          <WordDetailPanel selected={selected} />
-        </div>
-      )}
     </div>
   );
 }
 
 export function VocabPage() {
+  const track = useTrack();
+  const TOPICS = track.topics;
+  const UNIT_LABELS = track.unitLabels;
+  const allWords = useMemo(() => track.getWords('1000'), [track]);
+  const wordCountLabel = track.id === 'french' ? 'Top 2,000' : `Top ${allWords.length}`;
+  const showRichDetails = track.id === 'french';
+
   const [view, setView] = useState<VocabView>('frequency');
   const [query, setQuery] = useState('');
   const [activeTopicId, setActiveTopicId] = useState(TOPICS[0]?.id ?? '');
 
   const activeTopic = TOPICS.find((t) => t.id === activeTopicId) ?? TOPICS[0];
+  const unitMap = topicsByUnitForTrack(track);
 
   return (
     <div className="screen vocab-screen vocab-screen--wide">
@@ -304,7 +315,7 @@ export function VocabPage() {
         </p>
       </header>
 
-      <SpecialCollections />
+      <SpecialCollections track={track} />
 
       <div className="vocab-view-tabs" role="tablist" aria-label="Vocabulary view">
         <button
@@ -315,7 +326,7 @@ export function VocabPage() {
           onClick={() => setView('frequency')}
         >
           Frequency
-          <span className="vocab-view-tab-sub">Top 2,000</span>
+          <span className="vocab-view-tab-sub">{wordCountLabel}</span>
         </button>
         <button
           type="button"
@@ -330,7 +341,14 @@ export function VocabPage() {
       </div>
 
       {view === 'frequency' && (
-        <FrequencyVocab query={query} onQueryChange={setQuery} />
+        <FrequencyVocab
+          query={query}
+          onQueryChange={setQuery}
+          allWords={allWords}
+          ttsLang={track.ttsLang}
+          langName={track.primaryLangName}
+          showRichDetails={showRichDetails}
+        />
       )}
 
       {view === 'topics' && activeTopic && (
@@ -348,7 +366,7 @@ export function VocabPage() {
               <span className="vocab-count">{activeTopic.words.length} in {activeTopic.label}</span>
             </div>
             <div className="vocab-topic-chips curriculum-chips" role="tablist" aria-label="Topics by unit">
-              {[...topicsByUnit().entries()].sort(([a], [b]) => a - b).map(([unit, unitTopics]) => (
+              {[...unitMap.entries()].sort(([a], [b]) => a - b).map(([unit, unitTopics]) => (
                 <div key={unit} className="curriculum-unit-group">
                   <p className="curriculum-unit-label">
                     Unit {unit} · {UNIT_LABELS[unit] ?? `Level ${unit}`}
@@ -376,7 +394,7 @@ export function VocabPage() {
               ))}
             </div>
           </div>
-          <TopicVocab topic={activeTopic} query={query} />
+          <TopicVocab topic={activeTopic} query={query} ttsLang={track.ttsLang} showRichDetails={showRichDetails} />
         </>
       )}
     </div>

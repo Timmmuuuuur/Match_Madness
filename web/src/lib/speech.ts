@@ -1,4 +1,5 @@
-/** Browser TTS — French & Arabic via OS voices (no audio files required). */
+/** Browser TTS — French, Arabic, Kazakh & Russian via OS voices. */
+import type { SpeechLang } from '@shared/types';
 
 function loadVoices(): Promise<SpeechSynthesisVoice[]> {
   return new Promise((resolve) => {
@@ -58,7 +59,18 @@ export async function speakArabic(text: string): Promise<boolean> {
   return speak(text, 'ar', 'arabic', 0.82);
 }
 
-/** Prefer Arabic script; fall back to transliteration if TTS fails. */
+export async function speakKazakh(text: string): Promise<boolean> {
+  const ok = await speak(text, 'kk-KZ', 'kazakh', 0.88);
+  if (ok) return true;
+  return speak(text, 'kk', 'kazakh', 0.88);
+}
+
+export async function speakRussian(text: string): Promise<boolean> {
+  const ok = await speak(text, 'ru-RU', 'russian', 0.88);
+  if (ok) return true;
+  return speak(text, 'ru', 'russian', 0.88);
+}
+
 export async function speakArabicWord(arabic: string, transliteration?: string): Promise<boolean> {
   const primary = await speakArabic(arabic);
   if (primary) return true;
@@ -71,9 +83,11 @@ export function speakWord(french: string, article?: string): Promise<boolean> {
   return speakFrench(phrase);
 }
 
-export type SpeechLang = 'fr' | 'ar';
+export type { SpeechLang };
 
 export async function speakText(text: string, lang: SpeechLang, transliteration?: string): Promise<boolean> {
   if (lang === 'ar') return speakArabicWord(text, transliteration);
+  if (lang === 'kk') return speakKazakh(text);
+  if (lang === 'ru') return speakRussian(text);
   return speakFrench(text);
 }

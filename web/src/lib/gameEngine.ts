@@ -1,21 +1,26 @@
 import type { Direction, WordPair } from '@shared/types';
 
+export type PrimaryLang = 'french' | 'english' | 'arabic' | 'kazakh' | 'russian';
+
 export interface TileData {
   id: string;
   pairId: number;
   text: string;
-  language: 'french' | 'english' | 'arabic';
+  language: PrimaryLang;
   side: 'left' | 'right';
   article?: string;
   context?: string;
 }
 
-export function primaryLangFromDirection(direction: Direction): 'french' | 'arabic' {
-  return direction === 'en-ar' || direction === 'ar-en' ? 'arabic' : 'french';
+export function primaryLangFromDirection(direction: Direction): Exclude<PrimaryLang, 'english'> {
+  if (direction === 'en-ar' || direction === 'ar-en') return 'arabic';
+  if (direction === 'en-kk' || direction === 'kk-en') return 'kazakh';
+  if (direction === 'en-ru' || direction === 'ru-en') return 'russian';
+  return 'french';
 }
 
 function isEnglishFirst(direction: Direction): boolean {
-  return direction === 'en-fr' || direction === 'en-ar';
+  return direction === 'en-fr' || direction === 'en-ar' || direction === 'en-kk' || direction === 'en-ru';
 }
 
 export function shuffle<T>(items: T[]): T[] {
@@ -31,7 +36,7 @@ export function pickRandomPairs(words: WordPair[], count: number): WordPair[] {
   return shuffle(words).slice(0, Math.min(count, words.length));
 }
 
-function makeTiles(pairs: WordPair[], primary: 'french' | 'arabic'): Omit<TileData, 'side'>[] {
+function makeTiles(pairs: WordPair[], primary: Exclude<PrimaryLang, 'english'>): Omit<TileData, 'side'>[] {
   const tiles: Omit<TileData, 'side'>[] = [];
   for (const pair of pairs) {
     tiles.push({

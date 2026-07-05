@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "title": "Grammar",
+    "subtitle": "Kazakh cases, vowel harmony, word order, and pronouns — with English notes.",
+    "accent": "teal"
+  },
+  "sections": [
+    {
+      "id": "intro",
+      "number": 1,
+      "title": "Overview",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kazakh is a Turkic language written in Cyrillic (Latin script is also used). It has <strong>vowel harmony</strong> and <strong>agglutinative</strong> suffixes — one suffix often = one grammatical meaning."
+        },
+        {
+          "type": "callout",
+          "variant": "compare-en",
+          "text": "🇬🇧 English word order is mostly fixed (Subject–Verb–Object). Both Kazakh and Russian allow more flexible order because suffixes show grammatical roles."
+        }
+      ]
+    },
+    {
+      "id": "pronouns",
+      "number": 2,
+      "title": "Personal pronouns",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": [
+            "Kazakh",
+            "English"
+          ],
+          "rows": [
+            [
+              "мен",
+              "I"
+            ],
+            [
+              "сен",
+              "you (informal)"
+            ],
+            [
+              "сіз",
+              "you (formal)"
+            ],
+            [
+              "ол",
+              "he/she"
+            ],
+            [
+              "біз",
+              "we"
+            ],
+            [
+              "олар",
+              "they"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "questions",
+      "number": 3,
+      "title": "Questions & negation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Yes/no questions often use question intonation or the particle <code>ма/ме</code>. Negation uses <code>жоқ</code> (non-existence) or <code>-ма/-ме</code> suffixes on verbs."
+        },
+        {
+          "type": "example",
+          "fr": "Сіз қазақша сөйлейсіз бе?",
+          "en": "Do you speak Kazakh?"
+        }
+      ]
+    }
+  ]
+}

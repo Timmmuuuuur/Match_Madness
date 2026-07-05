@@ -1,30 +1,47 @@
 import { useCallback, useMemo, useState } from 'react';
 import type { Direction, GameSettings, GameStats } from '@shared/types';
-import { TOPICS, countTopicWords, resolveTopicWords, topicBestScoreKey, topicsByUnit, UNIT_LABELS } from '@shared/topics';
+import {
+  countTopicWordsForTrack,
+  resolveTopicWordsForTrack,
+  topicsByUnitForTrack,
+} from '@shared/trackRegistry';
+import { topicBestScoreKey } from '@shared/topics';
 import { loadBestScore, saveBestScore } from '../lib/storage';
+import { useTrack } from '../context/TrackContext';
 import { GameScreen } from './GameScreen';
 import { ResultsScreen } from './ResultsScreen';
 
 type Phase = 'pick' | 'game' | 'results';
 
-const TOPIC_SETTINGS: GameSettings = {
-  poolId: '500',
-  direction: 'en-fr',
-  pairsPerRound: 5,
-  totalRounds: 5,
-};
-
 export function TopicsPage() {
+  const track = useTrack();
+  const TOPICS = track.topics;
+  const UNIT_LABELS = track.unitLabels;
+  const { enPrimary, primaryEn } = track.directions;
+
   const [phase, setPhase] = useState<Phase>('pick');
   const [selected, setSelected] = useState<Set<string>>(new Set());
-  const [direction, setDirection] = useState<Direction>('en-fr');
+  const [direction, setDirection] = useState<Direction>(enPrimary);
   const [stats, setStats] = useState<GameStats | null>(null);
   const [isNewBest, setIsNewBest] = useState(false);
   const [gameSession, setGameSession] = useState(0);
 
+  const TOPIC_SETTINGS: GameSettings = {
+    poolId: '500',
+    direction,
+    pairsPerRound: 5,
+    totalRounds: 5,
+  };
+
   const selectedIds = useMemo(() => [...selected], [selected]);
-  const wordCount = useMemo(() => countTopicWords(selectedIds), [selectedIds]);
-  const words = useMemo(() => resolveTopicWords(selectedIds), [selectedIds, gameSession]);
+  const wordCount = useMemo(
+    () => countTopicWordsForTrack(track, selectedIds),
+    [track, selectedIds],
+  );
+  const words = useMemo(
+    () => resolveTopicWordsForTrack(track, selectedIds),
+    [track, selectedIds, gameSession],
+  );
 
   const bestKey = selectedIds.length ? topicBestScoreKey(selectedIds) : '';
   const best = bestKey ? loadBestScore(bestKey) : 0;
@@ -58,19 +75,19 @@ export function TopicsPage() {
     setPhase('results');
   };
 
+  const unitMap = topicsByUnitForTrack(track);
+
   const selectUnit = (unit: number) => {
-    const unitTopics = topicsByUnit().get(unit) ?? [];
+    const unitTopics = unitMap.get(unit) ?? [];
     setSelected(new Set(unitTopics.map((t) => t.id)));
   };
-
-  const unitMap = topicsByUnit();
 
   if (phase === 'game' && words.length >= 5) {
     return (
       <GameScreen
         key={`${gameSession}-${bestKey}-${direction}`}
         words={words}
-        settings={{ ...TOPIC_SETTINGS, direction }}
+        settings={TOPIC_SETTINGS}
         onComplete={handleComplete}
         onQuit={() => setPhase('pick')}
       />
@@ -93,7 +110,7 @@ export function TopicsPage() {
       <header className="topics-hero">
         <h1>Topics</h1>
         <p className="subtitle">
-          Follow the A1→B2 path by unit, or mix topics yourself. Greetings and basics come first — like Duolingo.
+          Follow the learning path by unit, or mix topics yourself. Greetings and basics come first.
         </p>
       </header>
 
@@ -112,17 +129,17 @@ export function TopicsPage() {
         <div className="toggle-row">
           <button
             type="button"
-            className={`toggle-btn ${direction === 'en-fr' ? 'active' : ''}`}
-            onClick={() => setDirection('en-fr')}
+            className={`toggle-btn ${direction === enPrimary ? 'active' : ''}`}
+            onClick={() => setDirection(enPrimary)}
           >
-            English → French
+            {track.enPrimaryLabel}
           </button>
           <button
             type="button"
-            className={`toggle-btn ${direction === 'fr-en' ? 'active' : ''}`}
-            onClick={() => setDirection('fr-en')}
+            className={`toggle-btn ${direction === primaryEn ? 'active' : ''}`}
+            onClick={() => setDirection(primaryEn)}
           >
-            French → English
+            {track.primaryEnLabel}
           </button>
         </div>
 

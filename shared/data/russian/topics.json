@@ -1,0 +1,1209 @@
+{
+  "topics": [
+    {
+      "id": "greetings",
+      "label": "Greetings",
+      "emoji": "👋",
+      "level": "A1",
+      "unit": 1,
+      "order": 1,
+      "frenchLabel": "Greetings",
+      "accent": "topic-greetings",
+      "description": "Russian vocabulary — greetings.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Russian words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "привет",
+          "english": "hello (informal)"
+        },
+        {
+          "id": 2,
+          "french": "здравствуйте",
+          "english": "hello (formal)"
+        },
+        {
+          "id": 3,
+          "french": "доброе утро",
+          "english": "good morning"
+        },
+        {
+          "id": 4,
+          "french": "добрый день",
+          "english": "good afternoon"
+        },
+        {
+          "id": 5,
+          "french": "добрый вечер",
+          "english": "good evening"
+        },
+        {
+          "id": 6,
+          "french": "до свидания",
+          "english": "goodbye (formal)"
+        },
+        {
+          "id": 7,
+          "french": "спасибо",
+          "english": "thank you"
+        },
+        {
+          "id": 8,
+          "french": "большое спасибо",
+          "english": "thank you very much"
+        },
+        {
+          "id": 9,
+          "french": "пожалуйста",
+          "english": "please / you are welcome"
+        },
+        {
+          "id": 10,
+          "french": "простите",
+          "english": "sorry"
+        },
+        {
+          "id": 11,
+          "french": "да",
+          "english": "yes"
+        },
+        {
+          "id": 12,
+          "french": "нет",
+          "english": "no"
+        },
+        {
+          "id": 13,
+          "french": "я не понимаю",
+          "english": "I do not understand"
+        },
+        {
+          "id": 14,
+          "french": "повторите, пожалуйста",
+          "english": "please repeat"
+        },
+        {
+          "id": 15,
+          "french": "я не знаю",
+          "english": "I do not know"
+        },
+        {
+          "id": 16,
+          "french": "помогите, пожалуйста",
+          "english": "please help"
+        },
+        {
+          "id": 17,
+          "french": "без проблем",
+          "english": "no problem"
+        },
+        {
+          "id": 18,
+          "french": "мне не нравится",
+          "english": "I do not like it"
+        }
+      ]
+    },
+    {
+      "id": "family",
+      "label": "Family",
+      "emoji": "👨‍👩‍👧",
+      "level": "A1",
+      "unit": 1,
+      "order": 2,
+      "frenchLabel": "Family",
+      "accent": "topic-family",
+      "description": "Russian vocabulary — family.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Russian words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "семья",
+          "english": "family"
+        },
+        {
+          "id": 2,
+          "french": "мать",
+          "english": "mother"
+        },
+        {
+          "id": 3,
+          "french": "отец",
+          "english": "father"
+        },
+        {
+          "id": 4,
+          "french": "дедушка",
+          "english": "grandfather"
+        },
+        {
+          "id": 5,
+          "french": "бабушка",
+          "english": "grandmother"
+        },
+        {
+          "id": 6,
+          "french": "брат",
+          "english": "brother"
+        },
+        {
+          "id": 7,
+          "french": "сестра",
+          "english": "sister"
+        },
+        {
+          "id": 8,
+          "french": "старший брат",
+          "english": "older brother"
+        },
+        {
+          "id": 9,
+          "french": "младший брат",
+          "english": "younger brother"
+        },
+        {
+          "id": 10,
+          "french": "старшая сестра",
+          "english": "older sister"
+        },
+        {
+          "id": 11,
+          "french": "младшая сестра",
+          "english": "younger sister"
+        },
+        {
+          "id": 12,
+          "french": "ребенок",
+          "english": "child"
+        },
+        {
+          "id": 13,
+          "french": "муж",
+          "english": "husband"
+        },
+        {
+          "id": 14,
+          "french": "жена",
+          "english": "wife"
+        },
+        {
+          "id": 15,
+          "french": "друг",
+          "english": "friend (male)"
+        },
+        {
+          "id": 16,
+          "french": "подруга",
+          "english": "friend (female)"
+        }
+      ]
+    },
+    {
+      "id": "numbers",
+      "label": "Numbers",
+      "emoji": "🔢",
+      "level": "A1",
+      "unit": 1,
+      "order": 3,
+      "frenchLabel": "Numbers",
+      "accent": "topic-numbers",
+      "description": "Russian vocabulary — numbers.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Russian words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "я слушаю",
+          "english": "I am listening"
+        },
+        {
+          "id": 2,
+          "french": "ноль",
+          "english": "zero"
+        },
+        {
+          "id": 3,
+          "french": "один",
+          "english": "one"
+        },
+        {
+          "id": 4,
+          "french": "два",
+          "english": "two"
+        },
+        {
+          "id": 5,
+          "french": "три",
+          "english": "three"
+        },
+        {
+          "id": 6,
+          "french": "десять",
+          "english": "ten"
+        },
+        {
+          "id": 7,
+          "french": "двадцать один",
+          "english": "twenty one"
+        },
+        {
+          "id": 8,
+          "french": "двадцать два",
+          "english": "twenty two"
+        },
+        {
+          "id": 9,
+          "french": "двадцать три",
+          "english": "twenty three"
+        },
+        {
+          "id": 10,
+          "french": "тридцать один",
+          "english": "thirty one"
+        },
+        {
+          "id": 11,
+          "french": "тридцать два",
+          "english": "thirty two"
+        },
+        {
+          "id": 12,
+          "french": "тридцать три",
+          "english": "thirty three"
+        },
+        {
+          "id": 13,
+          "french": "сорок один",
+          "english": "forty one"
+        },
+        {
+          "id": 14,
+          "french": "сорок два",
+          "english": "forty two"
+        },
+        {
+          "id": 15,
+          "french": "сорок три",
+          "english": "forty three"
+        },
+        {
+          "id": 16,
+          "french": "сто",
+          "english": "one hundred"
+        },
+        {
+          "id": 17,
+          "french": "первый",
+          "english": "first"
+        },
+        {
+          "id": 18,
+          "french": "мед",
+          "english": "honey"
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "label": "Food & drink",
+      "emoji": "🍽️",
+      "level": "A2",
+      "unit": 2,
+      "order": 4,
+      "frenchLabel": "Food & drink",
+      "accent": "topic-food",
+      "description": "Russian vocabulary — food & drink.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Russian words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "учитель",
+          "english": "teacher (male)"
+        },
+        {
+          "id": 2,
+          "french": "учительница",
+          "english": "teacher (female)"
+        },
+        {
+          "id": 3,
+          "french": "команда",
+          "english": "team"
+        },
+        {
+          "id": 4,
+          "french": "еда",
+          "english": "food"
+        },
+        {
+          "id": 5,
+          "french": "хлеб",
+          "english": "bread"
+        },
+        {
+          "id": 6,
+          "french": "вода",
+          "english": "water"
+        },
+        {
+          "id": 7,
+          "french": "чай",
+          "english": "tea"
+        },
+        {
+          "id": 8,
+          "french": "кофе",
+          "english": "coffee"
+        },
+        {
+          "id": 9,
+          "french": "мясо",
+          "english": "meat"
+        },
+        {
+          "id": 10,
+          "french": "яблоко",
+          "english": "apple"
+        },
+        {
+          "id": 11,
+          "french": "арбуз",
+          "english": "watermelon"
+        },
+        {
+          "id": 12,
+          "french": "учить",
+          "english": "to teach / learn"
+        },
+        {
+          "id": 13,
+          "french": "есть",
+          "english": "to eat"
+        },
+        {
+          "id": 14,
+          "french": "пить",
+          "english": "to drink"
+        },
+        {
+          "id": 15,
+          "french": "аккуратный",
+          "english": "neat"
+        }
+      ]
+    },
+    {
+      "id": "home",
+      "label": "Home",
+      "emoji": "🏠",
+      "level": "A2",
+      "unit": 2,
+      "order": 5,
+      "frenchLabel": "Home",
+      "accent": "topic-home",
+      "description": "Russian vocabulary — home.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Russian words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "номер",
+          "english": "hotel room"
+        },
+        {
+          "id": 2,
+          "french": "домашнее задание",
+          "english": "homework"
+        },
+        {
+          "id": 3,
+          "french": "печень",
+          "english": "liver"
+        },
+        {
+          "id": 4,
+          "french": "спокойной ночи",
+          "english": "good night"
+        },
+        {
+          "id": 5,
+          "french": "пока",
+          "english": "bye (informal)"
+        },
+        {
+          "id": 6,
+          "french": "увидимся",
+          "english": "see you"
+        },
+        {
+          "id": 7,
+          "french": "до встречи",
+          "english": "see you later"
+        },
+        {
+          "id": 8,
+          "french": "извините",
+          "english": "excuse me"
+        },
+        {
+          "id": 9,
+          "french": "может быть",
+          "english": "maybe"
+        },
+        {
+          "id": 10,
+          "french": "конечно",
+          "english": "of course"
+        },
+        {
+          "id": 11,
+          "french": "хорошо",
+          "english": "okay / good"
+        },
+        {
+          "id": 12,
+          "french": "я понимаю",
+          "english": "I understand"
+        },
+        {
+          "id": 13,
+          "french": "говорите медленнее",
+          "english": "speak more slowly"
+        },
+        {
+          "id": 14,
+          "french": "вы говорите по-русски",
+          "english": "do you speak Russian"
+        },
+        {
+          "id": 15,
+          "french": "вы говорите по-английски",
+          "english": "do you speak English"
+        }
+      ]
+    },
+    {
+      "id": "time",
+      "label": "Time & calendar",
+      "emoji": "🕐",
+      "level": "A2",
+      "unit": 2,
+      "order": 6,
+      "frenchLabel": "Time & calendar",
+      "accent": "topic-time",
+      "description": "Russian vocabulary — time & calendar.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Russian words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "до завтра",
+          "english": "see you tomorrow"
+        },
+        {
+          "id": 2,
+          "french": "рабочий день",
+          "english": "workday"
+        },
+        {
+          "id": 3,
+          "french": "рабочее время",
+          "english": "working hours"
+        },
+        {
+          "id": 4,
+          "french": "полный день",
+          "english": "full time"
+        },
+        {
+          "id": 5,
+          "french": "неполный день",
+          "english": "part time"
+        },
+        {
+          "id": 6,
+          "french": "время",
+          "english": "time"
+        },
+        {
+          "id": 7,
+          "french": "час",
+          "english": "hour"
+        },
+        {
+          "id": 8,
+          "french": "день",
+          "english": "day"
+        },
+        {
+          "id": 9,
+          "french": "неделя",
+          "english": "week"
+        },
+        {
+          "id": 10,
+          "french": "месяц",
+          "english": "month"
+        },
+        {
+          "id": 11,
+          "french": "год",
+          "english": "year"
+        },
+        {
+          "id": 12,
+          "french": "сегодня",
+          "english": "today"
+        },
+        {
+          "id": 13,
+          "french": "вчера",
+          "english": "yesterday"
+        },
+        {
+          "id": 14,
+          "french": "завтра",
+          "english": "tomorrow"
+        },
+        {
+          "id": 15,
+          "french": "днем",
+          "english": "in the daytime"
+        },
+        {
+          "id": 16,
+          "french": "иногда",
+          "english": "sometimes"
+        },
+        {
+          "id": 17,
+          "french": "понедельник",
+          "english": "Monday"
+        },
+        {
+          "id": 18,
+          "french": "вторник",
+          "english": "Tuesday"
+        }
+      ]
+    },
+    {
+      "id": "body",
+      "label": "Body & health",
+      "emoji": "🩺",
+      "level": "A2",
+      "unit": 3,
+      "order": 7,
+      "frenchLabel": "Body & health",
+      "accent": "topic-body",
+      "description": "Russian vocabulary — body & health.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Russian words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "врач",
+          "english": "doctor"
+        },
+        {
+          "id": 2,
+          "french": "голова",
+          "english": "head"
+        },
+        {
+          "id": 3,
+          "french": "глаз",
+          "english": "eye"
+        },
+        {
+          "id": 4,
+          "french": "рука",
+          "english": "arm / hand"
+        },
+        {
+          "id": 5,
+          "french": "сердце",
+          "english": "heart"
+        },
+        {
+          "id": 6,
+          "french": "боль",
+          "english": "pain"
+        },
+        {
+          "id": 7,
+          "french": "здоровье",
+          "english": "health"
+        },
+        {
+          "id": 8,
+          "french": "больница",
+          "english": "hospital"
+        },
+        {
+          "id": 9,
+          "french": "у меня болит голова",
+          "english": "I have a headache"
+        },
+        {
+          "id": 10,
+          "french": "меня зовут",
+          "english": "my name is"
+        },
+        {
+          "id": 11,
+          "french": "как дела",
+          "english": "how are you"
+        },
+        {
+          "id": 12,
+          "french": "все хорошо",
+          "english": "everything is fine"
+        },
+        {
+          "id": 13,
+          "french": "приятно познакомиться",
+          "english": "nice to meet you"
+        },
+        {
+          "id": 14,
+          "french": "откуда вы",
+          "english": "where are you from"
+        },
+        {
+          "id": 15,
+          "french": "я забыл",
+          "english": "I forgot"
+        }
+      ]
+    },
+    {
+      "id": "travel",
+      "label": "Travel",
+      "emoji": "✈️",
+      "level": "A2",
+      "unit": 3,
+      "order": 8,
+      "frenchLabel": "Travel",
+      "accent": "topic-travel",
+      "description": "Russian vocabulary — travel.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Russian words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "путешествие",
+          "english": "travel"
+        },
+        {
+          "id": 2,
+          "french": "дорога",
+          "english": "road"
+        },
+        {
+          "id": 3,
+          "french": "город",
+          "english": "city"
+        },
+        {
+          "id": 4,
+          "french": "аэропорт",
+          "english": "airport"
+        },
+        {
+          "id": 5,
+          "french": "билет",
+          "english": "ticket"
+        },
+        {
+          "id": 6,
+          "french": "поезд",
+          "english": "train"
+        },
+        {
+          "id": 7,
+          "french": "автобус",
+          "english": "bus"
+        },
+        {
+          "id": 8,
+          "french": "отель",
+          "english": "hotel"
+        },
+        {
+          "id": 9,
+          "french": "карта",
+          "english": "map"
+        },
+        {
+          "id": 10,
+          "french": "касса",
+          "english": "ticket office"
+        },
+        {
+          "id": 11,
+          "french": "билет в одну сторону",
+          "english": "one-way ticket"
+        },
+        {
+          "id": 12,
+          "french": "билет туда и обратно",
+          "english": "round-trip ticket"
+        },
+        {
+          "id": 13,
+          "french": "мне нужна помощь",
+          "english": "I need help"
+        },
+        {
+          "id": 14,
+          "french": "удачи",
+          "english": "good luck"
+        },
+        {
+          "id": 15,
+          "french": "поздравляю",
+          "english": "congratulations"
+        }
+      ]
+    },
+    {
+      "id": "work",
+      "label": "Work & study",
+      "emoji": "💼",
+      "level": "B1",
+      "unit": 4,
+      "order": 9,
+      "frenchLabel": "Work & study",
+      "accent": "topic-work",
+      "description": "Russian vocabulary — work & study.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Russian words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "работа",
+          "english": "work"
+        },
+        {
+          "id": 2,
+          "french": "офис",
+          "english": "office"
+        },
+        {
+          "id": 3,
+          "french": "компания",
+          "english": "company"
+        },
+        {
+          "id": 4,
+          "french": "учиться",
+          "english": "to study / learn"
+        },
+        {
+          "id": 5,
+          "french": "приятного аппетита",
+          "english": "enjoy your meal"
+        },
+        {
+          "id": 6,
+          "french": "берегите себя",
+          "english": "take care"
+        },
+        {
+          "id": 7,
+          "french": "счастливого пути",
+          "english": "have a good trip"
+        },
+        {
+          "id": 8,
+          "french": "я согласен",
+          "english": "I agree"
+        },
+        {
+          "id": 9,
+          "french": "я не согласен",
+          "english": "I disagree"
+        },
+        {
+          "id": 10,
+          "french": "мне нравится",
+          "english": "I like it"
+        },
+        {
+          "id": 11,
+          "french": "очень хорошо",
+          "english": "very good"
+        },
+        {
+          "id": 12,
+          "french": "очень плохо",
+          "english": "very bad"
+        },
+        {
+          "id": 13,
+          "french": "не важно",
+          "english": "it does not matter"
+        },
+        {
+          "id": 14,
+          "french": "подождите минуту",
+          "english": "wait a minute"
+        },
+        {
+          "id": 15,
+          "french": "не спешите",
+          "english": "do not hurry"
+        }
+      ]
+    },
+    {
+      "id": "city",
+      "label": "City life",
+      "emoji": "🏙️",
+      "level": "B1",
+      "unit": 4,
+      "order": 10,
+      "frenchLabel": "City life",
+      "accent": "topic-city",
+      "description": "Russian vocabulary — city life.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Russian words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "улица",
+          "english": "street"
+        },
+        {
+          "id": 2,
+          "french": "ответьте, пожалуйста",
+          "english": "please answer"
+        },
+        {
+          "id": 3,
+          "french": "сейчас",
+          "english": "right now"
+        },
+        {
+          "id": 4,
+          "french": "позже",
+          "english": "later"
+        },
+        {
+          "id": 5,
+          "french": "уже",
+          "english": "already"
+        },
+        {
+          "id": 6,
+          "french": "еще нет",
+          "english": "not yet"
+        },
+        {
+          "id": 7,
+          "french": "это верно",
+          "english": "that is correct"
+        },
+        {
+          "id": 8,
+          "french": "это неверно",
+          "english": "that is incorrect"
+        },
+        {
+          "id": 9,
+          "french": "возможно",
+          "english": "possible / perhaps"
+        },
+        {
+          "id": 10,
+          "french": "родители",
+          "english": "parents"
+        },
+        {
+          "id": 11,
+          "french": "мама",
+          "english": "mom"
+        },
+        {
+          "id": 12,
+          "french": "папа",
+          "english": "dad"
+        },
+        {
+          "id": 13,
+          "french": "сын",
+          "english": "son"
+        },
+        {
+          "id": 14,
+          "french": "дочь",
+          "english": "daughter"
+        },
+        {
+          "id": 15,
+          "french": "малыш",
+          "english": "baby"
+        }
+      ]
+    },
+    {
+      "id": "feelings",
+      "label": "Feelings",
+      "emoji": "💭",
+      "level": "B1",
+      "unit": 5,
+      "order": 11,
+      "frenchLabel": "Feelings",
+      "accent": "topic-feelings",
+      "description": "Russian vocabulary — feelings.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Russian words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "хотеть",
+          "english": "to want"
+        },
+        {
+          "id": 2,
+          "french": "любить",
+          "english": "to love"
+        },
+        {
+          "id": 3,
+          "french": "злиться",
+          "english": "to get angry"
+        },
+        {
+          "id": 4,
+          "french": "счастливый",
+          "english": "happy"
+        },
+        {
+          "id": 5,
+          "french": "грустный",
+          "english": "sad"
+        },
+        {
+          "id": 6,
+          "french": "злой",
+          "english": "angry"
+        },
+        {
+          "id": 7,
+          "french": "уставший",
+          "english": "tired"
+        },
+        {
+          "id": 8,
+          "french": "внук",
+          "english": "grandson"
+        },
+        {
+          "id": 9,
+          "french": "внучка",
+          "english": "granddaughter"
+        },
+        {
+          "id": 10,
+          "french": "супруг",
+          "english": "spouse (male)"
+        },
+        {
+          "id": 11,
+          "french": "супруга",
+          "english": "spouse (female)"
+        },
+        {
+          "id": 12,
+          "french": "родственник",
+          "english": "relative"
+        },
+        {
+          "id": 13,
+          "french": "дядя",
+          "english": "uncle"
+        },
+        {
+          "id": 14,
+          "french": "тетя",
+          "english": "aunt"
+        },
+        {
+          "id": 15,
+          "french": "двоюродный брат",
+          "english": "cousin (male)"
+        }
+      ]
+    },
+    {
+      "id": "verbs",
+      "label": "Essential verbs",
+      "emoji": "⚡",
+      "level": "B1",
+      "unit": 5,
+      "order": 12,
+      "frenchLabel": "Essential verbs",
+      "accent": "topic-verbs",
+      "description": "Russian vocabulary — essential verbs.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Russian words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "идите прямо",
+          "english": "go straight"
+        },
+        {
+          "id": 2,
+          "french": "отвезите меня сюда",
+          "english": "take me here"
+        },
+        {
+          "id": 3,
+          "french": "цель",
+          "english": "goal"
+        },
+        {
+          "id": 4,
+          "french": "знание",
+          "english": "knowledge"
+        },
+        {
+          "id": 5,
+          "french": "документ",
+          "english": "document"
+        },
+        {
+          "id": 6,
+          "french": "идти",
+          "english": "to go (on foot)"
+        },
+        {
+          "id": 7,
+          "french": "ходить",
+          "english": "to walk / go regularly"
+        },
+        {
+          "id": 8,
+          "french": "ехать",
+          "english": "to go by transport"
+        },
+        {
+          "id": 9,
+          "french": "приходить",
+          "english": "to come"
+        },
+        {
+          "id": 10,
+          "french": "лежать",
+          "english": "to lie down"
+        },
+        {
+          "id": 11,
+          "french": "делать",
+          "english": "to do"
+        },
+        {
+          "id": 12,
+          "french": "сделать",
+          "english": "to make / to do (perfective)"
+        },
+        {
+          "id": 13,
+          "french": "сказать",
+          "english": "to say"
+        },
+        {
+          "id": 14,
+          "french": "видеть",
+          "english": "to see"
+        },
+        {
+          "id": 15,
+          "french": "знать",
+          "english": "to know"
+        },
+        {
+          "id": 16,
+          "french": "брать",
+          "english": "to take"
+        },
+        {
+          "id": 17,
+          "french": "давать",
+          "english": "to give"
+        },
+        {
+          "id": 18,
+          "french": "думать",
+          "english": "to think"
+        }
+      ]
+    }
+  ]
+}

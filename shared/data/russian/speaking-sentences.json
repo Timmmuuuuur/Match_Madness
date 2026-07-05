@@ -1,0 +1,286 @@
+{
+  "meta": {
+    "subtitle": "Russian phrases for speaking practice — tap 🔊 to hear each line."
+  },
+  "sections": [
+    {
+      "id": "basics",
+      "label": "Basics",
+      "frenchLabel": "Основы",
+      "description": "Essential everyday phrases.",
+      "sentences": [
+        {
+          "id": 1,
+          "french": "привет",
+          "english": "hello (informal)"
+        },
+        {
+          "id": 2,
+          "french": "здравствуйте",
+          "english": "hello (formal)"
+        },
+        {
+          "id": 3,
+          "french": "доброе утро",
+          "english": "good morning"
+        },
+        {
+          "id": 4,
+          "french": "добрый день",
+          "english": "good afternoon"
+        },
+        {
+          "id": 5,
+          "french": "добрый вечер",
+          "english": "good evening"
+        },
+        {
+          "id": 6,
+          "french": "спокойной ночи",
+          "english": "good night"
+        },
+        {
+          "id": 7,
+          "french": "пока",
+          "english": "bye (informal)"
+        },
+        {
+          "id": 8,
+          "french": "до свидания",
+          "english": "goodbye (formal)"
+        },
+        {
+          "id": 9,
+          "french": "увидимся",
+          "english": "see you"
+        },
+        {
+          "id": 10,
+          "french": "до встречи",
+          "english": "see you later"
+        },
+        {
+          "id": 11,
+          "french": "спасибо",
+          "english": "thank you"
+        },
+        {
+          "id": 12,
+          "french": "большое спасибо",
+          "english": "thank you very much"
+        },
+        {
+          "id": 13,
+          "french": "пожалуйста",
+          "english": "please / you are welcome"
+        },
+        {
+          "id": 14,
+          "french": "извините",
+          "english": "excuse me"
+        },
+        {
+          "id": 15,
+          "french": "простите",
+          "english": "sorry"
+        },
+        {
+          "id": 16,
+          "french": "да",
+          "english": "yes"
+        },
+        {
+          "id": 17,
+          "french": "нет",
+          "english": "no"
+        },
+        {
+          "id": 18,
+          "french": "может быть",
+          "english": "maybe"
+        },
+        {
+          "id": 19,
+          "french": "конечно",
+          "english": "of course"
+        },
+        {
+          "id": 20,
+          "french": "хорошо",
+          "english": "okay / good"
+        },
+        {
+          "id": 21,
+          "french": "я понимаю",
+          "english": "I understand"
+        },
+        {
+          "id": 22,
+          "french": "я не понимаю",
+          "english": "I do not understand"
+        },
+        {
+          "id": 23,
+          "french": "повторите, пожалуйста",
+          "english": "please repeat"
+        },
+        {
+          "id": 24,
+          "french": "говорите медленнее",
+          "english": "speak more slowly"
+        },
+        {
+          "id": 25,
+          "french": "вы говорите по-русски",
+          "english": "do you speak Russian"
+        }
+      ]
+    },
+    {
+      "id": "questions",
+      "label": "Questions",
+      "frenchLabel": "Вопросы",
+      "description": "Asking for help, directions, and prices.",
+      "sentences": [
+        {
+          "id": 1,
+          "french": "Что это?",
+          "english": "What is this?"
+        },
+        {
+          "id": 2,
+          "french": "Где вы?",
+          "english": "Where are you?"
+        },
+        {
+          "id": 3,
+          "french": "Когда?",
+          "english": "When?"
+        },
+        {
+          "id": 4,
+          "french": "Почему?",
+          "english": "Why?"
+        },
+        {
+          "id": 5,
+          "french": "Кто?",
+          "english": "Who?"
+        },
+        {
+          "id": 6,
+          "french": "Как?",
+          "english": "How?"
+        }
+      ]
+    },
+    {
+      "id": "social",
+      "label": "Social",
+      "frenchLabel": "Общение",
+      "description": "Friendly conversation phrases.",
+      "sentences": [
+        {
+          "id": 1,
+          "french": "вы говорите по-английски",
+          "english": "do you speak English"
+        },
+        {
+          "id": 2,
+          "french": "меня зовут",
+          "english": "my name is"
+        },
+        {
+          "id": 3,
+          "french": "как дела",
+          "english": "how are you"
+        },
+        {
+          "id": 4,
+          "french": "все хорошо",
+          "english": "everything is fine"
+        },
+        {
+          "id": 5,
+          "french": "приятно познакомиться",
+          "english": "nice to meet you"
+        },
+        {
+          "id": 6,
+          "french": "откуда вы",
+          "english": "where are you from"
+        },
+        {
+          "id": 7,
+          "french": "я забыл",
+          "english": "I forgot"
+        },
+        {
+          "id": 8,
+          "french": "я не знаю",
+          "english": "I do not know"
+        },
+        {
+          "id": 9,
+          "french": "помогите, пожалуйста",
+          "english": "please help"
+        },
+        {
+          "id": 10,
+          "french": "мне нужна помощь",
+          "english": "I need help"
+        },
+        {
+          "id": 11,
+          "french": "без проблем",
+          "english": "no problem"
+        },
+        {
+          "id": 12,
+          "french": "удачи",
+          "english": "good luck"
+        },
+        {
+          "id": 13,
+          "french": "поздравляю",
+          "english": "congratulations"
+        },
+        {
+          "id": 14,
+          "french": "приятного аппетита",
+          "english": "enjoy your meal"
+        },
+        {
+          "id": 15,
+          "french": "берегите себя",
+          "english": "take care"
+        },
+        {
+          "id": 16,
+          "french": "до завтра",
+          "english": "see you tomorrow"
+        },
+        {
+          "id": 17,
+          "french": "счастливого пути",
+          "english": "have a good trip"
+        },
+        {
+          "id": 18,
+          "french": "я согласен",
+          "english": "I agree"
+        },
+        {
+          "id": 19,
+          "french": "я не согласен",
+          "english": "I disagree"
+        },
+        {
+          "id": 20,
+          "french": "мне нравится",
+          "english": "I like it"
+        }
+      ]
+    }
+  ]
+}

@@ -1,28 +1,39 @@
 import type { LearningTrack } from '@shared/types';
+import {
+  FRENCH_TRACK,
+  getTrackConfigFromPath,
+  KAZAKH_TRACK,
+  RUSSIAN_TRACK,
+  type LanguageTrackConfig,
+} from '@shared/trackRegistry';
 
 /** Detect track from app route (after base strip). */
 export function getTrackFromPath(path: string): LearningTrack | 'home' {
   if (path === '/' || path === '') return 'home';
   if (path === '/quran' || path.startsWith('/quran/')) return 'quran';
+  if (path === '/kazakh' || path.startsWith('/kazakh/')) return 'kazakh';
+  if (path === '/russian' || path.startsWith('/russian/')) return 'russian';
   if (path === '/french' || path.startsWith('/french/')) return 'french';
-  // Legacy French routes (pre-track split)
   return 'french';
 }
 
-/** True if path is the mode picker home. */
 export function isHomePath(path: string): boolean {
   return path === '/' || path === '';
 }
 
-/** Prefix path for a track (`/french/vocab`, `/quran/letters`). */
 export function trackPath(track: LearningTrack, sub = ''): string {
-  const base = track === 'french' ? '/french' : '/quran';
+  const bases: Record<LearningTrack, string> = {
+    french: '/french',
+    quran: '/quran',
+    kazakh: '/kazakh',
+    russian: '/russian',
+  };
+  const base = bases[track];
   if (!sub || sub === '/') return base;
   const clean = sub.startsWith('/') ? sub : `/${sub}`;
   return `${base}${clean}`;
 }
 
-/** Legacy French paths still work — map to same pages. */
 export const LEGACY_FRENCH_PATHS = [
   '/vocab', '/reading', '/breaking-bad', '/tef-tcf', '/speaking', '/topics',
   '/pronunciation', '/grammar',
@@ -34,21 +45,47 @@ export function isLegacyFrenchRoute(path: string): boolean {
   );
 }
 
-/** French match home: `/french` or legacy `/` when not home picker — handled in App. */
 export function isFrenchMatchHome(path: string): boolean {
   return path === '/french' || path === '/french/';
 }
 
-/** Sub-route within French track (`/vocab`, `/`, …). */
-export function frenchSubPath(path: string): string {
-  if (path === '/french' || path === '/french/') return '/';
-  if (path.startsWith('/french/')) return path.slice('/french'.length);
+export function languageSubPath(path: string, base: string): string {
+  if (path === base || path === `${base}/`) return '/';
+  if (path.startsWith(`${base}/`)) return path.slice(base.length);
   return path;
 }
 
-/** Sub-route within Quran track (`/letters`, `/`, …). */
-export function quranSubPath(path: string): string {
-  if (path === '/quran' || path === '/quran/') return '/';
-  if (path.startsWith('/quran/')) return path.slice('/quran'.length);
-  return '/';
+export function frenchSubPath(path: string): string {
+  return languageSubPath(path, '/french');
 }
+
+export function quranSubPath(path: string): string {
+  return languageSubPath(path, '/quran');
+}
+
+export function kazakhSubPath(path: string): string {
+  return languageSubPath(path, '/kazakh');
+}
+
+export function russianSubPath(path: string): string {
+  return languageSubPath(path, '/russian');
+}
+
+export function getTrackConfigForPath(path: string): LanguageTrackConfig {
+  return getTrackConfigFromPath(path) ?? FRENCH_TRACK;
+}
+
+export function subPathForTrack(path: string, track: LearningTrack): string {
+  switch (track) {
+    case 'quran':
+      return quranSubPath(path);
+    case 'kazakh':
+      return kazakhSubPath(path);
+    case 'russian':
+      return russianSubPath(path);
+    default:
+      return frenchSubPath(path);
+  }
+}
+
+export { FRENCH_TRACK, KAZAKH_TRACK, RUSSIAN_TRACK };

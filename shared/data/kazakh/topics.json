@@ -1,0 +1,1224 @@
+{
+  "topics": [
+    {
+      "id": "greetings",
+      "label": "Greetings",
+      "emoji": "👋",
+      "level": "A1",
+      "unit": 1,
+      "order": 1,
+      "frenchLabel": "Greetings",
+      "accent": "topic-greetings",
+      "description": "Kazakh vocabulary — greetings.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Kazakh words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "сәлем",
+          "english": "hello (informal)"
+        },
+        {
+          "id": 2,
+          "french": "сәлеметсіз бе",
+          "english": "hello (formal)"
+        },
+        {
+          "id": 3,
+          "french": "қайырлы таң",
+          "english": "good morning"
+        },
+        {
+          "id": 4,
+          "french": "қайырлы күн",
+          "english": "good afternoon"
+        },
+        {
+          "id": 5,
+          "french": "қайырлы кеш",
+          "english": "good evening"
+        },
+        {
+          "id": 6,
+          "french": "сау бол",
+          "english": "goodbye (informal)"
+        },
+        {
+          "id": 7,
+          "french": "сау болыңыз",
+          "english": "goodbye (formal)"
+        },
+        {
+          "id": 8,
+          "french": "рахмет",
+          "english": "thank you"
+        },
+        {
+          "id": 9,
+          "french": "көп рақмет",
+          "english": "thank you very much"
+        },
+        {
+          "id": 10,
+          "french": "өтінемін",
+          "english": "please"
+        },
+        {
+          "id": 11,
+          "french": "кешіріңізші",
+          "english": "sorry"
+        },
+        {
+          "id": 12,
+          "french": "иә",
+          "english": "yes"
+        },
+        {
+          "id": 13,
+          "french": "жоқ",
+          "english": "no"
+        },
+        {
+          "id": 14,
+          "french": "түсінбеймін",
+          "english": "I do not understand"
+        },
+        {
+          "id": 15,
+          "french": "қайталаңызшы",
+          "english": "please repeat"
+        },
+        {
+          "id": 16,
+          "french": "баяу сөйлеңізші",
+          "english": "please speak slowly"
+        },
+        {
+          "id": 17,
+          "french": "мен түсінбедім",
+          "english": "I did not understand"
+        },
+        {
+          "id": 18,
+          "french": "тағы бір рет айтыңызшы",
+          "english": "say it one more time please"
+        }
+      ]
+    },
+    {
+      "id": "family",
+      "label": "Family",
+      "emoji": "👨‍👩‍👧",
+      "level": "A1",
+      "unit": 1,
+      "order": 2,
+      "frenchLabel": "Family",
+      "accent": "topic-family",
+      "description": "Kazakh vocabulary — family.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Kazakh words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "отбасы",
+          "english": "family"
+        },
+        {
+          "id": 2,
+          "french": "ана",
+          "english": "mother"
+        },
+        {
+          "id": 3,
+          "french": "әке",
+          "english": "father"
+        },
+        {
+          "id": 4,
+          "french": "ата",
+          "english": "grandfather"
+        },
+        {
+          "id": 5,
+          "french": "әже",
+          "english": "grandmother"
+        },
+        {
+          "id": 6,
+          "french": "аға",
+          "english": "older brother"
+        },
+        {
+          "id": 7,
+          "french": "әпке",
+          "english": "older sister"
+        },
+        {
+          "id": 8,
+          "french": "іні",
+          "english": "younger brother"
+        },
+        {
+          "id": 9,
+          "french": "қарындас",
+          "english": "younger sister (for male speaker)"
+        },
+        {
+          "id": 10,
+          "french": "сіңлі",
+          "english": "younger sister (for female speaker)"
+        },
+        {
+          "id": 11,
+          "french": "бала",
+          "english": "child"
+        },
+        {
+          "id": 12,
+          "french": "немере",
+          "english": "grandchild"
+        },
+        {
+          "id": 13,
+          "french": "күйеу",
+          "english": "husband"
+        },
+        {
+          "id": 14,
+          "french": "әйел",
+          "english": "wife"
+        },
+        {
+          "id": 15,
+          "french": "дос",
+          "english": "friend"
+        },
+        {
+          "id": 16,
+          "french": "құрбы",
+          "english": "female friend"
+        }
+      ]
+    },
+    {
+      "id": "numbers",
+      "label": "Numbers",
+      "emoji": "🔢",
+      "level": "A1",
+      "unit": 1,
+      "order": 3,
+      "frenchLabel": "Numbers",
+      "accent": "topic-numbers",
+      "description": "Kazakh vocabulary — numbers.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Kazakh words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "тыңдап тұрмын",
+          "english": "I am listening"
+        },
+        {
+          "id": 2,
+          "french": "бір минут",
+          "english": "one minute"
+        },
+        {
+          "id": 3,
+          "french": "нөл",
+          "english": "zero"
+        },
+        {
+          "id": 4,
+          "french": "бір",
+          "english": "one"
+        },
+        {
+          "id": 5,
+          "french": "екі",
+          "english": "two"
+        },
+        {
+          "id": 6,
+          "french": "үш",
+          "english": "three"
+        },
+        {
+          "id": 7,
+          "french": "он",
+          "english": "ten"
+        },
+        {
+          "id": 8,
+          "french": "жиырма бір",
+          "english": "twenty one"
+        },
+        {
+          "id": 9,
+          "french": "жиырма екі",
+          "english": "twenty two"
+        },
+        {
+          "id": 10,
+          "french": "жиырма үш",
+          "english": "twenty three"
+        },
+        {
+          "id": 11,
+          "french": "отыз бір",
+          "english": "thirty one"
+        },
+        {
+          "id": 12,
+          "french": "отыз екі",
+          "english": "thirty two"
+        },
+        {
+          "id": 13,
+          "french": "отыз үш",
+          "english": "thirty three"
+        },
+        {
+          "id": 14,
+          "french": "қырық бір",
+          "english": "forty one"
+        },
+        {
+          "id": 15,
+          "french": "қырық екі",
+          "english": "forty two"
+        },
+        {
+          "id": 16,
+          "french": "қырық үш",
+          "english": "forty three"
+        },
+        {
+          "id": 17,
+          "french": "жүз",
+          "english": "one hundred"
+        },
+        {
+          "id": 18,
+          "french": "бірінші",
+          "english": "first"
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "label": "Food & drink",
+      "emoji": "🍽️",
+      "level": "A2",
+      "unit": 2,
+      "order": 4,
+      "frenchLabel": "Food & drink",
+      "accent": "topic-food",
+      "description": "Kazakh vocabulary — food & drink.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Kazakh words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "ұстаз",
+          "english": "teacher"
+        },
+        {
+          "id": 2,
+          "french": "мұғалім",
+          "english": "teacher"
+        },
+        {
+          "id": 3,
+          "french": "команда",
+          "english": "team"
+        },
+        {
+          "id": 4,
+          "french": "ас",
+          "english": "meal / food"
+        },
+        {
+          "id": 5,
+          "french": "тағам",
+          "english": "dish / food"
+        },
+        {
+          "id": 6,
+          "french": "нан",
+          "english": "bread"
+        },
+        {
+          "id": 7,
+          "french": "су",
+          "english": "water"
+        },
+        {
+          "id": 8,
+          "french": "шай",
+          "english": "tea"
+        },
+        {
+          "id": 9,
+          "french": "кофе",
+          "english": "coffee"
+        },
+        {
+          "id": 10,
+          "french": "айран",
+          "english": "kefir drink"
+        },
+        {
+          "id": 11,
+          "french": "ет",
+          "english": "meat"
+        },
+        {
+          "id": 12,
+          "french": "тауық еті",
+          "english": "chicken meat"
+        },
+        {
+          "id": 13,
+          "french": "алма",
+          "english": "apple"
+        },
+        {
+          "id": 14,
+          "french": "қарбыз",
+          "english": "watermelon"
+        },
+        {
+          "id": 15,
+          "french": "үйрету",
+          "english": "to teach"
+        },
+        {
+          "id": 16,
+          "french": "жеу",
+          "english": "to eat"
+        },
+        {
+          "id": 17,
+          "french": "ішу",
+          "english": "to drink"
+        },
+        {
+          "id": 18,
+          "french": "ұқыпты",
+          "english": "neat"
+        }
+      ]
+    },
+    {
+      "id": "home",
+      "label": "Home",
+      "emoji": "🏠",
+      "level": "A2",
+      "unit": 2,
+      "order": 5,
+      "frenchLabel": "Home",
+      "accent": "topic-home",
+      "description": "Kazakh vocabulary — home.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Kazakh words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "бөлме",
+          "english": "room"
+        },
+        {
+          "id": 2,
+          "french": "үй тапсырмасы",
+          "english": "homework"
+        },
+        {
+          "id": 3,
+          "french": "бауыр",
+          "english": "liver"
+        },
+        {
+          "id": 4,
+          "french": "тұру",
+          "english": "to stand / live"
+        },
+        {
+          "id": 5,
+          "french": "қайырлы түн",
+          "english": "good night"
+        },
+        {
+          "id": 6,
+          "french": "көріскенше",
+          "english": "see you"
+        },
+        {
+          "id": 7,
+          "french": "кездескенше",
+          "english": "see you later"
+        },
+        {
+          "id": 8,
+          "french": "оқасы жоқ",
+          "english": "you are welcome"
+        },
+        {
+          "id": 9,
+          "french": "кешіріңіз",
+          "english": "excuse me"
+        },
+        {
+          "id": 10,
+          "french": "мүмкін",
+          "english": "maybe"
+        },
+        {
+          "id": 11,
+          "french": "әрине",
+          "english": "of course"
+        },
+        {
+          "id": 12,
+          "french": "жарайды",
+          "english": "okay"
+        },
+        {
+          "id": 13,
+          "french": "түсінемін",
+          "english": "I understand"
+        },
+        {
+          "id": 14,
+          "french": "қазақша сөйлейсіз бе",
+          "english": "do you speak Kazakh"
+        },
+        {
+          "id": 15,
+          "french": "орысша сөйлейсіз бе",
+          "english": "do you speak Russian"
+        }
+      ]
+    },
+    {
+      "id": "time",
+      "label": "Time & calendar",
+      "emoji": "🕐",
+      "level": "A2",
+      "unit": 2,
+      "order": 6,
+      "frenchLabel": "Time & calendar",
+      "accent": "topic-time",
+      "description": "Kazakh vocabulary — time & calendar.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Kazakh words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "ертең көріскенше",
+          "english": "see you tomorrow"
+        },
+        {
+          "id": 2,
+          "french": "жұмыс күні",
+          "english": "workday"
+        },
+        {
+          "id": 3,
+          "french": "жұмыс уақыты",
+          "english": "working hours"
+        },
+        {
+          "id": 4,
+          "french": "толық уақыт",
+          "english": "full time"
+        },
+        {
+          "id": 5,
+          "french": "жартылай уақыт",
+          "english": "part time"
+        },
+        {
+          "id": 6,
+          "french": "уақыт",
+          "english": "time"
+        },
+        {
+          "id": 7,
+          "french": "сағат",
+          "english": "hour / clock"
+        },
+        {
+          "id": 8,
+          "french": "күн",
+          "english": "day / sun"
+        },
+        {
+          "id": 9,
+          "french": "апта",
+          "english": "week"
+        },
+        {
+          "id": 10,
+          "french": "ай",
+          "english": "month"
+        },
+        {
+          "id": 11,
+          "french": "жыл",
+          "english": "year"
+        },
+        {
+          "id": 12,
+          "french": "бүгін",
+          "english": "today"
+        },
+        {
+          "id": 13,
+          "french": "кеше",
+          "english": "yesterday"
+        },
+        {
+          "id": 14,
+          "french": "ертең",
+          "english": "tomorrow"
+        },
+        {
+          "id": 15,
+          "french": "кейде",
+          "english": "sometimes"
+        },
+        {
+          "id": 16,
+          "french": "дүйсенбі",
+          "english": "Monday"
+        },
+        {
+          "id": 17,
+          "french": "сейсенбі",
+          "english": "Tuesday"
+        },
+        {
+          "id": 18,
+          "french": "сәрсенбі",
+          "english": "Wednesday"
+        }
+      ]
+    },
+    {
+      "id": "body",
+      "label": "Body & health",
+      "emoji": "🩺",
+      "level": "A2",
+      "unit": 3,
+      "order": 7,
+      "frenchLabel": "Body & health",
+      "accent": "topic-body",
+      "description": "Kazakh vocabulary — body & health.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Kazakh words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "дәрігер",
+          "english": "doctor"
+        },
+        {
+          "id": 2,
+          "french": "бас",
+          "english": "head"
+        },
+        {
+          "id": 3,
+          "french": "көз",
+          "english": "eye"
+        },
+        {
+          "id": 4,
+          "french": "қол",
+          "english": "arm / hand"
+        },
+        {
+          "id": 5,
+          "french": "жүрек",
+          "english": "heart"
+        },
+        {
+          "id": 6,
+          "french": "ауру",
+          "english": "illness / pain"
+        },
+        {
+          "id": 7,
+          "french": "денсаулық",
+          "english": "health"
+        },
+        {
+          "id": 8,
+          "french": "аурухана",
+          "english": "hospital"
+        },
+        {
+          "id": 9,
+          "french": "басым ауырып тұр",
+          "english": "my head hurts"
+        },
+        {
+          "id": 10,
+          "french": "ағылшынша сөйлейсіз бе",
+          "english": "do you speak English"
+        },
+        {
+          "id": 11,
+          "french": "менің атым",
+          "english": "my name is"
+        },
+        {
+          "id": 12,
+          "french": "қалыңыз қалай",
+          "english": "how are you"
+        },
+        {
+          "id": 13,
+          "french": "жақсымын",
+          "english": "I am fine"
+        },
+        {
+          "id": 14,
+          "french": "танысқаныма қуаныштымын",
+          "english": "nice to meet you"
+        },
+        {
+          "id": 15,
+          "french": "қайдан келдіңіз",
+          "english": "where are you from"
+        }
+      ]
+    },
+    {
+      "id": "travel",
+      "label": "Travel",
+      "emoji": "✈️",
+      "level": "A2",
+      "unit": 3,
+      "order": 8,
+      "frenchLabel": "Travel",
+      "accent": "topic-travel",
+      "description": "Kazakh vocabulary — travel.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Kazakh words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "саяхат",
+          "english": "travel"
+        },
+        {
+          "id": 2,
+          "french": "жол",
+          "english": "road / way"
+        },
+        {
+          "id": 3,
+          "french": "қала",
+          "english": "city"
+        },
+        {
+          "id": 4,
+          "french": "әуежай",
+          "english": "airport"
+        },
+        {
+          "id": 5,
+          "french": "аялдама",
+          "english": "stop (bus stop)"
+        },
+        {
+          "id": 6,
+          "french": "билет",
+          "english": "ticket"
+        },
+        {
+          "id": 7,
+          "french": "пойыз",
+          "english": "train"
+        },
+        {
+          "id": 8,
+          "french": "автобус",
+          "english": "bus"
+        },
+        {
+          "id": 9,
+          "french": "қонақүй",
+          "english": "hotel"
+        },
+        {
+          "id": 10,
+          "french": "карта",
+          "english": "map"
+        },
+        {
+          "id": 11,
+          "french": "касса",
+          "english": "ticket office"
+        },
+        {
+          "id": 12,
+          "french": "бір жаққа билет",
+          "english": "one-way ticket"
+        },
+        {
+          "id": 13,
+          "french": "екі жаққа билет",
+          "english": "round-trip ticket"
+        },
+        {
+          "id": 14,
+          "french": "көмектесіңізші",
+          "english": "please help"
+        },
+        {
+          "id": 15,
+          "french": "маған көмек керек",
+          "english": "I need help"
+        }
+      ]
+    },
+    {
+      "id": "work",
+      "label": "Work & study",
+      "emoji": "💼",
+      "level": "B1",
+      "unit": 4,
+      "order": 9,
+      "frenchLabel": "Work & study",
+      "accent": "topic-work",
+      "description": "Kazakh vocabulary — work & study.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Kazakh words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "оқушы",
+          "english": "student (school)"
+        },
+        {
+          "id": 2,
+          "french": "студент",
+          "english": "student (college)"
+        },
+        {
+          "id": 3,
+          "french": "полиция қызметкері",
+          "english": "police officer"
+        },
+        {
+          "id": 4,
+          "french": "жұмыс",
+          "english": "work"
+        },
+        {
+          "id": 5,
+          "french": "кеңсе",
+          "english": "office"
+        },
+        {
+          "id": 6,
+          "french": "компания",
+          "english": "company"
+        },
+        {
+          "id": 7,
+          "french": "оқу",
+          "english": "to read / study"
+        },
+        {
+          "id": 8,
+          "french": "бәрі жақсы",
+          "english": "everything is good"
+        },
+        {
+          "id": 9,
+          "french": "ештеңе етпейді",
+          "english": "it is okay / no problem"
+        },
+        {
+          "id": 10,
+          "french": "сәттілік",
+          "english": "good luck"
+        },
+        {
+          "id": 11,
+          "french": "құтты болсын",
+          "english": "congratulations"
+        },
+        {
+          "id": 12,
+          "french": "ас болсын",
+          "english": "enjoy your meal"
+        },
+        {
+          "id": 13,
+          "french": "аман болыңыз",
+          "english": "stay well"
+        },
+        {
+          "id": 14,
+          "french": "жолыңыз болсын",
+          "english": "have a good trip"
+        },
+        {
+          "id": 15,
+          "french": "жауап беріңізші",
+          "english": "please answer"
+        }
+      ]
+    },
+    {
+      "id": "city",
+      "label": "City life",
+      "emoji": "🏙️",
+      "level": "B1",
+      "unit": 4,
+      "order": 10,
+      "frenchLabel": "City life",
+      "accent": "topic-city",
+      "description": "Kazakh vocabulary — city life.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Kazakh words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "көше",
+          "english": "street"
+        },
+        {
+          "id": 2,
+          "french": "мен келісемін",
+          "english": "I agree"
+        },
+        {
+          "id": 3,
+          "french": "мен келіспеймін",
+          "english": "I disagree"
+        },
+        {
+          "id": 4,
+          "french": "маған ұнайды",
+          "english": "I like it"
+        },
+        {
+          "id": 5,
+          "french": "маған ұнамайды",
+          "english": "I do not like it"
+        },
+        {
+          "id": 6,
+          "french": "өте жақсы",
+          "english": "very good"
+        },
+        {
+          "id": 7,
+          "french": "өте жаман",
+          "english": "very bad"
+        },
+        {
+          "id": 8,
+          "french": "білмеймін",
+          "english": "I do not know"
+        },
+        {
+          "id": 9,
+          "french": "мәселе жоқ",
+          "english": "no problem"
+        },
+        {
+          "id": 10,
+          "french": "аздап",
+          "english": "a little"
+        },
+        {
+          "id": 11,
+          "french": "дәл қазір",
+          "english": "right now"
+        },
+        {
+          "id": 12,
+          "french": "кейінірек",
+          "english": "later"
+        },
+        {
+          "id": 13,
+          "french": "асықпаңыз",
+          "english": "do not hurry"
+        },
+        {
+          "id": 14,
+          "french": "рақмет сізге",
+          "english": "thank you to you"
+        },
+        {
+          "id": 15,
+          "french": "ата-ана",
+          "english": "parents"
+        }
+      ]
+    },
+    {
+      "id": "feelings",
+      "label": "Feelings",
+      "emoji": "💭",
+      "level": "B1",
+      "unit": 5,
+      "order": 11,
+      "frenchLabel": "Feelings",
+      "accent": "topic-feelings",
+      "description": "Kazakh vocabulary — feelings.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Kazakh words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "қалау",
+          "english": "to want"
+        },
+        {
+          "id": 2,
+          "french": "жақсы көру",
+          "english": "to love"
+        },
+        {
+          "id": 3,
+          "french": "ашулану",
+          "english": "to get angry"
+        },
+        {
+          "id": 4,
+          "french": "бақытты",
+          "english": "happy"
+        },
+        {
+          "id": 5,
+          "french": "мұңды",
+          "english": "sad"
+        },
+        {
+          "id": 6,
+          "french": "ашулы",
+          "english": "angry"
+        },
+        {
+          "id": 7,
+          "french": "шаршаған",
+          "english": "tired"
+        },
+        {
+          "id": 8,
+          "french": "ұл",
+          "english": "son"
+        },
+        {
+          "id": 9,
+          "french": "қыз",
+          "english": "daughter"
+        },
+        {
+          "id": 10,
+          "french": "нәресте",
+          "english": "baby"
+        },
+        {
+          "id": 11,
+          "french": "жұбай",
+          "english": "spouse"
+        },
+        {
+          "id": 12,
+          "french": "ағайын",
+          "english": "relatives"
+        },
+        {
+          "id": 13,
+          "french": "туыс",
+          "english": "relative"
+        },
+        {
+          "id": 14,
+          "french": "көрші",
+          "english": "neighbor"
+        },
+        {
+          "id": 15,
+          "french": "қонақ",
+          "english": "guest"
+        }
+      ]
+    },
+    {
+      "id": "verbs",
+      "label": "Essential verbs",
+      "emoji": "⚡",
+      "level": "B1",
+      "unit": 5,
+      "order": 12,
+      "frenchLabel": "Essential verbs",
+      "accent": "topic-verbs",
+      "description": "Kazakh vocabulary — essential verbs.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Kazakh words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "бауырсақ",
+          "english": "fried dough"
+        },
+        {
+          "id": 2,
+          "french": "тура жүріңіз",
+          "english": "go straight"
+        },
+        {
+          "id": 3,
+          "french": "осы жерге апарыңыз",
+          "english": "take me to this place"
+        },
+        {
+          "id": 4,
+          "french": "мақсат",
+          "english": "goal"
+        },
+        {
+          "id": 5,
+          "french": "білім",
+          "english": "knowledge"
+        },
+        {
+          "id": 6,
+          "french": "құжат",
+          "english": "document"
+        },
+        {
+          "id": 7,
+          "french": "бару",
+          "english": "to go"
+        },
+        {
+          "id": 8,
+          "french": "келу",
+          "english": "to come"
+        },
+        {
+          "id": 9,
+          "french": "жүру",
+          "english": "to walk / to go"
+        },
+        {
+          "id": 10,
+          "french": "жату",
+          "english": "to lie down"
+        },
+        {
+          "id": 11,
+          "french": "істеу",
+          "english": "to do"
+        },
+        {
+          "id": 12,
+          "french": "жасау",
+          "english": "to make"
+        },
+        {
+          "id": 13,
+          "french": "айту",
+          "english": "to say"
+        },
+        {
+          "id": 14,
+          "french": "көру",
+          "english": "to see"
+        },
+        {
+          "id": 15,
+          "french": "білу",
+          "english": "to know"
+        },
+        {
+          "id": 16,
+          "french": "алу",
+          "english": "to take"
+        },
+        {
+          "id": 17,
+          "french": "беру",
+          "english": "to give"
+        },
+        {
+          "id": 18,
+          "french": "ойлау",
+          "english": "to think"
+        }
+      ]
+    }
+  ]
+}

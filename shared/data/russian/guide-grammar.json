@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "title": "Grammar",
+    "subtitle": "Russian cases, gender, verbs, and word order — with English notes.",
+    "accent": "sky"
+  },
+  "sections": [
+    {
+      "id": "intro",
+      "number": 1,
+      "title": "Overview",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Russian uses the Cyrillic alphabet and <strong>six cases</strong>. Nouns have gender (masculine, feminine, neuter) and adjectives agree with nouns."
+        },
+        {
+          "type": "callout",
+          "variant": "compare-en",
+          "text": "🇬🇧 English word order is mostly fixed (Subject–Verb–Object). Both Kazakh and Russian allow more flexible order because suffixes show grammatical roles."
+        }
+      ]
+    },
+    {
+      "id": "pronouns",
+      "number": 2,
+      "title": "Personal pronouns",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": [
+            "Russian",
+            "English"
+          ],
+          "rows": [
+            [
+              "я",
+              "I"
+            ],
+            [
+              "ты",
+              "you (informal)"
+            ],
+            [
+              "вы",
+              "you (formal/plural)"
+            ],
+            [
+              "он",
+              "he"
+            ],
+            [
+              "она",
+              "she"
+            ],
+            [
+              "мы",
+              "we"
+            ],
+            [
+              "они",
+              "they"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "questions",
+      "number": 3,
+      "title": "Questions & negation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Questions use question words (<em>кто, что, где, когда, почему, как</em>) or intonation. Negation uses <code>не</code> or <code>ни</code> depending on context."
+        },
+        {
+          "type": "example",
+          "fr": "Вы говорите по-русски?",
+          "en": "Do you speak Russian?"
+        }
+      ]
+    }
+  ]
+}

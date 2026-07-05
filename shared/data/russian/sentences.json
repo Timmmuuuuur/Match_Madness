@@ -1,0 +1,459 @@
+{
+  "meta": {
+    "size": 90,
+    "languagePair": "en-ru",
+    "level": "beginner-intermediate"
+  },
+  "sentences": [
+    {
+      "id": 1,
+      "french": "Привет.",
+      "english": "Hello (informal)."
+    },
+    {
+      "id": 2,
+      "french": "Здравствуйте.",
+      "english": "Hello (formal)."
+    },
+    {
+      "id": 3,
+      "french": "Доброе утро.",
+      "english": "Good morning."
+    },
+    {
+      "id": 4,
+      "french": "Добрый день.",
+      "english": "Good afternoon."
+    },
+    {
+      "id": 5,
+      "french": "Добрый вечер.",
+      "english": "Good evening."
+    },
+    {
+      "id": 6,
+      "french": "Спокойной ночи.",
+      "english": "Good night."
+    },
+    {
+      "id": 7,
+      "french": "Пока.",
+      "english": "Bye (informal)."
+    },
+    {
+      "id": 8,
+      "french": "До свидания.",
+      "english": "Goodbye (formal)."
+    },
+    {
+      "id": 9,
+      "french": "Увидимся.",
+      "english": "See you."
+    },
+    {
+      "id": 10,
+      "french": "До встречи.",
+      "english": "See you later."
+    },
+    {
+      "id": 11,
+      "french": "Спасибо.",
+      "english": "Thank you."
+    },
+    {
+      "id": 12,
+      "french": "Большое спасибо.",
+      "english": "Thank you very much."
+    },
+    {
+      "id": 13,
+      "french": "Пожалуйста.",
+      "english": "Please / you are welcome."
+    },
+    {
+      "id": 14,
+      "french": "Извините.",
+      "english": "Excuse me."
+    },
+    {
+      "id": 15,
+      "french": "Простите.",
+      "english": "Sorry."
+    },
+    {
+      "id": 16,
+      "french": "Да.",
+      "english": "Yes."
+    },
+    {
+      "id": 17,
+      "french": "Нет.",
+      "english": "No."
+    },
+    {
+      "id": 18,
+      "french": "Может быть.",
+      "english": "Maybe."
+    },
+    {
+      "id": 19,
+      "french": "Конечно.",
+      "english": "Of course."
+    },
+    {
+      "id": 20,
+      "french": "Хорошо.",
+      "english": "Okay / good."
+    },
+    {
+      "id": 21,
+      "french": "Я понимаю.",
+      "english": "I understand."
+    },
+    {
+      "id": 22,
+      "french": "Я не понимаю.",
+      "english": "I do not understand."
+    },
+    {
+      "id": 23,
+      "french": "Повторите, пожалуйста.",
+      "english": "Please repeat."
+    },
+    {
+      "id": 24,
+      "french": "Говорите медленнее.",
+      "english": "Speak more slowly."
+    },
+    {
+      "id": 25,
+      "french": "Вы говорите по-русски.",
+      "english": "Do you speak Russian."
+    },
+    {
+      "id": 26,
+      "french": "Вы говорите по-английски.",
+      "english": "Do you speak English."
+    },
+    {
+      "id": 27,
+      "french": "Меня зовут.",
+      "english": "My name is."
+    },
+    {
+      "id": 28,
+      "french": "Как дела.",
+      "english": "How are you."
+    },
+    {
+      "id": 29,
+      "french": "Все хорошо.",
+      "english": "Everything is fine."
+    },
+    {
+      "id": 30,
+      "french": "Приятно познакомиться.",
+      "english": "Nice to meet you."
+    },
+    {
+      "id": 31,
+      "french": "Откуда вы.",
+      "english": "Where are you from."
+    },
+    {
+      "id": 32,
+      "french": "Я забыл.",
+      "english": "I forgot."
+    },
+    {
+      "id": 33,
+      "french": "Я не знаю.",
+      "english": "I do not know."
+    },
+    {
+      "id": 34,
+      "french": "Помогите, пожалуйста.",
+      "english": "Please help."
+    },
+    {
+      "id": 35,
+      "french": "Мне нужна помощь.",
+      "english": "I need help."
+    },
+    {
+      "id": 36,
+      "french": "Без проблем.",
+      "english": "No problem."
+    },
+    {
+      "id": 37,
+      "french": "Удачи.",
+      "english": "Good luck."
+    },
+    {
+      "id": 38,
+      "french": "Поздравляю.",
+      "english": "Congratulations."
+    },
+    {
+      "id": 39,
+      "french": "Приятного аппетита.",
+      "english": "Enjoy your meal."
+    },
+    {
+      "id": 40,
+      "french": "Берегите себя.",
+      "english": "Take care."
+    },
+    {
+      "id": 41,
+      "french": "До завтра.",
+      "english": "See you tomorrow."
+    },
+    {
+      "id": 42,
+      "french": "Счастливого пути.",
+      "english": "Have a good trip."
+    },
+    {
+      "id": 43,
+      "french": "Я согласен.",
+      "english": "I agree."
+    },
+    {
+      "id": 44,
+      "french": "Я не согласен.",
+      "english": "I disagree."
+    },
+    {
+      "id": 45,
+      "french": "Мне нравится.",
+      "english": "I like it."
+    },
+    {
+      "id": 46,
+      "french": "Мне не нравится.",
+      "english": "I do not like it."
+    },
+    {
+      "id": 47,
+      "french": "Очень хорошо.",
+      "english": "Very good."
+    },
+    {
+      "id": 48,
+      "french": "Очень плохо.",
+      "english": "Very bad."
+    },
+    {
+      "id": 49,
+      "french": "Не важно.",
+      "english": "It does not matter."
+    },
+    {
+      "id": 50,
+      "french": "Подождите минуту.",
+      "english": "Wait a minute."
+    },
+    {
+      "id": 51,
+      "french": "Не спешите.",
+      "english": "Do not hurry."
+    },
+    {
+      "id": 52,
+      "french": "Я слушаю.",
+      "english": "I am listening."
+    },
+    {
+      "id": 53,
+      "french": "Ответьте, пожалуйста.",
+      "english": "Please answer."
+    },
+    {
+      "id": 54,
+      "french": "Сейчас.",
+      "english": "Right now."
+    },
+    {
+      "id": 55,
+      "french": "Позже.",
+      "english": "Later."
+    },
+    {
+      "id": 56,
+      "french": "Уже.",
+      "english": "Already."
+    },
+    {
+      "id": 57,
+      "french": "Еще нет.",
+      "english": "Not yet."
+    },
+    {
+      "id": 58,
+      "french": "Это верно.",
+      "english": "That is correct."
+    },
+    {
+      "id": 59,
+      "french": "Это неверно.",
+      "english": "That is incorrect."
+    },
+    {
+      "id": 60,
+      "french": "Возможно.",
+      "english": "Possible / perhaps."
+    },
+    {
+      "id": 61,
+      "french": "Семья.",
+      "english": "Family."
+    },
+    {
+      "id": 62,
+      "french": "Родители.",
+      "english": "Parents."
+    },
+    {
+      "id": 63,
+      "french": "Мать.",
+      "english": "Mother."
+    },
+    {
+      "id": 64,
+      "french": "Отец.",
+      "english": "Father."
+    },
+    {
+      "id": 65,
+      "french": "Мама.",
+      "english": "Mom."
+    },
+    {
+      "id": 66,
+      "french": "Папа.",
+      "english": "Dad."
+    },
+    {
+      "id": 67,
+      "french": "Дедушка.",
+      "english": "Grandfather."
+    },
+    {
+      "id": 68,
+      "french": "Бабушка.",
+      "english": "Grandmother."
+    },
+    {
+      "id": 69,
+      "french": "Брат.",
+      "english": "Brother."
+    },
+    {
+      "id": 70,
+      "french": "Сестра.",
+      "english": "Sister."
+    },
+    {
+      "id": 71,
+      "french": "Старший брат.",
+      "english": "Older brother."
+    },
+    {
+      "id": 72,
+      "french": "Младший брат.",
+      "english": "Younger brother."
+    },
+    {
+      "id": 73,
+      "french": "Старшая сестра.",
+      "english": "Older sister."
+    },
+    {
+      "id": 74,
+      "french": "Младшая сестра.",
+      "english": "Younger sister."
+    },
+    {
+      "id": 75,
+      "french": "Сын.",
+      "english": "Son."
+    },
+    {
+      "id": 76,
+      "french": "Дочь.",
+      "english": "Daughter."
+    },
+    {
+      "id": 77,
+      "french": "Ребенок.",
+      "english": "Child."
+    },
+    {
+      "id": 78,
+      "french": "Малыш.",
+      "english": "Baby."
+    },
+    {
+      "id": 79,
+      "french": "Внук.",
+      "english": "Grandson."
+    },
+    {
+      "id": 80,
+      "french": "Внучка.",
+      "english": "Granddaughter."
+    },
+    {
+      "id": 81,
+      "french": "Меня зовут Анна.",
+      "english": "My name is Anna."
+    },
+    {
+      "id": 82,
+      "french": "Где вы живёте?",
+      "english": "Where do you live?"
+    },
+    {
+      "id": 83,
+      "french": "Я студент.",
+      "english": "I am a student."
+    },
+    {
+      "id": 84,
+      "french": "Сколько это стоит?",
+      "english": "How much does this cost?"
+    },
+    {
+      "id": 85,
+      "french": "Добрый вечер.",
+      "english": "Good evening."
+    },
+    {
+      "id": 86,
+      "french": "Я немного говорю по-английски.",
+      "english": "I speak a little English."
+    },
+    {
+      "id": 87,
+      "french": "Помогите, пожалуйста!",
+      "english": "Help me, please!"
+    },
+    {
+      "id": 88,
+      "french": "Я устал.",
+      "english": "I am tired."
+    },
+    {
+      "id": 89,
+      "french": "До завтра.",
+      "english": "See you tomorrow."
+    },
+    {
+      "id": 90,
+      "french": "Это очень вкусно!",
+      "english": "This is very tasty!"
+    }
+  ]
+}

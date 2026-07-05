@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "title": "Sounds",
+    "subtitle": "Russian vowels, consonants, stress, and soft/hard pairs.",
+    "accent": "sky"
+  },
+  "sections": [
+    {
+      "id": "alphabet",
+      "number": 1,
+      "title": "Alphabet essentials",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Russian has 33 letters. Stress is unpredictable — always learn nouns with stress marked. Soft sign <strong>ь</strong> and hard sign <strong>ъ</strong> change pronunciation."
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "number": 2,
+      "title": "Pronunciation tips",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Reduce unstressed <em>o</em> and <em>a</em> (e.g. молоко → malako)",
+            "Practice soft л vs hard л",
+            "Palatalized consonants before е, ё, и, ю, я",
+            "Use 🔊 on every word in Vocab and Reading"
+          ]
+        }
+      ]
+    }
+  ]
+}

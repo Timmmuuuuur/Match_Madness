@@ -1,7 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
 import type { Direction, GameStats } from '@shared/types';
-import sentences from '@shared/data/sentences.json';
-import { calcMatchScore, shuffle } from '../lib/gameEngine';
+import { calcMatchScore, primaryLangFromDirection, shuffle } from '../lib/gameEngine';
+import { isEnglishFirst } from '../lib/matchLabels';
+import { useTrack } from '../context/TrackContext';
 import { ProgressBar } from './ProgressBar';
 import { GameToast } from './GameToast';
 import { useGameLayoutLock } from '../hooks/useGameLayoutLock';
@@ -23,7 +24,7 @@ interface SentenceTile {
   id: string;
   pairId: number;
   text: string;
-  language: 'french' | 'english';
+  language: 'french' | 'english' | 'kazakh' | 'russian' | 'arabic';
   side: 'left' | 'right';
 }
 
@@ -39,14 +40,15 @@ function pickNext<T extends { id: number }>(all: T[], used: Set<number>, onBoard
 }
 
 function buildColumns(pairs: Sentence[], direction: Direction) {
-  const frTiles: SentenceTile[] = shuffle(
-    pairs.map((p) => ({ id: `${p.id}-fr`, pairId: p.id, text: p.french, language: 'french' as const, side: 'right' as const })),
+  const primary = primaryLangFromDirection(direction);
+  const primaryTiles: SentenceTile[] = shuffle(
+    pairs.map((p) => ({ id: `${p.id}-primary`, pairId: p.id, text: p.french, language: primary, side: 'right' as const })),
   );
   const enTiles: SentenceTile[] = shuffle(
     pairs.map((p) => ({ id: `${p.id}-en`, pairId: p.id, text: p.english, language: 'english' as const, side: 'left' as const })),
   );
-  const left = direction === 'en-fr' ? enTiles : frTiles;
-  const right = direction === 'en-fr' ? frTiles : enTiles;
+  const left = isEnglishFirst(direction) ? enTiles : primaryTiles;
+  const right = isEnglishFirst(direction) ? primaryTiles : enTiles;
   left.forEach((t) => { t.side = 'left'; });
   right.forEach((t) => { t.side = 'right'; });
   const tileMap = new Map<string, SentenceTile>([...left, ...right].map((t) => [t.id, t]));
@@ -60,19 +62,20 @@ function replaceSentencePair(
   rightTiles: SentenceTile[],
   direction: Direction,
 ) {
-  const isEnFr = direction === 'en-fr';
+  const isEnFirst = isEnglishFirst(direction);
+  const primary = primaryLangFromDirection(direction);
   const newLeft: SentenceTile = {
-    id: `${newPair.id}-${isEnFr ? 'en' : 'fr'}`,
+    id: `${newPair.id}-${isEnFirst ? 'en' : 'primary'}`,
     pairId: newPair.id,
-    text: isEnFr ? newPair.english : newPair.french,
-    language: isEnFr ? 'english' : 'french',
+    text: isEnFirst ? newPair.english : newPair.french,
+    language: isEnFirst ? 'english' : primary,
     side: 'left',
   };
   const newRight: SentenceTile = {
-    id: `${newPair.id}-${isEnFr ? 'fr' : 'en'}`,
+    id: `${newPair.id}-${isEnFirst ? 'primary' : 'en'}`,
     pairId: newPair.id,
-    text: isEnFr ? newPair.french : newPair.english,
-    language: isEnFr ? 'french' : 'english',
+    text: isEnFirst ? newPair.french : newPair.english,
+    language: isEnFirst ? primary : 'english',
     side: 'right',
   };
   const newLeftTiles = leftTiles.map((t) => (t.pairId === pairId ? newLeft : t));
@@ -136,8 +139,8 @@ function SentenceTileButton({
 
 export function SentenceGameScreen({ direction, onComplete }: Props) {
   useGameLayoutLock();
-
-  const all = sentences.sentences as Sentence[];
+  const track = useTrack();
+  const all = track.sentences.sentences as Sentence[];
 
   const [score, setScore] = useState(0);
   const [streak, setStreak] = useState(0);

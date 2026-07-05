@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Breaking Bad — French (VF)",
-    "subtitle": "VF vocabulary — crime & chemistry plus the everyday slice-of-life: bills, family, car wash, school, and iconic lines.",
+    "subtitle": "VF vocabulary — crime & chemistry, plus real spoken French: fillers, slang, how people actually talk, bills, family, and iconic lines.",
     "source": "Breaking Bad VF — Arte/Netflix France dub; transcript refs: frenchdubs.miraheze.org, AlloDoublage",
     "showTitleFr": "Breaking Bad : Le Chimiste"
   },
@@ -938,6 +938,488 @@
           "exampleEn": "The neighbor is worried."
         }
       ]
+    },
+    {
+      "id": "oral-fillers",
+      "label": "Oral French & fillers",
+      "emoji": "💬",
+      "words": [
+        {
+          "french": "genre",
+          "english": "like / kind of (filler)",
+          "context": "very common in spoken French",
+          "exampleFr": "C'était genre, super bizarre.",
+          "exampleEn": "It was like, super weird."
+        },
+        {
+          "french": "ben",
+          "english": "well / uh (filler)",
+          "exampleFr": "Ben, je sais pas.",
+          "exampleEn": "Well, I don't know."
+        },
+        {
+          "french": "bah",
+          "english": "well / meh (filler)",
+          "exampleFr": "Bah, on verra.",
+          "exampleEn": "Well, we'll see."
+        },
+        {
+          "french": "quoi",
+          "english": "what / you know (tag)",
+          "context": "sentence tag",
+          "exampleFr": "C'est pas mal, quoi.",
+          "exampleEn": "It's not bad, you know."
+        },
+        {
+          "french": "enfin",
+          "english": "anyway / I mean",
+          "exampleFr": "Enfin, c'est pas grave.",
+          "exampleEn": "Anyway, it's no big deal."
+        },
+        {
+          "french": "bref",
+          "english": "long story short",
+          "exampleFr": "Bref, j'ai dit oui.",
+          "exampleEn": "Long story short, I said yes."
+        },
+        {
+          "french": "du coup",
+          "english": "so / as a result",
+          "exampleFr": "Du coup, on est partis.",
+          "exampleEn": "So we left."
+        },
+        {
+          "french": "en fait",
+          "english": "actually / in fact",
+          "exampleFr": "En fait, j'avais raison.",
+          "exampleEn": "Actually, I was right."
+        },
+        {
+          "french": "bon",
+          "english": "okay / well / right",
+          "exampleFr": "Bon, on y va ?",
+          "exampleEn": "Okay, shall we go?"
+        },
+        {
+          "french": "allez",
+          "english": "come on / go on",
+          "exampleFr": "Allez, dis-moi la vérité.",
+          "exampleEn": "Come on, tell me the truth."
+        },
+        {
+          "french": "voilà",
+          "english": "there you go / that's it",
+          "exampleFr": "Voilà, c'est fait.",
+          "exampleEn": "There you go, it's done."
+        },
+        {
+          "french": "tu vois",
+          "english": "you see / you know",
+          "exampleFr": "C'est compliqué, tu vois.",
+          "exampleEn": "It's complicated, you see."
+        },
+        {
+          "french": "je veux dire",
+          "english": "I mean",
+          "exampleFr": "C'est cher — je veux dire, trop cher.",
+          "exampleEn": "It's expensive — I mean, too expensive."
+        },
+        {
+          "french": "franchement",
+          "english": "honestly / frankly",
+          "exampleFr": "Franchement, j'en ai marre.",
+          "exampleEn": "Honestly, I'm fed up."
+        },
+        {
+          "french": "sérieux",
+          "english": "seriously? / for real",
+          "exampleFr": "Sérieux ? Tu plaisantes.",
+          "exampleEn": "Seriously? You're kidding."
+        }
+      ]
+    },
+    {
+      "id": "everyday-slang",
+      "label": "Everyday slang & casual words",
+      "emoji": "🗣️",
+      "words": [
+        {
+          "french": "truc",
+          "english": "thing / stuff",
+          "exampleFr": "Passe-moi ce truc.",
+          "exampleEn": "Hand me that thing."
+        },
+        {
+          "french": "machin",
+          "english": "thingy / whatsit",
+          "exampleFr": "Le machin là-bas.",
+          "exampleEn": "That thingy over there."
+        },
+        {
+          "french": "boulot",
+          "english": "work / job (casual)",
+          "exampleFr": "Je suis crevé du boulot.",
+          "exampleEn": "I'm wiped out from work."
+        },
+        {
+          "french": "bosser",
+          "english": "to work (casual)",
+          "exampleFr": "Je bosse tard ce soir.",
+          "exampleEn": "I'm working late tonight."
+        },
+        {
+          "french": "crever",
+          "english": "to be exhausted (casual)",
+          "exampleFr": "Je crève de fatigue.",
+          "exampleEn": "I'm dead tired."
+        },
+        {
+          "french": "flemme",
+          "english": "can't be bothered / laziness",
+          "exampleFr": "J'ai la flemme de sortir.",
+          "exampleEn": "I can't be bothered to go out."
+        },
+        {
+          "french": "ouais",
+          "english": "yeah (casual)",
+          "exampleFr": "Ouais, carrément.",
+          "exampleEn": "Yeah, totally."
+        },
+        {
+          "french": "nan",
+          "english": "nope / nah",
+          "exampleFr": "Nan, j'y crois pas.",
+          "exampleEn": "Nah, I don't believe it."
+        },
+        {
+          "french": "grave",
+          "english": "totally / seriously (youth)",
+          "context": "intensifier",
+          "exampleFr": "C'est grave bien.",
+          "exampleEn": "It's seriously good."
+        },
+        {
+          "french": "carrément",
+          "english": "totally / absolutely",
+          "exampleFr": "C'est carrément faux.",
+          "exampleEn": "That's totally wrong."
+        },
+        {
+          "french": "nul",
+          "english": "lame / rubbish",
+          "exampleFr": "Le film était nul.",
+          "exampleEn": "The film was rubbish."
+        },
+        {
+          "french": "cool",
+          "english": "cool",
+          "exampleFr": "C'est cool avec toi.",
+          "exampleEn": "It's cool with you."
+        },
+        {
+          "french": "sympa",
+          "english": "nice / friendly",
+          "exampleFr": "Il est super sympa.",
+          "exampleEn": "He's really nice."
+        },
+        {
+          "french": "relou",
+          "english": "annoying / a pain (slang)",
+          "exampleFr": "C'est relou ce truc.",
+          "exampleEn": "This thing is annoying."
+        },
+        {
+          "french": "chelou",
+          "english": "weird / sketchy (verlan)",
+          "exampleFr": "Y a un mec chelou dehors.",
+          "exampleEn": "There's a sketchy guy outside."
+        },
+        {
+          "french": "bourré",
+          "english": "drunk (casual)",
+          "exampleFr": "Il était bourré hier soir.",
+          "exampleEn": "He was drunk last night."
+        },
+        {
+          "french": "une tournée",
+          "english": "round (of drinks)",
+          "exampleFr": "C'est ma tournée.",
+          "exampleEn": "Drinks are on me."
+        },
+        {
+          "french": "un pote",
+          "english": "a mate / buddy",
+          "exampleFr": "Je sors avec mes potes.",
+          "exampleEn": "I'm going out with my mates."
+        },
+        {
+          "french": "une nana",
+          "english": "a girl / chick (casual)",
+          "exampleFr": "C'est une nana sympa.",
+          "exampleEn": "She's a nice girl."
+        },
+        {
+          "french": "un gars",
+          "english": "a guy",
+          "exampleFr": "C'est un gars bien.",
+          "exampleEn": "He's a good guy."
+        }
+      ]
+    },
+    {
+      "id": "how-people-talk",
+      "label": "How real people talk",
+      "emoji": "🤝",
+      "words": [
+        {
+          "french": "t'inquiète",
+          "english": "don't worry (short)",
+          "exampleFr": "T'inquiète, ça va aller.",
+          "exampleEn": "Don't worry, it'll be fine."
+        },
+        {
+          "french": "pas grave",
+          "english": "no worries / no big deal",
+          "exampleFr": "Pas grave, on rattrapera.",
+          "exampleEn": "No big deal, we'll catch up."
+        },
+        {
+          "french": "ça marche",
+          "english": "sounds good / deal",
+          "exampleFr": "Demain à dix heures ? — Ça marche.",
+          "exampleEn": "Tomorrow at ten? — Sounds good."
+        },
+        {
+          "french": "ça roule",
+          "english": "all good / sure thing",
+          "exampleFr": "On se voit ce soir ? — Ça roule.",
+          "exampleEn": "See you tonight? — Sure thing."
+        },
+        {
+          "french": "t'es où",
+          "english": "where are you (casual)",
+          "exampleFr": "T'es où ? J't'attends.",
+          "exampleEn": "Where are you? I'm waiting."
+        },
+        {
+          "french": "j'sais pas",
+          "english": "I dunno",
+          "exampleFr": "J'sais pas quoi faire.",
+          "exampleEn": "I dunno what to do."
+        },
+        {
+          "french": "j'vais",
+          "english": "I'm gonna",
+          "exampleFr": "J'vais pas tarder.",
+          "exampleEn": "I won't be long."
+        },
+        {
+          "french": "y'a",
+          "english": "there is / there are (spoken)",
+          "exampleFr": "Y'a personne.",
+          "exampleEn": "There's nobody."
+        },
+        {
+          "french": "c'est pas vrai",
+          "english": "no way / you're kidding",
+          "exampleFr": "C'est pas vrai !",
+          "exampleEn": "No way!"
+        },
+        {
+          "french": "t'as raison",
+          "english": "you're right",
+          "exampleFr": "T'as raison, faut partir.",
+          "exampleEn": "You're right, we need to leave."
+        },
+        {
+          "french": "laisse tomber",
+          "english": "forget it / drop it",
+          "exampleFr": "Laisse tomber, c'est fini.",
+          "exampleEn": "Forget it, it's over."
+        },
+        {
+          "french": "t'en fais pas",
+          "english": "don't worry about it",
+          "exampleFr": "T'en fais pas pour moi.",
+          "exampleEn": "Don't worry about me."
+        },
+        {
+          "french": "on se capte",
+          "english": "we'll catch up (slang)",
+          "exampleFr": "On se capte plus tard.",
+          "exampleEn": "We'll catch up later."
+        },
+        {
+          "french": "je te tiens au courant",
+          "english": "I'll keep you posted",
+          "exampleFr": "Je te tiens au courant.",
+          "exampleEn": "I'll keep you posted."
+        },
+        {
+          "french": "ça te dit",
+          "english": "fancy / up for it?",
+          "exampleFr": "Un ciné ce soir, ça te dit ?",
+          "exampleEn": "Fancy a movie tonight?"
+        },
+        {
+          "french": "j'en peux plus",
+          "english": "I can't take it anymore",
+          "exampleFr": "J'en peux plus, là.",
+          "exampleEn": "I can't take it anymore."
+        },
+        {
+          "french": "c'est la honte",
+          "english": "how embarrassing",
+          "exampleFr": "C'est la honte devant tout le monde.",
+          "exampleEn": "So embarrassing in front of everyone."
+        },
+        {
+          "french": "trop bien",
+          "english": "so good / awesome",
+          "exampleFr": "C'était trop bien !",
+          "exampleEn": "It was awesome!"
+        },
+        {
+          "french": "pas mal",
+          "english": "not bad / pretty good",
+          "exampleFr": "Pas mal, ton idée.",
+          "exampleEn": "Not bad, your idea."
+        },
+        {
+          "french": "on verra bien",
+          "english": "we'll see",
+          "exampleFr": "On verra bien demain.",
+          "exampleEn": "We'll see tomorrow."
+        }
+      ]
+    },
+    {
+      "id": "argot-street-real",
+      "label": "Street & real-life argot",
+      "emoji": "🏙️",
+      "words": [
+        {
+          "french": "fric",
+          "english": "cash / dough",
+          "exampleFr": "J'ai plus de fric.",
+          "exampleEn": "I'm out of cash."
+        },
+        {
+          "french": "thune",
+          "english": "money (slang)",
+          "exampleFr": "Ça coûte une blinde en thune.",
+          "exampleEn": "It costs a fortune."
+        },
+        {
+          "french": "une blinde",
+          "english": "a fortune / loads",
+          "exampleFr": "Y a une blinde de monde.",
+          "exampleEn": "There are loads of people."
+        },
+        {
+          "french": "se faire avoir",
+          "english": "to get ripped off / fooled",
+          "exampleFr": "On s'est fait avoir.",
+          "exampleEn": "We got ripped off."
+        },
+        {
+          "french": "arnaque",
+          "english": "scam / rip-off",
+          "exampleFr": "C'est une arnaque.",
+          "exampleEn": "It's a scam."
+        },
+        {
+          "french": "flic",
+          "english": "cop (slang)",
+          "exampleFr": "Y a les flics dans le coin.",
+          "exampleEn": "There are cops around."
+        },
+        {
+          "french": "poulet",
+          "english": "cop (slang)",
+          "exampleFr": "Attention au poulet.",
+          "exampleEn": "Watch out for the cops."
+        },
+        {
+          "french": "se barrer",
+          "english": "to split / get out of here",
+          "exampleFr": "Faut se barrer, vite.",
+          "exampleEn": "We need to get out of here, fast."
+        },
+        {
+          "french": "se taire",
+          "english": "to shut up",
+          "exampleFr": "Tais-toi / ferme-la.",
+          "exampleEn": "Shut up."
+        },
+        {
+          "french": "ferme-la",
+          "english": "shut it (rude)",
+          "exampleFr": "Ferme-la, Jesse.",
+          "exampleEn": "Shut it, Jesse."
+        },
+        {
+          "french": "ta gueule",
+          "english": "shut your mouth (very rude)",
+          "context": "VF heated scenes",
+          "exampleFr": "Ta gueule !",
+          "exampleEn": "Shut your mouth!"
+        },
+        {
+          "french": "emmerder",
+          "english": "to annoy / bother",
+          "exampleFr": "Arrête de m'emmerder.",
+          "exampleEn": "Stop bothering me."
+        },
+        {
+          "french": "en avoir marre",
+          "english": "to be fed up",
+          "exampleFr": "J'en ai marre de mentir.",
+          "exampleEn": "I'm fed up with lying."
+        },
+        {
+          "french": "flipper",
+          "english": "to freak out (slang)",
+          "exampleFr": "Ça me fait flipper.",
+          "exampleEn": "It freaks me out."
+        },
+        {
+          "french": "péter un câble",
+          "english": "to lose it / snap",
+          "exampleFr": "Il a pété un câble.",
+          "exampleEn": "He lost it."
+        },
+        {
+          "french": "se prendre la tête",
+          "english": "to stress / overthink",
+          "exampleFr": "Arrête de te prendre la tête.",
+          "exampleEn": "Stop stressing about it."
+        },
+        {
+          "french": "un type",
+          "english": "a guy / bloke",
+          "exampleFr": "Un type est passé hier.",
+          "exampleEn": "Some guy came by yesterday."
+        },
+        {
+          "french": "un mec louche",
+          "english": "a shady guy",
+          "exampleFr": "Y avait un mec louche.",
+          "exampleEn": "There was a shady guy."
+        },
+        {
+          "french": "planter",
+          "english": "to ditch / stand someone up",
+          "exampleFr": "Il m'a planté au resto.",
+          "exampleEn": "He stood me up at the restaurant."
+        },
+        {
+          "french": "se faire la malle",
+          "english": "to do a runner / skip town",
+          "exampleFr": "Il s'est fait la malle.",
+          "exampleEn": "He skipped town."
+        }
+      ]
     }
   ],
   "iconicQuotes": [
@@ -1006,6 +1488,36 @@
       "english": "I need some air.",
       "speaker": "Jesse",
       "note": "Emotional / everyday"
+    },
+    {
+      "french": "T'inquiète, mec.",
+      "english": "Don't worry, dude.",
+      "speaker": "Jesse",
+      "note": "Casual spoken VF"
+    },
+    {
+      "french": "Du coup, on fait quoi ?",
+      "english": "So what do we do?",
+      "speaker": "Jesse",
+      "note": "Everyday oral French"
+    },
+    {
+      "french": "Franchement, j'en ai marre.",
+      "english": "Honestly, I'm fed up.",
+      "speaker": "Skyler",
+      "note": "Real frustration register"
+    },
+    {
+      "french": "Pas grave, on se débrouille.",
+      "english": "No big deal, we'll manage.",
+      "speaker": "Walt",
+      "note": "Casual reassurance"
+    },
+    {
+      "french": "Ça roule ?",
+      "english": "All good? / You okay?",
+      "speaker": "Jesse",
+      "note": "Street-casual check-in"
     }
   ]
 }
