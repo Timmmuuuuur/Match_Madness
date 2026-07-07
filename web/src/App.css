@@ -169,31 +169,30 @@ body.game-active .app-shell {
 }
 
 .game-screen .tile-column {
+  grid-auto-rows: 88px;
   gap: 10px;
   overflow: visible;
 }
 
 .game-screen .tile {
-  min-height: 88px;
-  height: auto;
-  max-height: none;
+  height: 88px;
   padding: 14px 10px;
   border-radius: 16px;
   font-size: 1.2rem;
   font-weight: 800;
   border-width: 2.5px;
   box-sizing: border-box;
-  flex-shrink: 0;
   justify-content: center;
   text-align: center;
   color: var(--text);
   touch-action: manipulation;
   -webkit-tap-highlight-color: transparent;
   cursor: pointer;
+  overflow: hidden;
 }
 
 .game-screen .tile-arabic {
-  min-height: 92px;
+  height: 88px;
 }
 
 .game-screen .tile-arabic .tile-line {
@@ -666,16 +665,14 @@ body.game-active .app-shell {
 }
 
 .tile-column {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-auto-rows: 72px;
   gap: 10px;
 }
 
 .tile {
   width: 100%;
-  min-height: 72px;
-  height: auto;
-  max-height: none;
+  height: 72px;
   padding: 14px 12px;
   border-radius: 14px;
   border: 2px solid var(--border);
