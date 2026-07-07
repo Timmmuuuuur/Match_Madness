@@ -26,6 +26,14 @@ const TRACKS = [
     accent: 'track-russian',
   },
   {
+    id: 'korean',
+    href: '/korean',
+    emoji: '🇰🇷',
+    title: 'Korean',
+    subtitle: 'Match game, topics, vocab, reading, speaking, grammar & pronunciation — Hangul Korean.',
+    accent: 'track-korean',
+  },
+  {
     id: 'quran',
     href: '/quran',
     emoji: '📖',

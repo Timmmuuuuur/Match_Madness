@@ -3,6 +3,7 @@ import {
   FRENCH_TRACK,
   getTrackConfigFromPath,
   KAZAKH_TRACK,
+  KOREAN_TRACK,
   RUSSIAN_TRACK,
   type LanguageTrackConfig,
 } from '@shared/trackRegistry';
@@ -13,6 +14,7 @@ export function getTrackFromPath(path: string): LearningTrack | 'home' {
   if (path === '/quran' || path.startsWith('/quran/')) return 'quran';
   if (path === '/kazakh' || path.startsWith('/kazakh/')) return 'kazakh';
   if (path === '/russian' || path.startsWith('/russian/')) return 'russian';
+  if (path === '/korean' || path.startsWith('/korean/')) return 'korean';
   if (path === '/french' || path.startsWith('/french/')) return 'french';
   return 'french';
 }
@@ -27,6 +29,7 @@ export function trackPath(track: LearningTrack, sub = ''): string {
     quran: '/quran',
     kazakh: '/kazakh',
     russian: '/russian',
+    korean: '/korean',
   };
   const base = bases[track];
   if (!sub || sub === '/') return base;
@@ -71,6 +74,10 @@ export function russianSubPath(path: string): string {
   return languageSubPath(path, '/russian');
 }
 
+export function koreanSubPath(path: string): string {
+  return languageSubPath(path, '/korean');
+}
+
 export function getTrackConfigForPath(path: string): LanguageTrackConfig {
   return getTrackConfigFromPath(path) ?? FRENCH_TRACK;
 }
@@ -83,9 +90,11 @@ export function subPathForTrack(path: string, track: LearningTrack): string {
       return kazakhSubPath(path);
     case 'russian':
       return russianSubPath(path);
+    case 'korean':
+      return koreanSubPath(path);
     default:
       return frenchSubPath(path);
   }
 }
 
-export { FRENCH_TRACK, KAZAKH_TRACK, RUSSIAN_TRACK };
+export { FRENCH_TRACK, KAZAKH_TRACK, RUSSIAN_TRACK, KOREAN_TRACK };

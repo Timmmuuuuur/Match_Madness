@@ -1,0 +1,484 @@
+{
+  "meta": {
+    "size": 95,
+    "languagePair": "en-ko",
+    "level": "beginner-intermediate"
+  },
+  "sentences": [
+    {
+      "id": 1,
+      "french": "안녕.",
+      "english": "Hello (informal)."
+    },
+    {
+      "id": 2,
+      "french": "안녕하세요.",
+      "english": "Hello (formal)."
+    },
+    {
+      "id": 3,
+      "french": "안녕하십니까.",
+      "english": "Hello (very formal)."
+    },
+    {
+      "id": 4,
+      "french": "좋은 아침이에요.",
+      "english": "Good morning."
+    },
+    {
+      "id": 5,
+      "french": "좋은 오후예요.",
+      "english": "Good afternoon."
+    },
+    {
+      "id": 6,
+      "french": "좋은 저녁이에요.",
+      "english": "Good evening."
+    },
+    {
+      "id": 7,
+      "french": "잘 자요.",
+      "english": "Good night."
+    },
+    {
+      "id": 8,
+      "french": "안녕히 가세요.",
+      "english": "Goodbye (to person leaving)."
+    },
+    {
+      "id": 9,
+      "french": "안녕히 계세요.",
+      "english": "Goodbye (to person staying)."
+    },
+    {
+      "id": 10,
+      "french": "오랜만이에요.",
+      "english": "Long time no see."
+    },
+    {
+      "id": 11,
+      "french": "감사합니다.",
+      "english": "Thank you."
+    },
+    {
+      "id": 12,
+      "french": "고마워요.",
+      "english": "Thanks."
+    },
+    {
+      "id": 13,
+      "french": "정말 감사합니다.",
+      "english": "Thank you very much."
+    },
+    {
+      "id": 14,
+      "french": "천만에요.",
+      "english": "You are welcome."
+    },
+    {
+      "id": 15,
+      "french": "실례합니다.",
+      "english": "Excuse me."
+    },
+    {
+      "id": 16,
+      "french": "죄송합니다.",
+      "english": "I am sorry."
+    },
+    {
+      "id": 17,
+      "french": "미안해요.",
+      "english": "Sorry."
+    },
+    {
+      "id": 18,
+      "french": "괜찮아요.",
+      "english": "It is okay."
+    },
+    {
+      "id": 19,
+      "french": "네.",
+      "english": "Yes."
+    },
+    {
+      "id": 20,
+      "french": "아니요.",
+      "english": "No."
+    },
+    {
+      "id": 21,
+      "french": "아니에요.",
+      "english": "That is not right."
+    },
+    {
+      "id": 22,
+      "french": "모르겠어요.",
+      "english": "I do not know."
+    },
+    {
+      "id": 23,
+      "french": "이해 못했어요.",
+      "english": "I did not understand."
+    },
+    {
+      "id": 24,
+      "french": "다시 말씀해 주세요.",
+      "english": "Please say it again."
+    },
+    {
+      "id": 25,
+      "french": "천천히 말씀해 주세요.",
+      "english": "Please speak slowly."
+    },
+    {
+      "id": 26,
+      "french": "도와주세요.",
+      "english": "Please help me."
+    },
+    {
+      "id": 27,
+      "french": "잘 부탁드립니다.",
+      "english": "Please take care of me."
+    },
+    {
+      "id": 28,
+      "french": "부탁해요.",
+      "english": "Please (request)."
+    },
+    {
+      "id": 29,
+      "french": "기다려 주세요.",
+      "english": "Please wait."
+    },
+    {
+      "id": 30,
+      "french": "아직.",
+      "english": "Not yet."
+    },
+    {
+      "id": 31,
+      "french": "별로예요.",
+      "english": "Not really."
+    },
+    {
+      "id": 32,
+      "french": "상관없어요.",
+      "english": "It does not matter."
+    },
+    {
+      "id": 33,
+      "french": "문제없어요.",
+      "english": "No problem."
+    },
+    {
+      "id": 34,
+      "french": "반갑습니다.",
+      "english": "Pleased to meet you."
+    },
+    {
+      "id": 35,
+      "french": "잘 부탁해요.",
+      "english": "Please treat me well."
+    },
+    {
+      "id": 36,
+      "french": "여보세요.",
+      "english": "Hello (on the phone)."
+    },
+    {
+      "id": 37,
+      "french": "여기요.",
+      "english": "Excuse me (to call staff)."
+    },
+    {
+      "id": 38,
+      "french": "저기요.",
+      "english": "Excuse me (to get attention)."
+    },
+    {
+      "id": 39,
+      "french": "확인해 주세요.",
+      "english": "Please check."
+    },
+    {
+      "id": 40,
+      "french": "아이.",
+      "english": "Child."
+    },
+    {
+      "id": 41,
+      "french": "요리사.",
+      "english": "Cook."
+    },
+    {
+      "id": 42,
+      "french": "어린이.",
+      "english": "Young child."
+    },
+    {
+      "id": 43,
+      "french": "일.",
+      "english": "One (Sino Korean)."
+    },
+    {
+      "id": 44,
+      "french": "이.",
+      "english": "Two (Sino Korean)."
+    },
+    {
+      "id": 45,
+      "french": "삼.",
+      "english": "Three (Sino Korean)."
+    },
+    {
+      "id": 46,
+      "french": "사.",
+      "english": "Four (Sino Korean)."
+    },
+    {
+      "id": 47,
+      "french": "오.",
+      "english": "Five (Sino Korean)."
+    },
+    {
+      "id": 48,
+      "french": "육.",
+      "english": "Six (Sino Korean)."
+    },
+    {
+      "id": 49,
+      "french": "칠.",
+      "english": "Seven (Sino Korean)."
+    },
+    {
+      "id": 50,
+      "french": "팔.",
+      "english": "Eight (Sino Korean)."
+    },
+    {
+      "id": 51,
+      "french": "구.",
+      "english": "Nine (Sino Korean)."
+    },
+    {
+      "id": 52,
+      "french": "십.",
+      "english": "Ten (Sino Korean)."
+    },
+    {
+      "id": 53,
+      "french": "서른.",
+      "english": "Thirty (native Korean)."
+    },
+    {
+      "id": 54,
+      "french": "셋째.",
+      "english": "Third."
+    },
+    {
+      "id": 55,
+      "french": "분.",
+      "english": "Minute; honorific person counter."
+    },
+    {
+      "id": 56,
+      "french": "권.",
+      "english": "Book counter."
+    },
+    {
+      "id": 57,
+      "french": "대.",
+      "english": "Machine or vehicle counter."
+    },
+    {
+      "id": 58,
+      "french": "어제.",
+      "english": "Yesterday."
+    },
+    {
+      "id": 59,
+      "french": "정오.",
+      "english": "Noon."
+    },
+    {
+      "id": 60,
+      "french": "밥.",
+      "english": "Cooked rice; meal."
+    },
+    {
+      "id": 61,
+      "french": "김치.",
+      "english": "Kimchi."
+    },
+    {
+      "id": 62,
+      "french": "떡볶이.",
+      "english": "Tteokbokki."
+    },
+    {
+      "id": 63,
+      "french": "냉면.",
+      "english": "Cold noodles."
+    },
+    {
+      "id": 64,
+      "french": "김치찌개.",
+      "english": "Kimchi stew."
+    },
+    {
+      "id": 65,
+      "french": "삼계탕.",
+      "english": "Ginseng chicken soup."
+    },
+    {
+      "id": 66,
+      "french": "칼국수.",
+      "english": "Knife cut noodle soup."
+    },
+    {
+      "id": 67,
+      "french": "라면.",
+      "english": "Ramyeon instant noodles."
+    },
+    {
+      "id": 68,
+      "french": "우동.",
+      "english": "Udon noodles."
+    },
+    {
+      "id": 69,
+      "french": "짜장면.",
+      "english": "Black bean noodles."
+    },
+    {
+      "id": 70,
+      "french": "짬뽕.",
+      "english": "Spicy seafood noodles."
+    },
+    {
+      "id": 71,
+      "french": "치킨.",
+      "english": "Fried chicken."
+    },
+    {
+      "id": 72,
+      "french": "쿠키.",
+      "english": "Cookie."
+    },
+    {
+      "id": 73,
+      "french": "고속도로.",
+      "english": "Highway."
+    },
+    {
+      "id": 74,
+      "french": "북쪽.",
+      "english": "North."
+    },
+    {
+      "id": 75,
+      "french": "사찰.",
+      "english": "Buddhist temple."
+    },
+    {
+      "id": 76,
+      "french": "채용.",
+      "english": "Hiring."
+    },
+    {
+      "id": 77,
+      "french": "노트.",
+      "english": "Notebook."
+    },
+    {
+      "id": 78,
+      "french": "공책.",
+      "english": "Exercise notebook."
+    },
+    {
+      "id": 79,
+      "french": "역사.",
+      "english": "History."
+    },
+    {
+      "id": 80,
+      "french": "경제.",
+      "english": "Economics."
+    },
+    {
+      "id": 81,
+      "french": "제 이름은 지민이에요.",
+      "english": "My name is Jimin."
+    },
+    {
+      "id": 82,
+      "french": "어디에 사세요?",
+      "english": "Where do you live?"
+    },
+    {
+      "id": 83,
+      "french": "저는 학생이에요.",
+      "english": "I am a student."
+    },
+    {
+      "id": 84,
+      "french": "이것은 얼마예요?",
+      "english": "How much does this cost?"
+    },
+    {
+      "id": 85,
+      "french": "안녕히 주무세요.",
+      "english": "Good night."
+    },
+    {
+      "id": 86,
+      "french": "저는 영어를 조금 해요.",
+      "english": "I speak a little English."
+    },
+    {
+      "id": 87,
+      "french": "도와주세요!",
+      "english": "Help me, please!"
+    },
+    {
+      "id": 88,
+      "french": "저는 피곤해요.",
+      "english": "I am tired."
+    },
+    {
+      "id": 89,
+      "french": "내일 봐요.",
+      "english": "See you tomorrow."
+    },
+    {
+      "id": 90,
+      "french": "정말 맛있어요!",
+      "english": "This is very tasty!"
+    },
+    {
+      "id": 91,
+      "french": "한국은 제 고향이에요.",
+      "english": "Korea is my homeland."
+    },
+    {
+      "id": 92,
+      "french": "저는 커피를 좋아해요.",
+      "english": "I like coffee."
+    },
+    {
+      "id": 93,
+      "french": "그녀는 대학교에서 공부해요.",
+      "english": "She studies at university."
+    },
+    {
+      "id": 94,
+      "french": "우리는 공원에 산책하러 갔어요.",
+      "english": "We went for a walk in the park."
+    },
+    {
+      "id": 95,
+      "french": "지금 몇 시예요?",
+      "english": "What time is it?"
+    }
+  ]
+}

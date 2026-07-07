@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Grammar",
-    "subtitle": "Russian cases, gender, verbs, and word order — with English notes.",
+    "subtitle": "Russian cases, gender, verb conjugation, and word order — with English notes.",
     "accent": "sky"
   },
   "sections": [
@@ -12,54 +12,218 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Russian uses the Cyrillic alphabet and <strong>six cases</strong>. Nouns have gender (masculine, feminine, neuter) and adjectives agree with nouns."
+          "text": "Russian uses the Cyrillic alphabet and has <strong>six cases</strong>. Nouns carry grammatical gender (masculine, feminine, neuter) and adjectives agree with nouns in gender, number, and case."
         },
         {
           "type": "callout",
           "variant": "compare-en",
-          "text": "🇬🇧 English word order is mostly fixed (Subject–Verb–Object). Both Kazakh and Russian allow more flexible order because suffixes show grammatical roles."
+          "text": "🇬🇧 English relies on word order. Russian uses case endings, so word order is flexible: <em>Я вижу кошку</em> and <em>Кошку я вижу</em> both mean \"I see the cat\"."
+        }
+      ]
+    },
+    {
+      "id": "gender",
+      "number": 2,
+      "title": "Noun gender",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Most nouns ending in a consonant are <strong>masculine</strong>; in <em>-а/-я</em> are <strong>feminine</strong>; in <em>-о/-е</em> are <strong>neuter</strong>. There are exceptions — learn gender with each noun."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Gender",
+            "Ending",
+            "Example",
+            "English"
+          ],
+          "rows": [
+            [
+              "Masculine",
+              "consonant",
+              "стол",
+              "table"
+            ],
+            [
+              "Feminine",
+              "-а / -я",
+              "книга",
+              "book"
+            ],
+            [
+              "Neuter",
+              "-о / -е",
+              "окно",
+              "window"
+            ],
+            [
+              "Exceptions",
+              "varies",
+              "путь (м), мать (ж)",
+              "path, mother"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cases",
+      "number": 3,
+      "title": "The six cases",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": [
+            "Case",
+            "Use",
+            "Question",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Nominative",
+              "subject",
+              "кто? что?",
+              "Книга (the book)"
+            ],
+            [
+              "Accusative",
+              "direct object",
+              "кого? что?",
+              "Читаю книгу"
+            ],
+            [
+              "Genitive",
+              "of / absence / quantity",
+              "кого? чего?",
+              "Нет книги (no book)"
+            ],
+            [
+              "Dative",
+              "to / for",
+              "кому? чему?",
+              "Дал книге (gave to the book)"
+            ],
+            [
+              "Instrumental",
+              "with / by means of",
+              "кем? чем?",
+              "С книгой (with the book)"
+            ],
+            [
+              "Prepositional",
+              "about / location",
+              "о ком? о чём?",
+              "О книге (about the book)"
+            ]
+          ]
         }
       ]
     },
     {
       "id": "pronouns",
-      "number": 2,
+      "number": 4,
       "title": "Personal pronouns",
       "blocks": [
         {
           "type": "table",
           "headers": [
             "Russian",
-            "English"
+            "English",
+            "Formal?"
           ],
           "rows": [
             [
               "я",
-              "I"
+              "I",
+              ""
             ],
             [
               "ты",
-              "you (informal)"
+              "you",
+              "informal"
             ],
             [
               "вы",
-              "you (formal/plural)"
+              "you",
+              "formal or plural"
             ],
             [
               "он",
-              "he"
+              "he",
+              ""
             ],
             [
               "она",
-              "she"
+              "she",
+              ""
+            ],
+            [
+              "оно",
+              "it",
+              ""
             ],
             [
               "мы",
-              "we"
+              "we",
+              ""
             ],
             [
               "они",
-              "they"
+              "they",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs",
+      "number": 5,
+      "title": "Verb conjugation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Russian verbs have two conjugation patterns. <strong>Type 1</strong> (-ать/-ять endings in infinitive) and <strong>Type 2</strong> (-ить/-еть). Learn the я and ты forms first."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Person",
+            "читать (to read)",
+            "говорить (to speak)"
+          ],
+          "rows": [
+            [
+              "я",
+              "читаю",
+              "говорю"
+            ],
+            [
+              "ты",
+              "читаешь",
+              "говоришь"
+            ],
+            [
+              "он/она",
+              "читает",
+              "говорит"
+            ],
+            [
+              "мы",
+              "читаем",
+              "говорим"
+            ],
+            [
+              "вы",
+              "читаете",
+              "говорите"
+            ],
+            [
+              "они",
+              "читают",
+              "говорят"
             ]
           ]
         }
@@ -67,17 +231,27 @@
     },
     {
       "id": "questions",
-      "number": 3,
+      "number": 6,
       "title": "Questions & negation",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Questions use question words (<em>кто, что, где, когда, почему, как</em>) or intonation. Negation uses <code>не</code> or <code>ни</code> depending on context."
+          "text": "Yes/no questions use rising intonation (no word change needed). Question words: <em>кто</em> (who), <em>что</em> (what), <em>где</em> (where), <em>куда</em> (where to), <em>когда</em> (when), <em>почему</em> (why), <em>как</em> (how), <em>сколько</em> (how much/many)."
         },
         {
           "type": "example",
           "fr": "Вы говорите по-русски?",
           "en": "Do you speak Russian?"
+        },
+        {
+          "type": "example",
+          "fr": "Я не говорю по-русски.",
+          "en": "I do not speak Russian."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Negation: place <strong>не</strong> directly before the verb: <em>Я не знаю</em> (I don't know). Double negatives are standard: <em>Никто ничего не знает</em> (Nobody knows anything)."
         }
       ]
     }

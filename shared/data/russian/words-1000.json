@@ -3,7 +3,7 @@
     "size": 530,
     "targetSize": 1000,
     "languagePair": "en-ru",
-    "source": "Curated Russian frequency list"
+    "source": "Curated Russian — learning-progression order"
   },
   "words": [
     {
@@ -48,2608 +48,2608 @@
     },
     {
       "id": 9,
-      "french": "увидимся",
-      "english": "see you"
-    },
-    {
-      "id": 10,
-      "french": "до встречи",
-      "english": "see you later"
-    },
-    {
-      "id": 11,
       "french": "спасибо",
       "english": "thank you"
     },
     {
-      "id": 12,
+      "id": 10,
       "french": "большое спасибо",
       "english": "thank you very much"
     },
     {
-      "id": 13,
+      "id": 11,
       "french": "пожалуйста",
       "english": "please / you are welcome"
     },
     {
-      "id": 14,
+      "id": 12,
       "french": "извините",
       "english": "excuse me"
     },
     {
-      "id": 15,
+      "id": 13,
       "french": "простите",
       "english": "sorry"
     },
     {
-      "id": 16,
+      "id": 14,
       "french": "да",
       "english": "yes"
     },
     {
-      "id": 17,
+      "id": 15,
       "french": "нет",
       "english": "no"
     },
     {
-      "id": 18,
-      "french": "может быть",
-      "english": "maybe"
-    },
-    {
-      "id": 19,
-      "french": "конечно",
-      "english": "of course"
-    },
-    {
-      "id": 20,
+      "id": 16,
       "french": "хорошо",
       "english": "okay / good"
     },
     {
-      "id": 21,
-      "french": "я понимаю",
-      "english": "I understand"
-    },
-    {
-      "id": 22,
+      "id": 17,
       "french": "я не понимаю",
       "english": "I do not understand"
     },
     {
-      "id": 23,
+      "id": 18,
       "french": "повторите, пожалуйста",
       "english": "please repeat"
     },
     {
-      "id": 24,
-      "french": "говорите медленнее",
-      "english": "speak more slowly"
-    },
-    {
-      "id": 25,
-      "french": "вы говорите по-русски",
-      "english": "do you speak Russian"
-    },
-    {
-      "id": 26,
-      "french": "вы говорите по-английски",
-      "english": "do you speak English"
-    },
-    {
-      "id": 27,
-      "french": "меня зовут",
-      "english": "my name is"
-    },
-    {
-      "id": 28,
-      "french": "как дела",
-      "english": "how are you"
-    },
-    {
-      "id": 29,
+      "id": 19,
       "french": "все хорошо",
       "english": "everything is fine"
     },
     {
-      "id": 30,
-      "french": "приятно познакомиться",
-      "english": "nice to meet you"
-    },
-    {
-      "id": 31,
-      "french": "откуда вы",
-      "english": "where are you from"
-    },
-    {
-      "id": 32,
-      "french": "я забыл",
-      "english": "I forgot"
-    },
-    {
-      "id": 33,
+      "id": 20,
       "french": "я не знаю",
       "english": "I do not know"
     },
     {
-      "id": 34,
+      "id": 21,
       "french": "помогите, пожалуйста",
       "english": "please help"
     },
     {
-      "id": 35,
-      "french": "мне нужна помощь",
-      "english": "I need help"
-    },
-    {
-      "id": 36,
+      "id": 22,
       "french": "без проблем",
       "english": "no problem"
     },
     {
-      "id": 37,
-      "french": "удачи",
-      "english": "good luck"
-    },
-    {
-      "id": 38,
-      "french": "поздравляю",
-      "english": "congratulations"
-    },
-    {
-      "id": 39,
-      "french": "приятного аппетита",
-      "english": "enjoy your meal"
-    },
-    {
-      "id": 40,
-      "french": "берегите себя",
-      "english": "take care"
-    },
-    {
-      "id": 41,
-      "french": "до завтра",
-      "english": "see you tomorrow"
-    },
-    {
-      "id": 42,
-      "french": "счастливого пути",
-      "english": "have a good trip"
-    },
-    {
-      "id": 43,
-      "french": "я согласен",
-      "english": "I agree"
-    },
-    {
-      "id": 44,
-      "french": "я не согласен",
-      "english": "I disagree"
-    },
-    {
-      "id": 45,
-      "french": "мне нравится",
-      "english": "I like it"
-    },
-    {
-      "id": 46,
+      "id": 23,
       "french": "мне не нравится",
       "english": "I do not like it"
     },
     {
-      "id": 47,
-      "french": "очень хорошо",
-      "english": "very good"
-    },
-    {
-      "id": 48,
-      "french": "очень плохо",
-      "english": "very bad"
-    },
-    {
-      "id": 49,
+      "id": 24,
       "french": "не важно",
       "english": "it does not matter"
     },
     {
-      "id": 50,
-      "french": "подождите минуту",
-      "english": "wait a minute"
-    },
-    {
-      "id": 51,
+      "id": 25,
       "french": "не спешите",
       "english": "do not hurry"
     },
     {
-      "id": 52,
-      "french": "я слушаю",
-      "english": "I am listening"
-    },
-    {
-      "id": 53,
+      "id": 26,
       "french": "ответьте, пожалуйста",
       "english": "please answer"
     },
     {
-      "id": 54,
+      "id": 27,
       "french": "сейчас",
       "english": "right now"
     },
     {
-      "id": 55,
-      "french": "позже",
-      "english": "later"
-    },
-    {
-      "id": 56,
-      "french": "уже",
-      "english": "already"
-    },
-    {
-      "id": 57,
+      "id": 28,
       "french": "еще нет",
       "english": "not yet"
     },
     {
-      "id": 58,
-      "french": "это верно",
-      "english": "that is correct"
-    },
-    {
-      "id": 59,
-      "french": "это неверно",
-      "english": "that is incorrect"
-    },
-    {
-      "id": 60,
-      "french": "возможно",
-      "english": "possible / perhaps"
-    },
-    {
-      "id": 61,
-      "french": "семья",
-      "english": "family"
-    },
-    {
-      "id": 62,
-      "french": "родители",
-      "english": "parents"
-    },
-    {
-      "id": 63,
-      "french": "мать",
-      "english": "mother"
-    },
-    {
-      "id": 64,
-      "french": "отец",
-      "english": "father"
-    },
-    {
-      "id": 65,
-      "french": "мама",
-      "english": "mom"
-    },
-    {
-      "id": 66,
-      "french": "папа",
-      "english": "dad"
-    },
-    {
-      "id": 67,
-      "french": "дедушка",
-      "english": "grandfather"
-    },
-    {
-      "id": 68,
-      "french": "бабушка",
-      "english": "grandmother"
-    },
-    {
-      "id": 69,
-      "french": "брат",
-      "english": "brother"
-    },
-    {
-      "id": 70,
-      "french": "сестра",
-      "english": "sister"
-    },
-    {
-      "id": 71,
-      "french": "старший брат",
-      "english": "older brother"
-    },
-    {
-      "id": 72,
-      "french": "младший брат",
-      "english": "younger brother"
-    },
-    {
-      "id": 73,
-      "french": "старшая сестра",
-      "english": "older sister"
-    },
-    {
-      "id": 74,
-      "french": "младшая сестра",
-      "english": "younger sister"
-    },
-    {
-      "id": 75,
-      "french": "сын",
-      "english": "son"
-    },
-    {
-      "id": 76,
-      "french": "дочь",
-      "english": "daughter"
-    },
-    {
-      "id": 77,
+      "id": 29,
       "french": "ребенок",
       "english": "child"
     },
     {
-      "id": 78,
-      "french": "малыш",
-      "english": "baby"
-    },
-    {
-      "id": 79,
-      "french": "внук",
-      "english": "grandson"
-    },
-    {
-      "id": 80,
-      "french": "внучка",
-      "english": "granddaughter"
-    },
-    {
-      "id": 81,
-      "french": "муж",
-      "english": "husband"
-    },
-    {
-      "id": 82,
-      "french": "жена",
-      "english": "wife"
-    },
-    {
-      "id": 83,
-      "french": "супруг",
-      "english": "spouse (male)"
-    },
-    {
-      "id": 84,
-      "french": "супруга",
-      "english": "spouse (female)"
-    },
-    {
-      "id": 85,
-      "french": "родственник",
-      "english": "relative"
-    },
-    {
-      "id": 86,
-      "french": "дядя",
-      "english": "uncle"
-    },
-    {
-      "id": 87,
-      "french": "тетя",
-      "english": "aunt"
-    },
-    {
-      "id": 88,
-      "french": "двоюродный брат",
-      "english": "cousin (male)"
-    },
-    {
-      "id": 89,
-      "french": "двоюродная сестра",
-      "english": "cousin (female)"
-    },
-    {
-      "id": 90,
-      "french": "друг",
-      "english": "friend (male)"
-    },
-    {
-      "id": 91,
-      "french": "подруга",
-      "english": "friend (female)"
-    },
-    {
-      "id": 92,
-      "french": "сосед",
-      "english": "neighbor (male)"
-    },
-    {
-      "id": 93,
-      "french": "соседка",
-      "english": "neighbor (female)"
-    },
-    {
-      "id": 94,
-      "french": "гость",
-      "english": "guest (male)"
-    },
-    {
-      "id": 95,
-      "french": "гостья",
-      "english": "guest (female)"
-    },
-    {
-      "id": 96,
-      "french": "учитель",
-      "english": "teacher (male)"
-    },
-    {
-      "id": 97,
-      "french": "учительница",
-      "english": "teacher (female)"
-    },
-    {
-      "id": 98,
-      "french": "врач",
-      "english": "doctor"
-    },
-    {
-      "id": 99,
-      "french": "инженер",
-      "english": "engineer"
-    },
-    {
-      "id": 100,
+      "id": 30,
       "french": "повар",
       "english": "cook"
     },
     {
-      "id": 101,
-      "french": "водитель",
-      "english": "driver"
-    },
-    {
-      "id": 102,
-      "french": "продавец",
-      "english": "seller"
-    },
-    {
-      "id": 103,
-      "french": "клиент",
-      "english": "client"
-    },
-    {
-      "id": 104,
-      "french": "коллега",
-      "english": "colleague"
-    },
-    {
-      "id": 105,
-      "french": "начальник",
-      "english": "boss"
-    },
-    {
-      "id": 106,
-      "french": "сотрудник",
-      "english": "employee"
-    },
-    {
-      "id": 107,
-      "french": "команда",
-      "english": "team"
-    },
-    {
-      "id": 108,
-      "french": "ноль",
-      "english": "zero"
-    },
-    {
-      "id": 109,
-      "french": "один",
-      "english": "one"
-    },
-    {
-      "id": 110,
-      "french": "два",
-      "english": "two"
-    },
-    {
-      "id": 111,
-      "french": "три",
-      "english": "three"
-    },
-    {
-      "id": 112,
-      "french": "четыре",
-      "english": "four"
-    },
-    {
-      "id": 113,
-      "french": "пять",
-      "english": "five"
-    },
-    {
-      "id": 114,
-      "french": "шесть",
-      "english": "six"
-    },
-    {
-      "id": 115,
-      "french": "семь",
-      "english": "seven"
-    },
-    {
-      "id": 116,
-      "french": "восемь",
-      "english": "eight"
-    },
-    {
-      "id": 117,
-      "french": "девять",
-      "english": "nine"
-    },
-    {
-      "id": 118,
-      "french": "десять",
-      "english": "ten"
-    },
-    {
-      "id": 119,
-      "french": "одиннадцать",
-      "english": "eleven"
-    },
-    {
-      "id": 120,
-      "french": "двенадцать",
-      "english": "twelve"
-    },
-    {
-      "id": 121,
+      "id": 31,
       "french": "тринадцать",
       "english": "thirteen"
     },
     {
-      "id": 122,
-      "french": "четырнадцать",
-      "english": "fourteen"
-    },
-    {
-      "id": 123,
-      "french": "пятнадцать",
-      "english": "fifteen"
-    },
-    {
-      "id": 124,
-      "french": "шестнадцать",
-      "english": "sixteen"
-    },
-    {
-      "id": 125,
-      "french": "семнадцать",
-      "english": "seventeen"
-    },
-    {
-      "id": 126,
-      "french": "восемнадцать",
-      "english": "eighteen"
-    },
-    {
-      "id": 127,
-      "french": "девятнадцать",
-      "english": "nineteen"
-    },
-    {
-      "id": 128,
-      "french": "двадцать",
-      "english": "twenty"
-    },
-    {
-      "id": 129,
-      "french": "двадцать один",
-      "english": "twenty one"
-    },
-    {
-      "id": 130,
-      "french": "двадцать два",
-      "english": "twenty two"
-    },
-    {
-      "id": 131,
-      "french": "двадцать три",
-      "english": "twenty three"
-    },
-    {
-      "id": 132,
-      "french": "двадцать четыре",
-      "english": "twenty four"
-    },
-    {
-      "id": 133,
-      "french": "двадцать пять",
-      "english": "twenty five"
-    },
-    {
-      "id": 134,
-      "french": "двадцать шесть",
-      "english": "twenty six"
-    },
-    {
-      "id": 135,
-      "french": "двадцать семь",
-      "english": "twenty seven"
-    },
-    {
-      "id": 136,
-      "french": "двадцать восемь",
-      "english": "twenty eight"
-    },
-    {
-      "id": 137,
-      "french": "двадцать девять",
-      "english": "twenty nine"
-    },
-    {
-      "id": 138,
+      "id": 32,
       "french": "тридцать",
       "english": "thirty"
     },
     {
-      "id": 139,
+      "id": 33,
       "french": "тридцать один",
       "english": "thirty one"
     },
     {
-      "id": 140,
+      "id": 34,
       "french": "тридцать два",
       "english": "thirty two"
     },
     {
-      "id": 141,
+      "id": 35,
       "french": "тридцать три",
       "english": "thirty three"
     },
     {
-      "id": 142,
+      "id": 36,
       "french": "тридцать четыре",
       "english": "thirty four"
     },
     {
-      "id": 143,
+      "id": 37,
       "french": "тридцать пять",
       "english": "thirty five"
     },
     {
-      "id": 144,
+      "id": 38,
       "french": "тридцать шесть",
       "english": "thirty six"
     },
     {
-      "id": 145,
+      "id": 39,
       "french": "тридцать семь",
       "english": "thirty seven"
     },
     {
-      "id": 146,
+      "id": 40,
       "french": "тридцать восемь",
       "english": "thirty eight"
     },
     {
-      "id": 147,
+      "id": 41,
       "french": "тридцать девять",
       "english": "thirty nine"
     },
     {
-      "id": 148,
-      "french": "сорок",
-      "english": "forty"
-    },
-    {
-      "id": 149,
-      "french": "сорок один",
-      "english": "forty one"
-    },
-    {
-      "id": 150,
-      "french": "сорок два",
-      "english": "forty two"
-    },
-    {
-      "id": 151,
-      "french": "сорок три",
-      "english": "forty three"
-    },
-    {
-      "id": 152,
-      "french": "сорок четыре",
-      "english": "forty four"
-    },
-    {
-      "id": 153,
-      "french": "сорок пять",
-      "english": "forty five"
-    },
-    {
-      "id": 154,
-      "french": "сорок шесть",
-      "english": "forty six"
-    },
-    {
-      "id": 155,
-      "french": "сорок семь",
-      "english": "forty seven"
-    },
-    {
-      "id": 156,
-      "french": "сорок восемь",
-      "english": "forty eight"
-    },
-    {
-      "id": 157,
-      "french": "сорок девять",
-      "english": "forty nine"
-    },
-    {
-      "id": 158,
-      "french": "пятьдесят",
-      "english": "fifty"
-    },
-    {
-      "id": 159,
-      "french": "шестьдесят",
-      "english": "sixty"
-    },
-    {
-      "id": 160,
-      "french": "семьдесят",
-      "english": "seventy"
-    },
-    {
-      "id": 161,
-      "french": "восемьдесят",
-      "english": "eighty"
-    },
-    {
-      "id": 162,
-      "french": "девяносто",
-      "english": "ninety"
-    },
-    {
-      "id": 163,
-      "french": "сто",
-      "english": "one hundred"
-    },
-    {
-      "id": 164,
-      "french": "тысяча",
-      "english": "thousand"
-    },
-    {
-      "id": 165,
-      "french": "миллион",
-      "english": "million"
-    },
-    {
-      "id": 166,
-      "french": "первый",
-      "english": "first"
-    },
-    {
-      "id": 167,
-      "french": "второй",
-      "english": "second"
-    },
-    {
-      "id": 168,
+      "id": 42,
       "french": "третий",
       "english": "third"
     },
     {
-      "id": 169,
-      "french": "четвертый",
-      "english": "fourth"
-    },
-    {
-      "id": 170,
-      "french": "пятый",
-      "english": "fifth"
-    },
-    {
-      "id": 171,
-      "french": "еда",
-      "english": "food"
-    },
-    {
-      "id": 172,
-      "french": "блюдо",
-      "english": "dish"
-    },
-    {
-      "id": 173,
-      "french": "хлеб",
-      "english": "bread"
-    },
-    {
-      "id": 174,
-      "french": "вода",
-      "english": "water"
-    },
-    {
-      "id": 175,
-      "french": "чай",
-      "english": "tea"
-    },
-    {
-      "id": 176,
-      "french": "кофе",
-      "english": "coffee"
-    },
-    {
-      "id": 177,
-      "french": "молоко",
-      "english": "milk"
-    },
-    {
-      "id": 178,
-      "french": "кефир",
-      "english": "kefir"
-    },
-    {
-      "id": 179,
-      "french": "сок",
-      "english": "juice"
-    },
-    {
-      "id": 180,
-      "french": "сахар",
-      "english": "sugar"
-    },
-    {
-      "id": 181,
-      "french": "соль",
-      "english": "salt"
-    },
-    {
-      "id": 182,
-      "french": "перец",
-      "english": "pepper"
-    },
-    {
-      "id": 183,
-      "french": "мясо",
-      "english": "meat"
-    },
-    {
-      "id": 184,
-      "french": "говядина",
-      "english": "beef"
-    },
-    {
-      "id": 185,
-      "french": "баранина",
-      "english": "lamb"
-    },
-    {
-      "id": 186,
+      "id": 43,
       "french": "курица",
       "english": "chicken"
     },
     {
-      "id": 187,
-      "french": "рыба",
-      "english": "fish"
-    },
-    {
-      "id": 188,
-      "french": "яйцо",
-      "english": "egg"
-    },
-    {
-      "id": 189,
-      "french": "рис",
-      "english": "rice"
-    },
-    {
-      "id": 190,
-      "french": "макароны",
-      "english": "pasta"
-    },
-    {
-      "id": 191,
-      "french": "каша",
-      "english": "porridge"
-    },
-    {
-      "id": 192,
-      "french": "суп",
-      "english": "soup"
-    },
-    {
-      "id": 193,
-      "french": "салат",
-      "english": "salad"
-    },
-    {
-      "id": 194,
-      "french": "картофель",
-      "english": "potato"
-    },
-    {
-      "id": 195,
-      "french": "морковь",
-      "english": "carrot"
-    },
-    {
-      "id": 196,
-      "french": "лук",
-      "english": "onion"
-    },
-    {
-      "id": 197,
-      "french": "чеснок",
-      "english": "garlic"
-    },
-    {
-      "id": 198,
-      "french": "помидор",
-      "english": "tomato"
-    },
-    {
-      "id": 199,
-      "french": "огурец",
-      "english": "cucumber"
-    },
-    {
-      "id": 200,
-      "french": "капуста",
-      "english": "cabbage"
-    },
-    {
-      "id": 201,
-      "french": "болгарский перец",
-      "english": "bell pepper"
-    },
-    {
-      "id": 202,
-      "french": "яблоко",
-      "english": "apple"
-    },
-    {
-      "id": 203,
-      "french": "груша",
-      "english": "pear"
-    },
-    {
-      "id": 204,
-      "french": "банан",
-      "english": "banana"
-    },
-    {
-      "id": 205,
-      "french": "апельсин",
-      "english": "orange"
-    },
-    {
-      "id": 206,
-      "french": "лимон",
-      "english": "lemon"
-    },
-    {
-      "id": 207,
-      "french": "виноград",
-      "english": "grape"
-    },
-    {
-      "id": 208,
-      "french": "арбуз",
-      "english": "watermelon"
-    },
-    {
-      "id": 209,
-      "french": "дыня",
-      "english": "melon"
-    },
-    {
-      "id": 210,
-      "french": "клубника",
-      "english": "strawberry"
-    },
-    {
-      "id": 211,
-      "french": "вишня",
-      "english": "cherry"
-    },
-    {
-      "id": 212,
-      "french": "абрикос",
-      "english": "apricot"
-    },
-    {
-      "id": 213,
-      "french": "персик",
-      "english": "peach"
-    },
-    {
-      "id": 214,
-      "french": "орех",
-      "english": "nut"
-    },
-    {
-      "id": 215,
-      "french": "сыр",
-      "english": "cheese"
-    },
-    {
-      "id": 216,
-      "french": "масло",
-      "english": "butter / oil"
-    },
-    {
-      "id": 217,
-      "french": "мед",
-      "english": "honey"
-    },
-    {
-      "id": 218,
-      "french": "десерт",
-      "english": "dessert"
-    },
-    {
-      "id": 219,
-      "french": "мороженое",
-      "english": "ice cream"
-    },
-    {
-      "id": 220,
-      "french": "пирог",
-      "english": "pie"
-    },
-    {
-      "id": 221,
-      "french": "плов",
-      "english": "pilaf"
-    },
-    {
-      "id": 222,
-      "french": "вкусный",
-      "english": "tasty"
-    },
-    {
-      "id": 223,
-      "french": "острый",
-      "english": "spicy"
-    },
-    {
-      "id": 224,
-      "french": "я сыт",
-      "english": "I am full"
-    },
-    {
-      "id": 225,
-      "french": "я голоден",
-      "english": "I am hungry"
-    },
-    {
-      "id": 226,
+      "id": 44,
       "french": "я хочу пить",
       "english": "I am thirsty"
     },
     {
-      "id": 227,
-      "french": "принесите счет",
-      "english": "bring the bill"
-    },
-    {
-      "id": 228,
-      "french": "поездка",
-      "english": "trip"
-    },
-    {
-      "id": 229,
-      "french": "путешествие",
-      "english": "travel"
-    },
-    {
-      "id": 230,
-      "french": "дорога",
-      "english": "road"
-    },
-    {
-      "id": 231,
-      "french": "улица",
-      "english": "street"
-    },
-    {
-      "id": 232,
-      "french": "проспект",
-      "english": "avenue"
-    },
-    {
-      "id": 233,
-      "french": "поворот",
-      "english": "turn"
-    },
-    {
-      "id": 234,
-      "french": "направление",
-      "english": "direction"
-    },
-    {
-      "id": 235,
-      "french": "адрес",
-      "english": "address"
-    },
-    {
-      "id": 236,
-      "french": "город",
-      "english": "city"
-    },
-    {
-      "id": 237,
-      "french": "деревня",
-      "english": "village"
-    },
-    {
-      "id": 238,
-      "french": "страна",
-      "english": "country"
-    },
-    {
-      "id": 239,
-      "french": "центр",
-      "english": "center"
-    },
-    {
-      "id": 240,
-      "french": "аэропорт",
-      "english": "airport"
-    },
-    {
-      "id": 241,
-      "french": "вокзал",
-      "english": "station"
-    },
-    {
-      "id": 242,
-      "french": "остановка",
-      "english": "stop"
-    },
-    {
-      "id": 243,
-      "french": "билет",
-      "english": "ticket"
-    },
-    {
-      "id": 244,
-      "french": "самолет",
-      "english": "airplane"
-    },
-    {
-      "id": 245,
-      "french": "поезд",
-      "english": "train"
-    },
-    {
-      "id": 246,
-      "french": "автобус",
-      "english": "bus"
-    },
-    {
-      "id": 247,
-      "french": "такси",
-      "english": "taxi"
-    },
-    {
-      "id": 248,
-      "french": "метро",
-      "english": "metro"
-    },
-    {
-      "id": 249,
-      "french": "транспорт",
-      "english": "transport"
-    },
-    {
-      "id": 250,
-      "french": "машина",
-      "english": "car"
-    },
-    {
-      "id": 251,
-      "french": "водительские права",
-      "english": "driver license"
-    },
-    {
-      "id": 252,
-      "french": "отель",
-      "english": "hotel"
-    },
-    {
-      "id": 253,
-      "french": "номер",
-      "english": "hotel room"
-    },
-    {
-      "id": 254,
-      "french": "ключ",
-      "english": "key"
-    },
-    {
-      "id": 255,
-      "french": "бронь",
-      "english": "reservation"
-    },
-    {
-      "id": 256,
-      "french": "паспорт",
-      "english": "passport"
-    },
-    {
-      "id": 257,
-      "french": "граница",
-      "english": "border"
-    },
-    {
-      "id": 258,
-      "french": "таможня",
-      "english": "customs"
-    },
-    {
-      "id": 259,
-      "french": "карта",
-      "english": "map"
-    },
-    {
-      "id": 260,
-      "french": "касса",
-      "english": "ticket office"
-    },
-    {
-      "id": 261,
-      "french": "стоимость проезда",
-      "english": "fare"
-    },
-    {
-      "id": 262,
-      "french": "поверните налево",
-      "english": "turn left"
-    },
-    {
-      "id": 263,
-      "french": "поверните направо",
-      "english": "turn right"
-    },
-    {
-      "id": 264,
-      "french": "идите прямо",
-      "english": "go straight"
-    },
-    {
-      "id": 265,
+      "id": 45,
       "french": "это недалеко",
       "english": "it is not far"
     },
     {
-      "id": 266,
-      "french": "рядом",
-      "english": "nearby"
-    },
-    {
-      "id": 267,
-      "french": "где находится",
-      "english": "where is located"
-    },
-    {
-      "id": 268,
-      "french": "где аптека",
-      "english": "where is the pharmacy"
-    },
-    {
-      "id": 269,
-      "french": "где туалет",
-      "english": "where is the toilet"
-    },
-    {
-      "id": 270,
-      "french": "я заблудился",
-      "english": "I am lost"
-    },
-    {
-      "id": 271,
-      "french": "мне нужно такси",
-      "english": "I need a taxi"
-    },
-    {
-      "id": 272,
-      "french": "отвезите меня сюда",
-      "english": "take me here"
-    },
-    {
-      "id": 273,
-      "french": "билет в одну сторону",
-      "english": "one-way ticket"
-    },
-    {
-      "id": 274,
-      "french": "билет туда и обратно",
-      "english": "round-trip ticket"
-    },
-    {
-      "id": 275,
-      "french": "работа",
-      "english": "work"
-    },
-    {
-      "id": 276,
-      "french": "офис",
-      "english": "office"
-    },
-    {
-      "id": 277,
-      "french": "компания",
-      "english": "company"
-    },
-    {
-      "id": 278,
-      "french": "организация",
-      "english": "organization"
-    },
-    {
-      "id": 279,
-      "french": "проект",
-      "english": "project"
-    },
-    {
-      "id": 280,
-      "french": "задача",
-      "english": "task"
-    },
-    {
-      "id": 281,
-      "french": "обязанность",
-      "english": "duty"
-    },
-    {
-      "id": 282,
-      "french": "цель",
-      "english": "goal"
-    },
-    {
-      "id": 283,
-      "french": "план",
-      "english": "plan"
-    },
-    {
-      "id": 284,
-      "french": "расписание",
-      "english": "schedule"
-    },
-    {
-      "id": 285,
-      "french": "встреча",
-      "english": "meeting"
-    },
-    {
-      "id": 286,
-      "french": "отчет",
-      "english": "report"
-    },
-    {
-      "id": 287,
-      "french": "результат",
-      "english": "result"
-    },
-    {
-      "id": 288,
-      "french": "опыт",
-      "english": "experience"
-    },
-    {
-      "id": 289,
-      "french": "навык",
-      "english": "skill"
-    },
-    {
-      "id": 290,
+      "id": 46,
       "french": "знание",
       "english": "knowledge"
     },
     {
-      "id": 291,
-      "french": "урок",
-      "english": "lesson"
-    },
-    {
-      "id": 292,
-      "french": "экзамен",
-      "english": "exam"
-    },
-    {
-      "id": 293,
-      "french": "домашнее задание",
-      "english": "homework"
-    },
-    {
-      "id": 294,
-      "french": "зарплата",
-      "english": "salary"
-    },
-    {
-      "id": 295,
-      "french": "премия",
-      "english": "bonus"
-    },
-    {
-      "id": 296,
-      "french": "договор",
-      "english": "contract"
-    },
-    {
-      "id": 297,
-      "french": "подпись",
-      "english": "signature"
-    },
-    {
-      "id": 298,
-      "french": "документ",
-      "english": "document"
-    },
-    {
-      "id": 299,
-      "french": "письмо",
-      "english": "letter"
-    },
-    {
-      "id": 300,
-      "french": "электронная почта",
-      "english": "email"
-    },
-    {
-      "id": 301,
-      "french": "звонок",
-      "english": "call"
-    },
-    {
-      "id": 302,
-      "french": "собеседование",
-      "english": "interview"
-    },
-    {
-      "id": 303,
-      "french": "отпуск",
-      "english": "vacation"
-    },
-    {
-      "id": 304,
-      "french": "перерыв",
-      "english": "break"
-    },
-    {
-      "id": 305,
-      "french": "рабочий день",
-      "english": "workday"
-    },
-    {
-      "id": 306,
-      "french": "рабочее время",
-      "english": "working hours"
-    },
-    {
-      "id": 307,
-      "french": "полный день",
-      "english": "full time"
-    },
-    {
-      "id": 308,
-      "french": "неполный день",
-      "english": "part time"
-    },
-    {
-      "id": 309,
-      "french": "должность",
-      "english": "position"
-    },
-    {
-      "id": 310,
-      "french": "карьера",
-      "english": "career"
-    },
-    {
-      "id": 311,
-      "french": "совет",
-      "english": "advice"
-    },
-    {
-      "id": 312,
-      "french": "решение",
-      "english": "decision"
-    },
-    {
-      "id": 313,
-      "french": "мнение",
-      "english": "opinion"
-    },
-    {
-      "id": 314,
-      "french": "вопрос",
-      "english": "question"
-    },
-    {
-      "id": 315,
-      "french": "ответ",
-      "english": "answer"
-    },
-    {
-      "id": 316,
-      "french": "тело",
-      "english": "body"
-    },
-    {
-      "id": 317,
-      "french": "голова",
-      "english": "head"
-    },
-    {
-      "id": 318,
-      "french": "лицо",
-      "english": "face"
-    },
-    {
-      "id": 319,
-      "french": "глаз",
-      "english": "eye"
-    },
-    {
-      "id": 320,
-      "french": "ухо",
-      "english": "ear"
-    },
-    {
-      "id": 321,
+      "id": 47,
       "french": "нос",
       "english": "nose"
     },
     {
-      "id": 322,
-      "french": "рот",
-      "english": "mouth"
-    },
-    {
-      "id": 323,
-      "french": "губа",
-      "english": "lip"
-    },
-    {
-      "id": 324,
-      "french": "зуб",
-      "english": "tooth"
-    },
-    {
-      "id": 325,
-      "french": "язык",
-      "english": "tongue"
-    },
-    {
-      "id": 326,
-      "french": "челюсть",
-      "english": "jaw"
-    },
-    {
-      "id": 327,
-      "french": "шея",
-      "english": "neck"
-    },
-    {
-      "id": 328,
-      "french": "плечо",
-      "english": "shoulder"
-    },
-    {
-      "id": 329,
-      "french": "рука",
-      "english": "arm / hand"
-    },
-    {
-      "id": 330,
-      "french": "локоть",
-      "english": "elbow"
-    },
-    {
-      "id": 331,
-      "french": "запястье",
-      "english": "wrist"
-    },
-    {
-      "id": 332,
-      "french": "ладонь",
-      "english": "palm"
-    },
-    {
-      "id": 333,
-      "french": "палец",
-      "english": "finger"
-    },
-    {
-      "id": 334,
-      "french": "ноготь",
-      "english": "nail"
-    },
-    {
-      "id": 335,
-      "french": "грудь",
-      "english": "chest"
-    },
-    {
-      "id": 336,
-      "french": "спина",
-      "english": "back"
-    },
-    {
-      "id": 337,
-      "french": "талия",
-      "english": "waist"
-    },
-    {
-      "id": 338,
-      "french": "живот",
-      "english": "belly"
-    },
-    {
-      "id": 339,
-      "french": "сердце",
-      "english": "heart"
-    },
-    {
-      "id": 340,
-      "french": "легкое",
-      "english": "lung"
-    },
-    {
-      "id": 341,
-      "french": "желудок",
-      "english": "stomach"
-    },
-    {
-      "id": 342,
-      "french": "печень",
-      "english": "liver"
-    },
-    {
-      "id": 343,
-      "french": "нога",
-      "english": "leg / foot"
-    },
-    {
-      "id": 344,
+      "id": 48,
       "french": "бедро",
       "english": "thigh"
     },
     {
-      "id": 345,
-      "french": "колено",
-      "english": "knee"
-    },
-    {
-      "id": 346,
-      "french": "икра",
-      "english": "calf"
-    },
-    {
-      "id": 347,
-      "french": "пятка",
-      "english": "heel"
-    },
-    {
-      "id": 348,
-      "french": "стопа",
-      "english": "foot"
-    },
-    {
-      "id": 349,
-      "french": "кровь",
-      "english": "blood"
-    },
-    {
-      "id": 350,
-      "french": "кожа",
-      "english": "skin"
-    },
-    {
-      "id": 351,
-      "french": "кость",
-      "english": "bone"
-    },
-    {
-      "id": 352,
-      "french": "мышца",
-      "english": "muscle"
-    },
-    {
-      "id": 353,
-      "french": "боль",
-      "english": "pain"
-    },
-    {
-      "id": 354,
-      "french": "здоровье",
-      "english": "health"
-    },
-    {
-      "id": 355,
-      "french": "лекарство",
-      "english": "medicine"
-    },
-    {
-      "id": 356,
-      "french": "больница",
-      "english": "hospital"
-    },
-    {
-      "id": 357,
-      "french": "поликлиника",
-      "english": "clinic"
-    },
-    {
-      "id": 358,
-      "french": "скорая помощь",
-      "english": "ambulance"
-    },
-    {
-      "id": 359,
-      "french": "температура",
-      "english": "temperature"
-    },
-    {
-      "id": 360,
-      "french": "у меня болит голова",
-      "english": "I have a headache"
-    },
-    {
-      "id": 361,
-      "french": "я плохо себя чувствую",
-      "english": "I feel unwell"
-    },
-    {
-      "id": 362,
-      "french": "время",
-      "english": "time"
-    },
-    {
-      "id": 363,
-      "french": "час",
-      "english": "hour"
-    },
-    {
-      "id": 364,
-      "french": "минута",
-      "english": "minute"
-    },
-    {
-      "id": 365,
-      "french": "секунда",
-      "english": "second"
-    },
-    {
-      "id": 366,
-      "french": "день",
-      "english": "day"
-    },
-    {
-      "id": 367,
-      "french": "неделя",
-      "english": "week"
-    },
-    {
-      "id": 368,
-      "french": "месяц",
-      "english": "month"
-    },
-    {
-      "id": 369,
-      "french": "год",
-      "english": "year"
-    },
-    {
-      "id": 370,
-      "french": "сегодня",
-      "english": "today"
-    },
-    {
-      "id": 371,
+      "id": 49,
       "french": "вчера",
       "english": "yesterday"
     },
     {
-      "id": 372,
-      "french": "завтра",
-      "english": "tomorrow"
-    },
-    {
-      "id": 373,
-      "french": "утром",
-      "english": "in the morning"
-    },
-    {
-      "id": 374,
-      "french": "днем",
-      "english": "in the daytime"
-    },
-    {
-      "id": 375,
-      "french": "вечером",
-      "english": "in the evening"
-    },
-    {
-      "id": 376,
-      "french": "ночью",
-      "english": "at night"
-    },
-    {
-      "id": 377,
-      "french": "сначала",
-      "english": "first / at first"
-    },
-    {
-      "id": 378,
-      "french": "потом",
-      "english": "then / later"
-    },
-    {
-      "id": 379,
-      "french": "до",
-      "english": "before / until"
-    },
-    {
-      "id": 380,
-      "french": "после",
-      "english": "after"
-    },
-    {
-      "id": 381,
-      "french": "всегда",
-      "english": "always"
-    },
-    {
-      "id": 382,
-      "french": "иногда",
-      "english": "sometimes"
-    },
-    {
-      "id": 383,
-      "french": "никогда",
-      "english": "never"
-    },
-    {
-      "id": 384,
-      "french": "часто",
-      "english": "often"
-    },
-    {
-      "id": 385,
-      "french": "редко",
-      "english": "rarely"
-    },
-    {
-      "id": 386,
-      "french": "понедельник",
-      "english": "Monday"
-    },
-    {
-      "id": 387,
-      "french": "вторник",
-      "english": "Tuesday"
-    },
-    {
-      "id": 388,
-      "french": "среда",
-      "english": "Wednesday"
-    },
-    {
-      "id": 389,
-      "french": "четверг",
-      "english": "Thursday"
-    },
-    {
-      "id": 390,
-      "french": "пятница",
-      "english": "Friday"
-    },
-    {
-      "id": 391,
-      "french": "суббота",
-      "english": "Saturday"
-    },
-    {
-      "id": 392,
-      "french": "воскресенье",
-      "english": "Sunday"
-    },
-    {
-      "id": 393,
-      "french": "январь",
-      "english": "January"
-    },
-    {
-      "id": 394,
-      "french": "февраль",
-      "english": "February"
-    },
-    {
-      "id": 395,
-      "french": "март",
-      "english": "March"
-    },
-    {
-      "id": 396,
-      "french": "апрель",
-      "english": "April"
-    },
-    {
-      "id": 397,
-      "french": "май",
-      "english": "May"
-    },
-    {
-      "id": 398,
-      "french": "июнь",
-      "english": "June"
-    },
-    {
-      "id": 399,
-      "french": "июль",
-      "english": "July"
-    },
-    {
-      "id": 400,
-      "french": "август",
-      "english": "August"
-    },
-    {
-      "id": 401,
-      "french": "сентябрь",
-      "english": "September"
-    },
-    {
-      "id": 402,
-      "french": "октябрь",
-      "english": "October"
-    },
-    {
-      "id": 403,
+      "id": 50,
       "french": "ноябрь",
       "english": "November"
     },
     {
-      "id": 404,
-      "french": "декабрь",
-      "english": "December"
-    },
-    {
-      "id": 405,
-      "french": "быть",
-      "english": "to be"
-    },
-    {
-      "id": 406,
-      "french": "идти",
-      "english": "to go (on foot)"
-    },
-    {
-      "id": 407,
-      "french": "ходить",
-      "english": "to walk / go regularly"
-    },
-    {
-      "id": 408,
-      "french": "ехать",
-      "english": "to go by transport"
-    },
-    {
-      "id": 409,
-      "french": "приходить",
-      "english": "to come"
-    },
-    {
-      "id": 410,
-      "french": "уходить",
-      "english": "to leave"
-    },
-    {
-      "id": 411,
-      "french": "бежать",
-      "english": "to run"
-    },
-    {
-      "id": 412,
-      "french": "сидеть",
-      "english": "to sit"
-    },
-    {
-      "id": 413,
-      "french": "стоять",
-      "english": "to stand"
-    },
-    {
-      "id": 414,
-      "french": "лежать",
-      "english": "to lie down"
-    },
-    {
-      "id": 415,
-      "french": "спать",
-      "english": "to sleep"
-    },
-    {
-      "id": 416,
-      "french": "просыпаться",
-      "english": "to wake up"
-    },
-    {
-      "id": 417,
-      "french": "делать",
-      "english": "to do"
-    },
-    {
-      "id": 418,
-      "french": "сделать",
-      "english": "to make / to do (perfective)"
-    },
-    {
-      "id": 419,
-      "french": "говорить",
-      "english": "to speak"
-    },
-    {
-      "id": 420,
-      "french": "сказать",
-      "english": "to say"
-    },
-    {
-      "id": 421,
-      "french": "слушать",
-      "english": "to listen"
-    },
-    {
-      "id": 422,
-      "french": "слышать",
-      "english": "to hear"
-    },
-    {
-      "id": 423,
+      "id": 51,
       "french": "смотреть",
       "english": "to watch / look"
     },
     {
-      "id": 424,
-      "french": "видеть",
-      "english": "to see"
-    },
-    {
-      "id": 425,
-      "french": "читать",
-      "english": "to read"
-    },
-    {
-      "id": 426,
-      "french": "писать",
-      "english": "to write"
-    },
-    {
-      "id": 427,
-      "french": "учиться",
-      "english": "to study / learn"
-    },
-    {
-      "id": 428,
-      "french": "учить",
-      "english": "to teach / learn"
-    },
-    {
-      "id": 429,
+      "id": 52,
       "french": "знать",
       "english": "to know"
     },
     {
-      "id": 430,
-      "french": "понимать",
-      "english": "to understand"
-    },
-    {
-      "id": 431,
-      "french": "брать",
-      "english": "to take"
-    },
-    {
-      "id": 432,
-      "french": "давать",
-      "english": "to give"
-    },
-    {
-      "id": 433,
-      "french": "открывать",
-      "english": "to open"
-    },
-    {
-      "id": 434,
-      "french": "закрывать",
-      "english": "to close"
-    },
-    {
-      "id": 435,
-      "french": "начинать",
-      "english": "to start"
-    },
-    {
-      "id": 436,
-      "french": "заканчивать",
-      "english": "to finish"
-    },
-    {
-      "id": 437,
-      "french": "ждать",
-      "english": "to wait"
-    },
-    {
-      "id": 438,
-      "french": "искать",
-      "english": "to search"
-    },
-    {
-      "id": 439,
-      "french": "находить",
-      "english": "to find"
-    },
-    {
-      "id": 440,
-      "french": "терять",
-      "english": "to lose"
-    },
-    {
-      "id": 441,
-      "french": "спрашивать",
-      "english": "to ask"
-    },
-    {
-      "id": 442,
-      "french": "отвечать",
-      "english": "to answer"
-    },
-    {
-      "id": 443,
-      "french": "помогать",
-      "english": "to help"
-    },
-    {
-      "id": 444,
-      "french": "использовать",
-      "english": "to use"
-    },
-    {
-      "id": 445,
-      "french": "хотеть",
-      "english": "to want"
-    },
-    {
-      "id": 446,
-      "french": "любить",
-      "english": "to love"
-    },
-    {
-      "id": 447,
-      "french": "нравиться",
-      "english": "to be liked"
-    },
-    {
-      "id": 448,
-      "french": "ненавидеть",
-      "english": "to hate"
-    },
-    {
-      "id": 449,
+      "id": 53,
       "french": "думать",
       "english": "to think"
     },
     {
-      "id": 450,
-      "french": "верить",
-      "english": "to believe"
-    },
-    {
-      "id": 451,
-      "french": "помнить",
-      "english": "to remember"
-    },
-    {
-      "id": 452,
-      "french": "забывать",
-      "english": "to forget"
-    },
-    {
-      "id": 453,
-      "french": "соглашаться",
-      "english": "to agree"
-    },
-    {
-      "id": 454,
-      "french": "отказываться",
-      "english": "to refuse"
-    },
-    {
-      "id": 455,
-      "french": "выбирать",
-      "english": "to choose"
-    },
-    {
-      "id": 456,
-      "french": "покупать",
-      "english": "to buy"
-    },
-    {
-      "id": 457,
-      "french": "продавать",
-      "english": "to sell"
-    },
-    {
-      "id": 458,
-      "french": "платить",
-      "english": "to pay"
-    },
-    {
-      "id": 459,
-      "french": "есть",
-      "english": "to eat"
-    },
-    {
-      "id": 460,
-      "french": "пить",
-      "english": "to drink"
-    },
-    {
-      "id": 461,
+      "id": 54,
       "french": "готовить",
       "english": "to cook"
     },
     {
-      "id": 462,
-      "french": "мыть",
-      "english": "to wash"
-    },
-    {
-      "id": 463,
-      "french": "чистить",
-      "english": "to clean"
-    },
-    {
-      "id": 464,
-      "french": "ремонтировать",
-      "english": "to repair"
-    },
-    {
-      "id": 465,
-      "french": "злиться",
-      "english": "to get angry"
-    },
-    {
-      "id": 466,
-      "french": "смеяться",
-      "english": "to laugh"
-    },
-    {
-      "id": 467,
-      "french": "плакать",
-      "english": "to cry"
-    },
-    {
-      "id": 468,
-      "french": "играть",
-      "english": "to play"
-    },
-    {
-      "id": 469,
-      "french": "побеждать",
-      "english": "to win"
-    },
-    {
-      "id": 470,
-      "french": "проигрывать",
-      "english": "to lose (a game)"
-    },
-    {
-      "id": 471,
-      "french": "большой",
-      "english": "big"
-    },
-    {
-      "id": 472,
-      "french": "маленький",
-      "english": "small"
-    },
-    {
-      "id": 473,
-      "french": "длинный",
-      "english": "long"
-    },
-    {
-      "id": 474,
-      "french": "короткий",
-      "english": "short"
-    },
-    {
-      "id": 475,
-      "french": "широкий",
-      "english": "wide"
-    },
-    {
-      "id": 476,
-      "french": "узкий",
-      "english": "narrow"
-    },
-    {
-      "id": 477,
+      "id": 55,
       "french": "высокий",
       "english": "high / tall"
     },
     {
-      "id": 478,
-      "french": "низкий",
-      "english": "low"
-    },
-    {
-      "id": 479,
-      "french": "тяжелый",
-      "english": "heavy"
-    },
-    {
-      "id": 480,
-      "french": "легкий",
-      "english": "light / easy"
-    },
-    {
-      "id": 481,
-      "french": "теплый",
-      "english": "warm"
-    },
-    {
-      "id": 482,
-      "french": "холодный",
-      "english": "cold"
-    },
-    {
-      "id": 483,
-      "french": "горячий",
-      "english": "hot"
-    },
-    {
-      "id": 484,
-      "french": "прохладный",
-      "english": "cool"
-    },
-    {
-      "id": 485,
-      "french": "новый",
-      "english": "new"
-    },
-    {
-      "id": 486,
-      "french": "старый",
-      "english": "old"
-    },
-    {
-      "id": 487,
-      "french": "молодой",
-      "english": "young"
-    },
-    {
-      "id": 488,
-      "french": "быстрый",
-      "english": "fast"
-    },
-    {
-      "id": 489,
-      "french": "медленный",
-      "english": "slow"
-    },
-    {
-      "id": 490,
-      "french": "ранний",
-      "english": "early"
-    },
-    {
-      "id": 491,
-      "french": "поздний",
-      "english": "late"
-    },
-    {
-      "id": 492,
-      "french": "красивый",
-      "english": "beautiful"
-    },
-    {
-      "id": 493,
-      "french": "сильный",
-      "english": "strong"
-    },
-    {
-      "id": 494,
-      "french": "слабый",
-      "english": "weak"
-    },
-    {
-      "id": 495,
-      "french": "смелый",
-      "english": "brave"
-    },
-    {
-      "id": 496,
-      "french": "богатый",
-      "english": "rich"
-    },
-    {
-      "id": 497,
-      "french": "бедный",
-      "english": "poor"
-    },
-    {
-      "id": 498,
-      "french": "чистый",
-      "english": "clean"
-    },
-    {
-      "id": 499,
-      "french": "грязный",
-      "english": "dirty"
-    },
-    {
-      "id": 500,
-      "french": "дорогой",
-      "english": "expensive"
-    },
-    {
-      "id": 501,
-      "french": "дешевый",
-      "english": "cheap"
-    },
-    {
-      "id": 502,
-      "french": "сложный",
-      "english": "difficult"
-    },
-    {
-      "id": 503,
-      "french": "простой",
-      "english": "simple"
-    },
-    {
-      "id": 504,
-      "french": "важный",
-      "english": "important"
-    },
-    {
-      "id": 505,
-      "french": "интересный",
-      "english": "interesting"
-    },
-    {
-      "id": 506,
-      "french": "скучный",
-      "english": "boring"
-    },
-    {
-      "id": 507,
-      "french": "правильный",
-      "english": "correct"
-    },
-    {
-      "id": 508,
-      "french": "неправильный",
-      "english": "wrong"
-    },
-    {
-      "id": 509,
-      "french": "полный",
-      "english": "full"
-    },
-    {
-      "id": 510,
-      "french": "пустой",
-      "english": "empty"
-    },
-    {
-      "id": 511,
-      "french": "счастливый",
-      "english": "happy"
-    },
-    {
-      "id": 512,
-      "french": "грустный",
-      "english": "sad"
-    },
-    {
-      "id": 513,
-      "french": "злой",
-      "english": "angry"
-    },
-    {
-      "id": 514,
-      "french": "спокойный",
-      "english": "calm"
-    },
-    {
-      "id": 515,
-      "french": "уставший",
-      "english": "tired"
-    },
-    {
-      "id": 516,
-      "french": "опасный",
-      "english": "dangerous"
-    },
-    {
-      "id": 517,
-      "french": "безопасный",
-      "english": "safe"
-    },
-    {
-      "id": 518,
-      "french": "близкий",
-      "english": "near"
-    },
-    {
-      "id": 519,
-      "french": "далекий",
-      "english": "far"
-    },
-    {
-      "id": 520,
-      "french": "известный",
-      "english": "famous"
-    },
-    {
-      "id": 521,
-      "french": "незнакомый",
-      "english": "unfamiliar"
-    },
-    {
-      "id": 522,
-      "french": "умный",
-      "english": "smart"
-    },
-    {
-      "id": 523,
-      "french": "вежливый",
-      "english": "polite"
-    },
-    {
-      "id": 524,
-      "french": "честный",
-      "english": "honest"
-    },
-    {
-      "id": 525,
-      "french": "добрый",
-      "english": "kind"
-    },
-    {
-      "id": 526,
-      "french": "строгий",
-      "english": "strict"
-    },
-    {
-      "id": 527,
-      "french": "аккуратный",
-      "english": "neat"
-    },
-    {
-      "id": 528,
+      "id": 56,
       "french": "бесплатный",
       "english": "free (no cost)"
     },
     {
-      "id": 529,
+      "id": 57,
+      "french": "увидимся",
+      "english": "see you"
+    },
+    {
+      "id": 58,
+      "french": "до встречи",
+      "english": "see you later"
+    },
+    {
+      "id": 59,
+      "french": "я понимаю",
+      "english": "I understand"
+    },
+    {
+      "id": 60,
+      "french": "вы говорите по-русски",
+      "english": "do you speak Russian"
+    },
+    {
+      "id": 61,
+      "french": "вы говорите по-английски",
+      "english": "do you speak English"
+    },
+    {
+      "id": 62,
+      "french": "меня зовут",
+      "english": "my name is"
+    },
+    {
+      "id": 63,
+      "french": "как дела",
+      "english": "how are you"
+    },
+    {
+      "id": 64,
+      "french": "приятно познакомиться",
+      "english": "nice to meet you"
+    },
+    {
+      "id": 65,
+      "french": "откуда вы",
+      "english": "where are you from"
+    },
+    {
+      "id": 66,
+      "french": "я забыл",
+      "english": "I forgot"
+    },
+    {
+      "id": 67,
+      "french": "мне нужна помощь",
+      "english": "I need help"
+    },
+    {
+      "id": 68,
+      "french": "приятного аппетита",
+      "english": "enjoy your meal"
+    },
+    {
+      "id": 69,
+      "french": "до завтра",
+      "english": "see you tomorrow"
+    },
+    {
+      "id": 70,
+      "french": "я согласен",
+      "english": "I agree"
+    },
+    {
+      "id": 71,
+      "french": "я не согласен",
+      "english": "I disagree"
+    },
+    {
+      "id": 72,
+      "french": "мне нравится",
+      "english": "I like it"
+    },
+    {
+      "id": 73,
+      "french": "я слушаю",
+      "english": "I am listening"
+    },
+    {
+      "id": 74,
+      "french": "я сыт",
+      "english": "I am full"
+    },
+    {
+      "id": 75,
+      "french": "я голоден",
+      "english": "I am hungry"
+    },
+    {
+      "id": 76,
+      "french": "я заблудился",
+      "english": "I am lost"
+    },
+    {
+      "id": 77,
+      "french": "мне нужно такси",
+      "english": "I need a taxi"
+    },
+    {
+      "id": 78,
+      "french": "отвезите меня сюда",
+      "english": "take me here"
+    },
+    {
+      "id": 79,
+      "french": "у меня болит голова",
+      "english": "I have a headache"
+    },
+    {
+      "id": 80,
+      "french": "я плохо себя чувствую",
+      "english": "I feel unwell"
+    },
+    {
+      "id": 81,
+      "french": "где находится",
+      "english": "where is located"
+    },
+    {
+      "id": 82,
+      "french": "где аптека",
+      "english": "where is the pharmacy"
+    },
+    {
+      "id": 83,
+      "french": "где туалет",
+      "english": "where is the toilet"
+    },
+    {
+      "id": 84,
+      "french": "ноль",
+      "english": "zero"
+    },
+    {
+      "id": 85,
+      "french": "один",
+      "english": "one"
+    },
+    {
+      "id": 86,
+      "french": "два",
+      "english": "two"
+    },
+    {
+      "id": 87,
+      "french": "три",
+      "english": "three"
+    },
+    {
+      "id": 88,
+      "french": "четыре",
+      "english": "four"
+    },
+    {
+      "id": 89,
+      "french": "пять",
+      "english": "five"
+    },
+    {
+      "id": 90,
+      "french": "шесть",
+      "english": "six"
+    },
+    {
+      "id": 91,
+      "french": "семь",
+      "english": "seven"
+    },
+    {
+      "id": 92,
+      "french": "восемь",
+      "english": "eight"
+    },
+    {
+      "id": 93,
+      "french": "девять",
+      "english": "nine"
+    },
+    {
+      "id": 94,
+      "french": "десять",
+      "english": "ten"
+    },
+    {
+      "id": 95,
+      "french": "одиннадцать",
+      "english": "eleven"
+    },
+    {
+      "id": 96,
+      "french": "двенадцать",
+      "english": "twelve"
+    },
+    {
+      "id": 97,
+      "french": "четырнадцать",
+      "english": "fourteen"
+    },
+    {
+      "id": 98,
+      "french": "шестнадцать",
+      "english": "sixteen"
+    },
+    {
+      "id": 99,
+      "french": "семнадцать",
+      "english": "seventeen"
+    },
+    {
+      "id": 100,
+      "french": "восемнадцать",
+      "english": "eighteen"
+    },
+    {
+      "id": 101,
+      "french": "девятнадцать",
+      "english": "nineteen"
+    },
+    {
+      "id": 102,
+      "french": "двадцать",
+      "english": "twenty"
+    },
+    {
+      "id": 103,
+      "french": "двадцать один",
+      "english": "twenty one"
+    },
+    {
+      "id": 104,
+      "french": "двадцать два",
+      "english": "twenty two"
+    },
+    {
+      "id": 105,
+      "french": "двадцать три",
+      "english": "twenty three"
+    },
+    {
+      "id": 106,
+      "french": "двадцать четыре",
+      "english": "twenty four"
+    },
+    {
+      "id": 107,
+      "french": "двадцать пять",
+      "english": "twenty five"
+    },
+    {
+      "id": 108,
+      "french": "двадцать шесть",
+      "english": "twenty six"
+    },
+    {
+      "id": 109,
+      "french": "двадцать семь",
+      "english": "twenty seven"
+    },
+    {
+      "id": 110,
+      "french": "двадцать восемь",
+      "english": "twenty eight"
+    },
+    {
+      "id": 111,
+      "french": "двадцать девять",
+      "english": "twenty nine"
+    },
+    {
+      "id": 112,
+      "french": "сорок",
+      "english": "forty"
+    },
+    {
+      "id": 113,
+      "french": "сорок один",
+      "english": "forty one"
+    },
+    {
+      "id": 114,
+      "french": "сорок два",
+      "english": "forty two"
+    },
+    {
+      "id": 115,
+      "french": "сорок три",
+      "english": "forty three"
+    },
+    {
+      "id": 116,
+      "french": "сорок четыре",
+      "english": "forty four"
+    },
+    {
+      "id": 117,
+      "french": "сорок пять",
+      "english": "forty five"
+    },
+    {
+      "id": 118,
+      "french": "сорок шесть",
+      "english": "forty six"
+    },
+    {
+      "id": 119,
+      "french": "сорок семь",
+      "english": "forty seven"
+    },
+    {
+      "id": 120,
+      "french": "сорок восемь",
+      "english": "forty eight"
+    },
+    {
+      "id": 121,
+      "french": "сорок девять",
+      "english": "forty nine"
+    },
+    {
+      "id": 122,
+      "french": "пятьдесят",
+      "english": "fifty"
+    },
+    {
+      "id": 123,
+      "french": "шестьдесят",
+      "english": "sixty"
+    },
+    {
+      "id": 124,
+      "french": "семьдесят",
+      "english": "seventy"
+    },
+    {
+      "id": 125,
+      "french": "восемьдесят",
+      "english": "eighty"
+    },
+    {
+      "id": 126,
+      "french": "девяносто",
+      "english": "ninety"
+    },
+    {
+      "id": 127,
+      "french": "сто",
+      "english": "one hundred"
+    },
+    {
+      "id": 128,
+      "french": "тысяча",
+      "english": "thousand"
+    },
+    {
+      "id": 129,
+      "french": "первый",
+      "english": "first"
+    },
+    {
+      "id": 130,
+      "french": "второй",
+      "english": "second"
+    },
+    {
+      "id": 131,
+      "french": "четвертый",
+      "english": "fourth"
+    },
+    {
+      "id": 132,
+      "french": "мед",
+      "english": "honey"
+    },
+    {
+      "id": 133,
+      "french": "билет в одну сторону",
+      "english": "one-way ticket"
+    },
+    {
+      "id": 134,
+      "french": "кость",
+      "english": "bone"
+    },
+    {
+      "id": 135,
+      "french": "секунда",
+      "english": "second"
+    },
+    {
+      "id": 136,
+      "french": "сначала",
+      "english": "first / at first"
+    },
+    {
+      "id": 137,
+      "french": "часто",
+      "english": "often"
+    },
+    {
+      "id": 138,
+      "french": "слушать",
+      "english": "to listen"
+    },
+    {
+      "id": 139,
+      "french": "честный",
+      "english": "honest"
+    },
+    {
+      "id": 140,
+      "french": "говорите медленнее",
+      "english": "speak more slowly"
+    },
+    {
+      "id": 141,
+      "french": "берегите себя",
+      "english": "take care"
+    },
+    {
+      "id": 142,
+      "french": "счастливого пути",
+      "english": "have a good trip"
+    },
+    {
+      "id": 143,
+      "french": "уже",
+      "english": "already"
+    },
+    {
+      "id": 144,
+      "french": "это верно",
+      "english": "that is correct"
+    },
+    {
+      "id": 145,
+      "french": "это неверно",
+      "english": "that is incorrect"
+    },
+    {
+      "id": 146,
+      "french": "супруг",
+      "english": "spouse (male)"
+    },
+    {
+      "id": 147,
+      "french": "супруга",
+      "english": "spouse (female)"
+    },
+    {
+      "id": 148,
+      "french": "продавец",
+      "english": "seller"
+    },
+    {
+      "id": 149,
+      "french": "хлеб",
+      "english": "bread"
+    },
+    {
+      "id": 150,
+      "french": "мясо",
+      "english": "meat"
+    },
+    {
+      "id": 151,
+      "french": "идите прямо",
+      "english": "go straight"
+    },
+    {
+      "id": 152,
+      "french": "работа",
+      "english": "work"
+    },
+    {
+      "id": 153,
+      "french": "задача",
+      "english": "task"
+    },
+    {
+      "id": 154,
+      "french": "домашнее задание",
+      "english": "homework"
+    },
+    {
+      "id": 155,
+      "french": "рабочий день",
+      "english": "workday"
+    },
+    {
+      "id": 156,
+      "french": "рабочее время",
+      "english": "working hours"
+    },
+    {
+      "id": 157,
+      "french": "плечо",
+      "english": "shoulder"
+    },
+    {
+      "id": 158,
+      "french": "печень",
+      "english": "liver"
+    },
+    {
+      "id": 159,
+      "french": "быть",
+      "english": "to be"
+    },
+    {
+      "id": 160,
+      "french": "идти",
+      "english": "to go (on foot)"
+    },
+    {
+      "id": 161,
+      "french": "ходить",
+      "english": "to walk / go regularly"
+    },
+    {
+      "id": 162,
+      "french": "ехать",
+      "english": "to go by transport"
+    },
+    {
+      "id": 163,
+      "french": "приходить",
+      "english": "to come"
+    },
+    {
+      "id": 164,
+      "french": "спать",
+      "english": "to sleep"
+    },
+    {
+      "id": 165,
+      "french": "делать",
+      "english": "to do"
+    },
+    {
+      "id": 166,
+      "french": "сделать",
+      "english": "to make / to do (perfective)"
+    },
+    {
+      "id": 167,
+      "french": "говорить",
+      "english": "to speak"
+    },
+    {
+      "id": 168,
+      "french": "сказать",
+      "english": "to say"
+    },
+    {
+      "id": 169,
+      "french": "видеть",
+      "english": "to see"
+    },
+    {
+      "id": 170,
+      "french": "читать",
+      "english": "to read"
+    },
+    {
+      "id": 171,
+      "french": "писать",
+      "english": "to write"
+    },
+    {
+      "id": 172,
+      "french": "учиться",
+      "english": "to study / learn"
+    },
+    {
+      "id": 173,
+      "french": "учить",
+      "english": "to teach / learn"
+    },
+    {
+      "id": 174,
+      "french": "брать",
+      "english": "to take"
+    },
+    {
+      "id": 175,
+      "french": "давать",
+      "english": "to give"
+    },
+    {
+      "id": 176,
+      "french": "находить",
+      "english": "to find"
+    },
+    {
+      "id": 177,
+      "french": "спрашивать",
+      "english": "to ask"
+    },
+    {
+      "id": 178,
+      "french": "помогать",
+      "english": "to help"
+    },
+    {
+      "id": 179,
+      "french": "использовать",
+      "english": "to use"
+    },
+    {
+      "id": 180,
+      "french": "хотеть",
+      "english": "to want"
+    },
+    {
+      "id": 181,
+      "french": "любить",
+      "english": "to love"
+    },
+    {
+      "id": 182,
+      "french": "нравиться",
+      "english": "to be liked"
+    },
+    {
+      "id": 183,
+      "french": "забывать",
+      "english": "to forget"
+    },
+    {
+      "id": 184,
+      "french": "отказываться",
+      "english": "to refuse"
+    },
+    {
+      "id": 185,
+      "french": "покупать",
+      "english": "to buy"
+    },
+    {
+      "id": 186,
+      "french": "продавать",
+      "english": "to sell"
+    },
+    {
+      "id": 187,
+      "french": "платить",
+      "english": "to pay"
+    },
+    {
+      "id": 188,
+      "french": "есть",
+      "english": "to eat"
+    },
+    {
+      "id": 189,
+      "french": "пить",
+      "english": "to drink"
+    },
+    {
+      "id": 190,
+      "french": "злиться",
+      "english": "to get angry"
+    },
+    {
+      "id": 191,
+      "french": "играть",
+      "english": "to play"
+    },
+    {
+      "id": 192,
+      "french": "аккуратный",
+      "english": "neat"
+    },
+    {
+      "id": 193,
+      "french": "семья",
+      "english": "family"
+    },
+    {
+      "id": 194,
+      "french": "родители",
+      "english": "parents"
+    },
+    {
+      "id": 195,
+      "french": "мать",
+      "english": "mother"
+    },
+    {
+      "id": 196,
+      "french": "отец",
+      "english": "father"
+    },
+    {
+      "id": 197,
+      "french": "дедушка",
+      "english": "grandfather"
+    },
+    {
+      "id": 198,
+      "french": "бабушка",
+      "english": "grandmother"
+    },
+    {
+      "id": 199,
+      "french": "брат",
+      "english": "brother"
+    },
+    {
+      "id": 200,
+      "french": "сестра",
+      "english": "sister"
+    },
+    {
+      "id": 201,
+      "french": "старший брат",
+      "english": "older brother"
+    },
+    {
+      "id": 202,
+      "french": "младший брат",
+      "english": "younger brother"
+    },
+    {
+      "id": 203,
+      "french": "старшая сестра",
+      "english": "older sister"
+    },
+    {
+      "id": 204,
+      "french": "младшая сестра",
+      "english": "younger sister"
+    },
+    {
+      "id": 205,
+      "french": "сын",
+      "english": "son"
+    },
+    {
+      "id": 206,
+      "french": "дочь",
+      "english": "daughter"
+    },
+    {
+      "id": 207,
+      "french": "малыш",
+      "english": "baby"
+    },
+    {
+      "id": 208,
+      "french": "внук",
+      "english": "grandson"
+    },
+    {
+      "id": 209,
+      "french": "внучка",
+      "english": "granddaughter"
+    },
+    {
+      "id": 210,
+      "french": "муж",
+      "english": "husband"
+    },
+    {
+      "id": 211,
+      "french": "жена",
+      "english": "wife"
+    },
+    {
+      "id": 212,
+      "french": "родственник",
+      "english": "relative"
+    },
+    {
+      "id": 213,
+      "french": "дядя",
+      "english": "uncle"
+    },
+    {
+      "id": 214,
+      "french": "тетя",
+      "english": "aunt"
+    },
+    {
+      "id": 215,
+      "french": "двоюродный брат",
+      "english": "cousin (male)"
+    },
+    {
+      "id": 216,
+      "french": "двоюродная сестра",
+      "english": "cousin (female)"
+    },
+    {
+      "id": 217,
+      "french": "друг",
+      "english": "friend (male)"
+    },
+    {
+      "id": 218,
+      "french": "подруга",
+      "english": "friend (female)"
+    },
+    {
+      "id": 219,
+      "french": "урок",
+      "english": "lesson"
+    },
+    {
+      "id": 220,
       "french": "личный",
       "english": "personal"
+    },
+    {
+      "id": 221,
+      "french": "номер",
+      "english": "hotel room"
+    },
+    {
+      "id": 222,
+      "french": "ключ",
+      "english": "key"
+    },
+    {
+      "id": 223,
+      "french": "учитель",
+      "english": "teacher (male)"
+    },
+    {
+      "id": 224,
+      "french": "учительница",
+      "english": "teacher (female)"
+    },
+    {
+      "id": 225,
+      "french": "команда",
+      "english": "team"
+    },
+    {
+      "id": 226,
+      "french": "еда",
+      "english": "food"
+    },
+    {
+      "id": 227,
+      "french": "вода",
+      "english": "water"
+    },
+    {
+      "id": 228,
+      "french": "чай",
+      "english": "tea"
+    },
+    {
+      "id": 229,
+      "french": "кофе",
+      "english": "coffee"
+    },
+    {
+      "id": 230,
+      "french": "молоко",
+      "english": "milk"
+    },
+    {
+      "id": 231,
+      "french": "сахар",
+      "english": "sugar"
+    },
+    {
+      "id": 232,
+      "french": "соль",
+      "english": "salt"
+    },
+    {
+      "id": 233,
+      "french": "рыба",
+      "english": "fish"
+    },
+    {
+      "id": 234,
+      "french": "яйцо",
+      "english": "egg"
+    },
+    {
+      "id": 235,
+      "french": "рис",
+      "english": "rice"
+    },
+    {
+      "id": 236,
+      "french": "суп",
+      "english": "soup"
+    },
+    {
+      "id": 237,
+      "french": "яблоко",
+      "english": "apple"
+    },
+    {
+      "id": 238,
+      "french": "арбуз",
+      "english": "watermelon"
+    },
+    {
+      "id": 239,
+      "french": "подождите минуту",
+      "english": "wait a minute"
+    },
+    {
+      "id": 240,
+      "french": "полный день",
+      "english": "full time"
+    },
+    {
+      "id": 241,
+      "french": "неполный день",
+      "english": "part time"
+    },
+    {
+      "id": 242,
+      "french": "время",
+      "english": "time"
+    },
+    {
+      "id": 243,
+      "french": "час",
+      "english": "hour"
+    },
+    {
+      "id": 244,
+      "french": "минута",
+      "english": "minute"
+    },
+    {
+      "id": 245,
+      "french": "день",
+      "english": "day"
+    },
+    {
+      "id": 246,
+      "french": "неделя",
+      "english": "week"
+    },
+    {
+      "id": 247,
+      "french": "месяц",
+      "english": "month"
+    },
+    {
+      "id": 248,
+      "french": "год",
+      "english": "year"
+    },
+    {
+      "id": 249,
+      "french": "сегодня",
+      "english": "today"
+    },
+    {
+      "id": 250,
+      "french": "завтра",
+      "english": "tomorrow"
+    },
+    {
+      "id": 251,
+      "french": "утром",
+      "english": "in the morning"
+    },
+    {
+      "id": 252,
+      "french": "днем",
+      "english": "in the daytime"
+    },
+    {
+      "id": 253,
+      "french": "вечером",
+      "english": "in the evening"
+    },
+    {
+      "id": 254,
+      "french": "ночью",
+      "english": "at night"
+    },
+    {
+      "id": 255,
+      "french": "иногда",
+      "english": "sometimes"
+    },
+    {
+      "id": 256,
+      "french": "понедельник",
+      "english": "Monday"
+    },
+    {
+      "id": 257,
+      "french": "вторник",
+      "english": "Tuesday"
+    },
+    {
+      "id": 258,
+      "french": "среда",
+      "english": "Wednesday"
+    },
+    {
+      "id": 259,
+      "french": "четверг",
+      "english": "Thursday"
+    },
+    {
+      "id": 260,
+      "french": "пятница",
+      "english": "Friday"
+    },
+    {
+      "id": 261,
+      "french": "суббота",
+      "english": "Saturday"
+    },
+    {
+      "id": 262,
+      "french": "воскресенье",
+      "english": "Sunday"
+    },
+    {
+      "id": 263,
+      "french": "врач",
+      "english": "doctor"
+    },
+    {
+      "id": 264,
+      "french": "груша",
+      "english": "pear"
+    },
+    {
+      "id": 265,
+      "french": "рядом",
+      "english": "nearby"
+    },
+    {
+      "id": 266,
+      "french": "тело",
+      "english": "body"
+    },
+    {
+      "id": 267,
+      "french": "голова",
+      "english": "head"
+    },
+    {
+      "id": 268,
+      "french": "лицо",
+      "english": "face"
+    },
+    {
+      "id": 269,
+      "french": "глаз",
+      "english": "eye"
+    },
+    {
+      "id": 270,
+      "french": "ухо",
+      "english": "ear"
+    },
+    {
+      "id": 271,
+      "french": "рот",
+      "english": "mouth"
+    },
+    {
+      "id": 272,
+      "french": "рука",
+      "english": "arm / hand"
+    },
+    {
+      "id": 273,
+      "french": "палец",
+      "english": "finger"
+    },
+    {
+      "id": 274,
+      "french": "сердце",
+      "english": "heart"
+    },
+    {
+      "id": 275,
+      "french": "нога",
+      "english": "leg / foot"
+    },
+    {
+      "id": 276,
+      "french": "стопа",
+      "english": "foot"
+    },
+    {
+      "id": 277,
+      "french": "кровь",
+      "english": "blood"
+    },
+    {
+      "id": 278,
+      "french": "боль",
+      "english": "pain"
+    },
+    {
+      "id": 279,
+      "french": "здоровье",
+      "english": "health"
+    },
+    {
+      "id": 280,
+      "french": "лекарство",
+      "english": "medicine"
+    },
+    {
+      "id": 281,
+      "french": "больница",
+      "english": "hospital"
+    },
+    {
+      "id": 282,
+      "french": "слышать",
+      "english": "to hear"
+    },
+    {
+      "id": 283,
+      "french": "искать",
+      "english": "to search"
+    },
+    {
+      "id": 284,
+      "french": "теплый",
+      "english": "warm"
+    },
+    {
+      "id": 285,
+      "french": "ранний",
+      "english": "early"
+    },
+    {
+      "id": 286,
+      "french": "близкий",
+      "english": "near"
+    },
+    {
+      "id": 287,
+      "french": "адрес",
+      "english": "address"
+    },
+    {
+      "id": 288,
+      "french": "ненавидеть",
+      "english": "to hate"
+    },
+    {
+      "id": 289,
+      "french": "морковь",
+      "english": "carrot"
+    },
+    {
+      "id": 290,
+      "french": "поездка",
+      "english": "trip"
+    },
+    {
+      "id": 291,
+      "french": "путешествие",
+      "english": "travel"
+    },
+    {
+      "id": 292,
+      "french": "дорога",
+      "english": "road"
+    },
+    {
+      "id": 293,
+      "french": "улица",
+      "english": "street"
+    },
+    {
+      "id": 294,
+      "french": "направление",
+      "english": "direction"
+    },
+    {
+      "id": 295,
+      "french": "город",
+      "english": "city"
+    },
+    {
+      "id": 296,
+      "french": "аэропорт",
+      "english": "airport"
+    },
+    {
+      "id": 297,
+      "french": "вокзал",
+      "english": "station"
+    },
+    {
+      "id": 298,
+      "french": "билет",
+      "english": "ticket"
+    },
+    {
+      "id": 299,
+      "french": "поезд",
+      "english": "train"
+    },
+    {
+      "id": 300,
+      "french": "автобус",
+      "english": "bus"
+    },
+    {
+      "id": 301,
+      "french": "такси",
+      "english": "taxi"
+    },
+    {
+      "id": 302,
+      "french": "машина",
+      "english": "car"
+    },
+    {
+      "id": 303,
+      "french": "отель",
+      "english": "hotel"
+    },
+    {
+      "id": 304,
+      "french": "паспорт",
+      "english": "passport"
+    },
+    {
+      "id": 305,
+      "french": "карта",
+      "english": "map"
+    },
+    {
+      "id": 306,
+      "french": "касса",
+      "english": "ticket office"
+    },
+    {
+      "id": 307,
+      "french": "стоимость проезда",
+      "english": "fare"
+    },
+    {
+      "id": 308,
+      "french": "поверните налево",
+      "english": "turn left"
+    },
+    {
+      "id": 309,
+      "french": "поверните направо",
+      "english": "turn right"
+    },
+    {
+      "id": 310,
+      "french": "билет туда и обратно",
+      "english": "round-trip ticket"
+    },
+    {
+      "id": 311,
+      "french": "карьера",
+      "english": "career"
+    },
+    {
+      "id": 312,
+      "french": "открывать",
+      "english": "to open"
+    },
+    {
+      "id": 313,
+      "french": "закрывать",
+      "english": "to close"
+    },
+    {
+      "id": 314,
+      "french": "далекий",
+      "english": "far"
+    },
+    {
+      "id": 315,
+      "french": "начальник",
+      "english": "boss"
+    },
+    {
+      "id": 316,
+      "french": "офис",
+      "english": "office"
+    },
+    {
+      "id": 317,
+      "french": "компания",
+      "english": "company"
+    },
+    {
+      "id": 318,
+      "french": "встреча",
+      "english": "meeting"
+    },
+    {
+      "id": 319,
+      "french": "экзамен",
+      "english": "exam"
+    },
+    {
+      "id": 320,
+      "french": "вопрос",
+      "english": "question"
+    },
+    {
+      "id": 321,
+      "french": "ответ",
+      "english": "answer"
+    },
+    {
+      "id": 322,
+      "french": "отвечать",
+      "english": "to answer"
+    },
+    {
+      "id": 323,
+      "french": "дорогой",
+      "english": "expensive"
+    },
+    {
+      "id": 324,
+      "french": "дешевый",
+      "english": "cheap"
+    },
+    {
+      "id": 325,
+      "french": "водитель",
+      "english": "driver"
+    },
+    {
+      "id": 326,
+      "french": "водительские права",
+      "english": "driver license"
+    },
+    {
+      "id": 327,
+      "french": "отпуск",
+      "english": "vacation"
+    },
+    {
+      "id": 328,
+      "french": "начинать",
+      "english": "to start"
+    },
+    {
+      "id": 329,
+      "french": "холодный",
+      "english": "cold"
+    },
+    {
+      "id": 330,
+      "french": "горячий",
+      "english": "hot"
+    },
+    {
+      "id": 331,
+      "french": "удачи",
+      "english": "good luck"
+    },
+    {
+      "id": 332,
+      "french": "очень хорошо",
+      "english": "very good"
+    },
+    {
+      "id": 333,
+      "french": "очень плохо",
+      "english": "very bad"
+    },
+    {
+      "id": 334,
+      "french": "большой",
+      "english": "big"
+    },
+    {
+      "id": 335,
+      "french": "маленький",
+      "english": "small"
+    },
+    {
+      "id": 336,
+      "french": "легкий",
+      "english": "light / easy"
+    },
+    {
+      "id": 337,
+      "french": "новый",
+      "english": "new"
+    },
+    {
+      "id": 338,
+      "french": "старый",
+      "english": "old"
+    },
+    {
+      "id": 339,
+      "french": "молодой",
+      "english": "young"
+    },
+    {
+      "id": 340,
+      "french": "красивый",
+      "english": "beautiful"
+    },
+    {
+      "id": 341,
+      "french": "сложный",
+      "english": "difficult"
+    },
+    {
+      "id": 342,
+      "french": "важный",
+      "english": "important"
+    },
+    {
+      "id": 343,
+      "french": "счастливый",
+      "english": "happy"
+    },
+    {
+      "id": 344,
+      "french": "грустный",
+      "english": "sad"
+    },
+    {
+      "id": 345,
+      "french": "злой",
+      "english": "angry"
+    },
+    {
+      "id": 346,
+      "french": "уставший",
+      "english": "tired"
+    },
+    {
+      "id": 347,
+      "french": "сосед",
+      "english": "neighbor (male)"
+    },
+    {
+      "id": 348,
+      "french": "соседка",
+      "english": "neighbor (female)"
+    },
+    {
+      "id": 349,
+      "french": "каша",
+      "english": "porridge"
+    },
+    {
+      "id": 350,
+      "french": "апельсин",
+      "english": "orange"
+    },
+    {
+      "id": 351,
+      "french": "персик",
+      "english": "peach"
+    },
+    {
+      "id": 352,
+      "french": "масло",
+      "english": "butter / oil"
+    },
+    {
+      "id": 353,
+      "french": "транспорт",
+      "english": "transport"
+    },
+    {
+      "id": 354,
+      "french": "граница",
+      "english": "border"
+    },
+    {
+      "id": 355,
+      "french": "организация",
+      "english": "organization"
+    },
+    {
+      "id": 356,
+      "french": "отчет",
+      "english": "report"
+    },
+    {
+      "id": 357,
+      "french": "зуб",
+      "english": "tooth"
+    },
+    {
+      "id": 358,
+      "french": "до",
+      "english": "before / until"
+    },
+    {
+      "id": 359,
+      "french": "после",
+      "english": "after"
+    },
+    {
+      "id": 360,
+      "french": "всегда",
+      "english": "always"
+    },
+    {
+      "id": 361,
+      "french": "никогда",
+      "english": "never"
+    },
+    {
+      "id": 362,
+      "french": "уходить",
+      "english": "to leave"
+    },
+    {
+      "id": 363,
+      "french": "бежать",
+      "english": "to run"
+    },
+    {
+      "id": 364,
+      "french": "сидеть",
+      "english": "to sit"
+    },
+    {
+      "id": 365,
+      "french": "стоять",
+      "english": "to stand"
+    },
+    {
+      "id": 366,
+      "french": "лежать",
+      "english": "to lie down"
+    },
+    {
+      "id": 367,
+      "french": "просыпаться",
+      "english": "to wake up"
+    },
+    {
+      "id": 368,
+      "french": "понимать",
+      "english": "to understand"
+    },
+    {
+      "id": 369,
+      "french": "заканчивать",
+      "english": "to finish"
+    },
+    {
+      "id": 370,
+      "french": "ждать",
+      "english": "to wait"
+    },
+    {
+      "id": 371,
+      "french": "терять",
+      "english": "to lose"
+    },
+    {
+      "id": 372,
+      "french": "верить",
+      "english": "to believe"
+    },
+    {
+      "id": 373,
+      "french": "помнить",
+      "english": "to remember"
+    },
+    {
+      "id": 374,
+      "french": "соглашаться",
+      "english": "to agree"
+    },
+    {
+      "id": 375,
+      "french": "выбирать",
+      "english": "to choose"
+    },
+    {
+      "id": 376,
+      "french": "мыть",
+      "english": "to wash"
+    },
+    {
+      "id": 377,
+      "french": "чистить",
+      "english": "to clean"
+    },
+    {
+      "id": 378,
+      "french": "ремонтировать",
+      "english": "to repair"
+    },
+    {
+      "id": 379,
+      "french": "смеяться",
+      "english": "to laugh"
+    },
+    {
+      "id": 380,
+      "french": "плакать",
+      "english": "to cry"
+    },
+    {
+      "id": 381,
+      "french": "побеждать",
+      "english": "to win"
+    },
+    {
+      "id": 382,
+      "french": "проигрывать",
+      "english": "to lose (a game)"
+    },
+    {
+      "id": 383,
+      "french": "короткий",
+      "english": "short"
+    },
+    {
+      "id": 384,
+      "french": "бедный",
+      "english": "poor"
+    },
+    {
+      "id": 385,
+      "french": "скучный",
+      "english": "boring"
+    },
+    {
+      "id": 386,
+      "french": "правильный",
+      "english": "correct"
+    },
+    {
+      "id": 387,
+      "french": "может быть",
+      "english": "maybe"
+    },
+    {
+      "id": 388,
+      "french": "конечно",
+      "english": "of course"
+    },
+    {
+      "id": 389,
+      "french": "поздравляю",
+      "english": "congratulations"
+    },
+    {
+      "id": 390,
+      "french": "позже",
+      "english": "later"
+    },
+    {
+      "id": 391,
+      "french": "возможно",
+      "english": "possible / perhaps"
+    },
+    {
+      "id": 392,
+      "french": "мама",
+      "english": "mom"
+    },
+    {
+      "id": 393,
+      "french": "папа",
+      "english": "dad"
+    },
+    {
+      "id": 394,
+      "french": "гость",
+      "english": "guest (male)"
+    },
+    {
+      "id": 395,
+      "french": "гостья",
+      "english": "guest (female)"
+    },
+    {
+      "id": 396,
+      "french": "инженер",
+      "english": "engineer"
+    },
+    {
+      "id": 397,
+      "french": "клиент",
+      "english": "client"
+    },
+    {
+      "id": 398,
+      "french": "коллега",
+      "english": "colleague"
+    },
+    {
+      "id": 399,
+      "french": "сотрудник",
+      "english": "employee"
+    },
+    {
+      "id": 400,
+      "french": "пятнадцать",
+      "english": "fifteen"
+    },
+    {
+      "id": 401,
+      "french": "миллион",
+      "english": "million"
+    },
+    {
+      "id": 402,
+      "french": "пятый",
+      "english": "fifth"
+    },
+    {
+      "id": 403,
+      "french": "блюдо",
+      "english": "dish"
+    },
+    {
+      "id": 404,
+      "french": "кефир",
+      "english": "kefir"
+    },
+    {
+      "id": 405,
+      "french": "сок",
+      "english": "juice"
+    },
+    {
+      "id": 406,
+      "french": "перец",
+      "english": "pepper"
+    },
+    {
+      "id": 407,
+      "french": "говядина",
+      "english": "beef"
+    },
+    {
+      "id": 408,
+      "french": "баранина",
+      "english": "lamb"
+    },
+    {
+      "id": 409,
+      "french": "макароны",
+      "english": "pasta"
+    },
+    {
+      "id": 410,
+      "french": "салат",
+      "english": "salad"
+    },
+    {
+      "id": 411,
+      "french": "картофель",
+      "english": "potato"
+    },
+    {
+      "id": 412,
+      "french": "лук",
+      "english": "onion"
+    },
+    {
+      "id": 413,
+      "french": "чеснок",
+      "english": "garlic"
+    },
+    {
+      "id": 414,
+      "french": "помидор",
+      "english": "tomato"
+    },
+    {
+      "id": 415,
+      "french": "огурец",
+      "english": "cucumber"
+    },
+    {
+      "id": 416,
+      "french": "капуста",
+      "english": "cabbage"
+    },
+    {
+      "id": 417,
+      "french": "болгарский перец",
+      "english": "bell pepper"
+    },
+    {
+      "id": 418,
+      "french": "банан",
+      "english": "banana"
+    },
+    {
+      "id": 419,
+      "french": "лимон",
+      "english": "lemon"
+    },
+    {
+      "id": 420,
+      "french": "виноград",
+      "english": "grape"
+    },
+    {
+      "id": 421,
+      "french": "дыня",
+      "english": "melon"
+    },
+    {
+      "id": 422,
+      "french": "клубника",
+      "english": "strawberry"
+    },
+    {
+      "id": 423,
+      "french": "вишня",
+      "english": "cherry"
+    },
+    {
+      "id": 424,
+      "french": "абрикос",
+      "english": "apricot"
+    },
+    {
+      "id": 425,
+      "french": "орех",
+      "english": "nut"
+    },
+    {
+      "id": 426,
+      "french": "сыр",
+      "english": "cheese"
+    },
+    {
+      "id": 427,
+      "french": "десерт",
+      "english": "dessert"
+    },
+    {
+      "id": 428,
+      "french": "мороженое",
+      "english": "ice cream"
+    },
+    {
+      "id": 429,
+      "french": "пирог",
+      "english": "pie"
+    },
+    {
+      "id": 430,
+      "french": "плов",
+      "english": "pilaf"
+    },
+    {
+      "id": 431,
+      "french": "вкусный",
+      "english": "tasty"
+    },
+    {
+      "id": 432,
+      "french": "острый",
+      "english": "spicy"
+    },
+    {
+      "id": 433,
+      "french": "принесите счет",
+      "english": "bring the bill"
+    },
+    {
+      "id": 434,
+      "french": "проспект",
+      "english": "avenue"
+    },
+    {
+      "id": 435,
+      "french": "поворот",
+      "english": "turn"
+    },
+    {
+      "id": 436,
+      "french": "деревня",
+      "english": "village"
+    },
+    {
+      "id": 437,
+      "french": "страна",
+      "english": "country"
+    },
+    {
+      "id": 438,
+      "french": "центр",
+      "english": "center"
+    },
+    {
+      "id": 439,
+      "french": "остановка",
+      "english": "stop"
+    },
+    {
+      "id": 440,
+      "french": "самолет",
+      "english": "airplane"
+    },
+    {
+      "id": 441,
+      "french": "метро",
+      "english": "metro"
+    },
+    {
+      "id": 442,
+      "french": "бронь",
+      "english": "reservation"
+    },
+    {
+      "id": 443,
+      "french": "таможня",
+      "english": "customs"
+    },
+    {
+      "id": 444,
+      "french": "проект",
+      "english": "project"
+    },
+    {
+      "id": 445,
+      "french": "обязанность",
+      "english": "duty"
+    },
+    {
+      "id": 446,
+      "french": "цель",
+      "english": "goal"
+    },
+    {
+      "id": 447,
+      "french": "план",
+      "english": "plan"
+    },
+    {
+      "id": 448,
+      "french": "расписание",
+      "english": "schedule"
+    },
+    {
+      "id": 449,
+      "french": "результат",
+      "english": "result"
+    },
+    {
+      "id": 450,
+      "french": "опыт",
+      "english": "experience"
+    },
+    {
+      "id": 451,
+      "french": "навык",
+      "english": "skill"
+    },
+    {
+      "id": 452,
+      "french": "зарплата",
+      "english": "salary"
+    },
+    {
+      "id": 453,
+      "french": "премия",
+      "english": "bonus"
+    },
+    {
+      "id": 454,
+      "french": "договор",
+      "english": "contract"
+    },
+    {
+      "id": 455,
+      "french": "подпись",
+      "english": "signature"
+    },
+    {
+      "id": 456,
+      "french": "документ",
+      "english": "document"
+    },
+    {
+      "id": 457,
+      "french": "письмо",
+      "english": "letter"
+    },
+    {
+      "id": 458,
+      "french": "электронная почта",
+      "english": "email"
+    },
+    {
+      "id": 459,
+      "french": "звонок",
+      "english": "call"
+    },
+    {
+      "id": 460,
+      "french": "собеседование",
+      "english": "interview"
+    },
+    {
+      "id": 461,
+      "french": "перерыв",
+      "english": "break"
+    },
+    {
+      "id": 462,
+      "french": "должность",
+      "english": "position"
+    },
+    {
+      "id": 463,
+      "french": "совет",
+      "english": "advice"
+    },
+    {
+      "id": 464,
+      "french": "решение",
+      "english": "decision"
+    },
+    {
+      "id": 465,
+      "french": "мнение",
+      "english": "opinion"
+    },
+    {
+      "id": 466,
+      "french": "губа",
+      "english": "lip"
+    },
+    {
+      "id": 467,
+      "french": "язык",
+      "english": "tongue"
+    },
+    {
+      "id": 468,
+      "french": "челюсть",
+      "english": "jaw"
+    },
+    {
+      "id": 469,
+      "french": "шея",
+      "english": "neck"
+    },
+    {
+      "id": 470,
+      "french": "локоть",
+      "english": "elbow"
+    },
+    {
+      "id": 471,
+      "french": "запястье",
+      "english": "wrist"
+    },
+    {
+      "id": 472,
+      "french": "ладонь",
+      "english": "palm"
+    },
+    {
+      "id": 473,
+      "french": "ноготь",
+      "english": "nail"
+    },
+    {
+      "id": 474,
+      "french": "грудь",
+      "english": "chest"
+    },
+    {
+      "id": 475,
+      "french": "спина",
+      "english": "back"
+    },
+    {
+      "id": 476,
+      "french": "талия",
+      "english": "waist"
+    },
+    {
+      "id": 477,
+      "french": "живот",
+      "english": "belly"
+    },
+    {
+      "id": 478,
+      "french": "легкое",
+      "english": "lung"
+    },
+    {
+      "id": 479,
+      "french": "желудок",
+      "english": "stomach"
+    },
+    {
+      "id": 480,
+      "french": "колено",
+      "english": "knee"
+    },
+    {
+      "id": 481,
+      "french": "икра",
+      "english": "calf"
+    },
+    {
+      "id": 482,
+      "french": "пятка",
+      "english": "heel"
+    },
+    {
+      "id": 483,
+      "french": "кожа",
+      "english": "skin"
+    },
+    {
+      "id": 484,
+      "french": "мышца",
+      "english": "muscle"
+    },
+    {
+      "id": 485,
+      "french": "поликлиника",
+      "english": "clinic"
+    },
+    {
+      "id": 486,
+      "french": "скорая помощь",
+      "english": "ambulance"
+    },
+    {
+      "id": 487,
+      "french": "температура",
+      "english": "temperature"
+    },
+    {
+      "id": 488,
+      "french": "потом",
+      "english": "then / later"
+    },
+    {
+      "id": 489,
+      "french": "редко",
+      "english": "rarely"
+    },
+    {
+      "id": 490,
+      "french": "январь",
+      "english": "January"
+    },
+    {
+      "id": 491,
+      "french": "февраль",
+      "english": "February"
+    },
+    {
+      "id": 492,
+      "french": "март",
+      "english": "March"
+    },
+    {
+      "id": 493,
+      "french": "апрель",
+      "english": "April"
+    },
+    {
+      "id": 494,
+      "french": "май",
+      "english": "May"
+    },
+    {
+      "id": 495,
+      "french": "июнь",
+      "english": "June"
+    },
+    {
+      "id": 496,
+      "french": "июль",
+      "english": "July"
+    },
+    {
+      "id": 497,
+      "french": "август",
+      "english": "August"
+    },
+    {
+      "id": 498,
+      "french": "сентябрь",
+      "english": "September"
+    },
+    {
+      "id": 499,
+      "french": "октябрь",
+      "english": "October"
+    },
+    {
+      "id": 500,
+      "french": "декабрь",
+      "english": "December"
+    },
+    {
+      "id": 501,
+      "french": "длинный",
+      "english": "long"
+    },
+    {
+      "id": 502,
+      "french": "широкий",
+      "english": "wide"
+    },
+    {
+      "id": 503,
+      "french": "узкий",
+      "english": "narrow"
+    },
+    {
+      "id": 504,
+      "french": "низкий",
+      "english": "low"
+    },
+    {
+      "id": 505,
+      "french": "тяжелый",
+      "english": "heavy"
+    },
+    {
+      "id": 506,
+      "french": "прохладный",
+      "english": "cool"
+    },
+    {
+      "id": 507,
+      "french": "быстрый",
+      "english": "fast"
+    },
+    {
+      "id": 508,
+      "french": "медленный",
+      "english": "slow"
+    },
+    {
+      "id": 509,
+      "french": "поздний",
+      "english": "late"
+    },
+    {
+      "id": 510,
+      "french": "сильный",
+      "english": "strong"
+    },
+    {
+      "id": 511,
+      "french": "слабый",
+      "english": "weak"
+    },
+    {
+      "id": 512,
+      "french": "смелый",
+      "english": "brave"
+    },
+    {
+      "id": 513,
+      "french": "богатый",
+      "english": "rich"
+    },
+    {
+      "id": 514,
+      "french": "чистый",
+      "english": "clean"
+    },
+    {
+      "id": 515,
+      "french": "грязный",
+      "english": "dirty"
+    },
+    {
+      "id": 516,
+      "french": "простой",
+      "english": "simple"
+    },
+    {
+      "id": 517,
+      "french": "интересный",
+      "english": "interesting"
+    },
+    {
+      "id": 518,
+      "french": "неправильный",
+      "english": "wrong"
+    },
+    {
+      "id": 519,
+      "french": "полный",
+      "english": "full"
+    },
+    {
+      "id": 520,
+      "french": "пустой",
+      "english": "empty"
+    },
+    {
+      "id": 521,
+      "french": "спокойный",
+      "english": "calm"
+    },
+    {
+      "id": 522,
+      "french": "опасный",
+      "english": "dangerous"
+    },
+    {
+      "id": 523,
+      "french": "безопасный",
+      "english": "safe"
+    },
+    {
+      "id": 524,
+      "french": "известный",
+      "english": "famous"
+    },
+    {
+      "id": 525,
+      "french": "незнакомый",
+      "english": "unfamiliar"
+    },
+    {
+      "id": 526,
+      "french": "умный",
+      "english": "smart"
+    },
+    {
+      "id": 527,
+      "french": "вежливый",
+      "english": "polite"
+    },
+    {
+      "id": 528,
+      "french": "добрый",
+      "english": "kind"
+    },
+    {
+      "id": 529,
+      "french": "строгий",
+      "english": "strict"
     },
     {
       "id": 530,

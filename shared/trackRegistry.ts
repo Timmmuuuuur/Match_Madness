@@ -20,6 +20,13 @@ import ruReading from './data/russian/reading-articles.json';
 import ruGrammar from './data/russian/guide-grammar.json';
 import ruPronunciation from './data/russian/guide-pronunciation.json';
 import ruSpeaking from './data/russian/speaking-sentences.json';
+import koWords1000 from './data/korean/words-1000.json';
+import koSentences from './data/korean/sentences.json';
+import koTopics from './data/korean/topics.json';
+import koReading from './data/korean/reading-articles.json';
+import koGrammar from './data/korean/guide-grammar.json';
+import koPronunciation from './data/korean/guide-pronunciation.json';
+import koSpeaking from './data/korean/speaking-sentences.json';
 import type { Topic } from './types';
 
 export interface NavLink {
@@ -132,11 +139,15 @@ const FRENCH_NAV: NavLink[] = [
 
 const KK_MASTER = (kkWords1000 as { words: WordPair[] }).words;
 const RU_MASTER = (ruWords1000 as { words: WordPair[] }).words;
+const KO_MASTER = (koWords1000 as { words: WordPair[] }).words;
 
 const KK_TOPICS = (kkTopics as { topics: Topic[] }).topics.slice().sort(
   (a, b) => (a.order ?? 999) - (b.order ?? 999),
 );
 const RU_TOPICS = (ruTopics as { topics: Topic[] }).topics.slice().sort(
+  (a, b) => (a.order ?? 999) - (b.order ?? 999),
+);
+const KO_TOPICS = (koTopics as { topics: Topic[] }).topics.slice().sort(
   (a, b) => (a.order ?? 999) - (b.order ?? 999),
 );
 
@@ -155,11 +166,11 @@ export const FRENCH_TRACK: LanguageTrackConfig = {
   showBreakingBad: true,
   showTefTcf: true,
   poolOptions: [
-    { id: '500', label: 'First 500', description: 'Most common French words' },
-    { id: '500-2', label: 'Second 500', description: 'Words 501–1,000' },
-    { id: '1000', label: '1,000 words', description: 'First 1,000 combined' },
-    { id: '1500', label: '1,500 words', description: 'Strong foundation' },
-    { id: '2000', label: '2,000 words', description: 'Advanced pool' },
+    { id: '500', label: 'Starter 500', description: 'A1–A2 essentials — greetings, family, food, time' },
+    { id: '500-2', label: 'Builder 500', description: 'A2–B1 expansion — travel, work, feelings' },
+    { id: '1000', label: '1,000 words', description: 'Starter + Builder combined' },
+    { id: '1500', label: '1,500 words', description: 'Solid B1 foundation' },
+    { id: '2000', label: '2,000 words', description: 'Full B1–B2 pool' },
   ],
   getWords: (id) => slicePool(FRENCH_MASTER, id),
   sentences: frenchSentences as LanguageTrackConfig['sentences'],
@@ -250,10 +261,44 @@ export const RUSSIAN_TRACK: LanguageTrackConfig = {
   speaking: ruSpeaking as SpeakingData,
 };
 
+export const KOREAN_TRACK: LanguageTrackConfig = {
+  id: 'korean',
+  label: 'Korean',
+  flag: '🇰🇷',
+  basePath: '/korean',
+  shellClass: 'app-shell--korean',
+  matchSubtitle: 'English ↔ Korean — match, learn, look up',
+  directions: { enPrimary: 'en-ko', primaryEn: 'ko-en' },
+  enPrimaryLabel: 'English → Korean',
+  primaryEnLabel: 'Korean → English',
+  primaryLangName: 'Korean',
+  ttsLang: 'ko',
+  navLinks: STANDARD_NAV,
+  poolOptions: [
+    { id: '500', label: 'First 500', description: 'Core Korean vocabulary' },
+    { id: '1000', label: '1,000 words', description: 'Extended foundation' },
+  ],
+  getWords: (id) => slicePool(KO_MASTER, id),
+  sentences: koSentences as LanguageTrackConfig['sentences'],
+  topics: KO_TOPICS,
+  unitLabels: {
+    1: 'First steps',
+    2: 'Daily life',
+    3: 'Body & travel',
+    4: 'Work & city',
+    5: 'Feelings & verbs',
+  },
+  reading: koReading as ReadingData,
+  grammar: koGrammar as GuideDocument,
+  pronunciation: koPronunciation as GuideDocument,
+  speaking: koSpeaking as SpeakingData,
+};
+
 const TRACKS: Record<LearningTrack, LanguageTrackConfig> = {
   french: FRENCH_TRACK,
   kazakh: KAZAKH_TRACK,
   russian: RUSSIAN_TRACK,
+  korean: KOREAN_TRACK,
   quran: FRENCH_TRACK, // placeholder — quran uses separate components
 };
 
@@ -264,6 +309,7 @@ export function getTrackConfig(track: LearningTrack): LanguageTrackConfig {
 export function getTrackConfigFromPath(path: string): LanguageTrackConfig | null {
   if (path === '/kazakh' || path.startsWith('/kazakh/')) return KAZAKH_TRACK;
   if (path === '/russian' || path.startsWith('/russian/')) return RUSSIAN_TRACK;
+  if (path === '/korean' || path.startsWith('/korean/')) return KOREAN_TRACK;
   if (path === '/quran' || path.startsWith('/quran/')) return null;
   return FRENCH_TRACK;
 }

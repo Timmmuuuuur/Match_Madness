@@ -6,6 +6,7 @@ import {
   getTrackConfigForPath,
   isHomePath,
   kazakhSubPath,
+  koreanSubPath,
   quranSubPath,
   russianSubPath,
 } from './lib/tracks';
@@ -153,6 +154,8 @@ function App() {
     page = renderLanguagePage(kazakhSubPath(path));
   } else if (path === '/russian' || path.startsWith('/russian/')) {
     page = renderLanguagePage(russianSubPath(path));
+  } else if (path === '/korean' || path.startsWith('/korean/')) {
+    page = renderLanguagePage(koreanSubPath(path));
   } else {
     page = renderLanguagePage(frenchSubPath(path));
   }

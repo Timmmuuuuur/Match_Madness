@@ -6,6 +6,7 @@ export function isEnglishFirst(direction: Direction): boolean {
     || direction === 'en-ar'
     || direction === 'en-kk'
     || direction === 'en-ru'
+    || direction === 'en-ko'
   );
 }
 
@@ -23,6 +24,8 @@ export function dirLabel(direction: Direction): string {
     'kk-en': 'KK → EN',
     'en-ru': 'EN → RU',
     'ru-en': 'RU → EN',
+    'en-ko': 'EN → KO',
+    'ko-en': 'KO → EN',
   };
   return labels[direction];
 }
@@ -32,6 +35,7 @@ export function primaryColumnLabel(direction: Direction): string {
   if (isArabicDirection(direction)) return 'Arabic';
   if (direction === 'kk-en') return 'Kazakh';
   if (direction === 'ru-en') return 'Russian';
+  if (direction === 'ko-en') return 'Korean';
   return 'French';
 }
 
@@ -40,6 +44,7 @@ export function secondaryColumnLabel(direction: Direction): string {
     if (isArabicDirection(direction)) return 'Arabic';
     if (direction === 'en-kk') return 'Kazakh';
     if (direction === 'en-ru') return 'Russian';
+    if (direction === 'en-ko') return 'Korean';
     return 'French';
   }
   return 'English';

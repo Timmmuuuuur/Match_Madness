@@ -1,16 +1,16 @@
-/** Which slice of the frequency-ranked master list to play. */
+/** Which slice of the learning-ordered master list to play. */
 export type WordPoolId = '500' | '500-2' | '1000' | '1500' | '2000';
 
 /** @deprecated Use WordPoolId */
 export type PoolSize = 500 | 1000 | 1500 | 2000;
 
-export type Direction = 'en-fr' | 'fr-en' | 'en-ar' | 'ar-en' | 'en-kk' | 'kk-en' | 'en-ru' | 'ru-en';
+export type Direction = 'en-fr' | 'fr-en' | 'en-ar' | 'ar-en' | 'en-kk' | 'kk-en' | 'en-ru' | 'ru-en' | 'en-ko' | 'ko-en';
 
 /** Top-level learning track. */
-export type LearningTrack = 'french' | 'quran' | 'kazakh' | 'russian';
+export type LearningTrack = 'french' | 'quran' | 'kazakh' | 'russian' | 'korean';
 
 /** Browser TTS language codes used by SpeakButton. */
-export type SpeechLang = 'fr' | 'ar' | 'kk' | 'ru';
+export type SpeechLang = 'fr' | 'ar' | 'kk' | 'ru' | 'ko';
 
 export interface WordPair {
   id: number;

@@ -24,7 +24,7 @@ interface SentenceTile {
   id: string;
   pairId: number;
   text: string;
-  language: 'french' | 'english' | 'kazakh' | 'russian' | 'arabic';
+  language: 'french' | 'english' | 'kazakh' | 'russian' | 'arabic' | 'korean';
   side: 'left' | 'right';
 }
 

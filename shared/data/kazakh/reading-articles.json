@@ -13,11 +13,11 @@
       "paragraphs": [
         {
           "french": "Демалыс күні мен ерте оятқышпен ояндым. Терезеден Алатау тауларын көрдім — ауа таза, күн жарқын. Мен қала орталығына баруды шештім.",
-          "english": "On my day off I woke up early without an alarm. Through the window I saw the Alatau mountains — the air was fresh, the sun bright. I decided to go to the city centre."
+          "english": "On my day off I woke up early. Through the window I saw the Alatau mountains — the air was fresh, the sun bright. I decided to go to the city centre."
         },
         {
-          "french": "Алдымен мен «Астана» базарында жеміс пен нан сатып алдым. Сатушылар мейірімді, бағаңдар қолжетімді. Кейін мен көше музыканттарын тыңдап, кофе іштім.",
-          "english": "First I bought fruit and bread at the Green Bazaar. The sellers were friendly, the prices affordable. Then I listened to street musicians and drank coffee."
+          "french": "Алдымен мен базарда жеміс пен нан сатып алдым. Сатушылар мейірімді, бағалар қолжетімді. Кейін мен көше музыканттарын тыңдап, кофе іштім.",
+          "english": "First I bought fruit and bread at the bazaar. The sellers were friendly, the prices affordable. Then I listened to street musicians and drank coffee."
         },
         {
           "french": "Кешке мен достарыммен кездестім. Біз ұлттық тамақ — бесбармақ пен шай іштік. «Ертең тағы келеміз», — дедік. Алматы маған әр күнде жаңа сезім береді.",
@@ -27,15 +27,15 @@
       "vocab": [
         {
           "fr": "демалыс",
-          "en": "day off / holiday"
+          "en": "day off"
         },
         {
           "fr": "тау",
           "en": "mountain"
         },
         {
-          "fr": "бazar",
-          "en": "bazaar / market"
+          "fr": "базар",
+          "en": "bazaar"
         },
         {
           "fr": "сатушы",
@@ -53,9 +53,9 @@
     },
     {
       "id": 2,
-      "title": "Жаңа семья",
-      "subtitle": "A New Family",
-      "level": "A1–A2",
+      "title": "Менің отбасым",
+      "subtitle": "My Family",
+      "level": "A1",
       "topic": "Family & Home",
       "paragraphs": [
         {
@@ -63,8 +63,12 @@
           "english": "My family is small: my mother, father, me and my younger brother. We live in Astana. My father is an engineer, my mother is a teacher."
         },
         {
-          "french": "Күн сайын таңертең біз бірге таңғы ас ішеміз. Инім мектепке барады, мен университетке. Кешке біз отбасымен кино көреміз немесе сөйлесеміз.",
+          "french": "Күн сайын таңертең біз бірге таңғы ас ішеміз. Інім мектепке барады, мен университетке. Кешке біз отбасымен кино көреміз немесе сөйлесеміз.",
           "english": "Every morning we have breakfast together. My brother goes to school, I go to university. In the evening we watch films or talk as a family."
+        },
+        {
+          "french": "Апта сайын жексенбіде біз барлығымыз бас қосамыз. Анам бесбармақ пісіреді. Бұл біздің ең сүйікті дәстүрімізге айналды.",
+          "english": "Every Sunday we all gather together. My mother cooks beshbarmak. This has become our favourite tradition."
         }
       ],
       "vocab": [
@@ -85,8 +89,180 @@
           "en": "breakfast"
         },
         {
-          "fr": "университет",
-          "en": "university"
+          "fr": "дәстүр",
+          "en": "tradition"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Базарда сауда",
+      "subtitle": "Shopping at the Bazaar",
+      "level": "A2",
+      "topic": "Shopping",
+      "paragraphs": [
+        {
+          "french": "Мен жексенбі сайын базарға барамын. Сонда мен жеміс, көкөніс және нан сатып аламын. Базардағы бағалар дүкенге қарағанда арзан.",
+          "english": "I go to the bazaar every Sunday. There I buy fruit, vegetables and bread. Prices at the bazaar are cheaper than in the shop."
+        },
+        {
+          "french": "Бүгін мен сатушымен бағаны саудаластым. «Бір килограм алма қанша?» — деп сұрадым. «Екі жүз теңге», — деді ол. Мен бес кило сатып алдым.",
+          "english": "Today I bargained with the seller over the price. \"How much is a kilogram of apples?\" I asked. \"Two hundred tenge,\" he said. I bought five kilos."
+        },
+        {
+          "french": "Базар өте тіршілікті жер. Адамдар сөйлеседі, күледі, таныстарымен кездеседі. Мен базарға тек саудаға емес, атмосфераның үшін де барамын.",
+          "english": "The bazaar is a very lively place. People talk, laugh, meet acquaintances. I go to the bazaar not only to shop but also for the atmosphere."
+        }
+      ],
+      "vocab": [
+        {
+          "fr": "баға",
+          "en": "price"
+        },
+        {
+          "fr": "арзан",
+          "en": "cheap"
+        },
+        {
+          "fr": "саудаласу",
+          "en": "to bargain"
+        },
+        {
+          "fr": "килограмм",
+          "en": "kilogram"
+        },
+        {
+          "fr": "тіршілікті",
+          "en": "lively"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Дала мен табиғат",
+      "subtitle": "Steppe and Nature",
+      "level": "B1",
+      "topic": "Nature",
+      "paragraphs": [
+        {
+          "french": "Қазақстан — дала елі. Шексіз жазықтық, биік аспан, жыл мезгілінің өзгерісі — мұның бәрі қазақ халқының жанына сіңген.",
+          "english": "Kazakhstan is a land of steppe. The endless plain, high sky, changing seasons — all of this is ingrained in the soul of the Kazakh people."
+        },
+        {
+          "french": "Көктемде дала жасыл шөппен жабылады. Жазда күн қатты ысытады, ал қыста суық боран соғады. Осы қатаң табиғат халықты шыдамды және күшті еткен.",
+          "english": "In spring the steppe is covered with green grass. In summer the sun beats down hard, while in winter cold blizzards blow. This harsh nature has made the people patient and strong."
+        },
+        {
+          "french": "Бүгінгі таңда қалалар өсіп жатыр, бірақ далаға деген сүйіспеншілік жоғалған жоқ. Көптеген қазақтар жыл сайын ауылға барып, табиғатты сағынышпен жолыға алады.",
+          "english": "Nowadays cities are growing, but the love for the steppe has not disappeared. Many Kazakhs visit the village every year and joyfully reunite with nature."
+        }
+      ],
+      "vocab": [
+        {
+          "fr": "дала",
+          "en": "steppe"
+        },
+        {
+          "fr": "шексіз",
+          "en": "endless"
+        },
+        {
+          "fr": "боран",
+          "en": "blizzard"
+        },
+        {
+          "fr": "шыдамды",
+          "en": "patient / enduring"
+        },
+        {
+          "fr": "сағыну",
+          "en": "to miss / to long for"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Жұмыс іздеу",
+      "subtitle": "Looking for Work",
+      "level": "B1",
+      "topic": "Work",
+      "paragraphs": [
+        {
+          "french": "Университетті бітіргеннен кейін мен жұмыс іздей бастадым. Интернетте және газеттерде хабарландыруларды қарадым. Бір апта ішінде мен он компанияға өтінім жібердім.",
+          "english": "After graduating from university I started looking for work. I looked at advertisements on the internet and in newspapers. Within a week I sent applications to ten companies."
+        },
+        {
+          "french": "Үш компания мені сұхбатқа шақырды. Бірінші сұхбатта мен өте қатты қобалжыдым. Бірақ екінші сұхбатта менің сенімділігім артты.",
+          "english": "Three companies invited me for an interview. At the first interview I was very nervous. But by the second interview my confidence had grown."
+        },
+        {
+          "french": "Ақырында маған ұсыныс жасалды. Бұл шағын компания, бірақ жақсы команда. Мен өз мансабымды осы жерден бастауды шештім.",
+          "english": "In the end I received an offer. It is a small company but a good team. I decided to start my career here."
+        }
+      ],
+      "vocab": [
+        {
+          "fr": "жұмыс іздеу",
+          "en": "to look for work"
+        },
+        {
+          "fr": "өтінім",
+          "en": "application"
+        },
+        {
+          "fr": "сұхбат",
+          "en": "interview"
+        },
+        {
+          "fr": "сенімділік",
+          "en": "confidence"
+        },
+        {
+          "fr": "мансап",
+          "en": "career"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Той дастархан",
+      "subtitle": "The Wedding Feast",
+      "level": "B1",
+      "topic": "Culture",
+      "paragraphs": [
+        {
+          "french": "Қазақ тойы — ерекше мереке. Туыс-туған, дос-жаран жиналады. Дастархан молшылыққа толы: ет, нан, тәтті тағамдар.",
+          "english": "A Kazakh wedding is a special celebration. Relatives and friends gather. The table is filled with abundance: meat, bread, sweet dishes."
+        },
+        {
+          "french": "Тойда ән мен күй тыңдалады. Жырау немесе ән салушы халықтық жырларды орындайды. Жастар биге шығады, ал үлкендер сөйлейді.",
+          "english": "At the wedding, songs and music are heard. A zhyrau or singer performs folk songs. The young people dance while the elders speak."
+        },
+        {
+          "french": "Той бірнеше күнге созылуы мүмкін. Дәстүрлер бойынша, үлкен кісілер бата береді — тілек пен батасын жастарға арнайды. Бұл дәстүр жас ұрпаққа жалғасып келеді.",
+          "english": "The wedding can last several days. According to tradition the elders give a bata — a blessing and wish dedicated to the young couple. This tradition continues to the younger generation."
+        }
+      ],
+      "vocab": [
+        {
+          "fr": "той",
+          "en": "celebration / wedding"
+        },
+        {
+          "fr": "дастархан",
+          "en": "feast table"
+        },
+        {
+          "fr": "жырау",
+          "en": "traditional poet-singer"
+        },
+        {
+          "fr": "бата",
+          "en": "blessing"
+        },
+        {
+          "fr": "ұрпақ",
+          "en": "generation"
         }
       ]
     }

@@ -7,7 +7,7 @@
       "id": "basics",
       "label": "Basics",
       "frenchLabel": "Основы",
-      "description": "Essential everyday phrases.",
+      "description": "Essential everyday words and phrases.",
       "sentences": [
         {
           "id": 1,
@@ -51,88 +51,113 @@
         },
         {
           "id": 9,
-          "french": "увидимся",
-          "english": "see you"
-        },
-        {
-          "id": 10,
-          "french": "до встречи",
-          "english": "see you later"
-        },
-        {
-          "id": 11,
           "french": "спасибо",
           "english": "thank you"
         },
         {
-          "id": 12,
+          "id": 10,
           "french": "большое спасибо",
           "english": "thank you very much"
         },
         {
-          "id": 13,
+          "id": 11,
           "french": "пожалуйста",
           "english": "please / you are welcome"
         },
         {
-          "id": 14,
+          "id": 12,
           "french": "извините",
           "english": "excuse me"
         },
         {
-          "id": 15,
+          "id": 13,
           "french": "простите",
           "english": "sorry"
         },
         {
-          "id": 16,
+          "id": 14,
           "french": "да",
           "english": "yes"
         },
         {
-          "id": 17,
+          "id": 15,
           "french": "нет",
           "english": "no"
         },
         {
-          "id": 18,
-          "french": "может быть",
-          "english": "maybe"
-        },
-        {
-          "id": 19,
-          "french": "конечно",
-          "english": "of course"
-        },
-        {
-          "id": 20,
+          "id": 16,
           "french": "хорошо",
           "english": "okay / good"
         },
         {
-          "id": 21,
-          "french": "я понимаю",
-          "english": "I understand"
-        },
-        {
-          "id": 22,
+          "id": 17,
           "french": "я не понимаю",
           "english": "I do not understand"
         },
         {
-          "id": 23,
+          "id": 18,
           "french": "повторите, пожалуйста",
           "english": "please repeat"
         },
         {
+          "id": 19,
+          "french": "все хорошо",
+          "english": "everything is fine"
+        },
+        {
+          "id": 20,
+          "french": "я не знаю",
+          "english": "I do not know"
+        },
+        {
+          "id": 21,
+          "french": "помогите, пожалуйста",
+          "english": "please help"
+        },
+        {
+          "id": 22,
+          "french": "без проблем",
+          "english": "no problem"
+        },
+        {
+          "id": 23,
+          "french": "мне не нравится",
+          "english": "I do not like it"
+        },
+        {
           "id": 24,
-          "french": "говорите медленнее",
-          "english": "speak more slowly"
+          "french": "не важно",
+          "english": "it does not matter"
         },
         {
           "id": 25,
-          "french": "вы говорите по-русски",
-          "english": "do you speak Russian"
+          "french": "не спешите",
+          "english": "do not hurry"
+        },
+        {
+          "id": 26,
+          "french": "ответьте, пожалуйста",
+          "english": "please answer"
+        },
+        {
+          "id": 27,
+          "french": "сейчас",
+          "english": "right now"
+        },
+        {
+          "id": 28,
+          "french": "еще нет",
+          "english": "not yet"
+        },
+        {
+          "id": 29,
+          "french": "ребенок",
+          "english": "child"
+        },
+        {
+          "id": 30,
+          "french": "повар",
+          "english": "cook"
         }
       ]
     },
@@ -140,7 +165,7 @@
       "id": "questions",
       "label": "Questions",
       "frenchLabel": "Вопросы",
-      "description": "Asking for help, directions, and prices.",
+      "description": "Asking for help, directions, and information.",
       "sentences": [
         {
           "id": 1,
@@ -149,13 +174,13 @@
         },
         {
           "id": 2,
-          "french": "Где вы?",
-          "english": "Where are you?"
+          "french": "Где вы живёте?",
+          "english": "Where do you live?"
         },
         {
           "id": 3,
-          "french": "Когда?",
-          "english": "When?"
+          "french": "Когда вы идёте?",
+          "english": "When are you going?"
         },
         {
           "id": 4,
@@ -169,8 +194,28 @@
         },
         {
           "id": 6,
-          "french": "Как?",
-          "english": "How?"
+          "french": "Как это сказать?",
+          "english": "How do you say this?"
+        },
+        {
+          "id": 7,
+          "french": "Чем вы занимаетесь?",
+          "english": "What do you do for work?"
+        },
+        {
+          "id": 8,
+          "french": "Сколько это стоит?",
+          "english": "How much does this cost?"
+        },
+        {
+          "id": 9,
+          "french": "Где ресторан?",
+          "english": "Where is the restaurant?"
+        },
+        {
+          "id": 10,
+          "french": "Где туалет?",
+          "english": "Where is the toilet?"
         }
       ]
     },
@@ -182,103 +227,211 @@
       "sentences": [
         {
           "id": 1,
-          "french": "вы говорите по-английски",
-          "english": "do you speak English"
+          "french": "Мне нравится ...",
+          "english": "I like ..."
         },
         {
           "id": 2,
-          "french": "меня зовут",
-          "english": "my name is"
+          "french": "Я желаю ...",
+          "english": "I wish ..."
         },
         {
           "id": 3,
-          "french": "как дела",
-          "english": "how are you"
+          "french": "Это очень хорошо!",
+          "english": "This is very good!"
         },
         {
           "id": 4,
-          "french": "все хорошо",
-          "english": "everything is fine"
+          "french": "Я с вами согласен.",
+          "english": "I agree with you."
         },
         {
           "id": 5,
-          "french": "приятно познакомиться",
-          "english": "nice to meet you"
+          "french": "Я думаю иначе.",
+          "english": "I think differently."
         },
         {
           "id": 6,
-          "french": "откуда вы",
-          "english": "where are you from"
+          "french": "Каково ваше мнение?",
+          "english": "What is your opinion?"
         },
         {
           "id": 7,
-          "french": "я забыл",
-          "english": "I forgot"
+          "french": "Мне нужно время.",
+          "english": "I need time."
         },
         {
           "id": 8,
-          "french": "я не знаю",
-          "english": "I do not know"
+          "french": "Замечательно!",
+          "english": "Excellent!"
         },
         {
           "id": 9,
-          "french": "помогите, пожалуйста",
-          "english": "please help"
+          "french": "Я вас хорошо понял.",
+          "english": "I understood you well."
         },
         {
           "id": 10,
-          "french": "мне нужна помощь",
-          "english": "I need help"
+          "french": "Спасибо за ваши слова.",
+          "english": "Thank you for what you said."
+        }
+      ]
+    },
+    {
+      "id": "vocab",
+      "label": "More words",
+      "frenchLabel": "Инструкции",
+      "description": "Extended vocabulary for speaking practice.",
+      "sentences": [
+        {
+          "id": 1,
+          "french": "тринадцать",
+          "english": "thirteen"
+        },
+        {
+          "id": 2,
+          "french": "тридцать",
+          "english": "thirty"
+        },
+        {
+          "id": 3,
+          "french": "тридцать один",
+          "english": "thirty one"
+        },
+        {
+          "id": 4,
+          "french": "тридцать два",
+          "english": "thirty two"
+        },
+        {
+          "id": 5,
+          "french": "тридцать три",
+          "english": "thirty three"
+        },
+        {
+          "id": 6,
+          "french": "тридцать четыре",
+          "english": "thirty four"
+        },
+        {
+          "id": 7,
+          "french": "тридцать пять",
+          "english": "thirty five"
+        },
+        {
+          "id": 8,
+          "french": "тридцать шесть",
+          "english": "thirty six"
+        },
+        {
+          "id": 9,
+          "french": "тридцать семь",
+          "english": "thirty seven"
+        },
+        {
+          "id": 10,
+          "french": "тридцать восемь",
+          "english": "thirty eight"
         },
         {
           "id": 11,
-          "french": "без проблем",
-          "english": "no problem"
+          "french": "тридцать девять",
+          "english": "thirty nine"
         },
         {
           "id": 12,
-          "french": "удачи",
-          "english": "good luck"
+          "french": "третий",
+          "english": "third"
         },
         {
           "id": 13,
-          "french": "поздравляю",
-          "english": "congratulations"
+          "french": "курица",
+          "english": "chicken"
         },
         {
           "id": 14,
-          "french": "приятного аппетита",
-          "english": "enjoy your meal"
+          "french": "я хочу пить",
+          "english": "I am thirsty"
         },
         {
           "id": 15,
-          "french": "берегите себя",
-          "english": "take care"
+          "french": "это недалеко",
+          "english": "it is not far"
         },
         {
           "id": 16,
-          "french": "до завтра",
-          "english": "see you tomorrow"
+          "french": "знание",
+          "english": "knowledge"
         },
         {
           "id": 17,
-          "french": "счастливого пути",
-          "english": "have a good trip"
+          "french": "нос",
+          "english": "nose"
         },
         {
           "id": 18,
-          "french": "я согласен",
-          "english": "I agree"
+          "french": "бедро",
+          "english": "thigh"
         },
         {
           "id": 19,
-          "french": "я не согласен",
-          "english": "I disagree"
+          "french": "вчера",
+          "english": "yesterday"
         },
         {
           "id": 20,
-          "french": "мне нравится",
-          "english": "I like it"
+          "french": "ноябрь",
+          "english": "November"
+        },
+        {
+          "id": 21,
+          "french": "смотреть",
+          "english": "to watch / look"
+        },
+        {
+          "id": 22,
+          "french": "знать",
+          "english": "to know"
+        },
+        {
+          "id": 23,
+          "french": "думать",
+          "english": "to think"
+        },
+        {
+          "id": 24,
+          "french": "готовить",
+          "english": "to cook"
+        },
+        {
+          "id": 25,
+          "french": "высокий",
+          "english": "high / tall"
+        },
+        {
+          "id": 26,
+          "french": "бесплатный",
+          "english": "free (no cost)"
+        },
+        {
+          "id": 27,
+          "french": "увидимся",
+          "english": "see you"
+        },
+        {
+          "id": 28,
+          "french": "до встречи",
+          "english": "see you later"
+        },
+        {
+          "id": 29,
+          "french": "я понимаю",
+          "english": "I understand"
+        },
+        {
+          "id": 30,
+          "french": "вы говорите по-русски",
+          "english": "do you speak Russian"
         }
       ]
     }

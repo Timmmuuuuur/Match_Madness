@@ -51,7 +51,7 @@
       "id": 2,
       "title": "Моя семья",
       "subtitle": "My Family",
-      "level": "A1–A2",
+      "level": "A1",
       "topic": "Family & Home",
       "paragraphs": [
         {
@@ -61,6 +61,10 @@
         {
           "french": "По воскресеньям мы всегда собираемся за столом. Бабушка готовит суп и рассказывает истории из детства. Эти вечера — самая важная традиция в нашей семье.",
           "english": "On Sundays we always gather at the table. Grandma makes soup and tells stories from childhood. These evenings are the most important tradition in our family."
+        },
+        {
+          "french": "Папа любит читать книги, мама — смотреть фильмы. Мы часто спорим о том, что лучше. Но в конце всегда смеёмся вместе — это главное.",
+          "english": "Dad likes to read books, mum likes to watch films. We often argue about which is better. But in the end we always laugh together — that is what matters."
         }
       ],
       "vocab": [
@@ -83,6 +87,178 @@
         {
           "fr": "традиция",
           "en": "tradition"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "В магазине",
+      "subtitle": "At the Shop",
+      "level": "A2",
+      "topic": "Shopping",
+      "paragraphs": [
+        {
+          "french": "Я пошёл в супермаркет, чтобы купить продукты на неделю. Я взял тележку и начал с овощного отдела. Мне нужны были помидоры, огурцы и картошка.",
+          "english": "I went to the supermarket to buy groceries for the week. I took a trolley and started at the vegetable section. I needed tomatoes, cucumbers and potatoes."
+        },
+        {
+          "french": "В кассе была длинная очередь. Я подождал минут десять. Когда подошла моя очередь, кассирша улыбнулась и спросила: «Нужен пакет?» Я сказал: «Да, пожалуйста».",
+          "english": "There was a long queue at the checkout. I waited about ten minutes. When my turn came the cashier smiled and asked: \"Do you need a bag?\" I said: \"Yes, please\"."
+        },
+        {
+          "french": "Я потратил около тысячи рублей. Это немного больше, чем обычно, потому что цены выросли. Но продукты свежие и качественные — это важнее.",
+          "english": "I spent about a thousand roubles. That is a bit more than usual because prices have risen. But the products are fresh and good quality — that matters more."
+        }
+      ],
+      "vocab": [
+        {
+          "fr": "тележка",
+          "en": "shopping trolley"
+        },
+        {
+          "fr": "очередь",
+          "en": "queue"
+        },
+        {
+          "fr": "кассирша",
+          "en": "female cashier"
+        },
+        {
+          "fr": "потратить",
+          "en": "to spend (money)"
+        },
+        {
+          "fr": "качественный",
+          "en": "quality / high-grade"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Русская зима",
+      "subtitle": "Russian Winter",
+      "level": "B1",
+      "topic": "Nature",
+      "paragraphs": [
+        {
+          "french": "Зима в России — особенное время. В ноябре начинает падать снег и температура опускается ниже нуля. К декабрю улицы покрываются толстым белым слоем.",
+          "english": "Winter in Russia is a special time. In November snow begins to fall and the temperature drops below zero. By December the streets are covered with a thick white layer."
+        },
+        {
+          "french": "Русские любят зиму, несмотря на мороз. Люди катаются на лыжах, на коньках, лепят снеговиков. Дети особенно рады снегу — для них это праздник.",
+          "english": "Russians love winter despite the frost. People ski, ice-skate, build snowmen. Children are especially happy about snow — for them it is a celebration."
+        },
+        {
+          "french": "Но самое приятное зимой — это вернуться домой после прогулки. Снять мокрые варежки, выпить горячего чая с мёдом и сидеть у тёплой батареи. Вот это счастье!",
+          "english": "But the best thing in winter is to come home after a walk. Take off wet mittens, drink hot tea with honey and sit by the warm radiator. That is happiness!"
+        }
+      ],
+      "vocab": [
+        {
+          "fr": "мороз",
+          "en": "frost / freezing cold"
+        },
+        {
+          "fr": "снеговик",
+          "en": "snowman"
+        },
+        {
+          "fr": "варежки",
+          "en": "mittens"
+        },
+        {
+          "fr": "мёд",
+          "en": "honey"
+        },
+        {
+          "fr": "батарея",
+          "en": "radiator / heater"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Первый рабочий день",
+      "subtitle": "First Day at Work",
+      "level": "B1",
+      "topic": "Work",
+      "paragraphs": [
+        {
+          "french": "Мой первый рабочий день начался с волнения. Я приехал в офис на пятнадцать минут раньше. Охранник попросил предъявить документы и выдал мне пропуск.",
+          "english": "My first day at work started with nerves. I arrived at the office fifteen minutes early. The security guard asked to see my documents and gave me a pass."
+        },
+        {
+          "french": "Коллеги встретили меня тепло. Менеджер показал мне рабочее место и объяснил основные задачи. Программы были незнакомые, но я старался запомнить всё быстро.",
+          "english": "My colleagues welcomed me warmly. The manager showed me my workstation and explained the main tasks. The programmes were unfamiliar, but I tried to learn everything quickly."
+        },
+        {
+          "french": "В обеденный перерыв мы с коллегами пошли в кафе рядом с офисом. За разговором я узнал много интересного о компании. К концу дня усталость прошла — осталось только удовлетворение.",
+          "english": "During the lunch break my colleagues and I went to a café near the office. Over conversation I learnt a lot of interesting things about the company. By the end of the day my tiredness passed — only satisfaction remained."
+        }
+      ],
+      "vocab": [
+        {
+          "fr": "волнение",
+          "en": "anxiety / excitement"
+        },
+        {
+          "fr": "пропуск",
+          "en": "pass / ID badge"
+        },
+        {
+          "fr": "рабочее место",
+          "en": "workstation"
+        },
+        {
+          "fr": "обеденный перерыв",
+          "en": "lunch break"
+        },
+        {
+          "fr": "удовлетворение",
+          "en": "satisfaction"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Русская кухня",
+      "subtitle": "Russian Cuisine",
+      "level": "A2",
+      "topic": "Food & Culture",
+      "paragraphs": [
+        {
+          "french": "Русская кухня богата и разнообразна. Борщ — суп со свёклой и капустой — известен во всём мире. Пельмени, блины и пироги — тоже традиционные блюда.",
+          "english": "Russian cuisine is rich and varied. Borsch — a soup with beetroot and cabbage — is known worldwide. Pelmeni, blini and piroги are also traditional dishes."
+        },
+        {
+          "french": "На завтрак многие русские едят кашу — гречневую, овсяную или манную. Это сытно и полезно. К каше часто добавляют масло, молоко или варенье.",
+          "english": "For breakfast many Russians eat porridge — buckwheat, oat or semolina. It is filling and healthy. Butter, milk or jam is often added to the porridge."
+        },
+        {
+          "french": "За столом принято говорить «приятного аппетита» перед едой. Гостей в России всегда угощают от всей души. «Ешьте, пожалуйста, не стесняйтесь» — это самая русская фраза.",
+          "english": "At the table it is customary to say \"bon appétit\" before eating. Guests in Russia are always treated generously. \"Please eat, don't be shy\" — this is the most Russian phrase."
+        }
+      ],
+      "vocab": [
+        {
+          "fr": "борщ",
+          "en": "borsch (beet soup)"
+        },
+        {
+          "fr": "пельмени",
+          "en": "pelmeni (dumplings)"
+        },
+        {
+          "fr": "каша",
+          "en": "porridge / grain dish"
+        },
+        {
+          "fr": "варенье",
+          "en": "jam / preserve"
+        },
+        {
+          "fr": "угощать",
+          "en": "to treat / to serve food"
         }
       ]
     }

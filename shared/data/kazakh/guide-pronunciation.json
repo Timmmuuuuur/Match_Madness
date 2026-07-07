@@ -1,33 +1,152 @@
 {
   "meta": {
     "title": "Sounds",
-    "subtitle": "Kazakh vowels, harmony, and Cyrillic letters that differ from Russian.",
+    "subtitle": "Kazakh Cyrillic special letters, vowel harmony, and key pronunciation rules.",
     "accent": "teal"
   },
   "sections": [
     {
       "id": "alphabet",
       "number": 1,
-      "title": "Alphabet essentials",
+      "title": "Kazakh Cyrillic special letters",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Kazakh Cyrillic includes special letters: <strong>ә, ғ, қ, ң, ө, ұ, ү, h, і</strong>. Vowel harmony means front vowels (е, i, ü…) take front suffixes."
+          "text": "Kazakh Cyrillic adds 9 letters not in Russian: <strong>ә Ә, ғ Ғ, қ Қ, ң Ң, ө Ө, ұ Ұ, ү Ү, h Н, і І</strong>."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Letter",
+            "Sound",
+            "Tip"
+          ],
+          "rows": [
+            [
+              "ә",
+              "open e",
+              "like \"a\" in \"cat\""
+            ],
+            [
+              "ғ",
+              "voiced uvular",
+              "like a French/Arabic \"gh\""
+            ],
+            [
+              "қ",
+              "uvular k",
+              "further back than Russian к"
+            ],
+            [
+              "ң",
+              "ng",
+              "like \"ng\" in \"sing\""
+            ],
+            [
+              "ө",
+              "rounded front o",
+              "like German ö or French eu"
+            ],
+            [
+              "ұ",
+              "back u",
+              "like \"oo\" but unrounded"
+            ],
+            [
+              "ү",
+              "front u",
+              "like German ü or French u"
+            ],
+            [
+              "і",
+              "high central i",
+              "shorter than Russian и"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "harmony",
+      "number": 2,
+      "title": "Vowel harmony in speech",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "When speaking, all vowels in a word (root + suffixes) harmonise. Back vowels (а, о, ұ, ы) attract back suffixes; front vowels (е, ө, ү, і) attract front suffixes."
+        },
+        {
+          "type": "example",
+          "fr": "бала → балаға (back)",
+          "en": "child → to the child (back suffix)"
+        },
+        {
+          "type": "example",
+          "fr": "үй → үйге (front)",
+          "en": "house → to the house (front suffix)"
         }
       ]
     },
     {
       "id": "tips",
-      "number": 2,
+      "number": 3,
       "title": "Pronunciation tips",
       "blocks": [
         {
           "type": "list",
           "items": [
-            "Roll or tap /r/ lightly",
-            "Қ is a back k — deeper in the throat",
-            "Listen for vowel length — it can change meaning",
-            "Use 🔊 on every word in Vocab and Reading"
+            "Roll or lightly tap /р/ — similar to Spanish r",
+            "Қ is deeper in the throat than к; practice separately",
+            "Н before a vowel at word start is pronounced like English n",
+            "Word stress generally falls on the last syllable",
+            "Use 🔊 on every word in Vocab and Reading to train your ear"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "common",
+      "number": 4,
+      "title": "Common sound pairs",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": [
+            "Kazakh",
+            "Sounds like",
+            "Contrast with Russian"
+          ],
+          "rows": [
+            [
+              "к",
+              "k (front vowels)",
+              "same as Russian к before front vowels"
+            ],
+            [
+              "қ",
+              "q (back, uvular)",
+              "does not exist in Russian"
+            ],
+            [
+              "г",
+              "g",
+              "same"
+            ],
+            [
+              "ғ",
+              "gh (voiced uvular)",
+              "does not exist in Russian"
+            ],
+            [
+              "з",
+              "z",
+              "same"
+            ],
+            [
+              "с",
+              "s",
+              "same — never \"sh\""
+            ]
           ]
         }
       ]

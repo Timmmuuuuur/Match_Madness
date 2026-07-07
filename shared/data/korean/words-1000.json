@@ -1,0 +1,3740 @@
+{
+  "meta": {
+    "size": 746,
+    "targetSize": 1000,
+    "languagePair": "en-ko",
+    "source": "Curated Korean — learning-progression order"
+  },
+  "words": [
+    {
+      "id": 1,
+      "french": "안녕",
+      "english": "hello (informal)"
+    },
+    {
+      "id": 2,
+      "french": "안녕하세요",
+      "english": "hello (formal)"
+    },
+    {
+      "id": 3,
+      "french": "안녕하십니까",
+      "english": "hello (very formal)"
+    },
+    {
+      "id": 4,
+      "french": "좋은 아침이에요",
+      "english": "good morning"
+    },
+    {
+      "id": 5,
+      "french": "좋은 오후예요",
+      "english": "good afternoon"
+    },
+    {
+      "id": 6,
+      "french": "좋은 저녁이에요",
+      "english": "good evening"
+    },
+    {
+      "id": 7,
+      "french": "잘 자요",
+      "english": "good night"
+    },
+    {
+      "id": 8,
+      "french": "안녕히 가세요",
+      "english": "goodbye (to person leaving)"
+    },
+    {
+      "id": 9,
+      "french": "안녕히 계세요",
+      "english": "goodbye (to person staying)"
+    },
+    {
+      "id": 10,
+      "french": "오랜만이에요",
+      "english": "long time no see"
+    },
+    {
+      "id": 11,
+      "french": "감사합니다",
+      "english": "thank you"
+    },
+    {
+      "id": 12,
+      "french": "고마워요",
+      "english": "thanks"
+    },
+    {
+      "id": 13,
+      "french": "정말 감사합니다",
+      "english": "thank you very much"
+    },
+    {
+      "id": 14,
+      "french": "천만에요",
+      "english": "you are welcome"
+    },
+    {
+      "id": 15,
+      "french": "실례합니다",
+      "english": "excuse me"
+    },
+    {
+      "id": 16,
+      "french": "죄송합니다",
+      "english": "I am sorry"
+    },
+    {
+      "id": 17,
+      "french": "미안해요",
+      "english": "sorry"
+    },
+    {
+      "id": 18,
+      "french": "괜찮아요",
+      "english": "it is okay"
+    },
+    {
+      "id": 19,
+      "french": "네",
+      "english": "yes"
+    },
+    {
+      "id": 20,
+      "french": "아니요",
+      "english": "no"
+    },
+    {
+      "id": 21,
+      "french": "아니에요",
+      "english": "that is not right"
+    },
+    {
+      "id": 22,
+      "french": "모르겠어요",
+      "english": "I do not know"
+    },
+    {
+      "id": 23,
+      "french": "이해 못했어요",
+      "english": "I did not understand"
+    },
+    {
+      "id": 24,
+      "french": "다시 말씀해 주세요",
+      "english": "please say it again"
+    },
+    {
+      "id": 25,
+      "french": "천천히 말씀해 주세요",
+      "english": "please speak slowly"
+    },
+    {
+      "id": 26,
+      "french": "도와주세요",
+      "english": "please help me"
+    },
+    {
+      "id": 27,
+      "french": "잘 부탁드립니다",
+      "english": "please take care of me"
+    },
+    {
+      "id": 28,
+      "french": "부탁해요",
+      "english": "please (request)"
+    },
+    {
+      "id": 29,
+      "french": "기다려 주세요",
+      "english": "please wait"
+    },
+    {
+      "id": 30,
+      "french": "아직",
+      "english": "not yet"
+    },
+    {
+      "id": 31,
+      "french": "별로예요",
+      "english": "not really"
+    },
+    {
+      "id": 32,
+      "french": "상관없어요",
+      "english": "it does not matter"
+    },
+    {
+      "id": 33,
+      "french": "문제없어요",
+      "english": "no problem"
+    },
+    {
+      "id": 34,
+      "french": "반갑습니다",
+      "english": "pleased to meet you"
+    },
+    {
+      "id": 35,
+      "french": "잘 부탁해요",
+      "english": "please treat me well"
+    },
+    {
+      "id": 36,
+      "french": "여보세요",
+      "english": "hello (on the phone)"
+    },
+    {
+      "id": 37,
+      "french": "여기요",
+      "english": "excuse me (to call staff)"
+    },
+    {
+      "id": 38,
+      "french": "저기요",
+      "english": "excuse me (to get attention)"
+    },
+    {
+      "id": 39,
+      "french": "확인해 주세요",
+      "english": "please check"
+    },
+    {
+      "id": 40,
+      "french": "아이",
+      "english": "child"
+    },
+    {
+      "id": 41,
+      "french": "요리사",
+      "english": "cook"
+    },
+    {
+      "id": 42,
+      "french": "어린이",
+      "english": "young child"
+    },
+    {
+      "id": 43,
+      "french": "일",
+      "english": "one (Sino Korean)"
+    },
+    {
+      "id": 44,
+      "french": "이",
+      "english": "two (Sino Korean)"
+    },
+    {
+      "id": 45,
+      "french": "삼",
+      "english": "three (Sino Korean)"
+    },
+    {
+      "id": 46,
+      "french": "사",
+      "english": "four (Sino Korean)"
+    },
+    {
+      "id": 47,
+      "french": "오",
+      "english": "five (Sino Korean)"
+    },
+    {
+      "id": 48,
+      "french": "육",
+      "english": "six (Sino Korean)"
+    },
+    {
+      "id": 49,
+      "french": "칠",
+      "english": "seven (Sino Korean)"
+    },
+    {
+      "id": 50,
+      "french": "팔",
+      "english": "eight (Sino Korean)"
+    },
+    {
+      "id": 51,
+      "french": "구",
+      "english": "nine (Sino Korean)"
+    },
+    {
+      "id": 52,
+      "french": "십",
+      "english": "ten (Sino Korean)"
+    },
+    {
+      "id": 53,
+      "french": "서른",
+      "english": "thirty (native Korean)"
+    },
+    {
+      "id": 54,
+      "french": "셋째",
+      "english": "third"
+    },
+    {
+      "id": 55,
+      "french": "분",
+      "english": "minute; honorific person counter"
+    },
+    {
+      "id": 56,
+      "french": "권",
+      "english": "book counter"
+    },
+    {
+      "id": 57,
+      "french": "대",
+      "english": "machine or vehicle counter"
+    },
+    {
+      "id": 58,
+      "french": "어제",
+      "english": "yesterday"
+    },
+    {
+      "id": 59,
+      "french": "정오",
+      "english": "noon"
+    },
+    {
+      "id": 60,
+      "french": "밥",
+      "english": "cooked rice; meal"
+    },
+    {
+      "id": 61,
+      "french": "김치",
+      "english": "kimchi"
+    },
+    {
+      "id": 62,
+      "french": "떡볶이",
+      "english": "tteokbokki"
+    },
+    {
+      "id": 63,
+      "french": "냉면",
+      "english": "cold noodles"
+    },
+    {
+      "id": 64,
+      "french": "김치찌개",
+      "english": "kimchi stew"
+    },
+    {
+      "id": 65,
+      "french": "삼계탕",
+      "english": "ginseng chicken soup"
+    },
+    {
+      "id": 66,
+      "french": "칼국수",
+      "english": "knife cut noodle soup"
+    },
+    {
+      "id": 67,
+      "french": "라면",
+      "english": "ramyeon instant noodles"
+    },
+    {
+      "id": 68,
+      "french": "우동",
+      "english": "udon noodles"
+    },
+    {
+      "id": 69,
+      "french": "짜장면",
+      "english": "black bean noodles"
+    },
+    {
+      "id": 70,
+      "french": "짬뽕",
+      "english": "spicy seafood noodles"
+    },
+    {
+      "id": 71,
+      "french": "치킨",
+      "english": "fried chicken"
+    },
+    {
+      "id": 72,
+      "french": "쿠키",
+      "english": "cookie"
+    },
+    {
+      "id": 73,
+      "french": "고속도로",
+      "english": "highway"
+    },
+    {
+      "id": 74,
+      "french": "북쪽",
+      "english": "north"
+    },
+    {
+      "id": 75,
+      "french": "사찰",
+      "english": "Buddhist temple"
+    },
+    {
+      "id": 76,
+      "french": "채용",
+      "english": "hiring"
+    },
+    {
+      "id": 77,
+      "french": "노트",
+      "english": "notebook"
+    },
+    {
+      "id": 78,
+      "french": "공책",
+      "english": "exercise notebook"
+    },
+    {
+      "id": 79,
+      "french": "역사",
+      "english": "history"
+    },
+    {
+      "id": 80,
+      "french": "경제",
+      "english": "economics"
+    },
+    {
+      "id": 81,
+      "french": "코",
+      "english": "nose"
+    },
+    {
+      "id": 82,
+      "french": "엉덩이",
+      "english": "hip"
+    },
+    {
+      "id": 83,
+      "french": "콧물",
+      "english": "runny nose"
+    },
+    {
+      "id": 84,
+      "french": "스트레칭",
+      "english": "stretching"
+    },
+    {
+      "id": 85,
+      "french": "돌려주다",
+      "english": "to return something"
+    },
+    {
+      "id": 86,
+      "french": "요리하다",
+      "english": "to cook"
+    },
+    {
+      "id": 87,
+      "french": "시끄럽다",
+      "english": "to be noisy"
+    },
+    {
+      "id": 88,
+      "french": "목마르다",
+      "english": "to be thirsty"
+    },
+    {
+      "id": 89,
+      "french": "한복",
+      "english": "hanbok"
+    },
+    {
+      "id": 90,
+      "french": "노래방",
+      "english": "karaoke room"
+    },
+    {
+      "id": 91,
+      "french": "세탁기",
+      "english": "washing machine"
+    },
+    {
+      "id": 92,
+      "french": "알림",
+      "english": "notification"
+    },
+    {
+      "id": 93,
+      "french": "지폐",
+      "english": "banknote"
+    },
+    {
+      "id": 94,
+      "french": "눈보라",
+      "english": "snowstorm"
+    },
+    {
+      "id": 95,
+      "french": "또 봐요",
+      "english": "see you"
+    },
+    {
+      "id": 96,
+      "french": "내일 봐요",
+      "english": "see you tomorrow"
+    },
+    {
+      "id": 97,
+      "french": "만나서 반가워요",
+      "english": "nice to meet you"
+    },
+    {
+      "id": 98,
+      "french": "잘 지냈어요",
+      "english": "have you been well"
+    },
+    {
+      "id": 99,
+      "french": "저는 학생입니다",
+      "english": "I am a student (formal)"
+    },
+    {
+      "id": 100,
+      "french": "제 이름은 민수예요",
+      "english": "my name is Minsu"
+    },
+    {
+      "id": 101,
+      "french": "괜찮습니다",
+      "english": "I am fine"
+    },
+    {
+      "id": 102,
+      "french": "알겠어요",
+      "english": "I understand"
+    },
+    {
+      "id": 103,
+      "french": "이해했어요",
+      "english": "I understood"
+    },
+    {
+      "id": 104,
+      "french": "도움이 필요해요",
+      "english": "I need help"
+    },
+    {
+      "id": 105,
+      "french": "화이팅",
+      "english": "you can do it"
+    },
+    {
+      "id": 106,
+      "french": "실수했어요",
+      "english": "I made a mistake"
+    },
+    {
+      "id": 107,
+      "french": "준비됐어요",
+      "english": "I am ready"
+    },
+    {
+      "id": 108,
+      "french": "시작합시다",
+      "english": "let us start"
+    },
+    {
+      "id": 109,
+      "french": "예능",
+      "english": "variety show"
+    },
+    {
+      "id": 110,
+      "french": "잘했어요",
+      "english": "well done"
+    },
+    {
+      "id": 111,
+      "french": "잠깐만요",
+      "english": "wait a second"
+    },
+    {
+      "id": 112,
+      "french": "영",
+      "english": "zero"
+    },
+    {
+      "id": 113,
+      "french": "백",
+      "english": "hundred"
+    },
+    {
+      "id": 114,
+      "french": "천",
+      "english": "thousand"
+    },
+    {
+      "id": 115,
+      "french": "만",
+      "english": "ten thousand"
+    },
+    {
+      "id": 116,
+      "french": "억",
+      "english": "hundred million"
+    },
+    {
+      "id": 117,
+      "french": "하나",
+      "english": "one (native Korean)"
+    },
+    {
+      "id": 118,
+      "french": "둘",
+      "english": "two (native Korean)"
+    },
+    {
+      "id": 119,
+      "french": "셋",
+      "english": "three (native Korean)"
+    },
+    {
+      "id": 120,
+      "french": "넷",
+      "english": "four (native Korean)"
+    },
+    {
+      "id": 121,
+      "french": "다섯",
+      "english": "five (native Korean)"
+    },
+    {
+      "id": 122,
+      "french": "여섯",
+      "english": "six (native Korean)"
+    },
+    {
+      "id": 123,
+      "french": "일곱",
+      "english": "seven (native Korean)"
+    },
+    {
+      "id": 124,
+      "french": "여덟",
+      "english": "eight (native Korean)"
+    },
+    {
+      "id": 125,
+      "french": "아홉",
+      "english": "nine (native Korean)"
+    },
+    {
+      "id": 126,
+      "french": "열",
+      "english": "ten (native Korean)"
+    },
+    {
+      "id": 127,
+      "french": "스물",
+      "english": "twenty (native Korean)"
+    },
+    {
+      "id": 128,
+      "french": "마흔",
+      "english": "forty (native Korean)"
+    },
+    {
+      "id": 129,
+      "french": "쉰",
+      "english": "fifty (native Korean)"
+    },
+    {
+      "id": 130,
+      "french": "예순",
+      "english": "sixty (native Korean)"
+    },
+    {
+      "id": 131,
+      "french": "일흔",
+      "english": "seventy (native Korean)"
+    },
+    {
+      "id": 132,
+      "french": "여든",
+      "english": "eighty (native Korean)"
+    },
+    {
+      "id": 133,
+      "french": "아흔",
+      "english": "ninety (native Korean)"
+    },
+    {
+      "id": 134,
+      "french": "첫째",
+      "english": "first"
+    },
+    {
+      "id": 135,
+      "french": "둘째",
+      "english": "second"
+    },
+    {
+      "id": 136,
+      "french": "넷째",
+      "english": "fourth"
+    },
+    {
+      "id": 137,
+      "french": "초",
+      "english": "second (time)"
+    },
+    {
+      "id": 138,
+      "french": "설렁탕",
+      "english": "ox bone soup"
+    },
+    {
+      "id": 139,
+      "french": "전화",
+      "english": "phone call"
+    },
+    {
+      "id": 140,
+      "french": "뼈",
+      "english": "bone"
+    },
+    {
+      "id": 141,
+      "french": "듣다",
+      "english": "to listen"
+    },
+    {
+      "id": 142,
+      "french": "전화하다",
+      "english": "to call by phone"
+    },
+    {
+      "id": 143,
+      "french": "에어컨",
+      "english": "air conditioner"
+    },
+    {
+      "id": 144,
+      "french": "스마트폰",
+      "english": "smartphone"
+    },
+    {
+      "id": 145,
+      "french": "이어폰",
+      "english": "earphones"
+    },
+    {
+      "id": 146,
+      "french": "헤드폰",
+      "english": "headphones"
+    },
+    {
+      "id": 147,
+      "french": "맞아요",
+      "english": "that is right"
+    },
+    {
+      "id": 148,
+      "french": "즐거운 하루 보내세요",
+      "english": "have a nice day"
+    },
+    {
+      "id": 149,
+      "french": "좋은 주말 보내세요",
+      "english": "have a nice weekend"
+    },
+    {
+      "id": 150,
+      "french": "벌써",
+      "english": "already"
+    },
+    {
+      "id": 151,
+      "french": "정말이에요",
+      "english": "it is true"
+    },
+    {
+      "id": 152,
+      "french": "장난 아니에요",
+      "english": "it is incredible"
+    },
+    {
+      "id": 153,
+      "french": "최고예요",
+      "english": "it is the best"
+    },
+    {
+      "id": 154,
+      "french": "수고하세요",
+      "english": "take care at work"
+    },
+    {
+      "id": 155,
+      "french": "확실해요",
+      "english": "it is certain"
+    },
+    {
+      "id": 156,
+      "french": "끝났어요",
+      "english": "it is finished"
+    },
+    {
+      "id": 157,
+      "french": "동료",
+      "english": "coworker"
+    },
+    {
+      "id": 158,
+      "french": "작가",
+      "english": "writer"
+    },
+    {
+      "id": 159,
+      "french": "채",
+      "english": "house counter"
+    },
+    {
+      "id": 160,
+      "french": "갈비",
+      "english": "rib meat"
+    },
+    {
+      "id": 161,
+      "french": "고기",
+      "english": "meat"
+    },
+    {
+      "id": 162,
+      "french": "채소",
+      "english": "vegetables"
+    },
+    {
+      "id": 163,
+      "french": "빵",
+      "english": "bread"
+    },
+    {
+      "id": 164,
+      "french": "음료수",
+      "english": "soft drink"
+    },
+    {
+      "id": 165,
+      "french": "관광",
+      "english": "sightseeing"
+    },
+    {
+      "id": 166,
+      "french": "직진",
+      "english": "go straight"
+    },
+    {
+      "id": 167,
+      "french": "박물관",
+      "english": "museum"
+    },
+    {
+      "id": 168,
+      "french": "업무",
+      "english": "work task"
+    },
+    {
+      "id": 169,
+      "french": "출근",
+      "english": "go to work"
+    },
+    {
+      "id": 170,
+      "french": "퇴근",
+      "english": "leave work"
+    },
+    {
+      "id": 171,
+      "french": "숙제",
+      "english": "homework"
+    },
+    {
+      "id": 172,
+      "french": "공부",
+      "english": "study"
+    },
+    {
+      "id": 173,
+      "french": "학습",
+      "english": "learning"
+    },
+    {
+      "id": 174,
+      "french": "어깨",
+      "english": "shoulder"
+    },
+    {
+      "id": 175,
+      "french": "간",
+      "english": "liver"
+    },
+    {
+      "id": 176,
+      "french": "진료",
+      "english": "medical treatment"
+    },
+    {
+      "id": 177,
+      "french": "잠",
+      "english": "sleep"
+    },
+    {
+      "id": 178,
+      "french": "하다",
+      "english": "to do"
+    },
+    {
+      "id": 179,
+      "french": "가다",
+      "english": "to go"
+    },
+    {
+      "id": 180,
+      "french": "오다",
+      "english": "to come"
+    },
+    {
+      "id": 181,
+      "french": "보다",
+      "english": "to see"
+    },
+    {
+      "id": 182,
+      "french": "말하다",
+      "english": "to speak"
+    },
+    {
+      "id": 183,
+      "french": "읽다",
+      "english": "to read"
+    },
+    {
+      "id": 184,
+      "french": "쓰다",
+      "english": "to write"
+    },
+    {
+      "id": 185,
+      "french": "먹다",
+      "english": "to eat"
+    },
+    {
+      "id": 186,
+      "french": "마시다",
+      "english": "to drink"
+    },
+    {
+      "id": 187,
+      "french": "자다",
+      "english": "to sleep"
+    },
+    {
+      "id": 188,
+      "french": "일어나다",
+      "english": "to get up"
+    },
+    {
+      "id": 189,
+      "french": "벗다",
+      "english": "to take off clothes"
+    },
+    {
+      "id": 190,
+      "french": "공부하다",
+      "english": "to study"
+    },
+    {
+      "id": 191,
+      "french": "일하다",
+      "english": "to work"
+    },
+    {
+      "id": 192,
+      "french": "놀다",
+      "english": "to play"
+    },
+    {
+      "id": 193,
+      "french": "사다",
+      "english": "to buy"
+    },
+    {
+      "id": 194,
+      "french": "팔다",
+      "english": "to sell"
+    },
+    {
+      "id": 195,
+      "french": "만들다",
+      "english": "to make"
+    },
+    {
+      "id": 196,
+      "french": "사용하다",
+      "english": "to use"
+    },
+    {
+      "id": 197,
+      "french": "배우다",
+      "english": "to learn"
+    },
+    {
+      "id": 198,
+      "french": "찾다",
+      "english": "to find"
+    },
+    {
+      "id": 199,
+      "french": "사랑하다",
+      "english": "to love"
+    },
+    {
+      "id": 200,
+      "french": "좋아하다",
+      "english": "to like"
+    },
+    {
+      "id": 201,
+      "french": "싫어하다",
+      "english": "to dislike"
+    },
+    {
+      "id": 202,
+      "french": "잊다",
+      "english": "to forget"
+    },
+    {
+      "id": 203,
+      "french": "질문하다",
+      "english": "to ask"
+    },
+    {
+      "id": 204,
+      "french": "내리다",
+      "english": "to get off"
+    },
+    {
+      "id": 205,
+      "french": "세탁하다",
+      "english": "to do laundry"
+    },
+    {
+      "id": 206,
+      "french": "결제하다",
+      "english": "to pay"
+    },
+    {
+      "id": 207,
+      "french": "좋다",
+      "english": "to be good"
+    },
+    {
+      "id": 208,
+      "french": "나쁘다",
+      "english": "to be bad"
+    },
+    {
+      "id": 209,
+      "french": "크다",
+      "english": "to be big"
+    },
+    {
+      "id": 210,
+      "french": "작다",
+      "english": "to be small"
+    },
+    {
+      "id": 211,
+      "french": "길다",
+      "english": "to be long"
+    },
+    {
+      "id": 212,
+      "french": "짧다",
+      "english": "to be short"
+    },
+    {
+      "id": 213,
+      "french": "빠르다",
+      "english": "to be fast"
+    },
+    {
+      "id": 214,
+      "french": "느리다",
+      "english": "to be slow"
+    },
+    {
+      "id": 215,
+      "french": "쉽다",
+      "english": "to be easy"
+    },
+    {
+      "id": 216,
+      "french": "어렵다",
+      "english": "to be difficult"
+    },
+    {
+      "id": 217,
+      "french": "뜨겁다",
+      "english": "to be hot"
+    },
+    {
+      "id": 218,
+      "french": "차갑다",
+      "english": "to be cold"
+    },
+    {
+      "id": 219,
+      "french": "따뜻하다",
+      "english": "to be warm"
+    },
+    {
+      "id": 220,
+      "french": "시원하다",
+      "english": "to be cool"
+    },
+    {
+      "id": 221,
+      "french": "맵다",
+      "english": "to be spicy"
+    },
+    {
+      "id": 222,
+      "french": "달다",
+      "english": "to be sweet"
+    },
+    {
+      "id": 223,
+      "french": "짜다",
+      "english": "to be salty"
+    },
+    {
+      "id": 224,
+      "french": "쓰디쓰다",
+      "english": "to be very bitter"
+    },
+    {
+      "id": 225,
+      "french": "시다",
+      "english": "to be sour"
+    },
+    {
+      "id": 226,
+      "french": "비싸다",
+      "english": "to be expensive"
+    },
+    {
+      "id": 227,
+      "french": "싸다",
+      "english": "to be cheap"
+    },
+    {
+      "id": 228,
+      "french": "깨끗하다",
+      "english": "to be clean"
+    },
+    {
+      "id": 229,
+      "french": "더럽다",
+      "english": "to be dirty"
+    },
+    {
+      "id": 230,
+      "french": "조용하다",
+      "english": "to be quiet"
+    },
+    {
+      "id": 231,
+      "french": "바쁘다",
+      "english": "to be busy"
+    },
+    {
+      "id": 232,
+      "french": "한가하다",
+      "english": "to be free"
+    },
+    {
+      "id": 233,
+      "french": "행복하다",
+      "english": "to be happy"
+    },
+    {
+      "id": 234,
+      "french": "슬프다",
+      "english": "to be sad"
+    },
+    {
+      "id": 235,
+      "french": "화나다",
+      "english": "to be angry"
+    },
+    {
+      "id": 236,
+      "french": "무섭다",
+      "english": "to be scary"
+    },
+    {
+      "id": 237,
+      "french": "재미있다",
+      "english": "to be fun"
+    },
+    {
+      "id": 238,
+      "french": "지루하다",
+      "english": "to be boring"
+    },
+    {
+      "id": 239,
+      "french": "친절하다",
+      "english": "to be kind"
+    },
+    {
+      "id": 240,
+      "french": "불친절하다",
+      "english": "to be unkind"
+    },
+    {
+      "id": 241,
+      "french": "중요하다",
+      "english": "to be important"
+    },
+    {
+      "id": 242,
+      "french": "필요하다",
+      "english": "to be necessary"
+    },
+    {
+      "id": 243,
+      "french": "가능하다",
+      "english": "to be possible"
+    },
+    {
+      "id": 244,
+      "french": "불가능하다",
+      "english": "to be impossible"
+    },
+    {
+      "id": 245,
+      "french": "안전하다",
+      "english": "to be safe"
+    },
+    {
+      "id": 246,
+      "french": "위험하다",
+      "english": "to be dangerous"
+    },
+    {
+      "id": 247,
+      "french": "유명하다",
+      "english": "to be famous"
+    },
+    {
+      "id": 248,
+      "french": "특별하다",
+      "english": "to be special"
+    },
+    {
+      "id": 249,
+      "french": "평범하다",
+      "english": "to be ordinary"
+    },
+    {
+      "id": 250,
+      "french": "정확하다",
+      "english": "to be accurate"
+    },
+    {
+      "id": 251,
+      "french": "틀리다",
+      "english": "to be wrong"
+    },
+    {
+      "id": 252,
+      "french": "젊다",
+      "english": "to be young"
+    },
+    {
+      "id": 253,
+      "french": "늙다",
+      "english": "to be old"
+    },
+    {
+      "id": 254,
+      "french": "아프다",
+      "english": "to be sick"
+    },
+    {
+      "id": 255,
+      "french": "배고프다",
+      "english": "to be hungry"
+    },
+    {
+      "id": 256,
+      "french": "졸리다",
+      "english": "to be sleepy"
+    },
+    {
+      "id": 257,
+      "french": "피곤하다",
+      "english": "to be tired"
+    },
+    {
+      "id": 258,
+      "french": "예쁘다",
+      "english": "to be pretty"
+    },
+    {
+      "id": 259,
+      "french": "아름답다",
+      "english": "to be beautiful"
+    },
+    {
+      "id": 260,
+      "french": "잘생기다",
+      "english": "to be handsome"
+    },
+    {
+      "id": 261,
+      "french": "귀엽다",
+      "english": "to be cute"
+    },
+    {
+      "id": 262,
+      "french": "멋있다",
+      "english": "to be cool"
+    },
+    {
+      "id": 263,
+      "french": "똑똑하다",
+      "english": "to be smart"
+    },
+    {
+      "id": 264,
+      "french": "게으르다",
+      "english": "to be lazy"
+    },
+    {
+      "id": 265,
+      "french": "부지런하다",
+      "english": "to be diligent"
+    },
+    {
+      "id": 266,
+      "french": "편하다",
+      "english": "to be comfortable"
+    },
+    {
+      "id": 267,
+      "french": "불편하다",
+      "english": "to be uncomfortable"
+    },
+    {
+      "id": 268,
+      "french": "컴백",
+      "english": "comeback release"
+    },
+    {
+      "id": 269,
+      "french": "배달",
+      "english": "delivery"
+    },
+    {
+      "id": 270,
+      "french": "집",
+      "english": "house"
+    },
+    {
+      "id": 271,
+      "french": "난방",
+      "english": "heating"
+    },
+    {
+      "id": 272,
+      "french": "마우스",
+      "english": "mouse"
+    },
+    {
+      "id": 273,
+      "french": "카메라",
+      "english": "camera"
+    },
+    {
+      "id": 274,
+      "french": "날씨",
+      "english": "weather"
+    },
+    {
+      "id": 275,
+      "french": "맑음",
+      "english": "clear weather"
+    },
+    {
+      "id": 276,
+      "french": "흐림",
+      "english": "cloudy weather"
+    },
+    {
+      "id": 277,
+      "french": "폭염",
+      "english": "heat wave"
+    },
+    {
+      "id": 278,
+      "french": "가족",
+      "english": "family"
+    },
+    {
+      "id": 279,
+      "french": "부모님",
+      "english": "parents"
+    },
+    {
+      "id": 280,
+      "french": "어머니",
+      "english": "mother"
+    },
+    {
+      "id": 281,
+      "french": "아버지",
+      "english": "father"
+    },
+    {
+      "id": 282,
+      "french": "할머니",
+      "english": "grandmother"
+    },
+    {
+      "id": 283,
+      "french": "할아버지",
+      "english": "grandfather"
+    },
+    {
+      "id": 284,
+      "french": "누나",
+      "english": "older sister (for male)"
+    },
+    {
+      "id": 285,
+      "french": "언니",
+      "english": "older sister (for female)"
+    },
+    {
+      "id": 286,
+      "french": "오빠",
+      "english": "older brother (for female)"
+    },
+    {
+      "id": 287,
+      "french": "형",
+      "english": "older brother (for male)"
+    },
+    {
+      "id": 288,
+      "french": "남동생",
+      "english": "younger brother"
+    },
+    {
+      "id": 289,
+      "french": "여동생",
+      "english": "younger sister"
+    },
+    {
+      "id": 290,
+      "french": "형제",
+      "english": "siblings (brothers)"
+    },
+    {
+      "id": 291,
+      "french": "자매",
+      "english": "sisters"
+    },
+    {
+      "id": 292,
+      "french": "남매",
+      "english": "brother and sister"
+    },
+    {
+      "id": 293,
+      "french": "아들",
+      "english": "son"
+    },
+    {
+      "id": 294,
+      "french": "딸",
+      "english": "daughter"
+    },
+    {
+      "id": 295,
+      "french": "아기",
+      "english": "baby"
+    },
+    {
+      "id": 296,
+      "french": "친척",
+      "english": "relative"
+    },
+    {
+      "id": 297,
+      "french": "사촌",
+      "english": "cousin"
+    },
+    {
+      "id": 298,
+      "french": "손자",
+      "english": "grandson"
+    },
+    {
+      "id": 299,
+      "french": "손녀",
+      "english": "granddaughter"
+    },
+    {
+      "id": 300,
+      "french": "남편",
+      "english": "husband"
+    },
+    {
+      "id": 301,
+      "french": "아내",
+      "english": "wife"
+    },
+    {
+      "id": 302,
+      "french": "친구",
+      "english": "friend"
+    },
+    {
+      "id": 303,
+      "french": "남자친구",
+      "english": "boyfriend"
+    },
+    {
+      "id": 304,
+      "french": "여자친구",
+      "english": "girlfriend"
+    },
+    {
+      "id": 305,
+      "french": "사람",
+      "english": "person"
+    },
+    {
+      "id": 306,
+      "french": "노인",
+      "english": "elderly person"
+    },
+    {
+      "id": 307,
+      "french": "수업",
+      "english": "class lesson"
+    },
+    {
+      "id": 308,
+      "french": "노래",
+      "english": "song"
+    },
+    {
+      "id": 309,
+      "french": "층",
+      "english": "floor (building)"
+    },
+    {
+      "id": 310,
+      "french": "버섯",
+      "english": "mushroom"
+    },
+    {
+      "id": 311,
+      "french": "열쇠",
+      "english": "key"
+    },
+    {
+      "id": 312,
+      "french": "객실",
+      "english": "guest room"
+    },
+    {
+      "id": 313,
+      "french": "교실",
+      "english": "classroom"
+    },
+    {
+      "id": 314,
+      "french": "의자",
+      "english": "chair"
+    },
+    {
+      "id": 315,
+      "french": "방",
+      "english": "room"
+    },
+    {
+      "id": 316,
+      "french": "거실",
+      "english": "living room"
+    },
+    {
+      "id": 317,
+      "french": "부엌",
+      "english": "kitchen"
+    },
+    {
+      "id": 318,
+      "french": "욕실",
+      "english": "bathroom"
+    },
+    {
+      "id": 319,
+      "french": "침대",
+      "english": "bed"
+    },
+    {
+      "id": 320,
+      "french": "문",
+      "english": "door"
+    },
+    {
+      "id": 321,
+      "french": "창문",
+      "english": "window"
+    },
+    {
+      "id": 322,
+      "french": "키보드",
+      "english": "keyboard"
+    },
+    {
+      "id": 323,
+      "french": "태블릿",
+      "english": "tablet"
+    },
+    {
+      "id": 324,
+      "french": "지갑",
+      "english": "wallet"
+    },
+    {
+      "id": 325,
+      "french": "선생님",
+      "english": "teacher"
+    },
+    {
+      "id": 326,
+      "french": "점심",
+      "english": "lunch"
+    },
+    {
+      "id": 327,
+      "french": "해장국",
+      "english": "hangover soup"
+    },
+    {
+      "id": 328,
+      "french": "떡",
+      "english": "rice cake"
+    },
+    {
+      "id": 329,
+      "french": "계란",
+      "english": "egg"
+    },
+    {
+      "id": 330,
+      "french": "생선",
+      "english": "fish"
+    },
+    {
+      "id": 331,
+      "french": "조개",
+      "english": "shellfish"
+    },
+    {
+      "id": 332,
+      "french": "과일",
+      "english": "fruit"
+    },
+    {
+      "id": 333,
+      "french": "사과",
+      "english": "apple"
+    },
+    {
+      "id": 334,
+      "french": "수박",
+      "english": "watermelon"
+    },
+    {
+      "id": 335,
+      "french": "국",
+      "english": "soup"
+    },
+    {
+      "id": 336,
+      "french": "소금",
+      "english": "salt"
+    },
+    {
+      "id": 337,
+      "french": "설탕",
+      "english": "sugar"
+    },
+    {
+      "id": 338,
+      "french": "물",
+      "english": "water"
+    },
+    {
+      "id": 339,
+      "french": "커피",
+      "english": "coffee"
+    },
+    {
+      "id": 340,
+      "french": "차",
+      "english": "tea"
+    },
+    {
+      "id": 341,
+      "french": "우유",
+      "english": "milk"
+    },
+    {
+      "id": 342,
+      "french": "팀",
+      "english": "team"
+    },
+    {
+      "id": 343,
+      "french": "가르치다",
+      "english": "to teach"
+    },
+    {
+      "id": 344,
+      "french": "가격",
+      "english": "price"
+    },
+    {
+      "id": 345,
+      "french": "생일 축하해요",
+      "english": "happy birthday"
+    },
+    {
+      "id": 346,
+      "french": "새해 복 많이 받으세요",
+      "english": "happy new year"
+    },
+    {
+      "id": 347,
+      "french": "시",
+      "english": "hour (clock)"
+    },
+    {
+      "id": 348,
+      "french": "번",
+      "english": "number of times"
+    },
+    {
+      "id": 349,
+      "french": "시간",
+      "english": "time"
+    },
+    {
+      "id": 350,
+      "french": "날짜",
+      "english": "date"
+    },
+    {
+      "id": 351,
+      "french": "요일",
+      "english": "day of week"
+    },
+    {
+      "id": 352,
+      "french": "오늘",
+      "english": "today"
+    },
+    {
+      "id": 353,
+      "french": "내일",
+      "english": "tomorrow"
+    },
+    {
+      "id": 354,
+      "french": "모레",
+      "english": "day after tomorrow"
+    },
+    {
+      "id": 355,
+      "french": "아침",
+      "english": "morning"
+    },
+    {
+      "id": 356,
+      "french": "저녁",
+      "english": "evening"
+    },
+    {
+      "id": 357,
+      "french": "밤",
+      "english": "night"
+    },
+    {
+      "id": 358,
+      "french": "자정",
+      "english": "midnight"
+    },
+    {
+      "id": 359,
+      "french": "주",
+      "english": "week"
+    },
+    {
+      "id": 360,
+      "french": "주말",
+      "english": "weekend"
+    },
+    {
+      "id": 361,
+      "french": "월요일",
+      "english": "monday"
+    },
+    {
+      "id": 362,
+      "french": "화요일",
+      "english": "tuesday"
+    },
+    {
+      "id": 363,
+      "french": "수요일",
+      "english": "wednesday"
+    },
+    {
+      "id": 364,
+      "french": "목요일",
+      "english": "thursday"
+    },
+    {
+      "id": 365,
+      "french": "금요일",
+      "english": "friday"
+    },
+    {
+      "id": 366,
+      "french": "토요일",
+      "english": "saturday"
+    },
+    {
+      "id": 367,
+      "french": "일요일",
+      "english": "sunday"
+    },
+    {
+      "id": 368,
+      "french": "월",
+      "english": "month"
+    },
+    {
+      "id": 369,
+      "french": "년",
+      "english": "year"
+    },
+    {
+      "id": 370,
+      "french": "의사",
+      "english": "doctor"
+    },
+    {
+      "id": 371,
+      "french": "화가",
+      "english": "painter"
+    },
+    {
+      "id": 372,
+      "french": "순대",
+      "english": "Korean blood sausage"
+    },
+    {
+      "id": 373,
+      "french": "배",
+      "english": "pear"
+    },
+    {
+      "id": 374,
+      "french": "근처",
+      "english": "nearby"
+    },
+    {
+      "id": 375,
+      "french": "몸",
+      "english": "body"
+    },
+    {
+      "id": 376,
+      "french": "머리",
+      "english": "head"
+    },
+    {
+      "id": 377,
+      "french": "얼굴",
+      "english": "face"
+    },
+    {
+      "id": 378,
+      "french": "눈",
+      "english": "eye"
+    },
+    {
+      "id": 379,
+      "french": "입",
+      "english": "mouth"
+    },
+    {
+      "id": 380,
+      "french": "귀",
+      "english": "ear"
+    },
+    {
+      "id": 381,
+      "french": "팔뚝",
+      "english": "arm"
+    },
+    {
+      "id": 382,
+      "french": "손",
+      "english": "hand"
+    },
+    {
+      "id": 383,
+      "french": "손가락",
+      "english": "finger"
+    },
+    {
+      "id": 384,
+      "french": "다리",
+      "english": "leg"
+    },
+    {
+      "id": 385,
+      "french": "발",
+      "english": "foot"
+    },
+    {
+      "id": 386,
+      "french": "피",
+      "english": "blood"
+    },
+    {
+      "id": 387,
+      "french": "심장",
+      "english": "heart"
+    },
+    {
+      "id": 388,
+      "french": "두통",
+      "english": "headache"
+    },
+    {
+      "id": 389,
+      "french": "병원",
+      "english": "hospital"
+    },
+    {
+      "id": 390,
+      "french": "약국",
+      "english": "pharmacy"
+    },
+    {
+      "id": 391,
+      "french": "약",
+      "english": "medicine"
+    },
+    {
+      "id": 392,
+      "french": "건강",
+      "english": "health"
+    },
+    {
+      "id": 393,
+      "french": "통증",
+      "english": "pain"
+    },
+    {
+      "id": 394,
+      "french": "체온",
+      "english": "body temperature"
+    },
+    {
+      "id": 395,
+      "french": "혈압",
+      "english": "blood pressure"
+    },
+    {
+      "id": 396,
+      "french": "입다",
+      "english": "to wear"
+    },
+    {
+      "id": 397,
+      "french": "검색",
+      "english": "search"
+    },
+    {
+      "id": 398,
+      "french": "벌",
+      "english": "set of clothes counter"
+    },
+    {
+      "id": 399,
+      "french": "주소",
+      "english": "address"
+    },
+    {
+      "id": 400,
+      "french": "부장",
+      "english": "department manager"
+    },
+    {
+      "id": 401,
+      "french": "당근",
+      "english": "carrot"
+    },
+    {
+      "id": 402,
+      "french": "여행",
+      "english": "travel"
+    },
+    {
+      "id": 403,
+      "french": "여권",
+      "english": "passport"
+    },
+    {
+      "id": 404,
+      "french": "공항",
+      "english": "airport"
+    },
+    {
+      "id": 405,
+      "french": "출국",
+      "english": "departure from country"
+    },
+    {
+      "id": 406,
+      "french": "호텔",
+      "english": "hotel"
+    },
+    {
+      "id": 407,
+      "french": "지도",
+      "english": "map"
+    },
+    {
+      "id": 408,
+      "french": "길",
+      "english": "road; way"
+    },
+    {
+      "id": 409,
+      "french": "출발",
+      "english": "departure"
+    },
+    {
+      "id": 410,
+      "french": "역",
+      "english": "station"
+    },
+    {
+      "id": 411,
+      "french": "기차",
+      "english": "train"
+    },
+    {
+      "id": 412,
+      "french": "버스",
+      "english": "bus"
+    },
+    {
+      "id": 413,
+      "french": "택시",
+      "english": "taxi"
+    },
+    {
+      "id": 414,
+      "french": "정류장",
+      "english": "stop (bus stop)"
+    },
+    {
+      "id": 415,
+      "french": "왼쪽",
+      "english": "left side"
+    },
+    {
+      "id": 416,
+      "french": "오른쪽",
+      "english": "right side"
+    },
+    {
+      "id": 417,
+      "french": "남쪽",
+      "english": "south"
+    },
+    {
+      "id": 418,
+      "french": "동쪽",
+      "english": "east"
+    },
+    {
+      "id": 419,
+      "french": "서쪽",
+      "english": "west"
+    },
+    {
+      "id": 420,
+      "french": "멀리",
+      "english": "far away"
+    },
+    {
+      "id": 421,
+      "french": "도시",
+      "english": "city"
+    },
+    {
+      "id": 422,
+      "french": "부서",
+      "english": "department"
+    },
+    {
+      "id": 423,
+      "french": "열다",
+      "english": "to open"
+    },
+    {
+      "id": 424,
+      "french": "닫다",
+      "english": "to close"
+    },
+    {
+      "id": 425,
+      "french": "여행하다",
+      "english": "to travel"
+    },
+    {
+      "id": 426,
+      "french": "도착하다",
+      "english": "to arrive"
+    },
+    {
+      "id": 427,
+      "french": "출발하다",
+      "english": "to depart"
+    },
+    {
+      "id": 428,
+      "french": "연습생",
+      "english": "trainee idol"
+    },
+    {
+      "id": 429,
+      "french": "백화점",
+      "english": "department store"
+    },
+    {
+      "id": 430,
+      "french": "카드",
+      "english": "card"
+    },
+    {
+      "id": 431,
+      "french": "수고했어요",
+      "english": "good job"
+    },
+    {
+      "id": 432,
+      "french": "상사",
+      "english": "boss"
+    },
+    {
+      "id": 433,
+      "french": "사장",
+      "english": "company president"
+    },
+    {
+      "id": 434,
+      "french": "학생",
+      "english": "student"
+    },
+    {
+      "id": 435,
+      "french": "경찰",
+      "english": "police officer"
+    },
+    {
+      "id": 436,
+      "french": "일자리",
+      "english": "job"
+    },
+    {
+      "id": 437,
+      "french": "회사",
+      "english": "company"
+    },
+    {
+      "id": 438,
+      "french": "사무실",
+      "english": "office"
+    },
+    {
+      "id": 439,
+      "french": "회의",
+      "english": "meeting"
+    },
+    {
+      "id": 440,
+      "french": "학교",
+      "english": "school"
+    },
+    {
+      "id": 441,
+      "french": "시험",
+      "english": "exam"
+    },
+    {
+      "id": 442,
+      "french": "답",
+      "english": "answer"
+    },
+    {
+      "id": 443,
+      "french": "질문",
+      "english": "question"
+    },
+    {
+      "id": 444,
+      "french": "펜",
+      "english": "pen"
+    },
+    {
+      "id": 445,
+      "french": "연필",
+      "english": "pencil"
+    },
+    {
+      "id": 446,
+      "french": "대답하다",
+      "english": "to answer"
+    },
+    {
+      "id": 447,
+      "french": "편의점",
+      "english": "convenience store"
+    },
+    {
+      "id": 448,
+      "french": "쇼핑",
+      "english": "shopping"
+    },
+    {
+      "id": 449,
+      "french": "가게",
+      "english": "shop"
+    },
+    {
+      "id": 450,
+      "french": "상점",
+      "english": "store"
+    },
+    {
+      "id": 451,
+      "french": "시장",
+      "english": "market"
+    },
+    {
+      "id": 452,
+      "french": "현금",
+      "english": "cash"
+    },
+    {
+      "id": 453,
+      "french": "기사",
+      "english": "driver"
+    },
+    {
+      "id": 454,
+      "french": "마리",
+      "english": "animal counter"
+    },
+    {
+      "id": 455,
+      "french": "송이",
+      "english": "flower cluster counter"
+    },
+    {
+      "id": 456,
+      "french": "바다",
+      "english": "sea"
+    },
+    {
+      "id": 457,
+      "french": "산",
+      "english": "mountain"
+    },
+    {
+      "id": 458,
+      "french": "강",
+      "english": "river"
+    },
+    {
+      "id": 459,
+      "french": "성당",
+      "english": "cathedral"
+    },
+    {
+      "id": 460,
+      "french": "휴가",
+      "english": "vacation"
+    },
+    {
+      "id": 461,
+      "french": "감기",
+      "english": "cold illness"
+    },
+    {
+      "id": 462,
+      "french": "시작하다",
+      "english": "to start"
+    },
+    {
+      "id": 463,
+      "french": "사진",
+      "english": "photo"
+    },
+    {
+      "id": 464,
+      "french": "비",
+      "english": "rain"
+    },
+    {
+      "id": 465,
+      "french": "바람",
+      "english": "wind"
+    },
+    {
+      "id": 466,
+      "french": "하늘",
+      "english": "sky"
+    },
+    {
+      "id": 467,
+      "french": "태양",
+      "english": "sun"
+    },
+    {
+      "id": 468,
+      "french": "한파",
+      "english": "cold wave"
+    },
+    {
+      "id": 469,
+      "french": "장화",
+      "english": "rain boots"
+    },
+    {
+      "id": 470,
+      "french": "무지개",
+      "english": "rainbow"
+    },
+    {
+      "id": 471,
+      "french": "열감",
+      "english": "feverish feeling"
+    },
+    {
+      "id": 472,
+      "french": "하드웨어",
+      "english": "hardware"
+    },
+    {
+      "id": 473,
+      "french": "폴더",
+      "english": "folder"
+    },
+    {
+      "id": 474,
+      "french": "환불",
+      "english": "refund"
+    },
+    {
+      "id": 475,
+      "french": "품절",
+      "english": "sold out"
+    },
+    {
+      "id": 476,
+      "french": "절대",
+      "english": "never"
+    },
+    {
+      "id": 477,
+      "french": "조카",
+      "english": "nephew or niece"
+    },
+    {
+      "id": 478,
+      "french": "약혼자",
+      "english": "fiance or fiancee"
+    },
+    {
+      "id": 479,
+      "french": "이웃",
+      "english": "neighbor"
+    },
+    {
+      "id": 480,
+      "french": "배우",
+      "english": "actor"
+    },
+    {
+      "id": 481,
+      "french": "개",
+      "english": "counter for items"
+    },
+    {
+      "id": 482,
+      "french": "명",
+      "english": "counter for people"
+    },
+    {
+      "id": 483,
+      "french": "살",
+      "english": "counter for age"
+    },
+    {
+      "id": 484,
+      "french": "잔",
+      "english": "cup or glass counter"
+    },
+    {
+      "id": 485,
+      "french": "삼겹살",
+      "english": "pork belly"
+    },
+    {
+      "id": 486,
+      "french": "샌드위치",
+      "english": "sandwich"
+    },
+    {
+      "id": 487,
+      "french": "복숭아",
+      "english": "peach"
+    },
+    {
+      "id": 488,
+      "french": "체크인",
+      "english": "check in"
+    },
+    {
+      "id": 489,
+      "french": "엘리베이터",
+      "english": "elevator"
+    },
+    {
+      "id": 490,
+      "french": "항구",
+      "english": "port"
+    },
+    {
+      "id": 491,
+      "french": "건너편",
+      "english": "across from"
+    },
+    {
+      "id": 492,
+      "french": "섬",
+      "english": "island"
+    },
+    {
+      "id": 493,
+      "french": "해변",
+      "english": "beach"
+    },
+    {
+      "id": 494,
+      "french": "보고서",
+      "english": "report"
+    },
+    {
+      "id": 495,
+      "french": "치아",
+      "english": "tooth"
+    },
+    {
+      "id": 496,
+      "french": "장기",
+      "english": "organ"
+    },
+    {
+      "id": 497,
+      "french": "붕대",
+      "english": "bandage"
+    },
+    {
+      "id": 498,
+      "french": "씻다",
+      "english": "to wash"
+    },
+    {
+      "id": 499,
+      "french": "걷다",
+      "english": "to walk"
+    },
+    {
+      "id": 500,
+      "french": "달리다",
+      "english": "to run"
+    },
+    {
+      "id": 501,
+      "french": "앉다",
+      "english": "to sit"
+    },
+    {
+      "id": 502,
+      "french": "서다",
+      "english": "to stand"
+    },
+    {
+      "id": 503,
+      "french": "쉬다",
+      "english": "to rest"
+    },
+    {
+      "id": 504,
+      "french": "고치다",
+      "english": "to fix"
+    },
+    {
+      "id": 505,
+      "french": "끝나다",
+      "english": "to end"
+    },
+    {
+      "id": 506,
+      "french": "기다리다",
+      "english": "to wait"
+    },
+    {
+      "id": 507,
+      "french": "잃어버리다",
+      "english": "to lose"
+    },
+    {
+      "id": 508,
+      "french": "만나다",
+      "english": "to meet"
+    },
+    {
+      "id": 509,
+      "french": "헤어지다",
+      "english": "to part from"
+    },
+    {
+      "id": 510,
+      "french": "기억하다",
+      "english": "to remember"
+    },
+    {
+      "id": 511,
+      "french": "선택하다",
+      "english": "to choose"
+    },
+    {
+      "id": 512,
+      "french": "결정하다",
+      "english": "to decide"
+    },
+    {
+      "id": 513,
+      "french": "설명하다",
+      "english": "to explain"
+    },
+    {
+      "id": 514,
+      "french": "문자하다",
+      "english": "to text"
+    },
+    {
+      "id": 515,
+      "french": "보내다",
+      "english": "to send"
+    },
+    {
+      "id": 516,
+      "french": "받다",
+      "english": "to receive"
+    },
+    {
+      "id": 517,
+      "french": "켜다",
+      "english": "to turn on"
+    },
+    {
+      "id": 518,
+      "french": "끄다",
+      "english": "to turn off"
+    },
+    {
+      "id": 519,
+      "french": "타다",
+      "english": "to ride"
+    },
+    {
+      "id": 520,
+      "french": "빌리다",
+      "english": "to borrow"
+    },
+    {
+      "id": 521,
+      "french": "주문하다",
+      "english": "to order"
+    },
+    {
+      "id": 522,
+      "french": "청소하다",
+      "english": "to clean"
+    },
+    {
+      "id": 523,
+      "french": "정리하다",
+      "english": "to organize"
+    },
+    {
+      "id": 524,
+      "french": "운전하다",
+      "english": "to drive"
+    },
+    {
+      "id": 525,
+      "french": "주차하다",
+      "english": "to park"
+    },
+    {
+      "id": 526,
+      "french": "예약하다",
+      "english": "to reserve"
+    },
+    {
+      "id": 527,
+      "french": "취소하다",
+      "english": "to cancel"
+    },
+    {
+      "id": 528,
+      "french": "연습하다",
+      "english": "to practice"
+    },
+    {
+      "id": 529,
+      "french": "준비하다",
+      "english": "to prepare"
+    },
+    {
+      "id": 530,
+      "french": "확인하다",
+      "english": "to confirm"
+    },
+    {
+      "id": 531,
+      "french": "비교하다",
+      "english": "to compare"
+    },
+    {
+      "id": 532,
+      "french": "추천하다",
+      "english": "to recommend"
+    },
+    {
+      "id": 533,
+      "french": "동의하다",
+      "english": "to agree"
+    },
+    {
+      "id": 534,
+      "french": "반대하다",
+      "english": "to oppose"
+    },
+    {
+      "id": 535,
+      "french": "아이돌",
+      "english": "idol performer"
+    },
+    {
+      "id": 536,
+      "french": "팬덤",
+      "english": "fandom"
+    },
+    {
+      "id": 537,
+      "french": "안무",
+      "english": "choreography"
+    },
+    {
+      "id": 538,
+      "french": "웹툰",
+      "english": "webtoon"
+    },
+    {
+      "id": 539,
+      "french": "한류",
+      "english": "Korean wave"
+    },
+    {
+      "id": 540,
+      "french": "한글",
+      "english": "Korean alphabet"
+    },
+    {
+      "id": 541,
+      "french": "찜질방",
+      "english": "Korean sauna"
+    },
+    {
+      "id": 542,
+      "french": "냉장고",
+      "english": "refrigerator"
+    },
+    {
+      "id": 543,
+      "french": "비밀번호",
+      "english": "password"
+    },
+    {
+      "id": 544,
+      "french": "로그인",
+      "english": "log in"
+    },
+    {
+      "id": 545,
+      "french": "모니터",
+      "english": "monitor"
+    },
+    {
+      "id": 546,
+      "french": "색깔",
+      "english": "color"
+    },
+    {
+      "id": 547,
+      "french": "재고",
+      "english": "stock inventory"
+    },
+    {
+      "id": 548,
+      "french": "축하해요",
+      "english": "congratulations"
+    },
+    {
+      "id": 549,
+      "french": "메리 크리스마스",
+      "english": "merry christmas"
+    },
+    {
+      "id": 550,
+      "french": "잠시만요",
+      "english": "just a moment"
+    },
+    {
+      "id": 551,
+      "french": "곧",
+      "english": "soon"
+    },
+    {
+      "id": 552,
+      "french": "물론이에요",
+      "english": "of course"
+    },
+    {
+      "id": 553,
+      "french": "아마",
+      "english": "maybe"
+    },
+    {
+      "id": 554,
+      "french": "당연하죠",
+      "english": "naturally"
+    },
+    {
+      "id": 555,
+      "french": "진짜요",
+      "english": "really"
+    },
+    {
+      "id": 556,
+      "french": "대박",
+      "english": "awesome"
+    },
+    {
+      "id": 557,
+      "french": "힘내세요",
+      "english": "cheer up"
+    },
+    {
+      "id": 558,
+      "french": "엄마",
+      "english": "mom"
+    },
+    {
+      "id": 559,
+      "french": "아빠",
+      "english": "dad"
+    },
+    {
+      "id": 560,
+      "french": "부부",
+      "english": "married couple"
+    },
+    {
+      "id": 561,
+      "french": "직원",
+      "english": "employee"
+    },
+    {
+      "id": 562,
+      "french": "손님",
+      "english": "guest"
+    },
+    {
+      "id": 563,
+      "french": "고객",
+      "english": "customer"
+    },
+    {
+      "id": 564,
+      "french": "간호사",
+      "english": "nurse"
+    },
+    {
+      "id": 565,
+      "french": "소방관",
+      "english": "firefighter"
+    },
+    {
+      "id": 566,
+      "french": "가수",
+      "english": "singer"
+    },
+    {
+      "id": 567,
+      "french": "운동선수",
+      "english": "athlete"
+    },
+    {
+      "id": 568,
+      "french": "성인",
+      "english": "adult"
+    },
+    {
+      "id": 569,
+      "french": "청소년",
+      "english": "teenager"
+    },
+    {
+      "id": 570,
+      "french": "다섯째",
+      "english": "fifth"
+    },
+    {
+      "id": 571,
+      "french": "병",
+      "english": "bottle counter"
+    },
+    {
+      "id": 572,
+      "french": "장",
+      "english": "sheet counter"
+    },
+    {
+      "id": 573,
+      "french": "켤레",
+      "english": "pair counter"
+    },
+    {
+      "id": 574,
+      "french": "그릇",
+      "english": "bowl counter"
+    },
+    {
+      "id": 575,
+      "french": "새벽",
+      "english": "dawn"
+    },
+    {
+      "id": 576,
+      "french": "봄",
+      "english": "spring"
+    },
+    {
+      "id": 577,
+      "french": "여름",
+      "english": "summer"
+    },
+    {
+      "id": 578,
+      "french": "가을",
+      "english": "autumn"
+    },
+    {
+      "id": 579,
+      "french": "겨울",
+      "english": "winter"
+    },
+    {
+      "id": 580,
+      "french": "불고기",
+      "english": "bulgogi"
+    },
+    {
+      "id": 581,
+      "french": "비빔밥",
+      "english": "bibimbap"
+    },
+    {
+      "id": 582,
+      "french": "잡채",
+      "english": "japchae"
+    },
+    {
+      "id": 583,
+      "french": "김밥",
+      "english": "gimbap"
+    },
+    {
+      "id": 584,
+      "french": "된장찌개",
+      "english": "soybean paste stew"
+    },
+    {
+      "id": 585,
+      "french": "순두부찌개",
+      "english": "soft tofu stew"
+    },
+    {
+      "id": 586,
+      "french": "만두",
+      "english": "dumpling"
+    },
+    {
+      "id": 587,
+      "french": "파전",
+      "english": "green onion pancake"
+    },
+    {
+      "id": 588,
+      "french": "빈대떡",
+      "english": "mung bean pancake"
+    },
+    {
+      "id": 589,
+      "french": "호떡",
+      "english": "sweet filled pancake"
+    },
+    {
+      "id": 590,
+      "french": "피자",
+      "english": "pizza"
+    },
+    {
+      "id": 591,
+      "french": "햄버거",
+      "english": "hamburger"
+    },
+    {
+      "id": 592,
+      "french": "샐러드",
+      "english": "salad"
+    },
+    {
+      "id": 593,
+      "french": "새우",
+      "english": "shrimp"
+    },
+    {
+      "id": 594,
+      "french": "오징어",
+      "english": "squid"
+    },
+    {
+      "id": 595,
+      "french": "두부",
+      "english": "tofu"
+    },
+    {
+      "id": 596,
+      "french": "바나나",
+      "english": "banana"
+    },
+    {
+      "id": 597,
+      "french": "딸기",
+      "english": "strawberry"
+    },
+    {
+      "id": 598,
+      "french": "포도",
+      "english": "grape"
+    },
+    {
+      "id": 599,
+      "french": "토마토",
+      "english": "tomato"
+    },
+    {
+      "id": 600,
+      "french": "오이",
+      "english": "cucumber"
+    },
+    {
+      "id": 601,
+      "french": "감자",
+      "english": "potato"
+    },
+    {
+      "id": 602,
+      "french": "고구마",
+      "english": "sweet potato"
+    },
+    {
+      "id": 603,
+      "french": "양파",
+      "english": "onion"
+    },
+    {
+      "id": 604,
+      "french": "마늘",
+      "english": "garlic"
+    },
+    {
+      "id": 605,
+      "french": "후추",
+      "english": "pepper"
+    },
+    {
+      "id": 606,
+      "french": "간장",
+      "english": "soy sauce"
+    },
+    {
+      "id": 607,
+      "french": "식초",
+      "english": "vinegar"
+    },
+    {
+      "id": 608,
+      "french": "기름",
+      "english": "oil"
+    },
+    {
+      "id": 609,
+      "french": "주스",
+      "english": "juice"
+    },
+    {
+      "id": 610,
+      "french": "맥주",
+      "english": "beer"
+    },
+    {
+      "id": 611,
+      "french": "소주",
+      "english": "soju"
+    },
+    {
+      "id": 612,
+      "french": "와인",
+      "english": "wine"
+    },
+    {
+      "id": 613,
+      "french": "막걸리",
+      "english": "makgeolli"
+    },
+    {
+      "id": 614,
+      "french": "디저트",
+      "english": "dessert"
+    },
+    {
+      "id": 615,
+      "french": "아이스크림",
+      "english": "ice cream"
+    },
+    {
+      "id": 616,
+      "french": "케이크",
+      "english": "cake"
+    },
+    {
+      "id": 617,
+      "french": "초콜릿",
+      "english": "chocolate"
+    },
+    {
+      "id": 618,
+      "french": "관광객",
+      "english": "tourist"
+    },
+    {
+      "id": 619,
+      "french": "비자",
+      "english": "visa"
+    },
+    {
+      "id": 620,
+      "french": "비행기",
+      "english": "airplane"
+    },
+    {
+      "id": 621,
+      "french": "탑승권",
+      "english": "boarding pass"
+    },
+    {
+      "id": 622,
+      "french": "입국",
+      "english": "entry into country"
+    },
+    {
+      "id": 623,
+      "french": "세관",
+      "english": "customs"
+    },
+    {
+      "id": 624,
+      "french": "짐",
+      "english": "luggage"
+    },
+    {
+      "id": 625,
+      "french": "수하물",
+      "english": "checked baggage"
+    },
+    {
+      "id": 626,
+      "french": "예약",
+      "english": "reservation"
+    },
+    {
+      "id": 627,
+      "french": "체크아웃",
+      "english": "check out"
+    },
+    {
+      "id": 628,
+      "french": "프런트",
+      "english": "front desk"
+    },
+    {
+      "id": 629,
+      "french": "목적지",
+      "english": "destination"
+    },
+    {
+      "id": 630,
+      "french": "도착",
+      "english": "arrival"
+    },
+    {
+      "id": 631,
+      "french": "지하철",
+      "english": "subway"
+    },
+    {
+      "id": 632,
+      "french": "터미널",
+      "english": "terminal"
+    },
+    {
+      "id": 633,
+      "french": "배편",
+      "english": "boat route"
+    },
+    {
+      "id": 634,
+      "french": "신호등",
+      "english": "traffic light"
+    },
+    {
+      "id": 635,
+      "french": "횡단보도",
+      "english": "crosswalk"
+    },
+    {
+      "id": 636,
+      "french": "사거리",
+      "english": "intersection"
+    },
+    {
+      "id": 637,
+      "french": "골목",
+      "english": "alley"
+    },
+    {
+      "id": 638,
+      "french": "앞",
+      "english": "front"
+    },
+    {
+      "id": 639,
+      "french": "뒤",
+      "english": "back"
+    },
+    {
+      "id": 640,
+      "french": "옆",
+      "english": "side"
+    },
+    {
+      "id": 641,
+      "french": "안",
+      "english": "inside"
+    },
+    {
+      "id": 642,
+      "french": "밖",
+      "english": "outside"
+    },
+    {
+      "id": 643,
+      "french": "위",
+      "english": "above"
+    },
+    {
+      "id": 644,
+      "french": "아래",
+      "english": "below"
+    },
+    {
+      "id": 645,
+      "french": "가운데",
+      "english": "middle"
+    },
+    {
+      "id": 646,
+      "french": "시골",
+      "english": "countryside"
+    },
+    {
+      "id": 647,
+      "french": "나라",
+      "english": "country"
+    },
+    {
+      "id": 648,
+      "french": "호수",
+      "english": "lake"
+    },
+    {
+      "id": 649,
+      "french": "공원",
+      "english": "park"
+    },
+    {
+      "id": 650,
+      "french": "미술관",
+      "english": "art gallery"
+    },
+    {
+      "id": 651,
+      "french": "궁궐",
+      "english": "palace"
+    },
+    {
+      "id": 652,
+      "french": "직업",
+      "english": "occupation"
+    },
+    {
+      "id": 653,
+      "french": "이메일",
+      "english": "email"
+    },
+    {
+      "id": 654,
+      "french": "일정",
+      "english": "schedule"
+    },
+    {
+      "id": 655,
+      "french": "마감",
+      "english": "deadline"
+    },
+    {
+      "id": 656,
+      "french": "프로젝트",
+      "english": "project"
+    },
+    {
+      "id": 657,
+      "french": "월급",
+      "english": "salary"
+    },
+    {
+      "id": 658,
+      "french": "보너스",
+      "english": "bonus"
+    },
+    {
+      "id": 659,
+      "french": "계약",
+      "english": "contract"
+    },
+    {
+      "id": 660,
+      "french": "면접",
+      "english": "interview"
+    },
+    {
+      "id": 661,
+      "french": "이력서",
+      "english": "resume"
+    },
+    {
+      "id": 662,
+      "french": "실업",
+      "english": "unemployment"
+    },
+    {
+      "id": 663,
+      "french": "강의",
+      "english": "lecture"
+    },
+    {
+      "id": 664,
+      "french": "문제",
+      "english": "problem"
+    },
+    {
+      "id": 665,
+      "french": "연습",
+      "english": "practice"
+    },
+    {
+      "id": 666,
+      "french": "복습",
+      "english": "review"
+    },
+    {
+      "id": 667,
+      "french": "졸업",
+      "english": "graduation"
+    },
+    {
+      "id": 668,
+      "french": "등록",
+      "english": "registration"
+    },
+    {
+      "id": 669,
+      "french": "도서관",
+      "english": "library"
+    },
+    {
+      "id": 670,
+      "french": "책상",
+      "english": "desk"
+    },
+    {
+      "id": 671,
+      "french": "지우개",
+      "english": "eraser"
+    },
+    {
+      "id": 672,
+      "french": "칠판",
+      "english": "blackboard"
+    },
+    {
+      "id": 673,
+      "french": "과목",
+      "english": "subject"
+    },
+    {
+      "id": 674,
+      "french": "수학",
+      "english": "mathematics"
+    },
+    {
+      "id": 675,
+      "french": "과학",
+      "english": "science"
+    },
+    {
+      "id": 676,
+      "french": "언어",
+      "english": "language"
+    },
+    {
+      "id": 677,
+      "french": "법률",
+      "english": "law"
+    },
+    {
+      "id": 678,
+      "french": "목",
+      "english": "neck"
+    },
+    {
+      "id": 679,
+      "french": "가슴",
+      "english": "chest"
+    },
+    {
+      "id": 680,
+      "french": "등",
+      "english": "back"
+    },
+    {
+      "id": 681,
+      "french": "허리",
+      "english": "waist"
+    },
+    {
+      "id": 682,
+      "french": "복부",
+      "english": "abdomen"
+    },
+    {
+      "id": 683,
+      "french": "무릎",
+      "english": "knee"
+    },
+    {
+      "id": 684,
+      "french": "발가락",
+      "english": "toe"
+    },
+    {
+      "id": 685,
+      "french": "피부",
+      "english": "skin"
+    },
+    {
+      "id": 686,
+      "french": "폐",
+      "english": "lung"
+    },
+    {
+      "id": 687,
+      "french": "위장",
+      "english": "stomach"
+    },
+    {
+      "id": 688,
+      "french": "근육",
+      "english": "muscle"
+    },
+    {
+      "id": 689,
+      "french": "기침",
+      "english": "cough"
+    },
+    {
+      "id": 690,
+      "french": "복통",
+      "english": "stomachache"
+    },
+    {
+      "id": 691,
+      "french": "주사",
+      "english": "injection"
+    },
+    {
+      "id": 692,
+      "french": "수술",
+      "english": "surgery"
+    },
+    {
+      "id": 693,
+      "french": "운동",
+      "english": "exercise"
+    },
+    {
+      "id": 694,
+      "french": "휴식",
+      "english": "rest"
+    },
+    {
+      "id": 695,
+      "french": "상처",
+      "english": "wound"
+    },
+    {
+      "id": 696,
+      "french": "알레르기",
+      "english": "allergy"
+    },
+    {
+      "id": 697,
+      "french": "예방접종",
+      "english": "vaccination"
+    },
+    {
+      "id": 698,
+      "french": "케이팝",
+      "english": "K pop"
+    },
+    {
+      "id": 699,
+      "french": "응원봉",
+      "english": "light stick"
+    },
+    {
+      "id": 700,
+      "french": "팬사인회",
+      "english": "fan signing event"
+    },
+    {
+      "id": 701,
+      "french": "콘서트",
+      "english": "concert"
+    },
+    {
+      "id": 702,
+      "french": "무대",
+      "english": "stage"
+    },
+    {
+      "id": 703,
+      "french": "랩",
+      "english": "rap"
+    },
+    {
+      "id": 704,
+      "french": "댄스",
+      "english": "dance"
+    },
+    {
+      "id": 705,
+      "french": "뮤직비디오",
+      "english": "music video"
+    },
+    {
+      "id": 706,
+      "french": "드라마",
+      "english": "drama series"
+    },
+    {
+      "id": 707,
+      "french": "태권도",
+      "english": "taekwondo"
+    },
+    {
+      "id": 708,
+      "french": "화장실",
+      "english": "toilet"
+    },
+    {
+      "id": 709,
+      "french": "이불",
+      "english": "blanket"
+    },
+    {
+      "id": 710,
+      "french": "베개",
+      "english": "pillow"
+    },
+    {
+      "id": 711,
+      "french": "청소기",
+      "english": "vacuum cleaner"
+    },
+    {
+      "id": 712,
+      "french": "전등",
+      "english": "light lamp"
+    },
+    {
+      "id": 713,
+      "french": "리모컨",
+      "english": "remote control"
+    },
+    {
+      "id": 714,
+      "french": "인터넷",
+      "english": "internet"
+    },
+    {
+      "id": 715,
+      "french": "와이파이",
+      "english": "Wi Fi"
+    },
+    {
+      "id": 716,
+      "french": "계정",
+      "english": "account"
+    },
+    {
+      "id": 717,
+      "french": "로그아웃",
+      "english": "log out"
+    },
+    {
+      "id": 718,
+      "french": "앱",
+      "english": "app"
+    },
+    {
+      "id": 719,
+      "french": "프로그램",
+      "english": "program"
+    },
+    {
+      "id": 720,
+      "french": "소프트웨어",
+      "english": "software"
+    },
+    {
+      "id": 721,
+      "french": "파일",
+      "english": "file"
+    },
+    {
+      "id": 722,
+      "french": "다운로드",
+      "english": "download"
+    },
+    {
+      "id": 723,
+      "french": "업로드",
+      "english": "upload"
+    },
+    {
+      "id": 724,
+      "french": "링크",
+      "english": "link"
+    },
+    {
+      "id": 725,
+      "french": "화면",
+      "english": "screen"
+    },
+    {
+      "id": 726,
+      "french": "충전기",
+      "english": "charger"
+    },
+    {
+      "id": 727,
+      "french": "배터리",
+      "english": "battery"
+    },
+    {
+      "id": 728,
+      "french": "동영상",
+      "english": "video clip"
+    },
+    {
+      "id": 729,
+      "french": "메시지",
+      "english": "message"
+    },
+    {
+      "id": 730,
+      "french": "마트",
+      "english": "mart"
+    },
+    {
+      "id": 731,
+      "french": "할인",
+      "english": "discount"
+    },
+    {
+      "id": 732,
+      "french": "쿠폰",
+      "english": "coupon"
+    },
+    {
+      "id": 733,
+      "french": "영수증",
+      "english": "receipt"
+    },
+    {
+      "id": 734,
+      "french": "계산대",
+      "english": "checkout counter"
+    },
+    {
+      "id": 735,
+      "french": "동전",
+      "english": "coin"
+    },
+    {
+      "id": 736,
+      "french": "교환",
+      "english": "exchange"
+    },
+    {
+      "id": 737,
+      "french": "사이즈",
+      "english": "size"
+    },
+    {
+      "id": 738,
+      "french": "구름",
+      "english": "cloud"
+    },
+    {
+      "id": 739,
+      "french": "습도",
+      "english": "humidity"
+    },
+    {
+      "id": 740,
+      "french": "기온",
+      "english": "air temperature"
+    },
+    {
+      "id": 741,
+      "french": "우산",
+      "english": "umbrella"
+    },
+    {
+      "id": 742,
+      "french": "태풍",
+      "english": "typhoon"
+    },
+    {
+      "id": 743,
+      "french": "번개",
+      "english": "lightning"
+    },
+    {
+      "id": 744,
+      "french": "천둥",
+      "english": "thunder"
+    },
+    {
+      "id": 745,
+      "french": "안개",
+      "english": "fog"
+    },
+    {
+      "id": 746,
+      "french": "서리",
+      "english": "frost"
+    }
+  ]
+}

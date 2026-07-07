@@ -13,8 +13,8 @@ export const POOL_OPTIONS: {
   label: string;
   description: string;
 }[] = [
-  { id: '500', label: 'First 500', description: 'Most common French words' },
-  { id: '500-2', label: 'Second 500', description: 'Words 501–1,000 by frequency' },
+  { id: '500', label: 'Starter 500', description: 'A1–A2 essentials — greetings, family, food, time' },
+  { id: '500-2', label: 'Builder 500', description: 'A2–B1 expansion — travel, work, feelings' },
   { id: '1000', label: '1,000 words', description: 'First 1,000 (both 500s combined)' },
   { id: '1500', label: '1,500 words', description: 'Strong foundation' },
   { id: '2000', label: '2,000 words', description: 'Advanced pool' },
@@ -40,14 +40,14 @@ export function resolveWordPool(id: WordPoolId): WordPair[] {
 export function poolMeta(id: WordPoolId): { range: string; cumulative: boolean } {
   switch (id) {
     case '500':
-      return { range: 'Rank 1–500 by frequency', cumulative: false };
+      return { range: 'A1–A2 essentials (1–500)', cumulative: false };
     case '500-2':
-      return { range: 'Rank 501–1,000 by frequency', cumulative: false };
+      return { range: 'A2–B1 expansion (501–1,000)', cumulative: false };
     case '1000':
       return { range: 'Rank 1–1,000 (includes both 500 pools)', cumulative: true };
     case '1500':
-      return { range: 'Rank 1–1,500 by frequency', cumulative: true };
+      return { range: 'B1 foundation (1–1,500)', cumulative: true };
     case '2000':
-      return { range: 'Rank 1–2,000 by frequency', cumulative: true };
+      return { range: 'Full B1–B2 pool (1–2,000)', cumulative: true };
   }
 }

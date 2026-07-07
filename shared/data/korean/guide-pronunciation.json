@@ -1,0 +1,209 @@
+{
+  "meta": {
+    "title": "Sounds",
+    "subtitle": "Hangul script, vowels, consonants, final consonants, and key pronunciation rules.",
+    "accent": "rose"
+  },
+  "sections": [
+    {
+      "id": "hangul",
+      "number": 1,
+      "title": "How Hangul works",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Korean is written in <strong>Hangul</strong> — a featural alphabet invented in 1443. Characters are grouped into syllable blocks: each block has an initial consonant + vowel + optional final consonant."
+        },
+        {
+          "type": "example",
+          "fr": "한 = ㅎ + ㅏ + ㄴ",
+          "en": "h + a + n → syllable \"han\""
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Hangul can be learned in about 2–3 hours. It is perfectly phonetic — once you know the letters you can read any Korean word."
+        }
+      ]
+    },
+    {
+      "id": "vowels",
+      "number": 2,
+      "title": "Vowels (모음)",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": [
+            "Hangul",
+            "Sound",
+            "Like..."
+          ],
+          "rows": [
+            [
+              "ㅏ",
+              "a",
+              "\"a\" in father"
+            ],
+            [
+              "ㅓ",
+              "eo",
+              "\"u\" in cup (rounded)"
+            ],
+            [
+              "ㅗ",
+              "o",
+              "\"o\" in more"
+            ],
+            [
+              "ㅜ",
+              "u",
+              "\"oo\" in book"
+            ],
+            [
+              "ㅡ",
+              "eu",
+              "no English equivalent — unrounded back vowel"
+            ],
+            [
+              "ㅣ",
+              "i",
+              "\"ee\" in see"
+            ],
+            [
+              "ㅐ",
+              "ae",
+              "\"e\" in bed"
+            ],
+            [
+              "ㅔ",
+              "e",
+              "\"e\" in bed (same as ㅐ in modern speech)"
+            ],
+            [
+              "ㅑ",
+              "ya",
+              "\"ya\" in yard"
+            ],
+            [
+              "ㅕ",
+              "yeo",
+              "\"yuh\""
+            ],
+            [
+              "ㅛ",
+              "yo",
+              "\"yo\" in yoga"
+            ],
+            [
+              "ㅠ",
+              "yu",
+              "\"you\""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consonants",
+      "number": 3,
+      "title": "Consonants (자음)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Korean has three series of consonants: <strong>lax</strong>, <strong>aspirated</strong> (h-puff of air), and <strong>tense</strong> (no air). These contrasts change meaning."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Lax",
+            "Aspirated",
+            "Tense",
+            "Sounds"
+          ],
+          "rows": [
+            [
+              "ㄱ g/k",
+              "ㅋ k'",
+              "ㄲ kk",
+              "k-series"
+            ],
+            [
+              "ㄷ d/t",
+              "ㅌ t'",
+              "ㄸ tt",
+              "t-series"
+            ],
+            [
+              "ㅂ b/p",
+              "ㅍ p'",
+              "ㅃ pp",
+              "p-series"
+            ],
+            [
+              "ㅈ j",
+              "ㅊ ch'",
+              "ㅉ jj",
+              "ch-series"
+            ],
+            [
+              "ㅅ s",
+              "—",
+              "ㅆ ss",
+              "s-series"
+            ]
+          ]
+        },
+        {
+          "type": "example",
+          "fr": "달 (moon) vs 탈 (mask) vs 딸 (daughter)",
+          "en": "Lax ㄷ vs aspirated ㅌ vs tense ㄸ"
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "number": 4,
+      "title": "Final consonants (받침)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A consonant at the bottom of a syllable block is called <em>batchim</em>. Only 7 sounds are actually pronounced in final position, regardless of how the letter looks."
+        },
+        {
+          "type": "list",
+          "items": [
+            "ㄱ, ㅋ, ㄲ → all sound like \"k\"",
+            "ㄴ → \"n\"",
+            "ㄷ, ㅅ, ㅆ, ㅈ, ㅊ, ㅎ, ㅌ → all sound like \"t\"",
+            "ㄹ → \"l\"",
+            "ㅁ → \"m\"",
+            "ㅂ, ㅍ → \"p\"",
+            "ㅇ → \"ng\""
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "When a final consonant is followed by a vowel, it links to the next syllable: 한국어 → [한구거] (hangukeO)."
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "number": 5,
+      "title": "Pronunciation tips",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Learn to distinguish the three consonant series (lax/aspirated/tense) — they change meaning",
+            "ㅡ (eu) has no English equivalent — practice with 으 and 큰 (big)",
+            "The ㄹ sound is between English r and l; tap lightly at the front of the mouth",
+            "Word-final consonants are \"unreleased\" — you feel them but do not burst",
+            "Use 🔊 on every word — Korean sound rules become natural with listening practice"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Grammar",
-    "subtitle": "Kazakh cases, vowel harmony, word order, and pronouns — with English notes.",
+    "subtitle": "Kazakh vowel harmony, cases, word order, and verbs — with English notes.",
     "accent": "teal"
   },
   "sections": [
@@ -12,12 +12,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Kazakh is a Turkic language written in Cyrillic (Latin script is also used). It has <strong>vowel harmony</strong> and <strong>agglutinative</strong> suffixes — one suffix often = one grammatical meaning."
+          "text": "Kazakh is a Turkic language. It uses <strong>vowel harmony</strong> (suffixes change their vowels to match the root) and is <strong>agglutinative</strong> — grammatical meanings are stacked as suffixes."
         },
         {
           "type": "callout",
           "variant": "compare-en",
-          "text": "🇬🇧 English word order is mostly fixed (Subject–Verb–Object). Both Kazakh and Russian allow more flexible order because suffixes show grammatical roles."
+          "text": "🇬🇧 English: I go to school. Kazakh: Мен мектепке <em>барамын</em> (lit. I school-to go-I). The verb comes last; the subject is often dropped."
         }
       ]
     },
@@ -30,32 +30,141 @@
           "type": "table",
           "headers": [
             "Kazakh",
-            "English"
+            "English",
+            "Notes"
           ],
           "rows": [
             [
               "мен",
-              "I"
+              "I",
+              "often dropped in speech"
             ],
             [
               "сен",
-              "you (informal)"
+              "you (informal)",
+              "used with friends/children"
             ],
             [
               "сіз",
-              "you (formal)"
+              "you (formal)",
+              "polite or plural"
             ],
             [
               "ол",
-              "he/she"
+              "he / she / it",
+              "one word for all genders"
             ],
             [
               "біз",
-              "we"
+              "we",
+              ""
+            ],
+            [
+              "сендер",
+              "you (pl. informal)",
+              ""
             ],
             [
               "олар",
-              "they"
+              "they",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "harmony",
+      "number": 3,
+      "title": "Vowel harmony",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kazakh vowels are divided into <strong>back</strong> (а, о, ұ, ы) and <strong>front</strong> (е, ө, ү, і). Suffixes match the vowel type of the root."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Root",
+            "Meaning",
+            "Locative (back)",
+            "Locative (front)"
+          ],
+          "rows": [
+            [
+              "үй",
+              "house",
+              "—",
+              "үйде (at home)"
+            ],
+            [
+              "мектеп",
+              "school",
+              "—",
+              "мектепте (at school)"
+            ],
+            [
+              "қала",
+              "city",
+              "қалада (in the city)",
+              "—"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Tip: Learn roots with their vowel class. After а/о/ұ/ы use back suffixes; after е/ө/ү/і use front suffixes."
+        }
+      ]
+    },
+    {
+      "id": "cases",
+      "number": 4,
+      "title": "Cases (7)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kazakh has 7 cases shown by suffixes. The most important ones for beginners:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Case",
+            "Suffix (back/front)",
+            "Use",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Nominative",
+              "—",
+              "subject",
+              "Кітап (book)"
+            ],
+            [
+              "Accusative",
+              "-ны / -ні",
+              "direct object",
+              "Кітапты оқыдым (read the book)"
+            ],
+            [
+              "Dative",
+              "-ға / -ге",
+              "to / for",
+              "Мектепке барды (went to school)"
+            ],
+            [
+              "Locative",
+              "-да / -де",
+              "at / in",
+              "Үйде (at home)"
+            ],
+            [
+              "Ablative",
+              "-дан / -ден",
+              "from",
+              "Алматыдан (from Almaty)"
             ]
           ]
         }
@@ -63,17 +172,85 @@
     },
     {
       "id": "questions",
-      "number": 3,
+      "number": 5,
       "title": "Questions & negation",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Yes/no questions often use question intonation or the particle <code>ма/ме</code>. Negation uses <code>жоқ</code> (non-existence) or <code>-ма/-ме</code> suffixes on verbs."
+          "text": "Yes/no questions add <code>ма/ме/ба/бе/па/пе</code> after the verb. Question words: <em>не</em> (what), <em>кім</em> (who), <em>қайда</em> (where), <em>қашан</em> (when), <em>неге</em> (why), <em>қалай</em> (how)."
         },
         {
           "type": "example",
           "fr": "Сіз қазақша сөйлейсіз бе?",
           "en": "Do you speak Kazakh?"
+        },
+        {
+          "type": "example",
+          "fr": "Мен қазақша сөйлемеймін.",
+          "en": "I do not speak Kazakh."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Negation: add <strong>-ма/-ме</strong> before the personal suffix: сөйле-ме-ймін (speak-NEG-I)."
+        }
+      ]
+    },
+    {
+      "id": "verbs",
+      "number": 6,
+      "title": "Present tense verbs",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The present-continuous tense uses <strong>-а/-е + personal suffix</strong>. The stem drops its infinitive suffix <em>-у/-ю</em>."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Person",
+            "барамын (I go)",
+            "жейсің (you eat)",
+            "оқиды (he reads)"
+          ],
+          "rows": [
+            [
+              "мен (I)",
+              "барамын",
+              "жеймін",
+              "оқимын"
+            ],
+            [
+              "сен (you inf)",
+              "барасың",
+              "жейсің",
+              "оқисың"
+            ],
+            [
+              "сіз (you form)",
+              "барасыз",
+              "жейсіз",
+              "оқисыз"
+            ],
+            [
+              "ол (he/she)",
+              "барады",
+              "жейді",
+              "оқиды"
+            ],
+            [
+              "біз (we)",
+              "барамыз",
+              "жейміз",
+              "оқимыз"
+            ],
+            [
+              "олар (they)",
+              "барады",
+              "жейді",
+              "оқиды"
+            ]
+          ]
         }
       ]
     }

@@ -7,7 +7,7 @@
       "id": "basics",
       "label": "Basics",
       "frenchLabel": "Негіздер",
-      "description": "Essential everyday phrases.",
+      "description": "Essential everyday words and phrases.",
       "sentences": [
         {
           "id": 1,
@@ -51,88 +51,113 @@
         },
         {
           "id": 9,
-          "french": "көріскенше",
-          "english": "see you"
-        },
-        {
-          "id": 10,
-          "french": "кездескенше",
-          "english": "see you later"
-        },
-        {
-          "id": 11,
           "french": "рахмет",
           "english": "thank you"
         },
         {
-          "id": 12,
+          "id": 10,
           "french": "көп рақмет",
           "english": "thank you very much"
         },
         {
-          "id": 13,
+          "id": 11,
           "french": "өтінемін",
           "english": "please"
         },
         {
-          "id": 14,
+          "id": 12,
           "french": "оқасы жоқ",
           "english": "you are welcome"
         },
         {
-          "id": 15,
+          "id": 13,
           "french": "кешіріңіз",
           "english": "excuse me"
         },
         {
-          "id": 16,
+          "id": 14,
           "french": "кешіріңізші",
           "english": "sorry"
         },
         {
-          "id": 17,
+          "id": 15,
           "french": "иә",
           "english": "yes"
         },
         {
-          "id": 18,
+          "id": 16,
           "french": "жоқ",
           "english": "no"
         },
         {
-          "id": 19,
-          "french": "мүмкін",
-          "english": "maybe"
-        },
-        {
-          "id": 20,
-          "french": "әрине",
-          "english": "of course"
-        },
-        {
-          "id": 21,
+          "id": 17,
           "french": "жарайды",
           "english": "okay"
         },
         {
-          "id": 22,
-          "french": "түсінемін",
-          "english": "I understand"
-        },
-        {
-          "id": 23,
+          "id": 18,
           "french": "түсінбеймін",
           "english": "I do not understand"
         },
         {
-          "id": 24,
+          "id": 19,
           "french": "қайталаңызшы",
           "english": "please repeat"
         },
         {
-          "id": 25,
+          "id": 20,
           "french": "баяу сөйлеңізші",
           "english": "please speak slowly"
+        },
+        {
+          "id": 21,
+          "french": "мен түсінбедім",
+          "english": "I did not understand"
+        },
+        {
+          "id": 22,
+          "french": "тағы бір рет айтыңызшы",
+          "english": "say it one more time please"
+        },
+        {
+          "id": 23,
+          "french": "көмектесіңізші",
+          "english": "please help"
+        },
+        {
+          "id": 24,
+          "french": "бәрі жақсы",
+          "english": "everything is good"
+        },
+        {
+          "id": 25,
+          "french": "ештеңе етпейді",
+          "english": "it is okay / no problem"
+        },
+        {
+          "id": 26,
+          "french": "жауап беріңізші",
+          "english": "please answer"
+        },
+        {
+          "id": 27,
+          "french": "маған ұнамайды",
+          "english": "I do not like it"
+        },
+        {
+          "id": 28,
+          "french": "білмеймін",
+          "english": "I do not know"
+        },
+        {
+          "id": 29,
+          "french": "мәселе жоқ",
+          "english": "no problem"
+        },
+        {
+          "id": 30,
+          "french": "дәл қазір",
+          "english": "right now"
         }
       ]
     },
@@ -140,7 +165,7 @@
       "id": "questions",
       "label": "Questions",
       "frenchLabel": "Сұрақтар",
-      "description": "Asking for help, directions, and prices.",
+      "description": "Asking for help, directions, and information.",
       "sentences": [
         {
           "id": 1,
@@ -149,13 +174,13 @@
         },
         {
           "id": 2,
-          "french": "Сіз қайда?",
-          "english": "Where are you?"
+          "french": "Сіз қайда тұрасыз?",
+          "english": "Where do you live?"
         },
         {
           "id": 3,
-          "french": "Қашан?",
-          "english": "When?"
+          "french": "Қашан барасыз?",
+          "english": "When are you going?"
         },
         {
           "id": 4,
@@ -169,8 +194,28 @@
         },
         {
           "id": 6,
-          "french": "Қалай?",
-          "english": "How?"
+          "french": "Бұл қалай айтылады?",
+          "english": "How do you say this?"
+        },
+        {
+          "id": 7,
+          "french": "Сіз қандай жұмыс жасайсыз?",
+          "english": "What work do you do?"
+        },
+        {
+          "id": 8,
+          "french": "Бұл қанша тұрады?",
+          "english": "How much does this cost?"
+        },
+        {
+          "id": 9,
+          "french": "Мейрамхана қайда?",
+          "english": "Where is the restaurant?"
+        },
+        {
+          "id": 10,
+          "french": "Дәретхана қайда?",
+          "english": "Where is the toilet?"
         }
       ]
     },
@@ -182,103 +227,211 @@
       "sentences": [
         {
           "id": 1,
-          "french": "қазақша сөйлейсіз бе",
-          "english": "do you speak Kazakh"
+          "french": "Маған ... ұнайды.",
+          "english": "I like ..."
         },
         {
           "id": 2,
-          "french": "орысша сөйлейсіз бе",
-          "english": "do you speak Russian"
+          "french": "Мен ... тілеймін.",
+          "english": "I wish ..."
         },
         {
           "id": 3,
-          "french": "ағылшынша сөйлейсіз бе",
-          "english": "do you speak English"
+          "french": "Бұл өте жақсы!",
+          "english": "This is very good!"
         },
         {
           "id": 4,
-          "french": "менің атым",
-          "english": "my name is"
+          "french": "Мен сізбен келісемін.",
+          "english": "I agree with you."
         },
         {
           "id": 5,
-          "french": "қалыңыз қалай",
-          "english": "how are you"
+          "french": "Ойым басқаша.",
+          "english": "I think differently."
         },
         {
           "id": 6,
-          "french": "жақсымын",
-          "english": "I am fine"
+          "french": "Сіздің пікіріңіз қандай?",
+          "english": "What is your opinion?"
         },
         {
           "id": 7,
-          "french": "танысқаныма қуаныштымын",
-          "english": "nice to meet you"
+          "french": "Маған уақыт керек.",
+          "english": "I need time."
         },
         {
           "id": 8,
-          "french": "қайдан келдіңіз",
-          "english": "where are you from"
+          "french": "Тамаша!",
+          "english": "Excellent!"
         },
         {
           "id": 9,
-          "french": "мен түсінбедім",
-          "english": "I did not understand"
+          "french": "Мен сізді жақсы түсіндім.",
+          "english": "I understood you well."
         },
         {
           "id": 10,
-          "french": "тағы бір рет айтыңызшы",
-          "english": "say it one more time please"
+          "french": "Айтқандарыңызға рахмет.",
+          "english": "Thank you for what you said."
+        }
+      ]
+    },
+    {
+      "id": "vocab",
+      "label": "More words",
+      "frenchLabel": "Нұсқаулар",
+      "description": "Extended vocabulary for speaking practice.",
+      "sentences": [
+        {
+          "id": 1,
+          "french": "асықпаңыз",
+          "english": "do not hurry"
+        },
+        {
+          "id": 2,
+          "french": "рақмет сізге",
+          "english": "thank you to you"
+        },
+        {
+          "id": 3,
+          "french": "бала",
+          "english": "child"
+        },
+        {
+          "id": 4,
+          "french": "немере",
+          "english": "grandchild"
+        },
+        {
+          "id": 5,
+          "french": "аспаз",
+          "english": "cook"
+        },
+        {
+          "id": 6,
+          "french": "он үш",
+          "english": "thirteen"
+        },
+        {
+          "id": 7,
+          "french": "отыз",
+          "english": "thirty"
+        },
+        {
+          "id": 8,
+          "french": "отыз бір",
+          "english": "thirty one"
+        },
+        {
+          "id": 9,
+          "french": "отыз екі",
+          "english": "thirty two"
+        },
+        {
+          "id": 10,
+          "french": "отыз үш",
+          "english": "thirty three"
         },
         {
           "id": 11,
-          "french": "көмектесіңізші",
-          "english": "please help"
+          "french": "отыз төрт",
+          "english": "thirty four"
         },
         {
           "id": 12,
-          "french": "маған көмек керек",
-          "english": "I need help"
+          "french": "отыз бес",
+          "english": "thirty five"
         },
         {
           "id": 13,
-          "french": "бәрі жақсы",
-          "english": "everything is good"
+          "french": "отыз алты",
+          "english": "thirty six"
         },
         {
           "id": 14,
-          "french": "ештеңе етпейді",
-          "english": "it is okay / no problem"
+          "french": "отыз жеті",
+          "english": "thirty seven"
         },
         {
           "id": 15,
-          "french": "сәттілік",
-          "english": "good luck"
+          "french": "отыз сегіз",
+          "english": "thirty eight"
         },
         {
           "id": 16,
-          "french": "құтты болсын",
-          "english": "congratulations"
+          "french": "отыз тоғыз",
+          "english": "thirty nine"
         },
         {
           "id": 17,
-          "french": "ас болсын",
-          "english": "enjoy your meal"
+          "french": "үшінші",
+          "english": "third"
         },
         {
           "id": 18,
-          "french": "аман болыңыз",
-          "english": "stay well"
+          "french": "тауық еті",
+          "english": "chicken meat"
         },
         {
           "id": 19,
-          "french": "ертең көріскенше",
-          "english": "see you tomorrow"
+          "french": "кеспе",
+          "english": "noodles"
         },
         {
           "id": 20,
-          "french": "жолыңыз болсын",
-          "english": "have a good trip"
+          "french": "шөлдедім",
+          "english": "I am thirsty"
+        },
+        {
+          "id": 21,
+          "french": "шот әкеліңізші",
+          "english": "please bring the bill"
+        },
+        {
+          "id": 22,
+          "french": "көлік",
+          "english": "transport / vehicle"
+        },
+        {
+          "id": 23,
+          "french": "алыс емес",
+          "english": "not far"
+        },
+        {
+          "id": 24,
+          "french": "осы жерге апарыңыз",
+          "english": "take me to this place"
+        },
+        {
+          "id": 25,
+          "french": "білім",
+          "english": "knowledge"
+        },
+        {
+          "id": 26,
+          "french": "мұрын",
+          "english": "nose"
+        },
+        {
+          "id": 27,
+          "french": "сан",
+          "english": "thigh"
+        },
+        {
+          "id": 28,
+          "french": "кеше",
+          "english": "yesterday"
+        },
+        {
+          "id": 29,
+          "french": "түсте",
+          "english": "at noon"
+        },
+        {
+          "id": 30,
+          "french": "қазір",
+          "english": "now"
         }
       ]
     }

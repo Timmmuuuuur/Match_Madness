@@ -1,6 +1,6 @@
 {
   "meta": {
-    "size": 90,
+    "size": 95,
     "languagePair": "en-kk",
     "level": "beginner-intermediate"
   },
@@ -47,363 +47,363 @@
     },
     {
       "id": 9,
-      "french": "Көріскенше.",
-      "english": "See you."
-    },
-    {
-      "id": 10,
-      "french": "Кездескенше.",
-      "english": "See you later."
-    },
-    {
-      "id": 11,
       "french": "Рахмет.",
       "english": "Thank you."
     },
     {
-      "id": 12,
+      "id": 10,
       "french": "Көп рақмет.",
       "english": "Thank you very much."
     },
     {
-      "id": 13,
+      "id": 11,
       "french": "Өтінемін.",
       "english": "Please."
     },
     {
-      "id": 14,
+      "id": 12,
       "french": "Оқасы жоқ.",
       "english": "You are welcome."
     },
     {
-      "id": 15,
+      "id": 13,
       "french": "Кешіріңіз.",
       "english": "Excuse me."
     },
     {
-      "id": 16,
+      "id": 14,
       "french": "Кешіріңізші.",
       "english": "Sorry."
     },
     {
-      "id": 17,
+      "id": 15,
       "french": "Иә.",
       "english": "Yes."
     },
     {
-      "id": 18,
+      "id": 16,
       "french": "Жоқ.",
       "english": "No."
     },
     {
-      "id": 19,
-      "french": "Мүмкін.",
-      "english": "Maybe."
-    },
-    {
-      "id": 20,
-      "french": "Әрине.",
-      "english": "Of course."
-    },
-    {
-      "id": 21,
+      "id": 17,
       "french": "Жарайды.",
       "english": "Okay."
     },
     {
-      "id": 22,
-      "french": "Түсінемін.",
-      "english": "I understand."
-    },
-    {
-      "id": 23,
+      "id": 18,
       "french": "Түсінбеймін.",
       "english": "I do not understand."
     },
     {
-      "id": 24,
+      "id": 19,
       "french": "Қайталаңызшы.",
       "english": "Please repeat."
     },
     {
-      "id": 25,
+      "id": 20,
       "french": "Баяу сөйлеңізші.",
       "english": "Please speak slowly."
     },
     {
-      "id": 26,
-      "french": "Қазақша сөйлейсіз бе.",
-      "english": "Do you speak Kazakh."
-    },
-    {
-      "id": 27,
-      "french": "Орысша сөйлейсіз бе.",
-      "english": "Do you speak Russian."
-    },
-    {
-      "id": 28,
-      "french": "Ағылшынша сөйлейсіз бе.",
-      "english": "Do you speak English."
-    },
-    {
-      "id": 29,
-      "french": "Менің атым.",
-      "english": "My name is."
-    },
-    {
-      "id": 30,
-      "french": "Қалыңыз қалай.",
-      "english": "How are you."
-    },
-    {
-      "id": 31,
-      "french": "Жақсымын.",
-      "english": "I am fine."
-    },
-    {
-      "id": 32,
-      "french": "Танысқаныма қуаныштымын.",
-      "english": "Nice to meet you."
-    },
-    {
-      "id": 33,
-      "french": "Қайдан келдіңіз.",
-      "english": "Where are you from."
-    },
-    {
-      "id": 34,
+      "id": 21,
       "french": "Мен түсінбедім.",
       "english": "I did not understand."
     },
     {
-      "id": 35,
+      "id": 22,
       "french": "Тағы бір рет айтыңызшы.",
       "english": "Say it one more time please."
     },
     {
-      "id": 36,
+      "id": 23,
       "french": "Көмектесіңізші.",
       "english": "Please help."
     },
     {
-      "id": 37,
-      "french": "Маған көмек керек.",
-      "english": "I need help."
-    },
-    {
-      "id": 38,
+      "id": 24,
       "french": "Бәрі жақсы.",
       "english": "Everything is good."
     },
     {
-      "id": 39,
+      "id": 25,
       "french": "Ештеңе етпейді.",
       "english": "It is okay / no problem."
     },
     {
-      "id": 40,
-      "french": "Сәттілік.",
-      "english": "Good luck."
-    },
-    {
-      "id": 41,
-      "french": "Құтты болсын.",
-      "english": "Congratulations."
-    },
-    {
-      "id": 42,
-      "french": "Ас болсын.",
-      "english": "Enjoy your meal."
-    },
-    {
-      "id": 43,
-      "french": "Аман болыңыз.",
-      "english": "Stay well."
-    },
-    {
-      "id": 44,
-      "french": "Ертең көріскенше.",
-      "english": "See you tomorrow."
-    },
-    {
-      "id": 45,
-      "french": "Жолыңыз болсын.",
-      "english": "Have a good trip."
-    },
-    {
-      "id": 46,
+      "id": 26,
       "french": "Жауап беріңізші.",
       "english": "Please answer."
     },
     {
-      "id": 47,
-      "french": "Тыңдап тұрмын.",
-      "english": "I am listening."
-    },
-    {
-      "id": 48,
-      "french": "Мен келісемін.",
-      "english": "I agree."
-    },
-    {
-      "id": 49,
-      "french": "Мен келіспеймін.",
-      "english": "I disagree."
-    },
-    {
-      "id": 50,
-      "french": "Маған ұнайды.",
-      "english": "I like it."
-    },
-    {
-      "id": 51,
+      "id": 27,
       "french": "Маған ұнамайды.",
       "english": "I do not like it."
     },
     {
-      "id": 52,
-      "french": "Өте жақсы.",
-      "english": "Very good."
-    },
-    {
-      "id": 53,
-      "french": "Өте жаман.",
-      "english": "Very bad."
-    },
-    {
-      "id": 54,
+      "id": 28,
       "french": "Білмеймін.",
       "english": "I do not know."
     },
     {
-      "id": 55,
+      "id": 29,
       "french": "Мәселе жоқ.",
       "english": "No problem."
     },
     {
-      "id": 56,
-      "french": "Аздап.",
-      "english": "A little."
-    },
-    {
-      "id": 57,
+      "id": 30,
       "french": "Дәл қазір.",
       "english": "Right now."
     },
     {
-      "id": 58,
-      "french": "Кейінірек.",
-      "english": "Later."
-    },
-    {
-      "id": 59,
-      "french": "Бір минут.",
-      "english": "One minute."
-    },
-    {
-      "id": 60,
+      "id": 31,
       "french": "Асықпаңыз.",
       "english": "Do not hurry."
     },
     {
-      "id": 61,
+      "id": 32,
       "french": "Рақмет сізге.",
       "english": "Thank you to you."
     },
     {
-      "id": 62,
-      "french": "Отбасы.",
-      "english": "Family."
-    },
-    {
-      "id": 63,
-      "french": "Ата-ана.",
-      "english": "Parents."
-    },
-    {
-      "id": 64,
-      "french": "Ана.",
-      "english": "Mother."
-    },
-    {
-      "id": 65,
-      "french": "Әке.",
-      "english": "Father."
-    },
-    {
-      "id": 66,
-      "french": "Ата.",
-      "english": "Grandfather."
-    },
-    {
-      "id": 67,
-      "french": "Әже.",
-      "english": "Grandmother."
-    },
-    {
-      "id": 68,
-      "french": "Аға.",
-      "english": "Older brother."
-    },
-    {
-      "id": 69,
-      "french": "Әпке.",
-      "english": "Older sister."
-    },
-    {
-      "id": 70,
-      "french": "Іні.",
-      "english": "Younger brother."
-    },
-    {
-      "id": 71,
-      "french": "Қарындас.",
-      "english": "Younger sister (for male speaker)."
-    },
-    {
-      "id": 72,
-      "french": "Сіңлі.",
-      "english": "Younger sister (for female speaker)."
-    },
-    {
-      "id": 73,
-      "french": "Ұл.",
-      "english": "Son."
-    },
-    {
-      "id": 74,
-      "french": "Қыз.",
-      "english": "Daughter."
-    },
-    {
-      "id": 75,
+      "id": 33,
       "french": "Бала.",
       "english": "Child."
     },
     {
-      "id": 76,
-      "french": "Нәресте.",
-      "english": "Baby."
-    },
-    {
-      "id": 77,
+      "id": 34,
       "french": "Немере.",
       "english": "Grandchild."
     },
     {
+      "id": 35,
+      "french": "Аспаз.",
+      "english": "Cook."
+    },
+    {
+      "id": 36,
+      "french": "Он үш.",
+      "english": "Thirteen."
+    },
+    {
+      "id": 37,
+      "french": "Отыз.",
+      "english": "Thirty."
+    },
+    {
+      "id": 38,
+      "french": "Отыз бір.",
+      "english": "Thirty one."
+    },
+    {
+      "id": 39,
+      "french": "Отыз екі.",
+      "english": "Thirty two."
+    },
+    {
+      "id": 40,
+      "french": "Отыз үш.",
+      "english": "Thirty three."
+    },
+    {
+      "id": 41,
+      "french": "Отыз төрт.",
+      "english": "Thirty four."
+    },
+    {
+      "id": 42,
+      "french": "Отыз бес.",
+      "english": "Thirty five."
+    },
+    {
+      "id": 43,
+      "french": "Отыз алты.",
+      "english": "Thirty six."
+    },
+    {
+      "id": 44,
+      "french": "Отыз жеті.",
+      "english": "Thirty seven."
+    },
+    {
+      "id": 45,
+      "french": "Отыз сегіз.",
+      "english": "Thirty eight."
+    },
+    {
+      "id": 46,
+      "french": "Отыз тоғыз.",
+      "english": "Thirty nine."
+    },
+    {
+      "id": 47,
+      "french": "Үшінші.",
+      "english": "Third."
+    },
+    {
+      "id": 48,
+      "french": "Тауық еті.",
+      "english": "Chicken meat."
+    },
+    {
+      "id": 49,
+      "french": "Кеспе.",
+      "english": "Noodles."
+    },
+    {
+      "id": 50,
+      "french": "Шөлдедім.",
+      "english": "I am thirsty."
+    },
+    {
+      "id": 51,
+      "french": "Шот әкеліңізші.",
+      "english": "Please bring the bill."
+    },
+    {
+      "id": 52,
+      "french": "Көлік.",
+      "english": "Transport / vehicle."
+    },
+    {
+      "id": 53,
+      "french": "Алыс емес.",
+      "english": "Not far."
+    },
+    {
+      "id": 54,
+      "french": "Осы жерге апарыңыз.",
+      "english": "Take me to this place."
+    },
+    {
+      "id": 55,
+      "french": "Білім.",
+      "english": "Knowledge."
+    },
+    {
+      "id": 56,
+      "french": "Мұрын.",
+      "english": "Nose."
+    },
+    {
+      "id": 57,
+      "french": "Сан.",
+      "english": "Thigh."
+    },
+    {
+      "id": 58,
+      "french": "Кеше.",
+      "english": "Yesterday."
+    },
+    {
+      "id": 59,
+      "french": "Түсте.",
+      "english": "At noon."
+    },
+    {
+      "id": 60,
+      "french": "Қазір.",
+      "english": "Now."
+    },
+    {
+      "id": 61,
+      "french": "Қараша.",
+      "english": "November."
+    },
+    {
+      "id": 62,
+      "french": "Білу.",
+      "english": "To know."
+    },
+    {
+      "id": 63,
+      "french": "Ойлау.",
+      "english": "To think."
+    },
+    {
+      "id": 64,
+      "french": "Пісіру.",
+      "english": "To cook."
+    },
+    {
+      "id": 65,
+      "french": "Биік.",
+      "english": "High / tall."
+    },
+    {
+      "id": 66,
+      "french": "Ескі.",
+      "english": "Old (thing)."
+    },
+    {
+      "id": 67,
+      "french": "Белгілі.",
+      "english": "Famous / known."
+    },
+    {
+      "id": 68,
+      "french": "Лас емес.",
+      "english": "Not dirty."
+    },
+    {
+      "id": 69,
+      "french": "Тегін.",
+      "english": "Free (no cost)."
+    },
+    {
+      "id": 70,
+      "french": "Көріскенше.",
+      "english": "See you."
+    },
+    {
+      "id": 71,
+      "french": "Кездескенше.",
+      "english": "See you later."
+    },
+    {
+      "id": 72,
+      "french": "Түсінемін.",
+      "english": "I understand."
+    },
+    {
+      "id": 73,
+      "french": "Қазақша сөйлейсіз бе.",
+      "english": "Do you speak Kazakh."
+    },
+    {
+      "id": 74,
+      "french": "Орысша сөйлейсіз бе.",
+      "english": "Do you speak Russian."
+    },
+    {
+      "id": 75,
+      "french": "Ағылшынша сөйлейсіз бе.",
+      "english": "Do you speak English."
+    },
+    {
+      "id": 76,
+      "french": "Менің атым.",
+      "english": "My name is."
+    },
+    {
+      "id": 77,
+      "french": "Қалыңыз қалай.",
+      "english": "How are you."
+    },
+    {
       "id": 78,
-      "french": "Күйеу.",
-      "english": "Husband."
+      "french": "Жақсымын.",
+      "english": "I am fine."
     },
     {
       "id": 79,
-      "french": "Әйел.",
-      "english": "Wife."
+      "french": "Танысқаныма қуаныштымын.",
+      "english": "Nice to meet you."
     },
     {
       "id": 80,
-      "french": "Жұбай.",
-      "english": "Spouse."
+      "french": "Қайдан келдіңіз.",
+      "english": "Where are you from."
     },
     {
       "id": 81,
@@ -454,6 +454,31 @@
       "id": 90,
       "french": "Бұл өте дәмді!",
       "english": "This is very tasty!"
+    },
+    {
+      "id": 91,
+      "french": "Қазақстан — менің Отаным.",
+      "english": "Kazakhstan is my homeland."
+    },
+    {
+      "id": 92,
+      "french": "Маған кофе ұнайды.",
+      "english": "I like coffee."
+    },
+    {
+      "id": 93,
+      "french": "Ол мектепте оқиды.",
+      "english": "He/she studies at school."
+    },
+    {
+      "id": 94,
+      "french": "Біз серуенге шықтық.",
+      "english": "We went for a walk."
+    },
+    {
+      "id": 95,
+      "french": "Қанша сағат болды?",
+      "english": "What time is it?"
     }
   ]
 }

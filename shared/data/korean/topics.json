@@ -1,0 +1,1249 @@
+{
+  "topics": [
+    {
+      "id": "greetings",
+      "label": "Greetings",
+      "emoji": "👋",
+      "level": "A1",
+      "unit": 1,
+      "order": 1,
+      "frenchLabel": "Greetings",
+      "accent": "topic-greetings",
+      "description": "Korean vocabulary — greetings.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Korean words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "안녕",
+          "english": "hello (informal)"
+        },
+        {
+          "id": 2,
+          "french": "안녕하세요",
+          "english": "hello (formal)"
+        },
+        {
+          "id": 3,
+          "french": "안녕하십니까",
+          "english": "hello (very formal)"
+        },
+        {
+          "id": 4,
+          "french": "좋은 아침이에요",
+          "english": "good morning"
+        },
+        {
+          "id": 5,
+          "french": "좋은 오후예요",
+          "english": "good afternoon"
+        },
+        {
+          "id": 6,
+          "french": "좋은 저녁이에요",
+          "english": "good evening"
+        },
+        {
+          "id": 7,
+          "french": "안녕히 가세요",
+          "english": "goodbye (to person leaving)"
+        },
+        {
+          "id": 8,
+          "french": "안녕히 계세요",
+          "english": "goodbye (to person staying)"
+        },
+        {
+          "id": 9,
+          "french": "오랜만이에요",
+          "english": "long time no see"
+        },
+        {
+          "id": 10,
+          "french": "감사합니다",
+          "english": "thank you"
+        },
+        {
+          "id": 11,
+          "french": "고마워요",
+          "english": "thanks"
+        },
+        {
+          "id": 12,
+          "french": "정말 감사합니다",
+          "english": "thank you very much"
+        },
+        {
+          "id": 13,
+          "french": "죄송합니다",
+          "english": "I am sorry"
+        },
+        {
+          "id": 14,
+          "french": "미안해요",
+          "english": "sorry"
+        },
+        {
+          "id": 15,
+          "french": "네",
+          "english": "yes"
+        },
+        {
+          "id": 16,
+          "french": "아니요",
+          "english": "no"
+        },
+        {
+          "id": 17,
+          "french": "아니에요",
+          "english": "that is not right"
+        },
+        {
+          "id": 18,
+          "french": "모르겠어요",
+          "english": "I do not know"
+        }
+      ]
+    },
+    {
+      "id": "family",
+      "label": "Family",
+      "emoji": "👨‍👩‍👧",
+      "level": "A1",
+      "unit": 1,
+      "order": 2,
+      "frenchLabel": "Family",
+      "accent": "topic-family",
+      "description": "Korean vocabulary — family.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Korean words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "아이",
+          "english": "child"
+        },
+        {
+          "id": 2,
+          "french": "어린이",
+          "english": "young child"
+        },
+        {
+          "id": 3,
+          "french": "가족",
+          "english": "family"
+        },
+        {
+          "id": 4,
+          "french": "어머니",
+          "english": "mother"
+        },
+        {
+          "id": 5,
+          "french": "아버지",
+          "english": "father"
+        },
+        {
+          "id": 6,
+          "french": "할머니",
+          "english": "grandmother"
+        },
+        {
+          "id": 7,
+          "french": "할아버지",
+          "english": "grandfather"
+        },
+        {
+          "id": 8,
+          "french": "누나",
+          "english": "older sister (for male)"
+        },
+        {
+          "id": 9,
+          "french": "언니",
+          "english": "older sister (for female)"
+        },
+        {
+          "id": 10,
+          "french": "오빠",
+          "english": "older brother (for female)"
+        },
+        {
+          "id": 11,
+          "french": "형",
+          "english": "older brother (for male)"
+        },
+        {
+          "id": 12,
+          "french": "남동생",
+          "english": "younger brother"
+        },
+        {
+          "id": 13,
+          "french": "여동생",
+          "english": "younger sister"
+        },
+        {
+          "id": 14,
+          "french": "형제",
+          "english": "siblings (brothers)"
+        },
+        {
+          "id": 15,
+          "french": "자매",
+          "english": "sisters"
+        },
+        {
+          "id": 16,
+          "french": "남매",
+          "english": "brother and sister"
+        },
+        {
+          "id": 17,
+          "french": "남편",
+          "english": "husband"
+        },
+        {
+          "id": 18,
+          "french": "아내",
+          "english": "wife"
+        }
+      ]
+    },
+    {
+      "id": "numbers",
+      "label": "Numbers",
+      "emoji": "🔢",
+      "level": "A1",
+      "unit": 1,
+      "order": 3,
+      "frenchLabel": "Numbers",
+      "accent": "topic-numbers",
+      "description": "Korean vocabulary — numbers.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Korean words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "여보세요",
+          "english": "hello (on the phone)"
+        },
+        {
+          "id": 2,
+          "french": "저기요",
+          "english": "excuse me (to get attention)"
+        },
+        {
+          "id": 3,
+          "french": "일",
+          "english": "one (Sino Korean)"
+        },
+        {
+          "id": 4,
+          "french": "이",
+          "english": "two (Sino Korean)"
+        },
+        {
+          "id": 5,
+          "french": "삼",
+          "english": "three (Sino Korean)"
+        },
+        {
+          "id": 6,
+          "french": "십",
+          "english": "ten (Sino Korean)"
+        },
+        {
+          "id": 7,
+          "french": "잘했어요",
+          "english": "well done"
+        },
+        {
+          "id": 8,
+          "french": "영",
+          "english": "zero"
+        },
+        {
+          "id": 9,
+          "french": "백",
+          "english": "hundred"
+        },
+        {
+          "id": 10,
+          "french": "만",
+          "english": "ten thousand"
+        },
+        {
+          "id": 11,
+          "french": "억",
+          "english": "hundred million"
+        },
+        {
+          "id": 12,
+          "french": "하나",
+          "english": "one (native Korean)"
+        },
+        {
+          "id": 13,
+          "french": "둘",
+          "english": "two (native Korean)"
+        },
+        {
+          "id": 14,
+          "french": "셋",
+          "english": "three (native Korean)"
+        },
+        {
+          "id": 15,
+          "french": "열",
+          "english": "ten (native Korean)"
+        },
+        {
+          "id": 16,
+          "french": "첫째",
+          "english": "first"
+        },
+        {
+          "id": 17,
+          "french": "설렁탕",
+          "english": "ox bone soup"
+        },
+        {
+          "id": 18,
+          "french": "전화",
+          "english": "phone call"
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "label": "Food & drink",
+      "emoji": "🍽️",
+      "level": "A2",
+      "unit": 2,
+      "order": 4,
+      "frenchLabel": "Food & drink",
+      "accent": "topic-food",
+      "description": "Korean vocabulary — food & drink.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Korean words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "잘 부탁해요",
+          "english": "please treat me well"
+        },
+        {
+          "id": 2,
+          "french": "짬뽕",
+          "english": "spicy seafood noodles"
+        },
+        {
+          "id": 3,
+          "french": "갈비",
+          "english": "rib meat"
+        },
+        {
+          "id": 4,
+          "french": "고기",
+          "english": "meat"
+        },
+        {
+          "id": 5,
+          "french": "빵",
+          "english": "bread"
+        },
+        {
+          "id": 6,
+          "french": "음료수",
+          "english": "soft drink"
+        },
+        {
+          "id": 7,
+          "french": "진료",
+          "english": "medical treatment"
+        },
+        {
+          "id": 8,
+          "french": "먹다",
+          "english": "to eat"
+        },
+        {
+          "id": 9,
+          "french": "마시다",
+          "english": "to drink"
+        },
+        {
+          "id": 10,
+          "french": "난방",
+          "english": "heating"
+        },
+        {
+          "id": 11,
+          "french": "날씨",
+          "english": "weather"
+        },
+        {
+          "id": 12,
+          "french": "맑음",
+          "english": "clear weather"
+        },
+        {
+          "id": 13,
+          "french": "흐림",
+          "english": "cloudy weather"
+        },
+        {
+          "id": 14,
+          "french": "폭염",
+          "english": "heat wave"
+        },
+        {
+          "id": 15,
+          "french": "선생님",
+          "english": "teacher"
+        },
+        {
+          "id": 16,
+          "french": "사과",
+          "english": "apple"
+        },
+        {
+          "id": 17,
+          "french": "수박",
+          "english": "watermelon"
+        },
+        {
+          "id": 18,
+          "french": "물",
+          "english": "water"
+        }
+      ]
+    },
+    {
+      "id": "home",
+      "label": "Home",
+      "emoji": "🏠",
+      "level": "A2",
+      "unit": 2,
+      "order": 5,
+      "frenchLabel": "Home",
+      "accent": "topic-home",
+      "description": "Korean vocabulary — home.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Korean words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "노래방",
+          "english": "karaoke room"
+        },
+        {
+          "id": 2,
+          "french": "채",
+          "english": "house counter"
+        },
+        {
+          "id": 3,
+          "french": "숙제",
+          "english": "homework"
+        },
+        {
+          "id": 4,
+          "french": "간",
+          "english": "liver"
+        },
+        {
+          "id": 5,
+          "french": "배달",
+          "english": "delivery"
+        },
+        {
+          "id": 6,
+          "french": "집",
+          "english": "house"
+        },
+        {
+          "id": 7,
+          "french": "버섯",
+          "english": "mushroom"
+        },
+        {
+          "id": 8,
+          "french": "객실",
+          "english": "guest room"
+        },
+        {
+          "id": 9,
+          "french": "교실",
+          "english": "classroom"
+        },
+        {
+          "id": 10,
+          "french": "방",
+          "english": "room"
+        },
+        {
+          "id": 11,
+          "french": "거실",
+          "english": "living room"
+        },
+        {
+          "id": 12,
+          "french": "부엌",
+          "english": "kitchen"
+        },
+        {
+          "id": 13,
+          "french": "욕실",
+          "english": "bathroom"
+        },
+        {
+          "id": 14,
+          "french": "침대",
+          "english": "bed"
+        },
+        {
+          "id": 15,
+          "french": "문",
+          "english": "door"
+        },
+        {
+          "id": 16,
+          "french": "창문",
+          "english": "window"
+        }
+      ]
+    },
+    {
+      "id": "time",
+      "label": "Time & calendar",
+      "emoji": "🕐",
+      "level": "A2",
+      "unit": 2,
+      "order": 6,
+      "frenchLabel": "Time & calendar",
+      "accent": "topic-time",
+      "description": "Korean vocabulary — time & calendar.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Korean words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "어제",
+          "english": "yesterday"
+        },
+        {
+          "id": 2,
+          "french": "내일 봐요",
+          "english": "see you tomorrow"
+        },
+        {
+          "id": 3,
+          "french": "초",
+          "english": "second (time)"
+        },
+        {
+          "id": 4,
+          "french": "즐거운 하루 보내세요",
+          "english": "have a nice day"
+        },
+        {
+          "id": 5,
+          "french": "좋은 주말 보내세요",
+          "english": "have a nice weekend"
+        },
+        {
+          "id": 6,
+          "french": "생일 축하해요",
+          "english": "happy birthday"
+        },
+        {
+          "id": 7,
+          "french": "새해 복 많이 받으세요",
+          "english": "happy new year"
+        },
+        {
+          "id": 8,
+          "french": "시",
+          "english": "hour (clock)"
+        },
+        {
+          "id": 9,
+          "french": "번",
+          "english": "number of times"
+        },
+        {
+          "id": 10,
+          "french": "시간",
+          "english": "time"
+        },
+        {
+          "id": 11,
+          "french": "요일",
+          "english": "day of week"
+        },
+        {
+          "id": 12,
+          "french": "오늘",
+          "english": "today"
+        },
+        {
+          "id": 13,
+          "french": "내일",
+          "english": "tomorrow"
+        },
+        {
+          "id": 14,
+          "french": "모레",
+          "english": "day after tomorrow"
+        },
+        {
+          "id": 15,
+          "french": "주",
+          "english": "week"
+        },
+        {
+          "id": 16,
+          "french": "주말",
+          "english": "weekend"
+        },
+        {
+          "id": 17,
+          "french": "월요일",
+          "english": "monday"
+        },
+        {
+          "id": 18,
+          "french": "화요일",
+          "english": "tuesday"
+        }
+      ]
+    },
+    {
+      "id": "body",
+      "label": "Body & health",
+      "emoji": "🩺",
+      "level": "A2",
+      "unit": 3,
+      "order": 7,
+      "frenchLabel": "Body & health",
+      "accent": "topic-body",
+      "description": "Korean vocabulary — body & health.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Korean words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "헤드폰",
+          "english": "headphones"
+        },
+        {
+          "id": 2,
+          "french": "아프다",
+          "english": "to be sick"
+        },
+        {
+          "id": 3,
+          "french": "잘생기다",
+          "english": "to be handsome"
+        },
+        {
+          "id": 4,
+          "french": "의사",
+          "english": "doctor"
+        },
+        {
+          "id": 5,
+          "french": "화가",
+          "english": "painter"
+        },
+        {
+          "id": 6,
+          "french": "머리",
+          "english": "head"
+        },
+        {
+          "id": 7,
+          "french": "눈",
+          "english": "eye"
+        },
+        {
+          "id": 8,
+          "french": "손",
+          "english": "hand"
+        },
+        {
+          "id": 9,
+          "french": "심장",
+          "english": "heart"
+        },
+        {
+          "id": 10,
+          "french": "두통",
+          "english": "headache"
+        },
+        {
+          "id": 11,
+          "french": "병원",
+          "english": "hospital"
+        },
+        {
+          "id": 12,
+          "french": "건강",
+          "english": "health"
+        },
+        {
+          "id": 13,
+          "french": "통증",
+          "english": "pain"
+        },
+        {
+          "id": 14,
+          "french": "잘 자요",
+          "english": "good night"
+        },
+        {
+          "id": 15,
+          "french": "천만에요",
+          "english": "you are welcome"
+        }
+      ]
+    },
+    {
+      "id": "travel",
+      "label": "Travel",
+      "emoji": "✈️",
+      "level": "A2",
+      "unit": 3,
+      "order": 8,
+      "frenchLabel": "Travel",
+      "accent": "topic-travel",
+      "description": "Korean vocabulary — travel.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Korean words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "바쁘다",
+          "english": "to be busy"
+        },
+        {
+          "id": 2,
+          "french": "여행",
+          "english": "travel"
+        },
+        {
+          "id": 3,
+          "french": "공항",
+          "english": "airport"
+        },
+        {
+          "id": 4,
+          "french": "호텔",
+          "english": "hotel"
+        },
+        {
+          "id": 5,
+          "french": "지도",
+          "english": "map"
+        },
+        {
+          "id": 6,
+          "french": "길",
+          "english": "road; way"
+        },
+        {
+          "id": 7,
+          "french": "기차",
+          "english": "train"
+        },
+        {
+          "id": 8,
+          "french": "버스",
+          "english": "bus"
+        },
+        {
+          "id": 9,
+          "french": "정류장",
+          "english": "stop (bus stop)"
+        },
+        {
+          "id": 10,
+          "french": "도시",
+          "english": "city"
+        },
+        {
+          "id": 11,
+          "french": "여행하다",
+          "english": "to travel"
+        },
+        {
+          "id": 12,
+          "french": "연습생",
+          "english": "trainee idol"
+        },
+        {
+          "id": 13,
+          "french": "실례합니다",
+          "english": "excuse me"
+        },
+        {
+          "id": 14,
+          "french": "괜찮아요",
+          "english": "it is okay"
+        },
+        {
+          "id": 15,
+          "french": "이해 못했어요",
+          "english": "I did not understand"
+        }
+      ]
+    },
+    {
+      "id": "work",
+      "label": "Work & study",
+      "emoji": "💼",
+      "level": "B1",
+      "unit": 4,
+      "order": 9,
+      "frenchLabel": "Work & study",
+      "accent": "topic-work",
+      "description": "Korean vocabulary — work & study.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Korean words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "저는 학생입니다",
+          "english": "I am a student (formal)"
+        },
+        {
+          "id": 2,
+          "french": "수고하세요",
+          "english": "take care at work"
+        },
+        {
+          "id": 3,
+          "french": "동료",
+          "english": "coworker"
+        },
+        {
+          "id": 4,
+          "french": "업무",
+          "english": "work task"
+        },
+        {
+          "id": 5,
+          "french": "출근",
+          "english": "go to work"
+        },
+        {
+          "id": 6,
+          "french": "퇴근",
+          "english": "leave work"
+        },
+        {
+          "id": 7,
+          "french": "공부",
+          "english": "study"
+        },
+        {
+          "id": 8,
+          "french": "공부하다",
+          "english": "to study"
+        },
+        {
+          "id": 9,
+          "french": "일하다",
+          "english": "to work"
+        },
+        {
+          "id": 10,
+          "french": "수고했어요",
+          "english": "good job"
+        },
+        {
+          "id": 11,
+          "french": "사장",
+          "english": "company president"
+        },
+        {
+          "id": 12,
+          "french": "학생",
+          "english": "student"
+        },
+        {
+          "id": 13,
+          "french": "경찰",
+          "english": "police officer"
+        },
+        {
+          "id": 14,
+          "french": "일자리",
+          "english": "job"
+        },
+        {
+          "id": 15,
+          "french": "회사",
+          "english": "company"
+        },
+        {
+          "id": 16,
+          "french": "사무실",
+          "english": "office"
+        },
+        {
+          "id": 17,
+          "french": "학교",
+          "english": "school"
+        }
+      ]
+    },
+    {
+      "id": "city",
+      "label": "City life",
+      "emoji": "🏙️",
+      "level": "B1",
+      "unit": 4,
+      "order": 10,
+      "frenchLabel": "City life",
+      "accent": "topic-city",
+      "description": "Korean vocabulary — city life.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Korean words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "지폐",
+          "english": "banknote"
+        },
+        {
+          "id": 2,
+          "french": "층",
+          "english": "floor (building)"
+        },
+        {
+          "id": 3,
+          "french": "쇼핑",
+          "english": "shopping"
+        },
+        {
+          "id": 4,
+          "french": "가게",
+          "english": "shop"
+        },
+        {
+          "id": 5,
+          "french": "시장",
+          "english": "market"
+        },
+        {
+          "id": 6,
+          "french": "주차하다",
+          "english": "to park"
+        },
+        {
+          "id": 7,
+          "french": "공원",
+          "english": "park"
+        },
+        {
+          "id": 8,
+          "french": "다시 말씀해 주세요",
+          "english": "please say it again"
+        },
+        {
+          "id": 9,
+          "french": "천천히 말씀해 주세요",
+          "english": "please speak slowly"
+        },
+        {
+          "id": 10,
+          "french": "도와주세요",
+          "english": "please help me"
+        },
+        {
+          "id": 11,
+          "french": "잘 부탁드립니다",
+          "english": "please take care of me"
+        },
+        {
+          "id": 12,
+          "french": "부탁해요",
+          "english": "please (request)"
+        },
+        {
+          "id": 13,
+          "french": "기다려 주세요",
+          "english": "please wait"
+        },
+        {
+          "id": 14,
+          "french": "아직",
+          "english": "not yet"
+        },
+        {
+          "id": 15,
+          "french": "별로예요",
+          "english": "not really"
+        }
+      ]
+    },
+    {
+      "id": "feelings",
+      "label": "Feelings",
+      "emoji": "💭",
+      "level": "B1",
+      "unit": 5,
+      "order": 11,
+      "frenchLabel": "Feelings",
+      "accent": "topic-feelings",
+      "description": "Korean vocabulary — feelings.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Korean words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "사랑하다",
+          "english": "to love"
+        },
+        {
+          "id": 2,
+          "french": "좋다",
+          "english": "to be good"
+        },
+        {
+          "id": 3,
+          "french": "나쁘다",
+          "english": "to be bad"
+        },
+        {
+          "id": 4,
+          "french": "행복하다",
+          "english": "to be happy"
+        },
+        {
+          "id": 5,
+          "french": "슬프다",
+          "english": "to be sad"
+        },
+        {
+          "id": 6,
+          "french": "화나다",
+          "english": "to be angry"
+        },
+        {
+          "id": 7,
+          "french": "피곤하다",
+          "english": "to be tired"
+        },
+        {
+          "id": 8,
+          "french": "상관없어요",
+          "english": "it does not matter"
+        },
+        {
+          "id": 9,
+          "french": "문제없어요",
+          "english": "no problem"
+        },
+        {
+          "id": 10,
+          "french": "반갑습니다",
+          "english": "pleased to meet you"
+        },
+        {
+          "id": 11,
+          "french": "여기요",
+          "english": "excuse me (to call staff)"
+        },
+        {
+          "id": 12,
+          "french": "확인해 주세요",
+          "english": "please check"
+        },
+        {
+          "id": 13,
+          "french": "요리사",
+          "english": "cook"
+        },
+        {
+          "id": 14,
+          "french": "사",
+          "english": "four (Sino Korean)"
+        },
+        {
+          "id": 15,
+          "french": "오",
+          "english": "five (Sino Korean)"
+        }
+      ]
+    },
+    {
+      "id": "verbs",
+      "label": "Essential verbs",
+      "emoji": "⚡",
+      "level": "B1",
+      "unit": 5,
+      "order": 12,
+      "frenchLabel": "Essential verbs",
+      "accent": "topic-verbs",
+      "description": "Korean vocabulary — essential verbs.",
+      "theory": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Learn these Korean words in context. Tap 🔊 to hear pronunciation."
+        }
+      ],
+      "words": [
+        {
+          "id": 1,
+          "french": "우동",
+          "english": "udon noodles"
+        },
+        {
+          "id": 2,
+          "french": "또 봐요",
+          "english": "see you"
+        },
+        {
+          "id": 3,
+          "french": "화이팅",
+          "english": "you can do it"
+        },
+        {
+          "id": 4,
+          "french": "실수했어요",
+          "english": "I made a mistake"
+        },
+        {
+          "id": 5,
+          "french": "관광",
+          "english": "sightseeing"
+        },
+        {
+          "id": 6,
+          "french": "직진",
+          "english": "go straight"
+        },
+        {
+          "id": 7,
+          "french": "하다",
+          "english": "to do"
+        },
+        {
+          "id": 8,
+          "french": "가다",
+          "english": "to go"
+        },
+        {
+          "id": 9,
+          "french": "오다",
+          "english": "to come"
+        },
+        {
+          "id": 10,
+          "french": "보다",
+          "english": "to see"
+        },
+        {
+          "id": 11,
+          "french": "벗다",
+          "english": "to take off clothes"
+        },
+        {
+          "id": 12,
+          "french": "만들다",
+          "english": "to make"
+        },
+        {
+          "id": 13,
+          "french": "세탁하다",
+          "english": "to do laundry"
+        },
+        {
+          "id": 14,
+          "french": "컴백",
+          "english": "comeback release"
+        },
+        {
+          "id": 15,
+          "french": "해장국",
+          "english": "hangover soup"
+        },
+        {
+          "id": 16,
+          "french": "아이돌",
+          "english": "idol performer"
+        },
+        {
+          "id": 17,
+          "french": "팬덤",
+          "english": "fandom"
+        },
+        {
+          "id": 18,
+          "french": "불고기",
+          "english": "bulgogi"
+        }
+      ]
+    }
+  ]
+}

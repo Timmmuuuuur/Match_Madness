@@ -130,63 +130,63 @@
       "words": [
         {
           "id": 1,
+          "french": "ребенок",
+          "english": "child"
+        },
+        {
+          "id": 2,
           "french": "семья",
           "english": "family"
         },
         {
-          "id": 2,
+          "id": 3,
           "french": "мать",
           "english": "mother"
         },
         {
-          "id": 3,
+          "id": 4,
           "french": "отец",
           "english": "father"
         },
         {
-          "id": 4,
+          "id": 5,
           "french": "дедушка",
           "english": "grandfather"
         },
         {
-          "id": 5,
+          "id": 6,
           "french": "бабушка",
           "english": "grandmother"
         },
         {
-          "id": 6,
+          "id": 7,
           "french": "брат",
           "english": "brother"
         },
         {
-          "id": 7,
+          "id": 8,
           "french": "сестра",
           "english": "sister"
         },
         {
-          "id": 8,
+          "id": 9,
           "french": "старший брат",
           "english": "older brother"
         },
         {
-          "id": 9,
+          "id": 10,
           "french": "младший брат",
           "english": "younger brother"
         },
         {
-          "id": 10,
+          "id": 11,
           "french": "старшая сестра",
           "english": "older sister"
         },
         {
-          "id": 11,
+          "id": 12,
           "french": "младшая сестра",
           "english": "younger sister"
-        },
-        {
-          "id": 12,
-          "french": "ребенок",
-          "english": "child"
         },
         {
           "id": 13,
@@ -230,63 +230,63 @@
       "words": [
         {
           "id": 1,
-          "french": "я слушаю",
-          "english": "I am listening"
-        },
-        {
-          "id": 2,
-          "french": "ноль",
-          "english": "zero"
-        },
-        {
-          "id": 3,
-          "french": "один",
-          "english": "one"
-        },
-        {
-          "id": 4,
-          "french": "два",
-          "english": "two"
-        },
-        {
-          "id": 5,
-          "french": "три",
-          "english": "three"
-        },
-        {
-          "id": 6,
-          "french": "десять",
-          "english": "ten"
-        },
-        {
-          "id": 7,
-          "french": "двадцать один",
-          "english": "twenty one"
-        },
-        {
-          "id": 8,
-          "french": "двадцать два",
-          "english": "twenty two"
-        },
-        {
-          "id": 9,
-          "french": "двадцать три",
-          "english": "twenty three"
-        },
-        {
-          "id": 10,
           "french": "тридцать один",
           "english": "thirty one"
         },
         {
-          "id": 11,
+          "id": 2,
           "french": "тридцать два",
           "english": "thirty two"
         },
         {
-          "id": 12,
+          "id": 3,
           "french": "тридцать три",
           "english": "thirty three"
+        },
+        {
+          "id": 4,
+          "french": "я слушаю",
+          "english": "I am listening"
+        },
+        {
+          "id": 5,
+          "french": "ноль",
+          "english": "zero"
+        },
+        {
+          "id": 6,
+          "french": "один",
+          "english": "one"
+        },
+        {
+          "id": 7,
+          "french": "два",
+          "english": "two"
+        },
+        {
+          "id": 8,
+          "french": "три",
+          "english": "three"
+        },
+        {
+          "id": 9,
+          "french": "десять",
+          "english": "ten"
+        },
+        {
+          "id": 10,
+          "french": "двадцать один",
+          "english": "twenty one"
+        },
+        {
+          "id": 11,
+          "french": "двадцать два",
+          "english": "twenty two"
+        },
+        {
+          "id": 12,
+          "french": "двадцать три",
+          "english": "twenty three"
         },
         {
           "id": 13,
@@ -340,78 +340,78 @@
       "words": [
         {
           "id": 1,
-          "french": "учитель",
-          "english": "teacher (male)"
-        },
-        {
-          "id": 2,
-          "french": "учительница",
-          "english": "teacher (female)"
-        },
-        {
-          "id": 3,
-          "french": "команда",
-          "english": "team"
-        },
-        {
-          "id": 4,
-          "french": "еда",
-          "english": "food"
-        },
-        {
-          "id": 5,
           "french": "хлеб",
           "english": "bread"
         },
         {
-          "id": 6,
-          "french": "вода",
-          "english": "water"
-        },
-        {
-          "id": 7,
-          "french": "чай",
-          "english": "tea"
-        },
-        {
-          "id": 8,
-          "french": "кофе",
-          "english": "coffee"
-        },
-        {
-          "id": 9,
+          "id": 2,
           "french": "мясо",
           "english": "meat"
         },
         {
-          "id": 10,
-          "french": "яблоко",
-          "english": "apple"
-        },
-        {
-          "id": 11,
-          "french": "арбуз",
-          "english": "watermelon"
-        },
-        {
-          "id": 12,
+          "id": 3,
           "french": "учить",
           "english": "to teach / learn"
         },
         {
-          "id": 13,
+          "id": 4,
           "french": "есть",
           "english": "to eat"
         },
         {
-          "id": 14,
+          "id": 5,
           "french": "пить",
           "english": "to drink"
         },
         {
-          "id": 15,
+          "id": 6,
           "french": "аккуратный",
           "english": "neat"
+        },
+        {
+          "id": 7,
+          "french": "учитель",
+          "english": "teacher (male)"
+        },
+        {
+          "id": 8,
+          "french": "учительница",
+          "english": "teacher (female)"
+        },
+        {
+          "id": 9,
+          "french": "команда",
+          "english": "team"
+        },
+        {
+          "id": 10,
+          "french": "еда",
+          "english": "food"
+        },
+        {
+          "id": 11,
+          "french": "вода",
+          "english": "water"
+        },
+        {
+          "id": 12,
+          "french": "чай",
+          "english": "tea"
+        },
+        {
+          "id": 13,
+          "french": "кофе",
+          "english": "coffee"
+        },
+        {
+          "id": 14,
+          "french": "яблоко",
+          "english": "apple"
+        },
+        {
+          "id": 15,
+          "french": "арбуз",
+          "english": "watermelon"
         }
       ]
     },
@@ -435,18 +435,18 @@
       "words": [
         {
           "id": 1,
-          "french": "номер",
-          "english": "hotel room"
-        },
-        {
-          "id": 2,
           "french": "домашнее задание",
           "english": "homework"
         },
         {
-          "id": 3,
+          "id": 2,
           "french": "печень",
           "english": "liver"
+        },
+        {
+          "id": 3,
+          "french": "номер",
+          "english": "hotel room"
         },
         {
           "id": 4,
@@ -460,53 +460,53 @@
         },
         {
           "id": 6,
-          "french": "увидимся",
-          "english": "see you"
-        },
-        {
-          "id": 7,
-          "french": "до встречи",
-          "english": "see you later"
-        },
-        {
-          "id": 8,
           "french": "извините",
           "english": "excuse me"
         },
         {
-          "id": 9,
-          "french": "может быть",
-          "english": "maybe"
-        },
-        {
-          "id": 10,
-          "french": "конечно",
-          "english": "of course"
-        },
-        {
-          "id": 11,
+          "id": 7,
           "french": "хорошо",
           "english": "okay / good"
         },
         {
+          "id": 8,
+          "french": "все хорошо",
+          "english": "everything is fine"
+        },
+        {
+          "id": 9,
+          "french": "не важно",
+          "english": "it does not matter"
+        },
+        {
+          "id": 10,
+          "french": "не спешите",
+          "english": "do not hurry"
+        },
+        {
+          "id": 11,
+          "french": "ответьте, пожалуйста",
+          "english": "please answer"
+        },
+        {
           "id": 12,
-          "french": "я понимаю",
-          "english": "I understand"
+          "french": "сейчас",
+          "english": "right now"
         },
         {
           "id": 13,
-          "french": "говорите медленнее",
-          "english": "speak more slowly"
+          "french": "еще нет",
+          "english": "not yet"
         },
         {
           "id": 14,
-          "french": "вы говорите по-русски",
-          "english": "do you speak Russian"
+          "french": "повар",
+          "english": "cook"
         },
         {
           "id": 15,
-          "french": "вы говорите по-английски",
-          "english": "do you speak English"
+          "french": "тринадцать",
+          "english": "thirteen"
         }
       ]
     },
@@ -530,68 +530,68 @@
       "words": [
         {
           "id": 1,
+          "french": "вчера",
+          "english": "yesterday"
+        },
+        {
+          "id": 2,
           "french": "до завтра",
           "english": "see you tomorrow"
         },
         {
-          "id": 2,
+          "id": 3,
           "french": "рабочий день",
           "english": "workday"
         },
         {
-          "id": 3,
+          "id": 4,
           "french": "рабочее время",
           "english": "working hours"
         },
         {
-          "id": 4,
+          "id": 5,
           "french": "полный день",
           "english": "full time"
         },
         {
-          "id": 5,
+          "id": 6,
           "french": "неполный день",
           "english": "part time"
         },
         {
-          "id": 6,
+          "id": 7,
           "french": "время",
           "english": "time"
         },
         {
-          "id": 7,
+          "id": 8,
           "french": "час",
           "english": "hour"
         },
         {
-          "id": 8,
+          "id": 9,
           "french": "день",
           "english": "day"
         },
         {
-          "id": 9,
+          "id": 10,
           "french": "неделя",
           "english": "week"
         },
         {
-          "id": 10,
+          "id": 11,
           "french": "месяц",
           "english": "month"
         },
         {
-          "id": 11,
+          "id": 12,
           "french": "год",
           "english": "year"
         },
         {
-          "id": 12,
+          "id": 13,
           "french": "сегодня",
           "english": "today"
-        },
-        {
-          "id": 13,
-          "french": "вчера",
-          "english": "yesterday"
         },
         {
           "id": 14,
@@ -640,78 +640,78 @@
       "words": [
         {
           "id": 1,
-          "french": "врач",
-          "english": "doctor"
-        },
-        {
-          "id": 2,
-          "french": "голова",
-          "english": "head"
-        },
-        {
-          "id": 3,
-          "french": "глаз",
-          "english": "eye"
-        },
-        {
-          "id": 4,
-          "french": "рука",
-          "english": "arm / hand"
-        },
-        {
-          "id": 5,
-          "french": "сердце",
-          "english": "heart"
-        },
-        {
-          "id": 6,
-          "french": "боль",
-          "english": "pain"
-        },
-        {
-          "id": 7,
-          "french": "здоровье",
-          "english": "health"
-        },
-        {
-          "id": 8,
-          "french": "больница",
-          "english": "hospital"
-        },
-        {
-          "id": 9,
           "french": "у меня болит голова",
           "english": "I have a headache"
         },
         {
+          "id": 2,
+          "french": "врач",
+          "english": "doctor"
+        },
+        {
+          "id": 3,
+          "french": "голова",
+          "english": "head"
+        },
+        {
+          "id": 4,
+          "french": "глаз",
+          "english": "eye"
+        },
+        {
+          "id": 5,
+          "french": "рука",
+          "english": "arm / hand"
+        },
+        {
+          "id": 6,
+          "french": "сердце",
+          "english": "heart"
+        },
+        {
+          "id": 7,
+          "french": "боль",
+          "english": "pain"
+        },
+        {
+          "id": 8,
+          "french": "здоровье",
+          "english": "health"
+        },
+        {
+          "id": 9,
+          "french": "больница",
+          "english": "hospital"
+        },
+        {
           "id": 10,
-          "french": "меня зовут",
-          "english": "my name is"
+          "french": "тридцать",
+          "english": "thirty"
         },
         {
           "id": 11,
-          "french": "как дела",
-          "english": "how are you"
+          "french": "тридцать четыре",
+          "english": "thirty four"
         },
         {
           "id": 12,
-          "french": "все хорошо",
-          "english": "everything is fine"
+          "french": "тридцать пять",
+          "english": "thirty five"
         },
         {
           "id": 13,
-          "french": "приятно познакомиться",
-          "english": "nice to meet you"
+          "french": "тридцать шесть",
+          "english": "thirty six"
         },
         {
           "id": 14,
-          "french": "откуда вы",
-          "english": "where are you from"
+          "french": "тридцать семь",
+          "english": "thirty seven"
         },
         {
           "id": 15,
-          "french": "я забыл",
-          "english": "I forgot"
+          "french": "тридцать восемь",
+          "english": "thirty eight"
         }
       ]
     },
@@ -735,58 +735,58 @@
       "words": [
         {
           "id": 1,
+          "french": "билет в одну сторону",
+          "english": "one-way ticket"
+        },
+        {
+          "id": 2,
           "french": "путешествие",
           "english": "travel"
         },
         {
-          "id": 2,
+          "id": 3,
           "french": "дорога",
           "english": "road"
         },
         {
-          "id": 3,
+          "id": 4,
           "french": "город",
           "english": "city"
         },
         {
-          "id": 4,
+          "id": 5,
           "french": "аэропорт",
           "english": "airport"
         },
         {
-          "id": 5,
+          "id": 6,
           "french": "билет",
           "english": "ticket"
         },
         {
-          "id": 6,
+          "id": 7,
           "french": "поезд",
           "english": "train"
         },
         {
-          "id": 7,
+          "id": 8,
           "french": "автобус",
           "english": "bus"
         },
         {
-          "id": 8,
+          "id": 9,
           "french": "отель",
           "english": "hotel"
         },
         {
-          "id": 9,
+          "id": 10,
           "french": "карта",
           "english": "map"
         },
         {
-          "id": 10,
+          "id": 11,
           "french": "касса",
           "english": "ticket office"
-        },
-        {
-          "id": 11,
-          "french": "билет в одну сторону",
-          "english": "one-way ticket"
         },
         {
           "id": 12,
@@ -795,18 +795,18 @@
         },
         {
           "id": 13,
-          "french": "мне нужна помощь",
-          "english": "I need help"
+          "french": "тридцать девять",
+          "english": "thirty nine"
         },
         {
           "id": 14,
-          "french": "удачи",
-          "english": "good luck"
+          "french": "третий",
+          "english": "third"
         },
         {
           "id": 15,
-          "french": "поздравляю",
-          "english": "congratulations"
+          "french": "курица",
+          "english": "chicken"
         }
       ]
     },
@@ -835,73 +835,73 @@
         },
         {
           "id": 2,
-          "french": "офис",
-          "english": "office"
-        },
-        {
-          "id": 3,
-          "french": "компания",
-          "english": "company"
-        },
-        {
-          "id": 4,
           "french": "учиться",
           "english": "to study / learn"
         },
         {
+          "id": 3,
+          "french": "офис",
+          "english": "office"
+        },
+        {
+          "id": 4,
+          "french": "компания",
+          "english": "company"
+        },
+        {
           "id": 5,
-          "french": "приятного аппетита",
-          "english": "enjoy your meal"
+          "french": "я хочу пить",
+          "english": "I am thirsty"
         },
         {
           "id": 6,
-          "french": "берегите себя",
-          "english": "take care"
+          "french": "это недалеко",
+          "english": "it is not far"
         },
         {
           "id": 7,
-          "french": "счастливого пути",
-          "english": "have a good trip"
+          "french": "знание",
+          "english": "knowledge"
         },
         {
           "id": 8,
-          "french": "я согласен",
-          "english": "I agree"
+          "french": "нос",
+          "english": "nose"
         },
         {
           "id": 9,
-          "french": "я не согласен",
-          "english": "I disagree"
+          "french": "бедро",
+          "english": "thigh"
         },
         {
           "id": 10,
-          "french": "мне нравится",
-          "english": "I like it"
+          "french": "ноябрь",
+          "english": "November"
         },
         {
           "id": 11,
-          "french": "очень хорошо",
-          "english": "very good"
+          "french": "смотреть",
+          "english": "to watch / look"
         },
         {
           "id": 12,
-          "french": "очень плохо",
-          "english": "very bad"
+          "french": "знать",
+          "english": "to know"
         },
         {
           "id": 13,
-          "french": "не важно",
-          "english": "it does not matter"
+          "french": "думать",
+          "english": "to think"
         },
         {
           "id": 14,
-          "french": "подождите минуту",
-          "english": "wait a minute"
+          "french": "готовить",
+          "english": "to cook"
         },
         {
           "id": 15,
-          "french": "не спешите",
-          "english": "do not hurry"
+          "french": "высокий",
+          "english": "high / tall"
         }
       ]
     },
@@ -930,73 +930,73 @@
         },
         {
           "id": 2,
-          "french": "ответьте, пожалуйста",
-          "english": "please answer"
+          "french": "бесплатный",
+          "english": "free (no cost)"
         },
         {
           "id": 3,
-          "french": "сейчас",
-          "english": "right now"
+          "french": "увидимся",
+          "english": "see you"
         },
         {
           "id": 4,
-          "french": "позже",
-          "english": "later"
+          "french": "до встречи",
+          "english": "see you later"
         },
         {
           "id": 5,
-          "french": "уже",
-          "english": "already"
+          "french": "я понимаю",
+          "english": "I understand"
         },
         {
           "id": 6,
-          "french": "еще нет",
-          "english": "not yet"
+          "french": "вы говорите по-русски",
+          "english": "do you speak Russian"
         },
         {
           "id": 7,
-          "french": "это верно",
-          "english": "that is correct"
+          "french": "вы говорите по-английски",
+          "english": "do you speak English"
         },
         {
           "id": 8,
-          "french": "это неверно",
-          "english": "that is incorrect"
+          "french": "меня зовут",
+          "english": "my name is"
         },
         {
           "id": 9,
-          "french": "возможно",
-          "english": "possible / perhaps"
+          "french": "как дела",
+          "english": "how are you"
         },
         {
           "id": 10,
-          "french": "родители",
-          "english": "parents"
+          "french": "приятно познакомиться",
+          "english": "nice to meet you"
         },
         {
           "id": 11,
-          "french": "мама",
-          "english": "mom"
+          "french": "откуда вы",
+          "english": "where are you from"
         },
         {
           "id": 12,
-          "french": "папа",
-          "english": "dad"
+          "french": "я забыл",
+          "english": "I forgot"
         },
         {
           "id": 13,
-          "french": "сын",
-          "english": "son"
+          "french": "мне нужна помощь",
+          "english": "I need help"
         },
         {
           "id": 14,
-          "french": "дочь",
-          "english": "daughter"
+          "french": "приятного аппетита",
+          "english": "enjoy your meal"
         },
         {
           "id": 15,
-          "french": "малыш",
-          "english": "baby"
+          "french": "я согласен",
+          "english": "I agree"
         }
       ]
     },
@@ -1020,78 +1020,78 @@
       "words": [
         {
           "id": 1,
+          "french": "счастливого пути",
+          "english": "have a good trip"
+        },
+        {
+          "id": 2,
           "french": "хотеть",
           "english": "to want"
         },
         {
-          "id": 2,
+          "id": 3,
           "french": "любить",
           "english": "to love"
         },
         {
-          "id": 3,
+          "id": 4,
           "french": "злиться",
           "english": "to get angry"
         },
         {
-          "id": 4,
+          "id": 5,
+          "french": "удачи",
+          "english": "good luck"
+        },
+        {
+          "id": 6,
+          "french": "очень хорошо",
+          "english": "very good"
+        },
+        {
+          "id": 7,
+          "french": "очень плохо",
+          "english": "very bad"
+        },
+        {
+          "id": 8,
           "french": "счастливый",
           "english": "happy"
         },
         {
-          "id": 5,
+          "id": 9,
           "french": "грустный",
           "english": "sad"
         },
         {
-          "id": 6,
+          "id": 10,
           "french": "злой",
           "english": "angry"
         },
         {
-          "id": 7,
+          "id": 11,
           "french": "уставший",
           "english": "tired"
         },
         {
-          "id": 8,
-          "french": "внук",
-          "english": "grandson"
-        },
-        {
-          "id": 9,
-          "french": "внучка",
-          "english": "granddaughter"
-        },
-        {
-          "id": 10,
-          "french": "супруг",
-          "english": "spouse (male)"
-        },
-        {
-          "id": 11,
-          "french": "супруга",
-          "english": "spouse (female)"
-        },
-        {
           "id": 12,
-          "french": "родственник",
-          "english": "relative"
+          "french": "я не согласен",
+          "english": "I disagree"
         },
         {
           "id": 13,
-          "french": "дядя",
-          "english": "uncle"
+          "french": "мне нравится",
+          "english": "I like it"
         },
         {
           "id": 14,
-          "french": "тетя",
-          "english": "aunt"
+          "french": "я сыт",
+          "english": "I am full"
         },
         {
           "id": 15,
-          "french": "двоюродный брат",
-          "english": "cousin (male)"
+          "french": "я голоден",
+          "english": "I am hungry"
         }
       ]
     },
@@ -1115,93 +1115,83 @@
       "words": [
         {
           "id": 1,
-          "french": "идите прямо",
-          "english": "go straight"
-        },
-        {
-          "id": 2,
           "french": "отвезите меня сюда",
           "english": "take me here"
         },
         {
+          "id": 2,
+          "french": "берегите себя",
+          "english": "take care"
+        },
+        {
           "id": 3,
-          "french": "цель",
-          "english": "goal"
+          "french": "идите прямо",
+          "english": "go straight"
         },
         {
           "id": 4,
-          "french": "знание",
-          "english": "knowledge"
-        },
-        {
-          "id": 5,
-          "french": "документ",
-          "english": "document"
-        },
-        {
-          "id": 6,
           "french": "идти",
           "english": "to go (on foot)"
         },
         {
-          "id": 7,
+          "id": 5,
           "french": "ходить",
           "english": "to walk / go regularly"
         },
         {
-          "id": 8,
+          "id": 6,
           "french": "ехать",
           "english": "to go by transport"
         },
         {
-          "id": 9,
+          "id": 7,
           "french": "приходить",
           "english": "to come"
         },
         {
-          "id": 10,
-          "french": "лежать",
-          "english": "to lie down"
-        },
-        {
-          "id": 11,
+          "id": 8,
           "french": "делать",
           "english": "to do"
         },
         {
-          "id": 12,
+          "id": 9,
           "french": "сделать",
           "english": "to make / to do (perfective)"
         },
         {
-          "id": 13,
+          "id": 10,
           "french": "сказать",
           "english": "to say"
         },
         {
-          "id": 14,
+          "id": 11,
           "french": "видеть",
           "english": "to see"
         },
         {
-          "id": 15,
-          "french": "знать",
-          "english": "to know"
-        },
-        {
-          "id": 16,
+          "id": 12,
           "french": "брать",
           "english": "to take"
         },
         {
-          "id": 17,
+          "id": 13,
           "french": "давать",
           "english": "to give"
         },
         {
-          "id": 18,
-          "french": "думать",
-          "english": "to think"
+          "id": 14,
+          "french": "лежать",
+          "english": "to lie down"
+        },
+        {
+          "id": 15,
+          "french": "цель",
+          "english": "goal"
+        },
+        {
+          "id": 16,
+          "french": "документ",
+          "english": "document"
         }
       ]
     }

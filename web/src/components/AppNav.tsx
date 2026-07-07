@@ -6,6 +6,7 @@ import {
   getTrackFromPath,
   isHomePath,
   kazakhSubPath,
+  koreanSubPath,
   quranSubPath,
   russianSubPath,
   trackPath,
@@ -15,6 +16,7 @@ import type { LearningTrack } from '@shared/types';
 function subPathForLanguage(path: string, track: LearningTrack): string {
   if (track === 'kazakh') return kazakhSubPath(path);
   if (track === 'russian') return russianSubPath(path);
+  if (track === 'korean') return koreanSubPath(path);
   return frenchSubPath(path);
 }
 

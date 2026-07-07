@@ -2798,8 +2798,17 @@ body.game-active .app-shell {
   border-left: 4px solid var(--learn-sky);
 }
 
+.track-korean {
+  border-left: 4px solid var(--learn-rose);
+}
+
 .track-quran {
   border-left: 4px solid var(--quran-accent);
+}
+
+.app-shell--korean .nav-link.active {
+  background: var(--learn-rose-soft);
+  color: var(--learn-rose);
 }
 
 .app-shell--kazakh .nav-link.active {

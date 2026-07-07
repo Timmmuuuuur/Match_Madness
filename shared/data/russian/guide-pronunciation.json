@@ -1,33 +1,157 @@
 {
   "meta": {
     "title": "Sounds",
-    "subtitle": "Russian vowels, consonants, stress, and soft/hard pairs.",
+    "subtitle": "Russian vowel reduction, consonant softening, stress, and the Cyrillic alphabet.",
     "accent": "sky"
   },
   "sections": [
     {
       "id": "alphabet",
       "number": 1,
-      "title": "Alphabet essentials",
+      "title": "Cyrillic alphabet",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Russian has 33 letters. Stress is unpredictable — always learn nouns with stress marked. Soft sign <strong>ь</strong> and hard sign <strong>ъ</strong> change pronunciation."
+          "text": "Russian has 33 letters — 10 vowels, 21 consonants, and 2 signs (ь ъ). Most letters are consistent, but stress (which syllable is strong) is unpredictable and must be memorised."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Letter",
+            "Name",
+            "Sounds like"
+          ],
+          "rows": [
+            [
+              "А а",
+              "a",
+              "\"a\" in \"father\""
+            ],
+            [
+              "Е е",
+              "ye",
+              "\"ye\" in \"yet\" (stressed) or \"i\" (unstressed)"
+            ],
+            [
+              "Ё ё",
+              "yo",
+              "\"yo\" in \"yoke\" — always stressed"
+            ],
+            [
+              "И и",
+              "i",
+              "\"ee\" in \"see\""
+            ],
+            [
+              "О о",
+              "o",
+              "\"o\" in \"note\" (stressed) or \"a\" (unstressed)"
+            ],
+            [
+              "У у",
+              "u",
+              "\"oo\" in \"boot\""
+            ],
+            [
+              "Ы ы",
+              "y",
+              "no English equivalent — between \"i\" and \"u\""
+            ],
+            [
+              "Э э",
+              "e",
+              "\"e\" in \"echo\""
+            ],
+            [
+              "Ю ю",
+              "yu",
+              "\"yu\" in \"yule\""
+            ],
+            [
+              "Я я",
+              "ya",
+              "\"ya\" in \"yard\""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reduction",
+      "number": 2,
+      "title": "Vowel reduction",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Unstressed <strong>о</strong> sounds like <em>a</em>, and unstressed <strong>е/я</strong> reduce to <em>i</em>. This is called <strong>vowel reduction</strong> and is crucial for natural Russian."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Written",
+            "Pronounced",
+            "English"
+          ],
+          "rows": [
+            [
+              "молоко",
+              "malaKO",
+              "milk (stress on last о)"
+            ],
+            [
+              "хорошо",
+              "haraShO",
+              "good / fine"
+            ],
+            [
+              "говорить",
+              "gavaRIT'",
+              "to speak"
+            ],
+            [
+              "сегодня",
+              "siVODnya",
+              "today"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "soft",
+      "number": 3,
+      "title": "Hard vs soft consonants",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Most Russian consonants have a <strong>soft (palatalised)</strong> variant — pronounced with the tongue raised toward the palate. The soft sign <strong>ь</strong> marks softness. Before е, ё, и, ю, я consonants are automatically soft."
+        },
+        {
+          "type": "example",
+          "fr": "брат (brother) vs брать (to take)",
+          "en": "Hard т vs soft тЬ — one letter changes the meaning completely."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Practice pairs: мат/мать, брат/брать, ест/есть. The soft sign changes both pronunciation and meaning."
         }
       ]
     },
     {
       "id": "tips",
-      "number": 2,
+      "number": 4,
       "title": "Pronunciation tips",
       "blocks": [
         {
           "type": "list",
           "items": [
-            "Reduce unstressed <em>o</em> and <em>a</em> (e.g. молоко → malako)",
-            "Practice soft л vs hard л",
-            "Palatalized consonants before е, ё, и, ю, я",
-            "Use 🔊 on every word in Vocab and Reading"
+            "Always mark stress when you learn a new word",
+            "Reduce unstressed о → а, е/я → и",
+            "Roll the р (trilled r) — practice with \"trр-р-р\"",
+            "Щ sounds like an extended \"shsh\" (like English \"fresh cheese\" run together)",
+            "Х is like the \"ch\" in Scottish \"loch\" — a throaty sound",
+            "Use 🔊 on every word to build listening intuition"
           ]
         }
       ]

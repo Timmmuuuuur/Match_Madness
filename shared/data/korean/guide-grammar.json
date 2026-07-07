@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "title": "Grammar",
+    "subtitle": "Korean honorifics, sentence structure, particles, and verb endings — with English notes.",
+    "accent": "rose"
+  },
+  "sections": [
+    {
+      "id": "intro",
+      "number": 1,
+      "title": "Overview",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Korean is an agglutinative language with <strong>Subject–Object–Verb</strong> word order. Verbs always come last. Korean has an extensive <strong>honorific system</strong> — speech level changes depending on who you talk to."
+        },
+        {
+          "type": "callout",
+          "variant": "compare-en",
+          "text": "🇬🇧 English: I eat rice. Korean: 저는 밥을 먹어요 (I-topic rice-object eat-polite). Particles attached to nouns show their grammatical role."
+        }
+      ]
+    },
+    {
+      "id": "particles",
+      "number": 2,
+      "title": "Key particles",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": [
+            "Particle",
+            "After consonant",
+            "After vowel",
+            "Use"
+          ],
+          "rows": [
+            [
+              "Topic",
+              "은",
+              "는",
+              "marks the topic / contrast"
+            ],
+            [
+              "Subject",
+              "이",
+              "가",
+              "marks the subject"
+            ],
+            [
+              "Object",
+              "을",
+              "를",
+              "marks the direct object"
+            ],
+            [
+              "Location",
+              "에",
+              "에",
+              "at / in / to (direction)"
+            ],
+            [
+              "With",
+              "과",
+              "와",
+              "and / with"
+            ],
+            [
+              "From",
+              "에서",
+              "에서",
+              "from / at (action location)"
+            ]
+          ]
+        },
+        {
+          "type": "example",
+          "fr": "저는 학생이에요.",
+          "en": "I am a student. (저=I, 는=topic, 학생=student, 이에요=am)"
+        }
+      ]
+    },
+    {
+      "id": "pronouns",
+      "number": 3,
+      "title": "Personal pronouns",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": [
+            "Korean",
+            "English",
+            "Register"
+          ],
+          "rows": [
+            [
+              "저",
+              "I",
+              "formal/humble"
+            ],
+            [
+              "나",
+              "I",
+              "informal"
+            ],
+            [
+              "당신",
+              "you",
+              "formal (rarely used)"
+            ],
+            [
+              "씨 (name+씨)",
+              "you",
+              "polite (use name)"
+            ],
+            [
+              "그/그녀",
+              "he/she",
+              "mostly in writing"
+            ],
+            [
+              "우리",
+              "we / our",
+              "very common (e.g. 우리 집 = my house)"
+            ],
+            [
+              "그들",
+              "they",
+              "formal/literary"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "In Korean conversation, subject pronouns are usually dropped. Koreans often use \"우리\" (we/our) even for personal things: 우리 엄마 = \"my mum\"."
+        }
+      ]
+    },
+    {
+      "id": "speech_levels",
+      "number": 4,
+      "title": "Speech levels",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Korean has multiple speech levels. Beginners should focus on two:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Level",
+            "Verb ending",
+            "Use"
+          ],
+          "rows": [
+            [
+              "Polite informal (해요체)",
+              "-아요 / -어요",
+              "everyday polite speech with strangers and adults"
+            ],
+            [
+              "Formal polite (합쇼체)",
+              "-(스)ㅂ니다",
+              "business, presentations, formal situations"
+            ],
+            [
+              "Casual (반말)",
+              "-아 / -어",
+              "close friends, younger people (use carefully!)"
+            ]
+          ]
+        },
+        {
+          "type": "example",
+          "fr": "먹어요 → 먹습니다 → 먹어",
+          "en": "eat (polite) → eat (formal) → eat (casual)"
+        }
+      ]
+    },
+    {
+      "id": "verbs",
+      "number": 5,
+      "title": "Verb conjugation basics",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Korean verb stems are found by removing <strong>-다</strong> from the dictionary form. Add <strong>-아요</strong> after stems ending in ㅏ/ㅗ, otherwise <strong>-어요</strong>."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Infinitive",
+            "Stem",
+            "Polite present",
+            "English"
+          ],
+          "rows": [
+            [
+              "가다",
+              "가",
+              "가요",
+              "to go"
+            ],
+            [
+              "먹다",
+              "먹",
+              "먹어요",
+              "to eat"
+            ],
+            [
+              "마시다",
+              "마시",
+              "마셔요",
+              "to drink"
+            ],
+            [
+              "공부하다",
+              "공부하",
+              "공부해요",
+              "to study"
+            ],
+            [
+              "있다",
+              "있",
+              "있어요",
+              "to exist / to have"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "questions",
+      "number": 6,
+      "title": "Questions & negation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Questions in polite speech end with <strong>-요?</strong> (rising intonation). Question words: 누구 (who), 무엇/뭐 (what), 어디 (where), 언제 (when), 왜 (why), 어떻게 (how), 얼마 (how much)."
+        },
+        {
+          "type": "example",
+          "fr": "한국어를 배워요?",
+          "en": "Are you learning Korean?"
+        },
+        {
+          "type": "example",
+          "fr": "저는 한국어를 못 해요.",
+          "en": "I cannot speak Korean well."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "text": "Two negation patterns: <strong>안 + verb</strong> (simple \"not\") and <strong>verb stem + 지 않아요</strong> (emphatic \"not\"). 안 가요 = 가지 않아요 (I don't go)."
+        }
+      ]
+    }
+  ]
+}

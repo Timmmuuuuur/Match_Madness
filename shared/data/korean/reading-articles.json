@@ -1,0 +1,223 @@
+{
+  "meta": {
+    "title": "Reading",
+    "subtitle": "Graded Korean texts with English side by side — hover highlighted words for pronunciation."
+  },
+  "articles": [
+    {
+      "id": 1,
+      "title": "서울에서 하루",
+      "subtitle": "A Day in Seoul",
+      "level": "A2",
+      "topic": "Travel & City",
+      "paragraphs": [
+        {
+          "french": "토요일 아침에 저는 경복궁에 갔어요. 날씨가 맑고 따뜻했어요. 궁궐은 정말 아름다웠어요.",
+          "english": "On Saturday morning I went to Gyeongbokgung Palace. The weather was clear and warm. The palace was truly beautiful."
+        },
+        {
+          "french": "점심에는 근처 식당에서 비빔밥을 먹었어요. 음식이 신선하고 맛있었어요. 가격도 저렴해서 좋았어요.",
+          "english": "For lunch I ate bibimbap at a nearby restaurant. The food was fresh and delicious. The price was also affordable, which was nice."
+        },
+        {
+          "french": "저녁에는 친구들을 만났어요. 우리는 한강 공원에서 산책했어요. 서울의 야경이 정말 멋있었어요.",
+          "english": "In the evening I met my friends. We walked in Han River Park. The night view of Seoul was truly stunning."
+        }
+      ],
+      "vocab": [
+        {
+          "fr": "경복궁",
+          "en": "Gyeongbokgung Palace"
+        },
+        {
+          "fr": "비빔밥",
+          "en": "bibimbap (mixed rice dish)"
+        },
+        {
+          "fr": "신선하다",
+          "en": "to be fresh"
+        },
+        {
+          "fr": "저렴하다",
+          "en": "to be affordable/cheap"
+        },
+        {
+          "fr": "야경",
+          "en": "night view"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "우리 가족",
+      "subtitle": "My Family",
+      "level": "A1",
+      "topic": "Family & Home",
+      "paragraphs": [
+        {
+          "french": "저는 네 명의 가족이 있어요. 아버지, 어머니, 언니, 그리고 저예요. 우리는 부산에서 살아요.",
+          "english": "I have a family of four. Father, mother, older sister, and me. We live in Busan."
+        },
+        {
+          "french": "아버지는 회사에서 일해요. 어머니는 선생님이에요. 언니는 대학교에 다녀요. 저는 고등학교 학생이에요.",
+          "english": "My father works at a company. My mother is a teacher. My older sister goes to university. I am a high school student."
+        },
+        {
+          "french": "저녁마다 우리 가족은 함께 식사해요. 어머니가 요리해 주시고 우리는 그날 있었던 일을 이야기해요. 이 시간이 제가 가장 좋아하는 시간이에요.",
+          "english": "Every evening our family eats together. Mother cooks for us and we talk about what happened that day. This is my favourite time of day."
+        }
+      ],
+      "vocab": [
+        {
+          "fr": "가족",
+          "en": "family"
+        },
+        {
+          "fr": "아버지",
+          "en": "father"
+        },
+        {
+          "fr": "어머니",
+          "en": "mother"
+        },
+        {
+          "fr": "언니",
+          "en": "older sister (female speaker)"
+        },
+        {
+          "fr": "식사",
+          "en": "meal"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "한국 음식 문화",
+      "subtitle": "Korean Food Culture",
+      "level": "A2",
+      "topic": "Food & Culture",
+      "paragraphs": [
+        {
+          "french": "한국 음식은 세계적으로 유명해요. 특히 김치, 불고기, 삼겹살이 인기 있어요. 한국인들은 매운 음식을 많이 먹어요.",
+          "english": "Korean food is famous worldwide. Kimchi, bulgogi, and samgyeopsal are especially popular. Koreans eat a lot of spicy food."
+        },
+        {
+          "french": "식사할 때 한국인들은 밥과 여러 가지 반찬을 함께 먹어요. 반찬은 작은 접시에 담겨 나와요. 국물 요리도 중요한 부분이에요.",
+          "english": "When eating, Koreans eat rice together with various side dishes. Side dishes come on small plates. Soup dishes are also an important part."
+        },
+        {
+          "french": "한국에서는 식사 전에 \"잘 먹겠습니다\"라고 말해요. 식사 후에는 \"잘 먹었습니다\"라고 해요. 이것은 음식과 요리한 사람에 대한 감사를 나타내요.",
+          "english": "In Korea you say \"jal meokgesseumnida\" before a meal. After eating you say \"jal meogeosseumnida\". This expresses gratitude for the food and the person who cooked it."
+        }
+      ],
+      "vocab": [
+        {
+          "fr": "김치",
+          "en": "kimchi (fermented cabbage)"
+        },
+        {
+          "fr": "불고기",
+          "en": "bulgogi (marinated beef)"
+        },
+        {
+          "fr": "반찬",
+          "en": "side dishes"
+        },
+        {
+          "fr": "매운",
+          "en": "spicy"
+        },
+        {
+          "fr": "감사",
+          "en": "gratitude"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "K-팝과 한류",
+      "subtitle": "K-pop and the Korean Wave",
+      "level": "B1",
+      "topic": "Culture",
+      "paragraphs": [
+        {
+          "french": "K-팝은 전 세계에서 엄청난 인기를 얻고 있어요. BTS, BLACKPINK 같은 그룹들이 세계 음악 차트에서 1위를 차지했어요.",
+          "english": "K-pop is gaining enormous popularity worldwide. Groups like BTS and BLACKPINK have topped global music charts."
+        },
+        {
+          "french": "한류는 음악뿐만 아니라 드라마, 영화, 음식, 패션까지 포함해요. 특히 넷플릭스에서 한국 드라마가 많이 시청되고 있어요.",
+          "english": "The Korean Wave includes not only music but also dramas, films, food and fashion. Korean dramas are particularly widely watched on Netflix."
+        },
+        {
+          "french": "많은 외국인들이 K-팝 때문에 한국어를 배우기 시작했어요. 한국 문화에 관심을 갖는 사람들이 점점 늘고 있어요. 이것은 한국에 매우 좋은 현상이에요.",
+          "english": "Many foreigners have started learning Korean because of K-pop. More and more people are showing interest in Korean culture. This is a very positive phenomenon for Korea."
+        }
+      ],
+      "vocab": [
+        {
+          "fr": "한류",
+          "en": "Korean Wave"
+        },
+        {
+          "fr": "차트",
+          "en": "chart"
+        },
+        {
+          "fr": "드라마",
+          "en": "TV drama"
+        },
+        {
+          "fr": "패션",
+          "en": "fashion"
+        },
+        {
+          "fr": "현상",
+          "en": "phenomenon"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "대중교통 이용하기",
+      "subtitle": "Using Public Transport",
+      "level": "A2",
+      "topic": "Travel",
+      "paragraphs": [
+        {
+          "french": "서울의 대중교통은 매우 편리해요. 지하철, 버스, 택시가 잘 연결되어 있어요. 교통카드 하나로 모든 교통수단을 이용할 수 있어요.",
+          "english": "Public transport in Seoul is very convenient. The subway, buses and taxis are well connected. You can use all transport with just one transit card."
+        },
+        {
+          "french": "지하철역에는 영어 안내도 있어요. 그래서 외국인도 쉽게 이용할 수 있어요. 지하철은 보통 정시에 출발하고 도착해요.",
+          "english": "Subway stations also have English signage. So foreigners can use them easily too. Subways usually depart and arrive on time."
+        },
+        {
+          "french": "버스는 지하철보다 더 많은 곳에 갈 수 있어요. 하지만 교통 체증이 있을 때는 시간이 더 걸려요. 그래서 급할 때는 지하철이 더 좋아요.",
+          "english": "Buses can reach more places than the subway. But when there is traffic congestion it takes more time. So when you are in a hurry the subway is better."
+        }
+      ],
+      "vocab": [
+        {
+          "fr": "대중교통",
+          "en": "public transport"
+        },
+        {
+          "fr": "교통카드",
+          "en": "transit card"
+        },
+        {
+          "fr": "지하철역",
+          "en": "subway station"
+        },
+        {
+          "fr": "정시",
+          "en": "on time"
+        },
+        {
+          "fr": "교통 체증",
+          "en": "traffic congestion"
+        }
+      ]
+    }
+  ]
+}
