@@ -113,14 +113,6 @@ export function pairToTiles(pair: WordPair, direction: Direction): { left: TileD
   };
 }
 
-/** Swap element at index i with a random index != i (in-place). */
-function swapWithRandom<T>(arr: T[], i: number): void {
-  if (arr.length <= 1) return;
-  let j = Math.floor(Math.random() * (arr.length - 1));
-  if (j >= i) j += 1;
-  [arr[i], arr[j]] = [arr[j], arr[i]];
-}
-
 export function replacePairOnBoard(
   pairId: number,
   newPair: WordPair,
@@ -131,19 +123,6 @@ export function replacePairOnBoard(
   const { left, right } = pairToTiles(newPair, direction);
   const newLeft = leftTiles.map((t) => (t.pairId === pairId ? left : t));
   const newRight = rightTiles.map((t) => (t.pairId === pairId ? right : t));
-
-  // Randomly reposition each new tile independently so they never land on the same row.
-  const leftIdx = newLeft.findIndex((t) => t.pairId === newPair.id);
-  const rightIdx = newRight.findIndex((t) => t.pairId === newPair.id);
-  if (leftIdx !== -1) swapWithRandom(newLeft, leftIdx);
-  if (rightIdx !== -1) swapWithRandom(newRight, rightIdx);
-  // Ensure left and right new positions are different rows (retry once if they collide).
-  const finalLeft = newLeft.findIndex((t) => t.pairId === newPair.id);
-  const finalRight = newRight.findIndex((t) => t.pairId === newPair.id);
-  if (finalLeft === finalRight && newRight.length > 1) {
-    swapWithRandom(newRight, finalRight);
-  }
-
   const tileMap = new Map<string, TileData>([...newLeft, ...newRight].map((t) => [t.id, t]));
   return { leftTiles: newLeft, rightTiles: newRight, tileMap };
 }
